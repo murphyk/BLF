@@ -1,4 +1,4 @@
-# Forecasting Workflow (v6)
+# Forecasting Workflow
 
 End-to-end pipeline for the agentic forecaster.
 Supports backtesting on
@@ -97,6 +97,28 @@ set in `config.py`, the meta-controller, data-fetching tools for
 `yfinance`/`fred`/`dbnomics`, or prompt scaffolding that differs by
 `Qsource`/`FBQtype`). Covers every tool path in a single run.
 
+## Post-prediction sanity check
+
+`test_smoke.py` validates the forecast JSONs produced by *any* xid
+(not just the smoke ones) without running the eval pipeline:
+
+```bash
+python3 src/testing/test_smoke.py --xid my-xid --verbose
+```
+
+It checks that:
+- every config produced forecasts for every question;
+- probabilities are in range (0.01–0.99);
+- submit rate is acceptable per config type;
+- no unauthorized tool calls (configs with `tools=0` didn't call source
+  tools, configs with `search=none` didn't call `web_search`);
+- forecasts aren't all stuck at 0.5 (model actually engaged);
+- Brier Index is above chance on average.
+
+Hallucinated tool calls (model invokes a tool not in the schema) surface
+as **warnings** — the agent loop rejects them and retries, so they
+indicate model-quality issues rather than bugs.
+
 ---
 
 # Pipeline
@@ -122,27 +144,26 @@ All questions are written to `data/questions/{source}/{id}.json`.
 
 ## 2. Tag questions (optional)
 
-Classify questions into categories for analysis in eval plots:
+Classify questions into topical categories for analysis in eval plots:
 
 ```bash
-python3 src/data/classify_questions.py --version kevin     # just kevin's categories
-python3 src/data/classify_questions.py --version all    # all label types
-python3 src/data/classify_questions.py --source aibq2    # specific sources
+python3 src/data/classify_questions.py --version kevin
+python3 src/data/classify_questions.py --source aibq2
 ```
 
 Tags are written to `data/tags_{version}/{source}/{id}.json`.
 
-In addition to LLM-classified tags, the system supports **virtual tag spaces**
-derived from question metadata (see `src/config/tags.py`):
+The system also exposes **virtual tag spaces** derived automatically from
+question metadata (no classification step needed). These drive the
+`groups` field on an xid and the `group_by` argument to calibrate
+(see `src/config/tags.py`):
 
 | Tag space | Values | Use |
 |---|---|---|
-| `Qsource` | polymarket, fred, etc. | Per-source analysis |
+| `Qsource` | polymarket, fred, etc. | Per-source analysis + default calibration grouping |
 | `FBQtype` | market, dataset | ForecastBench-style grouping |
-| `Qtype` | timeseries, wikipedia, acled, market | Policy dispatch |
+| `Qtype` | timeseries, wikipedia, acled, market | Per-type policy dispatch in `predict.py` |
 | `Atype` | binary-single, binary-multi | Answer format |
-| `xinghua` | 15 LLM-classified categories | Fine-grained topic analysis |
-| `ben` | 9 LLM-classified categories | Coarser topic analysis |
 
 ## 3. Create exams {#create-exams}
 
@@ -234,11 +255,8 @@ Points above the diagonal have longer horizons. Color indicates outcome.
 
 **Source × category heatmap** (`tag_{version}_distribution.png`):
 Shows how questions are distributed across sources and categories.
-Requires LLM-classified tags (run `classify_questions.py` first).
-
-![tag distribution example](../data/exams/tranche-a/tag_xinghua_distribution.png)
-
-*Example: tranche-a. Polymarket dominates AI/crypto; manifold is more diverse.*
+Auto-generated when LLM-classified tags are present
+(run `classify_questions.py --version {version}` first).
 
 ## 4. Configure the agent {#configure-agent}
 
@@ -390,7 +408,7 @@ Create as `experiments/xids/{name}.json`.
 | `config` | List of config names (hyphenated directory names) |
 | `metrics` | List of metrics (default: `["brier-index", "adjusted-brier-index", "metaculus-score"]`) |
 | `groups` | List of tag spaces for grouping (default: `["FBQtype"]`) |
-| `manual_reference` | List of hard-coded reference scores to display on leaderboard/plots (e.g. `["sota", "benrich"]`). Point estimates only — defined in `eval.py:REFERENCE_SCORES`. |
+| `manual_reference` | List of hard-coded reference scores to display on leaderboard/plots (e.g. `["sota"]`). Point estimates only — defined in `eval.py:REFERENCE_SCORES`. |
 | `fb_reference` | List of ForecastBench method keys to auto-import and include in eval (e.g. `["external.Google DeepMind.2"]`). Use `fb_leaderboard.py --xid ...` to discover available method keys. Data is cached locally; delete `data/fb_cache/forecastbench-processed-forecast-sets/` to refresh. |
 
 **`groups`** controls two things:
@@ -403,8 +421,8 @@ Create as `experiments/xids/{name}.json`.
 
 **`reference`** adds external baseline scores (from `REFERENCE_SCORES` in
 `eval.py`) to the leaderboard and metric plots. Available references:
-`sota`, `superhuman` (ForecastBench leaderboard), `benrich` (Gemini 3.0
-RiftRunner). References are matched by exam name prefix and metric.
+`sota`, `superhuman` (both from the ForecastBench leaderboard).
+References are matched by exam name prefix and metric.
 
 Optional overrides: `plot_groups`, `leaderboard_groups` (if you want
 different groupings for plots vs leaderboard).
@@ -460,28 +478,7 @@ outputs and synthesizes a final answer, based on
 python3 src/core/aggregate.py --xid my-xid --method llm-agg
 ```
 
-## 7. Sanity-check forecasts {#sanity-check}
-
-After prediction, run a quick sanity check on the forecast files
-before running the full evaluation pipeline:
-
-```bash
-python3 src/testing/test_smoke.py --xid xid-smoke3 --verbose
-```
-
-This reads forecast JSONs directly (no eval needed) and checks:
-- All configs produced forecasts for all questions
-- Valid probabilities (0.01–0.99)
-- Acceptable submit rate per config type
-- No unauthorized tool calls (tools=0 calling source tools, search=none calling web_search)
-- Forecasts not all 0.5 (model engaged)
-- Brier Index above chance on average
-
-Hallucinated tool calls (model calls a tool not in the schema) are
-reported as **warnings** — the agent loop rejects them and retries,
-so they indicate model quality issues rather than bugs.
-
-## 8. Evaluate experiment {#evaluate}
+## 7. Evaluate experiment {#evaluate}
 
 The full pipeline: predict → sanity-check → calibrate → evaluate:
 
@@ -489,7 +486,7 @@ The full pipeline: predict → sanity-check → calibrate → evaluate:
 # 1. Predict
 caffeinate -s python3 src/core/predict.py --xid my-xid --ntrials 5 --verbose --monitor
 
-# 2. Quick sanity check (reads forecast files directly, no eval)
+# 2. Sanity check (see Smoke tests section above)
 python3 src/testing/test_smoke.py --xid my-xid --verbose
 
 # 3. Calibrate (LOO cross-validation)
@@ -537,14 +534,17 @@ python3 src/core/eval.py --xid xid-aibq2 --add-calibration
 
 ### Metrics
 
-All metrics are computed per-question, then averaged. For binary outcomes `o ∈ {0, 1}`
-and forecast probability `p`:
+For binary outcomes `o ∈ {0, 1}` and forecast probability `p`:
 
 | Metric | Formula | Range | Interpretation |
 |---|---|---|---|
-| **Brier Score** | `BS = (p - o)²` | 0–1 | Lower is better. Always-0.5 scores 0.25. |
-| **[Brier Index](https://forecastingresearch.substack.com/p/introducing-the-brier-index)** | `BI = 1 - √BS` | 0 to 1 | Higher is better. Always-0.5 = 0.5, perfect = 1. |
-| **Metaculus Score** | `S = 100(1 + log₂(q))` where `q = p` if `o=1`, `q = 1-p` if `o=0` | -∞ to 100 | Higher is better. Always-0.5 = 0, perfect = 100. |
+| **Brier Score** | `BS_j = (p_j - o_j)²`, then mean over questions | 0–1 | Lower is better. Always-0.5 scores 0.25. |
+| **[Brier Index](https://forecastingresearch.substack.com/p/introducing-the-brier-index)** | `BI = 100 · (1 − √(mean BS))` — population-level (not a per-question mean) | 0–100 | Higher is better. Always-0.5 = 50, perfect = 100. |
+| **Metaculus Score** | `S_j = 100(1 + log₂(q_j))` where `q_j = p_j` if `o_j=1` else `1-p_j`, then mean over questions | −∞ to 100 | Higher is better. Always-0.5 = 0, perfect = 100. |
+
+Note: BI is computed on the *square-root of the mean Brier score*, not by
+averaging per-question `1 − √BS_j` values — so it is a population metric
+rather than an arithmetic mean of per-question scores.
 
 **Difficulty-adjusted metrics** (from the
 [ForecastBench methodology](https://www.forecastbench.org/assets/pdfs/forecastbench_updated_methodology.pdf)):
@@ -558,7 +558,7 @@ or estimated via alternating projections.
 The "overall" column for adjusted metrics uses **equal-weighted group means**
 (matching ForecastBench methodology).
 
-## 9. Calibrate (optional) {#calibrate}
+## 8. Calibrate (optional) {#calibrate}
 
 Platt scaling calibration adjusts forecast probabilities to be better calibrated.
 
@@ -586,7 +586,7 @@ python3 src/core/eval.py --xid my-xid --add-calibration
 diagonal indicate good calibration. Quantile-based bins ensure equal samples
 per point.*
 
-## 10. Ensemble (optional) {#ensemble}
+## 9. Ensemble (optional) {#ensemble}
 
 Greedy forward selection of up to K configs that minimize ensemble Brier
 score. At each step, the member whose addition most improves the average
