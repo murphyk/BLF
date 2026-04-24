@@ -53,6 +53,52 @@ Find the path with: `python3 -c "import certifi; print(certifi.where())"`
 
 ---
 
+# Smoke tests
+
+Two prebuilt smoke xids let you verify the install (API keys, dotenv
+loading, question data, agent loop, eval pipeline) before running a real
+experiment. Both use `flash` at `thk:high, crowd:1, tools:1` — fast, cheap,
+and exercise the full predict → eval path.
+
+## `xid-smoke-aibq2-n2` — minimal (2 questions)
+
+Two AIBQ2 questions. Fastest end-to-end check; finishes in 1–2 minutes.
+
+```bash
+python3 src/core/predict.py --xid xid-smoke-aibq2-n2 --verbose
+python3 src/core/eval.py --xid xid-smoke-aibq2-n2
+open experiments/eval/xid-smoke-aibq2-n2/leaderboard.html
+```
+
+Use when: first-time setup verification, or after a change that could
+break basic agent-loop mechanics (prompt formatting, tool dispatch,
+forecast file I/O).
+
+## `xid-smoke-tranche-a-n1each` — per-source coverage (9 questions)
+
+One question from each of the 9 ForecastBench sources: `acled`,
+`dbnomics`, `fred`, `infer`, `manifold`, `metaculus`, `polymarket`,
+`wikipedia`, `yfinance`. Exam built from
+`data/exams/tranche-a-n1each/mixture.json` with `select: {<source>: 1}`
+for each (uses the same `seed=42` as `tranche-a`, so picks the first
+question per source after shuffling).
+
+```bash
+python3 src/core/predict.py --xid xid-smoke-tranche-a-n1each --verbose
+python3 src/core/eval.py --xid xid-smoke-tranche-a-n1each
+open experiments/eval/xid-smoke-tranche-a-n1each/leaderboard.html
+```
+
+Wall time: ~3 minutes with 50 parallel workers (default) — limited by the
+slowest question.
+
+Use when: you've changed anything source-specific (the per-source tool
+set in `config.py`, the meta-controller, data-fetching tools for
+`yfinance`/`fred`/`dbnomics`, or prompt scaffolding that differs by
+`Qsource`/`FBQtype`). Covers every tool path in a single run.
+
+---
+
 # Pipeline
 
 ## 1. Download data
