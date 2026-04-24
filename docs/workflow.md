@@ -668,12 +668,17 @@ For binary outcomes `o ∈ {0, 1}` and forecast probability `p`:
 | Metric | Formula | Range | Interpretation |
 |---|---|---|---|
 | **Brier Score** | `BS_j = (p_j - o_j)²`, then mean over questions | 0–1 | Lower is better. Always-0.5 scores 0.25. |
-| **[Brier Index](https://forecastingresearch.substack.com/p/introducing-the-brier-index)** | `BI = 100 · (1 − √(mean BS))` — population-level (not a per-question mean) | 0–100 | Higher is better. Always-0.5 = 50, perfect = 100. |
+| **[Brier Index](https://forecastingresearch.substack.com/p/introducing-the-brier-index)** | `BI = 1 − √(mean BS)` — **population-level** at both group and overall layers | 0–1 | Higher is better. Always-0.5 = 0.5, perfect = 1. |
 | **Metaculus Score** | `S_j = 100(1 + log₂(q_j))` where `q_j = p_j` if `o_j=1` else `1-p_j`, then mean over questions | −∞ to 100 | Higher is better. Always-0.5 = 0, perfect = 100. |
 
-Note: BI is computed on the *square-root of the mean Brier score*, not by
-averaging per-question `1 − √BS_j` values — so it is a population metric
-rather than an arithmetic mean of per-question scores.
+**BI is population-level, not averaged.** `1 − |p − o|` is stored per question
+(useful for the dashboard), but leaderboards and per-group columns
+recompute BI from `mean BS` within the group. Overall is the equal-weighted
+mean of the per-group BIs (ForecastBench methodology). Because `sqrt` is
+concave, arithmetic-averaging per-question `1 − √BS_j` inflates BI by
+several points and hides the Jensen benefit of trial aggregation — this
+caused a real anomaly in v1 of the paper where aggregation appeared not
+to help.
 
 **Difficulty-adjusted metrics** (from the
 [ForecastBench methodology](https://www.forecastbench.org/assets/pdfs/forecastbench_updated_methodology.pdf)):

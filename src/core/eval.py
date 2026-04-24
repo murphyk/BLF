@@ -41,12 +41,26 @@ SCORING_FUNCTIONS = {
     "brier-score": lambda p, o: (p - o) ** 2,
     "metaculus-score": lambda p, o: 100 * (1 + math.log2(max(0.001, min(0.999,
         p if o >= 0.5 else (1 - p))))),
+    # Per-question "brier-index" (1 - |p-o|) is useful for dashboard cells,
+    # but MUST NOT be arithmetic-averaged. Group/overall BI is defined at the
+    # population level as BI = 1 - sqrt(mean BS); see compute_group_means
+    # and POPULATION_METRICS below.
     "brier-index": lambda p, o: 1 - math.sqrt((p - o) ** 2),
 }
 
 # Adjusted metrics are computed post-hoc (require FE data across all methods).
 # They are injected into all_scores after initial scoring, not via SCORING_FUNCTIONS.
 ADJUSTED_METRICS = {"adjusted-brier-score", "adjusted-brier-index"}
+
+# Metrics where the "group mean" is computed at the population level from the
+# sibling -score metric, NOT by averaging the per-question version. Required
+# because sqrt is concave (Jensen): mean_j(1 - sqrt BS_j) >= 1 - sqrt(mean BS),
+# so naive averaging inflates BI by several points on typical exams and hides
+# the aggregation benefit of trial averaging.
+POPULATION_METRICS = {
+    "brier-index":          "brier-score",
+    "adjusted-brier-index": "adjusted-brier-score",
+}
 
 METRIC_LABELS = {
     "brier-score": ("Brier Score", "lower = better; baseline = 0.25"),
@@ -629,65 +643,109 @@ def resolve_groups(group_spec: dict, available_sources: set[str]) -> dict[str, l
     return groups
 
 
+def _is_overall_group(group_name, groups) -> bool:
+    sources = groups[group_name]
+    other_sources = set()
+    for gn, gs in groups.items():
+        if gn != group_name and len(gs) == 1:
+            other_sources.update(gs)
+    return (len(sources) > 1 and other_sources and set(sources) > other_sources)
+
+
+def _finite_vals(scores, metric, sources):
+    """Collect finite values of `metric` from scores whose source is in `sources`."""
+    out = []
+    for key, s in scores.items():
+        if key[0] not in sources:
+            continue
+        v = s.get(metric)
+        if v is None:
+            continue
+        if isinstance(v, float) and math.isnan(v):
+            continue
+        out.append(v)
+    return out
+
+
 def compute_group_means(scores: dict[str, dict], groups: dict[str, list[str]],
                         metric: str) -> dict[str, float | None]:
-    """Compute mean metric for each group.
+    """Compute per-group metric value.
 
-    Special handling for "overall" groups that use "all" sources:
-    - Computed as equal-weighted mean of the other named groups (not a flat
-      average over all sources). This ensures "overall" summarizes what's
-      shown in the table, not hidden sources.
+    - For POPULATION_METRICS (brier-index, adjusted-brier-index):
+        per-group value = 1 - sqrt(mean of per-question BS within the group),
+        clamping mean-BS to [0, 1]. Overall group = equal-weighted mean of
+        the per-group BI values (matching ForecastBench methodology).
+    - For ADJUSTED_METRICS on multi-source groups (non-BI adjusted):
+        equal-weighted mean of per-source arithmetic means.
+    - Everything else:
+        plain arithmetic mean of per-question values.
 
-    For multi-source groups with adjusted metrics, uses equal-weighted source
-    means (matching ForecastBench methodology).
+    Overall groups that span all other groups' sources are computed as the
+    equal-weighted mean of the other groups' per-group values (so "overall"
+    summarizes what's shown in the table, not hidden sources).
 
-    Returns {group_name: mean_score} or None if no data for that group.
+    Returns {group_name: value} or None if a group has no data.
     """
-    # First pass: compute non-overall groups
-    result = {}
-    overall_groups = []  # groups that span multiple sources (candidates for "overall")
-    for group_name, sources in groups.items():
-        if not sources:
-            result[group_name] = None
-            continue
-        # Detect "overall"-style groups: multi-source groups where sources
-        # span more than just the sources in other single-source groups
-        other_sources = set()
-        for gn, gs in groups.items():
-            if gn != group_name and len(gs) == 1:
-                other_sources.update(gs)
-        is_overall = (len(sources) > 1 and other_sources
-                      and set(sources) > other_sources)
+    # Detect "overall"-style groups first.
+    overall_groups = [g for g in groups if groups[g] and _is_overall_group(g, groups)]
+    result: dict[str, float | None] = {}
 
-        if is_overall:
-            overall_groups.append(group_name)
-            continue  # defer to second pass
+    if metric in POPULATION_METRICS:
+        bs_metric = POPULATION_METRICS[metric]
+        for gname, sources in groups.items():
+            if not sources or gname in overall_groups:
+                result[gname] = None
+                continue
+            bs_vals = _finite_vals(scores, bs_metric, sources)
+            if not bs_vals:
+                result[gname] = None
+            else:
+                mean_bs = sum(bs_vals) / len(bs_vals)
+                result[gname] = 1 - math.sqrt(max(0.0, mean_bs))
+    else:
+        for gname, sources in groups.items():
+            if not sources or gname in overall_groups:
+                result[gname] = None
+                continue
+            if len(sources) > 1 and metric in ADJUSTED_METRICS:
+                source_means = []
+                for src in sources:
+                    vals = _finite_vals(scores, metric, [src])
+                    if vals:
+                        source_means.append(sum(vals) / len(vals))
+                result[gname] = (sum(source_means) / len(source_means)
+                                 if source_means else None)
+            else:
+                vals = _finite_vals(scores, metric, sources)
+                result[gname] = sum(vals) / len(vals) if vals else None
 
-        if len(sources) > 1 and metric in ADJUSTED_METRICS:
-            # Equal-weighted average of per-source means
-            source_means = []
-            for src in sources:
-                vals = [s[metric] for key, s in scores.items()
-                        if key[0] == src and metric in s
-                        and not (isinstance(s[metric], float) and math.isnan(s[metric]))]
-                if vals:
-                    source_means.append(sum(vals) / len(vals))
-            result[group_name] = (sum(source_means) / len(source_means)
-                                  if source_means else None)
-        else:
-            vals = [s[metric] for key, s in scores.items()
-                    if key[0] in sources and metric in s
-                    and not (isinstance(s[metric], float) and math.isnan(s[metric]))]
-            result[group_name] = sum(vals) / len(vals) if vals else None
-
-    # Second pass: compute overall groups as equal-weighted mean of other groups
-    for group_name in overall_groups:
-        other_means = [v for gn, v in result.items()
-                       if gn not in overall_groups and v is not None]
-        result[group_name] = (sum(other_means) / len(other_means)
-                              if other_means else None)
+    # Overall = equal-weighted mean of the other (non-overall) groups' values.
+    for gname in overall_groups:
+        parts = [v for gn, v in result.items()
+                 if gn not in overall_groups and v is not None]
+        result[gname] = sum(parts) / len(parts) if parts else None
 
     return result
+
+
+def compute_overall_metric(scores: dict[str, dict], metric: str) -> float | None:
+    """Single-number summary across every scored question.
+
+    For POPULATION_METRICS: BI = 1 - sqrt(mean BS) over the whole set.
+    For other metrics: plain arithmetic mean of per-question values.
+    """
+    if metric in POPULATION_METRICS:
+        bs_metric = POPULATION_METRICS[metric]
+        vals = [s[bs_metric] for s in scores.values()
+                if bs_metric in s
+                and not (isinstance(s[bs_metric], float) and math.isnan(s[bs_metric]))]
+        if not vals:
+            return None
+        return 1 - math.sqrt(max(0.0, sum(vals) / len(vals)))
+    vals = [s[metric] for s in scores.values()
+            if metric in s
+            and not (isinstance(s[metric], float) and math.isnan(s[metric]))]
+    return sum(vals) / len(vals) if vals else None
 
 
 # ---------------------------------------------------------------------------
@@ -776,11 +834,17 @@ def _get_leaderboard_groups(xid_data: dict) -> list[str]:
 
 
 def _get_metrics(xid_data: dict) -> list[str]:
-    """Resolve metrics list (shared or per-use)."""
+    """Resolve metrics list. Auto-includes the -score companion whenever a
+    -index population metric is requested, so compute_group_means can derive
+    BI = 1 - sqrt(mean BS) from per-question BS values."""
     metrics = xid_data.get("metrics", xid_data.get("metric",
               ["brier-index", "adjusted-brier-index", "metaculus-score"]))
     if isinstance(metrics, str):
         metrics = [metrics]
+    # Ensure the BS companion is available for any BI that was requested.
+    for bi, bs in POPULATION_METRICS.items():
+        if bi in metrics and bs not in metrics:
+            metrics = list(metrics) + [bs]
     return metrics
 
     # (Removed: on-the-fly aggregation variants. Use aggregate.py instead,
@@ -1000,8 +1064,11 @@ def main():
         n = len(scores)
         if n:
             sample_metric = metrics[0]
-            mean_val = sum(s[sample_metric] for s in scores.values()) / n
-            print(f"  [{config}] n={n}, mean {sample_metric}={mean_val:.4f}")
+            summary = compute_overall_metric(scores, sample_metric)
+            if summary is None:
+                print(f"  [{config}] n={n}, {sample_metric} unavailable")
+            else:
+                print(f"  [{config}] n={n}, {sample_metric}={summary:.4f}")
         else:
             print(f"  [{config}] no scored forecasts")
 

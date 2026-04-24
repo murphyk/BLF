@@ -843,9 +843,9 @@ iteration and omit it for the final run.</p>
 </tr>
 <tr>
 <td><strong><a href="https://forecastingresearch.substack.com/p/introducing-the-brier-index">Brier Index</a></strong></td>
-<td><code>BI = 100 · (1 − √(mean BS))</code> — population-level (not a per-question mean)</td>
-<td>0–100</td>
-<td>Higher is better. Always-0.5 = 50, perfect = 100.</td>
+<td><code>BI = 1 − √(mean BS)</code> — <strong>population-level</strong> at both group and overall layers</td>
+<td>0–1</td>
+<td>Higher is better. Always-0.5 = 0.5, perfect = 1.</td>
 </tr>
 <tr>
 <td><strong>Metaculus Score</strong></td>
@@ -855,9 +855,14 @@ iteration and omit it for the final run.</p>
 </tr>
 </tbody>
 </table>
-<p>Note: BI is computed on the <em>square-root of the mean Brier score</em>, not by
-averaging per-question <code>1 − √BS_j</code> values — so it is a population metric
-rather than an arithmetic mean of per-question scores.</p>
+<p><strong>BI is population-level, not averaged.</strong> <code>1 − |p − o|</code> is stored per question
+(useful for the dashboard), but leaderboards and per-group columns
+recompute BI from <code>mean BS</code> within the group. Overall is the equal-weighted
+mean of the per-group BIs (ForecastBench methodology). Because <code>sqrt</code> is
+concave, arithmetic-averaging per-question <code>1 − √BS_j</code> inflates BI by
+several points and hides the Jensen benefit of trial aggregation — this
+caused a real anomaly in v1 of the paper where aggregation appeared not
+to help.</p>
 <p><strong>Difficulty-adjusted metrics</strong> (from the
 <a href="https://www.forecastbench.org/assets/pdfs/forecastbench_updated_methodology.pdf">ForecastBench methodology</a>):</p>
 <p>The adjusted version subtracts per-question difficulty effects and rescales so
