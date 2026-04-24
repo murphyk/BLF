@@ -508,33 +508,40 @@ python3 src/core/aggregate.py --xid my-xid --method llm-agg
 
 ## 7. Evaluate experiment {#evaluate}
 
-The full pipeline: predict → sanity-check → calibrate → evaluate:
+End-to-end pipeline, run step by step (there is no wrapper script):
 
 ```bash
-# 1. Predict
+# 1. Predict — one agent run per question × trial
 caffeinate -s python3 src/core/predict.py --xid my-xid --ntrials 5 --verbose --monitor
+#    → experiments/forecasts/{config}/trial_{t}/{source}/{id}.json  (per-trial)
+#    → experiments/forecasts/{config}/{source}/{id}.json            (aggregated)
 
-# 2. Sanity check (see Smoke tests section above)
+# 2. (Optional) Sanity-check forecast JSONs before running eval
 python3 src/testing/test_smoke.py --xid my-xid --verbose
 
-# 3. Calibrate (LOO cross-validation)
+# 3. (Optional) Pre-compute aggregation variants — "[mean:1]", "[mean:5]",
+#    "[shrink:5]" — so eval can score them without re-aggregating.
+python3 src/core/aggregate.py --xid my-xid
+
+# 4. (Optional) Platt calibration — fits a model per Qsource via LOO CV
 python3 src/core/calibrate.py --xid my-xid --cv loo
+#    → experiments/forecasts/{config}_calibrated/{source}/{id}.json
+#    → experiments/calibration_models/{exam}/{config}.json
 
-# 4. Quick eval (leaderboard + scores only, no plots/traces)
-python3 src/core/eval.py --xid my-xid --add-calibration --fast
+# 5. Finalize — slim raw forecasts into experiments/forecasts_final/.
+#    This is the directory eval.py reads for leaderboard + plots, and
+#    the one that's git-tracked (paper-reproducible artefact).
+python3 src/core/finalize.py --xid my-xid
 
-# 5. Full eval (HTML leaderboard, plots, calibration curves, traces)
-python3 src/core/eval.py --xid my-xid --add-calibration
+# 6. Evaluate — leaderboard, plots, calibration curves, per-question traces
+python3 src/core/eval.py --xid my-xid --add-calibration         # full
+python3 src/core/eval.py --xid my-xid --add-calibration --fast  # no plots/traces
+#    → experiments/eval/{xid}/leaderboard.html, dashboard.html, figs/
 ```
 
-The `--fast` flag skips plot and trace generation, producing only the
-leaderboard and dashboard HTML. Use it for quick iteration; omit it
-for the final evaluation with all visualizations.
-
-```bash
-python3 src/core/eval.py --xid xid-aibq2
-python3 src/core/eval.py --xid xid-aibq2 --add-calibration
-```
+Steps 2–4 are optional; the minimum sequence is predict → finalize → eval.
+The `--fast` flag on step 6 skips plot and trace generation; use it for
+quick iteration and omit it for the final run.
 
 ### Output files {#eval-outputs}
 
@@ -650,6 +657,44 @@ python3 src/core/eval.py --xid my-xid --add-ensemble my-ens
 > **Note:** Ensemble selection uses the same data it's evaluated on
 > (training set). For honest evaluation, select the ensemble on a train
 > exam and evaluate on a held-out test exam with the same seed.
+
+## 10. ForecastBench live submission {#compete}
+
+`src/compete/fb_compete.py` runs the end-to-end live-competition pipeline:
+fetch the live question set, build an exam, run the agent, assemble the
+submission JSON, and upload to GCS.
+
+```bash
+# With a saved Platt calibration model (the usual case)
+caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
+    --config "pro/thk:high/crowd:1/tools:1" --ntrials 5 \
+    --calibration-model tranche-a1
+
+# Without calibration (raw forecasts)
+caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
+    --config "pro/thk:high/crowd:1/tools:1" --ntrials 5
+
+# Re-assemble a submission from existing forecasts (no re-run)
+python3 src/compete/fb_compete.py --date 2026-04-12 --assemble-only \
+    --config pro-high-brave-c1-t1 --calibration-model tranche-a1
+```
+
+Writes (relative to repo root):
+
+| Path | Contents |
+|---|---|
+| `experiments/exams/{date}/` | Live exam definition (materialized from the FB GitHub release) |
+| `experiments/forecasts/{config}/` | Agent outputs — per-trial + aggregated |
+| `experiments/forecasts/{config}_calibrated/` | Calibrated forecasts (if `--calibration-model` given) |
+| `submissions/{date}.{org}.{N}.json` | Final submission JSON uploaded to GCS |
+
+The saved calibration models live in `experiments/calibration_models/{exam}/`
+and are pre-trained on backtesting data (e.g. `tranche-a1` spans
+2025-10-26 through the most recent resolved fortnight). These are
+git-tracked so you can submit without re-running the training pipeline.
+
+The `submissions/` directory is created on first run and its contents
+are kept in git as an audit trail of what was uploaded.
 
 ---
 
