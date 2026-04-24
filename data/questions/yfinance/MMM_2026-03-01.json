@@ -1,0 +1,17 @@
+{
+  "id": "MMM_2026-03-01",
+  "source": "yfinance",
+  "question": "Will MMM's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MMM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 164.170. (The latest market close price of MMM.)",
+  "background": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally. It operates through three segments: Safety and Industrial, Transportation and Electronics, and Consumer. The Safety and Industrial segment provides industrial abrasives and finishing for metalworking applications; autobody repair solutions; industrial specialty products, such as personal hygiene products, masking, and packaging materials; electrical products and materials for construction and maintenance, power distribution, and electrical original equipment manufacturers; structural adhesives and tapes; respiratory, hearing, eye, and fall protection solutions; and natural and color-coated mineral granules for shingles. The Transportation and Electronics segment provides ceramic solutions; attachment and bonding, films, sound, and temperature management for transportation vehicles; format graphic films for advertising and fleet signage; reflective signage for highway and vehicle safety; light management films and electronics assembly solutions; chip packaging and interconnection solutions; semiconductor production materials; and data center solutions. The Consumer segment offers cleaning products for the home; consumer air quality products; picture hanging accessories; retail abrasives, paint accessories, and safety products; stationery and office products; automotive appearance products; and consumer bandages, tapes, braces, and supports. It serves automotive; commercial solutions; consumer markets; design and construction; electronics; energy; government; manufacturing; safety; transportation industries. The company offers its products through e-commerce and traditional wholesalers, retailers, jobbers, distributors, channel partner, and dealers, as well as directly to users. 3M Company was founded in 1902 and is headquartered in Saint Paul, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/MMM",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

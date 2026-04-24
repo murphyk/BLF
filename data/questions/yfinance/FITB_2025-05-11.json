@@ -1,0 +1,21 @@
+{
+  "id": "FITB_2025-05-11",
+  "source": "yfinance",
+  "question": "Will FITB's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FITB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 35.940. (The latest market close price of FITB.)",
+  "background": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that engages in the provision of a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. The Commercial Banking segment offers credit intermediation, cash management, and financial services; lending and depository products; and cash management, foreign exchange and international trade finance, derivatives and capital markets services, asset-based lending, real estate finance, public finance, commercial leasing, and syndicated finance for business, government, and professional customers. Its Consumer and Small Banking segment provides a range of deposit and loan products to individuals and small businesses; home equity loans and lines of credit; credit cards; and cash management services. This segment also engages in the residential mortgage that include origination, retention and servicing of residential mortgage loans, sales and securitizations of loans, and hedging activities; indirect lending, including extending loans to consumers through automobile dealers, motorcycle dealers, powersport dealers, recreational vehicle dealers, and marine dealers; and home improvement and solar energy installation loans through contractors and installers. The Wealth & Asset Management segment provides various wealth management services for individuals, companies, and not-for-profit organizations. It also offers retail brokerage services to individual clients; and broker dealer services to the institutional marketplace. This segment also provides wealth planning, investment management, banking, insurance, and trust and estate services; and advisory services for institutional clients comprising middle market businesses, non-profits, states, and municipalities. Fifth Third Bancorp was founded in 1858 and is headquartered in Cincinnati, Ohio.",
+  "url": "https://finance.yahoo.com/quote/FITB",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

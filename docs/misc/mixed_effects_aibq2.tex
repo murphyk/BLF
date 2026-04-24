@@ -1,0 +1,361 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, booktabs, hyperref}
+\usepackage[margin=1in]{geometry}
+
+\title{Mixed-Effects Analysis of Multi-Trial Forecasting Results\\
+on the AIBQ2 Benchmark}
+\author{Kevin Murphy (with help from Claude Code)}
+\date{6 April 2026}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+We evaluate an LLM-based agentic forecaster on the AIBQ2 benchmark
+(113 binary questions from the Q2~2025 Metaculus AI Benchmark Tournament).
+Each base model is run $K=5$ independent trials per question, and the
+trials can be aggregated in different ways.
+
+We conduct two analyses:
+\begin{itemize}
+  \item \textbf{Simple analysis} (Section~\ref{sec:simple}):
+    4 methods varying thinking level (default vs.\ high) and calibration
+    (on/off), all using the same shrinkage aggregation over $K=5$ trials.
+    This isolates the effect of thinking and calibration.
+  \item \textbf{Expanded analysis} (Section~\ref{sec:expanded}):
+    8 methods that also vary the aggregation scheme
+    (\texttt{mean:1}, \texttt{mean:5}, \texttt{shrink:5}),
+    giving a factorial design that quantifies the contribution of each factor.
+\end{itemize}
+
+
+\section{Model}
+
+We fit a two-way fixed-effects model to the per-question, per-method scores:
+\begin{equation}
+  \mathrm{score}(q, m, k) = \mu + \alpha_m + \gamma_q + \varepsilon_{q,m,k},
+  \label{eq:model}
+\end{equation}
+where:
+\begin{itemize}
+  \item $\mu$ is the grand mean score across all methods and questions,
+  \item $\alpha_m$ is the \emph{method effect} for method $m$ (what we want to estimate),
+  \item $\gamma_q$ is the \emph{question difficulty} for question $q$ (nuisance parameter),
+  \item $\varepsilon_{q,m,k}$ is the residual trial noise.
+\end{itemize}
+
+We use two views of the data:
+
+\paragraph{Aggregated scores (for method effects).}
+For each (question~$q$, method~$m$) pair, we have one aggregated score:
+\begin{equation}
+  s_{q,m} = \ell\!\bigl(\hat{p}_{q,m},\; o_q\bigr),
+\end{equation}
+where $\hat{p}_{q,m}$ is the aggregated forecast, $o_q \in \{0,1\}$ is the
+outcome, and $\ell$ is the scoring function (Metaculus or Brier).
+
+For methods that aggregate $K$ trials (e.g.\ \texttt{mean:5}, \texttt{shrink:5}),
+the score is computed from the aggregated forecast:
+\begin{equation}
+  s_{q,m} = \ell\!\Bigl(\mathrm{agg}\bigl(p_{q,m,1}, \ldots, p_{q,m,K}\bigr),\; o_q\Bigr).
+\end{equation}
+
+For \texttt{mean:1}, there is no aggregation, so we report the expected
+single-trial score, averaged over all $K$ individual trials:
+\begin{equation}
+  s_{q,m} = \frac{1}{K} \sum_{k=1}^{K} \ell(p_{q,m,k},\; o_q).
+  \label{eq:mean1}
+\end{equation}
+Note the distinction: \texttt{mean:K} scores the aggregated forecast
+$\ell(\bar{p}, o)$, while \texttt{mean:1} averages the individual scores
+$\bar{\ell}(p_k, o)$.  These differ because $\ell$ is nonlinear.
+
+We fit model~\eqref{eq:model} to the $Q \times M$ aggregated scores
+via alternating projections (block coordinate descent), equivalent to
+$\texttt{feols}(\text{score} \sim 1 \mid \text{question} + \text{method})$
+in \texttt{pyfixest}:
+\begin{align}
+  \gamma_q &\leftarrow \frac{1}{M} \sum_m (s_{q,m} - \mu - \alpha_m), \\
+  \alpha_m &\leftarrow \frac{1}{Q} \sum_q (s_{q,m} - \mu - \gamma_q),
+\end{align}
+until convergence (typically $< 50$ iterations).
+
+\paragraph{Trial-level scores (for ANOVA).}
+To separate within-trial noise from between-question difficulty,
+we use all $K \times M \times Q$ individual trial scores:
+\begin{equation}
+  s_{q,m,k} = \ell(p_{q,m,k},\; o_q), \quad k = 1, \ldots, K,
+\end{equation}
+where $p_{q,m,k}$ is the raw forecast from trial~$k$ (before aggregation).
+We perform a Type~III sum-of-squares decomposition:
+\begin{align}
+  \mathrm{SS}_{\mathrm{total}} &= \sum_{q,m,k} (s_{q,m,k} - \bar{s})^2, \\
+  \mathrm{SS}_{\mathrm{method}} &= KQ \sum_m (\bar{s}_{\cdot m \cdot} - \bar{s})^2, \\
+  \mathrm{SS}_{\mathrm{question}} &= KM \sum_q (\bar{s}_{q \cdot \cdot} - \bar{s})^2, \\
+  \mathrm{SS}_{\mathrm{residual}} &= \mathrm{SS}_{\mathrm{total}}
+    - \mathrm{SS}_{\mathrm{method}} - \mathrm{SS}_{\mathrm{question}}.
+\end{align}
+
+
+\section{Simple Analysis: 4 Methods}
+\label{sec:simple}
+
+The four methods are:
+(1)~\textbf{default}: Gemini~3.1~Pro, default reasoning;
+(2)~\textbf{high}: high reasoning;
+(3)~\textbf{default+cal}: method~1 with Platt calibration (LOO CV);
+(4)~\textbf{high+cal}: method~2 with Platt calibration.
+All use $K=5$ trials with logit-space shrinkage aggregation.
+
+\subsection{Method effects}
+
+The grand mean across all four methods is $\hat{\mu} = 36.6$.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Method & Effect ($\hat{\alpha}_m$) & Adjusted score \\
+\midrule
+high + cal & $+3.0$ & $39.6$ \\
+high       & $+0.7$ & $37.3$ \\
+default + cal & $+0.2$ & $36.8$ \\
+default    & $-3.9$ & $32.7$ \\
+\bottomrule
+\end{tabular}
+\caption{Method effects for Metaculus score (higher = better).
+  The adjusted score is $\hat{\mu} + \hat{\alpha}_m$.}
+\label{tab:simple_effects}
+\end{table}
+
+The ranking is: high+cal $>$ high $>$ default+cal $>$ default.
+The total spread is $39.6 - 32.7 = 6.9$ points.
+
+\subsection{Variance decomposition}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Source & SS & \% & df & $F$ \\
+\midrule
+Method & $11{,}045$ & $0.0\%$ & 3 & 1.28 \\
+Question & $24{,}605{,}626$ & $79.9\%$ & 112 & $76.4^*$ \\
+Residual & $6{,}165{,}926$ & $20.0\%$ & $2{,}144$ & --- \\
+\midrule
+Total & $30{,}782{,}596$ & $100\%$ & $2{,}259$ & \\
+\bottomrule
+\end{tabular}
+\caption{ANOVA for 4 methods ($K=5$, $Q=113$).
+  $^*$Significant at $p < 0.05$; $F_{\mathrm{crit}}(3, 2144) \approx 2.6$.}
+\label{tab:simple_anova}
+\end{table}
+
+The key finding: \textbf{question difficulty explains $80\%$ of total
+variance} (Table~\ref{tab:simple_anova}), trial-to-trial stochasticity
+explains $20\%$, and method differences are negligible
+($< 0.1\%$, $F = 1.28$, not significant at $p = 0.05$).
+
+The question effect is highly significant
+($F = 76.4 \gg F_{\mathrm{crit}}$), confirming that questions genuinely
+differ in difficulty.
+\begin{itemize}
+  \item Whether a question is ``easy'' or ``hard'' matters far more than
+    which method you use.
+  \item Within-trial noise ($20\%$) is substantial but secondary to question
+    difficulty---the multi-trial aggregation ($K=5$) successfully reduces
+    this component.
+\end{itemize}
+
+\subsection{Pairwise comparisons}
+
+We compare each method to the best (high+cal) using paired differences
+on the same 113 questions, with bootstrap $p$-values.
+Specifically, for each question $q$ we compute
+$\Delta_q = s_{q,m} - s_{q,\mathrm{ref}}$, then bootstrap the mean
+of $\Delta_q$ over 2{,}000 resamples.  The quantity $p(\Delta > 0)$ is the
+fraction of bootstrap replicates where the mean difference is positive
+(i.e., the method beats the reference).
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Method vs.\ high+cal & $\Delta$ mean & $\Delta$ std & $p(\Delta > 0)$ \\
+\midrule
+default           & $-6.9$ & $46.8$ & $0.066$ \\
+default + cal     & $-2.8$ & $23.3$ & $0.104$ \\
+high              & $-2.3$ & $41.9$ & $0.283$ \\
+\bottomrule
+\end{tabular}
+\caption{Pairwise comparisons vs.\ high+cal (Metaculus score, $n=113$).
+  $p(\Delta > 0)$ is the bootstrap probability that the method beats
+  the reference.}
+\label{tab:simple_pairwise}
+\end{table}
+
+No pairwise comparison reaches $p < 0.05$
+(Table~\ref{tab:simple_pairwise}).  The largest effect
+(default vs.\ high+cal, $\Delta = -6.9$) has $p = 0.066$, driven by the
+high per-question standard deviation ($\sigma = 46.8$).  With 113 questions,
+we are underpowered to detect effects smaller than $\sim 9$ points at
+$\alpha = 0.05$.
+
+\subsection{Brier score}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Method & Effect & Adjusted \\
+\midrule
+high + cal & $-0.0064$ & $0.1373$ \\
+high       & $-0.0046$ & $0.1391$ \\
+default + cal & $+0.0008$ & $0.1446$ \\
+default    & $+0.0101$ & $0.1538$ \\
+\bottomrule
+\end{tabular}
+\caption{Brier score method effects (lower = better).}
+\label{tab:brier_effects}
+\end{table}
+
+The Brier score results (Table~\ref{tab:brier_effects}) mirror the
+Metaculus ranking.  The ANOVA is similar: question difficulty $\sim 80\%$,
+trial noise $\sim 20\%$, method $< 0.1\%$ (not significant).
+
+
+\section{Expanded Analysis: 8 Methods}
+\label{sec:expanded}
+
+We now include aggregation variants, giving 8 methods:
+2 thinking levels $\times$ 3 aggregation schemes (\texttt{mean:1},
+\texttt{mean:5}, \texttt{shrink:5}), plus 2 calibrated variants
+(\texttt{shrink:5+cal}).
+
+For \texttt{mean:1}, the score is the expected single-trial score
+$\mathbb{E}_k[\ell(p_{q,m,k}, o_q)]$, averaged over all $K$ trials.
+This represents the performance of a single run without any aggregation.
+
+\subsection{Method effects and ANOVA}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Method & Effect ($\hat{\alpha}_m$) & Adjusted score \\
+\midrule
+high / shrink:5 + cal & $+6.7$ & $39.6$ \\
+high / shrink:5 & $+4.4$ & $37.3$ \\
+default / shrink:5 + cal & $+3.9$ & $36.8$ \\
+high / mean:5 & $+2.5$ & $35.4$ \\
+default / shrink:5 & $-0.2$ & $32.7$ \\
+default / mean:5 & $-2.3$ & $30.6$ \\
+high / mean:1 & $-5.3$ & $27.6$ \\
+default / mean:1 & $-9.7$ & $23.2$ \\
+\bottomrule
+\end{tabular}
+\caption{Method effects for all 8 variants (grand mean $= 32.9$).}
+\label{tab:expanded_effects}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Source & SS & \% & df & $F$ \\
+\midrule
+Method & $24{,}282$ & $0.3\%$ & 7 & $3.93^*$ \\
+Question & $7{,}069{,}749$ & $90.8\%$ & 112 & $71.56^*$ \\
+Residual & $691{,}561$ & $8.9\%$ & $784$ & --- \\
+\midrule
+Total & $7{,}785{,}592$ & $100\%$ & $903$ & \\
+\bottomrule
+\end{tabular}
+\caption{ANOVA for 8 methods ($^*$significant at $p < 0.05$;
+  $F_{\mathrm{crit}}(7, 784) \approx 2.0$).}
+\label{tab:expanded_anova}
+\end{table}
+
+With 8 methods, the method effect is now \textbf{significant} ($F = 3.93$,
+$p < 0.05$), driven by the $16.4$-point spread between \texttt{mean:1}
+and \texttt{shrink:5+cal}.  The residual dropped from $20\%$ (4 methods)
+to $8.9\%$ because the aggregation variants absorb what was previously
+attributed to trial noise.
+
+\subsection{Factorial decomposition}
+
+We decompose the method effects into three factors by averaging each
+factor's effect over the levels of the other factors:
+
+\begin{enumerate}
+  \item \textbf{Aggregation} (mean:1 $\to$ mean:5 $\to$ shrink:5),
+    averaged over thinking levels:
+    \begin{itemize}
+      \item mean:1 $\to$ mean:5:
+        $\frac{(30.6 - 23.2) + (35.4 - 27.6)}{2} = +7.6$
+      \item mean:5 $\to$ shrink:5:
+        $\frac{(32.7 - 30.6) + (37.3 - 35.4)}{2} = +2.0$
+      \item Total: $+9.6$ points
+    \end{itemize}
+  \item \textbf{Thinking} (default $\to$ high),
+    averaged over aggregation methods:
+    \[
+      \frac{(27.6 - 23.2) + (35.4 - 30.6) + (37.3 - 32.7)}{3} = +4.6
+    \]
+  \item \textbf{Calibration} (shrink:5 $\to$ shrink:5+cal),
+    averaged over thinking levels:
+    \[
+      \frac{(36.8 - 32.7) + (39.6 - 37.3)}{2} = +3.2
+    \]
+\end{enumerate}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+\toprule
+Factor & Gain (Metaculus points) \\
+\midrule
+Aggregation (mean:1 $\to$ shrink:5) & $+9.6$ \\
+\quad of which mean:1 $\to$ mean:5 & $+7.6$ \\
+\quad of which mean:5 $\to$ shrink:5 & $+2.0$ \\
+Thinking (default $\to$ high) & $+4.6$ \\
+Calibration (shrink:5 $\to$ shrink:5+cal) & $+3.2$ \\
+\midrule
+Sum of individual factors & $+17.4$ \\
+Observed total (default/mean:1 $\to$ high/shrink:5+cal) & $+16.4$ \\
+\bottomrule
+\end{tabular}
+\caption{Incremental gains from each factor.  The sum ($17.4$) slightly
+  exceeds the observed total ($16.4$) due to a small negative interaction
+  between factors.}
+\label{tab:factorial}
+\end{table}
+
+
+\section{Discussion}
+
+\paragraph{Ranking of interventions.}
+The three factors ranked by Metaculus score improvement:
+\begin{enumerate}
+  \item Multi-trial aggregation: $+9.6$ points ($5\times$ compute cost)
+  \item High thinking: $+4.6$ points (no extra cost per trial)
+  \item Calibration: $+3.2$ points (negligible cost)
+\end{enumerate}
+
+\paragraph{Statistical significance.}
+With 4 methods (Section~\ref{sec:simple}), the method $F$-ratio is $1.28$
+(not significant): the methods are too similar.
+With 8 methods (Section~\ref{sec:expanded}), $F = 3.93$ (significant):
+the aggregation variants widen the spread enough to detect.  Question
+difficulty dominates in both analyses ($80$--$91\%$ of variance).
+
+\paragraph{Practical implications.}
+Calibration and high thinking are ``free'' improvements ($+3.2$ and $+4.6$
+points respectively) that should always be used.  Multi-trial aggregation
+is the largest single intervention ($+9.6$), but costs $5\times$ in compute.
+For a fixed budget, the optimal allocation is: use high thinking (free),
+calibrate (free), then spend remaining budget on as many trials as
+affordable.
+
+\end{document}

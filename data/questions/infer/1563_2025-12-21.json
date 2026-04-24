@@ -1,0 +1,14 @@
+{
+  "id": "1563_2025-12-21",
+  "source": "infer",
+  "question": "Will at least one European country or the European Union (EU) collectively commit to providing Ukraine with HIMARS-compatible rocket artillery systems or functional substitutes by 31 December 2025?",
+  "resolution_criteria": "This question will be resolved using credible news sources and/or official government statements/releases. A \u201cYes\u201d resolution requires that a European government or the EU collectively formally announces a commitment to provide Ukraine with any of the following by 31 December 2025: M142 HIMARS launchers Other HIMARS-compatible rocket artillery systems (e.g., M270 launchers) Substitute systems (e.g., South Korea\u2019s K239 Chunmoo or Israel's PULS), defined as multiple rocket launchers capable of delivering guided or unguided rockets at ranges broadly comparable to U.S.-made HIMARS/M270. The following are EXCLUDED from this resolution: Non-European systems (e.g., Turkish SAGE 227 rockets) unless procured and donated by a European government/EU. General financial aid pledges without specific allocation to rocket artillery systems.",
+  "background": "Since Russia\u2019s full-scale invasion in 2022, Ukraine has relied heavily on advanced Western artillery and air defense systems, particularly those produced by the United States. As of early 2025, 86% of Ukraine\u2019s rocket artillery systems (such as HIMARS), 82% of its howitzer ammunition, and 70% of its long-range air defense systems (such as Patriots) are U.S.-produced ( Kiel Institute , Ukraine Support Tracker ). These systems\u2014along with U.S. intelligence sharing and satellite imagery\u2014are considered the hardest to replace among Ukraine\u2019s heavy weapons, creating significant vulnerabilities as U.S. support becomes less certain ( Kiel Institute ). European countries face increasing pressure to fill this gap. While some nations possess compatible systems like the M270 Multiple Launch Rocket Systems compatible with HIMARS rockets, European stockpiles and ammunition are limited, and efforts to boost production face supply chain and export control challenges ( Wikipedia , Politico , Modern Diplomacy ). As a result, European governments are exploring alternative systems like South Korea\u2019s K239 Chunmoo and Israel\u2019s PULS systems, with some countries already procuring or evaluating them ( The Defense Post , Defense News ). The EU has also proposed doubling military aid to Ukraine, including \u20ac40 billion for weapons procurement, but whether Europe can scale these efforts to meet Ukraine\u2019s defense needs remains a key question ( European Commission ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1563",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.1817",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The crowd forecast."
+}

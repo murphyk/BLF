@@ -1,0 +1,14 @@
+{
+  "id": "41089_2026-04-12",
+  "source": "metaculus",
+  "question": "Will the United States experience negative GDP growth during Q1, Q2, or Q3 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if the [Bureau of Economic Analysis](https://www.bea.gov/data/gdp/gross-domestic-product) reports that the United States has experienced negative GDP growth during Q1, Q2, or Q3 of 2026, according to the BEA's [third estimate](https://www.bea.gov/news/blog/2015-07-13/why-does-bea-revise-gdp-estimates) for each quarter.",
+  "background": "The United States has recently [experienced mixed](https://www.bea.gov/data/gdp/gross-domestic-product) GDP growth. During 2024, GDP growth ranged from  +0.8% up to +3.6% each quarter. During 2025, Q1 dropped substantially to -0.6% growth, while Q2 recovered to +3.8%.\n\nThe Bureau of Economic Analysis currently releases [3 successive estimates](https://www.bea.gov/news/blog/2015-07-13/why-does-bea-revise-gdp-estimates) for each quarter, with the final estimate released several months after the given quarter.",
+  "url": "https://www.metaculus.com/questions/41089",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.30000000000000004",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

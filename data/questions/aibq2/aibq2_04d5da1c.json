@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_04d5da1c",
+  "source": "aibq2",
+  "question": "Will the Global Protest Tracker report any protests in India with 10,000+ participants, before July 1, 2025?",
+  "background": "Reuters: [Three dead as protests against Muslim land law turn violent in eastern India](https://www.reuters.com/world/india/three-dead-protests-against-muslim-land-law-turn-violent-eastern-india-2025-04-14/)",
+  "resolution_criteria": "This question resolves as **Yes** if the [Global Protest Tracker](https://carnegieendowment.org/features/global-protest-tracker?lang=en) reports a protest in India with 10,000 or more participants with a start date after the launch of this question and before July 1, 2025.\n\nFine print:\nA protest with at least 10,000 participants that is active at the launch of this question does not count for resolution.",
+  "url": "https://www.reuters.com/world/india/three-dead-protests-against-muslim-land-law-turn-violent-eastern-india-2025-04-14/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "WTW_2025-06-08",
+  "source": "yfinance",
+  "question": "Will WTW's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WTW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 312.650. (The latest market close price of WTW.)",
+  "background": "Willis Towers Watson Public Limited Company operates as an advisory, broking, and solutions company worldwide. It operates through two segments: Health, Wealth & Career and Risk & Broking. The company offers strategy and design consulting, plan management service and support, broking and administration services for health, wellbeing, and other group benefit programs, including medical, dental, disability, life, voluntary benefits, and other coverages; actuarial support, plan design, and administrative services for pension and retirement savings plans; retirement consulting services and solutions; and integrated solutions that consists of investment discretionary management, pension administration, core actuarial, and communication and change management assistance services. It also provides advice, data, software, and products to address clients' total rewards and talent issues; and risk advice, insurance brokerage, and consulting services in the areas of property and casualty, affinity, risk and analytics, aerospace, construction, global markets direct and facultative, financial, executive and professional risks, financial solutions, crisis management, surety, marine, and natural resources. In addition, the company offers software and technology, risk and capital management, products and product pricing, financial and regulatory reporting, financial and capital modeling, M&A, outsourcing, and business management services. The company was formerly known as Willis Group Holdings Public Limited Company and changed its name to Willis Towers Watson Public Limited Company in January 2016. Willis Towers Watson Public Limited Company was founded in 1828 and is based in London, the United Kingdom.",
+  "url": "https://finance.yahoo.com/quote/WTW",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

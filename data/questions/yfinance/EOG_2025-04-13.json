@@ -1,0 +1,21 @@
+{
+  "id": "EOG_2025-04-13",
+  "source": "yfinance",
+  "question": "Will EOG's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EOG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 129.970. (The latest market close price of EOG.)",
+  "background": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company was formerly known as Enron Oil & Gas Company. EOG Resources, Inc. was incorporated in 1985 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/EOG",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

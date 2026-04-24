@@ -1,0 +1,15 @@
+{
+  "id": "0xc26b4fd76b0b5546bfda17f4303a026d8857fb0780d57715549c714c9c0d7fd9_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the Boston Celtics win the Eastern Conference?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Boston Celtics win the 2024-2025 NBA Eastern Conference finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2024-25 NBA Eastern Conference finals based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-boston-celtics-win-the-eastern-conference",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.56",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

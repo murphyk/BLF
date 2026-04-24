@@ -1,0 +1,21 @@
+{
+  "id": "DXCM_2025-08-03",
+  "source": "yfinance",
+  "question": "Will DXCM's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DXCM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 86.430. (The latest market close price of DXCM.)",
+  "background": "DexCom, Inc., a medical device company, focuses on the design, development, and commercialization of continuous glucose monitoring (CGM) systems in the United States and internationally. The company provides its systems for the management of diabetes and metabolic health by patients, caregivers, and clinicians. Its products include Dexcom G6 and Dexcom G7, integrated CGM systems for diabetes management; Dexcom Share, a remote monitoring system; Dexcom Real-Time API, which enables authorized third-party software developers to integrate real-time CGM data into their digital health apps and devices; Dexcom ONE, that is designed to replace finger stick blood glucose testing for diabetes treatment decisions; and Stelo, a new over-the-counter glucose biosensor designed for adults with prediabetes and Type 2 diabetes. The company has a collaboration and license agreement with Verily Life Sciences LLC and Verily Ireland Limited to develop blood-based or interstitial glucose monitoring products. It markets its products directly to endocrinologists, physicians, and diabetes educators. The company was incorporated in 1999 and is headquartered in San Diego, California.",
+  "url": "https://finance.yahoo.com/quote/DXCM",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

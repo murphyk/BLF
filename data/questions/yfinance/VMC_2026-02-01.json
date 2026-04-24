@@ -1,0 +1,17 @@
+{
+  "id": "VMC_2026-02-01",
+  "source": "yfinance",
+  "question": "Will VMC's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 299.010. (The latest market close price of VMC.)",
+  "background": "Vulcan Materials Company produces and supplies construction aggregates in the United States. It operates through three segments: Aggregates, Asphalt, and Concrete. The company provides crushed stone, sand and gravel, sand, riprap and jetty stones, and other aggregates for use in construction and maintenance of highways, streets, and other public works, as well as in the construction of housing and commercial, industrial, and other nonresidential facilities; asphalt mix; asphalt construction paving services; and ready-mixed concrete products. The company was formerly known as Virginia Holdco, Inc. and changed its name to Vulcan Materials Company. Vulcan Materials Company was founded in 1909 and is headquartered in Birmingham, Alabama.",
+  "url": "https://finance.yahoo.com/quote/VMC",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

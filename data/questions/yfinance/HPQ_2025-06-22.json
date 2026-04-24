@@ -1,0 +1,21 @@
+{
+  "id": "HPQ_2025-06-22",
+  "source": "yfinance",
+  "question": "Will HPQ's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HPQ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 24.820. (The latest market close price of HPQ.)",
+  "background": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, displays, software, support, and services, as well as hybrid systems. The Printing segment provides consumer and commercial printer hardware, supplies, solutions, and services, as well as focuses on graphics and 3D printing and personalization solutions in the commercial and industrial markets. The Corporate Investments segment is involved in the business incubation and investment projects. It serves individual consumers, small- and medium-sized businesses, and large enterprises. The company was formerly known as Hewlett-Packard Company and changed its name to HP Inc. in October 2015. HP Inc. was founded in 1939 and is headquartered in Palo Alto, California.",
+  "url": "https://finance.yahoo.com/quote/HPQ",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

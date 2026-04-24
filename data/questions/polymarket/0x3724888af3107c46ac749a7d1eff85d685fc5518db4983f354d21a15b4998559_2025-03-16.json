@@ -1,0 +1,15 @@
+{
+  "id": "0x3724888af3107c46ac749a7d1eff85d685fc5518db4983f354d21a15b4998559_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Trump pardon Diddy in his first 100 days?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Sean John Combs (Diddy), receives a presidential pardon, commutation, or reprieve from Donald Trump by April 29, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf it becomes impossible for Trump issue a federal pardon, commutation, or reprieve within this market's timeframe, it may immediately resolve to \"No\".\n\nThe primary resolution source for whether Combs is pardoned or not will be official information from the US government, however a consensus of credible reporting will also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-pardon-diddy-in-his-first-100-days",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.0275",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

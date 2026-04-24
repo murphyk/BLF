@@ -1,0 +1,15 @@
+{
+  "id": "0x36c83576575af62aa27da668d4310b76ad9102eb0c19ce6fe0aac88c668287d3_2025-04-27",
+  "source": "polymarket",
+  "question": "XRP all time high by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Binance 1 minute candle for XRPUSDT between 21 Jan '24 13:00 and 30 Jun '25 23:59 in the ET timezone has a final \u201cHigh\u201d price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the XRPUSDT \"High\" prices currently available at https://www.binance.com/en/trade/XRP_USDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance XRPUSDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/xrp-all-time-high-by-when-xrp-all-time-high-by-june-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0925",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

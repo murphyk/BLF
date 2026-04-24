@@ -1,0 +1,14 @@
+{
+  "id": "41205_2026-03-01",
+  "source": "metaculus",
+  "question": "Will OpenAI file an initial registration statement (S-1) with the SEC to launch an IPO, before March 15, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if OpenAI, or any subsidiary directly involved in the creation or commercialization of ChatGPT, files a public, non-confidential [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) at the U.S. Security and Exchange Commission's [EDGAR](https://www.sec.gov/search-filings) database with a filing date before March 15, 2026.",
+  "background": "From [Invezz](https://in.investing.com/news/stock-market-news/spacex-to-openai-mega-ipos-set-to-debut-in-2026-5152303) via Investing.com:&#x20;\n\n> OpenAI is laying early groundwork for an IPO that could value the company at up to \\$1 trillion.\n\n> The ChatGPT maker is considering filing with regulators as early as the second half of 2026, with CFO Sarah Friar indicating to associates that the company is targeting a 2027 listing, though advisers say it could come sooner.\n\n> The potential offering follows a significant restructuring completed this week, creating a new corporate structure under the OpenAI Foundation, which now holds a 26% stake.\n\n> OpenAI\u2019s rapid revenue growth\u2014expected to reach an annualized run rate of \\$20 billion by year-end\u2014is matched by mounting losses and rising capital needs, particularly as CEO Sam Altman pursues multi-trillion-dollar investments in AI infrastructure.",
+  "url": "https://www.metaculus.com/questions/41205",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-14",
+  "market_value": "0.1",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The community prediction."
+}

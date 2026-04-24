@@ -1,0 +1,14 @@
+{
+  "id": "0x712015ce8ac2c87d89bfacff5610f225c147a147441a78654846d1462921ede7_2025-12-07",
+  "source": "polymarket",
+  "question": "Will 10-12 SpaceX Starship launches successfully reach Space in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if between 10 (inclusive) and 12 (inclusive) SpaceX Starship launches successfully reach an altitude of 62 miles above sea level between January 1, 2025 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA successful launch is defined as the Starship taking off from its launchpad and reaching a minimum altitude of 62 miles above sea level. Any subsequent anomaly (e.g. an explosion) after the vehicle reaches 62 miles will have no bearing on the outcome.\n\nThe primary resolution source for this market will be SpaceX\u2019s official video feed of the launches (e.g. via SpaceX YouTube Channel), as well as secondary video feeds or written reports if necessary. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-10-12-spacex-starship-launches-successfully-reach-space-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

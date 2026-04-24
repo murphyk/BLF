@@ -1,0 +1,15 @@
+{
+  "id": "WRBWFRBL_2026-03-29",
+  "source": "fred",
+  "question": "Will the total dollar amount of reserve balances held with Federal Reverse Banks have increased by 2026-04-05 as compared to its value on 2026-03-29?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WRBWFRBL once the data is published.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 3073151.000. (The latest value released in Liabilities and Capital: Other Factors Draining Reserve Balances: Reserve Balances with Federal Reserve Banks: Wednesday Level from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: For questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/)..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, As of Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/WRBWFRBL",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

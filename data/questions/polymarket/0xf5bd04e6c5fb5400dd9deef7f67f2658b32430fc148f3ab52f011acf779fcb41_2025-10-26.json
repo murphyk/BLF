@@ -1,0 +1,14 @@
+{
+  "id": "0xf5bd04e6c5fb5400dd9deef7f67f2658b32430fc148f3ab52f011acf779fcb41_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Victor Ponta be the next Mayor of Bucharest?",
+  "resolution_criteria": "Nicu\u0219or Dan, the current Mayor of Bucharest, was elected President of Romania on May 18, 2025, triggering a mayoral by-election expected within 90 days of his departure.\n\nThis market will resolve according to the candidate who wins the 2025 Bucharest mayoral by-election to become the next elected Mayor of Bucharest. \n\nTemporary, interim, or placeholder mayors appointed before the by-election will not be considered. \n\nIf no by-election takes place by July 31, 2026, this market will resolve to \u201cOther.\u201d\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Romanian Government, specifically the Permanent Electoral Authority (https://www.roaep.ro/prezentare/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-victor-ponta-be-the-next-mayor-of-bucharest-624",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-07",
+  "market_value": "0.0005",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

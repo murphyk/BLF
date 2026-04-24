@@ -1,0 +1,14 @@
+{
+  "id": "26328_2025-12-21",
+  "source": "metaculus",
+  "question": "Will there be any reported human-to-human transmission of highly pathogenic avian influenza H5N1 globally before 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, after July 17, 2024, and before January 1, 2026, the US Centers for Disease Control and Prevention (CDC) reports that at least one case of human-to-human spread of highly pathogenic avian influenza H5N1 has occurred globally.",
+  "background": "On April 1, 2024, the US Centers for Disease Control and Prevention (CDC) [reported](https://www.cdc.gov/media/releases/2024/p0401-avian-flu.html) that an individual in Texas had been infected with [highly pathogenic avian influenza (HPAI) type A subtype H5N1](https://en.wikipedia.org/wiki/Influenza_A_virus_subtype_H5N1). The individual had been infected after exposure to dairy cattle that were presumed to be infected. The infection marks the first reported case in humans the United States since an infection in Colorado in 2022.\n\nIn its [H5 Bird Flu: Current Situation page](https://www.cdc.gov/bird-flu/situation-summary/index.html), CDC says the following, as of July 17, 2024:\n\n>* H5 bird flu is widespread in wild birds worldwide and is causing outbreaks in poultry and U.S. dairy cows with several recent human cases in U.S. dairy and poultry workers.\n>* While the current public health risk is low, CDC is watching the situation carefully and working with states to monitor people with animal exposures.\n>* CDC is using its flu surveillance systems to monitor for H5 bird flu activity in people.\n\nAdditionally, as of July 17, 2024, the page reports nine total human cases in the United States since 2022, with five of the nine having been confirmed as H5N1. The page also currently reports that there has been no person-to-person spread and that the current public health risk is \"low\".",
+  "url": "https://www.metaculus.com/questions/26328",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.01",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The community prediction."
+}

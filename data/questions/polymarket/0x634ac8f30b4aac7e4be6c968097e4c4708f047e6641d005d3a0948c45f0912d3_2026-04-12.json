@@ -1,0 +1,14 @@
+{
+  "id": "0x634ac8f30b4aac7e4be6c968097e4c4708f047e6641d005d3a0948c45f0912d3_2026-04-12",
+  "source": "polymarket",
+  "question": "Kevin Warsh confirmed as Fed Chair by May 15?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Kevin Warsh is confirmed as Chair of the Federal Reserve by May 15, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf Kevin Warsh is formally nominated for the role, and his nomination is then formally withdrawn, or if the Senate rejects the nomination, this market will immediately resolve to \u201cNo\u201d.\n\nThe Senate must confirm this nominee as Chair of the Federal Reserve for this market to resolve to \"Yes\". Recess appointments without Senate confirmation will not count toward a \"Yes\" resolution. Senate confirmation of Warsh as a member of the Federal Reserve Board of Governors will not alone qualify.\n\nThe primary resolution source for this market is official information from the U.S. Senate; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/kevin-warsh-confirmed-as-fed-chair-by-may-15-961",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.505",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

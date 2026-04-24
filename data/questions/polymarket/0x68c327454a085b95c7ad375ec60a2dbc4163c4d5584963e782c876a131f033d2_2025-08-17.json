@@ -1,0 +1,15 @@
+{
+  "id": "0x68c327454a085b95c7ad375ec60a2dbc4163c4d5584963e782c876a131f033d2_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Nice win the 2025\u201326 French Ligue 1?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 French Ligue 1.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 French Ligue 1. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 French Ligue 1 season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from French Ligue 1. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-nice-win-the-202526-french-ligue-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-01",
+  "market_value": "0.0145",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

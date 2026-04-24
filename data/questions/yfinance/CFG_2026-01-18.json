@@ -1,0 +1,17 @@
+{
+  "id": "CFG_2026-01-18",
+  "source": "yfinance",
+  "question": "Will CFG's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CFG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 60.990. (The latest market close price of CFG.)",
+  "background": "Citizens Financial Group, Inc. operates as the bank holding company that provides retail and commercial banking products and services to individuals, small businesses, middle-market companies, large corporations, and institutions in the United States. The company operates through two segments, Consumer Banking and Commercial Banking. The Consumer Banking segment offers deposit products, mortgage and home equity lending products, credit cards, business loans, wealth management, and investment services; and education and point-of-sale finance loans, as well as digital deposit products. This segment serves its customers through telephone service centers, as well as through its online and mobile platforms. The Commercial Banking segment provides various financial products and solutions, including lending and leasing, deposit and treasury management services, foreign exchange, and interest rate and commodity risk management solutions, as well as syndicated loans, corporate finance, mergers and acquisitions, and debt and equity capital markets services. This segment serves multi-family, office, industrial, retail, healthcare, and hospitality sectors. The company was formerly known as RBS Citizens Financial Group, Inc. and changed its name to Citizens Financial Group, Inc. in April 2014. Citizens Financial Group, Inc. was founded in 1828 and is headquartered in Providence, Rhode Island.",
+  "url": "https://finance.yahoo.com/quote/CFG",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

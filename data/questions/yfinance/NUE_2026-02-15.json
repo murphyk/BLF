@@ -1,0 +1,17 @@
+{
+  "id": "NUE_2026-02-15",
+  "source": "yfinance",
+  "question": "Will NUE's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NUE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 192.840. (The latest market close price of NUE.)",
+  "background": "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. The Steel Mills segment produces hot-rolled, cold-rolled, and galvanized sheet steel products; plate steel products; wide-flange beams, beam blanks, and H-piling and sheet piling structural steel products; and bar steel products, such as blooms, billets, concrete reinforcing and merchant bars, and engineered special bar quality products. It also engages in the steel trading and rebar distribution businesses. This segment sells its products to steel service centers, fabricators, and manufacturers in the United States, Canada, and Mexico. The Steel Products segment offers steel joists and joist girders, steel decks, and galvanized torque tubes for use in solar arrays, hollow structural section steel tubing, electrical conduit, fabricated concrete reinforcing steel, cold finished steel, steel fasteners, steel grating and expanded metal, wire and wire mesh, metal building systems, insulated metal panels, steel racking, overhead doors, and utility towers and structures for communications and energy transmission. This segment is also involved in the piling distribution business. The Raw Materials segment produces direct reduced iron (DRI); brokers ferrous and nonferrous metals, pig iron, hot briquetted iron, and DRI; supplies ferro-alloys; processes ferrous and nonferrous scrap metal; and engages in the natural gas production and industrial gas business. This segment sells its ferrous scrap to electric arc furnace steel mills and foundries for manufacturing process; and nonferrous scrap metal to aluminum can producers, secondary aluminum smelters, steel mills and other processors, and consumers of various nonferrous metals. Nucor Corporation was founded in 1905 and is based in Charlotte, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/NUE",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

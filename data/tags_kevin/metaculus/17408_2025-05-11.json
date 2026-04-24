@@ -1,0 +1,6 @@
+{
+  "category": "Science & Technology",
+  "suggested_category": null,
+  "justification": "The question concerns legal outcomes directly stemming from technical methodologies in AI development, specifically the legality of training large language models on copyrighted data.",
+  "question": "Will a US court fine, or order a company to pay to claimants, >=$100M because of how they used data to train a large AI model before 2026?"
+}

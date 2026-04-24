@@ -1,0 +1,23 @@
+{
+  "id": "BA_2025-03-16",
+  "source": "yfinance",
+  "question": "Will BA's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 163.160. (The latest market close price of BA.)",
+  "background": "The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commercial Airplanes; Defense, Space & Security; and Global Services. The Commercial Airplanes segment develops, produces, and markets commercial jet aircraft for passenger and cargo requirements. The Defense, Space & Security segment engages in the research, development, production, and modification of manned and unmanned military aircraft and weapons systems; strategic defense and intelligence systems, which include strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems; and satellite systems, such as government and commercial satellites, and space exploration. The Global Services segment offers products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services to commercial and defense customers. The Boeing Company was incorporated in 1916 and is based in Arlington, Virginia.",
+  "url": "https://finance.yahoo.com/quote/BA",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

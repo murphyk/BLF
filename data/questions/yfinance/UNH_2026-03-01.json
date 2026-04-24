@@ -1,0 +1,17 @@
+{
+  "id": "UNH_2026-03-01",
+  "source": "yfinance",
+  "question": "Will UNH's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/UNH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 288.200. (The latest market close price of UNH.)",
+  "background": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally. The company operates through four segments: UnitedHealthcare, Optum Health, Optum Insight, and Optum Rx. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; health care coverage, and health and well-being services to individuals age 50 and older; Medicaid plans, children's health insurance and health care programs; and health care benefits products and services to state programs caring for the economically disadvantaged, medically underserved, and those without the benefit of employer-funded health care coverage. The Optum Health segment provides care delivery, care management, wellness and consumer engagement, and health financial services patients, consumers, care delivery systems, providers, employers, payers, and public-sector entities. The Optum Insight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, governments, life sciences companies, and other organizations. The Optum Rx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, and purchasing and clinical capabilities, as well as develops programs in the areas of step therapy, formulary management, drug adherence, and disease and drug therapy management. UnitedHealth Group Incorporated was founded in 1974 and is based in Eden Prairie, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/UNH",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

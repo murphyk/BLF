@@ -1,0 +1,15 @@
+{
+  "id": "0x20a7cb88730bd709c39eff84e88c822b21a1707549e0bbb1c42751ee0c991fc1_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Estonia be the Jury Winner in the Eurovision 2025 Grand Final?",
+  "resolution_criteria": "The Grand Final of the Eurovision Song Contest 2025 is scheduled for May 17, 2025.\n\nThis market will resolve to the country that receives the highest number of points from the professional juries in the Grand Final of the Eurovision Song Contest 2025.\n\nAll ties will be broken according to EBU's official Eurovision rules.\n\nIf no winner is announced by July 31, 2025, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2025, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-estonia-be-the-jury-winner-in-the-eurovision-2025-grand-final",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "MCK_2025-03-16",
+  "source": "yfinance",
+  "question": "Will MCK's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MCK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 639.620. (The latest market close price of MCK.)",
+  "background": "McKesson Corporation provides healthcare services in the United States and internationally. It operates through four segments: U.S. Pharmaceutical, Prescription Technology Solutions (RxTS), Medical-Surgical Solutions, and International. The U.S. Pharmaceutical segment distributes branded, generic, specialty, biosimilar and over-the-counter pharmaceutical drugs, and other healthcare-related products. This segment also offers practice management, technology, clinical support, and business solutions to community-based oncology and other specialty practices; and consulting, outsourcing, technological, and other services, as well as sells financial, operational, and clinical solutions to pharmacies. The RxTS segment serves biopharma and life sciences partners, and patients to address medication challenges for patients by working across healthcare; connects patients, pharmacies, providers, pharmacy benefit managers, health plans, and biopharma companies to deliver innovative solutions to help people get the medicine needed to live healthier lives; and provides prescription price transparency, benefit insight, dispensing support, third-party logistics, and wholesale distribution support services. The Medical-Surgical Solutions segment offers medical-surgical supply distribution, logistics, and other services to healthcare providers, including physician offices, surgery centers, nursing homes, hospital reference labs, and home health care agencies. The International segment provides distribution and services to wholesale, institutional, and retail customers in Europe and Canada. McKesson Corporation was founded in 1833 and is headquartered in Irving, Texas.",
+  "url": "https://finance.yahoo.com/quote/MCK",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

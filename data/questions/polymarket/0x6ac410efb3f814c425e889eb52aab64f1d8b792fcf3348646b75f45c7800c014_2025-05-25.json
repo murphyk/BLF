@@ -1,0 +1,15 @@
+{
+  "id": "0x6ac410efb3f814c425e889eb52aab64f1d8b792fcf3348646b75f45c7800c014_2025-05-25",
+  "source": "polymarket",
+  "question": "Will Kim Moon-soo win 2nd place in the South Korean presidential election?",
+  "resolution_criteria": "South Korean presidential elections are scheduled to occur on June 3, 2025, following the impeachment of Yoon Suk Yeol.\n\nThis market will resolve according to the person who receives the second greatest number of votes in the election for the next President of South Korea.\n\nIf no election for the next President of South Korea occurs by February 28, 2026, 11:59 PM ET, or the results are otherwise unknown by that date, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Government of South Korea, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-kim-moon-soo-win-2nd-place-in-the-south-korean-presidential-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-03",
+  "market_value": "0.88",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

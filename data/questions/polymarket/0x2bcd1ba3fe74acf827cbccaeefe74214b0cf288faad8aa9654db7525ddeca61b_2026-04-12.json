@@ -1,0 +1,14 @@
+{
+  "id": "0x2bcd1ba3fe74acf827cbccaeefe74214b0cf288faad8aa9654db7525ddeca61b_2026-04-12",
+  "source": "polymarket",
+  "question": "SAVE Act becomes law by December 31, 2026?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if any bill, measure, or resolution that requires proof of U.S. citizenship as a condition for registering to vote or to vote in U.S. federal elections is passed by both chambers of the U.S. Congress and signed into law, or is otherwise enacted into U.S. federal law, by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nExamples of qualifying legislation include H.R. 22, the \u201cSAVE Act,\u201d and H.R. 7296, the \u201cSAVE America Act.\u201d\n\nThe primary resolution source for this market will be official information from the government of the United States; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/save-act-becomes-law-by-december-31-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.225",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

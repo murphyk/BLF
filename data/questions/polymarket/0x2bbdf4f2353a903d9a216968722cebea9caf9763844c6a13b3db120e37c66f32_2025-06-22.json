@@ -1,0 +1,15 @@
+{
+  "id": "0x2bbdf4f2353a903d9a216968722cebea9caf9763844c6a13b3db120e37c66f32_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Pakistan invade India before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Pakistan commences a military offensive intended to establish control over any portion of India between May 10 and June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by India or Pakistan as of May 10, 2025, 12:00 PM ET, will be considered the sovereign territory of that country.\n\nThe resolution source for this market will be official confirmation by Pakistan, India, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-pakistan-invade-india-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.007500000000000001",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

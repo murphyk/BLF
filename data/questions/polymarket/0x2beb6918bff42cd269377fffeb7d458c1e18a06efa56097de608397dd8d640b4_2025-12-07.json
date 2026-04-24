@@ -1,0 +1,14 @@
+{
+  "id": "0x2beb6918bff42cd269377fffeb7d458c1e18a06efa56097de608397dd8d640b4_2025-12-07",
+  "source": "polymarket",
+  "question": "Will inflation reach more than 5% in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Consumer Price Index (CPI) increased by 5.1 percent or more over the 12 month period ending with any month in 2025 according to the monthly Bureau of Labor Statistics (BLS) reports. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be the BLS Consumer Price Index reports released for each month of 2025 (https://www.bls.gov/bls/news-release/cpi.htm). Resolution of this market will take place upon release of the aforementioned data.\n\nThis market may not resolve to \"No\" until the December 2025 report is issued. Once the December 2025 report is issued, any revisions to previously released CPI figures will not be counted toward this market's resolution. If the CPI report for December 2025 is not issued by January 31, 2026, 11:59 PM ET, this market will resolve based on CPI figures which have already been made available by the BLS.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release which reports inflation over 12 month periods to only one decimal point (e.g. 2.9%). Thus, this is the level of precision that will be used when resolving the market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-inflation-reach-more-than-5-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.021500000000000002",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

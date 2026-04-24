@@ -1,0 +1,15 @@
+{
+  "id": "W8iOAuLrMal2MAwPPg62_2025-08-17",
+  "source": "manifold",
+  "question": "Will Ali Khamenei remain Supreme Leader of Iran through December 31st, 2025?",
+  "resolution_criteria": "The resolution source for this market will be the CIA World Factbook page for Iran, currently available at https://www.cia.gov/the-world-factbook/countries/iran/#government. A consensus of credible reporting will also suffice.",
+  "background": "",
+  "url": "https://manifold.markets/MarcusAbramovitch/will-ali-khamenei-remain-supreme-le-9ecdaf5cd5d8",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.7829113413324861",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

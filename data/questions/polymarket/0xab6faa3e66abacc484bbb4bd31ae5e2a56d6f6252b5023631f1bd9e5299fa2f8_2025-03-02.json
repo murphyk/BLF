@@ -1,0 +1,15 @@
+{
+  "id": "0xab6faa3e66abacc484bbb4bd31ae5e2a56d6f6252b5023631f1bd9e5299fa2f8_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Donald Trump win Nobel Peace Prize in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump wins the 2025 Nobel Peace prize. Otherwise this market will resolve to \"No\".\n\nIf Donald Trump wins the prize along with another person/entity, this market will resolve to \"Yes\".\n\nThe resolution source for this market will be the first official announcement from the Swedish Academy.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-donald-trump-win-nobel-peace-prize-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-10",
+  "market_value": "0.145",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

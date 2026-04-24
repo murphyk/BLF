@@ -1,0 +1,15 @@
+{
+  "id": "0x1d6f2f967ebf572de38a27ea879c668de22fd3b95540a6cbe17ee5818db57223_2025-04-27",
+  "source": "polymarket",
+  "question": "Senate pass act to buy \u22651m Bitcoin?",
+  "resolution_criteria": "On March 11, Senator Lummis reintroduced the BITCOIN Act, which aims to purchase 1,000,000 Bitcoin. You can read more about that here: https://x.com/BitcoinMagazine/status/1899447562790211883\n\nThis market will resolve to \"Yes\" if this act passes the Senate by April 30, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be information from the US government, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/senate-passes-bitcoin-act-before-may",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.0115",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

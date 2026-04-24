@@ -1,0 +1,14 @@
+{
+  "id": "0x94867c89a77b18380ce1bf85006f3ccf2ef5252e0dc6319677aaf615bd857bf4_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Marseille win the 2025\u201326 Champions League?",
+  "resolution_criteria": "This is a polymarket on whether the listed team will win the 2025\u201326 UEFA Champions League.\n\nThis market will resolve to \"Yes\" if the listed team is officially crowned the winner of the 2025\u201326 UEFA Champions League. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed team to win the tournament (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 UEFA Champions League is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from UEFA Champions League (https://www.uefa.com/uefachampionsleague/). A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-marseille-win-the-202526-champions-league",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-29",
+  "market_value": "0.006500000000000001",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

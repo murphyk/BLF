@@ -1,0 +1,19 @@
+{
+  "id": "NI_2025-11-09",
+  "source": "yfinance",
+  "question": "Will NI's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 42.460. (The latest market close price of NI.)",
+  "background": "NiSource Inc., an energy holding company, operates as a regulated natural gas and electric utility company in the United States. It operates in two segments, Columbia Operations and NIPSCO Operations. The company provides natural gas to approximately 2.4 million residential, commercial, and industrial customers through approximately 37,200 miles of distribution main pipeline and the associated individual customer service lines; and 330 miles of transmission main pipeline in Ohio, Pennsylvania, Virginia, Kentucky, and Maryland. It also generates, transmits, and distributes electricity to approximately 0.5 million customers in various counties in the northern part of Indiana, as well as engages in wholesale electric and transmission transactions. It owns and operates steam coal generating stations in Wheatfield and Michigan City; combined cycle gas turbine in West Terre Haute; natural gas generating units in Wheatfield; hydro generating plants in Carroll County and White County; wind generating units in White County, Indiana; and solar generating units in Jasper County and White County. The company was formerly known as NIPSCO Industries, Inc. and changed its name to NiSource Inc. in April 1999. NiSource Inc. was founded in 1847 and is headquartered in Merrillville, Indiana.",
+  "url": "https://finance.yahoo.com/quote/NI",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "6MyYH9TqA0FgSsx7Pare_2025-12-07",
+  "source": "manifold",
+  "question": "Will the European Super League host a game by 2025?",
+  "resolution_criteria": "Resolves YES if the European Super League hosts or is involved with hosting a football/soccer game on or before December 31st, 2025. Resolves NO otherwise.\n\nFor more information: https://en.wikipedia.org/wiki/European_Super_League",
+  "background": "",
+  "url": "https://manifold.markets/cos/will-the-european-super-league-host",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0599280898",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market value."
+}

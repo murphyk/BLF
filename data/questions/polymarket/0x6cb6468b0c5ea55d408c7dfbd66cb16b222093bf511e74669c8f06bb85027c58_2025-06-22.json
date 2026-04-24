@@ -1,0 +1,15 @@
+{
+  "id": "0x6cb6468b0c5ea55d408c7dfbd66cb16b222093bf511e74669c8f06bb85027c58_2025-06-22",
+  "source": "polymarket",
+  "question": "Will MrBeast buy TikTok before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if credible reporting confirms that MrBeast (James Stephen \"Jimmy\" Donaldson), either personally or through an entity, enters into an agreement with TikTok to acquire its US operations by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn official announcement will qualify for a \"Yes\" resolution, regardless of whether the acquisition is ultimately completed.\n\nThe entity entering into the agreement does not need to be controlled by MrBeast; his involvement as a partial owner, investor, or similar role will qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market is official information from MrBeast and/or TikTok, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-mrbeast-buy-tiktok-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0125",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

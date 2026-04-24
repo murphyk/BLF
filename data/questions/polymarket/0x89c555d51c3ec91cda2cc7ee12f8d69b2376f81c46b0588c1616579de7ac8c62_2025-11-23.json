@@ -1,0 +1,14 @@
+{
+  "id": "0x89c555d51c3ec91cda2cc7ee12f8d69b2376f81c46b0588c1616579de7ac8c62_2025-11-23",
+  "source": "polymarket",
+  "question": "China x Philippines military clash by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military encounter between the military forces of China (People's Republic of China) and Philippines between January 29, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military encounter\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between Chinese and Philippine military forces. Non-violent actions, such as use of water cannons, warning shots, artillery fire into uninhabited areas, or missile launches that land in territorial waters or pass through airspace, will not qualify for a \"Yes\" resolution. Intentional ship ramming that results in significant damage to (e.g., a hole in the hull) or the sinking of a military ship by another will count toward a \"Yes\" resolution, however minor damage (scrapes, dents) will not.\n\nNote: the China Coast Guard (CCG) is part of the military, however Philippine Coast Guard (PCG) is not.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/china-x-philippines-military-clash-by-december-31",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0335",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

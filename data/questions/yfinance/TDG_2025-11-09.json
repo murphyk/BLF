@@ -1,0 +1,19 @@
+{
+  "id": "TDG_2025-11-09",
+  "source": "yfinance",
+  "question": "Will TDG's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TDG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 1316.000. (The latest market close price of TDG.)",
+  "background": "TransDigm Group Incorporated designs, produces, and supplies aircraft components in the United States and internationally. The Power & Control segment offers mechanical/electro-mechanical actuators and controls, ignition systems and engine technology, specialized pumps and valves, power conditioning devices, specialized AC/DC electric motors and generators, batteries and chargers, databus and power controls, sensor products, switches and relay panels, hoists, winches and lifting devices, delivery systems and electronic components, and cargo loading and handling systems. This segment serves engine and power system and subsystem suppliers, airlines, third party maintenance suppliers, military buying agencies, and repair depots. The Airframe segment provides engineered latching and locking devices, engineered rods, engineered connectors and elastomer sealing solutions, cockpit security components and systems, cockpit displays, engineered audio, radio and antenna systems, lavatory components, seat belts and safety restraints, engineered and customized interior surfaces and related components, thermal protection and insulation products, lighting and control technology, parachutes, specialized flight, wind tunnel and jet engine testing services and equipment, and testing and instrumentation solutions. This segment serves airframe manufacturers, cabin system and subsystem suppliers, airlines, third party maintenance suppliers, military buying agencies, and repair depots. The Non-aviation segment offers seat belts and safety restraints; mechanical/electromechanical actuators and controls; hydraulic/electromechanical actuators and fuel valves; refueling systems; and turbine controls. This segment serves off-road vehicle and subsystem suppliers, child restraint system suppliers, and satellite and space system suppliers; and manufacturers of heavy equipment. TransDigm Group Incorporated was founded in 1993 and is based in Cleveland, Ohio.",
+  "url": "https://finance.yahoo.com/quote/TDG",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_9835ef5a",
+  "source": "aibq2",
+  "question": "Will any North American country be listed as having a CDC yellow fever travel advisory on June 1, 2025?",
+  "background": "[PAHO issues new epidemiological alert amid rising yellow fever cases in the Americas](https://www.paho.org/en/news/31-3-2025-paho-issues-new-epidemiological-alert-amid-rising-yellow-fever-cases-americas)",
+  "resolution_criteria": "This question resolves as **Yes** if a country in North America is listed as having a travel advisory by the Centers for Disease Control at its [Travel Health Notices](https://wwwnc.cdc.gov/travel/notices) page when checked by Metaculus on or after June 1, 2025.",
+  "url": "https://www.paho.org/en/news/31-3-2025-paho-issues-new-epidemiological-alert-amid-rising-yellow-fever-cases-americas",
+  "forecast_due_date": "2025-04-24",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

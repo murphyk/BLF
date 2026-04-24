@@ -1,0 +1,19 @@
+{
+  "id": "NIKKEI225_2025-12-07",
+  "source": "fred",
+  "question": "Will the Nikkei 225 Stock Average, which represent the daily index value at market close, have increased by each resolution date listed below as compared to its value on 2025-12-07?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/NIKKEI225 once the data is published.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 49559.070. (The latest value released in Nikkei Stock Average, Nikkei 225 from the release Nikkei Indexes.)",
+  "background": "The notes from the release: N/A.  The notes from the series: The observations for the Nikkei Stock Average, Nikkei 225 represent the daily index value at market close.\n\nNikkei 225 is the major stock market index comprising of 225 highly liquid stocks of the Tokyo Stock Exchange (TSE).\n\nFor in depth information, visit here (http://indexes.nikkei.co.jp/nkave/archives/faq/faq_nikkei_stock_average_en.pdf).\n\nCopyright, 2016, Nikkei Inc. Reprinted with permission.\n\nDownloading the data for research reports or research projects is permitted.\n\nHowever, if you wish to redistribute the data itself or research reports (information with Nikkei data) to the third parties/persons, the user shall report back to the Nikkei, Inc for permission..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily, Close ",
+  "url": "https://fred.stlouisfed.org/series/NIKKEI225",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

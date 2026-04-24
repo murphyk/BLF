@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0019",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the government of Republika Srpska officially announce a date for an independence referendum?",
+  "title_hash": "1c271676ffec1939",
+  "background": "Fair Observer: [Balkan Tinderbox: How Russia\u2019s Moves Could Reignite Bosnia](https://www.fairobserver.com/politics/balkan-tinderbox-how-russias-moves-could-reignite-bosnia/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a referendum on the independence of Republika Srpska from Bosnia and Herzegovina is officially scheduled. If this does not occur before that date, this question resolves as **No**.\n\nFine print:\nFor purposes of this question, the referendum will be considered \"officially scheduled\" when it is announced by a person or entity with the authority to do so within Republika Srpska. Please note that broader legality, such as within Bosnia and Herzegovina, will be considered irrelevant for this question, so if the Bosnian government declared the referendum illegal, the question would still resolve as Yes.",
+  "url": "https://www.fairobserver.com/politics/balkan-tinderbox-how-russias-moves-could-reignite-bosnia/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

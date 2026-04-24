@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0044",
+  "source": "aibq2",
+  "question": "Will the USDA-posted recall by Cargill Kitchen Solutions of its liquid egg product for an unapproved substance issued March 28, 2025 be closed before July 1, 2025?",
+  "title_hash": "e3eb00f011987d32",
+  "background": "ABC News: [Liquid eggs recalled due to potential cleaning solution contamination](https://abcnews.go.com/GMA/Food/liquid-eggs-recalled-due-potential-cleaning-solution-contamination/story?id=120329600)",
+  "resolution_criteria": "This question resolves as **Yes** if the status of the recall posted by the U.S. Department of Agriculture\u2019s Food Safety and Inspection Service (FSIS) is changed from Active to Closed on [this page](https://www.fsis.usda.gov/recalls-alerts/cargill-kitchen-solutions-recalls-liquid-egg-products-due-unapproved-substance) before July 1, 2025. If the recall is still shown as Active when the link is accessed by Metaculus on or after July 1, 2025, this question resolves as **No**.",
+  "url": "https://abcnews.go.com/GMA/Food/liquid-eggs-recalled-due-potential-cleaning-solution-contamination/story?id=120329600",
+  "forecast_due_date": "2025-05-07",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

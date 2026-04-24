@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0081",
+  "source": "aibq2",
+  "question": "Will the US State Department's Diversity Visa page still be online on July 1, 2025?",
+  "title_hash": "2d9e9cc8aa70acfb",
+  "background": "[Federal judge\u2019s order leaves many visa lottery winners out of luck](https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/) | [Donald Trump's 2017 tweet discussing the DV program](https://x.com/realDonaldTrump/status/925684982307348480)",
+  "resolution_criteria": "This question resolves as **Yes** if the Step 1 Submit an Entry page with instructions for registering for the Diversity Immigrant Visa (DV) Program is at [this location](https://travel.state.gov/content/travel/en/us-visas/immigrate/diversity-visa-program-entry/diversity-visa-submit-entry1.html) when attempted to be accessed by Metaculus on or after July 1, 2025.",
+  "url": "https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/",
+  "forecast_due_date": "2025-05-20",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

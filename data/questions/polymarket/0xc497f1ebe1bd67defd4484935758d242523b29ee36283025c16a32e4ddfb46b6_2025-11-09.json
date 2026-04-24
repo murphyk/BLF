@@ -1,0 +1,14 @@
+{
+  "id": "0xc497f1ebe1bd67defd4484935758d242523b29ee36283025c16a32e4ddfb46b6_2025-11-09",
+  "source": "polymarket",
+  "question": "Will the Portland Trail Blazers win the NBA Cup?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 NBA Cup. \n\nIf at any point this team is eliminated from contention to win the NBA Cup, this market will automatically resolve to \"No\".\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-portland-trail-blazers-win-the-nba-cup",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-27",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

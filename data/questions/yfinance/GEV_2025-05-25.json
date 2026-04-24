@@ -1,0 +1,21 @@
+{
+  "id": "GEV_2025-05-25",
+  "source": "yfinance",
+  "question": "Will GEV's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GEV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 401.100. (The latest market close price of GEV.)",
+  "background": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Americas, the Middle East, and Africa. The company operates through three segments: Power, Wind, and Electrification. The Power segment designs, manufactures, and services gas, nuclear, hydro, and steam technologies. The Wind segment offers wind generation technologies, including onshore and offshore wind turbines and blades. The Electrification segment provides grid solutions, power conversion, solar, and storage solutions; and electrification software for the transmission, distribution, conversion, storage, and orchestration of electricity from point of generation to point of consumption. The company was incorporated in 2023 and is headquartered in Cambridge, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/GEV",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

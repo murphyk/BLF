@@ -1,0 +1,15 @@
+{
+  "id": "0xc3a89dee3b659822e32f8388f615907ecf262466576f18ecff7619f6d4d6914b_2025-06-22",
+  "source": "polymarket",
+  "question": "Will the Conservative Party win the Canadian election by 0-3%?",
+  "resolution_criteria": "The next Canadian general election will take place on or before October 20, 2025, to elect members of the House of Commons to the 45th Canadian Parliament.\n\nThis market will resolve to according to the popular vote margin of victory.\n\nFor the purpose of resolving this market, the 'margin of victory' is defined as the absolute difference between the percentages of votes received by the party that wins the most votes and the second-most votes. Percentages of the votes received by each party will be determined by dividing the total number of votes each of the two parties receives by the sum of all votes cast in the election.\n\nThis market will resolve based off the official vote count published by the Government of Canada (https://www.elections.ca/home.aspx).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nIf neither the Conservative or Liberal win the most votes, this market will resolve to \"Other\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-conservative-party-win-the-canadian-election-by-0-3",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-23",
+  "market_value": "0.0005",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xd56c9ee002e2ae2766bb390373a18ecf78201df41533f2d7470f9440cbba18d7_2025-11-09",
+  "source": "polymarket",
+  "question": "Trump divorce in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump and/or Melania Trump announce their intention to divorce between December 31, 2024 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement by December 31, 2025 of their intention to divorce will be sufficient for a \"Yes\" resolution, regardless of whether the divorce later actually occurs, or whether the actual divorce occurs outside of the timeframe of this market.\n\nThe resolution source will be statements from Donald Trump and/or Melania Trump , and their representatives, however a definitive consensus of credible media reporting may be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/trump-divorce-in-2025",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.016",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

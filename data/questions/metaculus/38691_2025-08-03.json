@@ -1,0 +1,15 @@
+{
+  "id": "38691_2025-08-03",
+  "source": "metaculus",
+  "question": "Will Israel strike the Iranian military in Iran again, before September 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, after June 25, 2025 and before September 1, 2025, Israel publicly confirms that it has carried out attacks against the Iranian military within the geographic territory of Iran.",
+  "background": "The [Iran-Israel war](https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war) began June 13, 2025, with Israel attacking Iranian military targets and nuclear facilities, killing top military leaders, regime officials and nuclear scientists. In response Iran launched missile and drone attacks on Israel. At the time of this question, both sides have continued striking the other, causing daily casualties and damage in both countries.\n\nOn June 24, 2025, Israel and Iran [reached a ceasefire](https://www.bbc.com/news/articles/cdr3yxgjd6ro) mediated by the US. However, soon after the ceasefire took effect, [both countries violated it](https://www.theguardian.com/world/live/2025/jun/24/israel-iran-war-live-updates-trump-declares-ceasefire-tehran-attack-us-base-qatar?CMP=share_btn_url\\&page=with%3Ablock-685a87c98f087d712b381a79#block-685a87c98f087d712b381a79). [According to Israel](https://www.theguardian.com/world/live/2025/jun/24/israel-iran-war-live-updates-trump-declares-ceasefire-tehran-attack-us-base-qatar?CMP=share_btn_url\\&page=with%3Ablock-685aa14f8f087d712b381bbb#block-685aa14f8f087d712b381bbb)\n\n> The ceasefire was set for 07.00 this morning. At 03.00, Israel forcefully attacked in the heart of Tehran, struck regime targets and eliminated hundreds of Basij and Iranian security forces personnel.\n> \u200e\n> Shortly before the ceasefire was due to take effect, Iran launched a barrage of missiles, one of which took the lives of four of our citizens in Be\u2019er Sheva. The ceasefire took effect at 07.00.\n> \u200e\n> At 07.06, Iran launched one missile at Israeli territory, and two additional missiles at 10.25. These missiles were either intercepted or fell in open areas, and caused neither casualties nor damage.\n> \u200e\n> In response to Iran\u2019s violations, the Air Force destroyed a radar installation near Tehran.\n> \u200e\n> Pursuant to the conversation between President Trump and Prime Minister Netanyahu, Israel has refrained from additional attacks.\n> \u200e\n> In the conversation, President Trump expressed his great appreciation for Israel, which achieved all of its objectives for the war, as well as his confidence in the stability of the ceasefire.",
+  "url": "https://www.metaculus.com/questions/38691",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.18",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The community prediction."
+}

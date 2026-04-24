@@ -1,0 +1,15 @@
+{
+  "id": "ON_2026-03-29",
+  "source": "yfinance",
+  "question": "Will ON's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 60.460. (The latest market close price of ON.)",
+  "background": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, industrial automation, AI data centers, computing, and mobile end markets. The Intelligent Sensing Group segment develops complementary metal-oxide-semiconductor image sensors, image signal processors, short-wave infrared sensors, and other products, as well as photon-counting technologies, including single-photon avalanche diode arrays and silicon photomultiplier devices for depth sensing, factory automation, safety systems, and robotics industries. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona.",
+  "url": "https://finance.yahoo.com/quote/ON",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "HON_2026-03-29",
+  "source": "yfinance",
+  "question": "Will HON's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 229.920. (The latest market close price of HON.)",
+  "background": "Honeywell International Inc. engages in the aerospace technologies, industrial automation, building automation, and energy and sustainable solutions businesses in the United States, Europe, and internationally. The company's Aerospace Technologies segment offers auxiliary power units, propulsion engines, integrated avionics, connectivity services, electric power systems, management and technical services, environmental control and electric power systems, engine controls, flight safety, communications, navigation hardware, data and software applications, radar and surveillance systems, aircraft lighting, advanced systems and instruments, satellite and space components, and aircraft wheels and brakes; thermal systems; and spare parts; repair, overhaul, and maintenance services. Its Industrial Automation segment provides automation control and instrumentation products and services; smart energy products; sensing technologies with custom-engineered sensors and services; gas detection technologies and personal protective equipment; and system design automation equipment, as well as software and analytics for manufacturing, distribution, and fulfillment operations. Its Building Automation segment provides software applications for building control and optimization; sensors, switches, control systems, and instruments for energy management; access control; video surveillance; fire products; and installation, maintenance, and upgrade of systems. The company's Energy and Sustainability Solutions segment, through its UOP business, delivers licensed process technology, equipment, engineering, catalysts, adsorbents, and services for refining, petrochemicals, low-carbon energy, gas and LNG, and industrial solutions; as well as connectivity, data integration and software solutions. Honeywell International Inc. was founded in 1885 and is headquartered in Charlotte, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/HON",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

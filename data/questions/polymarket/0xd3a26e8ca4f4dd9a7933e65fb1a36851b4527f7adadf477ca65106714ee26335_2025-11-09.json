@@ -1,0 +1,14 @@
+{
+  "id": "0xd3a26e8ca4f4dd9a7933e65fb1a36851b4527f7adadf477ca65106714ee26335_2025-11-09",
+  "source": "polymarket",
+  "question": "Apple Vision Pro 2 released by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Apple releases a new Vision Pro product by December 31, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying product must be named \"Apple Vision\" and be recognized as a successor to the original Apple Vision Pro product, similar to the relationship between iPhone 14 and iPhone 15. A new Apple Vision product released without a number, under a designation other than Apple Vision Pro 2 will qualify if it retains the original functions of the Apple Vision Pro and expands on them in such a way that it is clear that this product is a successor.\n\nIn order to be considered released, the product must be available for purchase by the general public within the specified timeframe. An announcement or unveiling alone is not sufficient.\n\nThe primary resolution source for this market will be official statements from Apple. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-apple-vision-pro-2-be-released-by-december-31",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-30",
+  "market_value": "0.0385",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

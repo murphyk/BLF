@@ -1,0 +1,23 @@
+{
+  "id": "FTNT_2025-03-02",
+  "source": "yfinance",
+  "question": "Will FTNT's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FTNT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 111.640. (The latest market close price of FTNT.)",
+  "background": "Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. It offers secure networking solutions focus on the convergence of networking and security; network firewall solutions that consist of FortiGate data centers, hyperscale, and distributed firewalls, as well as encrypted applications; wireless LAN solutions; and secure connectivity solutions, including FortiSwitch secure ethernet switches, FortiAP wireless local area network access points, FortiExtender 5G connectivity gateways, and other products. The company also provides the Fortinet Unified SASE solutions that include firewall, SD-WAN, Secure web gateway, cloud access services broker, data loss prevention, zero trust network access, and cloud security, including web application firewalls, virtualized firewalls, and cloud-native firewalls. In addition, it offers security operations solutions comprising FortiAI generative AI assistant, FortiSIEM security information and event management, FortiSOAR security orchestration, automation and response, FortiEDR endpoint detection and response, FortiXDR extended detection and response, FortiMDR managed detection and response service, FortiNDR network detection and response, FortiRecon digital risk protection, FortiDeceptor deception technology, FortiGuard SoCaaS, FortiSandbox sandboxing, FortiGuard incident response, and other products. Further, the company offers FortiGuard security services consisting of FortiGuard application security, content security, device security, NOC/SOC security, and web security services; FortiCare technical support services; and training services to customers and channel partners, as well as operates a FortiGuard Lab, a cybersecurity threat intelligence and research organization. It serves enterprise, communication and security service providers, government organizations, and small and medium-sized businesses. The company was incorporated in 2000 and is headquartered in Sunnyvale, California.",
+  "url": "https://finance.yahoo.com/quote/FTNT",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

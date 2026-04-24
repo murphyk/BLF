@@ -1,0 +1,15 @@
+{
+  "id": "12613_2025-03-16",
+  "source": "metaculus",
+  "question": "Will Boris Johnson return as the leader of the UK Conservative Party before 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, at any time between October 24, 2022 to January 1, 2026, Boris Johnson again holds the office of Leader of the Conservative and Unionist Party. This does not require that he becomes Prime Minister; only that he is formally the leader of the Conservatives.  An acting or caretaker leadership of the party that is intended to be temporary, e.g. during a leadership contest, does not count; he must formally be the leader of the party.  To resolve this question, it is not necessary for Johnson to remain leader of the Conservatives for any minimum length of time.\n\nIf Johnson does not again hold the office of Leader of the Conservative Party before January 1, 2026, this question will resolve as **No**",
+  "background": "[Alexander Boris de Pfeffel Johnson](https://en.wikipedia.org/wiki/Boris_Johnson), born 19 June 1964, is a British politician who served as Prime Minister of the United Kingdom and Leader of the Conservative Party from 2019 to 2022. He previously served as Secretary of State for Foreign and Commonwealth Affairs from 2016 to 2018 and as Mayor of London from 2008 to 2016. Johnson has been Member of Parliament (MP) for Uxbridge and South Ruislip since 2015, having previously been MP for Henley from 2001 to 2008.\n\nIn 2022, Johnson resigned the leadership of the Conservative Party subsequent to [a wave of resignations](https://en.wikipedia.org/wiki/2022_United_Kingdom_government_crisis) from his cabinet and government, following numerous scandals. Following a leadership contest, he was succeeded in September 2022 by Liz Truss.\n\nHowever, there is speculation that should Truss fare poorly as leader, she may be replaced swiftly, and Johnson may make a comeback. As of September 26, 2022, [according to betting exchange Smarkets](https://twitter.com/SmarketsPol/status/1574408957124386818):\n\n>Boris Johnson is now second favourite to be the next Prime Minister \u2014 behind only Keir Starmer \u2014 suggesting that in the event Liz Truss goes before the next election, Johnson would be favourite to take over.",
+  "url": "https://www.metaculus.com/questions/12613",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.01",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}

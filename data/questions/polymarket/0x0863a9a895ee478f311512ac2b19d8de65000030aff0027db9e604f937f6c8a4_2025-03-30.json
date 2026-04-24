@@ -1,0 +1,15 @@
+{
+  "id": "0x0863a9a895ee478f311512ac2b19d8de65000030aff0027db9e604f937f6c8a4_2025-03-30",
+  "source": "polymarket",
+  "question": "Musk out as Tesla CEO in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk ceases to be CEO of Tesla for any length of time between March 12, and December 31, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement of Elon Musk's resignation/firing before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/firing goes into effect.\n\nThis market's primary resolution source will be official information from Tesla and/or Elon Musk, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/musk-out-as-tesla-ceo-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.19",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question asks for a prediction regarding the specific stock price performance of a publicly traded company (Diamondback Energy, ticker FANG) over time.",
+  "question": "Will FANG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "GPN_2026-03-29",
+  "source": "yfinance",
+  "question": "Will GPN's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GPN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 69.640. (The latest market close price of GPN.)",
+  "background": "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. It offers authorization, settlement and funding, customer support, chargeback resolution, reconciliation and dispute management, terminal rental, sales and deployment, payment security, and consolidated billing and reporting services. The company also provides an array of enterprise software solutions that streamline business operations of its customers in various vertical markets; and value-added solutions and services, such as point-of-sale software, analytics and customer engagement, payroll and reporting, and human capital management. It markets its products and services through direct sales force, trade associations, agent and enterprise software providers, referral arrangements with value-added resellers, independent sales organizations, payment facilitators, and financial institutions. The company was founded in 1967 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/GPN",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

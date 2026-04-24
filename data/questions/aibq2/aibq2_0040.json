@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0040",
+  "source": "aibq2",
+  "question": "Will the US lift its sanctions on Nord Stream 2 before July 1, 2025?",
+  "title_hash": "8dd0a8932d996b7c",
+  "background": "[White House debates lifting sanctions on Russian energy assets, Nord Stream](https://www.politico.com/news/2025/04/23/white-house-debating-lifting-sanctions-on-russian-energy-assets-00306486)",
+  "resolution_criteria": "This question resolves as **Yes** if NORD STREAM 2 AG does not appear at Office of Foreign Assets Control (OFAC) [Sanctions List Search tool](https://sanctionssearch.ofac.treas.gov/) when checked by Metaculus on or after July 1, 2025. If it does appear on the Specially Designated Nationals and Blocked Persons (SDN) List at that time, then this question resolves as **No**.\n\nFine print:\nAt the time of this question, the current listing of Nord Stream 2 by OFAC can be found [here](https://sanctionssearch.ofac.treas.gov/Details.aspx?id=31926).",
+  "url": "https://www.politico.com/news/2025/04/23/white-house-debating-lifting-sanctions-on-russian-energy-assets-00306486",
+  "forecast_due_date": "2025-05-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

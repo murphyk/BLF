@@ -1,0 +1,14 @@
+{
+  "id": "0xc2150d5d58c957816dcf137776a3ab002b038c582acfc36510f59547ddbb5f58_2026-04-12",
+  "source": "polymarket",
+  "question": "Les Wexner charged by June 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if any Federal or State jurisdiction of the United States formally charges or otherwise announces a criminal indictment of Leslie Wexner between market creation and June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nFor the purposes of this market the District of Columbia and any county, municipality, or other subdivision of a State shall be included within the definition of a State.\n\nThe primary resolution source for this market will be official information from US governmental sources, however a wide consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/les-wexner-charged-by-june-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.11",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

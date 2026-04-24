@@ -1,0 +1,19 @@
+{
+  "id": "IFF_2025-12-07",
+  "source": "yfinance",
+  "question": "Will IFF's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IFF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 69.780. (The latest market close price of IFF.)",
+  "background": "International Flavors & Fragrances Inc., together with its subsidiaries, manufactures and markets food, beverage, health and biosciences, scent, pharma solutions, and complementary adjacent products in the United States, Europe, and internationally. It operates in four segments Nourish, Health & Biosciences, Scent, and Pharma Solutions. The Nourish segment consists of portfolio of natural-based ingredients that includes plant-based specialty food ingredients, such as soy and pea protein with value-added formulations, emulsifiers, and sweeteners; food protection ingredients, including natural antioxidants, and anti-microbials for natural food preservation and shelf-life extension; savory solutions, such as spices, marinades, and mixtures; combining flavourings with fruits, vegetables, and other natural ingredients products; a range of flavor compounds used in savory products, such as soups, sauces, meat, fish, poultry, and snacks; and beverages juice drinks, carbonated or flavored beverages, and spirits, as well as sweets bakery products, candy, cereal, and chewing gum; and dairy products, such as yogurt, ice cream, and cheese, as well as spices and seasoning ingredients. Its Health & Biosciences is comprised of health, cultures and food enzymes, home and personal care, animal nutrition, and grain processing. The Scent segment creates fragrance compounds, and fragrance ingredients. Its Pharma Solutions segment produces cellulosics and seaweed-based pharmaceutical excipients. The company was incorporated in 1909 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/IFF",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x149e2cdbf5b3df3142452412c4c9f4e8f39379020ba1bc25c1811a3f43c8ad27_2026-03-29",
+  "source": "polymarket",
+  "question": "Will Saudi Arabia strike Iran by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed country initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including cruise or ballistic missiles) launched by the listed country's military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a missile launched by the listed country, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by ground operatives of the listed country will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-saudi-arabia-strike-iran-by-march-31",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.16",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

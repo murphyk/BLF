@@ -1,0 +1,19 @@
+{
+  "id": "HST_2025-11-09",
+  "source": "yfinance",
+  "question": "Will HST's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HST for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 16.310. (The latest market close price of HST.)",
+  "background": "Host Hotels & Resorts, Inc. is an S&P 500 company and is the largest lodging real estate investment trust and one of the largest owners of luxury and upper-upscale hotels. The Company currently owns 75 properties in the United States and five properties internationally totaling approximately 42,900 rooms. The Company also holds non-controlling interests in seven domestic and one international joint venture. Guided by a disciplined approach to capital allocation and aggressive asset management, the Company partners with premium brands such as Marriott, Ritz-Carlton, Westin, Sheraton, W, St. Regis, The Luxury Collection, Hyatt, Fairmont, 1 Hotels, Hilton, Four Seasons, Swiss\u00f4tel, ibis and Novotel, as well as independent brands.",
+  "url": "https://finance.yahoo.com/quote/HST",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

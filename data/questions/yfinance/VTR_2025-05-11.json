@@ -1,0 +1,21 @@
+{
+  "id": "VTR_2025-05-11",
+  "source": "yfinance",
+  "question": "Will VTR's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VTR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 70.080. (The latest market close price of VTR.)",
+  "background": "Ventas, Inc. (NYSE: VTR) is a leading S&P 500 real estate investment trust enabling exceptional environments that benefit a large and growing aging population. With approximately 1,350 properties in North America and the United Kingdom, Ventas occupies an essential role in the longevity economy. The Company's growth is fueled by its over 800 senior housing communities, which provide valuable services to residents and enable them to thrive in supported environments. The Ventas portfolio also includes outpatient medical buildings, research centers and healthcare facilities. The Company aims to deliver outsized performance by leveraging its unmatched operational expertise, data-driven insights from its Ventas OI platform, extensive relationships and strong financial position. Ventas's seasoned team of talented professionals shares a commitment to excellence, integrity and a common purpose of helping people live longer, healthier, happier lives.",
+  "url": "https://finance.yahoo.com/quote/VTR",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

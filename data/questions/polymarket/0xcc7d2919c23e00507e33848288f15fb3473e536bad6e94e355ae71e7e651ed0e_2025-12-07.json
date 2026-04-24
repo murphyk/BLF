@@ -1,0 +1,14 @@
+{
+  "id": "0xcc7d2919c23e00507e33848288f15fb3473e536bad6e94e355ae71e7e651ed0e_2025-12-07",
+  "source": "polymarket",
+  "question": "Gemini 3.0 Flash released by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Google's Gemini 3.0 Flash model is made available to the general public by December 31, 2025, 11:59PM ET. \n\nFor this market to resolve to \"Yes,\" Gemini 3.0 Flash must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Google as being accessible to the general public.\n\nGemini 3.0 Flash refers to a product explicitly named Gemini 3.0 Flash. Products labeled as Gemini 3.0, Gemini 2.5, or similar will not count for this market's resolution.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/gemini-3pt0-flash-released-by-december-31-321-576",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-17",
+  "market_value": "0.8075",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

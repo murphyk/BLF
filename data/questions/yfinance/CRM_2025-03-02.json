@@ -1,0 +1,23 @@
+{
+  "id": "CRM_2025-03-02",
+  "source": "yfinance",
+  "question": "Will CRM's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CRM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 326.540. (The latest market close price of CRM.)",
+  "background": "Salesforce, Inc. provides Customer Relationship Management (CRM) technology that brings companies and customers together worldwide. The company's service includes sales to store data, monitor leads and progress, forecast opportunities, gain insights through analytics and artificial intelligence, and deliver quotes, contracts, and invoices; and service that enables companies to deliver trusted and highly personalized customer support at scale. In addition, its platform offering comprise a flexible platform that enables companies of various sizes, locations, and industries to build business workflow and apps with customer; online learning platform that allows anyone to learn in-demand Salesforce skills; and Slack, an intelligent productivity platform. The company's marketing services enables companies to plan, personalize, automate, and optimize customer marketing journey, connecting interaction, and connected products; and commerce services, which empowers shopping experience across various customer touchpoint, such as mobile, web, social, and stores and provides click-to-code tools that offers customers to build and deploy solutions. Further, its analytics offering includes Tableau, an end-to-end analytics solution for range of enterprise use cases and intelligent analytics with AI models, spot trends, predict outcomes, creates summaries, timely recommendations, and take action from any device; and integration service including MuleSoft, which provides building blocks to deliver end-to-end and connected experiences. Additionally, the company provides data cloud, a hyperscale data engine native to Salesforce; vertical services to meet the needs of customers in industries, such as financial services, healthcare and life sciences, manufacturing and automotive and government; and offers salesforce starter for small and medium-sized businesses. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/CRM",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

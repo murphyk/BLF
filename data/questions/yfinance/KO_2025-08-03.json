@@ -1,0 +1,21 @@
+{
+  "id": "KO_2025-08-03",
+  "source": "yfinance",
+  "question": "Will KO's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 69.160. (The latest market close price of KO.)",
+  "background": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and other beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, dogadan, Fuze Tea, Georgia, glac\u00e9au smartwater, glac\u00e9au vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, and Simply brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The company was founded in 1886 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/KO",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "FTNT_2026-04-12",
+  "source": "yfinance",
+  "question": "Will FTNT's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FTNT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 81.150. (The latest market close price of FTNT.)",
+  "background": "Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. The company offers FortiOS, a unified operating system designed to address cybersecurity threats; FortiASIC application-specific integrated circuit (ASIC)-based security processing units; FortiCloud, a private cloud software as a service platform; FortiAI, which provides a dual-layered defense across the Fortinet Security Fabric; FortiEndpoint, which converges secure connectivity, endpoint protection, and capabilities into a single agent; and OT Security, which protect the engineered systems that underpin infrastructure and supply chains. It also provides secure networking solutions that focus on the convergence of networking and security; network firewall solutions comprising FortiGate data centers, hyperscale, and distributed firewalls; wireless local area network solutions; and secure connectivity solutions. In addition, the company offers the Fortinet Unified Secure Access Service Edge solutions that include firewall, software-defined wide-area network, secure web gateway, cloud access services broker, data loss prevention, and zero trust network access; and web application firewalls, cloud network security with virtualized firewalls, cloud-native firewalls, cloud-native application protection, and code security. Further, it provides AI-driven security operation solutions, which include a suite of cybersecurity solutions, as well as FortiEDR, FortiXDR, FortiNDR, FortiSandbox, FortiDeceptor, FortiDLP, and FortiRecon. Additionally, the company offers FortiGuard Labs, a cybersecurity threat intelligence and research organization; FortiGuard and Other Security Services, a suite of AI-powered security capabilities that consists of FortiGuard application, content, device, NOC/SOC, and web security services; and FortiCare technical support services. Fortinet, Inc. was incorporated in 2000 and is headquartered in Sunnyvale, California.",
+  "url": "https://finance.yahoo.com/quote/FTNT",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

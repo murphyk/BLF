@@ -1,0 +1,21 @@
+{
+  "id": "ACN_2025-04-13",
+  "source": "yfinance",
+  "question": "Will ACN's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ACN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 316.330. (The latest market close price of ACN.)",
+  "background": "Accenture plc provides strategy and consulting, industry X, song, and technology and operation services in North America, Europe, the Middle East, Africa, and internationally. It offers systems integration and application management; security; intelligent platform; infrastructure; software engineering; data and AI; and automation services. The company also operates business processes; and designs, manufactures, and assembles automation equipment, robotics, and other commercial hardware products. It serves communications, media, and technology; banking and capital markets, and insurance; health and public service; consumer goods, retail, travel services; industrial; life science; chemicals, natural resources, energy, and utilities sectors. It has collaboration agreement with Kyoto University to advance learning, research, and innovation in human-centered  AI. The company was founded in 1951 and is based in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/ACN",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

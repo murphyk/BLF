@@ -1,0 +1,14 @@
+{
+  "id": "0xf34b156ecf111694d6e6841a7effb807f9483cb0cabfaa3e50283530d96d58ce_2025-10-26",
+  "source": "polymarket",
+  "question": "Tesla launches unsupervised full self driving (FSD) by October 31?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Tesla publicly releases an unsupervised Full Self-Driving capability that satisfies all of the following criteria by October 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo.\u201d\n\n1. Tesla (or Elon Musk) must label the feature \u201cFull Self-Driving\u201d or use an equivalent name indicating no requirement for human intervention.\n\n2. The system must operate on public roads without a human driver present or required to oversee its performance. In practice, this means either:\n- The vehicle runs with no one in the driver\u2019s seat, or\n- The vehicle operates in a mode where no occupant is expected to monitor or intervene.\n\n3. Tesla or any Tesla-affiliated entity must make the unsupervised Full Self-Driving capability broadly accessible either through a robo-taxi or ride-hailing service open to the public, or inclusion as a standard or optional feature on newly sold Tesla vehicles, or a software update that enables unsupervised operation in current vehicles.\n\nAny mode that requires a licensed driver to be seated in the vehicle, or for a human (on-site or remote) to continuously supervise the driving performance or remain ready to intervene at any moment, will not qualify. However, remote monitoring that does not involve continuous supervision or expectation of real-time intervention\u2014for example, oversight limited to emergency response\u2014will not disqualify the service.\n\nThis market\u2019s resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/tesla-launches-unsupervised-full-self-driving-fsd-by-october-31",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-31",
+  "market_value": "0.0135",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

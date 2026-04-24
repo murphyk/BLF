@@ -1,0 +1,19 @@
+{
+  "id": "AON_2025-11-09",
+  "source": "yfinance",
+  "question": "Will AON's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 326.070. (The latest market close price of AON.)",
+  "background": "Aon plc, a professional services firm, provides a range of risk and human capital solutions worldwide. It offers commercial risk solutions, including retail brokerage, specialty solutions, global risk consulting and captive management, and affinity programs; and health solutions, such as consulting and brokerage, consumer benefit, and talent advisory services. The company also provides insurance-linked securities, capital raising, strategic advice, restructuring, and merger and acquisition services; and risk management products and services, capital market solutions, and corporate finance advisory services. In addition, the company offers treaty and facultative reinsurance services; strategic design advice and actuarial services; and investment advisory services on developing and maintaining investment programs across various plan types, including defined benefit plans, defined contribution plans, and trusts for corporations, public pensions, endowments, and foundations. The company was founded in 1919 and is headquartered in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/AON",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "NFLX_2025-08-17",
+  "source": "yfinance",
+  "question": "Will NFLX's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NFLX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 1178.480. (The latest market close price of NFLX.)",
+  "background": "Netflix, Inc. provides entertainment services. The company offers television (TV) series, documentaries, feature films, and games across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. The company operates approximately in 190 countries. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California.",
+  "url": "https://finance.yahoo.com/quote/NFLX",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x907768d66ca516f0d013b5c364058bcbd5fe9ccb983d8756efdb26a5ee35c614_2025-03-30",
+  "source": "polymarket",
+  "question": "100+ Bird Flu cases in U.S. before April?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there are 100 or more confirmed cases of H5 Bird Flu in humans in the territory of the United States of America during the 2024 outbreak according to the CDC case counter by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be the CDC H5 Bird Flu counter (see: https://www.cdc.gov/bird-flu/situation-summary/index.html) at the resolution time. If the counter becomes unavailable, another credible source will be used.\n\nNote: Only cases reported by the CDC H5 Bird Flu counter will qualify, regardless of reports from U.S. State agencies or other sources.",
+  "background": "",
+  "url": "https://polymarket.com/market/100-bird-flu-cases-in-us-before-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.0115",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

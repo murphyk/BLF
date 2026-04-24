@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_604b8e98",
+  "source": "aibq2",
+  "question": "Will Starlink's website show Chad as a country with Starlink availability before July 1, 2025?",
+  "background": "[SpaceX\u2019s Starlink Secures License to Operate in Chad](https://spaceinafrica.com/2024/11/12/spacexs-starlink-secures-license-to-operate-in-chad/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the [Starlink Availability Map](https://www.starlink.com/us/map) has anywhere in Chad listed as \"Available.\"",
+  "url": "https://spaceinafrica.com/2024/11/12/spacexs-starlink-secures-license-to-operate-in-chad/",
+  "forecast_due_date": "2025-05-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

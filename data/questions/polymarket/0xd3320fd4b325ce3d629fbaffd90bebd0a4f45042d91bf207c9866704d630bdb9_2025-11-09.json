@@ -1,0 +1,14 @@
+{
+  "id": "0xd3320fd4b325ce3d629fbaffd90bebd0a4f45042d91bf207c9866704d630bdb9_2025-11-09",
+  "source": "polymarket",
+  "question": "NATO x Russia military clash by March 31, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military encounter between the military forces of a NATO country and Russia between October 8, and March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military encounter\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between NATO and Russian military forces. Non-violent actions, such as airspace violations, firing of warning shots (such as the June, 2021 Black Sea Confrontations between Russian forces and HMS Defender), or cyberattacks will not qualify.\n\nInterception of missiles or other one-way attack or loitering munitions (e.g. Shahed drones) which are targeting a 3rd party other than the listed countries or their respective forces will not alone qualify. Shooting down UAVs which are not munitions (e.g. MQ-9, Orlan 10, Orion, Bayraktar TB2, etc.) will qualify.\n\nIntentional physical collisions, including aerial interceptions and naval ramming without the direct use of weaponry, such as the 2023 Black Sea incident\u2014where a Russian Su-27 damaged a U.S. MQ-9 Reaper drone's propeller, leading to its crash\u2014 will not qualify regardless of damage.\n\nMilitary contractors will qualify only if confirmed to be operating under the direct command or coordination of the respective state\u2019s armed forces (e.g. the Battle of Khasham would not qualify).\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/nato-x-russia-military-clash-by-march-31-2026",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.355",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

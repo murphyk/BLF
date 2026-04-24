@@ -1,0 +1,17 @@
+{
+  "id": "AZO_2026-03-01",
+  "source": "yfinance",
+  "question": "Will AZO's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AZO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 3744.640. (The latest market close price of AZO.)",
+  "background": "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the United States, Mexico, and Brazil. The company offers a product line for cars, sport utility vehicles, vans, and light duty trucks, including new and remanufactured automotive hard parts, maintenance items, accessories, and non-automotive products. It also provides A/C compressors, batteries and accessories, bearings, belts and hoses, calipers, chassis, clutches, CV axles, engines, fuel pumps, fuses, ignition and lighting products, mufflers, radiators, starters and alternators, thermostats, and water pumps, as well as tire repairs. In addition, the company provides maintenance products, such as antifreeze and windshield washer fluids; brake drums, rotors, shoes, and pads; brake and power steering fluids, and oil and fuel additives; oil and transmission fluids; oil, cabin, air, fuel, and transmission filters; oxygen sensors; paints and accessories; refrigerants and accessories; shock absorbers and struts; spark plugs and wires; and windshield wipers. Further, it offers air fresheners, cell phone accessories, drinks and snacks, floor mats and seat covers, interior and exterior accessories, mirrors, performance products, protectants and cleaners, sealants and adhesives, steering wheel covers, tools, vehicle entertainment systems, and wash and wax products, as well as towing services. Additionally, the company provides a sales program that offers commercial credit and delivery of parts and other products; sells automotive diagnostic, repair, collision, and shop management information software under the ALLDATA brand through alldata.com; Duralast branded products through duralastparts.com; and automotive hard parts, maintenance items, accessories, and non-automotive products through autozone.com. AutoZone, Inc. was founded in 1979 and is headquartered in Memphis, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/AZO",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

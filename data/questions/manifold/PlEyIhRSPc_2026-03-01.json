@@ -1,0 +1,14 @@
+{
+  "id": "PlEyIhRSPc_2026-03-01",
+  "source": "manifold",
+  "question": "\"Hamnet\" wins Best Picture?",
+  "resolution_criteria": "Resolves YES if \"Hamnet\" (2025) wins the Best Picture Oscar at the Academy Awards. \n\nContext: Variety places \"Hamnet\" as its #1 contender as of August 24\u2014there's no strong favorite this early in the season, so I am curious how low the probability of their pick is.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/hamnet-wins-best-picture",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-15",
+  "market_value": "0.037642641736577005",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EG_2025-11-09",
+  "source": "yfinance",
+  "question": "Will EG's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 309.450. (The latest market close price of EG.)",
+  "background": "Everest Group, Ltd., through its subsidiaries, provides reinsurance and insurance products in the United States, Europe, and internationally. It operates in two segment, Insurance and Reinsurance. The company writes property and casualty reinsurance; treaty and facultative reinsurance products; and specialty lines of business through reinsurance brokers, as well as directly with ceding companies; and writes property and casualty insurance directly, as well as through brokers, surplus lines, and general agents. It also provides reinsurance products comprising mortgage, catastrophe, marine, aviation, engineering, professional line, credit and surety, motor, agriculture/crop, and political violence reinsurance products. In addition, the company offers commercial property and casualty insurance products through wholesale and retail brokers, surplus lines brokers, and program administrators. The company was formerly known as Everest Re Group, Ltd. and changed its name to Everest Group, Ltd. in July 2023.Everest Group, Ltd., was founded in 1973 and is headquartered in Hamilton, Bermuda.",
+  "url": "https://finance.yahoo.com/quote/EG",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0
+  ]
+}

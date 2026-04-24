@@ -1,0 +1,14 @@
+{
+  "id": "0xc4dba193fa3b80410da74fd559d7071cc8835bbd4651a75e1e9fb3c3d7bec780_2025-10-26",
+  "source": "polymarket",
+  "question": "Will 'The Life of a Showgirl' be #1 for 0 straight weeks?",
+  "resolution_criteria": "This market will resolve according to the number of consecutive weeks that The Life of a Showgirl holds the #1 spot on the Billboard 200.\n\nIf the album does not debut as #1 or is otherwise not released by December 31, 2025, 11:59 PM ET,  this market will resolve to the lowest bracket (0).\n\nConsecutive weeks are counted based on Billboard\u2019s official weekly Billboard 200 chart publications. \n\nThe resolution source will be based on Billboard\u2019s official Billboard 200 chart.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-life-of-a-showgirl-be-1-for-0-straight-weeks",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-28",
+  "market_value": "0.004",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

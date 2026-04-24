@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks a volatility index (OVX) based on options trading for an oil exchange-traded fund, which is a financial market derivative instrument.",
+  "question": "Will the Chicago Board Options Exchange's Crude Oil ETF Volatility Index have increased by each resolution date listed below as compared to its value on 2026-03-01?"
+}

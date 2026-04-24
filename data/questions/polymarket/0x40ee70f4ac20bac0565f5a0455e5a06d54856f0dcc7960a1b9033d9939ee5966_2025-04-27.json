@@ -1,0 +1,15 @@
+{
+  "id": "0x40ee70f4ac20bac0565f5a0455e5a06d54856f0dcc7960a1b9033d9939ee5966_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Bayern Munich win the Bundesliga?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Bayern Munich is the 2024-25 German Bundesliga Champion. Otherwise the market will resolve to \"No\".\n\nIf it is a mathematical certainty Bayern Munich will win the Bundesliga, this market will immediately resolve to \"Yes.\" Likewise, if it becomes mathematically impossible for Bayern Munich to win, this market will immediately resolve to \"No.\" Potential retroactive points deductions past these points will have no bearing on this market's resolution.\n\nThe primary resolution source for this market will be official information from the German Bundesliga (Bundesliga.com). However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bayern-munich-win-the-bundesliga",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-04",
+  "market_value": "0.965",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

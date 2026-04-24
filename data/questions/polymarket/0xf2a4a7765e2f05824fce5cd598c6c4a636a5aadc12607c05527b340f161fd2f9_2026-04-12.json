@@ -1,0 +1,14 @@
+{
+  "id": "0xf2a4a7765e2f05824fce5cd598c6c4a636a5aadc12607c05527b340f161fd2f9_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Bayern Munich win the 2025\u201326 Bundesliga?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 Bundesliga.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 Bundesliga. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 Bundesliga season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from the Bundesliga. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bayern-munich-win-the-202526-bundesliga",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9895",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

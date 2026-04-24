@@ -1,0 +1,23 @@
+{
+  "id": "SOFR_2025-03-30",
+  "source": "fred",
+  "question": "Will the Federal Reserve's Secured Overnight Financing Rate have increased by each resolution date listed below as compared to its value on 2025-03-30?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/SOFR once the data is published.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 4.310. (The latest value released in Secured Overnight Financing Rate from the release Secured Overnight Financing Rate Data.)",
+  "background": "The notes from the release: N/A.  The notes from the series: N/A.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/SOFR",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x7340d11f38c12e86886114cf7d3e0f1063758de8b7ac81db7e580b797aa9dd75_2025-05-25",
+  "source": "polymarket",
+  "question": "GTA VI released in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if it Grand Theft Auto VI is officially released in the US by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
+  "background": "",
+  "url": "https://polymarket.com/market/gta-vi-released-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.049",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

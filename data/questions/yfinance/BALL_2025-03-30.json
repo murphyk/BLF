@@ -1,0 +1,23 @@
+{
+  "id": "BALL_2025-03-30",
+  "source": "yfinance",
+  "question": "Will BALL's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BALL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 51.840. (The latest market close price of BALL.)",
+  "background": "Ball Corporation supplies aluminum packaging products for the beverage, personal care, and household products industries in the United States, Brazil, and internationally. The company manufactures and sells aluminum beverage containers to fillers of carbonated soft drinks, beer, energy drinks, and other beverages. It manufactures and sells extruded aluminum aerosol containers, recloseable aluminum bottles, aluminum cups, and aluminum slugs. Ball Corporation was founded in 1880 and is headquartered in Westminster, Colorado.",
+  "url": "https://finance.yahoo.com/quote/BALL",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

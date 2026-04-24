@@ -1,0 +1,17 @@
+{
+  "id": "SLB_2026-03-01",
+  "source": "yfinance",
+  "question": "Will SLB's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SLB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 51.590. (The latest market close price of SLB.)",
+  "background": "SLB N.V. engages in the provision of technology for the energy industry worldwide. The company operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. The company provides field development and hydrocarbon production, carbon management, and integration of adjacent energy systems; reservoir interpretation and data processing services for exploration data; and well construction and production improvement services and products. It also offers subsurface geology and fluids evaluation information; stimulation services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment; and intervention services to oil and gas operators. In addition, the company offers mud logging, directional drilling, measurement-while-drilling, and logging-while-drilling services, as well as engineering support services; supplies drilling fluid systems; designs, manufactures, and markets roller cone and fixed cutter drill bits; bottom-hole-assembly and borehole enlargement technologies; well planning, well drilling, engineering, supervision, logistics, procurement, and contracting of third parties, as well as drilling rig management solutions; and drilling equipment and services, as well as land drilling rigs and related services. Further, it provides artificial lift; supplies packers, safety valves, sand control technology, and various intelligent systems; midstream production systems; valves, chokes, actuators, and surface trees; and OneSubsea, an integrated solutions, products, systems, and services, including wellheads, subsea trees, manifolds and flowline connectors, control systems, connectors, and services. SLB N.V. was formerly known as Schlumberger Limited and change its name to SLB N.V. in October 2025. The company was founded in 1926 and is based in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/SLB",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x19ee98e348c0ccb341d1b9566fa14521566e9b2ea7aed34dc407a0ec56be36a2_2025-06-08",
+  "source": "polymarket",
+  "question": "MicroStrategy sells any Bitcoin in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if MicroStrategy sells any of its Bitcoin by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be information from MSTR and on-chain data, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/msft-sell-any-bitcoin-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.115",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

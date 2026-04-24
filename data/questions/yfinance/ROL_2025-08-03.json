@@ -1,0 +1,21 @@
+{
+  "id": "ROL_2025-08-03",
+  "source": "yfinance",
+  "question": "Will ROL's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ROL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 55.160. (The latest market close price of ROL.)",
+  "background": "Rollins, Inc., through its subsidiaries, provides pest and wildlife control services to residential and commercial customers in the United States and internationally. The company offers pest control services to residential properties protecting from common pests, including rodents, insects, and wildlife. It also provides workplace pest control solutions for customers across various end markets, such as healthcare, foodservice, and logistics. In addition, the company offers termite protection and ancillary services. It serves clients directly, as well as through franchisee operations. The company was formerly known as Rollins Broadcasting, Inc and changed its name to Rollins, Inc. in 1965. Rollins, Inc. was founded in 1901 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/ROL",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

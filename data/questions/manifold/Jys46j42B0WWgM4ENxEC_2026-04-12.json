@@ -1,0 +1,14 @@
+{
+  "id": "Jys46j42B0WWgM4ENxEC_2026-04-12",
+  "source": "manifold",
+  "question": "The next mainline 3D Mario game will cost $69+",
+  "resolution_criteria": "Nintendo might like to go for the $70 price tag from other consoles for their AAA games. So far, only Zelda dared to.\n\nI'm giving a little slack because $69 would be equivalent.\n\nResolves YES if the next mainline 3D Mario game costs more than $68 in the US. An announcement from Nintendo is sufficient to resolve this.\n\nResolves NO if it costs $68 or less.\n\nClose date might be extended.",
+  "background": "",
+  "url": "https://manifold.markets/marktwse/the-next-mainline-3d-mario-game-wil",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9692874064092831",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

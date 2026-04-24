@@ -1,0 +1,21 @@
+{
+  "id": "EXPD_2025-04-27",
+  "source": "yfinance",
+  "question": "Will EXPD's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EXPD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 105.480. (The latest market close price of EXPD.)",
+  "background": "Expeditors International of Washington, Inc., together with its subsidiaries, provides logistics services in the Americas, North Asia, South Asia, Europe, and MAIR. The company offers airfreight services, such as air freight consolidation and forwarding; ocean freight and ocean services, including ocean freight consolidation, direct ocean forwarding, and order management; customs brokerage and other services, import, intra-continental ground transportation and delivery, and warehousing and distribution services; and customs clearance, purchase order management, vendor consolidation, time-definite transportation services, temperature-controlled transit, cargo insurance, specialized cargo monitoring and tracking, and other logistics solutions. It also provides optimization, trade compliance consulting, cargo insurance, cargo security, and solutions. In addition, it acts as a freight consolidator or as an agent for the airline that carries the shipment. Further, the company provides ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services, and the preparation of documentation to comply with local import and export laws. Its customers include retailing and wholesaling; electronics; healthcare; technology; and industrial and manufacturing companies. The company was incorporated in 1979 and is headquartered in Bellevue, Washington.",
+  "url": "https://finance.yahoo.com/quote/EXPD",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

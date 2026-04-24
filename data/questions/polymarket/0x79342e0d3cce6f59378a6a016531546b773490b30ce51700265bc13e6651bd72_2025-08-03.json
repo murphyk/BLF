@@ -1,0 +1,15 @@
+{
+  "id": "0x79342e0d3cce6f59378a6a016531546b773490b30ce51700265bc13e6651bd72_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Ghislaine Maxwell testify before Congress in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Ghislaine Maxwell provides live or recorded testimony before either chamber of the United States Congress (House of Representatives or Senate), or any of their official committees or subcommittees by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ghislaine-maxwell-testify-before-congress-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.39",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

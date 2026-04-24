@@ -1,0 +1,15 @@
+{
+  "id": "21531_2025-06-08",
+  "source": "metaculus",
+  "question": "Will the bubble in the Magnificent Seven pop before 2026?",
+  "resolution_criteria": "This question will resolve positive if at any point between now and 1 Jan 2026 shares of at least four of the Magnificent Seven stocks (Apple, Microsoft, Alphabet, Amazon, Nvidia, Meta Platforms, and Tesla) close at least 50% below their all-time high. \n\nThe question shall be resolved by using the daily closing share prices available from Yahoo Finance under the 'historical data' tab or, at the discretion of Metaculus admins, any other credible source of share price data.\n\nWhatever data source is used should be adjusted for share splits, so that this question does *not* resolve positive just because a few of the Magnificent Seven decide to do a stock split (ie offer N new shares for each old share).",
+  "background": "US mega-cap stocks Apple, Microsoft, Alphabet (parent of Google), Amazon, Nvidia, Meta Platforms (Facebook), and Tesla are collectively known as [the Magnificent Seven](https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)). At the time of writing, they are collectively worth $13.1 trillion, and their performance [has driven most of the gains in the S&P 500 over 2023](https://finance.yahoo.com/news/one-chart-shows-how-the-magnificent-7-have-dominated-the-stock-market-in-2023-203250125.html). \n\nThe Magnificent Seven's rise has left the S&P [more concentrated than at any time in the last 100 years](https://www.investopedia.com/magnificent-7-stocks-overcrowding-8576644) and prompted fears of a bubble.\n\nOn the other hand, it is possible that recent advances in artificial intelligence will generate so much profit that the Magnificent Seven's current share prices are fully justified by future cash flow.",
+  "url": "https://www.metaculus.com/questions/21531",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.2",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x6fa38b11b1909151a7c1c3bdfb77b24716adbd7ecbe9904ed14a572886120e76_2025-11-09",
+  "source": "polymarket",
+  "question": "Will Zootopia 2 be the top grossing movie of 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the \"Gross\" column on https://www.boxofficemojo.com/year/2025/?grossesOption=calendarGrosses shows 'Zootopia 2' (2025) as the film with the highest 2025 gross once data for December 31 is made available. Otherwise, this market will resolve to \"No\".\n\nNote: This market is about the movie's domestic calendar gross in 2025 - dates outside of 2025 will not count toward this movie's gross.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by January 7, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zootopia-2-be-the-top-grossing-movie-of-2025",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.242",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

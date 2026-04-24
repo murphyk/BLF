@@ -1,0 +1,14 @@
+{
+  "id": "41370_2026-02-01",
+  "source": "metaculus",
+  "question": "Will there be at least one podium sweep at the 2026 Winter Olympic Games?",
+  "resolution_criteria": "This question will resolve as **Yes** if at least one podium sweep occurs at the 2026 Winter Olympic Games.\n\nA podium sweep is defined as:\n\n* All three medal positions (gold, silver, bronze) in a single Olympic event being won by athletes representing the same country or designation.",
+  "background": "A podium sweep occurs when athletes from the same country win gold, silver, and bronze in a single Olympic event.\n\nPodium sweeps have become increasingly rare at the Winter Olympics but can occur in disciplines where a country has exceptional depth, such as cross-country skiing, speed skating, alpine skiing, or freestyle skiing.\n\nRecent Winter Olympics illustrate the pattern:\n\n* [2022 Beijing Winter Olympics](https://en.wikipedia.org/wiki/2022_Winter_Olympics#Podium_sweeps): 1 podium sweep (Germany)\n* [2018 PyeongChang Winter Olympics](https://en.wikipedia.org/wiki/2018_Winter_Olympics#Podium_sweeps): 3 podium sweeps (Netherlands, Norway, Germany)\n* [2014 Sochi Winter Olympics](https://en.wikipedia.org/wiki/2014_Winter_Olympics#Podium_sweeps): 8 podium sweeps (Netherlands x4, USA, France, Norway, Russia)\n\nThe 2026 Winter Olympic Games will be held in Milan\u2013Cortina, Italy, from February 6 to 22, 2026. As in past Games, countries such as Norway, Germany, the United States, the Netherlands, and others may field multiple medal contenders in the same events, creating the possibility of podium sweeps.",
+  "url": "https://www.metaculus.com/questions/41370",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-02-10",
+  "market_value": "0.8300000000000001",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The community prediction."
+}

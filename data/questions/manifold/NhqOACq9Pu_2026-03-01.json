@@ -1,0 +1,14 @@
+{
+  "id": "NhqOACq9Pu_2026-03-01",
+  "source": "manifold",
+  "question": "Will US public opinion shift towards Israel during 2025 (according to gallop)?",
+  "resolution_criteria": "Based on this question:\n\nhttps://news.gallup.com/poll/657404/less-half-sympathetic-toward-israelis.aspx\n\nIn March 2025 gallop reported israel having a net favoutabutilty of 46% - 33% = 13%.\n\nIf this has increased in March 2026 numbers I will resolve yes. If it decreases or stays the same I will resolve no.\n\nMy understanding is that these numbers are updated in March most years as part of \"Gallup's annual World Affairs survey\".\n\n(https://manifold.markets/embed/Daniel_MC/when-will-the-2023-israel-hamas-war?play=true)",
+  "background": "",
+  "url": "https://manifold.markets/Daniel_MC/will-us-public-opinion-shift-toward-20z8C80h9I",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-06",
+  "market_value": "0.07249483407219001",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market value."
+}

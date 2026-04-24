@@ -1,0 +1,19 @@
+{
+  "id": "IC4WSA_2025-11-09",
+  "source": "fred",
+  "question": "Will the 4-week moving average of initial unemployment claims have increased by each resolution date listed below as compared to its value on 2025-11-09?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/IC4WSA once the data is published.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 237500.000. (The latest value released in 4-Week Moving Average of Initial Claims from the release Unemployment Insurance Weekly Claims Report.)",
+  "background": "The notes from the release: N/A.  The notes from the series: An initial claim is a claim filed by an unemployed individual after a separation from an employer. The claim requests a determination of basic eligibility for the Unemployment Insurance program..  Additional background of the series:  1. the units of the series: Number.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Saturday ",
+  "url": "https://fred.stlouisfed.org/series/IC4WSA",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

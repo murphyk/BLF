@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_14241275",
+  "source": "aibq2",
+  "question": "Will any of these candidates be disqualified from running in the 2025 Ivorian presidential election before July 1, 2025?",
+  "background": "BBC: [Main opposition leader removed from Ivory Coast electoral list](https://www.bbc.com/news/articles/c0l0j849143o)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, according to [credible sources](https://www.metaculus.com/faq/#definitions) any of these candidates has been removed from the electoral list or otherwise become legally ineligible to run in the [2025 presidential election](https://en.wikipedia.org/wiki/2025_Ivorian_presidential_election) of the Ivory Coast (C\u00f4te d'Ivoire) under the laws of the country: Gnangbo Kacou, Laurent Gbagbo, Pascal Affi N'Guessan, Jean-Louis Billon, or Simone Gbagbo.",
+  "url": "https://www.bbc.com/news/articles/c0l0j849143o",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

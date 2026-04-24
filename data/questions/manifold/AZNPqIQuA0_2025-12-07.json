@@ -1,0 +1,14 @@
+{
+  "id": "AZNPqIQuA0_2025-12-07",
+  "source": "manifold",
+  "question": "Will the fertility rate of South Korea increase from 2023 to 2025?",
+  "resolution_criteria": "Curious if the martial law attempt will indirectly increase fertility, by potential mechanisms like sense of national crisis or political gender reconciliation.\n\nSource will be https://www.index.go.kr/unify/idx-info.do?pop=1&idxCd=5061\n\nNumber to beat is 0.72 from 2023. If 2025 is higher than that, resolves Yes, otherwise No.",
+  "background": "",
+  "url": "https://manifold.markets/TonyGao/will-the-fertility-rate-of-south-ko",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.9489087124000001",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market value."
+}

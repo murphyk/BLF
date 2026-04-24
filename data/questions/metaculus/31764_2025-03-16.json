@@ -1,0 +1,15 @@
+{
+  "id": "31764_2025-03-16",
+  "source": "metaculus",
+  "question": "Will a fourth person solve a Rubik's cube in less than 3.44 seconds before March 31, 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before March 31, 2025, Eastern Time, the [World Cube Association](https://www.worldcubeassociation.org/results/rankings/333/single) reports that a person besides Max Park, Ruihang Xu, and Yiheng Wang has achieved a single time below 3.44s at solving the 3x3x3 Rubik's Cube at an [official event](https://www.worldcubeassociation.org/competitions).",
+  "background": "*This question is part of the* [*Bridgewater Forecasting Contest*](https://www.metaculus.com/bridgewater/)*. To be eligible to win prizes in the competition you must register for the tournament. The last day to register is March 24, 2025. Sign up or check your registration status* [*here*](https://www.metaculus.com/bridgewater/)*.*\n\n***\n\nThe Rubik's Cube was invented in 1974, released in 1980, and had its first world 'speedcubing' championship [just 8 years later](https://en.wikipedia.org/wiki/Speedcubing#History). The winner achieved a world record of 22.95 seconds. Since then, [17 more people](https://ruwix.com/the-rubiks-cube/history-of-the-world-record-evolution/) have held this record, lowering the time to below 4 seconds. Speedcubers use memorized algorithms to solve the Rubik's Cube and top performances rely on choosing the fastest option and executing it flawlessly.\n\nAs of January 17, 2025, three performances are separated by the rest. While 20 people [have achieved](https://www.worldcubeassociation.org/results/rankings/333/single) a time below 4s, only 3 have achieved one below 3.44s:\n\n* Max Park in 2023 (3.13s)\n* Ruihang Xu (\u8bb8\u745e\u822a) in 2024 (3.24s)\n* Yiheng Wang (\u738b\u827a\u8861) in 2024 (3.27s)",
+  "url": "https://www.metaculus.com/questions/31764",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-30",
+  "market_value": "0.08700000000000001",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}

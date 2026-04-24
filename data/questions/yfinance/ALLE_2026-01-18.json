@@ -1,0 +1,17 @@
+{
+  "id": "ALLE_2026-01-18",
+  "source": "yfinance",
+  "question": "Will ALLE's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ALLE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 159.020. (The latest market close price of ALLE.)",
+  "background": "Allegion plc engages in the provision of security products and solutions worldwide. The company offers door controls, door control system, and exit devices; doors, glass and door systems, and accessories; electronic security products and access control systems, including time, attendance, and workforce productivity; and locks, locksets, portable locks, and key systems. It also provides services and software, such as inspection, maintenance, and repair services for its automatic entrance solutions; software as a service, including access control, platform integration, and workforce management solutions; and ongoing aftermarket services, design and installation offerings, and locksmith offerings. In addition, the company sells its products and solutions to end-users in commercial, institutional, and residential facilities, including education, healthcare, government, hospitality, retail, commercial office, and single and multi-family residential markets under the CISA, Interflex, LCN, Schlage, SimonsVoss, and Von Duprin brands. It sells its products and solutions through distribution and retail channels, such as specialty distribution, e-commerce, and wholesalers, as well as through various retail channels comprising do-it-yourself home improvement centers, online and e-commerce platforms, and small specialty showroom outlets. The company was incorporated in 2013 and is based in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/ALLE",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

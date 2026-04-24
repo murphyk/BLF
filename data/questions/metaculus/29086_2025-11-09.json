@@ -1,0 +1,14 @@
+{
+  "id": "29086_2025-11-09",
+  "source": "metaculus",
+  "question": "Will an H5 virus receive an \"emergence\" risk rating categorized as \"high\" by the US CDC Influenza Risk Assessment Tool before January 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, before January 1, 2026, the Centers for Disease Controls' [Influenza Risk Assessment Tool](https://www.cdc.gov/pandemic-flu/php/monitoring/virus-description.html) (IRAT) provides a weighted risk of potential emergence score characterized as *high* for any H5 influenza virus. This [is defined](https://www.cdc.gov/pandemic-flu/php/national-strategy/influenza-risk-assessment-tool.html) as a score greater than or equal to 8.0. \r\n\r\nIf this does not occur before January 1, 2026, this question resolves as **No**.",
+  "background": "According to [CDC](https://www.cdc.gov/pandemic-flu/php/national-strategy/influenza-risk-assessment-tool.html):\r\n\r\n>The Influenza Risk Assessment Tool (IRAT) is an evaluation tool developed by CDC and external influenza experts that assesses the potential pandemic risk posed by influenza A viruses that currently circulate in animals but not in humans.\r\n\r\nThe IRAT evaluates with respect to potential public health impact and emergence--the latter of which is defined as the potential to start spreading easily and efficiently in people, and is the factor that this question asks. To assess this potential for sustained human-to-human spread, researchers examine the following risk elements:\r\n\r\n- Human infections\r\n- Transmission in animal models\r\n- Receptor binding\r\n- Population immunity\r\n- Infections in animals\r\n- Genomic analysis\r\n- Antigenic relatedness\r\n- Global distribution of animals\r\n- Disease severity and pathogenesis\r\n \r\nAs of August 9, 2024, the [published IRAT](https://www.cdc.gov/pandemic-flu/php/monitoring/virus-description.html) potential emergence risk scores ranged from less than 3 (low risk) to 7.5 (upper moderate), The 7.5 was for a strain of H1N1, a Eurasian avian-like swine influenza A(H1N1) (A/swine/Shandong/1207/2016) virus, clade 1C.2.3 and genotype 4. Please see the full H1N1 Virus Report from July of 2020 [here](https://www.cdc.gov/pandemic-flu/media/pdfs/2024/08/CDC-IRAT-Virus-Report.pdf). The latest H5N1 IRAT emergence risk score is 5.79 from a [Virus Report](https://www.cdc.gov/pandemic-flu/media/pdfs/2024/08/IRATATexas.pdf) published [August 9, 2024](https://www.cdc.gov/pandemic-flu/php/monitoring/irat-virus-summaries.html?CDC_AAref_Val=https://www.cdc.gov/flu/pandemic-resources/monitoring/irat-virus-summaries.htm) and based on information through June 26, 2024.",
+  "url": "https://www.metaculus.com/questions/29086",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.022",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The community prediction."
+}

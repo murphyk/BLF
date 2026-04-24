@@ -1,0 +1,23 @@
+{
+  "id": "TJX_2025-03-16",
+  "source": "yfinance",
+  "question": "Will TJX's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TJX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 123.040. (The latest market close price of TJX.)",
+  "background": "The TJX Companies, Inc., together with its subsidiaries, operates as an off-price apparel and home fashions retailer in the United States, Canada, Europe, and Australia. It operates through four segments: Marmaxx, HomeGoods, TJX Canada, and TJX International. The company sells family apparel, including footwear and accessories; home fashions, such as home basics, furniture, rugs, lighting products, giftware, soft home products, decorative accessories, tabletop, and cookware, as well as expanded pet, and gourmet food departments; jewelry and accessories; and other merchandise. It offers its products through stores and e-commerce sites. The TJX Companies, Inc. was incorporated in 1962 and is headquartered in Framingham, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/TJX",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

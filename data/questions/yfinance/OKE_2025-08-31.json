@@ -1,0 +1,21 @@
+{
+  "id": "OKE_2025-08-31",
+  "source": "yfinance",
+  "question": "Will OKE's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/OKE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 73.680. (The latest market close price of OKE.)",
+  "background": "ONEOK, Inc. operates as a midstream service provider of gathering, processing, fractionation, transportation, storage, and marine export services in the United States. It operates in four segments: Natural Gas Gathering and Processing; Natural Gas Liquids; Natural Gas Pipelines; and Refined Products and Crude. The company owns natural gas gathering pipelines and processing plants in the Mid-Continent, Permian Basin, North Texas, Gulf Coast region, and Rocky Mountain regions; and provides midstream services to producers of NGLs. It also owns NGL gathering and distribution pipelines, fractionation, terminal and storage facilities; and transports refined products, including gasoline, diesel fuel, aviation fuel, kerosene, and heating oil. In addition, the company transports and stores natural gas through regulated interstate and intrastate natural gas transmission pipelines, and natural gas storage facilities; it owns and operates a parking garage in downtown Tulsa, Oklahoma; and leases buildings, warehouses, office space, land, and equipment, including pipeline equipment, pipeline capacity, rail cars, and information technology equipment. Further, the company transports, stores, and distributes refined products, purity NGLs, and crude oil, as well as conducts commodity-related activities, including liquids blending and marketing activities. It serves integrated and independent exploration and production companies; other NGL and natural gas gathering and processing companies; crude oil and natural gas production companies; utilities; industrial companies; natural gasoline distributors; propane distributors; municipalities; ethanol producers; petrochemical, refining, and marketing companies; and diluent users, refineries, and exporters. ONEOK, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma.",
+  "url": "https://finance.yahoo.com/quote/OKE",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

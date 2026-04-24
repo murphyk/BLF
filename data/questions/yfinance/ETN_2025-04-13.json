@@ -1,0 +1,21 @@
+{
+  "id": "ETN_2025-04-13",
+  "source": "yfinance",
+  "question": "Will ETN's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ETN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 283.840. (The latest market close price of ETN.)",
+  "background": "Eaton Corporation plc operates as a power management company worldwide. It operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. The company offers electrical components, industrial components, power distribution and assemblies, residential products, single and three phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose, thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation system, payload carriages, and thermal management products; and wiring connectors and cables, as well as hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, and related after-market customers, as well as industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry. Further, it provides voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. Eaton Corporation plc formerly known as Abeiron Limited. Eaton Corporation plc was founded in 1911 and is based in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/ETN",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

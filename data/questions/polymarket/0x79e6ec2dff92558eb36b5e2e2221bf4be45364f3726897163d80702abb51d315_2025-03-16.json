@@ -1,0 +1,15 @@
+{
+  "id": "0x79e6ec2dff92558eb36b5e2e2221bf4be45364f3726897163d80702abb51d315_2025-03-16",
+  "source": "polymarket",
+  "question": "Trump signs national abortion ban?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump signs a bill into law or performs any executive action that explicitly restricts individuals' access to abortion in the United States by April 29, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nBills which impose limitations or expand existing restrictions on when, where, or under what conditions abortions can be performed, including measures that reduce the gestational age limit for legal abortions, increase mandatory waiting periods, or limit the circumstances under which exceptions are allowed will qualify.\n\nLegislation or executive actions which add regulatory hurdles for providers, such as increased licensing requirements, facility standards, or reporting obligations will not qualify.\n\nAny bill signed into law or executive actions within the market's time frame will qualify, regardless of when the law goes into effect.\n\nIf it becomes impossible for Trump to sign legislation or perform executive actions (e.g., he resigns or leaves office), this market will resolve to \"No\".\n\nThis market's resolution source will be official information from the Trump administration, with a consensus of credible reporting used as needed.",
+  "background": "",
+  "url": "https://polymarket.com/market/trump-signs-national-abortion-ban-in-first-100-days",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.065",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

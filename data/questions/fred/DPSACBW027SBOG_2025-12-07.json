@@ -1,0 +1,19 @@
+{
+  "id": "DPSACBW027SBOG_2025-12-07",
+  "source": "fred",
+  "question": "Will the amount of money representing deposits in all US commercial banks have increased by each resolution date listed below as compared to its value on 2025-12-07?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DPSACBW027SBOG once the data is published.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 18504.959. (The latest value released in Deposits, All Commercial Banks from the release H.8 Assets and Liabilities of Commercial Banks in the United States.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Billions of U.S. Dollars.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/DPSACBW027SBOG",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

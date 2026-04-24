@@ -1,0 +1,15 @@
+{
+  "id": "35562_2025-05-11",
+  "source": "metaculus",
+  "question": "\u00bfLograr\u00e1 una IA un rendimiento >85% en el benchmark FrontierMath antes de 2026?",
+  "resolution_criteria": "Esta pregunta se resolver\u00e1 como **S\u00ed** si, antes del 1 de enero de 2026, se documenta que al menos un sistema de IA logra un rendimiento superior al 85% en el benchmark FrontierMath.&#x20;\n\nEl logro debe ser reportado en un documento (como un art\u00edculo revisado por pares, presentaci\u00f3n en conferencia, publicaci\u00f3n oficial del benchmark o una entrada de blog por el desarrollador de la IA). Una simple referencia a avances o evaluaciones internas, sin resultados de rendimiento publicados, no calificar\u00e1. Si no se publican estos resultados, la pregunta se resolver\u00e1 como **No**.",
+  "background": "El benchmark FrontierMath, detallado en la [<u>p\u00e1gina FrontierMath de Epoch AI</u>](https://epoch.ai/frontiermath/the-benchmark), est\u00e1 dise\u00f1ado para probar el razonamiento matem\u00e1tico de vanguardia en sistemas de IA. Consiste en problemas desafiantes y no triviales que requieren tanto razonamiento simb\u00f3lico como num\u00e9rico, yendo mucho m\u00e1s all\u00e1 del alcance de los benchmarks matem\u00e1ticos est\u00e1ndar. A medida que la investigaci\u00f3n en IA avanza r\u00e1pidamente \u2014con progresos en modelos de lenguaje grandes (LLM) y sistemas de \"razonamiento\" matem\u00e1tico\u2014 lograr una puntuaci\u00f3n por encima del 85% en FrontierMath se\u00f1alar\u00eda un avance significativo en el campo.",
+  "url": "https://www.metaculus.com/questions/35562",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-29",
+  "market_value": "0.26",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The community prediction."
+}

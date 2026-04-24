@@ -1,0 +1,23 @@
+{
+  "id": "ROST_2025-03-16",
+  "source": "yfinance",
+  "question": "Will ROST's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ROST for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 138.640. (The latest market close price of ROST.)",
+  "background": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brand names in the United States. Its stores primarily offer apparel, accessories, footwear, and home fashions. The company's Ross Dress for Less stores sell its products at department and specialty stores to middle income households; and dd's DISCOUNTS stores sell its products at department and discount stores for households with moderate income. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
+  "url": "https://finance.yahoo.com/quote/ROST",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

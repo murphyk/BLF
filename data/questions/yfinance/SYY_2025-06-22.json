@@ -1,0 +1,21 @@
+{
+  "id": "SYY_2025-06-22",
+  "source": "yfinance",
+  "question": "Will SYY's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SYY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 74.740. (The latest market close price of SYY.)",
+  "background": "Sysco Corporation, through its subsidiaries, engages in the marketing and distribution of various food and related products to the foodservice or food-away-from-home industry in the United States, Canada, the United Kingdom, France, and internationally. The company operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments. It distributes frozen food, such as meat, seafood, fully prepared entr\u00e9es, fruits, vegetables, and desserts; canned and dry food products; fresh meat and seafood products; dairy products; beverages; imported specialties; and fresh produce products. The company also supplies various non-food items, including paper products comprising disposable napkins, plates, and cups; tableware consisting of glassware and silverware; cookware, such as pots, pans, and utensils; restaurant and kitchen equipment and supplies; and cleaning supplies. It serves restaurants, hospitals and nursing facilities, schools and colleges, hotels and motels, industrial caterers, and other foodservice venues. The company was incorporated in 1969 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/SYY",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

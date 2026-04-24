@@ -1,0 +1,21 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.61970.D_2025-05-11",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Juan de Nova Island will be higher on each resolution date listed below than on 2025-05-11?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61970.D once the data is published.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 30.388. (The daily average temperature at the French weather station at Juan de Nova Island.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - JUAN DE NOVA - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61970.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61970.D",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

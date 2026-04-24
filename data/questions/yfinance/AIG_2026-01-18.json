@@ -1,0 +1,17 @@
+{
+  "id": "AIG_2026-01-18",
+  "source": "yfinance",
+  "question": "Will AIG's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AIG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 77.070. (The latest market close price of AIG.)",
+  "background": "American International Group, Inc. offers insurance products for commercial, institutional, and individual customers in North America and internationally. It operates through three segments: North America Commercial; International Commercial; and Global Personal. The company provides commercial and industrial property insurance, including business interruption and package insurance that cover exposure to made and natural disasters; general liability, environmental, commercial automobile liability, workers' compensation, excess casualty, and crisis management insurance products; and professional liability insurance. It also offers marine, energy-related property insurance, aviation, political risk, trade credit, trade finance, and portfolio solutions; voluntary and sponsor-paid personal accident, and supplemental health products; and personal auto and homeowners, extended warranty, device protection insurance, home warranty and related services, and insurance for high net-worth individuals. Further, the company provides mortgage and other loans receivable includes commercial mortgages, life insurance policy loans, and commercial loans, The company was founded in 1919 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/AIG",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xbb6988ab627c10bcdfb56471699151aa19aa7d4816e286b5d9e362f99225196c_2026-02-01",
+  "source": "polymarket",
+  "question": "Will the New Orleans Pelicans make the NBA Playoffs?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the listed team makes the 2025-26 NBA Playoffs. Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote: reaching the Play-In Tournament will not qualify as making the Playoffs. To make the NBA Playoffs, a team must earn one of the 16 spots in the postseason bracket.\n\nIf at any point it becomes impossible for this team to make the Playoffs based on the rules of the NBA (e.g. they are mathematically eliminated from reaching the Play-In), this market will resolve immediately to \"No\".\n\nThe resolution source for this market will be official information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-new-orleans-pelicans-make-the-nba-playoffs-568",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-26",
+  "market_value": "0.006500000000000001",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The market price."
+}

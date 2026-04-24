@@ -1,0 +1,21 @@
+{
+  "id": "VRSN_2025-05-25",
+  "source": "yfinance",
+  "question": "Will VRSN's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VRSN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 284.550. (The latest market close price of VRSN.)",
+  "background": "VeriSign, Inc., together with its subsidiaries, provides internet infrastructure and domain name registry services that enables internet navigation for various recognized domain names worldwide. The company enables the security, stability, and resiliency of internet infrastructure and services, including providing root zone maintainer services, operating two of thirteen internet root servers; and offering registration services and authoritative resolution for the .com and .net domains, which supports global e-commerce. It operates directory for .name and .cc; and back-end systems for .edu, domain names. The company was incorporated in 1995 and is headquartered in Reston, Virginia.",
+  "url": "https://finance.yahoo.com/quote/VRSN",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

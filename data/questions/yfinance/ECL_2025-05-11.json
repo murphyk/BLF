@@ -1,0 +1,21 @@
+{
+  "id": "ECL_2025-05-11",
+  "source": "yfinance",
+  "question": "Will ECL's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ECL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 251.430. (The latest market close price of ECL.)",
+  "background": "Ecolab Inc. provides water, hygiene, and infection prevention solutions and services in the United States and internationally. The company operates through four reportable segments: Global Industrial, Global Institutional & Specialty, Global Healthcare & Life Sciences, and Global Pest Elimination. The Global Industrial segment offers water treatment and process applications, and cleaning and sanitizing solutions to manufacturing, food and beverage processing, transportation, chemical, metals and mining, power generation, refining, pulp and paper, and petrochemical industries. The Global Institutional & Specialty segment provides cleaning and sanitizing products to the foodservice, hospitality, lodging, government and education, and retail industries. The Global Healthcare & Life Sciences segment offers cleaning and sanitizing products, such as infection prevention, and end-to-end cleaning and contamination control solutions to the healthcare, personal care, and pharmaceutical industries under the Ecolab, Bioquell, Purolite, and Anios brand names. The Global Pest Elimination segment provides pest elimination services to detect, prevent, and eliminate pests comprising rodents and insects in full-service and quick-service restaurants, food and beverage processors, hotels, grocery operations, and other commercial segments, including education, life sciences, and healthcare. It sells its products through field sales and corporate account personnel, distributors, and dealers. Ecolab Inc. was founded in 1923 and is headquartered in Saint Paul, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/ECL",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

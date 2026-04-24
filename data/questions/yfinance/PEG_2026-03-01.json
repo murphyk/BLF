@@ -1,0 +1,17 @@
+{
+  "id": "PEG_2026-03-01",
+  "source": "yfinance",
+  "question": "Will PEG's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PEG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 84.360. (The latest market close price of PEG.)",
+  "background": "Public Service Enterprise Group Incorporated, through its subsidiaries, operates in electric and gas utility, and nuclear generation businesses in the United States. It operates through PSE&G and PSEG Power segments. The PSE&G segment transmits electricity; distributes electricity and natural gas to residential, commercial, and industrial customers; and appliance services and repairs to customers through its service territory, as well as invests in solar generation projects, and energy efficiency and related programs. The PSEG Power segment engages in nuclear generation businesses; and supplies power and natural gas to nuclear power plants and gas storage facilities activities. As of December 31, 2024, it had electric transmission and distribution system of 25,000 circuit miles and 869,000 poles; 57 switching stations with an installed capacity of 40,000 megavolt-amperes (MVA), and 234 substations with an installed capacity of 10,750 MVA; four electric distribution headquarters and five electric sub-headquarters; 18,000 miles of gas mains, 12 gas distribution headquarters, two sub-headquarters, and two meter shop, as well as 54 natural gas metering and regulating stations; and 158 MegaWatts defined conditions of installed PV solar capacity. Public Service Enterprise Group Incorporated was founded in 1903 and is based in Newark, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/PEG",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

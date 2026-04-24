@@ -1,0 +1,15 @@
+{
+  "id": "0x8a3efd9a41cb8bff7474de6b67f4efa778ac4dd5d8caea008b8087af0a19a0e6_2025-06-22",
+  "source": "polymarket",
+  "question": "US national Ethereum reserve in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US government holds any amount of Ethereum in its reserves at any point between January 15, 2025, ET and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nNote that the US government confiscating Ethereum does not count as holding Ethereum reserves.\n\nThe primary resolution source for this market will be official information from the US government and/or the US federal reserve, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-national-ethereum-reserve-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.18",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

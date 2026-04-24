@@ -1,0 +1,14 @@
+{
+  "id": "40711_2026-03-15",
+  "source": "metaculus",
+  "question": "Will the United States, Russia or China detonate a nuclear device before April 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, after November 12, 2025 and before April 1, 2026, the United States, Russia or China are publicly reported to have detonated a nuclear device anywhere, for any reason.&#x20;",
+  "background": "USA Today November 11, 2025: [If Trump resumes testing of nuclear weapons, Russia says it's going to do it too](https://www.usatoday.com/story/news/world/2025/11/11/russia-trump-nuclear-tests/87209795007/)\n\n> Senior Russian officials on Nov. 11 said they were still waiting for a White House explanation about what President Donald Trump meant he when said he had instructed the Pentagon to resume nuclear weapons testing.\n\n> And that if the United States resumes nuclear testing, Russia will too.\n\n> The abrupt announcement from Trump came just months before the last remaining nuclear-arms-control treaty between the United States and Russia, known as New START, is due to expire in February 2026.\n\n> Trump did not specify what kind of tests he was referring to or whether this included the detonation of nuclear warheads when he announced on Oct. 29 that the United States would \"immediately\" resume nuclear weapons tests, a move he said was needed to ensure the country keeps up with its rival nuclear powers.\n\n[China denies Trump's claim to 60 Minutes about nuclear weapons tests, calls on U.S. to ensure global stability](https://www.cbsnews.com/news/china-trump-nuclear-weapons-tests-60-minutes-beijing-response/)\n\n> China's Foreign Ministry responded on Monday to President Trump's assertion that Beijing has conducted clandestine nuclear weapons testing with a flat denial.\n\n> \"China's testing 'em too,\" Mr. Trump told CBS News correspondent Norah O'Donnell in an interview for 60 Minutes. \"You just don't know about it.\"\n\n> \"Russia's testing, and China's testing, but they don't talk about it. You know, we're a open society. We're different. We talk about it. We have to talk about it, because otherwise you people are going to report \u2014 they don't have reporters that going to be writing about it. We do.\"&#x20;\n\n> Mr. Trump made the claim in the interview with O'Donnell that aired just days after the president's own nominee to lead STRATCOM \u2014 the U.S. military command in charge of nuclear weapons \u2014 told lawmakers on Capitol Hill that neither China nor Russia were conducting nuclear explosive tests.",
+  "url": "https://www.metaculus.com/questions/40711",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.001",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The community prediction."
+}

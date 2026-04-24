@@ -1,0 +1,17 @@
+{
+  "id": "ON_2026-01-18",
+  "source": "yfinance",
+  "question": "Will ON's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 61.890. (The latest market close price of ON.)",
+  "background": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. The company operates through three segments Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module and integrated semiconductor products that perform multiple application functions, including power switching, signal conditioning, and circuit protection. The Analog and Mixed-Signal Group segment designs and develops analogues, mixed-signal, power management ICs, sensor interface devices, power conversion, signal chain, and voltage regulation devices for end-users in the automotive, industrial, computing and mobile end-markets. The Intelligent Sensing Group segment designs and develops complementary metal oxide semiconductor image sensors, image signal processors, single photon detectors, including silicon photomultipliers, single photon avalanche diode arrays, and short-wavelength infrared products, as well as actuator drivers for autofocus and image stabilization for a broad base of end-users in the different end-markets. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona.",
+  "url": "https://finance.yahoo.com/quote/ON",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

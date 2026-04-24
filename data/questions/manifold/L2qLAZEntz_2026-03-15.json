@@ -1,0 +1,14 @@
+{
+  "id": "L2qLAZEntz_2026-03-15",
+  "source": "manifold",
+  "question": "Bitcoin below $52K before March 31, 2026?",
+  "resolution_criteria": "Yes if the Coinbase BTC-USD 1-minute candle low is \u2264 $52,000 any time from market creation (Nov 21, 2025 PT) through March 31, 2026 23:59 PT; otherwise No.\n\nSource: Coinbase (BTC-USD).\n\nResolution: March 31, 2026, 23:59 PT, or earlier upon trigger.",
+  "background": "",
+  "url": "https://manifold.markets/predyx_markets/bitcoin-below-52k-by-march-2026",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.050023201668507",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xb3a76d0e65e030f0c6549e905086e5677dcb9172d3b4bd58808e1671a0bfbf79_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Haas be the 2025 Constructors Champion?",
+  "resolution_criteria": "This market will resolve according to the Constructor\u2019s Championship for the 2025 F1 season. \n\nIn the case of a tie between two teams, this market will resolve in favor of the team whose listed name comes first alphabetically.\n\nIf at any point it becomes impossible for this team to win the 2025 F1 Constructor's Championship based on the rules of F1 (e.g., they are mathematically eliminated from contention), this market will resolve to \u201cNo.\u201d\n\nIf the F1 season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n\nThe resolution source for this market will be information from F1.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-haas-be-the-2025-constructors-champion",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-09",
+  "market_value": "0.0025",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "PPG_2025-04-27",
+  "source": "yfinance",
+  "question": "Will PPG's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PPG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 98.420. (The latest market close price of PPG.)",
+  "background": "PPG Industries, Inc. manufactures and distributes paints, coatings, and specialty materials in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through three segments: Global Architectural Coatings, Performance Coatings, and Industrial Coatings. The Global Architectural Coatings segment offers paints, wood stains, adhesives, sealants, and purchased sundries for painting and maintenance contractors and consumers. The Performance Coatings segment offers coatings, sealants, transparencies, adhesives, engineered materials, packaging, and chemical management services for aerospace industry; coatings, solvents, adhesives, sealants, purchased sundries, digital solutions and paint films for automotive and commercial transport industries; coatings and finishes for protection of metals and structures; and paints, thermoplastics, raised pavement markers, and other pavement marking technologies for government, commercial infrastructure, painting, and maintenance contractors. The Industrial Coatings segment provides coatings, adhesives and sealants, metal pretreatments, and paint films, as well as technical services and coatings applications for automotive original equipment manufacturers, tier supplier, appliances, agricultural and construction equipment, consumer electronics, automotive parts and accessories, building products, kitchenware, and transportation vehicles and other finished products; and on-site coatings services. It also offers coatings for metal cans, closures, plastic and aluminum tubes for food, beverage and personal care, promotional, and specialty packaging; TESLIN substrates for labels, e-passports, drivers' licenses, breathable membranes, and loyalty and identification cards; and organic light emitting diode materials, displays and lighting lens materials, optical lenses, color-change products, and photochromic dyes. The company was incorporated in 1883 and is based in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/PPG",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

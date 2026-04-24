@@ -1,0 +1,15 @@
+{
+  "id": "0xd87fa4ed709b451e4fec7e09e4e600d86e8386f1707a1382fe963523b9a9fa21_2025-06-22",
+  "source": "polymarket",
+  "question": "Will the Titans win the AFC Championship?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Tennessee Titans win the 2025-26 AFC Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for this team to win the AFC Championship based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-titans-win-the-afc-championship-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-01",
+  "market_value": "0.0115",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

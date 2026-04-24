@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question asks for a forecast of the future market closing price of a specific publicly traded stock (Coca-Cola, ticker KO).",
+  "question": "Will KO's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price."
+}

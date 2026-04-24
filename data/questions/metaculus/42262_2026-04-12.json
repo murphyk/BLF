@@ -1,0 +1,14 @@
+{
+  "id": "42262_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Anthropic overtake OpenAI in revenue in 2026?",
+  "resolution_criteria": "This question will resolve as Yes if, at any time before January 1, 2027, public company reports or other credible sources indicate that Anthropic\u2019s annualized revenue (or revenue run-rate) exceeds OpenAI\u2019s annualized revenue (or revenue run-rate).",
+  "background": "Anthropic and OpenAI are two of the leading AI model developers, seeing very rapid revenue growth driven by API sales, enterprise contracts, and subscriptions.\n\nAs of January 2026, [Reuters](https://www.reuters.com/business/openai-cfo-says-annualized-revenue-crosses-20-billion-2025-2026-01-19/) reported that OpenAI\u2019s CFO said the company\u2019s annualized revenue had surpassed \\$20 billion in 2025. [Reuters](https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/?utm_source=chatgpt.com) later reported that OpenAI had topped \\$25 billion in annualized revenue as of February 2026, while Anthropic was at roughly \\$9 billion in annualized revenue at that time.\n\nSeparately, [Anthropic](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation?utm_source=chatgpt.com) announced in February 2026 that its own run-rate revenue had reached \\$14 billion. [EpochAI forecasts](https://epoch.ai/data-insights/anthropic-openai-revenue#:~:text=Anthropic's%20annualized%20revenue%20has%20been,of%207%C3%97%20per%20year.https://epoch.ai/data-insights/anthropic-openai-revenue#:~:text=Anthropic's%20annualized%20revenue%20has%20been,of%207%C3%97%20per%20year.) that Anthropic could overtake OpenAI in annualized revenue by May 2026.\n\n![](https://cdn.metaculus.com/user_uploaded/image_L0rFQsj.png)",
+  "url": "https://www.metaculus.com/questions/42262",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.56",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

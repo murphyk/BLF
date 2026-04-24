@@ -1,0 +1,17 @@
+{
+  "id": "LKQ_2026-02-01",
+  "source": "yfinance",
+  "question": "Will LKQ's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LKQ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 33.790. (The latest market close price of LKQ.)",
+  "background": "LKQ Corporation engages in the distribution of replacement parts, components, and systems used in the repair and maintenance of vehicles and specialty vehicle aftermarket products and accessories. The company operates through four segments: Wholesale-North America, Europe, Specialty, and Self Service. It offers bumper covers, automotive body panels, and lights, as well as paint and paint related consumables for refinishing vehicles; mechanical automotive parts and accessories; salvage products, including mechanical and collision parts comprising engines; transmissions; door assemblies; sheet metal products, such as trunk lids, fenders, and hoods; and lights and bumper assemblies. The company also provides scrap metal and other materials to metals recyclers; precious metals, such as catalytic converters; and brake pads, discs and sensors, clutches, steering and suspension products, filters, and oil and automotive fluids, as well as electrical products, including spark plugs and batteries. In addition, the company distributes recreational vehicle appliances and air conditioners, towing hitches, truck bed covers, vehicle protection products, marine electronics, cargo management products, wheels, tires, and suspension products. It serves collision and mechanical repair shops, new and used car dealerships, and retail customers. The company operates in the United States, Canada, Germany, the United Kingdom, Belgium, the Netherlands, Luxembourg, Italy, the Czech Republic, Austria, Poland, Slovakia, France, and other European countries. LKQ Corporation was incorporated in 1998 and is headquartered in Antioch, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/LKQ",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

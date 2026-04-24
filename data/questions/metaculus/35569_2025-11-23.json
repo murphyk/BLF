@@ -1,0 +1,14 @@
+{
+  "id": "35569_2025-11-23",
+  "source": "metaculus",
+  "question": "\u00bfCrecer\u00e1 la econom\u00eda de Espa\u00f1a m\u00e1s que la de la Eurozona entre el Q3 2024 y el Q3 2025?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si, seg\u00fan\u00a0[<u>datos oficiales de Eurostat</u>](https://ec.europa.eu/eurostat/web/main/news/euro-indicators), el crecimiento del PIB real de Espa\u00f1a (variaci\u00f3n porcentual interanual desde el Q3 2024 hasta el Q3 2025) supera el crecimiento agregado de la Eurozona en el mismo per\u00edodo. Se resolver\u00e1 como\u00a0**No**\u00a0si el crecimiento de la Eurozona es igual o mayor.",
+  "background": "Espa\u00f1a y la Eurozona publican sus cifras de PIB trimestralmente a trav\u00e9s de <u>Eurostat</u>. El crecimiento relativo de la econom\u00eda espa\u00f1ola frente a la media de la Eurozona es un indicador de la competitividad y resiliencia de ambas regiones. Entre 2023 y 2024 (Q3), Espa\u00f1a creci\u00f3 un 3,5% frente al 0,9% de la Eurozona ([<u>Eurostat</u>](https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-06122024-ap#fragment-15944082-grio-inline-nav-8)).",
+  "url": "https://www.metaculus.com/questions/35569",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.999",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The community prediction."
+}

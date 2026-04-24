@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_3ee971bd",
+  "source": "aibq2",
+  "question": "At the end of June 2025, will Wikipedia still list all these countries as \"currently\" blocking access to X (formerly Twitter)?",
+  "background": "According to the resolution source, \"Censorship of Twitter refers to Internet censorship by governments that block access to Twitter (officially known as X since July 2023). Twitter censorship also includes governmental notice and take down requests to Twitter, which it enforces in accordance with its Terms of Service when a government or authority submits a valid removal request to Twitter indicating that specific content published on the platform is illegal in their jurisdiction.\"",
+  "resolution_criteria": "This question resolves as **Yes** if Wikipedia still lists X (formerly known as Twitter) as currently blocked in China, Iran, Myanmar, North Korea, Russia, Turkmenistan and Venezuela at [this link](https://en.wikipedia.org/wiki/Censorship_of_Twitter#Current) when accessed by Metaculus on or after July 1, 2025. If the Wikipedia article does not list X as currently being blocked in any of those countries, this question resolves as **No**.\n\nFine print:\nThe question will resolve as soon as the page is accessed by Metaculus Admins on the resolution date. However, if there are issues accessing the page, then resolution will wait up to July 7, 2025, at which point if Metaculus has still not been able to access the resolution source, this question will be **annulled**. Admins will also use their discretion if there appears to be an [edit war](https://en.wikipedia.org/wiki/Wikipedia:Edit_warring) or lack of Wikipedia [consensus](https://en.wikipedia.org/wiki/Wikipedia:Consensus) and may annul the question in such a case; however, Admins will also strive to resolve the question as definitively Yes or No, and such an edge case should be considered a rare outcome.",
+  "url": "",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

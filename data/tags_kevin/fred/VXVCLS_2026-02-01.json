@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks the performance of a specific financial volatility index (VXVCLS) managed by the CBOE.",
+  "question": "Will the Chicago Board Options Exchange's S&P 500 3-Month Volatility Index have increased by each resolution date listed below as compared to its value on 2026-02-01?"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ORLY_2026-02-01",
+  "source": "yfinance",
+  "question": "Will ORLY's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ORLY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 98.780. (The latest market close price of ORLY.)",
+  "background": "O'Reilly Automotive, Inc., together with its subsidiaries, operates as a retailer and supplier of automotive aftermarket parts, tools, supplies, equipment, and accessories in the United States, Puerto Rico, Mexico, and Canada. The company provides new and remanufactured automotive hard parts and maintenance items, such as alternators, batteries, brake system components, belts, chassis parts, driveline parts, engine parts, fuel pumps, hoses, starters, temperature control, water pumps, antifreeze, appearance products, engine additives, filters, fluids, lighting products, and oil and wiper blades; and accessories, including floor mats, seat covers, and truck accessories. It also offers auto body paint and related materials, automotive tools, and professional service provider service equipment. In addition, the company provides enhanced services and programs consisting used oil, oil filter, and battery recycling; battery, wiper, and bulb replacement; battery diagnostic testing; electrical and module testing; check engine light code extraction; loaner tool program; drum and rotor resurfacing; custom hydraulic hoses; and professional paint shop mixing and related materials. Further, it offers do-it-yourself and professional service for domestic and imported automobiles, vans, and trucks. The company offers its products under the BesTest, BrakeBest, Cartek, Import Direct, MasterPro, MicroGard, Murray, Omnispark, O'Reilly Auto Parts, Precision, PowerTorque, SuperStart, Syntec, and Ultima brands. O'Reilly Automotive, Inc. was founded in 1957 and is headquartered in Springfield, Missouri.",
+  "url": "https://finance.yahoo.com/quote/ORLY",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

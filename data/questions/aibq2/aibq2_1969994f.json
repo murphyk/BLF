@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_1969994f",
+  "source": "aibq2",
+  "question": "Will Francis Suarez announce his candidacy for Florida governor before July 1, 2025?",
+  "background": "Axios: [Miami mayor weighs gubernatorial bid](https://www.axios.com/2025/05/02/florida-governor-miami-mayor-francis-suarez)",
+  "resolution_criteria": "This question resolves as **Yes** if Francis Suarez announces his candidacy for governor of Florida before July 1, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://www.axios.com/2025/05/02/florida-governor-miami-mayor-francis-suarez",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

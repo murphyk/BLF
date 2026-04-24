@@ -1,0 +1,14 @@
+{
+  "id": "0xc512e0c0fa2d19ad6fe8bd885b3089a80fa2bf8382c104321c7359e7014cf567_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Golden (Ejae and Mark Sonnenblick) win Song of the Year at the 68th Annual GRAMMY Awards?",
+  "resolution_criteria": "The GRAMMY Awards are presented annually by the Recording Academy. For the 68th Annual GRAMMY Awards, nominations are scheduled for November 7, 2025, and the ceremony for February 1, 2026.\n\nThis market will resolve according to the listed song that wins Song of the Year at the 68th Annual GRAMMY Awards.\n\nIf, for any reason, no winner is declared by June 30, 2026, 11:59 PM ET, or in case of a tie for the winner, this market will resolve in favor of the listed song that comes first in alphabetical order.\n\nThe resolution source will be the television broadcast of the awards and the Grammy website (https://www.grammy.com/); however, other credible reporting may be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-golden-ejae-and-mark-sonnenblick-win-song-of-the-year-at-the-68th-annual-grammy-awards",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-01",
+  "market_value": "0.5865",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

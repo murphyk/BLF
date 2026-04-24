@@ -1,0 +1,23 @@
+{
+  "id": "LOW_2025-03-16",
+  "source": "yfinance",
+  "question": "Will LOW's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LOW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 242.960. (The latest market close price of LOW.)",
+  "background": "Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States. The company offers a line of products for construction, maintenance, repair, remodeling, and decorating. It also provides home improvement products, such as appliances, seasonal and outdoor living, lawn and garden, lumber, kitchens and bath, tools, paint, millwork, hardware, flooring, rough plumbing, building materials, d\u00e9cor, and electrical. In addition, the company offers installation services through independent contractors in various product categories; and extended protection plans and repair services. It sells its national brand-name merchandise and private brand products to professional customers, homeowners, renters, businesses, and government. The company also sells its products through Lowes.com website; and through mobile applications. Lowe's Companies, Inc. was founded in 1921 and is based in Mooresville, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/LOW",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

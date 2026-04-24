@@ -1,0 +1,15 @@
+{
+  "id": "0x01d150bd16d2edf88980f26fb9f5f778d6cb661827037d7e9c24fe3a0f3009ed_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Darius Garland Win the 2025 NBA Finals MVP?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed player is awarded the 2025 NBA Finals Most Valuable Player Award. Otherwise, this market will resolve to \"No\".\n\nIf the listed player is not announced as a finalist for the 2025 NBA Finals MVP award, this market will immediately resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-darius-garland-win-the-2025-nba-finals-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-11",
+  "market_value": "0.0005",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

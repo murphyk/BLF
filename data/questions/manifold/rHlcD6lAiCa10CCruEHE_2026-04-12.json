@@ -1,0 +1,14 @@
+{
+  "id": "rHlcD6lAiCa10CCruEHE_2026-04-12",
+  "source": "manifold",
+  "question": "Will the Tesla \"Redwood\" be available for purchase and delivery by June 30, 2026?",
+  "resolution_criteria": "Resolves YES if customers are able to buy and physically receive the new Tesla car codenamed \"Redwood\" by June 30, 2026, excluding options for pre-purchase or reservation without delivery.\n\nA minimum of 420 cars must be delivered to be considered a YES. Resolves NO otherwise, including if Tesla ceases to exist or the \"Redwood\" project is cancelled.\n\nhttps://www.reuters.com/business/autos-transportation/tesla-plans-build-new-electric-vehicles-mid-2025-sources-2024-01-24/\n\nTesla CEO Elon Musk confirmed on a post-earnings call on Wednesday that the company expects to start production of its next-generation EV at its Texas factory in the second half of 2025.\n\n[...]\n\nMusk said on Wednesday: \"I'm often optimistic regarding time. But our current schedule shows that we will start production towards the end of 2025\" and that \"We'll be sleeping on the line practically.\"\n\nRelated market:\n@/SIMOROBO/will-the-tesla-redwood-be-available-2f5bcb832bda \n\nUpdate 2026-01-27 (PST) (AI summary of creator comment): The \"Redwood\" refers to Tesla's mass market electric vehicle project, not necessarily the Cybercab robotaxi. If the Cybercab is converted into a regular mass market vehicle for end customers, it could qualify, but it's unlikely to be the exact same car with the exact same name as the robotaxi version.\n\nUpdate 2026-01-29 (PST) (AI summary of creator comment): The Cybercab without a steering wheel does not count as a regular car and will not qualify for YES resolution. However, if Tesla produces a Cybercab with a steering wheel, Model 2, or Model Q, the creator will consider it to be project Redwood and it could qualify for YES resolution.",
+  "background": "",
+  "url": "https://manifold.markets/SIMOROBO/will-the-tesla-redwood-be-available",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.016350275914588",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

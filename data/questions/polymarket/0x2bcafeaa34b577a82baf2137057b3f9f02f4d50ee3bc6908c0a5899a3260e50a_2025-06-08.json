@@ -1,0 +1,15 @@
+{
+  "id": "0x2bcafeaa34b577a82baf2137057b3f9f02f4d50ee3bc6908c0a5899a3260e50a_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Apple be the largest company in the world by market cap on December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Apple is the largest company in the world by market cap on December 31, 2025, as of market close. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-apple-be-the-largest-company-in-the-world-by-market-cap-on-december-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.195",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

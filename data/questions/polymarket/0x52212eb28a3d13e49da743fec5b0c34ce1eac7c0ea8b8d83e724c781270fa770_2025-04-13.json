@@ -1,0 +1,15 @@
+{
+  "id": "0x52212eb28a3d13e49da743fec5b0c34ce1eac7c0ea8b8d83e724c781270fa770_2025-04-13",
+  "source": "polymarket",
+  "question": "Will XRP dip to $1.00 in April?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for XRP (XRPUSDT) between April 1, 2025, 00:00 and April 30, 2025, 23:59 in the ET timezone has a final \"Low\" price of $1.00 or lower. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the XRPUSDT \"Low\" prices available at https://www.binance.com/en/trade/XRP_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance XRPUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-xrp-dip-to-1pt00-in-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.0585",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

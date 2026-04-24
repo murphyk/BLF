@@ -1,0 +1,14 @@
+{
+  "id": "0xc6ddb19f848ac363330d0a690cfe6818d4c51e837161a41d42675eda27767ed0_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Finland win Eurovision 2026?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2026 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2026 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve \"Other\". All ties will be broken according to EBU's official Eurovision rules.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-finland-win-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.363",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

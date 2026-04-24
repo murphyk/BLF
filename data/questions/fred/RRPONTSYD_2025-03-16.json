@@ -1,0 +1,23 @@
+{
+  "id": "RRPONTSYD_2025-03-16",
+  "source": "fred",
+  "question": "Will the aggregated daily value of US Treasury securities sold by the Federal Reserve in temporary open market operations have increased by each resolution date listed below as compared to its value on 2025-03-16?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/RRPONTSYD once the data is published.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 139.493. (The latest value released in Overnight Reverse Repurchase Agreements: Treasury Securities Sold by the Federal Reserve in the Temporary Open Market Operations from the release Temporary Open Market Operations.)",
+  "background": "The notes from the release: N/A.  The notes from the series: This series is constructed as the aggregated daily amount value of the RRP transactions reported by the New York Fed as part of the Temporary Open Market Operations.\n\nTemporary open market operations involve short-term repurchase and reverse repurchase agreements that are designed to temporarily add or drain reserves available to the banking system and influence day-to-day trading in the federal funds market.\n\nA reverse repurchase agreement (known as reverse repo or RRP) is a transaction in which the New York Fed under the authorization and direction of the Federal Open Market Committee sells a security to an eligible counterparty with an agreement to repurchase that same security at a specified price at a specific time in the future. For these transactions, eligible securities are U.S. Treasury instruments, federal agency debt and the mortgage-backed securities issued or fully guaranteed by federal agencies.\nFor more information, see https://www.newyorkfed.org/markets/rrp_faq.html.  Additional background of the series:  1. the units of the series: Billions of US Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

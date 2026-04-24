@@ -1,0 +1,14 @@
+{
+  "id": "0x4b23c2e3ee806915cc1186641d292acbc6b26d7a7746ee93c910b8b0c87d4bca_2026-03-01",
+  "source": "polymarket",
+  "question": "Will the Fed Cut\u2013Pause\u2013Pause in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+  "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve according to the decisions made by the next three Federal Open Market Committee (FOMC) meetings: December 9\u201310, 2025; January 27\u201328, 2026; and March 17-18, 2026.\n\nA qualifying cut occurs when the new upper bound of the target federal funds rate is lower compared to the level it was prior to the respective meeting.\n\nA qualifying hike occurs when the new upper bound of the target federal funds rate is higher compared to the level it was prior to the respective meeting.\n\nA qualifying pause occurs when the new upper bound of the target federal funds rate is equal to the level it was prior to the respective meeting.\n\nIf the Fed publishes a different combination than any listed, this market will resolve to \"Other\". Any rate hike will be encompassed by \"Other\".\n\nEmergency rate cuts outside the regularly scheduled meetings will not be considered.\n\nThe resolution source for this market is the FOMC\u2019s statement after its meetings:\nhttps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve:\nhttps://www.federalreserve.gov/monetarypolicy/openmarket.htm\n\nIf no statement is released for the March 2026 meeting by April 30, 2026, 11:59 PM ET, this market will resolve to \"Other\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-fed-cutpausepause-in-the-next-three-decisions-decjanmar",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-18",
+  "market_value": "0.925",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

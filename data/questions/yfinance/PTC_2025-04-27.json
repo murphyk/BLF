@@ -1,0 +1,21 @@
+{
+  "id": "PTC_2025-04-27",
+  "source": "yfinance",
+  "question": "Will PTC's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PTC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 143.980. (The latest market close price of PTC.)",
+  "background": "PTC Inc. operates as software company in the Americas, Europe, and the Asia Pacific. The company provides Windchill, a suite that manages all aspects of the product development lifecycle(PLM) that provides real-time information sharing, dynamic data visualization, collaborate across geographically distributed teams, and enabling manufacturers to elevate product development, manufacturing, field service, and end-of-life processes; ThingWorx, an Industrial Internet of Things software; ServiceMax, a service lifecycle management solutions enable companies to asset uptime with optimized in-person and remote service and technician productivity with mobile tools, and deliver metrics; and Arena, a SaaS PLM solution enables product teams to collaborate virtually to share product and quality information with internal teams and supply chain partners and deliver products to customers. It offers Codebeamer, an application lifecycle management for products and software development; Servigistics, a service parts management solution; and FlexPLM, a platform for merchandising and line planning, materials management, sampling, and others. In addition, it offers Kepware, an enterprise industrial connectivity solution; Creo, a 3D CAD technology enables the digital design, testing, and modification of product models; and Onshape, a SaaS product development platform that delivers computer-aided design with data management, collaboration tools, and real-time analytics. Further, it offers Vuforia, an augmented reality (AR) software; and Arbortext, a dynamic publishing solution streamlines how organizations create, manage, and publish technical documentation. PTC Inc. was incorporated in 1985 and is headquartered in Boston, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/PTC",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

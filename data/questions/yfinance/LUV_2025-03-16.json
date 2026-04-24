@@ -1,0 +1,23 @@
+{
+  "id": "LUV_2025-03-16",
+  "source": "yfinance",
+  "question": "Will LUV's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LUV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 29.950. (The latest market close price of LUV.)",
+  "background": "Southwest Airlines Co. operates as a passenger airline company that provides scheduled air transportation services in the United States and near-international markets. As of December 31, 2024, the company operated a total fleet of 803 Boeing 737 aircraft; and served 117 destinations in 42 states, the District of Columbia, and the Commonwealth of Puerto Rico, as well as ten near-international countries, including Mexico, Jamaica, the Bahamas, Aruba, the Dominican Republic, Costa Rica, Belize, Cuba, the Cayman Islands, and Turks and Caicos. It also provides inflight entertainment and connectivity services; and Rapid Rewards loyalty program that enables program members to earn points for dollars spent on Southwest base fares. In addition, the company offers a suite of digital platforms to support customers' travel needs, including websites and apps; and SWABIZ, an online booking tool. Further, it provides ancillary services, such as Southwest's EarlyBird Check-In, upgraded boarding, and transportation of pets and unaccompanied minors. Southwest Airlines Co. was incorporated in 1967 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/LUV",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

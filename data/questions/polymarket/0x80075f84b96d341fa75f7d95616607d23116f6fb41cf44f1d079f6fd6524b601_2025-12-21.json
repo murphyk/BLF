@@ -1,0 +1,14 @@
+{
+  "id": "0x80075f84b96d341fa75f7d95616607d23116f6fb41cf44f1d079f6fd6524b601_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Tesla (TSLA) close at $300\u2013325 in 2025?",
+  "resolution_criteria": "This market will resolve according to the official closing price for Tesla (TSLA) on the final trading day of 2025.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nIf the final trading day is shortened (for example, due to a market-holiday schedule), the official closing price published for that shortened session will still be used for resolution. If no official closing price is published for that session (for example, due to a trading halt into the close, system issue, delisting, or other disruption), the market will use the last valid on-exchange trade price of the regular session as the effective closing price.\n\nIn the event of a stock split, reverse stock split, or similar corporate action affecting the listed company during the listed time frame, this market will resolve based on split-adjusted prices as displayed on Yahoo Finance.\n\nThe target price will be adjusted proportionally to reflect any stock splits. Resolution will be based on the historical price data as shown on Yahoo Finance after any adjustments have been applied.\n\nThe resolution source for this market is Yahoo Finance, specifically the Tesla (TSLA) \"Close\" prices available at https://finance.yahoo.com/quote/TSLA/history, published under \"Historical Prices.\"",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tesla-tsla-close-at-300325-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0095",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

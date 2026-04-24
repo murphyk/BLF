@@ -1,0 +1,29 @@
+{
+  "id": "39d7aa6828192b95302b58e3d018da55ff26535fcef6dda5a46484622347bda6_2026-04-12",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will a vaccine have been developed for Food poisoning by Clostridium perfringens by each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_infectious_diseases on the resolution date.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was No. (Vaccine status for Food poisoning by Clostridium perfringens. 'No' means that a vaccine has not yet been created. 'Yes' means that it has.)",
+  "background": "According to Wikipedia, Food poisoning by Clostridium perfringens is the common name of an infectious disease. A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
+  "url": "https://en.wikipedia.org/wiki/List_of_infectious_diseases",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

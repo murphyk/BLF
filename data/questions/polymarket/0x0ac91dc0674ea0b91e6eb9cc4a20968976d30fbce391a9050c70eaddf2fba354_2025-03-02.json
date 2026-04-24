@@ -1,0 +1,15 @@
+{
+  "id": "0x0ac91dc0674ea0b91e6eb9cc4a20968976d30fbce391a9050c70eaddf2fba354_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Alphabet be the largest company in the world by market cap on December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Alphabet (GOOG) is the largest company in the world by market cap on December 31, 2025, as of market close. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-december-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.049",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

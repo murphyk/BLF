@@ -1,0 +1,15 @@
+{
+  "id": "0xb1a6136ad23d19526c4929d2e79c79e999628de931ca2475d138fb31637fd2c4_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Saudi Aramco be the largest company in the world by market cap on December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Saudi Aramco is the largest company in the world by market cap on December 31, 2025, as of market close. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-saudi-aramco-be-the-largest-company-in-the-world-by-market-cap-on-december-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

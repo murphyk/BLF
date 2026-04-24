@@ -1,0 +1,21 @@
+{
+  "id": "BIIB_2025-08-31",
+  "source": "yfinance",
+  "question": "Will BIIB's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BIIB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 138.990. (The latest market close price of BIIB.)",
+  "background": "Biogen Inc. discovers, develops, manufactures, and delivers therapies for treating neurological and neurodegenerative diseases in the United States, Europe, Germany, Asia, and internationally. The company provides TECFIDERA, VUMERITY, AVONEX, PLEGRIDY, and TYSABRI for multiple sclerosis (MS); SPINRAZA for spinal muscular atrophy; SKYCLARYS to treat Friedreich's Ataxia; QALSODY for treating amyotrophic lateral sclerosis; FUMADERM to treat plaque psoriasis; BENEPALI, an etanercept biosimilar referencing ENBREL; IMRALDI, an adalimumab biosimilar referencing HUMIRA; FLIXABI, an infliximab biosimilar referencing REMICADE; BYOOVIZ, a ranibizumab biosimilar referencing LUCENTIS; and TOFIDENCE, a tocilizumab biosimilar referencing ACTEMRA. It offers RITUXAN to treat non-Hodgkin's lymphoma, chronic lymphocytic leukemia (CLL), rheumatoid arthritis, two forms of ANCA-associated vasculitis, and pemphigus vulgaris; RITUXAN HYCELA for non-Hodgkin's lymphoma and CLL; GAZYVA to treat CLL and follicular lymphoma; OCREVUS for relapsing MS and primary progressive MS; LUNSUMIO to treat relapsed or refractory follicular lymphoma; glofitamab for non-Hodgkin's lymphoma; and other anti-CD20 therapies. In addition, the company is developing products for the treatment of MS, Alzheimer's disease and dementia, neuromuscular disorders, Parkinson's disease and movement disorders, neuropsychiatry, and biosimilars. Biogen Inc. has collaboration and license agreements with Merz Therapeutics; Alkermes Pharma Ireland Limited; Denali Therapeutics Inc.; Eisai Co., Ltd.; Genentech, Inc.; Neurimmune SubOne AG; Ionis Pharmaceuticals, Inc.; and Sage Therapeutics, Inc., as well as collaborations with Fujirebio to identify and develop biomarkers for tau pathology in the brain and Stoke Therapeutics, Inc. for the development and commercialization of zorevunersen, a disease modifying medicine for the treatment of Dravet syndrome. The company was founded in 1978 and is headquartered in Cambridge, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/BIIB",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ITW_2025-05-11",
+  "source": "yfinance",
+  "question": "Will ITW's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ITW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 239.910. (The latest market close price of ITW.)",
+  "background": "Illinois Tool Works Inc. manufactures and sells industrial products and equipment in the United States and internationally. It operates through seven segments: Automotive OEM; Food Equipment; Test & Measurement and Electronics; Welding; Polymers & Fluids; Construction Products; and Specialty Products. The Automotive OEM segment offers plastic and metal components, fasteners, and assemblies for automobiles, light trucks, and other industrial uses. The Food Equipment segment provides warewashing, refrigeration, cooking, and food processing equipment; kitchen exhaust, ventilation, and pollution control systems; and food equipment maintenance and repair services. The Test & Measurement and Electronics segment produces and sells equipment, consumables, and related software for testing and measuring of materials and structures, as well as equipment and consumables used in the production of electronic subassemblies and microelectronics. The Welding segment produces arc welding equipment; and metal arc welding consumables and related accessories. The Polymers & Fluids segment produces adhesives, sealants, lubrication and cutting fluids, and fluids and polymers for auto aftermarket maintenance and appearance. The Construction Products segment offers engineered fastening systems and solutions for the residential construction, renovation/remodel, and commercial construction markets. The Specialty Products segment provides beverage packaging equipment and consumables, product coding and marking equipment and consumables, and appliance components and fasteners. It serves the automotive OEM and tiers, MRO, commercial food equipment, construction, general industrial, industrial capital goods, consumer durables, automotive aftermarket end, and other markets. The company distributes its products directly to industrial manufacturers, as well as through independent distributors. Illinois Tool Works Inc. was founded in 1912 and is based in Glenview, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ITW",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

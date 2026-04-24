@@ -1,0 +1,21 @@
+{
+  "id": "TXN_2025-08-17",
+  "source": "yfinance",
+  "question": "Will TXN's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TXN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 185.910. (The latest market close price of TXN.)",
+  "background": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, rest of Asia, Europe, Middle East, Africa, Japan, and internationally. The company operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, and lighting products. This segment provides signal chain products that sense, condition, and measure signals to allow information to be transferred or converted for further processing and control, including amplifiers, data converters, interface products, motor drives, clocks, and logic and sensing products. The Embedded Processing segment offers microcontrollers, processors, wireless connectivity, and radar products; and applications processors for specific computing activity. This segment offers products for use in various markets, such as industrial, automotive, personal electronics, communications equipment, enterprise systems, calculators, and others. It provides DLP products primarily for use in project high-definition images; calculators; and application-specific integrated circuits. The company markets and sells its semiconductor products through direct sales and distributors, as well as through its website. Texas Instruments Incorporated was founded in 1930 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/TXN",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x64e32392edae4ffa0df7134e38039fd598cab75a3e348b163de25c59fa011619_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Xi visit the US before May?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Xi Jinping visits the U.S. between March 16 and April 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purpose of this market, a \"visit\" is defined as Xi physically entering the terrestrial or maritime territory of the United States. Whether or not Xi enters US airspace during the timeframe of this market will have no bearing on a positive resolution.\n\nThe resolution source will be a consensus of credible reporting. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-xi-visit-the-us-before-may",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.095",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

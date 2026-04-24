@@ -1,0 +1,15 @@
+{
+  "id": "0x0b16eb7741855ca3d4383fabb8b760c897c2165d603916497f484b87ba9826dc_2025-04-13",
+  "source": "polymarket",
+  "question": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Nvidia is the largest company in the world by market cap on December 31, 2025, as of market close. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.27",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

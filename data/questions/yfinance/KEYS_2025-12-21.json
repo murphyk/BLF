@@ -1,0 +1,19 @@
+{
+  "id": "KEYS_2025-12-21",
+  "source": "yfinance",
+  "question": "Will KEYS's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KEYS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 212.780. (The latest market close price of KEYS.)",
+  "background": "Keysight Technologies, Inc. provides electronic design and test solutions worldwide. The company operates in two segments, Communications Solutions Group and Electronic Industrial Solutions Group. It offers oscilloscopes; electronic design automation software; instrument measurement and workflow software, application software testing, instrument control software and connectivity, and software testing; modular instruments; digital multimeters, phase noise measurement, power meters and power sensors, counters, LCR meters and impedance measurement products, and electrometers; spectrum, logic, noise figure, and network analyzers; and protocol analyzers and exercisers, bit error ratio testers, AC and DC power analyzers, materials test equipment, device current waveform analyzers, and curve tracers. It also provides signal, waveform, and function generators; arbitrary waveform generators, DC power supplies, and DC electronic loads; wireless drive test, radio access and core network test, wireless analyzers, wireless network emulators, channel emulations, and over-the-air test; application and threat intelligence, cloud test, 5G NR base station test, cyber training simulators, network test hardware, protocol and load test, network security test, and network modeling; bypass switches, cloud visibility and synchronization, network and application monitoring, and network packet brokers and taps; and application-specific test systems, in-circuit test systems, parametric test, laser interferometers and calibration systems, monolithic laser combiners and precision optics, photonic test and measurement products, MMIC millimeter-wave and microwave devices, and accessories. In addition, it offers product support, technical and application support, installation, training, engineering, and integration services. The company was founded in 1939 and is headquartered in Santa Rosa, California.",
+  "url": "https://finance.yahoo.com/quote/KEYS",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

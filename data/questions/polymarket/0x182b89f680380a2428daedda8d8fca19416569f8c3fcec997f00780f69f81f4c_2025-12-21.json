@@ -1,0 +1,14 @@
+{
+  "id": "0x182b89f680380a2428daedda8d8fca19416569f8c3fcec997f00780f69f81f4c_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Trump cut long term capital gains tax in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if legislation that reduces the federal long-term capital gains tax rate for the highest bracket is signed into law by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA reduction to the top income bracket for long term capital gains tax (20%) within market timeframe will be sufficient to resolve this market to \"Yes\". The reduction must apply to the federal long-term capital gains tax rate for individuals and can take effect outside of this market's timeframe.\n\nTemporary reductions or breaks, or changes that do not directly lower the tax rate, such as adjustments to brackets or deductions, will not count.\n\nThe primary resolution source for this market will be official information from the US government, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-cut-long-term-capital-gains-tax-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0115",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

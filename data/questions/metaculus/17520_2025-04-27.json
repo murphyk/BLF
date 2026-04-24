@@ -1,0 +1,15 @@
+{
+  "id": "17520_2025-04-27",
+  "source": "metaculus",
+  "question": "Will the percent of U.S. workers employed in white-collar jobs drop at least 2 percentage points below the 2022 level before 2026?",
+  "resolution_criteria": "This question will resolve as **YES** if, in any quarter between Q2 2023 and Q4 2025 inclusive, BLS reports the percent of US employed persons who are employed in white-collar jobs is less than or equal to 60.0%, and **NO** otherwise. For the purposes of this question, \"white-collar jobs\" will be defined as the total found by summing the following BLS occupations:\n\n* Management, professional, and related occupations\n* Sales and office occupations\n\nResolution will be determined according to the percentages found from the [quarterly averages reported in the BLS Current Population Survey](https://www.bls.gov/web/empsit/cpsee_e13.htm), computed as the sum of the employment for the above occupations divided by the total for the quarter.",
+  "background": "As [The Economist reported in June 2023](https://www.economist.com/finance-and-economics/2023/06/15/ai-is-not-yet-killing-jobs), the percent of US workers who are white-collar, as defined by the Bureau of Labor Statistics, has been steadily rising from ~57% in 1985 to ~62% in 2022. Yet, as they write,\n\n> After astonishing breakthroughs in artificial intelligence, many people worry that they will end up on the economic scrapheap. Global Google searches for \u201cis my job safe?\u201d have doubled in recent months, as people fear that they will be replaced with large language models (llms). Some evidence suggests that widespread disruption is coming. In a recent paper Tyna Eloundou of Openai and colleagues say that \u201caround 80% of the us workforce could have at least 10% of their work tasks affected by the introduction of llms\u201d.\n\nThe % in white-collar jobs was last below 60.0% briefly in 2007, and before that, in the late 1990s.",
+  "url": "https://www.metaculus.com/questions/17520",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.07",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The community prediction."
+}

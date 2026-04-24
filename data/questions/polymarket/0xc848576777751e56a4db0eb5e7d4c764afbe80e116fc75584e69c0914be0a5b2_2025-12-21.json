@@ -1,0 +1,14 @@
+{
+  "id": "0xc848576777751e56a4db0eb5e7d4c764afbe80e116fc75584e69c0914be0a5b2_2025-12-21",
+  "source": "polymarket",
+  "question": "Ukraine Tomahawk missile strike by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Ukraine conducts at least one combat strike using a Tomahawk cruise missiles by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nTests used outside of combat will not qualify. \n\nThe primary resolution source for this market will be official information from the U.S. or Ukrainian government. Credible video or photo evidence, or reporting from The New York Times, the Associated Press, Bloomberg News, Reuters, Axios, Politico, Semafor, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, MSNBC, NBC, BBC, Der Spiegel, DW, Le Monde, Sky News, Al Jazeera, The Kyiv Independent and The Guardian may also be used. ",
+  "background": "",
+  "url": "https://polymarket.com/market/ukraine-tomahawk-strike-by-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0095",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

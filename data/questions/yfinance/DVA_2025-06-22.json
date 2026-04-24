@@ -1,0 +1,21 @@
+{
+  "id": "DVA_2025-06-22",
+  "source": "yfinance",
+  "question": "Will DVA's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DVA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 138.170. (The latest market close price of DVA.)",
+  "background": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the provision of inpatient dialysis services and related laboratory services; and transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
+  "url": "https://finance.yahoo.com/quote/DVA",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x0cd467df4030e7da99133ae20665f0905e6a9cbc6706d11c87712730a0434170_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Bitcoin hit $150k by December 31?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) has a final \"High\" price equal to or greater than the price specified in the title by 11:59PM ET on the date specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-hit-150k-by-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.012",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "STLFSI4_2025-06-08",
+  "source": "fred",
+  "question": "Will the St. Louis Fed Financial Stress Index have increased by each resolution date listed below as compared to its value on 2025-06-08?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/STLFSI4 once the data is published.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was -0.904. (The latest value released in St. Louis Fed Financial Stress Index from the release St. Louis Fed Financial Stress Index.)",
+  "background": "The notes from the release: To obtain detailed information regarding the construction of the St. Louis Financial Stress Index, please see the online appendix at\r\nhttps://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf.  The notes from the series: The STLFSI4 measures the degree of financial stress in the markets and is constructed from 18 weekly data series: seven interest rate series, six yield spreads and five other indicators. Each of these variables captures some aspect of financial stress. Accordingly, as the level of financial stress in the economy changes, the data series are likely to move together.\r\n\r\nHow to Interpret the Index:\r\nThe average value of the index, which begins in late 1993, is designed to be zero. Thus, zero is viewed as representing normal financial market conditions. Values below zero suggest below-average financial market stress, while values above zero suggest above-average financial market stress.\r\n\r\nMore information:\r\nThe STLFSI4 is the third revision (i.e., STLFSI3 (https://fred.stlouisfed.org/series/STLFSI3) and STLFSI2 (https://fred.stlouisfed.org/series/STLFSI2) of the original STLFSI (https://fred.stlouisfed.org/series/STLFSI). Whereas the STLFSI3 used the past 90-day average backward-looking secured overnight financing rate (SOFR) (https://fred.stlouisfed.org/series/SOFR90DAYAVG) in two of their yield spreads, the STLFSI4 uses the 90-day forward-looking SOFR (https://www.cmegroup.com/market-data/cme-group-benchmark-administration/term-sofr.html) in its place. For more information, see \"The St. Louis Fed\u2019s Financial Stress Index, Version 4.0\" (https://fredblog.stlouisfed.org/2022/11/the-st-louis-feds-financial-stress-index-version-4/). For information on earlier STLFSIs, see \"Measuring Financial Market Stress\" (https://files.stlouisfed.org/files/htdocs/publications/es/10/ES1002.pdf), \"The St. Louis Fed\u2019s Financial Stress Index, Version 2.0.\" (https://fredblog.stlouisfed.org/2020/03/the-st-louis-feds-financial-stress-index-version-2-0/), and \"The St. Louis Fed\u2019s Financial Stress Index, Version 3.0\" (https://fredblog.stlouisfed.org/2022/01/the-st-louis-feds-financial-stress-index-version-3-0/)..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Friday ",
+  "url": "https://fred.stlouisfed.org/series/STLFSI4",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

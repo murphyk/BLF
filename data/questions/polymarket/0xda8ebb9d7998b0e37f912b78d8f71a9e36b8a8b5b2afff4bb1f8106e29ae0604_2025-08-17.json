@@ -1,0 +1,15 @@
+{
+  "id": "0xda8ebb9d7998b0e37f912b78d8f71a9e36b8a8b5b2afff4bb1f8106e29ae0604_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Jack Ciattarelli win the New Jersey Governor Election in 2025",
+  "resolution_criteria": "This market will resolve to according to the if the candidate who wins the 2025 New Jersey gubernatorial election.\n\nIf the results of the election are not confirmed by July 31, 2026, this market will resolve to \"Other\".\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven\u2019t called the race in this state for the same candidate, this market will resolve based on official certification.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jack-ciattarelli-win-the-new-jersey-governor-election-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.085",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

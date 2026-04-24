@@ -1,0 +1,14 @@
+{
+  "id": "0x7906cde04153c8c31e52ad747596c56b0ea7ce224a07bc604ea65206fb53a2c5_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Manchester United finish in the top 4 of the EPL 2025\u201326 standings?",
+  "resolution_criteria": "This is a polymarket to predict which clubs finish in the top 4 of the English Premier League standings for the 2025\u201326 season.\n\nIf the listed club officially finishes in the top 4 of the English Premier League standings at the end of the season, the market will resolve to \"Yes.\" Otherwise, it will resolve to \"No.\"\n\nIf two or more clubs are tied on points for a top 4 position, resolution will follow the official English Premier League tiebreaking procedures.\n\nIf the 2025\u201326 English Premier League season is canceled or not completed before October 1, 2026, this market will resolve to \"No.\"\n\nThe primary resolution source will be official information from the English Premier League. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-manchester-united-finish-in-the-top-4-of-the-epl-202526-standings",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.87",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

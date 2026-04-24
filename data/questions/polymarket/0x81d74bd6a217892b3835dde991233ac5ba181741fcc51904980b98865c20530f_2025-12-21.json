@@ -1,0 +1,14 @@
+{
+  "id": "0x81d74bd6a217892b3835dde991233ac5ba181741fcc51904980b98865c20530f_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Sydney Sweeney apologize for her jeans ad in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Sydney Sweeney issues a public apology for her acting in or involvement with the American Eagle advertisement which referred to her as having \u201cgreat jeans\u201d by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA public apology is defined as any statement of sorrow or regret released in a manner intended for public consumption.\n\nThe primary resolution source for this market will be official statements from Sydney Sweeney; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-sydney-sweeney-apologize-for-her-jeans-ad-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.03",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

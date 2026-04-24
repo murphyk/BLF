@@ -1,0 +1,21 @@
+{
+  "id": "VICI_2025-06-22",
+  "source": "yfinance",
+  "question": "Will VICI's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VICI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 32.480. (The latest market close price of VICI.)",
+  "background": "VICI Properties Inc. is an S&P 500 experiential real estate investment trust that owns one of the largest portfolios of market-leading gaming, hospitality and entertainment destinations, including Caesars Palace Las Vegas, MGM Grand and the Venetian Resort Las Vegas, three of the most iconic entertainment facilities on the Las Vegas Strip. VICI Properties owns 93 experiential assets across a geographically diverse portfolio consisting of 54 gaming properties and 39 other experiential properties across the United States and Canada. The portfolio is comprised of approximately 127 million square feet and features approximately 60,300 hotel rooms and over 500 restaurants, bars, nightclubs and sportsbooks. Its properties are occupied by industry-leading gaming, leisure and hospitality operators under long-term, triple-net lease agreements. VICI Properties has a growing array of real estate and financing partnerships with leading operators in other experiential sectors, including Bowlero, Cabot, Canyon Ranch, Chelsea Piers, Great Wolf Resorts, Homefield and Kalahari Resorts. VICI Properties also owns four championship golf courses and 33 acres of undeveloped and underdeveloped land adjacent to the Las Vegas Strip. VICI Properties' goal is to own the highest quality and most productive experiential real estate portfolio through a strategy of partnering with the highest quality experiential place makers and operators.",
+  "url": "https://finance.yahoo.com/quote/VICI",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "IP_2025-03-02",
+  "source": "yfinance",
+  "question": "Will IP's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 56.120. (The latest market close price of IP.)",
+  "background": "International Paper Company produces and sells renewable fiber-based packaging and pulp products in North America, Latin America, Europe, and North Africa. It operates through two segments, Industrial Packaging and Global Cellulose Fibers. The company offers linerboard, medium, whitetop, recycled linerboard, recycled medium and saturating kraft; and pulp for a range of applications, such as diapers, towel and tissue products, feminine care, incontinence, and other personal care products, as well as specialty pulps for use in textiles, construction materials, paints, coatings, and others. It sells its products directly to end users and converters, as well as through agents, resellers, and distributors. The company was founded in 1898 and is headquartered in Memphis, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/IP",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

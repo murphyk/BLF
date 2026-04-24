@@ -1,0 +1,15 @@
+{
+  "id": "0x161230064f6ce2924f0237a5b1b8de1bed35e91888ea91a6e0bc23de1d8118dd_2025-04-27",
+  "source": "polymarket",
+  "question": "New pandemic before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the World Health Organization (WHO) declares any disease a pandemic between December 9, 2024 and June 30, 2025 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be official announcements from the World Health Organization.",
+  "background": "",
+  "url": "https://polymarket.com/market/new-pandemic-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0235",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x0c4c1d224e536067363a96bb1916acfcfef47d503b8838c0113a39104ac05428_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Tesla reach $578 in November?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if, at any point during November 2025 (ET), any 1-minute candle for Tesla, Inc. (TSLA) has a final \"High\" price equal to or above the listed price. Otherwise, this market will resolve to \"No\".\n\nOnly prices achieved during regular trading hours (ET) will be considered.\n\nIn the event of a stock split, reverse stock split, or similar corporate action affecting the listed company during the listed time frame, this market will resolve based on split-adjusted prices as displayed on Yahoo Finance.\n\nThe target price will be adjusted proportionally to reflect any stock splits. Resolution will be based on the historical price data as shown on Yahoo Finance after any adjustments have been applied.\n\nThe resolution source for this market is Yahoo Finance \u2014 specifically, the Tesla, Inc. (TSLA) \"High\" prices available at https://finance.yahoo.com/quote/TSLA/, with the chart settings on \"1m\" for candle intervals.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tsla-reach-578-in-november",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-28",
+  "market_value": "0.033",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

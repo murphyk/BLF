@@ -1,0 +1,15 @@
+{
+  "id": "0xe70c1185b4684b0370ffae9c8a89ef8bf68d535fc77af993fdaf4717bbca3306_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Trump pardon 500-749 Jan 6 protestors in his first 100 days?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if between 500 (inclusive) and 749 (inclusive) people receive a presidential pardon, commutation, or reprieve from Donald Trump between January 20, and April 29, 2025, 11:59 PM ET, for crimes related to the January 6 Capitol attack. Otherwise, this market will resolve to \"No\".\n\nAnnouncements that Trump will pardon individuals will not count. Only pardons, commutations, or reprieves actually issued on that date will count toward a \"Yes\" resolution.\n\nThe primary resolution source for whether any protestor is pardoned will be official information from the US government (e.g. https://www.justice.gov/pardon/clemency-recipients), however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-pardon-500-749-jan-6-protestors-in-his-first-100-days",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.0005",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

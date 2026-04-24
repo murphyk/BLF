@@ -1,0 +1,21 @@
+{
+  "id": "HCA_2025-08-31",
+  "source": "yfinance",
+  "question": "Will HCA's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HCA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 410.180. (The latest market close price of HCA.)",
+  "background": "HCA Healthcare, Inc., through its subsidiaries, owns and operates hospitals and related healthcare entities in the United States. It operates general and acute care hospitals that offers medical and surgical services, including inpatient care, intensive care, cardiac care, diagnostic, and emergency services; and outpatient services, such as outpatient surgery, laboratory, radiology, respiratory therapy, cardiology, and physical therapy. The company also operates outpatient health care facilities consisting of freestanding ambulatory surgery centers, freestanding emergency care facilities, urgent care facilities, walk-in clinics, diagnostic and imaging centers, rehabilitation and physical therapy centers, radiation and oncology therapy centers, physician practices, and various other facilities. In addition, it operates behavioral hospitals, which provide therapeutic programs comprising child, adolescent and adult psychiatric care, adolescent and adult alcohol, drug abuse treatment, and counseling services. The company was formerly known as HCA Holdings, Inc. HCA Healthcare, Inc. was founded in 1968 and is headquartered in Nashville, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/HCA",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

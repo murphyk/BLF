@@ -1,0 +1,14 @@
+{
+  "id": "0x1e17e60a28b3f9ddb668c5fac7b225095a5734a3825cf013659166045e94322f_2026-03-15",
+  "source": "polymarket",
+  "question": "X banned in U.K. by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if use of X/Twitter is banned within the United Kingdom by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA ban will qualify if legislation is enacted or government action is taken to bar U.K. citizens from downloading and/or viewing X/Twitter, and/or posting on X/Twitter. Any legislation or government action that meets these standards will qualify, regardless of if or when the ban goes into effect.\n\nThe primary resolution source for this market will be official information from the United Kingdom and X/Twitter, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/x-banned-in-uk-by-march-31",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.0165",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

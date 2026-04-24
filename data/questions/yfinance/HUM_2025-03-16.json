@@ -1,0 +1,23 @@
+{
+  "id": "HUM_2025-03-16",
+  "source": "yfinance",
+  "question": "Will HUM's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HUM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 262.120. (The latest market close price of HUM.)",
+  "background": "Humana Inc. provides medical and specialty insurance products in the United States. It operates in two segments, Insurance and CenterWell. It offers medical care and supplemental benefit plans to individuals. The company also has a contract with Centers for Medicare and Medicaid Services to administer the Limited Income Newly Eligible Transition prescription drug plan program; and contracts with various states to provide Medicaid, dual eligible, and long-term support services benefits. In addition, it provides commercial fully-insured medical and specialty health insurance benefits comprising dental, vision, and other supplemental health benefits, as well as administrative services only products to individuals and employer groups; and military services, such as TRICARE T2017 East Region contract. Further, the company engages in the operation of pharmacy benefit manager business; operates pharmacies and senior focused primary care centers; and offers home solutions services, such as home health, hospice, and other services to its health plan members, as well as to third parties. It sells its products through employers and employees, independent brokers and agents, sales representatives, and digital insurance agencies. The company was formerly known as Extendicare Inc. and changed its name to Humana Inc. in April 1974. Humana Inc. was founded in 1961 and is headquartered in Louisville, Kentucky.",
+  "url": "https://finance.yahoo.com/quote/HUM",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

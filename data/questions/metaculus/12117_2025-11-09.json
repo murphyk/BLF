@@ -1,0 +1,14 @@
+{
+  "id": "12117_2025-11-09",
+  "source": "metaculus",
+  "question": "Will Virgin Galactic file for bankruptcy protection before 2026?",
+  "resolution_criteria": "This question resolves positively if Virgin Galactic Holdings, Inc. files any petition for bankruptcy protection in the United States, under any chapter of the United States Bankruptcy Code, before 1 January 2026. The question resolves on the filing of such a petition, not on whether any bankruptcy protection is granted by a court. The question resolves negatively if no such petition is filed by that date.\n\nOnly petitions filed by Virgin Galactic Holdings, Inc., or a renamed business entity comprising substantially all of Virgin Galactic Holdings, Inc.'s business (as judged by moderators) as of August 2022, will count towards resolution; any bankruptcy protection petitions filed by subsidiary entities or spin-off companies will not count",
+  "background": "[Virgin Galactic Holdings, Inc.](https://en.wikipedia.org/wiki/Virgin_Galactic) is an American publicly-traded spaceflight company founded by Richard Branson. The company is developing commercial spacecraft and aims to provide suborbital spaceflights to space tourists. \n\nThe company went public through a SPAC merger in 2019, and reached a peak market capitalisation of over $14 billion [in February 2021.](https://ycharts.com/companies/SPCE/market_cap) However, since that time, the company's stock price has declined dramatically, falling more than 80% to less than $2.5 billion.\n\nThe company continues to burn cash, [losing over $100 million in Q2 of 2022,](https://investors.virgingalactic.com/news/news-details/2022/Virgin-Galactic-Announces-Second-Quarter-2022-Financial-Results-And-Provides-Business-Update/default.aspx) and recording revenue of just $357,000 in the quarter.",
+  "url": "https://www.metaculus.com/questions/12117",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.13",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The community prediction."
+}

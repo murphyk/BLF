@@ -1,0 +1,14 @@
+{
+  "id": "0x79afea6a94f0b3dffb5e0886fa1dbd740d688029f7aba351dc46911bcb1b1f95_2026-04-12",
+  "source": "polymarket",
+  "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+  "resolution_criteria": "This market will resolve to the largest company in the world by market cap on June 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-june-30-824",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.795",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AME_2025-03-16",
+  "source": "yfinance",
+  "question": "Will AME's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AME for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 185.040. (The latest market close price of AME.)",
+  "background": "AMETEK, Inc. manufactures and sells electronic instruments (EIG) and electromechanical (EMG) devices in the United States and internationally. The company's EIG segment offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets; power quality monitoring and c devices, uninterruptible power supplies, programmable power and electromagnetic compatibility test equipment, and gas turbines sensors; dashboard instruments for heavy trucks and other vehicles; instrumentation and controls for the food and beverage industries; and aircraft and engine sensors, power supplies, embedded computing, monitoring, fuel and fluid measurement, and data acquisition systems for aerospace and defense industry. Its EMG segment offers engineered medical components and devices, automation solutions, thermal management systems, specialty metals, and electrical interconnects; single-use and consumable surgical instruments, implantable components, and drug delivery systems; engineered electrical connectors and electronics packaging to protect sensitive electronic devices; precision motion control products for data storage, medical devices, business equipment, and automation; high-purity powdered metals, strips and foils, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for thermal management, military and commercial aircraft, and military ground vehicles; and motors for commercial appliances, food and beverage machines, hydraulic pumps, and industrial blowers, as well as operates a network of aviation maintenance, repair, and overhaul facilities. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/AME",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

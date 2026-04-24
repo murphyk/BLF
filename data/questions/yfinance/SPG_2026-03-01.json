@@ -1,0 +1,17 @@
+{
+  "id": "SPG_2026-03-01",
+  "source": "yfinance",
+  "question": "Will SPG's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SPG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 199.630. (The latest market close price of SPG.)",
+  "background": "Simon Property Group, Inc. (NYSE:SPG) is a self-administered and self-managed real estate investment trust (\u0093REIT\u0094). Simon Property Group, L.P., or the Operating Partnership, is our majority-owned partnership subsidiary that owns all of our real estate properties and other assets. In this package, the terms Simon, we, our, or the Company refer to Simon Property Group, Inc., the Operating Partnership, and its subsidiaries. We own, develop and manage premier shopping, dining, entertainment and mixed-use destinations, which consist primarily of malls, Premium Outlets, The Mills, and International Properties. At December 31, 2024, we owned or had an interest in 229 properties comprising 183 million square feet in North America, Asia and Europe. We also owned an 88% interest in The Taubman Realty Group, or TRG, which owns 22 regional, super-regional, and outlet malls in the U.S. and Asia. Additionally, at December 31, 2024, we had a 22.4% ownership interest in Klepierre, a publicly traded, Paris-based real estate company, which owns shopping centers in 14 European countries.",
+  "url": "https://finance.yahoo.com/quote/SPG",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

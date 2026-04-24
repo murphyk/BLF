@@ -1,0 +1,14 @@
+{
+  "id": "0xea545a6f18395f2e6a6edb3154e19ac51fd5b1296e56e4e77a7067e392a6943f_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Google Gemini 3 score at least 60% on the FrontierMath Benchmark by?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Google Gemini 3 model achieves the listed score or greater on the FrontierMath Exam by January 31, 2026, 11:59 PM ET. Otherwise, the market will resolve to \"No\".\n\nThis market will resolve according to the Epoch AI\u2019s Frontier Math benchmarking leaderboard (https://epoch.ai/frontiermath) for Tier 1-3. Studies which are not included in the leaderboard (e.g. https://x.com/EpochAIResearch/status/1945905796904005720) will not be considered.\n\nThe primary resolution source will be information from EpochAI; however, a consensus of credible reporting may also be used. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-google-gemini-3-score-at-least-60-on-the-frontiermath-benchmark-by",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-31",
+  "market_value": "0.21150000000000002",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

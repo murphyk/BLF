@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_cec7a311",
+  "source": "aibq2",
+  "question": "Will Haley Stevens announce her candidacy for US Senator from Michigan before May 1, 2025?",
+  "background": "CNN: [Democrats lose another top contender for US Senate seat in Michigan after Whitmer and Buttigieg bow out](https://www.cnn.com/2025/04/10/politics/michigan-senate-race-democrats-mcdonald-rivet/index.html)",
+  "resolution_criteria": "This question resolves as **Yes** if Haley Stevens announces her candidacy for US Senator from Michigan before May 1, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://www.cnn.com/2025/04/10/politics/michigan-senate-race-democrats-mcdonald-rivet/index.html",
+  "forecast_due_date": "2025-04-21",
+  "resolution_date": "2025-05-01",
+  "resolved_to": 1.0
+}

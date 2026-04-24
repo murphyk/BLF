@@ -1,0 +1,14 @@
+{
+  "id": "0x7b22caeed454d3c7dbd07b83d8255c74e1482c4f958b4ba4dd0c27b864cd47a2_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Luiz In\u00e1cio Lula da Silva qualify for Brazil's presidential runoff?",
+  "resolution_criteria": "General elections are scheduled to take place in Brazil on October 4, 2026. If no candidate wins outright in the first round, the top two candidates proceed to a runoff.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to Brazil's presidential runoff election or otherwise wins outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf the president is decided in the first round of the election but the listed candidate is not the winner or the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-luiz-incio-lula-da-silva-qualify-for-brazils-presidential-runoff",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.73",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

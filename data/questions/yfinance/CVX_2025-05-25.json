@@ -1,0 +1,21 @@
+{
+  "id": "CVX_2025-05-25",
+  "source": "yfinance",
+  "question": "Will CVX's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CVX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 135.500. (The latest market close price of CVX.)",
+  "background": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. The company operates in two segments, Upstream and Downstream. The Upstream segment engages in the exploration, development, production, and transportation of crude oil and natural gas; liquefaction, transportation, and regasification of liquefied natural gas; transporting crude oil through pipelines; processing, transporting, storage, and marketing of natural gas; and carbon capture and storage, as well as a gas-to-liquids plant. The Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/CVX",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

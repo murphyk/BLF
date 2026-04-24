@@ -1,0 +1,21 @@
+{
+  "id": "WRESBAL_2025-05-11",
+  "source": "fred",
+  "question": "Will the weekly average of reserve balances held with Federal Reserve Banks have increased by each resolution date listed below as compared to its value on 2025-05-11?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WRESBAL once the data is published.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 3256.734. (The latest value released in Liabilities and Capital: Other Factors Draining Reserve Balances: Reserve Balances with Federal Reserve Banks: Week Average from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: Feb 1984 - Dec 1990: Annual Statistical Digest, various issues, Table 2.\nJan 1991 to date: Federal Reserve Board, H.4.1.\nReserve balances with Federal Reserve Banks are the difference between \"total factors supplying reserve funds\" and \"total factors, other than reserve balances, absorbing reserve funds.\" This item includes balances at the Federal Reserve of all depository institutions that are used to satisfy reserve requirements and balances held in excess of balance requirements. It excludes reserves held in the form of cash in bank vaults, and excludes service-related deposits.  Additional background of the series:  1. the units of the series: Billions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/WRESBAL",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

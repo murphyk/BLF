@@ -1,0 +1,19 @@
+{
+  "id": "LOW_2025-12-21",
+  "source": "yfinance",
+  "question": "Will LOW's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LOW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 246.200. (The latest market close price of LOW.)",
+  "background": "Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States. It provides a line of products for construction, maintenance, repair, remodeling, and decorating. The company also offers home improvement products, such as appliances, seasonal and outdoor living, lumber, lawn and garden, kitchens and bath, hardware, building materials, millwork, paint, rough plumbing, tools, electrical, flooring, and d\u00e9cor. In addition, it offers installation services through independent contractors in various product categories; and extended protection plans and repair services. The company sells its national brand-name merchandise and private brand products to professional customers, individual homeowners, and renters. The company also sells its products through Lowes.com website, as well as through mobile applications. Further, it provides design, distribution, and installation services for interior surface finishes to home builders and property managers. Lowe's Companies, Inc. was founded in 1921 and is based in Mooresville, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/LOW",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

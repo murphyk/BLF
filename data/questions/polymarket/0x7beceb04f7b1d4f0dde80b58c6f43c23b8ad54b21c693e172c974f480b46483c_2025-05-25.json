@@ -1,0 +1,15 @@
+{
+  "id": "0x7beceb04f7b1d4f0dde80b58c6f43c23b8ad54b21c693e172c974f480b46483c_2025-05-25",
+  "source": "polymarket",
+  "question": "Will Inter Milan win the UEFA Champions League?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Inter Milan wins the 2024-25 UEFA Champions League. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for this team to win the 2024-2025 UEFA Champions League based on the rules of the tournament (e.g. they are eliminated), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-inter-milan-win-the-uefa-champions-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-31",
+  "market_value": "0.41200000000000003",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

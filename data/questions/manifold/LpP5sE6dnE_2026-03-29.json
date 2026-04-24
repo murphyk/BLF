@@ -1,0 +1,14 @@
+{
+  "id": "LpP5sE6dnE_2026-03-29",
+  "source": "manifold",
+  "question": "Will X.com be accessible in the UK on 31st March?",
+  "resolution_criteria": "After the Grok sexual deepfakes scandal took off, the UK government has suggested the site formerly known as Twitter could be blocked under the Online Safety Act. \n\nThis question asks whether an average UK user, without a VPN or other geoblock-avoidance tool, will be able to log in to X.com and post a tweet at any time on 31st March 2026. \n\nUpdate 2026-01-11 (PST) (AI summary of creator comment): Clarifications on resolution:\n\nDefault setup: Standard browser on standard network (DPI bypass counts as avoidance tool)\n\nISP determination: Will use BT Group ISP as the default reference (UK's largest ISP)\n\nPartial resolution possibility: If BT blocks but other major ISPs don't, may resolve to % of UK market blocked based on ISP subscriber numbers (rounded to nearest 5%). If only small providers aren't blocking, resolves 100%\n\nBlocked vs illegal: If X.com is not technically blocked but accessing it is illegal (\"go to jail\" law), resolves NO - the market is about blocking, not legality",
+  "background": "",
+  "url": "https://manifold.markets/Noit/will-xcom-be-accessible-in-the-uk-o",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-30",
+  "market_value": "0.967174190134454",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market value."
+}

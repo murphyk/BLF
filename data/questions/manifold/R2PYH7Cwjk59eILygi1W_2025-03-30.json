@@ -1,0 +1,15 @@
+{
+  "id": "R2PYH7Cwjk59eILygi1W_2025-03-30",
+  "source": "manifold",
+  "question": "Will it be public knowledge by EOY 2025 that a major AI lab believed to have created AGI internally before October 2023?",
+  "resolution_criteria": "https://twitter.com/apples_jimmy/status/1703695596396441741\n\nResolves yes if any time before 01/01/2026 it is revealed that a major AI lab (OpenAI, Deepmind, Anthropic, etc) believed they had AGI internally before October 2023.",
+  "background": "",
+  "url": "https://manifold.markets/dmayhem93/will-it-be-public-knowledge-by-eoy",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-02",
+  "market_value": "0.05475713952361701",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "KIM_2025-06-08",
+  "source": "yfinance",
+  "question": "Will KIM's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KIM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 21.010. (The latest market close price of KIM.)",
+  "background": "Kimco Realty (NYSE: KIM) is a real estate investment trust (REIT) and leading owner and operator of high-quality, open-air, grocery-anchored shopping centers and mixed-use properties in the United States. The company's portfolio is strategically concentrated in the first-ring suburbs of the top major metropolitan markets, including high-barrier-to-entry coastal markets and rapidly expanding Sun Belt cities. Its tenant mix is focused on essential, necessity-based goods and services that drive multiple shopping trips per week. Publicly traded on the NYSE since 1991 and included in the S&P 500 Index, the company has specialized in shopping center ownership, management, acquisitions, and value-enhancing redevelopment activities for more than 65 years. With a proven commitment to corporate responsibility, Kimco Realty is a recognized industry leader in this area. As of December 31, 2024, the company owned interests in 568 U.S. shopping centers and mixed-use assets comprising 101 million square feet of gross leasable space.",
+  "url": "https://finance.yahoo.com/quote/KIM",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

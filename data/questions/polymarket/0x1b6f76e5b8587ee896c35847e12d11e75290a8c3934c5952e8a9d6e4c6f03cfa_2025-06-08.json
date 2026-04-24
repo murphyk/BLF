@@ -1,0 +1,15 @@
+{
+  "id": "0x1b6f76e5b8587ee896c35847e12d11e75290a8c3934c5952e8a9d6e4c6f03cfa_2025-06-08",
+  "source": "polymarket",
+  "question": "Khamenei out as Supreme Leader of Iran in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Iran's Supreme leader, Ali Khamenei, is removed from power for any length of time between December 28, 2024, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nKhamenei will be considered to be removed from power if he resigns, is detained, or otherwise loses his position or is prevented from fulfilling his duties as Supreme Leader of Iran within this market's timeframe.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/khamenei-out-as-supreme-leader-of-iran-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.245",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

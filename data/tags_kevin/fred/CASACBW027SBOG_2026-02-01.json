@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks the cash assets of commercial banks using Federal Reserve data, which is a key indicator of liquidity within the banking sector and financial system.",
+  "question": "Will the cash assets of all commercial US banks have increased by each resolution date listed below as compared to its value on 2026-02-01?"
+}

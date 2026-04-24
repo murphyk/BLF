@@ -1,0 +1,15 @@
+{
+  "id": "0xddf468f8f181c3d02fd9614fceed3b7488ea5a0f90e921b18231cc8127ca77ca_2025-08-17",
+  "source": "polymarket",
+  "question": "Earthquake 7.0 or above by September 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if 1 or more earthquakes with a magnitude of 7.0 or higher occur anywhere on earth between July 31, and September 30, 11:59 PM ET. Otherwise this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market is the United States Geological Survey (USGS) Earthquake Hazards Program (https://earthquake.usgs.gov/earthquakes/browse/significant.php#sigdef).\n\nIf an earthquake of substantial size has occurred within this market's timeframe but not yet appeared on the resolution source, this market may remain open until October 7, 2025, 11:59 PM ET, or until the earthquake in question otherwise appears on the resolution source. If such an earthquake has not appeared on the resolution source by that date, another credible resolution source will be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/earthquake-7pt0-or-above-by-september-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-23",
+  "market_value": "0.881",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xcc5494faf5ceca60a77a46db255b8c8e30b1bcc7d94d9138f5d4e945bba1ad34_2025-12-21",
+  "source": "polymarket",
+  "question": "Based FDV above $500M one day after launch?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Based's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Based (https://x.com/BasedOneX) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/based-fdv-above-500m-one-day-after-launch-129",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.525",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

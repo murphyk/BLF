@@ -1,0 +1,21 @@
+{
+  "id": "NWSA_2025-05-11",
+  "source": "yfinance",
+  "question": "Will NWSA's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NWSA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 27.120. (The latest market close price of NWSA.)",
+  "background": "News Corporation, a media and information services company, creates and distributes authoritative and engaging content, and other products and services for consumers and businesses worldwide. It operates through six segments: Digital Real Estate Services, Subscription Video Services, Dow Jones, Book Publishing, News Media, and Other. The company distributes content and data products, including The Wall Street Journal, Barron's, MarketWatch, Investor's Business Daily, Factiva, Dow Jones Risk & Compliance, Dow Jones Newswires, and Dow Jones Energy through various media channels, such as newspapers, newswires, websites, mobile apps, newsletters, magazines, proprietary databases, live journalism, video, and podcasts. It also owns and operates Monday to Friday, Saturday and Sunday, weekly, and bi-weekly newspapers comprising The Australian, The Weekend Australian, The Daily Telegraph, The Sunday Telegraph, Herald Sun, Sunday Herald Sun, The Courier Mail, The Sunday Mail, The Advertiser, Sunday Mail, The Sun, The Sun on Sunday, The Times, The Sunday Times, and New York Post, as well as digital mastheads and other websites. In addition, the company publishes general fiction, nonfiction, children's, and religious books; provides sports, entertainment, and news services to pay-TV and streaming subscribers, and other commercial licensees through satellite and internet distribution; and broadcasts rights to live sporting events. Further, it offers property and property-related advertising and services on its websites and mobile applications; digital real estate services; and financial services. News Corporation was founded in 2012 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/NWSA",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

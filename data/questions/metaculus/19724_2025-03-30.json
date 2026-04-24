@@ -1,0 +1,15 @@
+{
+  "id": "19724_2025-03-30",
+  "source": "metaculus",
+  "question": "Will Russia have significantly expanded its controlled territory in Ukraine on January 1, 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, on January 1, 2026, Russia has de facto control of specific key locations which it currently controls as of October 30, 2023, and also controls two or more additional specified locations that it currently does not. Resolution will be determined according to maps produced by the [Institute for the Study of War](https://isw.pub/InteractiveUkraineWarMap) (ISW). The relevant locations are listed below, and also shown in a map embedded in the background section.\n\nRussia must have control of **at least two** of the following locations:\n\n* Mikolaiv: Admiralska St, 20, Mykolaiv, Mykolaiv Oblast, Ukraine, 54000\n* Zaporizhzhia: Sobornyi Ave, 206, Zaporizhzhia, Zaporizhia Oblast\n* Kharkiv: Konstytutsii Square, 7, Kharkiv, Kharkiv Oblast, Ukraine, 61000\n* Odesa: Dums'ka Square, 1, Odesa, Odesa Oblast, Ukraine, 65000\n* Lozova: Lozova City Council, Vulytsya Yaroslava Mudroho, Lozova, Kharkivs'ka oblast, Ukraine, 64600\n* Sumy: Sumy City Council, Nezalezhnosti Square, 2, Sumy, Sums'ka oblast, Ukraine, 40000\n* Chernihiv: Chernihiv City Council, Mahistrats'ka St, 7, Chernihiv, Chernihivs'ka oblast, Ukraine, 14000\n\nRussia must also have control of **all** of the following locations:\n\n* Simferopol - Ulitsa Karla Marksa, 18, Simferopol\n* Nova Kakhovka - \u0413\u043e\u0440\u0441\u043e\u0432\u0435\u0442, Prospekt Dniprovs\u02b9kyy, 23, Nova Kakhovka, Kherson Oblast, Ukraine, 74900\n* Svatove - Avtoshlyakh R 66, Svatove, Luhansk Oblast, Ukraine, 92600\n* Donetsk - Artema St, 98, Donetsk, Donetsk Oblast, Ukraine, 83000\n* Tokmak - Central St, 45, Tokmak, Zaporizhia Oblast, Ukraine, 71700",
+  "background": "[Russia invaded Ukraine on February 24, 2022](https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine). In 2023 Ukraine [commenced a counteroffensive](https://en.wikipedia.org/wiki/2023_Ukrainian_counteroffensive), though as of October 30, 2023, [Ukraine's gains have been modest](https://news.yahoo.com/ukraines-counteroffensive-has-been-slow-but-western-support-remains-strong--even-with-new-war-in-middle-east-215707295.html), and it  remains unclear how the controlled territory will shift in the long run.\n\n<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1gg5PBOaPGAuOjX5kCafOgNIBMWW-ZdI&ehbc=2E312F\" width=\"640\" height=\"480\"></iframe>",
+  "url": "https://www.metaculus.com/questions/19724",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.17",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The community prediction."
+}

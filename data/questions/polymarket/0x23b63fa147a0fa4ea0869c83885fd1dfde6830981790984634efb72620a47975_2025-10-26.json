@@ -1,0 +1,14 @@
+{
+  "id": "0x23b63fa147a0fa4ea0869c83885fd1dfde6830981790984634efb72620a47975_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Eminem be the top Spotify artist for 2025?",
+  "resolution_criteria": "Spotify releases an annual report of its most streamed artist (see: https://newsroom.spotify.com/2024-12-04/top-songs-artists-podcasts-audiobooks-albums-trends-2024/). This market refers to the most streamed Spotify artist for 2025. \n\nIf the above-listed artists are the most streamed Spotify artist for 2025, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf Spotify does not release who their top artist for 2025 is by January 31, 2026, 11:59 PM ET, this market will resolve to \"No\". \n\nThe resolution source for this market will be official information from Spotify, typically released as part of Spotify Wrapped. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-eminem-be-the-top-spotify-artist-for-2025-915",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-03",
+  "market_value": "0.0005",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

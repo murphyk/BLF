@@ -1,0 +1,15 @@
+{
+  "id": "0xebddfcf7b4401dade8b4031770a1ab942b01854f3bed453d5df9425cd9f211a9_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Zohran Mamdani win the 2025 NYC mayoral election?",
+  "resolution_criteria": "The 2025 New York City mayoral election will be held on November 4, 2025, to elect the mayor of New York City.\n\nThis market will resolve according to the candidate candidate that wins the election.\n\nThe primary resolution source for this market will be a consensus of credible reporting, however if there is any ambiguity in the results this market will resolve according to official information from New York City.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zohran-mamdani-win-the-2025-nyc-mayoral-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.321",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "XYL_2026-02-01",
+  "source": "yfinance",
+  "question": "Will XYL's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/XYL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 141.760. (The latest market close price of XYL.)",
+  "background": "Xylem Inc., together with its subsidiaries, engages in the design, manufacture, and servicing of engineered products and solutions for utility, industrial, and residential and commercial building services settings worldwide. It operates through four segments: Water Infrastructure; Applied Water; Measurement and Control Solutions; and Water Solutions and Services. The company offers water, wastewater and storm water pumps, and controls and systems; filtration, disinfection, and biological treatment equipment under the Flygt, Ionpure, Vortisand, Wallace & Tiernan, and Wedeco brands; and pumps, valves, heat exchangers, controls and dispensing equipment used for water and focuses on the residential, commercial and industrial markets under the Rule, Bell & Gossett, Flojet, Goulds Water Technology, Jabsco, Lowara, and Standard Xchange brands. It also provides smart meters, network communication devices, data analytics, test instruments, controls, sensor devices, software and managed services, and critical infrastructure services; and software and services including cloud-based analytics, and remote monitoring and data management under the Sensus, Smith Blair, WTW, YSI, and Xylem Vue brands. In addition, the company offers preventative maintenance services, rapid response mobile services, digitally enabled/outsourced solutions, process and wastewater treatment systems, environmental remediation, odor and corrosion control, filtration, reverse osmosis, continuous deionization, and mobile dewatering equipment and rental services; and municipal services comprising odor and corrosion control services, as well as leak detection, condition assessment and asset management and pressure monitoring solutions under the AquaPro, WaterOne, Ion Pure, Flygt, Pure Technologies, and Godwin brands. The company was formerly known as ITT WCO, Inc. and changed its name to Xylem Inc. in May 2011. Xylem Inc. was incorporated in 2011 and is headquartered in Washington, District Of Columbia.",
+  "url": "https://finance.yahoo.com/quote/XYL",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

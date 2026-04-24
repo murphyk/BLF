@@ -1,0 +1,21 @@
+{
+  "id": "NOC_2025-05-25",
+  "source": "yfinance",
+  "question": "Will NOC's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NOC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 493.330. (The latest market close price of NOC.)",
+  "background": "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, the Asia/Pacific, Europe, and internationally. The company's Aeronautics Systems segment designs, develops, manufactures, integrates, sustains, and modernizes aircraft systems. This segment also offers unmanned autonomous aircraft systems, including high-altitude long-endurance strategic, and surveillance and reconnaissance systems; and strategic long-range strike aircraft, tactical fighter and air dominance aircraft, and airborne battle management and command and control systems. Its Defense Systems segment designs, develops, integrates, and produces strategic deterrent systems, tactical weapons, and missile defense solutions; and provides sustainment, modernization, and training services for manned and unmanned aircraft and electronics systems. This segment also offers strategic missiles; integrated all-domain command and control systems; precision strike weapons; tactical solid rocket motors, and high speed air-breathing and hypersonic systems; high-performance gun systems, ammunition, precision munitions, and advanced fuzes; and aircraft and mission systems logistics support, sustainment, operation, and modernization. The company's Mission Systems segment provides command, control, communication and computer, intelligence, surveillance, and reconnaissance systems; radar, electro-optical/infrared, and acoustic sensors; electronic warfare systems; advanced communications and network systems; microelectronics; navigation and positioning sensors; maritime power, propulsion, and payload launch systems; cyber solutions; and intelligence processing systems. Its Space Systems segment offers satellites, spacecraft systems, subsystems, sensors, and payloads; ground systems; missile defense systems and interceptors; and launch vehicles and related propulsion systems. Northrop Grumman Corporation was founded in 1939 and is based in Falls Church, Virginia.",
+  "url": "https://finance.yahoo.com/quote/NOC",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

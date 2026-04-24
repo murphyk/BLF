@@ -1,0 +1,19 @@
+{
+  "id": "ADI_2025-12-07",
+  "source": "yfinance",
+  "question": "Will ADI's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ADI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 257.920. (The latest market close price of ADI.)",
+  "background": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power supply designs. The company also offers amplifiers to condition analog signals; and radio frequency and microwave ICs to support cellular infrastructure; and micro-electro-mechanical systems technology solutions, including accelerometers used to sense acceleration, gyroscopes for sense rotation, inertial measurement units to sense multiple degrees of freedom, and broadband switches for radio and instrument systems, as well as isolators. In addition, it provides digital signal processing and system products for numeric calculations. The company serves clients in the industrial, automotive, consumer, instrumentation, aerospace, defense and healthcare, and communications markets through a direct sales force, third-party distributors, and independent sales representatives, as well as online. The company was incorporated in 1965 and is headquartered in Wilmington, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/ADI",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

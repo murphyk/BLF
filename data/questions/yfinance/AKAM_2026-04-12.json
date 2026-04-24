@@ -1,0 +1,29 @@
+{
+  "id": "AKAM_2026-04-12",
+  "source": "yfinance",
+  "question": "Will AKAM's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AKAM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 115.750. (The latest market close price of AKAM.)",
+  "background": "Akamai Technologies, Inc. engages in the provision of security, delivery, and cloud computing solutions in the United States and internationally. It offers security solutions that include web application and application programming interfaces (API) protection solutions, which protect web, API, and mobile app traffic from attacks; Bot & Abuse portfolio, which provides solutions to help customers protect against threats; full account lifecycle protections including the ability to defend against account takeover and opening abuse, adversarial bot protection, protection against credential stuffing, inventory scalping, and hoarding; and solutions designed to stop persistent scrapers from stealing content; API security, which discovers, audits, and monitors API; and microservice and application component protection that analyzes and protects application traffic that moves between application components. The company also offers cloud computing services, which include compute, storage, and cloud native and networking services; and Akamai App Platform, provides ready-to-run templates that address challenges in deploying, managing and scaling Kubernetes clusters at scale. In addition, it offers delivery solutions that include web and mobile performance solutions, which enables dynamic websites and applications, as well as global traffic management, site acceleration, application load balancing, large-scale load testing, and real-user monitoring; and media delivery solutions, including video streaming and video player services, game and software delivery, broadcast operations, authoritative domain name system, resolution, and data and analytics. Akamai Technologies, Inc. was incorporated in 1998 and is headquartered in Cambridge, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/AKAM",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

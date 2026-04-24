@@ -1,0 +1,15 @@
+{
+  "id": "pz96pzyIIC_2025-08-03",
+  "source": "manifold",
+  "question": "Will someone new reach 2800 Elo rating in 2025?",
+  "resolution_criteria": "This market will resolve YES, if a player, who has previously not achieved this, reaches 2800 Elo or more in live ratings (can be checked here) from this point on until the end of 2025.\n\nNotable players who are close:\n\nGukesh (2776)\n\nNodirbek (2765)\n\nPraggnanadhaa (2766)\n\nWei Yi (2758)\n\nNote that for example Alireza, Arjun, Caruana, Hikaru and Magnus have all previously achieved this.",
+  "background": "",
+  "url": "https://manifold.markets/Weezing/will-someone-new-reach-2800-elo-rat",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.19371558935497601",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market value."
+}

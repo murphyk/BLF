@@ -1,0 +1,15 @@
+{
+  "id": "0xa57a712aa14e925e0e1615b737549a09b0f09db451910b68af6910b6f8b0494d_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Bitcoin replace SHA-256 before June?",
+  "resolution_criteria": "On December 9, Google introduced Willow, a breakthrough state-of-the-art quantum chip. This achievement fueled speculation that Bitcoin's encryption may be vulnerable to quantum computers in the not-so-distant future (see https://www.cryptoglobe.com/latest/2024/12/does-googles-new-quantum-chip-willow-threaten-bitcoin-the-crypto-community-responds/). \n\nThis market will resolve to \"Yes\" if Bitcoin stops using SHA-256 by May 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source will be the Bitcoin blockchain, in addition to a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-migrate-from-sha-256-before-june",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-31",
+  "market_value": "0.0155",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

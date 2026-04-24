@@ -1,0 +1,19 @@
+{
+  "id": "MAR_2025-12-07",
+  "source": "yfinance",
+  "question": "Will MAR's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MAR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 304.650. (The latest market close price of MAR.)",
+  "background": "Marriott International, Inc. engages in operation, franchising, and licensing of hotel, residential, timeshare, and other lodging properties worldwide. It operates its properties under the JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le M\u00e9ridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Sonder by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, City Express by Marriott, and Four Points Flex by Sheraton brand names, as well as operates residences, timeshares, and yachts. The company was founded in 1927 and is headquartered in Bethesda, Maryland.",
+  "url": "https://finance.yahoo.com/quote/MAR",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

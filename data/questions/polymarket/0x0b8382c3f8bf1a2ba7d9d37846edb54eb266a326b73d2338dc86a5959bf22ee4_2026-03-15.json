@@ -1,0 +1,14 @@
+{
+  "id": "0x0b8382c3f8bf1a2ba7d9d37846edb54eb266a326b73d2338dc86a5959bf22ee4_2026-03-15",
+  "source": "polymarket",
+  "question": "Will Claude 5 be released by March 15, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Anthropic's Claude 5 model is made available to the general public by March 15, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.\n\nClaude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.\n\nThe primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-claude-5-be-released-by-march-15-2026",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-16",
+  "market_value": "0.013000000000000001",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

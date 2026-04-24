@@ -1,0 +1,23 @@
+{
+  "id": "ACGL_2025-03-02",
+  "source": "yfinance",
+  "question": "Will ACGL's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ACGL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 88.200. (The latest market close price of ACGL.)",
+  "background": "Arch Capital Group Ltd., together with its subsidiaries, provides insurance, reinsurance, and mortgage insurance products worldwide. The company's Insurance segment offers primary and excess casualty coverages; loss sensitive primary casualty insurance programs; directors' and officers' liability, errors and omissions liability, employment practices and fiduciary liability, crime, professional indemnity, and other financial related coverages; medical professional and general liability insurance coverages; and workers' compensation and umbrella liability, as well as commercial automobile and inland marine products. It also provides property, energy, marine, and aviation insurance; travel insurance; accident, disability, and medical plan insurance coverages; captive insurance programs; employer's liability; contract and commercial surety coverages; and collateral protection, debt cancellation, and service contract reimbursement products. This segment markets its products through a group of licensed independent retail and wholesale brokers. Its Reinsurance segment provides casualty reinsurance for third party liability exposures; marine and aviation; motor reinsurance, whole account multi-line treaties, cyber, trade credit, surety, accident and health, workers' compensation catastrophe, agriculture, trade credit, and political risk products; reinsurance protection for catastrophic losses, and personal lines and commercial property exposures; life reinsurance; casualty clash; and risk management solutions. This segment markets its reinsurance products through brokers. The company's Mortgage segment offers direct mortgage insurance and mortgage reinsurance. The company was founded in 1995 and is based in Pembroke, Bermuda.",
+  "url": "https://finance.yahoo.com/quote/ACGL",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EMR_2026-02-01",
+  "source": "yfinance",
+  "question": "Will EMR's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EMR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 149.570. (The latest market close price of EMR.)",
+  "background": "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe. It operates through Final Control, Measurement & Analytical, Discrete Automation, Safety & Productivity, Control Systems & Software, and Test & Measurement segments. The Final Control segment provides control valves, isolation valves, shutoff valves, pressure relief valves, pressure safety valves, actuators, and regulators for process and hybrid industries under Anderson Greenwood, Bettis, Crosby, Fisher, Keystone, KTM, and Vanessa brands. The Measurement & Analytical segment supplies intelligent instrumentation measuring the physical properties of liquids or gases, such as pressure, temperature, level, flow, acoustics, corrosion, pH, conductivity, water quality, toxic gases, and flame under the Flexim, Micro Motion, and Rosemount brands. The Discrete Automation segment includes solenoid valves, pneumatic valves, valve position indicators, pneumatic cylinders and actuators, air preparation equipment, pressure and temperature switches, electric linear motion solutions, programmable automation control systems and software, electrical distribution equipment, and materials joining solutions used primarily in discrete industries under the Afag, Appleton, ASCO, Aventics, Branson, Movicon, PACSystems, SolaHD, TESCOM, and TopWorx brands. The Safety & Productivity segment delivers tools for professionals and homeowners that support infrastructure, promote safety, and enhance productivity under the Greenlee, Klauke, ProTeam, and RIDGID brands. The Control Systems & Software segment provides control systems and software that control plant processes by collecting and analyzing information from measurement devices in the plant under the DeltaV and Ovation brands. The Test & Measurement offers software-connected automated test and measurement systems. The company was incorporated in 1890 and is headquartered in Saint Louis, Missouri.",
+  "url": "https://finance.yahoo.com/quote/EMR",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

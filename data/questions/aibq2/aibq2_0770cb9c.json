@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_0770cb9c",
+  "source": "aibq2",
+  "question": "Will a country sign the Artemis Accords in June 2025?",
+  "background": "The most recent signatory was Bangladesh, on April 8, 2025 and [Norway](https://www.state.gov/united-states-welcomes-norways-signing-of-the-artemis-accords/) on May 15, 2025. There are 55 signatories at the time of this question: Angola, Argentina, Armenia, Australia, Austria, Bahrain, Bangladesh, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, the Republic of Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Germany, Greece, Iceland, India, Israel, Italy, Japan, Liechtenstein, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Nigeria, Norway, Panama, Peru, Poland, the Republic of Korea, Romania, Rwanda, Saudi Arabia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Thailand, Ukraine, the United Arab Emirates, the United Kingdom, the United States, and Uruguay. [(source)](https://www.state.gov/bureau-of-oceans-and-international-environmental-and-scientific-affairs/artemis-accords)",
+  "resolution_criteria": "This question resolves as **Yes** if a country becomes an Artemis Accord signatory after May 30, 2025 and before July 1, 2025.",
+  "url": "https://www.state.gov/united-states-welcomes-norways-signing-of-the-artemis-accords/",
+  "forecast_due_date": "2025-05-29",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

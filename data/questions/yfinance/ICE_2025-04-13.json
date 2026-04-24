@@ -1,0 +1,21 @@
+{
+  "id": "ICE_2025-04-13",
+  "source": "yfinance",
+  "question": "Will ICE's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ICE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 170.440. (The latest market close price of ICE.)",
+  "background": "Intercontinental Exchange, Inc., together with its subsidiaries, provides technology and data to financial institutions, corporations, and government entities in the United States, the United Kingdom, the European Union, India, Israel, Canada, and Singapore. It operates through three segments: Exchanges, Fixed Income and Data Services, and Mortgage Technology. The Exchanges segment operates regulated marketplace technology for the listing, trading, and clearing of an array of derivatives contracts and financial securities, as well as data and connectivity services related to its exchanges and clearing houses. The Fixed Income and Data Services segment provides fixed income pricing, reference data, indices, analytics, and execution services, as well as global CDS clearing and multi-asset class data delivery technology. The Mortgage Technology segment offers a technology platform that provides customers comprehensive and digital workflow tools to address inefficiencies and mitigate risks that exist in the U.S. residential mortgage market life cycle from application through closing, servicing, and the secondary market. The company was founded in 2000 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/ICE",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

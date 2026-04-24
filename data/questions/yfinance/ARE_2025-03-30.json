@@ -1,0 +1,23 @@
+{
+  "id": "ARE_2025-03-30",
+  "source": "yfinance",
+  "question": "Will ARE's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ARE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 97.690. (The latest market close price of ARE.)",
+  "background": "Alexandria Real Estate Equities, Inc. (NYSE: ARE), an S&P 500 company, is a best-in-class, mission-driven life science REIT making a positive and lasting impact on the world. As the pioneer of the life science real estate niche with our founding in 1994, Alexandria is the preeminent and longest-tenured owner, operator, and developer of collaborative mega campuses in AAA life science innovation cluster locations, including Greater Boston, the San Francisco Bay Area, San Diego, Seattle, Maryland, Research Triangle, and New York City. As of September 30, 2024, Alexandria has a total market capitalization of $33.1 billion and an asset base in North America that includes 41.8 million RSF of operating properties, 5.3 million RSF of Class A/A+ properties undergoing construction, and one committed near-term project expected to commence construction in the next two years. Alexandria has a longstanding and proven track record of developing Class A/A+ properties clustered in mega campuses that provide our innovative tenants with highly dynamic and collaborative environments that enhance their ability to successfully recruit and retain world-class talent and inspire productivity, efficiency, creativity, and success. Alexandria also provides strategic capital to transformative life science companies through our venture capital platform. We believe our unique business model and diligent underwriting ensure a high-quality and diverse tenant base that results in higher occupancy levels, longer lease terms, higher rental income, higher returns, and greater long-term asset value.",
+  "url": "https://finance.yahoo.com/quote/ARE",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

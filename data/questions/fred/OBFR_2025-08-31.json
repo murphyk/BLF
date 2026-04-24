@@ -1,0 +1,21 @@
+{
+  "id": "OBFR_2025-08-31",
+  "source": "fred",
+  "question": "Will the Federal Reserve's overnight bank funding rate have increased by each resolution date listed below as compared to its value on 2025-08-31?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/OBFR once the data is published.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 4.330. (The latest value released in Overnight Bank Funding Rate from the release Overnight Bank Funding Rate Data.)",
+  "background": "The notes from the release: N/A.  The notes from the series: The overnight bank funding rate is calculated using federal funds transactions and certain Eurodollar transactions. The federal funds market consists of domestic unsecured borrowings in U.S. dollars by depository institutions from other depository institutions and certain other entities, primarily government-sponsored enterprises, while the Eurodollar market consists of unsecured U.S. dollar deposits held at banks or bank branches outside of the United States. U.S.-based banks can also take Eurodollar deposits domestically through international banking facilities (IBFs). The overnight bank funding rate (OBFR) is calculated as a volume-weighted median of overnight federal funds transactions and Eurodollar transactions reported in the FR 2420 Report of Selected Money Market Rates.\nVolume-weighted median is the rate associated with transactions at the 50th percentile of transaction volume. Specifically, the volume-weighted median rate is calculated by ordering the transactions from lowest to highest rate, taking the cumulative sum of volumes of these transactions, and identifying the rate associated with the trades at the 50th percentile of dollar volume. The published rates are the volume-weighted median transacted rate, rounded to the nearest basis point.\nFor more information, see https://www.newyorkfed.org/markets/obfrinfo.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/OBFR",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

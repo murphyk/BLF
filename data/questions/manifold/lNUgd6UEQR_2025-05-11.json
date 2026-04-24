@@ -1,0 +1,15 @@
+{
+  "id": "lNUgd6UEQR_2025-05-11",
+  "source": "manifold",
+  "question": "Will there be a perfect bracket that wins a \"Free Trip to Mars\" on X?",
+  "resolution_criteria": "Context: \n\nX, Uber Eats launch March Madness perfect bracket challenge: winner gets at trip to Mars (Fox)\n\nAnd I just saw this pop up on X: \n\n[image]It doesn't matter whether they actually go to Mars. There just needs to be a consensus of credible reporting that there is a perfect bracket through this program that is now promised a trip to Mars.\n\nIf we have not heard anything about a perfect bracket, resolves NO by default on May 15th. \n\nIf they award a free trip to Mars to someone who didn't have a perfect bracket, that doesn't count either. They need to say \"this person had a perfect bracket and thus won a trip to Mars\". Obviously just winning the 100k for having the best bracket is irrelevant to this question.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-there-be-a-perfect-bracket-tha",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-16",
+  "market_value": "0.009858056293404001",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market value."
+}

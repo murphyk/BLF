@@ -1,0 +1,15 @@
+{
+  "id": "0xfdb79c231b8bd8220c34492ec80cb0125928e486f3a4aa0b0ffeff2031b1badf_2025-08-03",
+  "source": "polymarket",
+  "question": "Will the Cincinnati Bengals win the AFC North?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Cincinnati Bengals win the AFC North in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Cincinnati Bengals team to win the AFC North based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-cincinnati-bengals-win-the-afc-north-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-06",
+  "market_value": "0.28500000000000003",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "DAAA_2026-01-04",
+  "source": "fred",
+  "question": "Will Moody's Seasoned Aaa Corporate Bond Yield have increased by each resolution date listed below as compared to its value on 2026-01-04?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DAAA once the data is published.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 5.330. (The latest value released in Moody's Seasoned Aaa Corporate Bond Yield from the release Moody's Daily Corporate Bond Yield Averages.)",
+  "background": "The notes from the release: N/A.  The notes from the series: These instruments are based on bonds with maturities 20 years and above. \n\n\u00a9 2017, Moody\u2019s Corporation, Moody\u2019s Investors Service, Inc., Moody\u2019s Analytics, Inc. and/or their licensors and affiliates (collectively, \u201cMoody\u2019s\u201d).  All rights reserved. Moody\u2019s ratings and other information (\u201cMoody\u2019s Information\u201d) are proprietary to Moody\u2019s and/or its licensors and are protected by copyright and other intellectual property laws.  Moody\u2019s Information is licensed to Client by Moody\u2019s.  MOODY\u2019S INFORMATION MAY NOT BE COPIED OR OTHERWISE REPRODUCED, REPACKAGED, FURTHER TRANSMITTED, TRANSFERRED, DISSEMINATED, REDISTRIBUTED OR RESOLD, OR STORED FOR SUBSEQUENT USE FOR ANY SUCH PURPOSE, IN WHOLE OR IN PART, IN ANY FORM OR MANNER OR BY ANY MEANS WHATSOEVER, BY ANY PERSON WITHOUT MOODY\u2019S PRIOR WRITTEN CONSENT..  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DAAA",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

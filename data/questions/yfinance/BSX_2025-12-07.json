@@ -1,0 +1,19 @@
+{
+  "id": "BSX_2025-12-07",
+  "source": "yfinance",
+  "question": "Will BSX's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BSX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 100.960. (The latest market close price of BSX.)",
+  "background": "Boston Scientific Corporation develops, manufactures, and markets medical devices for use in various interventional medical specialties worldwide. It operates in two segments, MedSurg and Cardiovascular. The company offers devices to diagnose and treat a range of gastrointestinal conditions, such as resolution clips, biliary stent systems, stents and electrocautery enhanced delivery systems, direct visualization systems, digital catheters, and single-use duodenoscopes, as well as endoluminal surgery and infection prevention portfolios; devices to treat urological conditions, including ureteral stents, catheters, baskets, guidewires, urinary and bowel dysfunction, sheaths, balloons, single-use digital flexible ureteroscopes, holmium laser systems, penile implants, artificial urinary sphincter, laser system, and hydrogel systems; and devices to treat neurological movement disorders and manage chronic pain, such as spinal cord stimulator systems, proprietary programming software, radiofrequency ablation, indirect decompression systems, and intraosseous nerve ablation and deep brain stimulation systems. It also provides technologies for diagnosing and treating coronary artery disease and aortic valve conditions; WATCHMAN FLX, a left atrial appendage closure (LAAC) device; and implantable devices that monitor the heart and deliver electricity to treat cardiac abnormalities, such as cardioverter and cardiac resynchronization therapy defibrillators, MRI S-ICD systems, cardiac resynchronization therapy pacemakers, quadripolar LV leads, ICD leads, pacing leads, remote patient management systems, insertable cardiac monitor systems, and remote cardiac monitoring systems. In addition, the company offers diagnosis and treatment of rate and rhythm disorders of the heart; peripheral arterial and venous diseases; and products to diagnose, treat, and ease forms of cancer. The company was incorporated in 1979 and is headquartered in Marlborough, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/BSX",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

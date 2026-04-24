@@ -1,0 +1,14 @@
+{
+  "id": "0xf2591ada43eda11c5923f0190307d2cc5f5d994695a654779c3dd328ff820d55_2026-02-01",
+  "source": "polymarket",
+  "question": "Will Bitcoin dip to $75,000 by December 31, 2026?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-dip-to-75000-by-december-31-2026-333",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-02-02",
+  "market_value": "0.66",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The market price."
+}

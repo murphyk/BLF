@@ -1,0 +1,15 @@
+{
+  "id": "0xffea59c51b27dd000038fb9e8f659bfb3ea3cb8a4283a9e774bdef9844a27141_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Andrew Yang win the Democratic Primary for Mayor of New York City?",
+  "resolution_criteria": "The Democratic Primary for Mayor of New York City is scheduled for June 24, 2025.  \n\nThis market will resolve to \u201cYes\u201d if Andrew Yang wins the 2025 Democratic Primary for Mayor of New York City. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf no 2025 Democratic Primary for the Mayor of New York City takes place this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be the first announcement of the results from the Democratic Primary, however an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-24",
+  "market_value": "0.0005",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

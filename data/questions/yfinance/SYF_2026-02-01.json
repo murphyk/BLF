@@ -1,0 +1,17 @@
+{
+  "id": "SYF_2026-02-01",
+  "source": "yfinance",
+  "question": "Will SYF's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SYF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 77.130. (The latest market close price of SYF.)",
+  "background": "Synchrony Financial, together with its subsidiaries, operates as a consumer financial services company in the United States. It provides credit products, such as credit cards, commercial credit products, and consumer installment loans. The company also offers private label credit cards, dual and general purpose co-branded cards, short- and long-term installment loans, and consumer banking products; and deposit products, including certificates of deposit, individual retirement accounts, money market accounts, savings accounts, and sweep and affinity deposits, as well as accepts deposits through third-party securities brokerage firms. In addition, it provides debt cancellation products to its credit card customers through online and mobile channels; and healthcare payments and financing solutions under the CareCredit and Walgreens brands; payments and financing solutions in the apparel, specialty retail, outdoor, music, and luxury industries, such as American Eagle, Dick's Sporting Goods, Guitar Center, Kawasaki, Pandora, Polaris, Suzuki, and Sweetwater. The company offers its credit products through programs established with a group of national and regional retailers, local merchants, manufacturers, buying groups, industry associations, and healthcare service providers; and deposit products through various channels, such as digital and print. It serves digital, health and wellness, retail, home, auto, telecommunications, pet, outdoor, and other industries. The company was founded in 1932 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/SYF",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

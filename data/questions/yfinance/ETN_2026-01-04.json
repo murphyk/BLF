@@ -1,0 +1,19 @@
+{
+  "id": "ETN_2026-01-04",
+  "source": "yfinance",
+  "question": "Will ETN's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ETN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 323.670. (The latest market close price of ETN.)",
+  "background": "Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific. It operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. The company offers electrical components, industrial components, power distribution and assemblies, residential products, single and three phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, and power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose, thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation system, payload carriages, and thermal management products; wiring connectors and cables; and hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, and related after-market customers, as well as industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry; and voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company formerly known as Abeiron Limited. The company was founded in 1911 and is based in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/ETN",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

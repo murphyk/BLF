@@ -1,0 +1,15 @@
+{
+  "id": "0x5e67d2599f32e6cd86a760bf28796da2e796377e5d711b739a1686b0d17dc31c_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Getafe win the 2025\u201326 La Liga?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 La Liga.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 La Liga. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 La Liga season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from La Liga. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-getafe-win-the-202526-la-liga",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-14",
+  "market_value": "0.0025",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

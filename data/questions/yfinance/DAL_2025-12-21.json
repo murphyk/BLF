@@ -1,0 +1,19 @@
+{
+  "id": "DAL_2025-12-21",
+  "source": "yfinance",
+  "question": "Will DAL's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DAL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 69.930. (The latest market close price of DAL.)",
+  "background": "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally. The company operates through two segments, Airline and Refinery. Its domestic network centered on core hubs in Atlanta, Detroit, Minneapolis-St. Paul, and Salt Lake City, as well as coastal hub positions in Boston, Los Angeles, New York-LaGuardia, New York-JFK, and Seattle; and international network centered on hubs and market presence in Amsterdam, Bogota, Lima, Mexico City, London-Heathrow, Paris-Charles de Gaulle, Santiago (Chile), Sao Paulo, Seoul-Incheon, and Tokyo. The company sells its tickets through various distribution channels, including delta.com and the Fly Delta app; and acts as a reservations specialists. It also provides aircraft maintenance and engineering support, repair, and overhaul services; and vacation packages to third-party consumers. The company operates through a fleet of approximately 1,292 aircraft. Delta Air Lines, Inc. was founded in 1924 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/DAL",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

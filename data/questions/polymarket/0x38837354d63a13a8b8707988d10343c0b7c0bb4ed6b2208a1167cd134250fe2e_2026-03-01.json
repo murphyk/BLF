@@ -1,0 +1,14 @@
+{
+  "id": "0x38837354d63a13a8b8707988d10343c0b7c0bb4ed6b2208a1167cd134250fe2e_2026-03-01",
+  "source": "polymarket",
+  "question": "Will Jasmine Crockett be the Democratic nominee for Senate in Texas?",
+  "resolution_criteria": "This market will resolve according to the winner of the Democratic Primary for United States Senator from Texas.\n\nIf no 2026 Texas Democratic Senate Primary takes place, this market will resolve to \"Other\".\n\nThe resolution source for this market will be the first announcement of the results from the Texas Democratic party, however an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jasmine-crockett-be-the-democratic-nominee-for-senate-in-texas",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-03",
+  "market_value": "0.24",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

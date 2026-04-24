@@ -1,0 +1,23 @@
+{
+  "id": "CPRT_2025-03-30",
+  "source": "yfinance",
+  "question": "Will CPRT's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CPRT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 53.880. (The latest market close price of CPRT.)",
+  "background": "Copart, Inc. provides online auctions and vehicle remarketing services in the United States, Canada, the United Kingdom, Brazil, the Republic of Ireland, Germany, Finland, the United Arab Emirates, Oman, Bahrain, and Spain. It offers a range of services for processing and selling vehicles over the internet through its virtual bidding third generation internet auction-style sales technology to vehicle sellers, insurance companies, banks and finance companies, charities, fleet operators, dealers, vehicle rental companies, and individuals. The company's services include online seller access, salvage estimation, estimating, end-of-life vehicle processing, transportation, vehicle inspection stations, on-demand reporting, title processing and express, loan payoff, flexible vehicle processing programs, buy it now, sales process, and dealer services. Its services also comprise services to sell vehicles through BluCar, CashForCars.com, CashForCars.ca, CashForCars.de, CashForCars.co.uk, and Cash-for-cars.ie; Copart Recycling service, which allows the public to purchase parts from salvaged and end-of-life vehicles; copart 360, a proprietary technology that captures clear 360-degree views of interiors and exteriors of cars, trucks, and vans; and membership tiers for those registering to buy vehicles through Copart.com. In addition, it provides IntelliSeller, an automated tool leveraging its vast and detailed vehicle and sales data to assist its sellers in making vital auction decisions; Purple Wave Inc., that offers wholesale construction, agriculture, and fleet remarketing services through no-reserve online auctions; non-salvage powersport vehicle remarketing services through live and online auction platforms. The company sells its products principally to licensed vehicle dismantlers, rebuilders, repair licensees, used vehicle dealers, and exporters, as well as to the public. Copart, Inc. was incorporated in 1982 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/CPRT",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x319825b4422801a53da59c796e17cfb0fb08bd5183f30d837bf6c1ae564fb9cf_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Greta Thunberg win the Nobel Peace Prize in 2025?",
+  "resolution_criteria": "This market will resolve according to the winner of the 2025 Nobel Peace Prize, as announced by the Norwegian Nobel Committee.\n\nIf multiple listed individuals or entities jointly receive the prize, the market will resolve to a single winner. If Donald Trump, Volodymyr Zelensky, Elon Musk, Pope Leo XIII, or Yulia Navalnaya are among the recipients, the market will resolve to the highest-ranked among them, in that exact order of precedence. If none of those five are among the winners, and the prize is awarded jointly to a listed individual and a listed organization, the market will resolve in favor of the individual. If no prioritized individuals are among the winners, and all recipients are of the same type (e.g. all individuals or all organizations), the market will resolve to the person whose last name, or the entity\u2019s name, comes first in alphabetical order as listed in this market.\n\nIf no official announcement regarding the 2025 Nobel Peace Prize has been made by March 31, 2026, 11:59 PM ET, this market will resolve to \"Other.\"\n\nThe resolution source for this market will be the first official announcement from the Norwegian Nobel Committee.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-greta-thunberg-win-the-nobel-peace-prize-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-10",
+  "market_value": "0.022500000000000003",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

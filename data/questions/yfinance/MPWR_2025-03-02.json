@@ -1,0 +1,23 @@
+{
+  "id": "MPWR_2025-03-02",
+  "source": "yfinance",
+  "question": "Will MPWR's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MPWR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 684.930. (The latest market close price of MPWR.)",
+  "background": "Monolithic Power Systems, Inc. engages in the design, development, marketing, and sale of semiconductor-based power electronics solutions for the storage and computing, automotive, enterprise data, consumer, communications, and industrial markets. The company provides direct current (DC) to DC integrated circuits (ICs) that are used to convert and control voltages of various electronic systems, such as cloud-based CPU servers, server artificial intelligence applications, storage applications, commercial notebooks, digital cockpit, power sources, home appliances, 4G and 5G infrastructure, and satellite communications applications. It offers lighting control ICs for backlighting that are used in systems, which provide the light source for LCD panels in computers and notebooks, monitors, car navigation systems, and televisions, as well as for general illumination products. The company sells its products through third-party distributors, value-added resellers, directly to original equipment manufacturers, original design manufacturers, electronic manufacturing service providers, and other end customers. It serves China, Taiwan, South Korea, Europe, Japan, Southeast Asia, the United States, and internationally. Monolithic Power Systems, Inc. was incorporated in 1997 and is headquartered in Kirkland, Washington.",
+  "url": "https://finance.yahoo.com/quote/MPWR",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

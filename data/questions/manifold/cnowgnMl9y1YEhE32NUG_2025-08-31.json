@@ -1,0 +1,15 @@
+{
+  "id": "cnowgnMl9y1YEhE32NUG_2025-08-31",
+  "source": "manifold",
+  "question": "Is LeCun right that open-source AI will soon become 'unbeatable'?  (EOY 2025)",
+  "resolution_criteria": "On Oct 14 2023, Yann LeCun (Chief AI Scientist at Meta) stated:  \"Open source AI models will soon become unbeatable.  Period.\"\n\nResolves YES if, at the end of 2025, it's decisively clear (in the judgment of Eliezer Yudkowsky) that open-source LLMs (or their successors in the role of widely used AGI tech) are more powerful or more cost-efficient than their closed-source alternatives.  That is, if either all the leaderboards are full of open-source LLMs with successors to GPT-4 or Claude being far behind, or if most of the business spending for inference seems to be on running AI models built on open-source foundation models, this resolves YES.\n\nIf it's hard to tell or if that seems wrong, resolves NO.  \"Unbeatable\" seems like it shouldn't be subtle.\n\nUpdate 2025-07-15 (PST) (AI summary of creator comment): In response to a question about the definition of \"Open Source\", the creator has clarified they will use a broad, non-legalistic interpretation. Models with proprietary but widely available licenses (e.g., Llama) will likely be considered \"Open Source\" for the purpose of resolution.",
+  "background": "",
+  "url": "https://manifold.markets/EliezerYudkowsky/is-lecun-right-that-opensource-ai-w",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0337856973",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market value."
+}

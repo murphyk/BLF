@@ -1,0 +1,21 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07621.D_2025-08-03",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es Airport will be higher on each resolution date listed below than on 2025-08-03?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07621.D once the data is published.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 21.338. (The daily average temperature at the French weather station at Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es Airport.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - TARBES-OSSUN - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07621.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07621.D",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

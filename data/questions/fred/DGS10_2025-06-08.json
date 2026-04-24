@@ -1,0 +1,21 @@
+{
+  "id": "DGS10_2025-06-08",
+  "source": "fred",
+  "question": "Will the market yield on US treasury securities at 10-year constant maturity, quoted on an investment basis, have increased by each resolution date listed below as compared to its value on 2025-06-08?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DGS10 once the data is published.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 4.430. (The latest value released in Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis from the release H.15 Selected Interest Rates.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: H.15 Statistical Release (https://www.federalreserve.gov/releases/h15/current/h15.pdf) notes and Treasury Yield Curve Methodology (https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

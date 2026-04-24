@@ -1,0 +1,14 @@
+{
+  "id": "0xda5e93ecce25875195aeed7d427f16e9edab7296ea5d02d841ae733ba2a8a89f_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Austria win the most gold medals in the 2026 Winter Olympics?",
+  "resolution_criteria": "This market will resolve according to the country that wins the most gold medals at the 2026 Milano-Cortina Winter Olympics, scheduled for February 6-22, 2026.\n\nIn the case of ties, the ordered list for most gold medals won will use most overall medals won as a tiebreaker (e.g. If Norway and China tie for most gold medals won, and Norway wins more overall medals than China, Norway will be ranked first and China will be second). If this also results in a tie, the country whose name comes first in alphabetical order, as listed in this market group, will be ranked higher.\n\nThis market will resolve based on the medal figures as they stand after medals are awarded for the final event in the 2026 Milano-Cortina Winter Olympics. Later changes to medal counts will not be considered toward the resolution of this market.\n\nIf the 2026 Milano-Cortina Winter Olympics are partially completed and then cancelled or postponed after December 31, 2026, this market will resolve based on the gold medals awarded in the completed events. If the 2026 Milano-Cortina Winter Olympics are entirely cancelled or postponed after December 31, 2026, this market will resolve to \u201cOther\u201d.\n\nThe resolution source will be official information from the International Olympic Committee (https://www.olympics.com/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-austria-win-the-most-gold-medals-in-the-2026-winter-olympics",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-22",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CPAY_2025-04-27",
+  "source": "yfinance",
+  "question": "Will CPAY's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CPAY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 306.770. (The latest market close price of CPAY.)",
+  "background": "Corpay, Inc. operates as a payments company that helps businesses and consumers manage vehicle-related expenses, lodging expenses, and corporate payments in the United States, Brazil, the United Kingdom, and internationally. The company offers vehicle payment solutions, which include fuel, tolls, parking, vehicle compliance, fleet maintenance, and long-haul transportation services, as well as prepaid food and transportation vouchers and cards. It also provides corporate payment solutions consisting of accounts payable AP automation; virtual cards, cross-border solutions; and purchasing and T&E travel and entertainment card products, as well as lodging payments solutions for employees who travel overnight for work purposes; traveling crews and stranded passengers from airlines and cruise lines; and insurance policyholders displaced from their homes due to damage or catastrophe; workforce lodging solutions for business travel programs; airline logistics, crew management, insurance, and other payments solutions. In addition, the company offers gifts and payroll cards. It serves business, merchant, consumer, and payment network customers. The company was formerly known as FLEETCOR Technologies, Inc. and changed its name to Corpay, Inc. in March 2024. Corpay, Inc. was founded in 1986 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/CPAY",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

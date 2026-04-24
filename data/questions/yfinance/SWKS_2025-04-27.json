@@ -1,0 +1,21 @@
+{
+  "id": "SWKS_2025-04-27",
+  "source": "yfinance",
+  "question": "Will SWKS's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SWKS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 55.860. (The latest market close price of SWKS.)",
+  "background": "Skyworks Solutions, Inc., together with its subsidiaries, designs, develops, manufactures, and markets proprietary semiconductor products in the United States, China, South Korea, Taiwan, Europe, the Middle East, Africa, and the rest of Asia-Pacific. Its product portfolio includes amplifiers, antenna tuners, attenuators, automotive tuners and digital radios, DC/DC converters, demodulators, detectors, digital power isolators, diodes, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, optocouplers/optoisolators, phase locked loops, phase shifters, power dividers/combiners, power over ethernet, power isolators, interface circuits, receivers, switches, synthesizers, timing devices, voltage controlled oscillators/synthesizers, and voltage regulators. The company products are the used in aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearable markets. It sells its products through direct sales force, electronic component distributors, and independent sales representatives. Skyworks Solutions, Inc. was founded in 1962 and is based in Irvine, California.",
+  "url": "https://finance.yahoo.com/quote/SWKS",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

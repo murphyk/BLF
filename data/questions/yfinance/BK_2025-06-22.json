@@ -1,0 +1,21 @@
+{
+  "id": "BK_2025-06-22",
+  "source": "yfinance",
+  "question": "Will BK's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 89.560. (The latest market close price of BK.)",
+  "background": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides leasing, corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/BK",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

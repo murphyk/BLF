@@ -1,0 +1,19 @@
+{
+  "id": "CURRCIR_2025-03-30",
+  "source": "fred",
+  "question": "Will the number of US dollars in circulation have increased by each resolution date listed below as compared to its value on 2025-03-30?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/CURRCIR once the data is published.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 2351.512. (The latest value released in Currency in Circulation from the release H.4.1 Factors Affecting Reserve Balances (data not included in press release).)",
+  "background": "The notes from the release: N/A.  The notes from the series: Data prior to 1991 are from various issues of Banking and Monetary Statistics and the Annual Statistical Digest. Data from 1991 forward are calculated using data from the H.4.1 Release - Factors Affecting Reserve Balances.\nAs of March 1, 2019, this series is calculated as a monthly average of fred.stlouisfed.org/series/WCURCIR..  Additional background of the series:  1. the units of the series: Billions of Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Monthly ",
+  "url": "https://fred.stlouisfed.org/series/CURRCIR",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

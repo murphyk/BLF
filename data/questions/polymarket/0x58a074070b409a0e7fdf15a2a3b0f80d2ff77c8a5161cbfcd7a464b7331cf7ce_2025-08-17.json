@@ -1,0 +1,15 @@
+{
+  "id": "0x58a074070b409a0e7fdf15a2a3b0f80d2ff77c8a5161cbfcd7a464b7331cf7ce_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Ren Lin win the 2025 National Heads-Up Poker Championship?",
+  "resolution_criteria": "The 2025 National Heads-Up Poker Championship will premiere on Peacock this fall (https://www.pokernews.com/news/2025/07/national-heads-up-poker-championship-return-49301.htm). This market predicts which player will win the 2025 National Heads-Up Poker Championship.\n\nThis market will resolve to \"Yes\" if the listed player wins the 2025 National Heads-Up Poker Championship. Otherwise, it will resolve to \"No\".\n\nIf the 2025 National Heads-Up Poker Championship is canceled or not completed by December 31, 2025, 11:59 pm ET, this market will resolve to \"Other\".\n\nIf the final players agree to a prize\u2011money chop, this market will resolve based on the player who is awarded the official tournament trophy.\n\nThe primary resolution source for this market will be Peacock, along with streaming coverage on PokerGO and PokerStars. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ren-lin-win-the-2025-national-heads-up-poker-championship",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-19",
+  "market_value": "0.0005",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

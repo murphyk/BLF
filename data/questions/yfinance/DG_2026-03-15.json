@@ -1,0 +1,15 @@
+{
+  "id": "DG_2026-03-15",
+  "source": "yfinance",
+  "question": "Will DG's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 146.550. (The latest market close price of DG.)",
+  "background": "Dollar General Corporation, a discount retailer, provides various merchandise products in the southern, southwestern, midwestern, and eastern United States. The company offers consumable products, including paper towels, bath tissues, paper dinnerware, trash and storage bags, disinfectants, and laundry products; packaged food, such as cereals, pasta, canned soups, canned meats, fruits and vegetables, condiments, spices, sugar, and flour; and perishables, including milk, eggs, bread, refrigerated and frozen food, beer, wine, and produce; candy, cookies, crackers, salty snacks, and carbonated beverages; over-the-counter medicines and personal care products including soap, body wash, shampoo, cosmetics, dental hygiene and foot care products; pet supplies and pet food; and tobacco products. It also provides seasonal products comprising holiday items, toys, batteries, small electronics, greeting cards, stationery, prepaid phones and accessories, gardening supplies, hardware, automotive, and home office supplies; home products include kitchen supplies, cookware, small appliances, light bulbs, storage containers, frames, candles, craft supplies and kitchen, and bed and bath soft goods; and apparel products for infants, toddlers, girls, boys, women and men, as well as socks, underwear, disposable diapers, shoes and accessories. The company was formerly known as J.L. Turner & Son, Inc. and changed its name to Dollar General Corporation in 1968. Dollar General Corporation was founded in 1939 and is based in Goodlettsville, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/DG",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

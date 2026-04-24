@@ -1,0 +1,15 @@
+{
+  "id": "NDAQ_2026-03-15",
+  "source": "yfinance",
+  "question": "Will NDAQ's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NDAQ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 88.270. (The latest market close price of NDAQ.)",
+  "background": "Nasdaq, Inc. operates as a technology company that serves capital markets and other industries in the United States and internationally. It operates through three segments: Capital Access Platforms, Financial Technology, and Market Services. The company distributes historical and real-time market data; develops and licenses Nasdaq-branded indices and financial products; provides investor relations intelligence, governance solutions, and sustainability solution products for public and private companies, and organizations, as well as insights and workflow solutions; and operates listing platforms. It also offers Verafin, a cloud-based platform to detect, investigate, and report money laundering and financial frauds; AxiomSL, a risk data management and regulatory reporting solution; cloud-enabled and on-premises surveillance solutions to assist in complying with market rules, regulations, and internal market surveillance policies; Calypso, a platform providing cross-asset, front-to-back trading, treasury, risk, and collateral management solutions; and trade management and colocation services, as well as handles assets comprising cash equities, equity derivatives, currencies, various interest-bearing securities, commodities, energy products, and digital currencies. In addition, the company provides equity derivative trading and clearing, cash equity trading and fixed income, currency and commodities trading, and fixed income trading and clearing services, as well as tape plan data services; operates various exchanges, including derivatives, commodities, cash equity, debt, structured products, and exchange traded products; and offers clearing, settlement, and central depository services. The company was formerly known as The NASDAQ OMX Group, Inc. and changed its name to Nasdaq, Inc. in September 2015. Nasdaq, Inc. was founded in 1971 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/NDAQ",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

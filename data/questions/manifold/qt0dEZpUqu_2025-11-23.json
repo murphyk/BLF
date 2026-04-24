@@ -1,0 +1,14 @@
+{
+  "id": "qt0dEZpUqu_2025-11-23",
+  "source": "manifold",
+  "question": "Louvre robbers apprehended before Christmas?",
+  "resolution_criteria": "Context: \"On 19 October 2025, a robbery occurred at the Louvre in Paris, France in which part of the French Crown Jewels was stolen.\" (Wikipedia)\n\nResolution Criteria: This market resolves YES if any perpetrators involved in the physical robbery of the Louvre on October 19th are apprehended by authorities before the start of December 25th (Paris time). Resolves NO otherwise. \n\nResolution details:\n\nThe fact that the police arrest/indict/etc someone does not prove they were the culprit. To handle this, after the police apprehend someone, I plan to wait up to a month. If there's no consensus of credible reporting implying that they were likely not the culprit, it will resolve YES.\n\nThus, I will not require conclusive proof that the police are correct to apprehend someone, more like \"it's been a month and there isn't clear evidence against them being the culprit\". \n\nThis market requires them to be apprehended before the start of Christmas day. Thus, if police announce an arrest on Dec 24, I might leave this market open for up to a month to confirm that they aren't exonerated before resolving YES (but that would still count).\n\nAs implied above: (1) this does not require all robbers to be apprehended (even a single arrest would count), but (2) there needs to be clear evidence that they were directly involved in the actual robbery itself. It does not count if the police arrest people who were accomplices but not involved in the robbery itself.\n\nThis can be a tricky market to define, so I'll answer questions as they come up in the comments (& traders beware of those ambiguities). \n\nUpdate 2025-10-20 (PST) (AI summary of creator comment): \"Apprehended\" means taken into physical custody by legal authorities. A manhunt or identification of suspects without physical custody does NOT count for YES resolution. The authorities holding custody do not need to be French - a wide range of legal authorities would count.\n\nUpdate 2025-10-27 (PST) (AI summary of creator comment): The creator will not resolve the market immediately after an arrest is announced. The market will remain open for up to a month (or less if evidence is overwhelming) to allow time for media reporting and to confirm the arrested person(s) are not exonerated. The fact that the market hasn't resolved yet does not imply the arrests are insufficient for resolution.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/louvre-robbers-apprehended-before-c",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-24",
+  "market_value": "0.9889602438722711",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xd009ac14bccdd12925a2d9f8d910411556e4ed153337abb18a97b97fabcf7db0_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Rafa\u0142 Trzaskowski be the next President of Poland?",
+  "resolution_criteria": "Presidential elections will be held in Poland in May, 2025. If no candidate receives a majority in the first round, a second round will be held.\n\nThis market will resolve to \"Yes\" if Rafa\u0142 Trzaskowski wins this election. Otherwise, this market will resolve to \"No\".\n\nThis market includes any potential second round. If the result of this election isn't known by July 31, 2025, 11:59 PM ET, the market will resolve to \"No\".\n\nThis market will resolve solely based off the first official announcement of the winner of the election from the Polish government, specifically the National Electoral Commission (Pa\u0144stwowa Komisja Wyborcza, PKW) (https://www.pkw.gov.pl/).\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-rafa-trzaskowski-be-the-next-president-of-poland",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-18",
+  "market_value": "0.75",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

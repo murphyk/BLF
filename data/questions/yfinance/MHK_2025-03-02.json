@@ -1,0 +1,23 @@
+{
+  "id": "MHK_2025-03-02",
+  "source": "yfinance",
+  "question": "Will MHK's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MHK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 121.010. (The latest market close price of MHK.)",
+  "background": "Mohawk Industries, Inc. designs, manufactures, sources, distributes, and markets flooring products for residential and commercial remodeling, and new construction channels in the United States, Europe, Latin America, and internationally. It operates through three segments: Global Ceramic, Flooring North America, and Flooring Rest of the World. The company provides ceramic, porcelain, and natural stone tiles products for floor and wall applications; natural stones, porcelain slabs, and quartz countertops, as well as installation materials; floor covering products comprising broadloom carpets, carpet tiles, rugs and mats, carpet pads, laminates, medium-density fiberboards, wood floorings, luxury vinyl tiles, and sheet vinyl; and roofing panels, insulation boards, mezzanine flooring products, medium-density fiberboard, and chipboards. It also licenses its intellectual property to flooring manufacturers. The company sells its products under the American Olean, Daltile, Decortiles, Eliane, EmilGroup, KAI, Kerama Marazzi, Marazzi, Ragno, Aladdin Commercial, Durkan, Foss, IVC, Karastan, Mohawk, Mohawk Group, Mohawk Home, Pergo, Portico, Quick-Step, Feltex, GH Commercial, Godfrey Hirst, Hycraft, IVC Commercial, IVC Home, Lentex, Leoline, and Moduleo, Redbook, Unilin, and Vitromex brands. It offers its products to company-owned service centers and stores, company-operated distributors, floor covering retailers, wholesalers, mass merchandisers, department stores, shop at home, buying groups, ceramic tile specialists, e-commerce retailers, residential builders, independent distributors, commercial contractors, and commercial end users. The company was incorporated in 1988 and is headquartered in Calhoun, Georgia.",
+  "url": "https://finance.yahoo.com/quote/MHK",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

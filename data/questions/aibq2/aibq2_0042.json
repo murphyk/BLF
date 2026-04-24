@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0042",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the government of Alberta officially announce a date for an independence referendum?",
+  "title_hash": "dfd893cfbf1cf74f",
+  "background": "Politico: [The quiet threat to Canadian unity isn\u2019t Quebec \u2014 it\u2019s Alberta](https://www.politico.com/news/2025/04/27/the-quiet-threat-to-canadian-unity-isnt-quebec-its-alberta-00311719)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a referendum on the independence of Alberta from Canada is officially scheduled. If this does not occur before that date, this question resolves as **No**.\n\nFine print:\nFor purposes of this question, the referendum will be considered \"officially scheduled\" when it is announced by a person or entity with the authority to do so within Alberta. Please note that broader legality, such as within Canada, will be considered irrelevant for this question, so if the federal government declared the referendum illegal, the question would still resolve as Yes.",
+  "url": "https://www.politico.com/news/2025/04/27/the-quiet-threat-to-canadian-unity-isnt-quebec-its-alberta-00311719",
+  "forecast_due_date": "2025-05-07",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

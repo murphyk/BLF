@@ -1,0 +1,14 @@
+{
+  "id": "0xbc2ae4fc90814b307933e5edab31351de8ca003cc9f6fd5805843936dafa07e7_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Giovanni Mpetshi Perricard win the 2026 Australian Open?",
+  "resolution_criteria": "The 2026 Australian Open is set to take place from January 18 - February 1, 2026.\n\nThis market will resolve to the player that wins the 2026 Australian Open Men\u2019s Singles Tournament.\n\nIf at any point it becomes impossible for a listed player to win the 2026 Australian Open Men\u2019s Singles Tournament per the rules of the tournament, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 Australian Open Men\u2019s Singles Tournament is cancelled, postponed after February 28, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from the Australian Open (https://ausopen.com/); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-giovanni-mpetshi-perricard-win-the-2026-australian-open",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-20",
+  "market_value": "0.0015",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

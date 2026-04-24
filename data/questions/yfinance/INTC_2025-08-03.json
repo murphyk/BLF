@@ -1,0 +1,21 @@
+{
+  "id": "INTC_2025-08-03",
+  "source": "yfinance",
+  "question": "Will INTC's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/INTC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 23.490. (The latest market close price of INTC.)",
+  "background": "Intel Corporation designs, develops, manufactures, markets, and sells computing and related products and services worldwide. It operates through Intel Products, Intel Foundry, and All Other segments. The company offers microprocessor and chipset, stand-alone SoC, and multichip package; Computer Systems and Devices; hardware products comprising CPUs, graphics processing units (GPUs), accelerators, and field programmable gate arrays (FPGAs); and memory and storage, connectivity and networking, and other semiconductor products. It also offers silicon and software products; and optimization solutions for workloads, such as AI, cryptography, security, storage, networking, and leverages various features supporting diverse compute environments. In addition, the company provides driving assistance and self-driving solutions; advanced process technologies enabled by an ecosystem of electronic design automation tools, intellectual property, and design services, as well as systems of chips, including advanced packaging technologies, software, and system. Further, it delivers and deploys intelligent edge platforms that allow developers to achieve agility and drive automation using AI for efficient operations with data integrity, as well as provides hardware and software platforms, tools, and ecosystem partnerships for digital transformation from the cloud to edge. The company serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation was incorporated in 1968 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/INTC",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

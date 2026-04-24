@@ -1,0 +1,21 @@
+{
+  "id": "TPR_2025-06-08",
+  "source": "yfinance",
+  "question": "Will TPR's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TPR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 80.900. (The latest market close price of TPR.)",
+  "background": "Tapestry, Inc. provides luxury accessories and branded lifestyle products in North America, Greater China, rest of Asia, and internationally. The company operates in three segments: Coach, Kate Spade, and Stuart Weitzman. It offers women's handbags; and women's accessories, such as small leather goods which includes mini and micro handbags, money pieces, wristlets, pouches, and cosmetic cases, as well as novelty accessories including address books, time management and travel accessories, sketchbooks, and portfolios; and belts, key rings, and charms. The company also provides men products, which includes bag collections, such as business cases, computer bags, messenger-style bags, backpacks, and totes; small leather goods including wallets, card cases, travel organizers, and belts; and footwear, watches, fragrances, sunglasses, novelty accessories, and ready-to-wear items. In addition, it offers other products including women's footwear and fragrances; eyewear and sunglasses; and jewelry, such as bracelets, necklaces, rings, and earrings, watches, and other women's seasonal lifestyle apparel collections, including outerwear, ready-to-wear and cold weather accessories, such as gloves, scarves, and hats. Further, the company provides kids items, housewares, and home accessories, such as fashion bedding and tableware, stationery, and gifts. It offers its products through retail and outlet stores, brand e-commerce sites, and concession shop-in-shops, wholesale, and third-party distributors under the Coach, Kate Spade, and Stuart Weitzman brand names. The company was formerly known as Coach, Inc. and changed its name to Tapestry, Inc. in October 2017. Tapestry, Inc. was founded in 1941 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/TPR",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

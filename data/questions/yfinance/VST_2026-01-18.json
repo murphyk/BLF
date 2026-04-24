@@ -1,0 +1,17 @@
+{
+  "id": "VST_2026-01-18",
+  "source": "yfinance",
+  "question": "Will VST's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VST for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 154.600. (The latest market close price of VST.)",
+  "background": "Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States. It operates through five segments: Retail, Texas, East, West, and Asset Closure. The company retails electricity and natural gas to residential, commercial, and industrial customers across states in the United States and the District of Columbia. It also involved in the electricity generation, wholesale energy purchases and sales, commodity risk management, fuel production, and fuel logistics management activities. It serves approximately 5 million customers with a generation capacity of approximately 41,000 megawatts with a portfolio of natural gas, nuclear, coal, solar, and battery energy storage facilities. The company was formerly known as Vistra Energy Corp. and changed its name to Vistra Corp. in July 2020. Vistra Corp. was founded in 1882 and is based in Irving, Texas.",
+  "url": "https://finance.yahoo.com/quote/VST",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

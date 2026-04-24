@@ -1,0 +1,15 @@
+{
+  "id": "0xf513ac8ba9915f8da013900cf283d1800104e8789cb90b4fea176cc4e03df47c_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Jose Vinicius Junior win the 2025 Ballon d'Or?",
+  "resolution_criteria": "This market will resolve according to winner of the 2025 Ballon D\u2019Or. \n\nIf no 2025 Ballon D\u2019Or winner is declared by December 31, 2025, 11:59 PM ET this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jose-vinicius-junior-win-the-2025-ballon-dor",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-26",
+  "market_value": "0.0015",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

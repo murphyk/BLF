@@ -1,0 +1,14 @@
+{
+  "id": "41804_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Sudan's Emergency Response Rooms win the Nobel Peace Prize in 2026?",
+  "resolution_criteria": "This question resolves YES if the Norwegian Nobel Committee announces the 2026 Nobel Peace Prize to include Sudan's Emergency Response Rooms (ERRs), as published on [nobelprize.org](nobelprize.org).\n\nThe prize may be shared with other laureates. The question resolves Yes if ERRs are among the named recipients.\n\nThis question resolves NO if the 2026 Nobel Peace Prize is awarded to any individual or organization that does not include the ERRs.",
+  "background": "Sudan's Emergency Response Rooms (ERRs) are a decentralized network of over 735 volunteer-run neighborhood rooms across Sudan's 18 states. Emerging from the 2019 revolution's resistance committees, they have provided food, shelter, medical evacuations, and emergency response to more than 11.5 million people with nearly 26,000 volunteers since civil war erupted in April 2023, per the Right Livelihood Award and Rafto Foundation announcements in late 2024.\n\nIn 2025, ERRs were front-runners for the Nobel Peace Prize. They ranked first on the [PRIO Director's shortlist](https://www.prio.org/news/3596), which has correctly identified the winner in 10 of 12 years since 2014. On [Polymarket](https://polymarket.com/event/nobel-peace-prize-winner-2025/will-sudans-emergency-response-rooms-win-the-nobel-peace-prize-in-2025), ERRs reached 33% odds by October 9, 2025, the highest among candidates. The prize went to Venezuelan opposition leader Maria Corina Machado.\n\nThe same year, ERRs received the [Rafto Prize for Human Rights](https://www.rafto.no/en/the-rafto-prize/emergency-response-rooms-of-sudan-err) and the [Right Livelihood Award](https://rightlivelihood.org/the-change-makers/find-a-laureate/emergency-response-rooms/), both sometimes called \"alternative Nobels.\" Four Rafto Prize winners have later won the Nobel Peace Prize: Aung San Suu Kyi (Rafto 1990, Nobel 1991), Kim Dae-jung (Rafto 2000, Nobel 2000), Shirin Ebadi (Rafto 2001, Nobel 2003), and Jose Ramos-Horta.\n\nAs of January 22nd 2026, ERRs do not appear on the [2026 Polymarket Nobel Peace Prize market](https://polymarket.com/event/nobel-peace-prize-winner-2026-139).",
+  "url": "https://www.metaculus.com/questions/41804",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.21",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

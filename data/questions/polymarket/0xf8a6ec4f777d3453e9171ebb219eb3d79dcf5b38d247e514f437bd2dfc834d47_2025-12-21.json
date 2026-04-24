@@ -1,0 +1,14 @@
+{
+  "id": "0xf8a6ec4f777d3453e9171ebb219eb3d79dcf5b38d247e514f437bd2dfc834d47_2025-12-21",
+  "source": "polymarket",
+  "question": "Will the 10-year Treasury yield hit 4.6% in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date between April 9 and December 31, 2025. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market is the Department of the treasury, specially the data listed under \"Daily Treasury Par Yield Curve Rates\" for the column \"10 Yr\" (see: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-10-year-treasury-yield-hit-4pt6-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0145",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

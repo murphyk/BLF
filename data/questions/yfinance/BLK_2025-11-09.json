@@ -1,0 +1,19 @@
+{
+  "id": "BLK_2025-11-09",
+  "source": "yfinance",
+  "question": "Will BLK's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BLK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 1098.000. (The latest market close price of BLK.)",
+  "background": "BlackRock, Inc. is a publicly owned investment manager. The firm primarily provides its services to institutional, intermediary, and individual investors including corporate, public, union, and industry pension plans, insurance companies, third-party mutual funds, endowments, public institutions, governments, foundations, charities, sovereign wealth funds, corporations, official institutions, and banks. It also provides global risk management and advisory services. The firm manages separate client-focused equity, fixed income, and balanced portfolios. It also launches and manages open-end and closed-end mutual funds, offshore funds, unit trusts, and alternative investment vehicles including structured funds. The firm launches equity, fixed income, balanced, and real estate mutual funds. It also launches equity, fixed income, balanced, currency, commodity, and multi-asset exchange traded funds. The firm also launches and manages hedge funds. It invests in the public equity, fixed income, real estate, currency, commodity, and alternative markets across the globe. The firm primarily invests in growth and value stocks of small-cap, mid-cap, SMID-cap, large-cap, and multi-cap companies. It also invests in dividend-paying equity securities. The firm invests in investment grade municipal securities, government securities including securities issued or guaranteed by a government or a government agency or instrumentality, corporate bonds, and asset-backed and mortgage-backed securities. It employs fundamental and quantitative analysis with a focus on bottom-up and top-down approach to make its investments. The firm employs liquidity, asset allocation, balanced, real estate, and alternative strategies to make its investments. In real estate sector, it seeks to invest in Poland and Germany. The firm benchmarks the performance of its portfolios against various S&P, Russell, Barclays, MSCI, Citigroup, and Merrill Lynch indices. BlackRock, Inc. was founded in 1988 and is based in New York, New York with additional offices in Atlanta, Georgia; Boston, Massachusetts; Chicago, Illinois; Dallas, Texas; Denver, Colorado; Greenwich, Connecticut; Houston, Texas; Miami, Florida; Newport Beach, California; Palo Alto, California; Philadelphia, Pennsylvania; Princeton, New Jersey; San Francisco, California; Santa Monica, California; Seattle, Washington; Washington, DC; West Palm Beach, Florida; Wilmington, Delaware; Mexico; Canada; South Africa; Netherlands; Greece; Serbia; Belgium; Hungary; Denmark; Ireland; Scotland; Germany; Switzerland; England; Luxembourg; Spain; Italy; France; Sweden; Austria; India; China; Australia; Hong Kong; South Korea; Singapore; Taiwan; Japan; Colombia; Argentina; Peru; Chile; Brazil; UAE; Saudi Arabia; Israel.",
+  "url": "https://finance.yahoo.com/quote/BLK",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "36934_2025-06-08",
+  "source": "metaculus",
+  "question": "Will the word \"tariff\" disappear from the front pages of The New York Times and Wall Street Journal before July 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, on any single day (excluding Sundays) after May 19, 2025 and before July 1, 2025, the words \"tariff\" or \"tariffs\" appear on neither:\n\n* the digital version of Today\u2019s Paper of The New York Times (accessible [here](https://www.nytimes.com/section/todayspaper) - be careful to select the appropriate date in the *The Times in Print For* box)\n* the digital \"Print Edition\" of the Wall Street Journal (accessible [here](https://www.wsj.com/print-edition/20250515/frontpage) - linked front page is for May 15, 2025, be careful to set the correct date in the URL, the format is: yyyy-mm-dd).",
+  "background": "Whether reading the newspaper or social media or watching the news, it is highly likely you are going to see something about tariffs - mainly due to US President Donald Trump's [renewed love](https://www.france24.com/en/live-news/20250401-tariff-man-trump-s-long-history-with-trade-wars) for this somewhat antiquated form of taxation.\n\nThe New York Times and the Wall Street Journal are two of the largest print newspapers in the US. Before July, will we see tariffs wiped from the front pages of both papers?",
+  "url": "https://www.metaculus.com/questions/36934",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-13",
+  "market_value": "0.5",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The community prediction."
+}

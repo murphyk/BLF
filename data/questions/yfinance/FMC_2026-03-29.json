@@ -1,0 +1,15 @@
+{
+  "id": "FMC_2026-03-29",
+  "source": "yfinance",
+  "question": "Will FMC's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 14.550. (The latest market close price of FMC.)",
+  "background": "FMC Corporation, an agricultural sciences company, develops, markets, and sells crop protection chemicals in Latin America, North America, Europe, the Middle East, Africa, and Asia. The company offers crop protection chemicals, including insecticides, herbicides, and fungicides. It also provides biologicals, crop nutrition, and seed treatment products. It markets its products through its sales organization and alliance partners, independent distributors, and sales representatives. The company was founded in 1883 and is headquartered in Philadelphia, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/FMC",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

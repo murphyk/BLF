@@ -1,0 +1,17 @@
+{
+  "id": "MAS_2026-02-15",
+  "source": "yfinance",
+  "question": "Will MAS's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MAS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 72.870. (The latest market close price of MAS.)",
+  "background": "Masco Corporation provides home improvement and building products in North America, Europe, and internationally. The company's Plumbing Products segment offers faucets, showerheads, handheld showers, valves, bath hardware and accessories, bathing units, shower bases and enclosures, shower drains, steam shower systems, water filtration systems, and sinks and kitchen accessories; acrylic tubs, bath and shower enclosures, and shower bases and trays; spas, exercise pools, and aquatic fitness systems and saunas; brass, copper, and composite plumbing system component and other non-decorative plumbing products; water products; and thermoplastic products, extruded plastic profiles, and specialized fabrication products, as well as PEX tubing products. This segment provides its products under the DELTA, BRIZO, PEERLESS, HANSGROHE, AXOR, KRAUS, EASY DRAIN, NEWPORT BRASS, GINGER, BRASSTECH, WALTEC, BRISTAN, HERITAGE, MIROLIN, HOT SPRING, CALDERA, FREEFLOW SPAS, FANTASY SPAS, AQUATERRA, LIFESMART, ENDLESS POOLS, TYLO, FINNLEO, HELO, BRASSCRAFT, PLUMBSHOP, and MASTER PLUMBER brands, as well as under private label to home center and online retailers, mass merchandisers, wholesalers and distributors, plumbers, building contractors, remodelers, smaller retailers, and consumers and homebuilders. Its Decorative Architectural Products segment offers paints, primers, specialty coatings, stains, and waterproofing products, as well as paint applicators and accessories; cabinet and door hardware, functional hardware, wall plates, hook and rail, and outdoor living hardware; and decorative bath hardware, shower accessories, mirrors, and shower doors. This segment provides its products under the BEHR, KILZ, WHIZZ, Elder & Jenks, LIBERTY, BRAINERD, and FRANKLIN BRASS brands to home center and other retailers, mass and online retailers, other specialty retailers, and original equipment manufacturers and wholesalers. The company was incorporated in 1929 and is headquartered in Livonia, Michigan.",
+  "url": "https://finance.yahoo.com/quote/MAS",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

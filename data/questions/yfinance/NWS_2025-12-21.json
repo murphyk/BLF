@@ -1,0 +1,19 @@
+{
+  "id": "NWS_2025-12-21",
+  "source": "yfinance",
+  "question": "Will NWS's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NWS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 29.520. (The latest market close price of NWS.)",
+  "background": "News Corporation, a media and information services company, creates and distributes authoritative and engaging content, and other products and services for consumers and businesses. It operates through five segments: Digital Real Estate Services, Dow Jones, Book Publishing, News Media, and Other. The company distributes content and data products through various media channels, such as newspapers, newswires, websites, mobile apps, newsletters, magazines, proprietary databases, live journalism, video, and podcasts under the MarketWatch, The Wall Street Journal, Barron's, Investor's Business Daily, Factiva, Dow Jones Risk & Compliance, Dow Jones Newswires, and Dow Jones Energy brands. It also owns and operates Monday to Friday, Saturday and Sunday, weekly, and bi-weekly newspapers comprising The Australian, The Weekend Australian, The Daily Telegraph, The Sunday Telegraph, Herald Sun, Sunday Herald Sun, The Courier Mail, The Sunday Mail, The Advertiser, Sunday Mail, The Sun, The Sun on Sunday, The Times, The Sunday Times, and New York Post, as well as digital mastheads and other websites. In addition, the company publishes general fiction, nonfiction, children's, and religious books; and operates Storyful, a social media content agency, as well as sports radio network and news channels. Further, it offers property and property-related advertising and services on its websites and mobile applications; digital real estate services; and financial services. The company has operations in the United States, Canada, Europe, Australasia, and internationally. News Corporation was incorporated in 2012 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/NWS",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_9dc268ba",
+  "source": "aibq2",
+  "question": "Will Benin re-open its closed land border crossings with Nigeria's Kwara state before July 1, 2025?",
+  "background": "[Exclusive: Benin Rep. Closes Land Borders With Nigerian Communities Over Soya, Others' Exportation](https://www.legit.ng/nigeria/1654107-exclusive-benin-rep-closes-land-borders-nigerian-communities-soya-exportation/) | [BREAKING: Benin Republic Shuts Border With Kwara Communities Over Attacks By New Terror Group Mahmuda, Arms Smuggling \u2013 Sources](https://saharareporters.com/2025/05/08/breaking-benin-republic-shuts-border-kwara-communities-over-attacks-new-terror-group)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, Benin's land border crossings with Nigeria's Kwara state that were closed in May 2025 are [credibly](https://www.metaculus.com/faq/#definitions) reported to have been reopened.",
+  "url": "https://www.legit.ng/nigeria/1654107-exclusive-benin-rep-closes-land-borders-nigerian-communities-soya-exportation/",
+  "forecast_due_date": "2025-05-31",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_58b98cba",
+  "source": "aibq2",
+  "question": "Will the Global Protest Tracker report any protests in South Korea with 10,000+ participants, before July 1, 2025?",
+  "background": "ACLED December 2024: [South Korea: Anti-government protests surge following martial law declaration](https://acleddata.com/2025/01/15/asia-pacific-overview-january-2025/#keytrends6)",
+  "resolution_criteria": "This question resolves as **Yes** if the [Global Protest Tracker](https://carnegieendowment.org/features/global-protest-tracker?lang=en) reports a protest in South Korea with 10,000 or more participants with a start date after the launch of this question and before July 1, 2025.",
+  "url": "https://acleddata.com/2025/01/15/asia-pacific-overview-january-2025/#keytrends6",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

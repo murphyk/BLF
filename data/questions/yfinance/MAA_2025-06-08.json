@@ -1,0 +1,21 @@
+{
+  "id": "MAA_2025-06-08",
+  "source": "yfinance",
+  "question": "Will MAA's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MAA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 154.230. (The latest market close price of MAA.)",
+  "background": "MAA, an S&P 500 company, is a real estate investment trust (REIT) focused on delivering full-cycle and superior investment performance for shareholders through the ownership, management, acquisition, development and redevelopment of quality apartment communities primarily in the Southeast, Southwest and Mid-Atlantic regions of the United States. As of September 30, 2024, MAA had ownership interest in 104,469 apartment units, including communities currently in development, across 16 states and the District of Columbia.",
+  "url": "https://finance.yahoo.com/quote/MAA",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

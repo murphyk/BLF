@@ -1,0 +1,19 @@
+{
+  "id": "DVN_2025-12-21",
+  "source": "yfinance",
+  "question": "Will DVN's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DVN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 38.410. (The latest market close price of DVN.)",
+  "background": "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States. It operates in Delaware Basin located in southeast New Mexico and west Texas, Eagle Ford located in North America, Anadarko Basin located in western Oklahoma, Williston Basin located in North Dakota, and Powder River Basin located in Wyoming. Devon Energy Corporation was founded in 1971 and is headquartered in Oklahoma City, Oklahoma.",
+  "url": "https://finance.yahoo.com/quote/DVN",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

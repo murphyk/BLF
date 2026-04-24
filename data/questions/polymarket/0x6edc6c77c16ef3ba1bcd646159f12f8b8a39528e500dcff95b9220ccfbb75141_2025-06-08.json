@@ -1,0 +1,15 @@
+{
+  "id": "0x6edc6c77c16ef3ba1bcd646159f12f8b8a39528e500dcff95b9220ccfbb75141_2025-06-08",
+  "source": "polymarket",
+  "question": "Will the Oklahoma City Thunder win the 2025 NBA Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Oklahoma City Thunder win the 2024-2025 NBA Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d immediately if it becomes impossible for this team to become 2024-25 NBA Champion.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-2025-nba-finals",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-23",
+  "market_value": "0.785",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

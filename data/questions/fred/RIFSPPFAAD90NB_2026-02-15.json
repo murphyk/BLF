@@ -1,0 +1,17 @@
+{
+  "id": "RIFSPPFAAD90NB_2026-02-15",
+  "source": "fred",
+  "question": "Will the 90-day AA Financial Commercial Paper Interest Rate have increased by each resolution date listed below as compared to its value on 2026-02-15?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/RIFSPPFAAD90NB once the data is published.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 3.700. (The latest value released in 90-Day AA Financial Commercial Paper Interest Rate from the release Commercial Paper.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/cp/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: https://www.federalreserve.gov/releases/cp/about.htm (https://www.federalreserve.gov/releases/cp/about.htm). For questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/cp/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/RIFSPPFAAD90NB",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

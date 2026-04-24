@@ -1,0 +1,17 @@
+{
+  "id": "HRL_2026-02-01",
+  "source": "yfinance",
+  "question": "Will HRL's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HRL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 24.430. (The latest market close price of HRL.)",
+  "background": "Hormel Foods Corporation develops, processes, and distributes various meat, nuts, and other food products to foodservice, convenience store, and commercial customers in the United States and internationally. It operates through three segments: Retail, Foodservice, and International segments. The company provides various perishable products, including resh meats, frozen items, refrigerated meal solutions, bacon, sausages, hams, guacamole, and other items that require refrigeration; and shelf-stable products, such as canned luncheon meats, nut butters, snack nuts, chili, shelf-stable microwaveable meals, hash, stews, tortillas, salsas, tortilla chips, and other items that do not require refrigeration. It sells its products under the HORMEL, ALWAYS TENDER, APPLEGATE, AUSTIN BLUES, BACON 1, BLACK LABEL, BREAD READY, BURKE, CAF\u00c9 H, CERATTI, CHI-CHI'S, COLUMBUS, COMPLEATS, CORN NUTS, CURE 81, DAN'S PRIZE, DI LUSSO, DINTY MOORE, DON MIGUEL, DO\u00d1A MARIA, EMBASA, FAST \u0091N EASY, FIRE BRAISED, FONTANINI, HERDEZ, HORMEL GATHERINGS, HOUSE OF TSANG, JENNIE-O, JUSTIN'S, LA VICTORIA, LAYOUT, LLOYD'S, MARY KITCHEN, MR. PEANUT, NATURAL CHOICE, NUT-RITION, OLD SMOKEHOUSE, OVEN READY, PILLOW PACK, PLANTERS, ROSA GRANDE, SADLER'S SMOKEHOUSE, SKIPPY, SPAM, SQUARE TABLE, SPECIAL RECIPE, VALLEY FRESH, and WHOLLY brands through sales personnel, independent brokers, and distributors. The company was formerly known as Geo. A. Hormel & Company and changed its name to Hormel Foods Corporation in January 1995. Hormel Foods Corporation was founded in 1891 and is headquartered in Austin, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/HRL",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

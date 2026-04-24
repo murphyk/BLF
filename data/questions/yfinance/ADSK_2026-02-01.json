@@ -1,0 +1,17 @@
+{
+  "id": "ADSK_2026-02-01",
+  "source": "yfinance",
+  "question": "Will ADSK's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ADSK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 257.440. (The latest market close price of ADSK.)",
+  "background": "Autodesk, Inc. provides 3D design, engineering, and entertainment technology solutions worldwide. It offers AutoCAD Civil 3D, a surveying, design, analysis, and documentation solution; Autodesk Build, a toolset for managing, sharing, and accessing project documents for streamlined workflows between the office, trailer, and jobsite; Revit, a software built for building information modeling to help professionals design, build, and maintain energy-efficient buildings; Autodesk BIM Collaborate Pro, cloud-based design collaboration and design management software; BuildingConnected, a SaaS preconstruction solution; and Tandem, a cloud-based platform that transforms the built asset lifecycle. The company also provides AutoCAD software, a customizable and extensible CAD application for professional design, drafting, detailing, and visualization; AutoCAD LT, a drafting and detailing software; Fusion, a 3D CAD, computer-aided manufacturing, and computer-aided engineering tool; Inventor, a software solution that offers a set of tools for 3D mechanical design, simulation, analysis, tooling, visualization, and documentation; product design and manufacturing collection tools; and Vault, a data management software for managing data in one central location, accelerate design processes, and streamline internal/external collaboration. It offers Flow Production Tracking, a cloud-based production management software; Maya software that offers 3D modeling, animation, effects, rendering, and compositing solutions for film and video artists, game developers, and design visualization professionals; Media and Entertainment Collection that offers end-to-end creative tools for entertainment creation; and 3ds Max software, which provides 3D modeling, animation, and rendering solutions. The company sells its products and services through a network of resellers and distributors. Autodesk, Inc. was incorporated in 1982 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/ADSK",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

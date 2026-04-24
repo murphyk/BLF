@@ -1,0 +1,15 @@
+{
+  "id": "35268_2025-05-11",
+  "source": "metaculus",
+  "question": "Will 2025 be the warmest year on record globally, according to the ECMWF?",
+  "resolution_criteria": "The question will be resolved as **Yes** if the [Copernicus Climate Change Service/ECMWF](https://climate.copernicus.eu) reports that 2025 was the warmest year on record based on global mean surface air temperature. It will be resolved as **No** if any other year holds the record.",
+  "background": "Global warming and climate phenomena such as El Ni\u00f1o have contributed to exceptionally high temperatures in recent years. 2023 and 2024 were consecutively the warmest years on record. In early 2025, climate models indicate a continued warming trend. For more information, visit the [ <u>Copernicus Climate Change Service</u> ](https://climate.copernicus.eu/). In early 2025, [ <u>real-time data</u> ](https://pulse.climate.copernicus.eu/) suggest that this year is closely following the record warmth of 2024, or slightly below at this stage.",
+  "url": "https://www.metaculus.com/questions/35268",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-29",
+  "market_value": "0.65",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The community prediction."
+}

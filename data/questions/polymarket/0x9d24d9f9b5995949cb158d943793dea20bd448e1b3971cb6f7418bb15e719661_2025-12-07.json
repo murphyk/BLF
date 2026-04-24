@@ -1,0 +1,14 @@
+{
+  "id": "0x9d24d9f9b5995949cb158d943793dea20bd448e1b3971cb6f7418bb15e719661_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Elon and DOGE cut more than $250b in federal spending in 2025?",
+  "resolution_criteria": "This market will resolve based on federal government current expenditures as reported by the St. Louis Federal Reserve Bank, displayed here (https://fred.stlouisfed.org/series/FGEXPND).\n\nThis market will resolve to the amount federal government current expenditures decrease by between the Q4 2024 report and the Q4 2025 report. \n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe difference will be calculated as the Q4 2024 value minus the Q4 2025 value. \n\nThe figures will be based on the initial Q4 2024 and Q4 2025 values as reported by the St. Louis Federal Reserve Bank. Revisions made to these figures will not be considered, only the values reported in the initial reports will be used. \n\nThe figures will be based on the Q4 2024 and Q4 2025 values as reported by the St. Louis Federal Reserve Bank as soon as the data for Q4 2025 becomes available, regardless of whether later revisions are made.\n\nThis market's resolution source is the Federal Government: Current Expenditures chart maintained by the St. Louis Federal Reserve Bank, displayed here (https://fred.stlouisfed.org/series/FGEXPND).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-elon-and-doge-cut-more-than-250b-in-federal-spending-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.018500000000000003",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

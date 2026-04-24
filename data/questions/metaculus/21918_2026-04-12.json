@@ -1,0 +1,14 @@
+{
+  "id": "21918_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Bryan Caplan win his bet that India's average fertility rate for 2032 & 2033  will be < 2.0?",
+  "resolution_criteria": "*This question belongs to the Bryan Caplan Collection, a series based on bets by economist Bryan Caplan. Find the rest of the series [here](https://www.metaculus.com/project/3053/) and Caplan's bet inventory covering most series questions [here](https://docs.google.com/document/d/1qShKedFJptpxfTHl9MBtHARAiurX-WK6ChrMgQRQz-0/edit).*\n\n**Questions in this series resolve according to the outcome of Bryan Caplan's wager, where a resolution of 'Yes' reflects Caplan winning the bet. Questions resolve per public statements by Caplan.**\n\n---\n\nFor this question, a resolution of YES reflects that Caplan won his bet that: India's (Total Fertility Rate in 2032 + Total Fertility Rate in 2033)/2<2.0. \n\nIf Caplan does not announce the outcome, this question resolves per the average of World Bank and United Nations estimates of TFR.\n\n[World Bank data is here](https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=IN). \n\n[UN data is here](https://pdp.unfpa.org/?_ga=2.189084207.545536236.1712342354-2014740225.1712342354&country=356&data_id=dataSource_8-6%3A106%2CdataSource_8-1%3A2%2B10%2B11&page=Explore-Indicators).",
+  "background": "**The original wager for this question appeared [here](https://www.econlib.org/archives/2012/08/indian_fertilit.html) and was made August 30, 2012 with economist John Nye, with odds of 2:1 favoring Caplan.**\n\nCaplan writes:\n\n>I think that bad economic policy, not \u201coverpopulation,\u201d is India\u2019s main economic problem.  But whatever you think about the social effects of population growth, it\u2019s clear that Indian fertility is sharply declining.  I expect this rapid decline to continue, but my colleague John Nye isn\u2019t convinced.  As a result, we\u2019ve agreed to the following bet:\n\n>If India\u2019s (Total Fertility Rate in 2032 + Total Fertility Rate in 2033)/2<2.0,\n\n>John owes me $200.\n\n>If India\u2019s (Total Fertility Rate in 2032 + Total Fertility Rate in 2033)/2 \u22652.0,\n\n>I owe John $100.\n\n>We\u2019ve agreed to use the average of the World Bank and United Nations estimates of TFR.\n\n>Hopefully I\u2019ll lose!",
+  "url": "https://www.metaculus.com/questions/21918",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.98",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

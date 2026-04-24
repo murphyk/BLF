@@ -1,0 +1,15 @@
+{
+  "id": "37112_2025-06-22",
+  "source": "metaculus",
+  "question": "Will the United States and Iran sign an agreement restricting Iran's nuclear program before September 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if the United States and Iran sign an agreement restricting Iran's nuclear program after May 12 and before September 1, 2025.\n\nFor an agreement to qualify for this question it must meet the following criteria:\n\n1. Contains limits on Iran enriching or stockpiling nuclear materials.\n2. Allows monitoring or inspection by parties other than the Iranian Government, such as the International Atomic Energy Agency.",
+  "background": "In 2015, Iran and the P5+1 group (China, France, Russia, the United Kingdom, the United States, and Germany) concluded the [Joint Comprehensive Plan of Action](https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action) (JCPOA). Under the terms of the agreement, Iran committed to reducing its stockpile of enriched uranium, limiting its enrichment capacity, and permitting enhanced oversight by the [International Atomic Energy Agency](https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency) (IAEA). In exchange, several nuclear-related sanctions were eased, providing Iran with economic relief.\n\nHowever, in 2018, the United States under President Donald Trump unilaterally withdrew from the JCPOA, re-imposing harsh sanctions on Iran and effectively ending the agreement. In response, Iran began scaling back its compliance with the deal, resuming uranium enrichment and increasing its stockpile of nuclear material.\n\nIn April 2025, the United States and Iran [resumed indirect negotiations](https://www.politico.com/news/2025/04/19/iran-us-nuclear-negotiations-00299713) aimed at reaching a new agreement to limit Iran's nuclear program. These talks mark the first significant diplomatic engagement between the two nations since the U.S. withdrawal from the JCPOA in 2018. The fourth round of talks [is planned](https://www.reuters.com/world/next-round-iran-us-nuclear-talks-likely-be-oman-weekend-2025-05-06/) to take place in May 2025.",
+  "url": "https://www.metaculus.com/questions/37112",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-01",
+  "market_value": "0.31",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The community prediction."
+}

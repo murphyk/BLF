@@ -1,0 +1,17 @@
+{
+  "id": "FDS_2026-02-01",
+  "source": "yfinance",
+  "question": "Will FDS's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FDS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 284.130. (The latest market close price of FDS.)",
+  "background": "FactSet Research Systems Inc., together with its subsidiaries, operates as a financial digital platform and enterprise solutions provider for the investment community. It offers data, products, and analytical applications; and workstations, portfolio analytics, and enterprise data solutions, as well as managed services for supporting data, performance, risk, and reporting workflows. The company also provides subscription-based financial data and market intelligence on securities, companies, industries, and people that enable clients to research investment ideas, as well as analyze, monitor, and manage portfolios; and solutions covering investment lifecycle of investment research, portfolio construction and analysis, trade execution, performance measurement, risk management, and reporting. In addition, it offers services through configurable desktop and mobile platform, data feeds, cloud-based digital solutions, and application programming interfaces. It operates in Europe, the Middle East, Africa, the Americas, the Asia Pacific, and internationally. The company serves investment professionals, including institutional asset managers, bankers, wealth managers, asset owners, partners, hedge funds, corporate users, and private equity and venture capital professionals. FactSet Research Systems Inc. was founded in 1978 and is headquartered in Norwalk, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/FDS",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

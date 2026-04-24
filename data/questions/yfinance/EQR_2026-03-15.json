@@ -1,0 +1,15 @@
+{
+  "id": "EQR_2026-03-15",
+  "source": "yfinance",
+  "question": "Will EQR's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EQR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 63.110. (The latest market close price of EQR.)",
+  "background": "Equity Residential is committed to creating communities where people thrive. The Company, a member of the S&P 500, owns and manages 312 rental properties consisting of 85,190 apartment units in dynamic metro areas across the U.S. with a primary concentration in major coastal markets, diversified by a targeted presence in the high-growth metro areas of Atlanta, Austin, Dallas/Ft. Worth and Denver.",
+  "url": "https://finance.yahoo.com/quote/EQR",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

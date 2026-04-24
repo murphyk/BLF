@@ -1,0 +1,19 @@
+{
+  "id": "DOW_2026-01-04",
+  "source": "yfinance",
+  "question": "Will DOW's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DOW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 23.060. (The latest market close price of DOW.)",
+  "background": "Dow Inc., through its subsidiaries, provides various materials science solutions for packaging, infrastructure, mobility, and consumer applications in the United States, Canada, Europe, the Middle East, Africa, India, the Asia Pacific, and Latin America. The company operates through Packaging & Specialty Plastics, Industrial Intermediates & Infrastructure, and Performance Materials & Coatings segments. The Packaging & Specialty Plastics segment provides ethylene, propylene, polyethylene, and aromatics products; and other ethylene derivatives, such as polyolefin elastomers, ethylene vinyl acetate, and ethylene propylene diene monomer rubber. The Industrial Intermediates & Infrastructure segment offers polyurethanes, including propylene oxide, propylene glycol, and polyether polyols; aromatic isocyanates and fully formulated polyurethane systems; and chlor-alkali and vinyl comprising chlorine and caustic soda, ethylene dichloride, and vinyl chloride monomer; and construction chemicals consisting of cellulose ethers, redispersible latex powders, and acrylic emulsions, as well as coatings, adhesives, sealants, elastomers, and composites. The Performance Materials & Coatings segment provides architectural paints and coatings, and industrial coatings; and acrylics-based building blocks, silicon metals, siloxanes, and intermediates. The company also engages in the property and casualty insurance, as well as reinsurance business. Dow Inc. was founded in 1897 and is headquartered in Midland, Michigan.",
+  "url": "https://finance.yahoo.com/quote/DOW",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

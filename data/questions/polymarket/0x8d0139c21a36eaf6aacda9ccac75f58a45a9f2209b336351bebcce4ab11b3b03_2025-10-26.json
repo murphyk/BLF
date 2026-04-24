@@ -1,0 +1,14 @@
+{
+  "id": "0x8d0139c21a36eaf6aacda9ccac75f58a45a9f2209b336351bebcce4ab11b3b03_2025-10-26",
+  "source": "polymarket",
+  "question": "Starmer out in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Keir Starmer ceases to be the Prime Minister of the United Kingdom for any period of time between February 2 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Keir Starmer's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be the government of the UK, however a consensus of credible reporting will also suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/starmer-out-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.09",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

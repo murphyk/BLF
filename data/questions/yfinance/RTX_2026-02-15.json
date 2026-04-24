@@ -1,0 +1,17 @@
+{
+  "id": "RTX_2026-02-15",
+  "source": "yfinance",
+  "question": "Will RTX's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RTX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 198.660. (The latest market close price of RTX.)",
+  "background": "RTX Corporation, an aerospace and defense company, provides systems and services for commercial, military, and government customers worldwide. It operates through three segments: Collins Aerospace (Collins), Pratt & Whitney, and Raytheon. The Collins segment offers aerospace and defense products, and aftermarket services for civil and military aircraft manufacturers and commercial airlines, as well as regional, business, and general aviation, defense, and commercial space operations. This segment designs, manufactures, and supplies electric power generation and management and distribution, environmental control, flight control, air data and aircraft sensing, engine control, and engine nacelle systems, as well as engine components; cabin interiors, including seating, oxygen, food and beverage preparation, storage and galley, lavatory, and wastewater management systems; connected aviation solutions and services; and systems solutions for connected battlespace, test and training range systems, crew escape systems, and simulation and training. It also provides spare parts, overhaul and repair, engineering and technical support, training and fleet management solutions, and asset and information management services. The Pratt & Whitney segment supplies aircraft engines for commercial, military, business jet, and general aviation customers; and produces, sells, and services military and commercial auxiliary power units, as well as offers fleet management and aftermarket maintenance, repair, and overhaul services. The Raytheon segment provides defensive and offensive threat detection, tracking, and mitigation capabilities for government and commercial customers. This segment offers sensors, mission orchestration and satellite control products, and software. The company was formerly known as Raytheon Technologies Corporation and changed its name to RTX Corporation in July 2023. RTX Corporation was incorporated in 1934 and is headquartered in Arlington, Virginia.",
+  "url": "https://finance.yahoo.com/quote/RTX",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

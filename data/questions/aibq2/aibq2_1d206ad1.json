@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_1d206ad1",
+  "source": "aibq2",
+  "question": "Will Alassane Ouattara declare his candidacy for president of Ivory Coast (C\u00f4te d\u2019Ivoire) before June 1, 2025?",
+  "background": "Africa Center for Strategic Studies: [C\u00f4te d\u2019Ivoire: Efforts to Forge Resiliency Face Stiff Test](https://africacenter.org/spotlight/2025-elections/cotedivoire/)",
+  "resolution_criteria": "This question resolves as **Yes** if Alassane Ouattara declares his candidacy for the [2025 Ivorian presidential election](https://en.wikipedia.org/wiki/2025_Ivorian_presidential_election), according to credible sources, before June 1, 2025.",
+  "url": "https://africacenter.org/spotlight/2025-elections/cotedivoire/",
+  "forecast_due_date": "2025-04-29",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

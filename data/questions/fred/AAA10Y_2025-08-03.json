@@ -1,0 +1,21 @@
+{
+  "id": "AAA10Y_2025-08-03",
+  "source": "fred",
+  "question": "Will Moody's Aaa Corporate Bond Yield compared to the 10-year Treasury yield have increased by each resolution date listed below as compared to its value on 2025-08-03?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/AAA10Y once the data is published.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 1.080. (The latest value released in Moody's Seasoned Aaa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity from the release Interest Rate Spreads.)",
+  "background": "The notes from the release: N/A.  The notes from the series: Series is calculated as the spread between Moody's Seasoned Aaa Corporate Bond\u00a9 (https://fred.stlouisfed.org/series/DAAA) and 10-Year Treasury Constant Maturity (BC_10YEARM).\r\n\r\n\u00a92017, Moody's Corporation, Moody's Investors Service, Inc., Moody's Analytics, Inc. and/or their licensors and affiliates (collectively, \"Moody's\"). All rights reserved. Moody's ratings and other information (\"Moody's Information\") are proprietary to Moody's and/or its licensors and are protected by copyright and other intellectual property laws. Moody's Information is licensed to Client by Moody's. MOODY'S INFORMATION MAY NOT BE COPIED OR OTHERWISE REPRODUCED, REPACKAGED, FURTHER TRANSMITTED, TRANSFERRED, DISSEMINATED, REDISTRIBUTED OR RESOLD, OR STORED FOR SUBSEQUENT USE FOR ANY SUCH PURPOSE, IN WHOLE OR IN PART, IN ANY FORM OR MANNER OR BY ANY MEANS WHATSOEVER, BY ANY PERSON WITHOUT MOODY'S PRIOR WRITTEN CONSENT.\r\nStarting with the update on June 21, 2019, the Treasury bond data used in calculating interest rate spreads is obtained directly from the U.S. Treasury Department (https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)..  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/AAA10Y",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

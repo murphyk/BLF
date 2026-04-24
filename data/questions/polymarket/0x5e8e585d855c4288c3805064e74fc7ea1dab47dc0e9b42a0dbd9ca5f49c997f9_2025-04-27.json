@@ -1,0 +1,15 @@
+{
+  "id": "0x5e8e585d855c4288c3805064e74fc7ea1dab47dc0e9b42a0dbd9ca5f49c997f9_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Bitcoin dip to $50,000 by December 31, 2025?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 30, 2024, 20:00 and December 31, 2025, 23:59 in the ET timezone has a final \"Low\" price of $50,000 or lower. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTCUSDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-dip-to-50000-by-december-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.305",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

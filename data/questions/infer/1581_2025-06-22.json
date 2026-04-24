@@ -1,0 +1,15 @@
+{
+  "id": "1581_2025-06-22",
+  "source": "infer",
+  "question": "Will the share of battery-electric vehicles among new registered cars in the EU exceed 20% by the second quarter of 2025?",
+  "resolution_criteria": "This question will resolve based on information from the European Automobile Manufacturers\u2019 Association (ACEA), which reports on registrations of various types of vehicles in the EU in quarterly press releases . The question will resolve based on the number of new battery-electric vehicles registered in the EU in Q2 2025, which ends on 30 June 2025. The most recent \u201cNew car registrations\u201d press release (for Q1 2025) is available here .",
+  "background": "In the first quarter of 2025, new battery-electric vehicle (BEV) registrations in the EU grew by 23.9%, to 412,997 units, capturing 15.2% of total EU market share as compared to 12% in Q1 in 2024 ( ACEA ). European buyers have been heavily influenced by general global economic uncertainty, growing competition from China, and Elon Musk\u2019s political activity, which has impacted the sales of Tesla vehicles ( Reuters , Statista ). In the first quarter of 2025, Tesla sales dropped by approximately 62% in Germany, and other EU countries have shown similar trends ( Statista ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1581",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-01",
+  "market_value": "0.063",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

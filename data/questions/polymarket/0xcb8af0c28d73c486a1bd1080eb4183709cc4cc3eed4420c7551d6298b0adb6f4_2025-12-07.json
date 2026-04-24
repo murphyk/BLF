@@ -1,0 +1,14 @@
+{
+  "id": "0xcb8af0c28d73c486a1bd1080eb4183709cc4cc3eed4420c7551d6298b0adb6f4_2025-12-07",
+  "source": "polymarket",
+  "question": "Will BNB hit $1500 by December 31?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BNB/USDT between October 16, 2025, 13:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $1500 or higher. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BNB/USDT \"High\" prices available at https://www.binance.com/en/trade/BNB_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BNB/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bnb-hit-1500-by-december-31-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.024",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

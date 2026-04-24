@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_be72b564",
+  "source": "aibq2",
+  "question": "Will Ukraine announce a presidential election before July 1, 2025?",
+  "background": "[Next Ukrainian presidential election](https://en.wikipedia.org/wiki/Next_Ukrainian_presidential_election)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a specific date on which a presidential election will be held is officially announced by the government of Ukraine or any of its agencies that have the authority to do so. If no such announcement occurs before that date, this question resolves as No.\n\nFine print:\nThe election does not have to be held before July 1, 2025; this question resolves based on an announcement.",
+  "url": "https://en.wikipedia.org/wiki/Next_Ukrainian_presidential_election",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

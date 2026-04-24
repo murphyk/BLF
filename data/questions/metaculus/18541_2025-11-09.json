@@ -1,0 +1,14 @@
+{
+  "id": "18541_2025-11-09",
+  "source": "metaculus",
+  "question": "Will China operate at least one military base in a BRICS country before 2026?",
+  "resolution_criteria": "The question will resolve to YES if either the Chinese government or US intelligence community publicly announces a Chinese military base in a BRICS country before January 1st, 2026.\n\nThe country needs to be an official member of BRICS, thus the seven new nations that were invited in August 2023 will count towards YES only after January 2024, when they're projected to officially join.\n\nIf the Chinese base is in a country which only afterwards joins BRICS, the question will still resolve to YES.",
+  "background": "As of August 2023, China has only one military base overseas - a naval base in Djibouti, Africa. However, there are clear indications that they are interested in expanding their global power projection capabilities, and indeed some overseas naval bases are allegedly under construction in Asia and Africa.\n\nWith the adding of seven new member countries to BRICS, an alliance primarily focused on economic and diplomatic partnership, it is an important question regarding the standoff between East and West whether BRICS will take a more militaristic aspect as well. Overseas Chinese military bases would be a strong indication of this.\n\n[China may be planning overseas naval bases] https://www.theguardian.com/world/2023/jul/27/china-building-overseas-naval-bases-across-asia-and-africa-say-analysts",
+  "url": "https://www.metaculus.com/questions/18541",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.084",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "BBWI_2025-06-08",
+  "source": "yfinance",
+  "question": "Will BBWI's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BBWI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 30.540. (The latest market close price of BBWI.)",
+  "background": "Bath & Body Works, Inc. operates as a specialty retailer of home fragrance, personal and body care, soaps, and sanitizer products. The company offers body and home fragrances, including 3-wick candles, home fragrance diffusers, fine fragrance mists, liquid hand soaps, body lotions, and body creams. It sells its products under the Bath & Body Works, White Barn, and other brand names through retail stores and e-commerce sites in the United States and Canada, as well as through international stores operated by partners under franchise, license, and wholesale arrangements. The company was formerly known as L Brands, Inc. and changed its name to Bath & Body Works, Inc. in August 2021. Bath & Body Works, Inc. was founded in 1963 and is headquartered in Columbus, Ohio.",
+  "url": "https://finance.yahoo.com/quote/BBWI",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

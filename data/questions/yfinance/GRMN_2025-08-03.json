@@ -1,0 +1,21 @@
+{
+  "id": "GRMN_2025-08-03",
+  "source": "yfinance",
+  "question": "Will GRMN's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GRMN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 232.000. (The latest market close price of GRMN.)",
+  "background": "Garmin Ltd. designs, develops, manufactures, markets, and distributes a range of wireless devices worldwide. The company offers running and multi-sport watches; cycling products; smartwatch devices; scales and monitors; Garmin Connect and Garmin Connect Mobile, which are web and mobile platforms where users can track and analyze their fitness, activities and workouts, and wellness data; and Connect IQ, enables third parties to create applications that run on Garmin devices. It also provides adventure watches; outdoor handhelds and satellite communicators; golf devices; consumer automotive; dog devices; InReach and Gramin response communication device; and Dive devices. In addition, the company designs, manufactures, and markets various aircraft avionics solutions, including integrated flight decks, electronic flight displays and instrumentation, navigation and communication products, automatic flight control systems and safety-enhancing technologies, audio control systems, engine indication systems, traffic awareness and avoidance solutions, ADS-B and transponders, weather information and avoidance solutions, datalink and connectivity solutions, and portable GPS navigators and wearables, as well as service products to the aviation market. Further, it offers chartplotters and multi-function displays, cartography products, fishfinders, sonar products, autopilot systems, radars, compliant instrument displays and sensors, VHF communication radios, handhelds and wearable devices, sailing products, audio products, digital switching products, trolling motors, and lighting products; and domain controllers and infotainment units, as well as software, map database, cameras, wearables, and automotive solutions. The company sells its products through independent retailers, dealers, distributors, installation and repair shops, and original equipment manufacturers, as well as online webshop. Garmin Ltd. was founded in 1989 and is based in Schaffhausen, Switzerland.",
+  "url": "https://finance.yahoo.com/quote/GRMN",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

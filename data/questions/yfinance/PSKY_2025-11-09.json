@@ -1,0 +1,19 @@
+{
+  "id": "PSKY_2025-11-09",
+  "source": "yfinance",
+  "question": "Will PSKY's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PSKY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 15.880. (The latest market close price of PSKY.)",
+  "background": "Paramount Skydance Corporation operates as a media and entertainment company worldwide. It operates in three segments: Studios, Direct-to-Consumer, and TV Media. The company operates CBS Television Network, a domestic broadcast television network; CBS Stations, a television station; international free-to-air networks comprising Network 10, Channel 5, Telefe, and Chilevisi\u00f3n; and domestic premium and basic cable networks, such as Nickelodeon, MTV, CMT, Comedy Central, BET, Paramount+ with SHOWTIME, Paramount Network, The Smithsonian Channel, BET Media Group, CBS Sports Network, and international extensions of these brands. It also provides domestic and international television studio operations, including CBS Studios, Paramount Television Studios, and Showtime/MTV Entertainment Studios; CBS Media Ventures, which produces and distributes first run syndicated programming; and digital properties consist of CBS News Streaming and CBS Sports HQ. In addition, the company offers a portfolio of domestic and international pay and free streaming services, including Paramount+, Pluto TV, and BET+. Further, it produces and acquires films, series, and short-form content for release and licensing worldwide, including in theaters, on streaming services, on television, through digital home entertainment, and DVDs/Blu-rays; and operates a portfolio consist of Paramount Pictures, Paramount Players, Paramount Animation, Nickelodeon Studio, Awesomeness, and Miramax. It provides production, distribution, and advertising solutions. The company was founded in 1914 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/PSKY",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

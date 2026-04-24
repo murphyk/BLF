@@ -1,0 +1,15 @@
+{
+  "id": "2937_2025-08-03",
+  "source": "metaculus",
+  "question": "Will the number of deaths from antibiotic-resistant infections per year double by December 31, 2025?",
+  "resolution_criteria": "In 1928, biologist Alexander Fleming discovered - by accident - that where the _Penicillium_ mould had grown on a petri dish the bacteria nearby had been killed. This was due to a chemical the mould secreted, which he named \"penicillin\" - the antibiotic we know and love today.\n\nSince the discovery of penicillin, antibiotics have saved hundreds of millions of lives and become an essential part of modern medicine.\n\nBut they're getting less effective. Repeated use has led to the existence of resistant strains of bacteria, which are immune to the effects of multiple different antibiotics. This has been described as a \"serious, worldwide threat to public health\" by [the WHO](https://www.who.int/mediacentre/news/releases/2014/amr-report/en/).\n\nIn 2013 the US Center for Disease Control and Prevention (CDC) [reported](https://www.cdc.gov/drugresistance/biggest_threats.html) that over 23,000 people died each year from antibiotic-resistant infections in the US. More recent data on their website suggests the figure is more like 37,000.\n\n**At any point before the end of the calendar year 2025, will the CDC or another credible source report that at least 70,000 people die annually from antibiotic-resistant infections in the US?**",
+  "background": "",
+  "url": "https://www.metaculus.com/questions/2937",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.08",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The community prediction."
+}

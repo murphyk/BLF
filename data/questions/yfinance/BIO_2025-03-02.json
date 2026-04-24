@@ -1,0 +1,23 @@
+{
+  "id": "BIO_2025-03-02",
+  "source": "yfinance",
+  "question": "Will BIO's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BIO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 277.160. (The latest market close price of BIO.)",
+  "background": "Bio-Rad Laboratories, Inc. manufactures and distributes life science research and clinical diagnostic products in the United States, Europe, Asia, Canada, and Latin America. It operates through two segments, Life Science and Clinical Diagnostics. The company develops, manufactures, and markets instruments, systems, reagents, and consumables to separate, purify, characterize, and quantitate biological materials such as cells, proteins, and nucleic acids for proteomics, genomics, biopharmaceutical production, cellular biology, and food safety markets. It also designs, manufactures, markets, and supports test systems, informatics systems, test kits, and specialized quality controls for hospitals, diagnostic reference, transfusion, and physician office laboratories. The company offers its products through its direct sales force, as well as through distributors, agents, brokers, and resellers. Bio-Rad Laboratories, Inc. was founded in 1952 and is headquartered in Hercules, California.",
+  "url": "https://finance.yahoo.com/quote/BIO",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

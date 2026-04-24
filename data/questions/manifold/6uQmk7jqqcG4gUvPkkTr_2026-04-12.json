@@ -1,0 +1,14 @@
+{
+  "id": "6uQmk7jqqcG4gUvPkkTr_2026-04-12",
+  "source": "manifold",
+  "question": "Will global CO2 emissions decrease in 2025?",
+  "resolution_criteria": "Global energy-related CO2 emissions grew by 1.1% in 2023 (IEA), increasing 410 million tonnes (Mt) to reach a new record high of 37.4 billion tonnes (Gt).\n\nHere is the graph for the past few years.\n\nChina alone grew around 565 Mt. China's growth was greater than the rest of the world's decrease but some think it may be close to peak.\n\nWill 2025 emissions be lower than 2024?\n\nThis market will resolves based on IEA's numbers when released based on the actual change in CO2 emissions between the two years, no matter what extraordinary event (like COVID) may happen each year.\n\nI have created the same market for 2024, hope it helps adjust your bets!\n\n(https://manifold.markets/embed/figo/will-global-co2-emissions-decrease)Update 2026-03-13 (PST) (AI summary of creator comment): The market will resolve using the next IEA Global Energy Review report (expected: global-energy-review-2026), comparing year-on-year figures within that single report. Mixing data from two different reports will be avoided. If the report does not include a clear year-on-year comparison, the creator will propose a fair alternative.",
+  "background": "",
+  "url": "https://manifold.markets/figo/will-global-co2-emissions-decrease-398fcf9580a4",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.07575930168226701",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xbe69842f45365d1ac0ff96513c1dcef6253408e085e43dd8e01434c4146e8769_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Kai Havertz be the top goalscorer in the EPL?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Kai Havertz is the top goalscorer for the 2024/2025 English Premier League season. Otherwise, this market will resolve to \u201cNo.\u201d\n\nIf multiple players tie for the most goals in the 2024/2025 English Premier League season, the market will resolve based on most assists, then most games played, and finally the player\u2019s last name alphabetically if ties persist.\n\nThe primary resolution source for this market will be official information from the English Premier League. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-kai-havertz-be-the-top-goalscorer-in-the-epl",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-25",
+  "market_value": "0.0005",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

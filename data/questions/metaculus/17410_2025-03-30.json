@@ -1,0 +1,15 @@
+{
+  "id": "17410_2025-03-30",
+  "source": "metaculus",
+  "question": "Will there be discussion in mainstream media about an AI arms race in March 2025?",
+  "resolution_criteria": "This question resolves **Yes** if, in March of 2025, either The Economist, the New York Times, or the BBC publishes a story that references race dynamics in the context of AI development. Note that a story claiming that AI isn't or shouldn't be an arms race does **not** trigger positive resolution.\n\nThe question resolves as **No** otherwise.",
+  "background": "In February, 2023, TIME Magazine published an article titled \u201c[The AI Arms Race is On. Start Worrying](https://time.com/6255952/ai-impact-chatgpt-microsoft-google/)\u201d.* Around the same time, other media outlets, such as [The New York Times](https://www.nytimes.com/2023/02/03/technology/chatgpt-openai-artificial-intelligence.html) and [Al Jazeera](https://www.aljazeera.com/program/the-stream/2023/6/6/is-an-ai-arms-race-underway) published articles expressing a similar AI arms race meme.\n\nSome experts view the meme of an AI arms race as dangerous because it could become self-fulfilling. For example, the meme may falsely lead AI actors to believe that they are in a race and to act accordingly, when in reality the dynamic might be different (e.g., not zero sum). An AI race is likely more dangerous than a controlled ascent up the AI capabilities R&D ladder because a race may lead AI actors to cut corners and skip on safety measures as they develop ever more powerful AI, with unknown capabilities. (For background on how powerful AI might be dangerous, see, for example, \"[Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover](https://www.alignmentforum.org/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to)\".)\n\n[Pi Day](https://en.wikipedia.org/wiki/Pi_Day), the 14th of March, has historically been a day of big AI releases, with Pi Day 2023 being the day [OpenAI announced GPT-4](https://mashable.com/article/openai-gpt-4-release-date-announcement) and [Anthropic launched Claude](https://www.theverge.com/2023/3/14/23640056/anthropic-ai-chatbot-claude-google-launch).\n\n[fine-print]\n*At least, this was the title viewed from a browser. The title once in the article itself was \"The AI Arms Race is Changing Everything\".\n[/fine-print]",
+  "url": "https://www.metaculus.com/questions/17410",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.72",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The community prediction."
+}

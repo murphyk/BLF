@@ -1,0 +1,14 @@
+{
+  "id": "0x366c465e379145d0ec1ae70dfcaea8f69cb42e769895edfb420888891e3df9f5_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Bitcoin Dominance hit 70% before 2026?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any TradingView 1 minute candle for BTC.D between Sept 5, 2025, 15:30 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" value of 70.00% or higher. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is TradingView, specifically the BTC.D \"High\" percentage currently available at https://www.tradingview.com/chart/?symbol=CRYPTOCAP%3ABTC.D with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the percentage according to TradingView BTC.D, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-dominance-hit-70-before-2026",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0125",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

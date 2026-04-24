@@ -1,0 +1,14 @@
+{
+  "id": "0x468d2a45052a19334bd591db94acae2a55294e337ad2fb7c2a49430cd244a811_2025-12-21",
+  "source": "polymarket",
+  "question": "Will North Korea invade South Korea in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if North Korea commences a military offensive intended to establish control over any portion of the South Korea between January 29 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be will be official confirmation by South Korea, North Korea, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-north-korea-invade-south-korea-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0025",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

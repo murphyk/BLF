@@ -1,0 +1,19 @@
+{
+  "id": "72a33a32e409997da4782833a3893e503ff84ad71005d422f9c2e00dd193350a_2026-01-04",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will Thomas Ceccon still hold the world record for 100m backstroke in long course (50 metres) swimming pools on each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 100m backstroke. (Thomas Ceccon is a record holder in the 100m backstroke.)",
+  "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
+  "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

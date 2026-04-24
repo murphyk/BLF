@@ -1,0 +1,6 @@
+{
+  "category": "Weather & Climate",
+  "suggested_category": null,
+  "justification": "The question asks for a prediction regarding daily average temperature values at a specific meteorological station.",
+  "question": "What is the probability that the daily average temperature at the French weather station at Nice will be higher on each resolution date listed below than on 2025-05-25?"
+}

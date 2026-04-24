@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0105",
+  "source": "aibq2",
+  "question": "Will the New York Times mention \"reverse purchasing\" before July 1, 2025?",
+  "title_hash": "0504f61692acdeb9",
+  "background": "People's Daily: [\u201cReverse purchasing\u201d reflects the vitality of the Chinese market](http://finance.people.com.cn/n1/2025/0430/c1004-40471159.html)",
+  "resolution_criteria": "This question resolves as **Yes** if the NY Times mentions \"reverse purchasing\" in any of its content items as found through [this search](https://www.nytimes.com/search?dropmab=false&lang=en&query=%22reverse%20purchasing%22&sort=best), dated after June 9, 2025 and before July 1, 2025. This question will also count \"reverse purchase,\" which can be found through [this link](https://www.nytimes.com/search?dropmab=false&lang=en&query=%22reverse%20purchase%22&sort=best).",
+  "url": "http://finance.people.com.cn/n1/2025/0430/c1004-40471159.html",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

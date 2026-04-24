@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0100",
+  "source": "aibq2",
+  "question": "Will Donald Trump visit Russia before July 1, 2025?",
+  "title_hash": "0d89a1c019444836",
+  "background": "Wikipedia: [List of international presidential trips made by Donald Trump](https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump)",
+  "resolution_criteria": "This question resolves as **Yes** if, after May 19, 2025 and before July 1, 2025, President Donald Trump personally visits Russia.",
+  "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

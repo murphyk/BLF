@@ -1,0 +1,19 @@
+{
+  "id": "ETSY_2025-11-09",
+  "source": "yfinance",
+  "question": "Will ETSY's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ETSY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 65.210. (The latest market close price of ETSY.)",
+  "background": "Etsy, Inc., together with its subsidiaries, operates two-sided online marketplaces that connect buyers and sellers worldwide. The company operates through three segments: Etsy, Reverb, and Depop. It primarily operates Etsy marketplace that connects artisans and entrepreneurs with various consumers. The company also offers Reverb, a musical instrument marketplace; and Depop, a fashion resale marketplace. In addition, it provides marketplace activities, including transaction offsite advertising, payments processing, and listing fees, as well as from optional seller services, which include on-site advertising and shipping labels. Further, the company offers Etsy Search Visibility Page that is designed to give sellers more agency and control over their businesses; Etsy Purchase Protection program that is designed to help buyers; and Etsy Share & Save program for sellers to save on Etsy fees for sales that drive to their Etsy shop from their own channels, as well as educational resources. The company was formerly known as Indieco, Inc changed its name to Etsy, Inc. in June 2006. Etsy, Inc. was founded in 2005 and is headquartered in Brooklyn, New York.",
+  "url": "https://finance.yahoo.com/quote/ETSY",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

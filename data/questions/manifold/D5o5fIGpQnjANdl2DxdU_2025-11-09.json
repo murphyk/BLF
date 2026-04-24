@@ -1,0 +1,14 @@
+{
+  "id": "D5o5fIGpQnjANdl2DxdU_2025-11-09",
+  "source": "manifold",
+  "question": "Will there be a US recession by EOY2025?",
+  "resolution_criteria": "A recession is defined as 2 consecutive quarters where the GDP is negative. We will use the initial estimate provided, not any revised estimates.\n\nBoth quarters must occur in 2025, ie Q3 and Q4 having negative GDP will resolve this market to YES. However, 2025 Q4 and 2026 Q1 would resolve this market to NO.",
+  "background": "",
+  "url": "https://manifold.markets/turtlepurple/will-there-be-a-us-recession-by-eoy",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-26",
+  "market_value": "0.022737685298128002",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market value."
+}

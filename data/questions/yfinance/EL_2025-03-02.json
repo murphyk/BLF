@@ -1,0 +1,23 @@
+{
+  "id": "EL_2025-03-02",
+  "source": "yfinance",
+  "question": "Will EL's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 68.690. (The latest market close price of EL.)",
+  "background": "The Est\u00e9e Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. It offers skin care products, including moisturizers, serums, cleansers, toners, body care, exfoliators, acne care and oil correctors, facial masks, and sun care products; and makeup products, such as lipsticks, lip glosses, mascaras, foundations, eyeshadows, and powders, as well as compacts, brushes, and other makeup tools. The company also provides fragrance products in various forms comprising eau de parfum sprays and colognes, as well as lotions, powders, creams, candles, and soaps; and hair care products, including shampoos, conditioners, styling products, treatment, finishing sprays, and hair color products, as well as sells ancillary products and services. It offers its products under the Est\u00e9e Lauder, Clinique, Origins, M\u00b7A\u00b7C, Bobbi Brown Cosmetics, La Mer, Aveda, Jo Malone London, TOM FORD, Too Faced, Dr.Jart+, and The Ordinary brands. The company sells its products through department stores, specialty-multi retailers, upscale perfumeries and pharmacies, and salons and spas; freestanding stores; its own and authorized retailer websites; third-party online malls; stores in airports; and duty-free locations. The Est\u00e9e Lauder Companies Inc. was founded in 1946 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/EL",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

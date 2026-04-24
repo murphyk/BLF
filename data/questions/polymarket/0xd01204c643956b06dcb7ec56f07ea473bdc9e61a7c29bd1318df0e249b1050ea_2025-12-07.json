@@ -1,0 +1,14 @@
+{
+  "id": "0xd01204c643956b06dcb7ec56f07ea473bdc9e61a7c29bd1318df0e249b1050ea_2025-12-07",
+  "source": "polymarket",
+  "question": "U.S. forces in Gaza in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if active regular US military personnel physically enter Gaza at any point between July 28, 2025, and December 31, 2025, 11:59 PM ET. \n\nUS military personnel must physically enter the terrestrial territory of the Gaza Strip to qualify. Entering the maritime territory, as occurred during the US\u2019s attempt to construct a floating pier in 2024, or entering the airspace will not qualify. \n\nUS military personnel entering buffer zones under control of Israel will not qualify.\n\nHigh ranking U.S. service members entering Gaza for diplomatic purposes (and their accompanying entourage), military contractors, military advisors, and special operation forces will not qualify. \n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-forces-in-gaza-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.029",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

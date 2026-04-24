@@ -1,0 +1,14 @@
+{
+  "id": "f2i3zt28mm_2026-01-04",
+  "source": "manifold",
+  "question": "Will the US enter a recession by end of 2025? (Two quarters negative GDP growth)",
+  "resolution_criteria": "Resolves YES if there are two consecutive quarters of negative real GDP growth, with the starting quarter between start of 2024 and end of 2025. Otherwise NO.\n\nResolves according to BEA data, 3rd estimate. See https://www.bea.gov/data/gdp/gross-domestic-product.\n\nMay be provisionally resolved based on BEA 1st estimate, but the final resolution will be based on 3rd estimate.\n\nIn case BEA changes the way estimates are released or revised, resolves based on the latest official estimate as of 4 months after the end of the quarter.\n\nNote that this is not resolved based on NBER, the official definition of recession in the US (see here for context). \n\n(Yes, there are already questions on this but their specifications were worse imo)",
+  "background": "",
+  "url": "https://manifold.markets/jack/will-the-us-enter-a-recession-by-en",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-29",
+  "market_value": "0.009676662948739001",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market value."
+}

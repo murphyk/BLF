@@ -1,0 +1,19 @@
+{
+  "id": "ELV_2026-01-04",
+  "source": "yfinance",
+  "question": "Will ELV's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ELV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 343.300. (The latest market close price of ELV.)",
+  "background": "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States. It operates in four segments: Health Benefits, CarelonRx, Carelon Services, and Corporate & Other. The company offers a variety of health plans and services to individual, employer group risk-based and fee-based, BlueCard, Medicare, Medicaid, and FEP members; health products; a broad array of fee-based administrative managed care services; and specialty and other insurance products and services, such as stop loss, dental, vision, and supplemental health insurance benefits. It also operates in the pharmacy services business; and markets and offers pharmacy services, including home delivery and specialty pharmacies, claims adjudication, formulary management, pharmacy networks, rebate administration, a prescription drug database, and member services, as well as infusion services and injectable therapies through ambulatory infusion centers. In addition, the company provides healthcare related services and capabilities, including specialty care enablement and utilization management support for specialized clinical domains; behavioral health and comprehensive care management services; palliative care services and management; virtual care; and payment integrity, subrogation, clinical data exchange through its HealthOS platform, research and data, reporting and clinical analytics, information technology, and business process support services, as well as manages home health, post-acute institutional management, and durable medical equipment costs; and supports plans in managing home and community-based services. It provides its services under the Anthem Blue Cross and Blue Shield, Wellpoint, and Carelon brands. The company was formerly known as Anthem, Inc. and changed its name to Elevance Health, Inc. in June 2022. Elevance Health, Inc. was incorporated in 2001 and is headquartered in Indianapolis, Indiana.",
+  "url": "https://finance.yahoo.com/quote/ELV",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

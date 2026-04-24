@@ -1,0 +1,15 @@
+{
+  "id": "YVmNKSXBBxo2I3DXL3ge_2025-03-30",
+  "source": "manifold",
+  "question": "Will Manchester City win the 2024/25 Premier League?",
+  "resolution_criteria": "Will resolve based on the Premier League's official announcement of which team is the winner of the 2024/25 season.\n\nhttps://www.premierleague.com/",
+  "background": "",
+  "url": "https://manifold.markets/10thOfficial/will-manchester-city-win-the-202425",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-04",
+  "market_value": "0.01",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market value."
+}

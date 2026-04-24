@@ -1,0 +1,23 @@
+{
+  "id": "T_2025-03-02",
+  "source": "yfinance",
+  "question": "Will T's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/T for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 25.870. (The latest market close price of T.)",
+  "background": "AT&T Inc. provides telecommunications and technology services worldwide. The company operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides AT&T Dedicated Internet, fiber ethernet and broadband, fixed wireless, and hosted and managed professional services; and copper-based voice and data, Virtual Private Networks (VPN), wholesale, outsourcing, and IP, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, AT&T Fiber, and AT&T Internet Air brand names. The Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/T",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

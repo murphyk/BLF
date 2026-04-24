@@ -1,0 +1,15 @@
+{
+  "id": "34509_2025-04-13",
+  "source": "metaculus",
+  "question": "Will legislation be approved by at least one chamber of Congress in 2025 that partially or fully exempts at least one executive branch department, the CIA, or EPA from the Freedom of Information Act?",
+  "resolution_criteria": "This question will resolve as Yes if, before January 1, 2026, [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) report that at least one chamber of Congress (House of Representatives or Senate) has approved legislation that partially or fully exempts at least one executive branch department or agency listed in the Fine Print from the Freedom of Information Act (FOIA).",
+  "background": "FOIA (5 U.S.C. \u00a7 552)\n\nThe [<u>Freedom of Information Act </u>](https://ballotpedia.org/Freedom_of_Information_Act)(FOIA) was passed in 1967 to increase government transparency. It requires that, upon request, the U.S. Government and its agencies disclose previously unavailable non-classified information. Journalists and citizen groups have consistently relied on the FOIA to expose government misconduct. For example, activists discovered in the 1980s that the Environmental Protection Agency knew that paper mills were polluting toxic waste into rivers. In 2016, President Obama signed an update to the bill that sought to create greater transparency. The update undid initial exemptions for information about the deliberation of government agencies. It also mandated government agencies to prefer openness when receiving an FOIA request (\"presumption of disclosure\").",
+  "url": "https://www.metaculus.com/questions/34509",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-26",
+  "market_value": "0.15",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The community prediction."
+}

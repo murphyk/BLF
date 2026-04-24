@@ -1,0 +1,21 @@
+{
+  "id": "SOFR30DAYAVG_2025-08-03",
+  "source": "fred",
+  "question": "Will the 30-day average of the Federal Reserve's Secured Overnight Financing Rate have increased by each resolution date listed below as compared to its value on 2025-08-03?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/SOFR30DAYAVG once the data is published.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 4.350. (The latest value released in 30-Day Average SOFR from the release SOFR Averages and Index Data.)",
+  "background": "The notes from the release: As an extension of the Secured Overnight Financing Rate (SOFR), the SOFR Averages are compounded averages of the SOFR over rolling 30-, 90-, and 180-calendar day periods.\r\n\r\nThe SOFR Index measures the cumulative impact of compounding the SOFR on a unit of investment over time, with the initial value set to 1 on April 2, 2018, the first value date of the SOFR. The SOFR Index value reflects the effect of compounding the SOFR each business day and allows the calculation of compounded SOFR averages over custom time periods..  The notes from the series: As an extension of the additional documentation about the Treasury Repo Reference Rates. (https://www.newyorkfed.org/markets/treasury-repo-reference-rates-information).  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/SOFR30DAYAVG",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

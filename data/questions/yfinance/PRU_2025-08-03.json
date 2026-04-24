@@ -1,0 +1,21 @@
+{
+  "id": "PRU_2025-08-03",
+  "source": "yfinance",
+  "question": "Will PRU's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PRU for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 105.350. (The latest market close price of PRU.)",
+  "background": "Prudential Financial, Inc., together with its subsidiaries, provides insurance, investment management, and other financial products and services in the United States, Japan and internationally. It operates through PGIM, Retirement Strategies, Group Insurance, Individual Life, and International Businesses segments. The PGIM segment offers investment management services and solutions related to public fixed income, public equity, real estate debt and equity, private credit and other alternatives, and multi-asset class strategies to institutional and retail clients, as well as its insurance and retirement businesses. The Retirement Strategies segment provides a range of retirement investment, and income products and services to retirement plan sponsors in the public, private, and not-for-profit sectors; develops and distributes individual variable and fixed annuity products. The Group Insurance segment offers various group life, and long-term and short-term group disability, as well as group corporate-, bank-, and trust-owned life insurance in the United States primarily for institutional clients for use in connection with employee and membership benefits plans; sells accidental death and dismemberment, and other supplemental health solutions; and plan administration services in connection with its insurance coverages. The Individual Life segment develops and distributes variable life, universal life, and term life insurance products. The International Businesses segment develops and distributes life insurance, retirement products, investment products, and certain accident and health products; and advisory and administration services . The company provides its products and services to individual and institutional customers through its proprietary and third-party distribution networks. Prudential Financial, Inc. was founded in 1875 and is headquartered in Newark, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/PRU",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x19f9be5aafa49f68294e14e03dfb0c4b35e4e5304f41c30140942e2ddf3711ea_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the next Government of Canada be a Conservative minority?",
+  "resolution_criteria": "The 2025 Canadian federal election will be held on April 28 to elect members of the House of Commons to the 45th Canadian Parliament.\n\nThis market will resolve to the first ruling coalition that forms after the next Canadian Parliament after the election.\n\nThe government will be considered formed once the legislative process for forming a government is completed and the head of state appoints ministers under normal non-caretaker circumstances.\n\nIf the next Canadian Government after the election is not announced by February 28, 2026, this market will resolve to \"Other\".\n\nThis market will resolve based on a consensus of credible reporting. In case of ambiguity, this market will resolve based on official information from the Canadian government.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-next-government-of-canada-be-a-conservative-minority",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-28",
+  "market_value": "0.15",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

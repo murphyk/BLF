@@ -1,0 +1,19 @@
+{
+  "id": "SMCI_2025-12-21",
+  "source": "yfinance",
+  "question": "Will SMCI's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SMCI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 34.900. (The latest market close price of SMCI.)",
+  "background": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company offers liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, FlexTwin, GrandTwin, and BigTwin blade and multi-node systems; SuperStorage systems; Hyper, CloudDC, and WIO and rackmount systems; embedded (5G/IoT/Edge) systems; and MicroCloud server systems. It also provides workstations and networking devices; and modular server subsystems and accessories, including server boards, chassis, power supplies, and other accessories. In addition, the company offers remote system management solutions, such as Server Management suite comprising Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, and SuperDoctor 5. Further, the company identifies service requirements; creates and executes project plans; conducts verification testing; offers training; and provides technical documentation. Additionally, it offers rack level services from design to deployment for full rack and cluster level deployments of AI and HPC datacenters; help desk services and on-site product support; and warranties, maintenance, and technical support services. The company serves enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. Super Micro Computer, Inc. was incorporated in 1993 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/SMCI",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

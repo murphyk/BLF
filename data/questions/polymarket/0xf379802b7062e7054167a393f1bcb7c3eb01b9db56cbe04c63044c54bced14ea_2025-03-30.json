@@ -1,0 +1,15 @@
+{
+  "id": "0xf379802b7062e7054167a393f1bcb7c3eb01b9db56cbe04c63044c54bced14ea_2025-03-30",
+  "source": "polymarket",
+  "question": "Will the SPD be part of the next German government?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the SPD (Social Democratic Party, Sozialdemokratische Partei Deutschlands) is a part of the first federal government formed after the 2025 German Parliamentary election scheduled to take place February 23. Otherwise, this market will resolve to \"No\". \n\nIf no government is formed by June 30, 2025, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the official announcements from the governing coalition, however a consensus of credible reporting may also be used. \n ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-spd-be-part-of-the-next-german-government",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-06",
+  "market_value": "0.9755",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

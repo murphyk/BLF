@@ -1,0 +1,19 @@
+{
+  "id": "CVS_2025-12-21",
+  "source": "yfinance",
+  "question": "Will CVS's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CVS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 78.970. (The latest market close price of CVS.)",
+  "background": "CVS Health Corporation provides health solutions in the United States. It operates through Health Care Benefits, Health Services, and Pharmacy & Consumer Wellness segments. The Health Care Benefits segment offers traditional, voluntary, and consumer-directed health insurance products and related services, including medical, pharmacy, dental and behavioral health plans, medical management capabilities, Medicare Advantage and Medicare Supplement plans, PDPs and Medicaid health care management services. It serves employer groups, individuals, college students, part-time and hourly workers, health plans, health care providers, governmental units, government-sponsored plans, labor groups, and expatriates. The Health Services segment offers pharmacy benefit management solutions, including plan design and administration, formulary management, retail pharmacy network management, specialty and mail order pharmacy, clinical, disease management, medical spend management services, and other administrative services. It serves employers, insurance companies, unions, government employee groups, health plans, prescription drug plans, Medicaid managed care plans, CMS, plans offered on public health insurance, and other sponsors of health benefit plans. The Pharmacy & Consumer Wellness segment sells prescription and over-the-counter drugs, consumer health and beauty products, and personal care products. This segment also distributes prescription drugs; and provides related pharmacy consulting and other ancillary services to care facilities and other care settings. It operates online retail pharmacy websites, LTC pharmacies and on-site pharmacies, retail specialty pharmacy stores, compounding pharmacies and branches for infusion and enteral nutrition services. The company was formerly known as CVS Caremark Corporation and changed its name to CVS Health Corporation in September 2014. CVS Health Corporation was incorporated in 1996 and is headquartered in Woonsocket, Rhode Island.",
+  "url": "https://finance.yahoo.com/quote/CVS",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "IRM_2025-04-27",
+  "source": "yfinance",
+  "question": "Will IRM's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IRM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 82.630. (The latest market close price of IRM.)",
+  "background": "Iron Mountain Incorporated (NYSE: IRM) is trusted by more than 240,000 customers in 61 countries, including approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Our broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management needs. Our longstanding commitment to safety, security, sustainability and innovation in support of our customers underpins everything we do.",
+  "url": "https://finance.yahoo.com/quote/IRM",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

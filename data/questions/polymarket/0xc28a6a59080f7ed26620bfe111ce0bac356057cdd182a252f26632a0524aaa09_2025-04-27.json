@@ -1,0 +1,15 @@
+{
+  "id": "0xc28a6a59080f7ed26620bfe111ce0bac356057cdd182a252f26632a0524aaa09_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the Cleveland Cavaliers win the 2025 NBA Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Cleveland Cavaliers win the 2024-2025 NBA Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to become 2024-25 NBA Champion based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-cleveland-cavaliers-win-the-2025-nba-finals",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-14",
+  "market_value": "0.11950000000000001",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

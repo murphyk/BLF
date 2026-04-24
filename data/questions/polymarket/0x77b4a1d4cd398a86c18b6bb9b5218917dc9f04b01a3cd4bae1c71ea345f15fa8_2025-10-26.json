@@ -1,0 +1,14 @@
+{
+  "id": "0x77b4a1d4cd398a86c18b6bb9b5218917dc9f04b01a3cd4bae1c71ea345f15fa8_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Polymarket US go live in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if a real-money trade is publicly placed on a regulated, Polymarket-operated Designated Contract Market (DCM) by December 31, 2025, at 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-polymarket-us-go-live-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-06",
+  "market_value": "0.9325",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

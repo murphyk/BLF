@@ -1,0 +1,19 @@
+{
+  "id": "BR_2025-12-21",
+  "source": "yfinance",
+  "question": "Will BR's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 226.910. (The latest market close price of BR.)",
+  "background": "Broadridge Financial Solutions, Inc. provides investor communications and technology-driven solutions for the financial services industry in the United States and internationally. The company's Investor Communication Solutions segment handles the proxy materials distribution and voting processes for bank, broker-dealer, corporate issuer, and fund clients; and provides fund manager and a range of other regulatory communication solutions. The segment also offers ProxyEdge, an electronic proxy delivery and voting solution; data-driven solutions and an end-to-end platform for content management, composition, and omni-channel distribution of regulatory, marketing, and transactional information, as well as mutual fund and exchange-traded funds trade processing services; data and analytics solutions; annual SEC filing and capital markets transaction services; registrar, stock transfer, and record-keeping services; and omni-channel customer communications solutions, as well as operates Broadridge Communications Cloud platform that creates, delivers, and manages communications and customer engagement activities. The Global Technology and Operations segment provides solutions that automate the front-to-back transaction lifecycle of equity, mutual fund, fixed income, foreign exchange and exchange-traded derivatives, order capture and execution, trade confirmation, margin, cash management, clearing and settlement, reference data management, reconciliations, securities financing and collateral management, asset servicing, compliance and regulatory reporting, portfolio accounting, and custody-related services. This segment also offers business process outsourcing services; technology solutions, such portfolio management, compliance, fee billing, and operational support solutions; and capital market and wealth and investment management solutions. The company was founded in 1962 and is headquartered in Lake Success, New York.",
+  "url": "https://finance.yahoo.com/quote/BR",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

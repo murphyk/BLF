@@ -1,0 +1,15 @@
+{
+  "id": "0x3711ce4799322ea9a6d7b445c39af9849ccde8b25b9e7b09314813ef787f12c2_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Canada join US as 51st state in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" any portion of Canada is formally annexed into the United States of America and becomes the 51st state by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn official agreement that is announced will suffice to resolve this market to \"Yes\", regardless of when it is slated to go into effect. If any territory that includes no portion of Canadian land is made the 51st US state within this market's timeframe, this market will immediately resolve to \"No\".\n\nThe primary resolution source for this market will be information from the government of the United States, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-canada-join-us-as-51st-state-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.044",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

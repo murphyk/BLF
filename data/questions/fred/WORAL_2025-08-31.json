@@ -1,0 +1,21 @@
+{
+  "id": "WORAL_2025-08-31",
+  "source": "fred",
+  "question": "Will the weekly dollar amount associated with Federal Reserve repurchase agreements have increased by each resolution date listed below as compared to its value on 2025-08-31?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WORAL once the data is published.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 1.000. (The latest value released in Assets: Other: Repurchase Agreements: Wednesday Level from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: Repurchase agreements reflect some of the Federal Reserve's temporary open market operations. Repurchase agreements are transactions in which securities are purchased from a primary dealer under an agreement to sell them back to the dealer on a specified date in the future. The difference between the purchase price and the repurchase price reflects an interest payment. The Federal Reserve may enter into repurchase agreements for up to 65 business days, but the typical maturity is between one and 14 days. Federal Reserve repurchase agreements supply reserve balances to the banking system for the length of the agreement. The Federal Reserve employs a naming convention for these transactions based on the perspective of the primary dealers: the dealers receive cash while the Federal Reserve receives the collateral..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, As of Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/WORAL",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

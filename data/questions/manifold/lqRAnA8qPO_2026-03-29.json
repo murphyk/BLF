@@ -1,0 +1,14 @@
+{
+  "id": "lqRAnA8qPO_2026-03-29",
+  "source": "manifold",
+  "question": "Will Kalshi pay $1 billion for a perfect bracket?",
+  "resolution_criteria": "Context: https://kalshi.com/billion-dollar-bracket\n\nResolves YES if Kalshi announces a verified perfect bracket in the 2026 tournament. Resolves NO otherwise. \n\nWhat matters here is the Kalshi verification\u2014a perfect bracket that some other people think is verified but was not submitted to Kalshi does not count. Beyond that, I won't be a stickler for what \"pay\" means (this just resolves based on whether Kalshi verifies a bracket). ",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-kalshi-pay-1-billion-for-a-per",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-06",
+  "market_value": "0.018819024123211",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market value."
+}

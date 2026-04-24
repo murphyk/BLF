@@ -1,0 +1,6 @@
+{
+  "category": "Macroeconomics",
+  "suggested_category": null,
+  "justification": "The question tracks a broad credit indicator from the Federal Reserve (FRED) which reflects the scale of bank lending and the overall health of the US real estate economy.",
+  "question": "Will the amount of money representing all commercial real estate loans made by commercial banks in the US have increased by each resolution date listed below as compared to its value on 2025-04-13?"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x2e2e16f8f0c48e31806861cf0a5ac06ad329088fdde80bde3df21ec282fa7f87_2025-03-30",
+  "source": "polymarket",
+  "question": "Bird flu declared public health emergency before April?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the WHO officially declares H5N1 a Public Health Emergency of International Concern (PHEIC) by March 31, 2025, 11:59 PM ET.  Otherwise this market will resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official statements made by the WHO (e.g. statements released on their official website, https://www.who.int/), however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/bird-flu-declared-public-health-emergency-before-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.014",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

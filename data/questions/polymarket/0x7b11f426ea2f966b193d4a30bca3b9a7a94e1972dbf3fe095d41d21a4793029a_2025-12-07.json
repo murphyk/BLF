@@ -1,0 +1,14 @@
+{
+  "id": "0x7b11f426ea2f966b193d4a30bca3b9a7a94e1972dbf3fe095d41d21a4793029a_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Chappell Roan perform during the Super Bowl LX halftime show?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Chappell Roan performs live and in person during the Super Bowl LX halftime show currently scheduled for February 8, 2026. Otherwise, this market will resolve to \"No.\"\n\nIf this event is cancelled or otherwise delayed beyond March 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be footage of the Super Bowl LIX halftime show, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-chappell-roan-perform-during-the-super-bowl-lx-halftime-show-174",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-09",
+  "market_value": "0.035500000000000004",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

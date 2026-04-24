@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_bb079e5d",
+  "source": "aibq2",
+  "question": "Will the Botas Gas Agreement between Bulgaria and Turkey be cancelled before July 1, 2025?",
+  "background": "[Borissov to Erdogan: Bulgaria Needs Out of the Botas Gas Deal](https://www.novinite.com/articles/232423/Borissov+to+Erdogan%3A+Bulgaria+Needs+Out+of+the+Botas+Gas+Deal) | [Bulgargaz on verge of bankrupty due to debts to Turkish gas company BOTAS: Turkish media](https://www.turkiyetoday.com/business/bulgargaz-on-verge-of-bankrupty-due-to-debts-to-turkish-gas-company-botas-turkish-med-3201881)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, the natural gas transmission agreement between Bulgargaz EAD and BOTA\u015e Petroleum Pipeline Corp is announced by either party as being cancelled.\n\nFine print:\nTermination of the agreement by either side, even if denied by the other side, would still count.",
+  "url": "https://www.novinite.com/articles/232423/Borissov+to+Erdogan%3A+Bulgaria+Needs+Out+of+the+Botas+Gas+Deal",
+  "forecast_due_date": "2025-06-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

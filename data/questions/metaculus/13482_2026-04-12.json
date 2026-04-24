@@ -1,0 +1,14 @@
+{
+  "id": "13482_2026-04-12",
+  "source": "metaculus",
+  "question": "Will there be a war between 2 or more EU states before 2153?",
+  "resolution_criteria": "For the purposes of this question, \"EU states\" are those states, or their legal successors, which are or have been full members of the European Union or its legal successor. Prior to EU membership, states are not EU states, and they do not become EU states retroactively by the fact of joining the EU later.\n\nThis question will resolve as **Yes** if before January 1, 2153, any two EU states become combatants on opposite sides of an international armed conflict for which any one or more of the following conditions applies:\n\n* An EU state formally declares war on another EU state, or otherwise formally recognizes the existence of a state of war with another EU state\n* A clear consensus of international legal authorities indicates that a state of war between EU states exists\n* A 365-day period elapses in which at least 1,000 people are killed in the conflict of whom at least 100 are nationals of any one EU state combatan",
+  "background": "*Related question on Metaculus:*\n\n* [Will a world war begin before 2151?](https://www.metaculus.com/questions/610/world-war-by-2151)\n\n***\n\nIn the seventy-eight years from the end of World War II in Europe to the end of 2022, no two countries of what would become the European Union have engaged in armed conflict with one another. Such a long European peace had not been seen since the days of the \"Five Good Emperors\" and the [*Pax Romana*](https://en.wikipedia.org/wiki/Pax_Romana); a period of some 207 years between roughly 27 BCE and 180 CE. If the post-1945 peace were to hold until the year 2153, it would match or exceed that historical example.",
+  "url": "https://www.metaculus.com/questions/13482",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.56",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

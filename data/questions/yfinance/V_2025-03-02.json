@@ -1,0 +1,23 @@
+{
+  "id": "V_2025-03-02",
+  "source": "yfinance",
+  "question": "Will V's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/V for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 353.810. (The latest market close price of V.)",
+  "background": "Visa Inc. operates as a payment technology company in the United States and internationally. The company operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of payment transactions. It also offers credit, debit, and prepaid card products; tap to pay, tokenization, and click to pay services; Visa Direct, a solution that facilitates the delivery of funds to eligible cards, bank accounts, and digital wallets; Visa B2B Connect, a multilateral business-to-business cross-border payments network; Visa Cross-Border Solution, a cross-border consumer payments solution; and Visa DPS that provides a range of value-added services, including fraud mitigation, dispute management, data analytics, campaign management, a suite of digital solutions, and contact center services. The company also provides acceptance solutions, which include Cybersource and Authorize.net that provides new and enhanced payment integrations with ecommerce platforms, enabling sellers and acquirers to offer tailored commerce experiences; risk and identity solutions, such as Visa Advanced Authorization, Visa Secure, Visa Consumer Authentication Service, Visa Protect Authentication Intelligence, and Visa Provisioning Intelligence; and Visa Consulting and Analytics, a payment consulting advisory services. It provides its services under the Visa, Visa Electron, Interlink, V PAY, and PLUS brands. The company serves merchants, financial institutions, and government entities. Visa Inc. was founded in 1958 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/V",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

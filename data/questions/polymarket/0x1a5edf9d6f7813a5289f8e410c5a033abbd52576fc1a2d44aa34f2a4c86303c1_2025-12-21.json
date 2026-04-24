@@ -1,0 +1,14 @@
+{
+  "id": "0x1a5edf9d6f7813a5289f8e410c5a033abbd52576fc1a2d44aa34f2a4c86303c1_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Russia invade Finland in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Russia commences a military offensive intended to establish control over any portion of Finland between May 28 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by Finland or Russia as of May 28, 2025, 12:00 PM ET, will be considered the sovereign territory of that country.\n\nHybrid or \u201cgrey zone\u201d operations conducted by unmarked personnel will qualify if they are confirmed to be Russian operatives and are intended to establish de facto control over territory, as occurred in Crimea (2014) or Donbas (2014\u20132022).\n\nThe resolution source for this market will be a consensus of credible sources.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-invade-finland-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

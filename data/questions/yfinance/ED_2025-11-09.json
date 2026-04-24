@@ -1,0 +1,19 @@
+{
+  "id": "ED_2025-11-09",
+  "source": "yfinance",
+  "question": "Will ED's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ED for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 97.000. (The latest market close price of ED.)",
+  "background": "Consolidated Edison, Inc., through its subsidiaries, engages in the regulated electric, gas, and steam delivery businesses in the United States. The company offers electric services to approximately 3.7 million customers in New York City and Westchester County; gas to approximately 1.1 million customers in Manhattan, the Bronx, parts of Queens, and Westchester County; and steam to approximately 1,520 customers in parts of Manhattan. It also supplies electricity to approximately 0.3 million customers in southeastern New York and northern New Jersey; and gas to approximately 0.1 million customers in southeastern New York. In addition, the company operates 549 circuit miles of transmission lines; 15 transmission substations; 64 distribution substations; 90,755 in-service line transformers; 3,877 pole miles of overhead distribution lines; and 2,405 miles of underground distribution lines, as well as 4,384 miles of mains and 379,888 service lines for natural gas distribution. Further, it invests in electric and gas transmission projects. The company primarily sells electricity to industrial, commercial, residential, and government customers. Consolidated Edison, Inc. was founded in 1823 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/ED",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0
+  ]
+}

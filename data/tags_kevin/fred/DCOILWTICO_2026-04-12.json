@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks the absolute price change of a specific financial commodity instrument over a set time period using a benchmark spot price series.",
+  "question": "Will the price of West Texas Intermediate (WTI - Cushing) crude oil have increased by each resolution date listed below as compared to its value on 2026-04-12?"
+}

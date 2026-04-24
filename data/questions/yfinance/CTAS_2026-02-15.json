@@ -1,0 +1,17 @@
+{
+  "id": "CTAS_2026-02-15",
+  "source": "yfinance",
+  "question": "Will CTAS's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CTAS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 195.870. (The latest market close price of CTAS.)",
+  "background": "Cintas Corporation engages in the provision of corporate identity uniforms and related business services primarily in the United States, Canada, and Latin America. It operates through Uniform Rental and Facility Services, First Aid and Safety Services, and All Other segments. The company rents and services uniforms and other garments, including flame resistant clothing, mats, mops and shop towels, and other ancillary items; and provides restroom cleaning services and supplies, as well as sells uniforms. In addition, the company offers first aid and safety services, and fire protection products and services. It provides its products and services through its distribution network and local delivery routes, or local representatives to small service and manufacturing companies, as well as major corporations. The company was founded in 1968 and is based in Cincinnati, Ohio. Cintas Corporation was formerly a subsidiary of Cintas Corporation.",
+  "url": "https://finance.yahoo.com/quote/CTAS",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

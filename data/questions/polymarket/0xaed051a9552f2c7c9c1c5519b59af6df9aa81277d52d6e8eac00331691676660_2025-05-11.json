@@ -1,0 +1,15 @@
+{
+  "id": "0xaed051a9552f2c7c9c1c5519b59af6df9aa81277d52d6e8eac00331691676660_2025-05-11",
+  "source": "polymarket",
+  "question": "Will the San Diego Padres win the 2025 National League Championship?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 MLB National League (ie advances to the 2025 MLB World Series). \n\nIf at any point it becomes impossible for this team to win the National League based on the rules of the MLB (e.g., they are eliminated from the playoffs), this market will immediately resolve to \u201cNo\u201d.\n\nIf the 2025  MLB season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-san-diego-padres-win-the-2025-national-league-championship",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-03",
+  "market_value": "0.065",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

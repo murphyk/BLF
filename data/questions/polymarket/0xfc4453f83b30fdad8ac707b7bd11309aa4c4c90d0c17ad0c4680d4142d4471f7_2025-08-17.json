@@ -1,0 +1,15 @@
+{
+  "id": "0xfc4453f83b30fdad8ac707b7bd11309aa4c4c90d0c17ad0c4680d4142d4471f7_2025-08-17",
+  "source": "polymarket",
+  "question": "Will China unban Bitcoin in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the government of the People's Republic of China (PRC) explicitly announces that Chinese citizens will be allowed to legally buy Bitcoin with yuan (renminbi) from inside China between July 1, 2025, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor this market to resolve to \"Yes\" it is only necessary that the PRC announces this change will take place. Whether it actually does will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the PRC, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-china-unban-bitcoin-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.057",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

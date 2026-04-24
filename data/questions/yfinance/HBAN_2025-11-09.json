@@ -1,0 +1,19 @@
+{
+  "id": "HBAN_2025-11-09",
+  "source": "yfinance",
+  "question": "Will HBAN's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HBAN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 15.160. (The latest market close price of HBAN.)",
+  "background": "Huntington Bancshares Incorporated operates as the bank holding company for The Huntington National Bank that provides commercial, consumer, and mortgage banking services in the United States. The company offers financial products and services to consumer and business customers, including deposits, lending, payments, mortgage banking, dealer financing, investment management, trust, brokerage, insurance, and other financial products and services. It also provides 24-Hour Grace, Asterisk-Free Checking, Money Scout, $50 Safety Zone, Standby Cash, Early Pay, Instant Access, Savings Goal Getter, And Huntington Heads Up; digitally powered consumer and business financial solutions to consumer lending, regional banking, branch banking, and wealth management customers; direct and indirect consumer loans, as well as dealer finance loans and deposits; and private banking, wealth management and legacy planning through investment and portfolio management, fiduciary administration and trust, institutional custody, and full-service retail brokerage investment services. The company offers equipment financing, asset-based lending, distribution finance, structured lending, and municipal financing solutions, as well as Huntington ChoicePay. In addition, it offers lending, liquidity, treasury management and other payment services, and capital markets; government and non-profits, healthcare, technology and telecommunications, franchises, financial sponsors, and global services; and corporate risk management, institutional sales and trading, debt and equity issuance, and additional advisory services. The company offers its products through a network of channels, including branches and ATMs, online and mobile banking, and through customer call centers to customers in middle market banking, corporate, specialty, and government banking, asset finance, commercial real estate banking, and capital markets. The company was founded in 1866 and is headquartered in Columbus, Ohio.",
+  "url": "https://finance.yahoo.com/quote/HBAN",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xbacb4cac4e7ceecce559529eb0111f0db4e45cbcc739db3957acc885a8f82173_2025-12-21",
+  "source": "polymarket",
+  "question": "Ghislaine Maxwell released from custody in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Ghislaine Maxwell is released from custody by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf Maxwell is released but remains under house arrest, the market will still resolve to \"Yes\".\n\nIf Maxwell is released on parole, bond, or any other condition that results in them leaving state custody, the market will resolve to \"Yes\".\n\nTransporting Maxwell to another location of custody (e.g., a different prison, court, or hospital within the correctional system) will not suffice to resolve this market to \"Yes\". \n\nTemporary outings from prison for purposes such as testifying in court or before Congress, while still under the custody of correctional authorities, will not count as a release.\n\nThe primary resolution source for this market will be official information from government authorities or corrections departments; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/ghislaine-maxwell-released-from-custody-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0195",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ROK_2026-02-15",
+  "source": "yfinance",
+  "question": "Will ROK's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ROK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 415.020. (The latest market close price of ROK.)",
+  "background": "Rockwell Automation, Inc., together with its subsidiaries, provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It operates in three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The company offers drives, motion, advanced material handling, safety, sensing, industrial components, hardware, software, and configured-to-order products; and control and visualization software and hardware, digital twin, simulation and information software, network and security infrastructure, and custom-engineered systems. It also provides digital consulting, professional services, engineered-to-order solutions, recurring services, cybersecurity, safety, remote monitoring, customer technical support and repair, asset management and optimization consulting, and training, as well as spare parts. The company sells its products through independent distributors in relation to its direct sales force. It serves discrete end markets, including automotive, semiconductor, e-commerce, and warehouse automation; hybrid end markets, such as food and beverage, life sciences, and tire; and process end markets comprising energy, mining, and chemicals. The company was formerly known as Rockwell International Corporation and changed its name to Rockwell Automation, Inc. in February 2002. Rockwell Automation, Inc. was founded in 1903 and is headquartered in Milwaukee, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/ROK",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

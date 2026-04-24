@@ -1,0 +1,21 @@
+{
+  "id": "CBOE_2025-06-08",
+  "source": "yfinance",
+  "question": "Will CBOE's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CBOE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 231.260. (The latest market close price of CBOE.)",
+  "background": "Cboe Global Markets, Inc., through its subsidiaries, operates as an options exchange in the United States and internationally. It operates through six segments: Options, North American Equities, Europe and Asia Pacific, Futures, Global FX, and Digital. The Options segment trades in listed market indices. Its North American Equities segment trades in listed U.S. and Canadian equities. This segment also offers exchange-traded products (ETP) transaction and listing services. The Europe and Asia Pacific segment provides pan-European listed equities and derivatives transaction services, ETPs, exchange-traded commodities, and international depository receipts, as well as ETP listings and clearing services. Its Futures segment offers and trades in futures and other related products. The Global FX segment provides institutional foreign exchange (FX) trading and non-deliverable forward FX transactions services. Its Digital segment offers Cboe Digital, an operator of the United States based digital asset spot market and a regulated futures exchange; Cboe Clear Digital, a regulated clearinghouse; licensing of proprietary market data; and access and capacity services. It has strategic relationships with S&P Dow Jones Indices, LLC; Frank Russell Company; FTSE International Limited; and MSCI Inc. The company was formerly known as CBOE Holdings, Inc. and changed its name to Cboe Global Markets, Inc. in October 2017. Cboe Global Markets, Inc. was founded in 1973 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/CBOE",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

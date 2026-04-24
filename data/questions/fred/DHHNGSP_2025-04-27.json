@@ -1,0 +1,21 @@
+{
+  "id": "DHHNGSP_2025-04-27",
+  "source": "fred",
+  "question": "Will the spot price of Henry Hub natural gas have increased by each resolution date listed below as compared to its value on 2025-04-27?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DHHNGSP once the data is published.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 3.570. (The latest value released in Henry Hub Natural Gas Spot Price from the release Natural Gas Spot and Futures Prices (NYMEX).)",
+  "background": "The notes from the release: Prices are based on delivery at the Henry Hub in Louisiana. Official daily closing prices at 2:30 p.m. from the trading floor of the New York Mercantile Exchange (NYMEX) for a specific delivery month..  The notes from the series: More information about this series can be found at http://www.eia.gov/dnav/ng/TblDefs/ng_pri_fut_tbldef2.asp.  Additional background of the series:  1. the units of the series: Dollars per Million BTU.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DHHNGSP",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

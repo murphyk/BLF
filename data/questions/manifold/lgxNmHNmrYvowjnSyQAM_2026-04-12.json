@@ -1,0 +1,14 @@
+{
+  "id": "lgxNmHNmrYvowjnSyQAM_2026-04-12",
+  "source": "manifold",
+  "question": "Will Lionel Messi play in the 2026 World Cup?",
+  "resolution_criteria": "This market will resolve positively if Lionel Messi plays in at least one match of the 2026 World Cup. This market will not resolve positively if Lionel Messi is merely selected as part of Argentina's squad or stays as a substitute for the entirety of the tournament. This market is not conditional on Argentina qualifying for the 2026 World Cup.",
+  "background": "",
+  "url": "https://manifold.markets/BrunoNeira/will-lionel-messi-play-in-the-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.8774726580550871",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

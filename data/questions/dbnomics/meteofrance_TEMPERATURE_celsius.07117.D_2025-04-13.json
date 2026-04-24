@@ -1,0 +1,21 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07117.D_2025-04-13",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Ploumanac'h will be higher on each resolution date listed below than on 2025-04-13?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07117.D once the data is published.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 10.700. (The daily average temperature at the French weather station at Ploumanac'h.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - PLOUMANAC'H - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07117.D.",
+  "url": "https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07117.D",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "AVY_2025-12-21",
+  "source": "yfinance",
+  "question": "Will AVY's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AVY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 177.100. (The latest market close price of AVY.)",
+  "background": "Avery Dennison Corporation operates as a materials science and digital identification solutions company in the United States, Europe, the Middle East, North Africa, Asia, Latin America, and internationally. It provides pressure-sensitive label materials, which consist of papers, plastic films, and metal foils; performance tapes products, including mechanical fasteners, which are precision-extruded and injection-molded plastic devices used in various automotive, general industrial, and retail applications; and other pressure-sensitive adhesive-based materials and converted products under the Fasson, JAC, and Avery Dennison brands. The company also offers graphics and reflective products that include films and other products for the architectural, commercial sign, digital printing, and other related market segments; durable cast and reflective films to the construction, automotive, and fleet transportation markets; sign shops, commercial printers, and designers for a range of pressure-sensitive materials; reflective films for traffic and safety applications; and pressure-sensitive vinyl and specialty materials for digital imaging, screen printing, and sign cutting applications under the Avery Dennison and Mactac brand names. In addition, it provides branding solutions, which include brand embellishments, graphic tickets, tags, labels, and sustainable packaging; and information solutions, such as item-level RFID, visibility and loss prevention, price ticketing and marking, productivity and media, and brand protection and security solutions, as well as care, content, and country of origin compliance solutions. It serves home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals, and automotive industries. The company was formerly known as Avery International Corporation and changed its name to Avery Dennison Corporation in 1990. Avery Dennison Corporation was founded in 1935 and is headquartered in Mentor, Ohio.",
+  "url": "https://finance.yahoo.com/quote/AVY",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

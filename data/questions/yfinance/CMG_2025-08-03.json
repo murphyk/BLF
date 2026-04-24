@@ -1,0 +1,21 @@
+{
+  "id": "CMG_2025-08-03",
+  "source": "yfinance",
+  "question": "Will CMG's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CMG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 52.780. (The latest market close price of CMG.)",
+  "background": "Chipotle Mexican Grill, Inc., together with its subsidiaries, owns and operates Chipotle Mexican Grill restaurants. It sells food and beverages, such as burritos, burrito bowls, quesadillas, tacos, and salads, as well as lifestyle bowls, kids's meal, chips, sides, and drinks. The company also provides delivery and related services through its app and website. It has operations in the United States, Canada, France, Germany, Dubai, and the United Kingdom. Chipotle Mexican Grill, Inc. was founded in 1993 and is headquartered in Newport Beach, California.",
+  "url": "https://finance.yahoo.com/quote/CMG",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

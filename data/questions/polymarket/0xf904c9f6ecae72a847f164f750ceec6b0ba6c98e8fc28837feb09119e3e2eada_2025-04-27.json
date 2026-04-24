@@ -1,0 +1,15 @@
+{
+  "id": "0xf904c9f6ecae72a847f164f750ceec6b0ba6c98e8fc28837feb09119e3e2eada_2025-04-27",
+  "source": "polymarket",
+  "question": "2025 April hottest on record?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the data for the Global Land-Ocean Temperature Index for April 2025 shows an increase greater than that of any prior April when it is released. Otherwise, this market will resolve to \"No\".\n\nAt the point the data for April 2025 is first released, it will be compared to all previous data points for April, and if 2025 April is higher than all previous data points, this market will resolve to \"Yes\".\n\nNote: If 2025 April is tied for highest with another year, it will NOT suffice to resolve this market to \"Yes\" - it must be higher.\n\nThe primary resolution source for this market will be the figures found in the table titled \"GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius\" under the column \"Apr\" (https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt). If NASA's \"Global Temperature Index\" is rendered permanently unavailable, other information from NASA may be used. If no information for April 2025 is provided by NASA by August 1, 2025, 11:59 PM ET, a consensus of credible sources will be used to resolve this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/2025-april-hottest-on-record",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.0105",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

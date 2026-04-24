@@ -1,0 +1,21 @@
+{
+  "id": "AJG_2025-08-17",
+  "source": "yfinance",
+  "question": "Will AJG's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AJG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 286.260. (The latest market close price of AJG.)",
+  "background": "Arthur J. Gallagher & Co., together with its subsidiaries, provides insurance and reinsurance brokerage, consulting, and third-party property/casualty claims settlement and administration services to entities and individuals worldwide. It operates in Brokerage and Risk Management segments. The Brokerage segment offers retail and wholesale insurance and reinsurance brokerage services; assists retail brokers and other non-affiliated brokers in the placement of specialized and hard-to-place insurance; and acts as a brokerage wholesaler, managing general agent, and managing general underwriter for distributing specialized insurance coverages to underwriting enterprises. This segment performs activities, including marketing, underwriting, issuing policies, collecting premiums, appointing and supervising other agents, paying claims, and negotiating reinsurance; and offers services in the areas of insurance and reinsurance placement, risk of loss management, and management of employer sponsored benefit programs. The Risk Management segment provides contract claim settlement and administration services; and claims management, loss control consulting, and insurance property appraisal services. The company offers its services through a network of correspondent brokers and consultants. It serves commercial, industrial, public, religious, and nonprofit entities, as well as underwriting enterprises. The company was founded in 1927 and is headquartered in Rolling Meadows, Illinois.",
+  "url": "https://finance.yahoo.com/quote/AJG",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question asks for a prediction of a specific company's future stock price performance on the market.",
+  "question": "Will CPB's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price."
+}

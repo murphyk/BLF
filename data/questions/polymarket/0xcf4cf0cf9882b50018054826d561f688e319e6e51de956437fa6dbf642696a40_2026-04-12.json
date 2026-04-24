@@ -1,0 +1,14 @@
+{
+  "id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+  "resolution_criteria": "The 2026 U.S. Open tennis tournament is scheduled for August 23 - September 13, 2026.\n\nThis market will resolve to the player that wins the 2026 U.S. Open Men\u2019s Singles Tournament.\n\nIf at any point it becomes impossible for a listed player to win the 2026 U.S. Open Men\u2019s Singles Tournament per the rules of the tournament, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 U.S. Open Men\u2019s Singles Tournament is cancelled, postponed after October 31, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from the U.S. Open (https://www.usopen.org/index.html); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-carlos-alcaraz-win-the-2026-mens-us-open",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.38",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

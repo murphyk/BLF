@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0021",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the government of Greenland officially announce a date for an independence referendum?",
+  "title_hash": "4c7a6f03393ae004",
+  "background": "Reuters: [Greenland's independence gradualists win election amid Trump control pledge](https://www.reuters.com/world/europe/greenland-election-tests-independence-ambitions-us-interest-looms-2025-03-11/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a referendum on the independence of Greenland from the Denmark is officially scheduled. If this does not occur before that date, this question resolves as **No**.\n\nFine print:\nFor purposes of this question, the referendum will be considered \"officially scheduled\" when it is announced by a person or entity with the authority to do so within Greenland. Please note that broader legality, such as it being overturned by the government of Denmark, will be considered irrelevant for this question.",
+  "url": "https://www.reuters.com/world/europe/greenland-election-tests-independence-ambitions-us-interest-looms-2025-03-11/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

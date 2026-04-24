@@ -1,0 +1,15 @@
+{
+  "id": "0x45dfeb8088ef684004f6da7ab453cb1e7cacb14330b06a4eb7ba556e47201c43_2025-06-08",
+  "source": "polymarket",
+  "question": "Zelenskyy out as Ukraine president before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Volodymyr Zelenskyy is no longer serving as President of Ukraine for any length of time between January 17 and June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement of Volodymyr Zelenskyy's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThis market's resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/zelenskyy-out-as-ukraine-president-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0275",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

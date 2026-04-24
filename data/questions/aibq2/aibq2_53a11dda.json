@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_53a11dda",
+  "source": "aibq2",
+  "question": "Will the IMF and Lebanon announce an agreement before July 1, 2025?",
+  "background": "[Lebanon finance minister confident of a new deal with IMF to help crumbling economy](https://www.newarab.com/news/lebanon-finance-minister-confident-new-deal-imf)",
+  "resolution_criteria": "This question resolves as **Yes** if Lebanon and the International Monetary Fund announce any economic agreement between the two entities signed after the launch of this question and before July 1, 2025. In order to count, it must involve the IMF agreeing to provide money to Lebanon, whether through loans, grants, or any other means.",
+  "url": "https://www.newarab.com/news/lebanon-finance-minister-confident-new-deal-imf",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

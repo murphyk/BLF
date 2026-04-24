@@ -1,0 +1,15 @@
+{
+  "id": "0x2dac5b263a09b9a84d775bbc1cbc856559dbe49d3a2b875e7e6ad42a88d07b3b_2025-06-22",
+  "source": "polymarket",
+  "question": "Will a nuclear weapon detonate by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if a nuclear weapon is detonated anywhere in the world between Dec 1, 2024 and June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purpose of this market's resolution, any detonation of a nuclear weapon anywhere on the planet Earth will be sufficient to trigger a \"Yes\" resolution. This includes offensive usages, nuclear tests, and accidental detonations.\n\nUse/launch of a nuclear weapon that fails to detonate, a fake weapon that never detonates, or a dirty bomb that distributes radioactive material by means of a conventional explosion are not sufficient to trigger a \"Yes\" resolution of this market. Only a successful nuclear detonation will result in a \"Yes\" resolution.\n\nThis market may resolve to \"Yes\" as soon as a nuclear detonation is confirmed by a preponderance of credible reporting.\n\nFor the purpose of this market's resolution, determination as to whether a detonation was nuclear will be made by a preponderance of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-a-nuclear-weapon-detonate-by-june-30-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.028",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

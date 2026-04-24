@@ -1,0 +1,14 @@
+{
+  "id": "42548_2026-03-29",
+  "source": "metaculus",
+  "question": "Will gas prices in the US reach a new all-time high before April 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, before April 1, 2026, the national average price of Regular Unleaded gasoline is greater than \\$5.016 according to [AAA](https://gasprices.aaa.com/).&#x20;",
+  "background": "Forbes: [Gas Prices Soar To \\$3.41 Per Gallon As Iran Conflict Intensifies](https://www.forbes.com/sites/mikestunson/2026/03/07/gas-prices-soar-to-341-per-gallon-as-iran-conflict-intensifies/)\n\n> The average price of unleaded gas in the United States rose to [\\$3.41](https://gasprices.aaa.com/ \"https://gasprices.aaa.com/\") per gallon Saturday, an increase of around 45 cents in the week since the U.S. and Israel launched coordinated attacks on Iran that rattled global oil markets and threatened regional supply routes.\n\nCNBC: [Oil surges above \\$100 a barrel; Trump says \u2018small price to pay\u2019 for defeating Iran](https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html)\n\n> Crude oil prices surged above \\$100 per barrel on Sunday, after major Middle East producers cut output because the critical Strait of Hormuz remains closed due to the Iran war.\n\n> [West Texas Intermediate](https://www.cnbc.com/quotes/@CL.1/)\u00a0jumped 18.3%, or \\$16.60, to \\$107.50 per barrel. Global benchmark\u00a0[Brent](https://www.cnbc.com/quotes/@LCO.1/)\u00a0advanced 16.5%, or \\$15.32, to \\$108.01. U.S. crude oil\u00a0[surged about 35%](https://www.cnbc.com/2026/03/06/iran-us-war-oil-prices-brent-wti-barrel-futures.html)\u00a0last week in its biggest gain in futures trading history dating back to 1983. The last time oil prices topped \\$100 per barrel was after Russia invaded Ukraine in 2022.",
+  "url": "https://www.metaculus.com/questions/42548",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.15",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "m7scZNu2LwMHTfnhW0IV_2026-03-01",
+  "source": "manifold",
+  "question": "Will Slay the Spire 2 get overwhelmingly positive reviews on Steam?",
+  "resolution_criteria": "Resolves YES if Slay the Spire 2 has >=95% positive reviews 2 weeks after its initial early access release. \n\nClosing time will be extended if the game is delayed. ",
+  "background": "",
+  "url": "https://manifold.markets/arbitrary/will-slay-the-spire-2-get-overwhelm",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-19",
+  "market_value": "0.85705054088566",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market value."
+}

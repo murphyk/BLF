@@ -1,0 +1,14 @@
+{
+  "id": "NqZNZgILEL_2026-04-12",
+  "source": "manifold",
+  "question": "Open-Source AI model gets perfect IMO 2026 score? [International Math Olympiad 2026]",
+  "resolution_criteria": "all questions right & all points received.\n\nUsual rules:\n\nNo internet\n\nAs much allotted real-time as humans, parallel reasoning allowed\n\nLean4 or other theorem proving software allowed\n\nNatural language proofs and formal proofs allowed\n\nThe model completing the task must be open-weight, but the scaffold it makes use of need not be open-source.",
+  "background": "",
+  "url": "https://manifold.markets/Bayesian/opensource-ai-model-gets-perfect-im",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.39969981103025504",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

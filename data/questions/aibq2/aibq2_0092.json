@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0092",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will Discord announce that it is planning an IPO?",
+  "title_hash": "daf7de30f32d453a",
+  "background": "Ars Technica: [Discord is planning an IPO this year, and big changes could be on the horizon](https://arstechnica.com/gaming/2025/03/report-discord-partners-with-jp-morgan-chase-goldman-sachs-for-a-2025-ipo/)",
+  "resolution_criteria": "This question will resolve as **Yes** if Discord, Inc., announces before July 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) The company filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or 2) An announcement at the [news](https://discord.com/blog) section of its website. If there is no such announcement before that date, this question resolves as **No**.\n\nFine print:\nPlease note that for an announcement on the news section of the company's website to resolve the question as Yes, the announcement must be specific. Vague statements such as \"someday becoming a public company\" will not count. If there is any doubt, then greater weight will be placed on whether an S-1 has been filed.",
+  "url": "https://arstechnica.com/gaming/2025/03/report-discord-partners-with-jp-morgan-chase-goldman-sachs-for-a-2025-ipo/",
+  "forecast_due_date": "2025-05-23",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0073",
+  "source": "aibq2",
+  "question": "Will the US Steel/Nippon Steel merger collapse before July 1, 2025?",
+  "title_hash": "d139aece39d8162e",
+  "background": "Wikipedia: [Proposed acquisition of U.S. Steel by Nippon Steel](https://en.wikipedia.org/wiki/Proposed_acquisition_of_U.S._Steel_by_Nippon_Steel)",
+  "resolution_criteria": "This question will resolve as **Yes** if, before July 1, 2025, either U.S. Steel or Nippon Steel files an SEC Form 8-K announcing the merger agreement's termination or abandonment.",
+  "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_U.S._Steel_by_Nippon_Steel",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

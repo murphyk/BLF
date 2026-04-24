@@ -1,0 +1,17 @@
+{
+  "id": "IDXX_2026-02-01",
+  "source": "yfinance",
+  "question": "Will IDXX's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IDXX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 696.460. (The latest market close price of IDXX.)",
+  "background": "IDEXX Laboratories, Inc. develops, manufactures, and distributes products for the companion animal veterinary, livestock and poultry, dairy, and water testing industries in the United States and internationally. The company operates through three segments: Companion Animal Group; Water Quality Products; and Livestock, Poultry and Dairy. It offers in-clinic chemistry, blood and urine chemistry, hematology, immunoassay, urinalysis, cytology, and coagulation analyzers; and SNAP rapid assays test kits. The company also provides commercial reference laboratory diagnostic and consulting services to veterinarians; veterinary consultation, telemedicine, and advisory services, including radiology, dental radiography, cardiology, internal medicine, and ultrasound consulting; Colilert, Colilert-18, and Colisure tests, which detect the presence of total coliforms and E. coli in water; Enterolert, Pseudalert, Filta-Max and Filta-Max xpress, Legiolert, Quanti-Tray products, and Tecta system instruments; and veterinary software and services for independent veterinary clinics and corporate groups. In addition, it offers diagnostic tests, services, and related instrumentation to manage the health status of livestock and poultry; human medical diagnostic products and services; and VetConnect PLUS, a cloud-based technology that enables veterinarians to access and analyze patients, as well as operates VetLab Station. The company markets its products through marketing, customer service, sales, and technical service groups, as well as through independent distributors and other resellers. IDEXX Laboratories, Inc. was incorporated in 1983 and is headquartered in Westbrook, Maine.",
+  "url": "https://finance.yahoo.com/quote/IDXX",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

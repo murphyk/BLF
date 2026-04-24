@@ -1,0 +1,17 @@
+{
+  "id": "AMCR_2026-02-01",
+  "source": "yfinance",
+  "question": "Will AMCR's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AMCR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 42.400. (The latest market close price of AMCR.)",
+  "background": "Amcor plc, together with its subsidiaries, engages in the production and sale of packaging products in Europe, North America, Latin America, and the Asia Pacific. The company operates in two segments, Global Flexible Packaging Solutions and Global Rigid Packaging Solutions. The Global Flexible Packaging Solutions segment develops and supplies flexible packaging products, including polymer resin, aluminum, and fiber based flexible packaging products to the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. The Global Rigid Packaging Solutions segment manufactures rigid packaging containers, closures, dispensing and pharma devices, and related products for the food and beverage applications. The company sells its products through its direct sales force. The company was incorporated in 1926 and is headquartered in Zurich, Switzerland.",
+  "url": "https://finance.yahoo.com/quote/AMCR",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

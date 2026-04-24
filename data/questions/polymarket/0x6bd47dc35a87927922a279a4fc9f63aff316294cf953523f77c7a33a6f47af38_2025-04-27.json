@@ -1,0 +1,15 @@
+{
+  "id": "0x6bd47dc35a87927922a279a4fc9f63aff316294cf953523f77c7a33a6f47af38_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the Gujarat Titans win the 2025 Indian Premier League?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 Indian Premier League. \n\nIf at any point it becomes impossible for this team to win the Indian Premier League based on the rules of the IPL (e.g., they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.\n\nIf the 2025 IPL season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-gujarat-titans-win-the-2025-indian-premier-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-25",
+  "market_value": "0.1515",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

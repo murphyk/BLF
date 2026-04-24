@@ -1,0 +1,21 @@
+{
+  "id": "O_2025-04-27",
+  "source": "yfinance",
+  "question": "Will O's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/O for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 57.260. (The latest market close price of O.)",
+  "background": "Realty Income (NYSE: O), an S&P 500 company, is real estate partner to the world's leading companies. Founded in 1969, we invest in diversified commercial real estate and, as of December 31, 2024, have a portfolio of over 15,600 properties in all 50 U.S. states, the U.K., and six other countries in Europe. We are known as \"The Monthly Dividend Company\" and have a mission to invest in people and places to deliver dependable monthly dividends that increase over time. Since our founding, we have declared 656 consecutive monthly dividends and are a member of the S&P 500 Dividend Aristocrats index for having increased our dividend for the last 30 consecutive years.",
+  "url": "https://finance.yahoo.com/quote/O",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

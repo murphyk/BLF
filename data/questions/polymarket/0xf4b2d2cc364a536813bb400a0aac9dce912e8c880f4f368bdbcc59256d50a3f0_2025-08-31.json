@@ -1,0 +1,15 @@
+{
+  "id": "0xf4b2d2cc364a536813bb400a0aac9dce912e8c880f4f368bdbcc59256d50a3f0_2025-08-31",
+  "source": "polymarket",
+  "question": "Israel x Iran ceasefire broken by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if either Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate, or Iran initiates a drone, missile, or air strike on Israeli soil or any official Israeli embassy or consulate, by 11:59 PM ET on the listed date. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by Israeli or Iranian military forces that impact the other party\u2019s ground territory or any official embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by an Israeli missile, or an Israeli air base is hit by an Iranian drone, this market will resolve to \"Yes\") that is officially acknowledged by the relevant government or a consensus of credible reporting.\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on the opposing party\u2019s territory or cause damage.",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-x-iran-ceasefire-broken-by-december-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.515",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

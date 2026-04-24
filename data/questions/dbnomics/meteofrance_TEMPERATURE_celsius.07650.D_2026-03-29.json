@@ -1,0 +1,15 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07650.D_2026-03-29",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Marignane will be higher on 2026-04-05 than on 2026-03-29?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07650.D once the data is published.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 12.350. (The daily average temperature at the French weather station at Marignane.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - MARIGNANE - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07650.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07650.D",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

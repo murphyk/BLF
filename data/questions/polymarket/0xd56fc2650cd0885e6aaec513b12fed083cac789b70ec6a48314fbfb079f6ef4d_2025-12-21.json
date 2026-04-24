@@ -1,0 +1,14 @@
+{
+  "id": "0xd56fc2650cd0885e6aaec513b12fed083cac789b70ec6a48314fbfb079f6ef4d_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Atalanta finish first in UCL league phase?",
+  "resolution_criteria": "This market will resolve according to the team that finishes first in the league phase of the 2025\u201326 UEFA Champions League. \n\nIf at any point it becomes impossible for the listed club to finish first in the league phase (e.g. they are mathematically eliminated), the associated market will resolve to \"No\".\n\nIf the 2025\u201326 UEFA Champions League league phase is canceled or not completed by December 31, 2026, this market will resolve to \"Other\".\n\nIf two or more clubs are level on points, the ranking will be determined according to UEFA\u2019s official tie-breaker criteria as published for the competition.\n\nThe primary resolution source will be official information from UEFA. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-atalanta-finish-first-in-ucl-league-phase",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.024",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

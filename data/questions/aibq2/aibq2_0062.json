@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0062",
+  "source": "aibq2",
+  "question": "Will the Federal Reserve cut interest rates before July 1, 2025?",
+  "title_hash": "50e0c4b85ac20e2c",
+  "background": "JP Morgan: [Following the Fed\u2019s decision to pause rate cuts, what could its next move be?](https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts)",
+  "resolution_criteria": "This question resolves as **Yes** if, after the launch of this question and before July 1, 2025 the Federal Open Market Committee (FOMC) announces a reduction of any amount in the target federal funds rate range.\r\nThe primary resolution source is the FOMC's *target federal funds rate or range* webpage [here](https://www.federalreserve.gov/monetarypolicy/openmarket.htm), the Federal Reserve's official minutes and statements [here](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm), or other [credible sources](https://www.metaculus.com/help/faq/#definitions) in case the Federal Reserve's website is unavailable or not timely updated.\n\nFine print:\nThis question resolves based on the announcement. Therefore, the effective date of the rate cut does not need to be before the resolution date, as long as the announcement is made before then.",
+  "url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
+  "forecast_due_date": "2025-05-14",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

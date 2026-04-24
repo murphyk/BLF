@@ -1,0 +1,14 @@
+{
+  "id": "0xfd96c4b3a2776ef499ff06ceb78948b62eef81c1d645a4f82aacc0632fbac36d_2025-12-21",
+  "source": "polymarket",
+  "question": "Will the New Orleans Pelicans win the NBA Western Conference Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the New Orleans Pelicans win the 2025\u20132026 NBA Western Conference Finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025\u201326 NBA Western Conference Finals based on the rules of the NBA.\n\nIf the 2025-26 NBA Western Conference Finals winner is not announced by June 30, 2026, this market will resolve to \u201cOther\u201d.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-new-orleans-pelicans-win-the-nba-western-conference-finals",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-25",
+  "market_value": "0.0035",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

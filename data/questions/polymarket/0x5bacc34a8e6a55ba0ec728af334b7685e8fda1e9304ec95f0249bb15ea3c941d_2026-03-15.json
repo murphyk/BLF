@@ -1,0 +1,14 @@
+{
+  "id": "0x5bacc34a8e6a55ba0ec728af334b7685e8fda1e9304ec95f0249bb15ea3c941d_2026-03-15",
+  "source": "polymarket",
+  "question": "Will the San Antonio Spurs win the 2025\u20132026 NBA Southwest Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-southwest-division-winner-san-antonio-spurs",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-24",
+  "market_value": "0.9540000000000001",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x56a161fce05c462bbe64fdf80b83f720406150b11ae2d35c94907ac3d0eace80_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Zohran Mamdani win second place in the 2025 NYC mayoral election?",
+  "resolution_criteria": "The 2025 New York City mayoral election will be held on November 4, 2025, to elect the mayor of New York City.\n\nThis market will resolve according to the candidate candidate that wins the second most votes in this election.\n\nThe primary resolution source for this market will be a consensus of credible reporting, however if there is any ambiguity in the results this market will resolve according to official information from New York City.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zohran-mamdani-win-second-place-in-the-2025-nyc-mayoral-election",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.105",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

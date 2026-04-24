@@ -1,0 +1,21 @@
+{
+  "id": "UBER_2025-08-03",
+  "source": "yfinance",
+  "question": "Will UBER's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/UBER for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 89.940. (The latest market close price of UBER.)",
+  "background": "Uber Technologies, Inc. develops and operates proprietary technology applications in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through three segments: Mobility, Delivery, and Freight. The Mobility segment connects consumers with a range of transportation modalities, such as ridesharing, carsharing, micromobility, rentals, public transit, taxis, and other modalities; and offers riders in a variety of vehicle types, as well as financial partnerships products and advertising services. The Delivery segment allows consumers to search for and discover restaurants to grocery, alcohol, convenience, and other retails, as well as order a meal or other items, and either pick-up at the restaurant or have it delivered; and provides Uber direct, a white-label delivery-as-a-service for retailers and restaurants, as well as advertising services. The Freight segment manages transportation and logistics network, which connects shippers and carriers in digital marketplace, including carriers upfronts, pricing, and shipment booking; and offers on-demand platform to automate logistics end-to-end transactions for small-and medium-sized business to global enterprises. The company was formerly known as Ubercab, Inc. and changed its name to Uber Technologies, Inc. in February 2011. Uber Technologies, Inc. was founded in 2009 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/UBER",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

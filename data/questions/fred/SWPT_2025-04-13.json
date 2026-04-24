@@ -1,0 +1,21 @@
+{
+  "id": "SWPT_2025-04-13",
+  "source": "fred",
+  "question": "Will the weekly value of central bank liquidity swaps held by the Federal Reserve have increased by each resolution date listed below as compared to its value on 2025-04-13?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/SWPT once the data is published.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 86.000. (The latest value released in Assets: Central Bank Liquidity Swaps: Central Bank Liquidity Swaps: Wednesday Level from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: The FOMC has authorized temporary reciprocal currency arrangements (central bank liquidity swaps) with certain foreign central banks to help provide liquidity in U.S. dollars to overseas markets.\n\nThese swaps involve two transactions. First, when the foreign central bank draws on the swap line, it sells a specified amount of its currency to the Federal Reserve in exchange for dollars at the prevailing market exchange rate. The foreign currency that the Federal Reserve acquires is placed in an account for the Federal Reserve at the foreign central bank. This line in the statistical release reports the dollar value of the foreign currency held under these swaps.\n\nSecond, the dollars that the Federal Reserve provides are deposited in an account for the foreign central bank at the Federal Reserve Bank of New York. At the same time as the draw on the swap line, the Federal Reserve and the foreign central bank enter into a binding agreement for a second transaction in which the foreign central bank is obligated to repurchase the foreign currency at a specified future date at the same exchange rate. At the conclusion of the second transaction, the foreign central bank pays a market-based rate of interest to the Federal Reserve. Central bank liquidity swaps are of various maturities, ranging from overnight to three months..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, As of Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/SWPT",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

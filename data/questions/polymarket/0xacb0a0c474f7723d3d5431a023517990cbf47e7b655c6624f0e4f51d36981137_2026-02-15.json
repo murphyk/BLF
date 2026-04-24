@@ -1,0 +1,14 @@
+{
+  "id": "0xacb0a0c474f7723d3d5431a023517990cbf47e7b655c6624f0e4f51d36981137_2026-02-15",
+  "source": "polymarket",
+  "question": "Will the Chicago Bulls win the 2025\u20132026 NBA Central Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-central-division-winner-chicago-bulls",
+  "forecast_due_date": "2026-02-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-09",
+  "market_value": "0.0015",
+  "market_date": "2026-02-09",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x212cc6584803e23a777960c163f882466db4cb88cec4983b3b95a8b3e75815d2_2026-03-01",
+  "source": "polymarket",
+  "question": "Will the United States of America win the gold medal for Winter Olympics 2026: Women's Ice Hockey at the 2026 Milano Cortina Winter Olympics?",
+  "resolution_criteria": "This market will resolve according to the participant (country team or individual participant as applicable to the event) that is awarded the gold medal at the 2026 Milano-Cortina Winter Olympics for Winter Olympics 2026: Women's Ice Hockey event at the time of the corresponding medal/podium ceremony. Subsequent disqualifications or amendments will not be considered.\n\nIf at any point it becomes impossible for a listed participant to win the 2026 Milano-Cortina Winter Olympics gold medal for Winter Olympics 2026: Women's Ice Hockey event per the rules of IOC (e.g., participant is eliminated), the corresponding market will resolve to \"No\".\n\nIf multiple participants are awarded the gold medal, this market will resolve in favor of the participant whose listed name comes first alphabetically, as listed in this market group.\n\nIf this event is postponed after March 31, 2026, 11:59 PM ET, canceled, or a gold medal has not been declared within this timeframe, this market will resolve to \"Other\".\n\nThe resolution source will be official information from the International Olympic Committee (https://www.olympics.com/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-united-states-of-america-win-the-gold-medal-for-winter-olympics-2026-womens-ice-hockey-at-the-2026-milano-cortina-winter-olympics",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.8200000000000001",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

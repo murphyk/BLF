@@ -1,0 +1,14 @@
+{
+  "id": "22560_2025-12-21",
+  "source": "metaculus",
+  "question": "Will Ukraine start revoking passports of military draft age men residing abroad before 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before January 1, 2026, [credible sources](https://www.metaculus.com/help/faq/#definitions) report that the Ukraine government has initiated a policy of revoking previously valid passports of Ukrainian men, deemed to be of draft age, who reside outside the country.\n\nIf no credible sources report such revocation before January 1, 2026, this question resolves as **No**.",
+  "background": "Shortly after new Ukrainian mobilization law [was signed](https://edition.cnn.com/2024/04/16/europe/zelensky-signs-mobilization-law-intl-latam/index.html), all [consular services for men age 18-60 was suspended](https://edition.cnn.com/2024/04/23/europe/ukraine-consulates-mobilization-intl-latam/index.html), including issuing and renewing passports.\n\nIn light of these developments, there have been concerns, reportedly amplified by [Russian propaganda](https://disinfo.detector.media/en/post/the-ukrainian-government-allegedly-wants-to-cancel-the-international-passports-of-citizens-abroad), that this will be supplemented by revoking already-issued passports, thus forcing Ukrainian men to return home.",
+  "url": "https://www.metaculus.com/questions/22560",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-29",
+  "market_value": "0.01",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The community prediction."
+}

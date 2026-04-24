@@ -1,0 +1,21 @@
+{
+  "id": "AWK_2025-05-11",
+  "source": "yfinance",
+  "question": "Will AWK's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AWK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 147.010. (The latest market close price of AWK.)",
+  "background": "American Water Works Company, Inc., through its subsidiaries, provides water and wastewater services in the United States. It offers water and wastewater services on military installations; and undertakes contracts with municipal customers, primarily to operate and manage water and wastewater facilities, as well as offers other related services. The company also operates approximately 80 surface water treatment plants; 520 groundwater treatment plants; 190 wastewater treatment plants; 54,500 miles of transmission, distribution, and collection mains and pipes; 1,200 groundwater wells; 1,800 water and wastewater pumping stations; 1,100 treated water storage facilities; and 75 dams. In addition, it offers water and wastewater services to 14 states serving approximately 3.5 million active customers. The company serves residential customers; commercial customers, including food and beverage providers, commercial property developers and proprietors, and energy suppliers; fire service and private fire customers; industrial customers, such as large-scale manufacturers, mining, and production operations; public authorities comprising government buildings and other public sector facilities, such as schools and universities; and other utilities and community water and wastewater systems. American Water Works Company, Inc. was founded in 1886 and is headquartered in Camden, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/AWK",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x88fad6af135ca7cbd55a8bda5a1243125ded68b1e521066009cc990b13960b88_2025-04-27",
+  "source": "polymarket",
+  "question": "NYSE marketwide circuit breaker in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if a marketwide circuit breaker is triggered on the New York Stock Exchange (NYSE) at any time between January 1 and market close on December 31, 2025. Otherwise, this market will resolve to \u201cNo\u201d.\n\nA marketwide circuit breaker is defined as a trading halt that is initiated due to significant declines in the S&P 500 Index, specifically a Level 1, Level 2, or Level 3 halt as per NYSE rules.\n\nThe primary resolution source for this market will be official information from the NYSE, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/nyse-marketwide-circuit-breaker-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.24",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

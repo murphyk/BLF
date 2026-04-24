@@ -1,0 +1,21 @@
+{
+  "id": "LIN_2025-06-22",
+  "source": "yfinance",
+  "question": "Will LIN's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LIN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 468.540. (The latest market close price of LIN.)",
+  "background": "Linde plc operates as an industrial gas company in the United States, China, Germany, the United Kingdom, Australia, Mexico, Brazil, and internationally. It offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, electronic gases, specialty gases, acetylene, etc. The company also designs and constructs turnkey process plants for third-party customers, as well as for the gas businesses in various locations consist of air separation, hydrogen, synthesis, olefin, and natural gas plants. It serves a range of industries comprising healthcare, chemicals and energy, manufacturing, metals and mining, food and beverage, and electronics. Linde plc was founded in 1879 and is based in Woking, the United Kingdom.",
+  "url": "https://finance.yahoo.com/quote/LIN",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

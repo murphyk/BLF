@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_7773cfe8",
+  "source": "aibq2",
+  "question": "Will Uber be available in the Turks and Caicos Islands on July 1, 2025?",
+  "background": "[Tourism Stakeholders Warned About Encouraging Use of Illegal Taxis](https://magneticmediatv.com/2025/04/tourism-stakeholders-warned-about-encouraging-use-of-illegal-taxis/)",
+  "resolution_criteria": "This question resolves as **Yes** if Uber is available in Turks and Caicos as shown on the [Uber website](https://www.uber.com/us/en/search-results/?query=TURKS+AND+CAICOS) or according to [credible sources](https://www.metaculus.com/faq/#definitions).",
+  "url": "https://magneticmediatv.com/2025/04/tourism-stakeholders-warned-about-encouraging-use-of-illegal-taxis/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

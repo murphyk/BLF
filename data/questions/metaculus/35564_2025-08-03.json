@@ -1,0 +1,15 @@
+{
+  "id": "35564_2025-08-03",
+  "source": "metaculus",
+  "question": "\u00bfSer\u00e1 la pel\u00edcula con mayor recaudaci\u00f3n mundial en 2025 parte de una franquicia?",
+  "resolution_criteria": "Esta pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si, seg\u00fan los datos finales de taquilla mundial para 2025 \u2014seg\u00fan lo informado por una fuente confiable como\u00a0[<u>Box Office Mojo</u>](https://www.boxofficemojo.com/year/world/2025/)\u2014 la pel\u00edcula con el mayor ingreso bruto total es una pel\u00edcula de franquicia (es decir, parte de una serie o universo cinematogr\u00e1fico). Se resolver\u00e1 como\u00a0**No**\u00a0si la pel\u00edcula m\u00e1s taquillera no forma parte de una franquicia. En caso de empate por el primer puesto, la pregunta se resolver\u00e1 como\u00a0**S\u00ed**.",
+  "background": "Las franquicias cinematogr\u00e1ficas han dominado la taquilla global en los \u00faltimos a\u00f1os, a menudo superando a las pel\u00edculas independientes a trav\u00e9s de audiencias establecidas y merchandising extenso. Plataformas como\u00a0[<u>Box Office Mojo</u>](https://www.boxofficemojo.com/year/world/2025/)\u00a0proporcionan estad\u00edsticas detalladas de ingresos globales. En los \u00faltimos cuatro a\u00f1os, tres veces la pel\u00edcula m\u00e1s taquillera fue una pel\u00edcula de franquicia.\n\nEn 2025, varias pel\u00edculas de franquicias de alto perfil est\u00e1n\u00a0[<u>programadas para su estreno</u>](https://screenrant.com/movie-sequels-massive-budgets-coming-in-2025-list/), incluyendo \"Avatar: Fire and Ash\", \"Mission: Impossible \u2013 The Final Reckoning\" y \"Jurassic World Rebirth\". El l\u00edder actual en la taquilla es \"Captain America: Brave New World\", una franquicia.",
+  "url": "https://www.metaculus.com/questions/35564",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-29",
+  "market_value": "0.9500000000000001",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x385458d81b805f220ccc137a23e5e24d1c6ecb61a189ba2edf8812b099129af9_2025-11-09",
+  "source": "polymarket",
+  "question": "Will global temperature increase by less than 1.10\u00baC in October 2025?",
+  "resolution_criteria": "This market will resolve according to the value reported by the Global Land-Ocean Temperature Index for October 2025 when it is released.\n\nAn anomaly within a named bracket for October 2025 is necessary and sufficient to resolve this market immediately once the data becomes available, regardless of whether the figure for October 2025 is later revised.\n\nThe primary resolution source for this market will be the figure found in the table titled \"GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius\" under the column \"Oct\" in the row \"2025\" (https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt).\n\nIf NASA\u2019s \u201cGlobal Temperature Index\u201d is rendered permanently unavailable, other information from NASA may be used.\nIf no information for October 2025 is provided by NASA by January 1, 2026, 11:59 PM ET, this market will resolve to the lowest range bracket.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-global-temperature-increase-by-less-than-1pt10c-in-october-2025",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-11",
+  "market_value": "0.0195",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

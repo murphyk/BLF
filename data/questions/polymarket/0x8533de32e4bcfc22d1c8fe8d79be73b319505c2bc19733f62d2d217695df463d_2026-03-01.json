@@ -1,0 +1,14 @@
+{
+  "id": "0x8533de32e4bcfc22d1c8fe8d79be73b319505c2bc19733f62d2d217695df463d_2026-03-01",
+  "source": "polymarket",
+  "question": "Minneapolis Border Patrol shooter charged?",
+  "resolution_criteria": "On January 24, 2026, a federal immigration agent shot and killed a man in Minneapolis, Minnesota, during a federal immigration enforcement operation (see: https://www.cnn.com/us/live-news/ice-minneapolis-shooting-01-24-26).\n\nThis market will resolve to \u201cYes\u201d if any Federal or State jurisdiction of the United States formally charges or otherwise announces a criminal indictment of the federal immigration agent who fired the shots in the January 24, 2026 Minneapolis shooting, for any alleged crime relating to the shooting, between market creation and March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nFor a \u201cYes\u201d resolution, the charged individual does not need to be an active federal immigration agent at the time the charges are made, as long as they were the shooter in the specified event.\n\nFor the purposes of this market the District of Columbia and any county, municipality, or other subdivision of a State shall be included within the definition of a State.\n\nThe primary resolution source for this market will be official information from US governmental sources, however a wide consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/minneapolis-border-patrol-shooter-charged",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.14",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

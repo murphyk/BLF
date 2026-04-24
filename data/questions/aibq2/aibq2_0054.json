@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0054",
+  "source": "aibq2",
+  "question": "Will the word \"tariff(s)\" disappear from the front print pages of The New York Times and Wall Street Journal by June 1, 2025?",
+  "title_hash": "517d3c1a82274014",
+  "background": "Whether reading the newspaper or social media or watching the news, it is highly likely you are going to see something about tariffs - mainly due to US President Donald Trump's renewed love for this somewhat antiquated form of taxation.\n\nThe New York Times and the Wall Street Journal are two of the largest print newspapers in the US. When, if ever, will we seen tariffs wiped from the front pages of both papers?",
+  "resolution_criteria": "This question will resolve to \"Yes\" if, after \\[OPEN DATE] and before June 1, 2025, the words, \"tariff\" or \"tariffs\", do not appear on the print front page of The New York Times and the Wall Street Journal. The following URLs will be used to resolve the question:\n\n* The New York Times: [https://www.nytimes.com/section/todayspaper](https://www.nytimes.com/section/todayspaper)\n* Wall Street Journal:\t [https://www.wsj.com/print-edition/20250414/frontpage](https://www.wsj.com/print-edition/20250414/frontpage)\n\n***\n\n<sup>Note: WSJ front page URL for April 14, 2025. Format is: yyyy-mm-dd.</sup>\n\nFine print:\nGrammar is not relevant (e.g. \"TARIFF\" will suffice to prevent a \"No\" resolution).\n\n\"Tariff(s)\" must be omitted from both papers' front pages on the same day.\n\n\"Tariff(s)\" can appear anywhere on the page, it does not have to be in a title.",
+  "url": "",
+  "forecast_due_date": "2025-05-09",
+  "resolution_date": "2025-06-02",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x664b1ef991cea7d4a781d753d72ed3aa1f308977d96d20d5714fe354caa8cc90_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Marquette win the 2025 NCAA Tournament?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 NCAA Men\u2019s Basketball Tournament.\n\nIf it is impossible for a team to win the 2025 NCAA Men\u2019s Basketball Tournament according to the rules of the competition (i.e. they are eliminated) , the corresponding market will immediately resolve to \u201cNo\u201d.\n\nIf for any reason no winner is declared by May 31, 2025, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be information from the NCAA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-marquette-win-the-2025-ncaa-tournament",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-22",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

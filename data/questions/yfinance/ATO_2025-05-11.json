@@ -1,0 +1,21 @@
+{
+  "id": "ATO_2025-05-11",
+  "source": "yfinance",
+  "question": "Will ATO's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ATO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 160.630. (The latest market close price of ATO.)",
+  "background": "Atmos Energy Corporation, together with its subsidiaries, engages in the regulated natural gas distribution, and pipeline and storage businesses in the United States. It operates through two segments, Distribution, and Pipeline and Storage. The Distribution segment is involved in the regulated natural gas distribution and related sales operations in eight states. This segment distributes natural gas to approximately 3.3 million residential, commercial, public authority, and industrial customers; and owned 73,689 miles of underground distribution and transmission mains. The Pipeline and Storage segment engages in the pipeline and storage operations. This segment transports natural gas for third parties and manages five underground storage facilities in Texas; provides ancillary services customary to the pipeline industry, including parking arrangements, lending, and inventory sales; and owned 5,645 miles of gas transmission lines. Atmos Energy Corporation was founded in 1906 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/ATO",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

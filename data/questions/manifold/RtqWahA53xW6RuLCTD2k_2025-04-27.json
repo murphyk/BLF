@@ -1,0 +1,15 @@
+{
+  "id": "RtqWahA53xW6RuLCTD2k_2025-04-27",
+  "source": "manifold",
+  "question": "OpenAI will launch an audio only smart home device in the next twelve months",
+  "resolution_criteria": "Inspired by this tweet: \n\n[tweet]Resolves to YES if OpenAI releases an audio only smart device before May 14, 2025. \n\nI will resolve to true if it\u2019s either a device manufactured by OpenAI or if a third-party releases but it runs OpenAI software exclusively.",
+  "background": "",
+  "url": "https://manifold.markets/ColinD/openai-will-launch-an-audio-only-sm",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-15",
+  "market_value": "0.052929107497995",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market value."
+}

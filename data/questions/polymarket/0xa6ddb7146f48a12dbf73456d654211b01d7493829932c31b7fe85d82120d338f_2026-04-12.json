@@ -1,0 +1,14 @@
+{
+  "id": "0xa6ddb7146f48a12dbf73456d654211b01d7493829932c31b7fe85d82120d338f_2026-04-12",
+  "source": "polymarket",
+  "question": "Iran x Israel/US conflict ends by April 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a continuous 14-day period without any qualifying military action between Iran, and Israel and the United States that begins at any time between market creation and the specified end date (ET). Otherwise, this market will resolve to \"No\". \n\nThe 14-day period may begin at any time between the creation of this market and the specified end date (ET), and must continue uninterrupted through 12:00 PM ET on the 14th calendar day after the strike is confirmed. \n\nA \"military action\" is defined as any use of force by Iran, or Israel and the United States against the other\u2019s soil, or official embassies or consulates, that is either officially acknowledged by the acting government or confirmed through a clear consensus of credible reporting. \n\nThis includes, but is not limited to, airstrikes, naval attacks, and ground incursions. \n\nCyberattacks, sanctions, and diplomatic actions do not count. \n\nOnly actions by Iranian forces explicitly claimed by the Islamic Republic of Iran, or confirmed to have originated from Iranian territory will qualify as Iranian military actions. Attacks on Israel or the US by proxy forces (i.e. Hezbollah, Houthis, etc.) will not count.",
+  "background": "",
+  "url": "https://polymarket.com/market/iran-x-israelus-conflict-ends-by-april-30-766-662-668-546",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.375",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

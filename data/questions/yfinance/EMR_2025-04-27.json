@@ -1,0 +1,21 @@
+{
+  "id": "EMR_2025-04-27",
+  "source": "yfinance",
+  "question": "Will EMR's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EMR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 98.670. (The latest market close price of EMR.)",
+  "background": "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe. It operates through seven segments: Final Control, Measurement & Analytical, Discrete Automation, Safety & Productivity, Control Systems & Software, Test & Measurement, and AspenTech. The Final Control segment provides control, isolation, shutoff, pressure relief, and pressure safety valves, actuators, and regulators for process and hybrid industries. The Measurement & Analytical segment offers intelligent instrumentation measuring the physical properties of liquids or gases, such as pressure, temperature, level, flow, acoustics, corrosion, pH, conductivity, water quality, toxic gases, and flame. The Discrete Automation segment offers solenoid and pneumatic valves, valve position indicators, pneumatic cylinders, actuators, air preparation equipment, pressure and temperature switches, electric linear motion solutions, programmable automation control systems, electrical distribution equipment, and materials joining solutions. The Safety & Productivity segment offers tools for professionals and homeowners; pipe-working tools, including pipe wrenches, pipe cutters, pipe threading and roll grooving equipment, battery hydraulic tools; electrical tools; and other professional tools. The Control Systems & Software segment provides control systems, safety instrumented systems, SCADA systems, application software, digital twins, asset performance management, and cybersecurity. The Test & Measurement provides software-connected automated test and measurement systems. The AspenTech segment provides asset optimization software that enables industrial manufacturers to design, operate, and maintain operations for enhancing performance through a combination of decades of modeling, simulation, and optimization capabilities. The company was incorporated in 1890 and is based in Saint Louis, Missouri.",
+  "url": "https://finance.yahoo.com/quote/EMR",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

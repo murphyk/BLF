@@ -1,0 +1,15 @@
+{
+  "id": "0x89ec96860a8439042a3a97a9d9ae619cf8b3c6d1bb84c4e9afde605f4a3cd26f_2025-04-13",
+  "source": "polymarket",
+  "question": "Will Donovan Mitchell win the 2024-25 NBA MVP?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Donovan Mitchell is awarded the 2024-25 NBA Most Valuable Player (MVP) Award. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf Donovan Mitchell is not announced as a finalist for the 2024-25 NBA MVP award, this market will immediately resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-donovan-mitchell-win-the-2024-25-nba-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-21",
+  "market_value": "0.0005",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

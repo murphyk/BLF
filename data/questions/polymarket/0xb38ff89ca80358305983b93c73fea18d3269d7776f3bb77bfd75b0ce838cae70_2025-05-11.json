@@ -1,0 +1,15 @@
+{
+  "id": "0xb38ff89ca80358305983b93c73fea18d3269d7776f3bb77bfd75b0ce838cae70_2025-05-11",
+  "source": "polymarket",
+  "question": "Will P\u0159\u00edsaha win the most seats in the next Czech parliamentary election?",
+  "resolution_criteria": "Parliamentary elections are scheduled to be held in the Czech Republic by October 2025.\n\nThis market will resolve to the political party that wins the greatest number of seats in the Chamber of Deputies of the Czech Republic. \n\nIf voting in the next Czech election for the Chamber of Deputies does not occur by January 31, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party and any other for the most seats won, this market will resolve in favor of the party whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Czech Republic\u2019s government (e.g. via https://www.volby.cz/index_en.htm).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-psaha-win-the-most-seats-in-the-next-czech-parliamentary-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-30",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

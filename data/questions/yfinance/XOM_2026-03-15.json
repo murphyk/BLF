@@ -1,0 +1,15 @@
+{
+  "id": "XOM_2026-03-15",
+  "source": "yfinance",
+  "question": "Will XOM's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/XOM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 150.760. (The latest market close price of XOM.)",
+  "background": "Exxon Mobil Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally. The company operates through Upstream, Energy Products, Chemical Products, and Specialty Products segments. Its Upstream segment explores for and produces crude oil and natural gas. The Energy Products segment offers fuels, aromatics, and catalysts, as well as licensing services. Its Chemical Products segment manufactures and sells olefins, polyolefins, and intermediates. The Specialty Products segment offers finished lubricants, basestocks, waxes, synthetics, elastomers, and resins. It is also involved in the manufacture, trade, transport, and sale of crude oil, natural gas, petroleum products, petrochemicals, and other specialty products; and pursuit of lower-emission and business opportunities, including carbon capture and storage, hydrogen, lower-emission fuels, Proxxima resin systems, carbon materials, low-carbon data center, and lithium. In addition, the company offers aviation fuel. It sells its products under the Exxon, Esso, and Mobil brands. Exxon Mobil Corporation was founded in 1870 and is headquartered in Spring, Texas.",
+  "url": "https://finance.yahoo.com/quote/XOM",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

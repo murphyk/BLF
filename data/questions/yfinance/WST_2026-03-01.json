@@ -1,0 +1,17 @@
+{
+  "id": "WST_2026-03-01",
+  "source": "yfinance",
+  "question": "Will WST's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WST for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 248.260. (The latest market close price of WST.)",
+  "background": "West Pharmaceutical Services, Inc. designs, manufactures, and sells containment and delivery systems for injectable drugs and healthcare products in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Proprietary Products and Contract-Manufactured Products. The Proprietary Products segment offers stoppers and seals for injectable packaging systems; syringe and cartridge components, including custom solutions for the needs of injectable drug applications, as well as administration systems that enhance the safe delivery of drugs through advanced reconstitution, mixing, and transfer technologies; and films, coatings, washing, and vision inspection and sterilization processes and services to enhance the quality of packaging products. This segment also provides drug containment solutions in the form of vials, syringes, and cartridges; and self-injection devices; and a range of integrated solutions, including analytical lab services, pre-approval primary packaging support and engineering development, regulatory expertise, and after-sales technical support. This segment serves biologic, generic, and pharmaceutical drug companies. The Contract-Manufactured Products segment is involved in the design, manufacture, and automated assembly of devices used in surgical, diagnostic, ophthalmic, injectable, and other drug delivery systems, as well as consumer products. This segment primarily serves pharmaceutical, diagnostic, and medical device companies. It sells and distributes its products through its sales force and distribution network, contract sales agents, and regional distributors. West Pharmaceutical Services, Inc. was founded in 1923 and is headquartered in Exton, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/WST",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

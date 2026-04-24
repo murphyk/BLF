@@ -1,0 +1,15 @@
+{
+  "id": "35577_2025-05-11",
+  "source": "metaculus",
+  "question": "\u00bfSuperar\u00e1 el PIB nominal de India al de Jap\u00f3n a finales de 2025?",
+  "resolution_criteria": "The question will be resolved as **Yes** if, according to the International Monetary Fund (IMF) World Economic Outlook database, India's nominal GDP for 2025 exceeds that of Japan by the end of that year. It will be resolved as **No** if Japan's GDP remains higher or if both are equivalent.",
+  "background": "India and Japan are among the largest economies in the world. India has experienced rapid economic growth in recent decades, potentially positioning itself to overtake Japan in terms of nominal GDP. By 2024, Japan was the 4th largest economy, with a GDP of $4.07 trillion, while India was the 5th, with $3.89 trillion (IMF). This economic trajectory underscores the dynamic shifts in global economic power.",
+  "url": "https://www.metaculus.com/questions/35577",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.8200000000000001",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The community prediction."
+}

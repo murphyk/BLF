@@ -1,0 +1,15 @@
+{
+  "id": "llC0sSgzg8_2025-08-17",
+  "source": "manifold",
+  "question": "Will Trump & Elon cut >250,000 government employees in 2025?",
+  "resolution_criteria": "Linked to this Kalshi question:\n\nIf there are more than 250000 federal employees no longer working relative to the January 2025 employee count before Jan 2026, then the market resolves to Yes. Outcome verified from FRED.\n\nNote the resolution criteria\u2014what matters is the change in the count of federal employees, not whether we can confirm Trump and/or Elon directly fired them. For reference, the specific chart Kalshi links to appears to be this one.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-trump-elon-cut-250000-governme",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-17",
+  "market_value": "0.399808122553783",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "25QZ5yn8hQ_2025-12-21",
+  "source": "manifold",
+  "question": "Bitcoin below $80K in 2025?",
+  "resolution_criteria": "Yes if the Coinbase BTC-USD 1-minute candle low is \u2264 $80,000 any time from market creation (Sep 25, 2025 PT) through Dec 31, 2025 23:59 PT; otherwise No.\n\nSource: Coinbase (BTC-USD). \n\nResolution: Dec 31, 2025, 23:59 PT, or earlier upon trigger.",
+  "background": "",
+  "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.21607055365017103",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market value."
+}

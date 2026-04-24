@@ -1,0 +1,15 @@
+{
+  "id": "0xc84ac0cca6352c640525e455600e3d7798bbf5b2259444b78910c99e1dcb7c33_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Gustavo Jalkh win the 2025 Ecuadorian Presidential Election?",
+  "resolution_criteria": "Presidential elections are scheduled to be held in Ecuador on 9 February 2025. If necessary, a second round will be held on 13 April 2025.\n\nThis market will resolve to \"Yes\" if Gustavo Jalkh wins this election. Otherwise, this market will resolve to \"No\".\n\nThis market includes any potential second round. If the result of this election isn't known by July 31, 2025, 11:59 PM ET, the market will resolve to \"No\".\n\nThis market will resolve solely based off the first official announcement of the winner from the Ecuadorian Government, specifically the National Electoral Council (https://www.cne.gob.ec/). \n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-gustavo-jalkh-win-the-2025-ecuadorian-presidential-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-13",
+  "market_value": "0.001",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

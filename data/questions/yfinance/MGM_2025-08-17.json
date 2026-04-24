@@ -1,0 +1,21 @@
+{
+  "id": "MGM_2025-08-17",
+  "source": "yfinance",
+  "question": "Will MGM's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MGM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 35.090. (The latest market close price of MGM.)",
+  "background": "MGM Resorts International, through its subsidiaries, operates as a gaming and entertainment company in the United States, China, and internationally. The company operates through four segments: Las Vegas Strip Resorts, Regional Operations, MGM China, and MGM Digital. It operates casino resorts that offer gaming, hotel, convention, dining, entertainment, retail, and other resort amenities, as well as online/digital games through its online platforms. The company's casino operations include slots and table games, as well as live dealer, online sports betting, and iGaming through BetMGM. Its customers include premium gaming customers; leisure and wholesale travel customers; business travelers; and group customers, including conventions, trade associations, and small meetings. The company was formerly known as MGM MIRAGE and changed its name to MGM Resorts International in June 2010. MGM Resorts International was incorporated in 1986 and is based in Las Vegas, Nevada.",
+  "url": "https://finance.yahoo.com/quote/MGM",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

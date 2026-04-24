@@ -1,0 +1,14 @@
+{
+  "id": "lsO2IQ5LlE_2026-03-15",
+  "source": "manifold",
+  "question": "Russian crewed aircraft shot down in NATO airspace by 2026-03-19?",
+  "resolution_criteria": "On 2025-09-19, three MiG-31 aircraft were reported to have violated Estonian airspace. They were escorted out of NATO airspace.\n\nOn 2015-11-24, a Russian SU-24 was shot down within NATO airspace by Turkey.\n\nWill a Russian aircraft (crewed, not a drone) be shot down within 6 months of this recent incident?\n\nEstablishing proof of the airspace violation might be hard. Outcome will be based on a consensus of credible reporting combined with NATO statements, provided they appear to be basically plausible. (The 2015 incident would count under this rule.) Local time zone.",
+  "background": "",
+  "url": "https://manifold.markets/EvanDaniel/russian-crewed-aircraft-shot-down-i",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-20",
+  "market_value": "0.023279332973057003",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

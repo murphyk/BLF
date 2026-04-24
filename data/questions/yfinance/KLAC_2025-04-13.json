@@ -1,0 +1,21 @@
+{
+  "id": "KLAC_2025-04-13",
+  "source": "yfinance",
+  "question": "Will KLAC's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KLAC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 686.190. (The latest market close price of KLAC.)",
+  "background": "KLA Corporation, together with its subsidiaries, engages in the design, manufacture, and marketing of process control, process-enabling, and yield management solutions for the semiconductor and related electronics industries worldwide. It operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. The company offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; metrology systems that are used to measure pattern dimensions, film thickness, film stress, layer-to-layer alignment, pattern placement, surface topography, and electro-optical properties for wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and metrology systems; and semiconductor software solutions that provide run-time process control, defect excursion identification, process corrections, and defect classification to accelerate yield learning rates and reduce production risk. It also provides etch, plasma dicing, deposition, and other wafer processing technologies and solutions for the semiconductor and microelectronics industry. In addition, the company offers direct imaging, inspection, optical shaping, inkjet and additive printing, UV laser drilling, and computer-aided manufacturing and engineering solutions for the PCB market; inspection and electrical testing systems to identify and classify defects, as well as systems to repair defects for the display market; and inspection and metrology systems for quality control and yield improvement in advanced and traditional semiconductor packaging markets. The company was formerly known as KLA-Tencor Corporation and changed its name to KLA Corporation in July 2019. KLA Corporation was incorporated in 1975 and is headquartered in Milpitas, California.",
+  "url": "https://finance.yahoo.com/quote/KLAC",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

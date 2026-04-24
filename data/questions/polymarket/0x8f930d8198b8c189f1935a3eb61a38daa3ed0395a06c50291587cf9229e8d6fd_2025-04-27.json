@@ -1,0 +1,15 @@
+{
+  "id": "0x8f930d8198b8c189f1935a3eb61a38daa3ed0395a06c50291587cf9229e8d6fd_2025-04-27",
+  "source": "polymarket",
+  "question": "Was 9/11 an inside job?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if by December 31, 2025, 11:59 PM ET, definitive evidence is made public confirming that the US government orchestrated or was directly involved in the September 11, 2001 attacks. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be publicly released information from the U.S. government.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/was-911-an-inside-job",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0475",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

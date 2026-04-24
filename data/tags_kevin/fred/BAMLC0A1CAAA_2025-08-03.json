@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question pertains to the option-adjusted spread (OAS) of investment-grade corporate bonds, which is a standard metric for measuring risk and return in fixed-income financial markets.",
+  "question": "Will the option-adjusted spread of securities with an investment grade rating of AAA in the ICE BofA US Corporate Index, which tracks the performance of corporate debt issued in the US domestic market, have increased by each resolution date listed below as compared to its value on 2025-08-03?"
+}

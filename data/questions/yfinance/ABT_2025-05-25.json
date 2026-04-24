@@ -1,0 +1,21 @@
+{
+  "id": "ABT_2025-05-25",
+  "source": "yfinance",
+  "question": "Will ABT's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ABT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 132.600. (The latest market close price of ABT.)",
+  "background": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide. It operates in four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices. The company provides generic pharmaceuticals for the treatment of pancreatic exocrine insufficiency, irritable bowel syndrome or biliary spasm, intrahepatic cholestasis or depressive symptoms, gynecological disorder, hormone replacement therapy, dyslipidemia, hypertension, hypothyroidism, hypertriglyceridemia, M\u00e9ni\u00e8re's disease and vestibular vertigo, pain, fever, inflammation, and migraine, as well as provides anti-infective clarithromycin, influenza vaccine, and products to regulate physiological rhythm of the colon. It also offers laboratory and transfusion medicine systems in the areas of immunoassay, clinical chemistry, hematology, and transfusion serology testing; molecular diagnostics polymerase chain reaction instrument systems that automate the extraction, purification, and preparation of DNA and RNA from patient samples, and detect and measure infectious agents; point of care systems; cartridges for testing blood gas, chemistry, electrolytes, coagulation, and immunoassay; rapid diagnostics lateral flow testing products; molecular point-of-care testing for HIV, SARS-CoV-2, influenza A and B, RSV, and strep A; cardiometabolic test systems; and drug and alcohol test. In addition, the company provides pediatric and adult nutritional products and infant formula; rhythm management, electrophysiology, heart failure, vascular, and structural heart devices for the treatment of cardiovascular diseases; diabetes care products, such as glucose and blood glucose monitoring systems; and neuromodulation devices for the management of chronic pain and movement disorders. Abbott Laboratories was founded in 1888 and is based in North Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ABT",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

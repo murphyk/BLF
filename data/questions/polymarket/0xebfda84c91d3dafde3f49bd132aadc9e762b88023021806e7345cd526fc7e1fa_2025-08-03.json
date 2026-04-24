@@ -1,0 +1,15 @@
+{
+  "id": "0xebfda84c91d3dafde3f49bd132aadc9e762b88023021806e7345cd526fc7e1fa_2025-08-03",
+  "source": "polymarket",
+  "question": "Will no Fed rate cuts happen in 2025?",
+  "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to \u201cYes\u201d if the there no rate cuts by the Fed's December meeting (including the Dec meeting). Otherwise, this market will resolve to \u201cNo.\u201d\n\nThis market may resolve to \"Yes\" immediately after the statement from the Fed's December 2025 meeting has been released if there has been no rate cuts by then.\n\nIf there is a rate cut at any time within 2025, before the statement following the December FOMC meeting is released, this market may immediately resolve to \"No\".\n\nThe resolution source for this market will be FOMC statements after meetings scheduled in 2025 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. The level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-no-fed-rate-cuts-happen-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-17",
+  "market_value": "0.165",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

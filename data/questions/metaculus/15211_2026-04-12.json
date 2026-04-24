@@ -1,0 +1,14 @@
+{
+  "id": "15211_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Russian territory be reduced by at least 1% before 2040?",
+  "resolution_criteria": "This question will resolve as **Yes** if the land area recorded in the UN World Statistics Pocketbook for the Russian Federation or its direct successor state of a different name is less than 16,927,263 square km at any time before January 1, 2040. \n\nThis question will resolve as **No** if the land area recorded in the UN World Statistics Pocketbook for the Russian Federation or its direct successor state of a different name is not less than 16,927,263 square km for every year before January 1, 2040. \n\nThe resolution source is the [UN Statistics Pocketbook](https://unstats.un.org/UNSDWebsite/Publications/StatisticalPocketbook/).\n\nA state will be considered a direct successor state if it occupies the Russian Federation's place in the UN Security council like the Russian Federation took the place of the Soviet Union or if it occupies most of the current territory of the current Russian Federation. Either criteria may be used to qualify a state for maintaining the current territory of the Russian Federation for purposes of this forecast",
+  "background": "According to the UN World Statistics Pocketbook, the [area of the Russian Federation](https://unstats.un.org/unsd/publications/pocketbook/files/world-stats-pocketbook-2022.pdf) is 17,098,246 square km.\nPreceding states, the Russian Empire and the Soviet Union were both considerably larger.\n\nIn February 2023, hedge fund mogul/activist George Soros [predicted that](https://www.reuters.com/world/europe/soros-says-russian-defeat-ukraine-would-trigger-dissolution-russian-empire-2023-02-16/) \"a Ukrainian victory would result in the dissolution of the Russian empire.\"\n\nThere are currently several [ethnic or religion separatist movements active](https://worldcrunch.com/world-affairs/ethnic-separatism-russia) in the region, increasing the risks of conflicts within Russia that may lead to a splintering of the current Russian Federation.",
+  "url": "https://www.metaculus.com/questions/15211",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.333",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "UPS_2025-12-21",
+  "source": "yfinance",
+  "question": "Will UPS's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/UPS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 99.640. (The latest market close price of UPS.)",
+  "background": "United Parcel Service, Inc., a package delivery and logistics provider, offers transportation and delivery services. It operates through two segments, U.S. Domestic Package and International Package. The U.S. Domestic Package segment offers time-definite delivery services for express letters, documents, packages and palletized freight through air and ground services in the United States. The International Package segment provides small package operations in Europe, the Indian sub-continent, the Middle East and Africa, Canada and Latin America, and Asia. The company offers a range of guaranteed day- and time-definite international shipping services; day-definite services; cross-border ground package delivery; contract-only, e-commerce solutions for non-urgent, and cross-border shipments; and international service for urgent and palletized shipments. It also provides international air and ocean freight forwarding, contract logistics, custom brokerage and insurance, mail services, healthcare logistics, distribution, and post-sales services. United Parcel Service, Inc. was founded in 1907 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/UPS",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

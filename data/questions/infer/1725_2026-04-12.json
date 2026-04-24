@@ -1,0 +1,14 @@
+{
+  "id": "1725_2026-04-12",
+  "source": "infer",
+  "question": "Will Delcy Rodr\u00edguez be President of Venezuela on 30 April 2026?",
+  "resolution_criteria": "This question will be resolved using credible international news sources (e.g., Reuters, AP, AFP, BBC, CNN) or official Venezuelan government announcements. This question will be resolved as \u201cYes\u201d if Delcy Rodr\u00edguez holds the title of President or Acting President of Venezuela on 30 April 2026, regardless of whether her tenure is recognized as legitimate by foreign governments. If another individual holds the presidency or acting presidency, if Rodr\u00edguez has been removed from power, or if she has resigned, died, or fled the country, the question resolves \u201cNo\u201d.",
+  "background": "Delcy Rodr\u00edguez was sworn in as acting president of Venezuela on 5 January 2026 after U.S. special forces captured President Nicol\u00e1s Maduro in a nighttime military operation on 3 January 2026 ( Al Jazeera ). Venezuela's Supreme Tribunal of Justice ordered Rodr\u00edguez to assume presidential duties for 90 days, and the military endorsed her as acting leader ( CBS News ). Rodr\u00edguez had served as Maduro's vice president since 2018 and concurrently held roles as minister of finance and petroleum, positions in which she helped stabilize Venezuela's sanctions-affected economy ( NBC News ). Rodr\u00edguez's political future remains uncertain. The Trump administration has signaled it will work with her temporarily, though President Trump warned she would \"pay a very big price\" if she fails to comply with U.S. demands regarding oil access and cooperation ( TIME ). On 8 January 2026, Rodr\u00edguez released nine political prisoners, prompting Trump to cancel a second wave of military strikes, and on 16 January, she met with CIA Director John Ratcliffe to discuss cooperation ( Wikipedia ). However, Venezuela's opposition\u2014including 2025 Nobel Peace Prize winner Mar\u00eda Corina Machado and Edmundo Gonz\u00e1lez Urrutia, who claim victory in the disputed July 2024 election\u2014has not been installed. The Venezuelan constitution requires new elections within a month if the president is absent, though it remains unclear how this provision applies given the unprecedented circumstances.",
+  "url": "https://www.randforecastinginitiative.org/questions/1725",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9803000000000001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The crowd forecast."
+}

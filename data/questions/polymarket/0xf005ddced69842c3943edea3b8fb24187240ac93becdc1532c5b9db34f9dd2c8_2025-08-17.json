@@ -1,0 +1,15 @@
+{
+  "id": "0xf005ddced69842c3943edea3b8fb24187240ac93becdc1532c5b9db34f9dd2c8_2025-08-17",
+  "source": "polymarket",
+  "question": "TikTok sale announced in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if ByteDance announces their intention to sell TikTok by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \u201cNo\u201d.\n\nA public announcement of the intention to sell TikTok will qualify even if a sale has not been finalized. This includes any formal declaration made by ByteDance or its authorized representatives regarding their plans to sell or transfer ownership of TikTok.\n\nThe primary resolution source for this market will be official information from ByteDance. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/tiktok-sale-announced-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-26",
+  "market_value": "0.26",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

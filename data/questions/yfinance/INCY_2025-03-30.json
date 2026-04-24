@@ -1,0 +1,23 @@
+{
+  "id": "INCY_2025-03-30",
+  "source": "yfinance",
+  "question": "Will INCY's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/INCY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 60.340. (The latest market close price of INCY.)",
+  "background": "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI (ruxolitinib) for the treatment of intermediate or high-risk myelofibrosis, polycythemia vera, and steroid-refractory acute graft-versus-host disease; MONJUVI (tafasitamab-cxix)/MINJUVI (tafasitamab) for treating relapsed or refractory diffuse large B-cell lymphoma; PEMAZYRE (pemigatinib), a selective fibroblast growth factor receptor kinase inhibitor for the treatment of unresectable biliary tract cancer, metastatic cholangiocarcinoma, and myeloid/lymphoid neoplasms; ICLUSIG (ponatinib), a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; ZYNYZ (retifanlimab-dlwr) to treat adults with metastatic or recurrent locally advanced Merkel cell carcinoma; and NIKTIMVO (axatilimab-csfr) for treating chronic graft-versus-host disease, as well as OPZELURA (ruxolitinib) cream for treating atopic dermatitis. Its clinical stage products include INCB123667 (CDK2) for ovarian cancer; INCB161734 (KRASG12D) for cancers; INCA33890 (TGF\u00dfR2xPD-1) for solid tumors; Ruxolitinib cream for mild to moderate hidradenitis suppurativa (HS); Povorcitinib for HS, nonsegmental vitiligo, prurigo nodularis, and asthma and chronic spontaneous urticaria; INCB000262 (MRGPRX2) and INCB000547 (MRGPRX4) for systemic immune and neuro-immune disorders; INCA034460 (anti-CD122) for vitiligo; and Zilurgisertib (ALK2) for fibrodysplasia ossificans progressive. It has collaboration with Genesis Therapeutics, Inc. The company sells its products to specialty and retail pharmacies, hospital pharmacies, and specialty distributors and wholesalers. The company was formerly known as Incyte Genomics Inc and changed its name to Incyte Corporation in March 2003. Incyte Corporation was incorporated in 1991 and is headquartered in Wilmington, Delaware.",
+  "url": "https://finance.yahoo.com/quote/INCY",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

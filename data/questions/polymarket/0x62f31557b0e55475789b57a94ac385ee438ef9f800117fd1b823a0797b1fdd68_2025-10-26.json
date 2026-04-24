@@ -1,0 +1,14 @@
+{
+  "id": "0x62f31557b0e55475789b57a94ac385ee438ef9f800117fd1b823a0797b1fdd68_2025-10-26",
+  "source": "polymarket",
+  "question": "Will the U.S. invade Venezuela in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States commences a military offensive intended to establish control over any portion of Venezuela between September 6 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by Venezuela or the United States as of September 6, 2025, 12:00 PM ET, will be considered the sovereign territory of that country.\n\nThe resolution source for this market will be a consensus of credible sources.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-invade-venezuela-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.105",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xbd20296a99221f2e4426779353376c6f9f877dff7a8bbdc2bd91d52f3030f113_2026-03-01",
+  "source": "polymarket",
+  "question": "Will Alabama win the 2026 NCAA Tournament?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2026 NCAA Men\u2019s Basketball Tournament.\n\nIf it is impossible for a team to win the 2026 NCAA Men\u2019s Basketball Tournament according to the rules of the competition (i.e. they are eliminated) , the corresponding market will immediately resolve to \u201cNo\u201d.\n\nIf for any reason no winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be information from the NCAA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-alabama-win-the-2026-ncaa-tournament",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-28",
+  "market_value": "0.011",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

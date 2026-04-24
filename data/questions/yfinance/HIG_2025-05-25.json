@@ -1,0 +1,21 @@
+{
+  "id": "HIG_2025-05-25",
+  "source": "yfinance",
+  "question": "Will HIG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HIG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 125.710. (The latest market close price of HIG.)",
+  "background": "The Hartford Insurance Group, Inc., together with its subsidiaries, provides insurance and financial services to individual and business customers in the United States, the United Kingdom, and internationally. Its Business Insurance segment offers insurance coverages, including workers' compensation, property, automobile, general and professional liability, package business, umbrella, fidelity and surety, marine, livestock, accident, health, and reinsurance through regional offices, branches, sales and policyholder service centers, independent retail agents and brokers, wholesale agents, and reinsurance brokers. The company's Personal Insurance segment provides automobile, homeowners, and personal umbrella coverages through direct-to-consumer channels and independent agents. Its Property & Casualty Other Operations segment offers coverage for asbestos and environmental exposures. The company's Employee Benefits segment provides group life, disability, and other group coverages to members of employer groups, associations, and affinity groups through direct insurance policies; reinsurance to other insurance companies; employer paid and voluntary product coverages; disability underwriting, administration, and claims processing to self-funded employer plans; and leave management solution. This segment also distributes its group insurance products and services through brokers, consultants, third-party administrators, trade associations, and private exchanges. Its Hartford Funds segment offers managed mutual funds across various asset classes; and exchange-traded funds through broker-dealer organizations, independent financial advisers, defined contribution plans, financial consultants, bank trust groups, and registered investment advisers, as well as investment management, distribution, and administrative services, such as product design, implementation, and oversight. The Hartford Insurance Group, Inc. was founded in 1810 and is headquartered in Hartford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/HIG",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

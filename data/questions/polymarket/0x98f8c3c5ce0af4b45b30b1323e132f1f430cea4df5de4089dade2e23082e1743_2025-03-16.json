@@ -1,0 +1,15 @@
+{
+  "id": "0x98f8c3c5ce0af4b45b30b1323e132f1f430cea4df5de4089dade2e23082e1743_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Ukraine join NATO before July?",
+  "resolution_criteria": "If Ukraine has officially joined NATO as a full member state at any point by June 30, 2025, 11:59 PM ET this market will resolve to \u201cYes\u201d. Otherwise, this market will resolve to \"No.\"\n\nThe primary settlement source for this market will be the official NATO website (https://www.nato.int/cps/en/natohq/nato_countries.htm), however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ukraine-join-nato-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.031",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

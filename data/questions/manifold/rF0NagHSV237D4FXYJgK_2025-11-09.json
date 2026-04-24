@@ -1,0 +1,14 @@
+{
+  "id": "rF0NagHSV237D4FXYJgK_2025-11-09",
+  "source": "manifold",
+  "question": "Will there be a blockbuster movie in the US before the end of 2025 that is acknowledged as written by AI",
+  "resolution_criteria": "Given the current writers strike and their concerns about AI content, will a \"blockbuster\" US movie be acknowledged as written by or significantly assisted an AI be released before the end of 2025?\n\nDefining a \"blockbuster\" as a movie who's production costs are at least 100M USD.\n\nDefining \"written by or significantly assisted an AI\" as a news article that describes how they used some sort of AI to write or help write a significant portion of the script.\n\nThe movie must open in theaters before December 31st 2025.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/RyanGuill/will-there-be-a-blockbuster-movie-i",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.067864584881419",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market value."
+}

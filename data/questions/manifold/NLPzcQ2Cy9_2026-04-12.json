@@ -1,0 +1,14 @@
+{
+  "id": "NLPzcQ2Cy9_2026-04-12",
+  "source": "manifold",
+  "question": "Will the US strike Yemen by April 30, 2026?",
+  "resolution_criteria": "Resolution criteria\n\nThis market resolves YES if the United States conducts any military strike (air, naval, or missile) on targets in Yemen by April 30, 2026. Resolution is based on official statements from the U.S. Department of Defense, U.S. Central Command (CENTCOM), or credible reporting from major news outlets (Reuters, AP, BBC, etc.). The strike must be publicly acknowledged or confirmed by at least one of these sources.\n\nBackground\n\nBetween January 2024 and May 2025, the United States and United Kingdom, with support from Australia, Bahrain, Canada, Denmark, the Netherlands, and New Zealand, launched a series of cruise missile and airstrikes against the Houthi movement in Yemen in response to Houthi attacks on ships in the Red Sea. Airstrikes resumed between March 15 and May 6, 2025, under the codename Operation Rough Rider, with over 1,000 airstrikes conducted by the end of April. On May 6, Trump declared the strikes to be over as a result of a ceasefire reached between the United States and the Houthis, brokered by Oman. The Houthis resumed attacks on commercial shipping in July 2025.\n\nI will not bet on this market, to remain objective in edge cases.",
+  "background": "",
+  "url": "https://manifold.markets/bens/will-the-us-strike-yemen-by-april-3",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.630197027029151",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

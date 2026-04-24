@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_3d219dba",
+  "source": "aibq2",
+  "question": "Will President Trump issue a new presidential action mentioning the Diversity Visa before July 1, 2025?",
+  "background": "[Federal judge\u2019s order leaves many visa lottery winners out of luck](https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/) | The American Conservative: [Trump Should Cancel the Diversity Visa Program](https://www.theamericanconservative.com/trump-should-cancel-the-diversity-visa-program/) | Mint: [US Green Card Diversity Visa 2026 Lottery results released: What you need to know](https://www.livemint.com/news/us-news/us-green-card-diversity-visa-2026-lottery-results-released-what-you-need-to-know-11746381683106.html)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, President Donald J. Trump issues a [presidential action](https://www.whitehouse.gov/presidential-actions/) mentioning the \"Diversity Visa\" (using exactly those words). If this does not occur before that date, this resolves as **No**.\n\nFine print:\nTo count, the presidential action must be published and publicly accessible (appearing on the presidential actions section of the White House website) before the specified time. A verbal statement or other written announcement besides a presidential action (for example a post on social media), is not sufficient.",
+  "url": "https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/",
+  "forecast_due_date": "2025-05-20",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

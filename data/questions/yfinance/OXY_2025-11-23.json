@@ -1,0 +1,19 @@
+{
+  "id": "OXY_2025-11-23",
+  "source": "yfinance",
+  "question": "Will OXY's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/OXY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 41.930. (The latest market close price of OXY.)",
+  "background": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through three segments: Oil and Gas, Chemical, and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. The Chemical segment manufactures and markets basic chemicals, including chlorine, caustic soda, chlorinated organics, potassium chemicals, ethylene dichloride, chlorinated isocyanurates, sodium silicates, and calcium chloride; and vinyls comprising vinyl chloride monomer, polyvinyl chloride, and ethylene. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. This segment invests in entities. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/OXY",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0
+  ]
+}

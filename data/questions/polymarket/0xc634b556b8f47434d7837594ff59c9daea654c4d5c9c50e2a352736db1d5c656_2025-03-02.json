@@ -1,0 +1,15 @@
+{
+  "id": "0xc634b556b8f47434d7837594ff59c9daea654c4d5c9c50e2a352736db1d5c656_2025-03-02",
+  "source": "polymarket",
+  "question": "Bird flu pandemic before August 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the World Health Organization (WHO) declares H5N1 (bird flu) a pandemic by July 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information form the WHO, however, a consensus of credible reporting may also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/bird-flu-pandemic-before-august-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-31",
+  "market_value": "0.1",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

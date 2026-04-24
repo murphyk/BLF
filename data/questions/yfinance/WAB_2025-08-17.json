@@ -1,0 +1,21 @@
+{
+  "id": "WAB_2025-08-17",
+  "source": "yfinance",
+  "question": "Will WAB's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WAB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 188.350. (The latest market close price of WAB.)",
+  "background": "Westinghouse Air Brake Technologies Corporation provides technology-based locomotives, equipment, systems, and services for the freight rail and passenger transit industries worldwide. It offers diesel-electric and liquid natural gas-powered locomotives; engines, electric motors, and propulsion systems; and marine and mining products. The company also offers positive train control equipment; electronically controlled pneumatic braking products; railway electronics; signal design and engineering services; distributed locomotive power, train cruise controls, and train remote controls; industrial/mobile Internet of Things hardware and software, edge-to-cloud, on and off-board analytics and rules, and asset performance management solutions; rail and shipper transportation management, and port visibility and optimization solutions; and network optimization solutions. It provides freight car trucks, braking equipment, and related components; air compressors and dryers, as well as heating, ventilation, and air conditioning (HVAC) systems; heat transfer components and systems; custom engineered burners and combustion systems; rail gear, signaling, and switch products; and turbochargers. The company also offers various services, such as freight locomotive overhauls, modernizations, and refurbishment; locomotive and car maintenance; transit locomotive and car overhaul; unit exchange of locomotive components; long term parts arrangements; and maintenance of way equipment and services. It provides railway and freight braking equipment and related components; brake shoes, discs, and pads; HVAC equipment; access and platform screen doors; pantographs; auxiliary power converters and battery chargers; passenger information systems and closed-circuit television; signaling and railway electric relays; and doors, window assemblies, accessibility lifts, ramps, and electric charging solutions for buses. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/WAB",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

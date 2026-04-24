@@ -1,0 +1,23 @@
+{
+  "id": "ERIE_2025-03-30",
+  "source": "yfinance",
+  "question": "Will ERIE's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ERIE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 414.270. (The latest market close price of ERIE.)",
+  "background": "Erie Indemnity Company operates as a managing attorney-in-fact for the subscribers at the Erie Insurance Exchange in the United States. It provides issuance and renewal services; sales related services, including agent compensation, and sales and advertising support services; underwriting services comprise underwriting and policy processing; and other services consist of customer services and administrative support services, as well as information technology services. The company was incorporated in 1925 and is based in Erie, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/ERIE",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

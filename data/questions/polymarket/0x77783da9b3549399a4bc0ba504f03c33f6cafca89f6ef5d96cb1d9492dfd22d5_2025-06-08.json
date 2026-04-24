@@ -1,0 +1,15 @@
+{
+  "id": "0x77783da9b3549399a4bc0ba504f03c33f6cafca89f6ef5d96cb1d9492dfd22d5_2025-06-08",
+  "source": "polymarket",
+  "question": "US forces in Yemen in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if active regular US military personnel physically enter Yemen at any point between March 17, 2025, and December 31, 2025, 11:59 PM ET.\n\nUS military personnel must physically enter the terrestrial territory of Yemen to qualify. Entering Yemen's maritime or aerial territory will not count. \n\nHigh ranking US service members entering Yemen for diplomatic purposes (and their accompanying entourage), military contractors, military advisors, and special operation forces will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-forces-in-yemen-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.085",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

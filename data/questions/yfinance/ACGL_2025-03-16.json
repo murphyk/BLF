@@ -1,0 +1,23 @@
+{
+  "id": "ACGL_2025-03-16",
+  "source": "yfinance",
+  "question": "Will ACGL's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ACGL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 91.350. (The latest market close price of ACGL.)",
+  "background": "Arch Capital Group Ltd., together with its subsidiaries, provides insurance, reinsurance, and mortgage insurance products in the United States, Canada, Bermuda, the United Kingdom, Europe, and Australia. The Insurance segment offers commercial automobile; commercial multiperil; financial and professional line liability; admitted, excess, and surplus casualty lines; property and short-tail specialty; workers compensation; casualty; marine and aviation; excess and surplus casualty; construction and national accounts; alternative market risks and employer's liability; travel, accident, and health; contract and commercial surety coverage; and other insurance products, as well as Lloyd's syndicates; programs; and warranty and lenders solutions. Its Reinsurance segment provides reinsurance products for casualty; marine and aviation; property catastrophe; property excluding property catastrophe; and other specialty products. The Mortgage segment offers U.S. primary mortgage insurance business written predominantly on loans sold to the Federal National Mortgage Association and Federal Home Loan Mortgage Corporation; reinsurance and underwriting services related to the U.S. credit-risk transfer business and other U.S. mortgage reinsurance transactions; and international mortgage insurance and reinsurance business covering loans. It markets its products through a group of licensed independent retail and wholesale brokers. The company was formerly known as Risk Capital Holdings, Inc. Arch Capital Group Ltd. was founded in 1995 and is headquartered in Pembroke, Bermuda.",
+  "url": "https://finance.yahoo.com/quote/ACGL",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

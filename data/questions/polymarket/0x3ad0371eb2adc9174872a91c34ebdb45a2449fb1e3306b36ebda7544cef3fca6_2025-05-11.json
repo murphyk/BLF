@@ -1,0 +1,15 @@
+{
+  "id": "0x3ad0371eb2adc9174872a91c34ebdb45a2449fb1e3306b36ebda7544cef3fca6_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Han Dong-hoon be elected the next president of South Korea?",
+  "resolution_criteria": "South Korean presidential elections will occur on or before June 3, 2025 following the impeachment of Yoon Suk Yeol.\n\nThis market will resolve according to the next elected president of South Korea following this election.\n\nAny interim/acting President will not count toward the resolution of this market.\n\nIf no next President of South Korea is elected by February 28, 2026, 11:59 PM ET this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Government of South Korea, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-han-dong-hoon-be-elected-the-next-president-of-south-korea",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-03",
+  "market_value": "0.0375",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

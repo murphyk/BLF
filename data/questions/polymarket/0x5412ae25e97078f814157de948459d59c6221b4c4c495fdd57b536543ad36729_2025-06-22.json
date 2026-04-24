@@ -1,0 +1,15 @@
+{
+  "id": "0x5412ae25e97078f814157de948459d59c6221b4c4c495fdd57b536543ad36729_2025-06-22",
+  "source": "polymarket",
+  "question": "Russia x Ukraine ceasefire before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine by June 30, 2025, 11:59 PM ET.\n\nIf the agreement is officially reached before the resolution date, this market will resolve to \"Yes,\" regardless of whether the ceasefire officially starts afterward.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nThis market's resolution will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/russia-x-ukraine-ceasefire-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.025",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

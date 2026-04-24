@@ -1,0 +1,15 @@
+{
+  "id": "0xce0f82dc8bb789ffd3bc2928db80bbc539fa04dd223d6e15e2d81eabf8e279fe_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Aston Villa win the UEFA Champions League?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Aston Villa wins the 2024-25 UEFA Champions League. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for this team to win the 2024-2025 UEFA Champions League based on the rules of the tournament (e.g. they are eliminated), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-aston-villa-win-the-uefa-champions-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-16",
+  "market_value": "0.0235",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

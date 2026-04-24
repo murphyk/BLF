@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0031",
+  "source": "aibq2",
+  "question": "Will Nigeria enact legislation exempting real estate transactions from VAT before July 1, 2025?",
+  "title_hash": "d8926d819f042f40",
+  "background": "[FG: Tax reform bill to exempt real estate transactions from VAT, boost housing affordability in Nigeria](https://nairametrics.com/2025/04/25/fg-tax-reform-bill-to-exempt-real-estate-transactions-from-vat-boost-housing-affordability-in-nigeria/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the government of Nigeria enacts legislation exempting real estate transactions from the Value Added Tax (VAT) according to [credible sources](https://www.metaculus.com/help/faq/#definitions).\n\nFine print:\nFor example, the current iteration of the Tax Reforms Bill that is [being considered](https://brtnews.ng/tax-reforms-bill-to-exempt-real-estate-transactions-from-vat/) by the National Assembly, if it should be enacted, would count for purposes of this question.",
+  "url": "https://nairametrics.com/2025/04/25/fg-tax-reform-bill-to-exempt-real-estate-transactions-from-vat-boost-housing-affordability-in-nigeria/",
+  "forecast_due_date": "2025-05-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ALL_2025-04-13",
+  "source": "yfinance",
+  "question": "Will ALL's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ALL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 205.430. (The latest market close price of ALL.)",
+  "background": "The Allstate Corporation, together with its subsidiaries, provides property and casualty, and other insurance products in the United States and Canada. It operates in five segments: Allstate Protection; Run-off Property-Liability; Protection Services; Allstate Health and Benefits; and Corporate and Other. The company offers private passenger auto, homeowners, personal lines, and commercial insurance products through agents, contact centers, and online; and property and casualty insurance products. It also provides consumer product protection plans, device and mobile data collection services, and analytic solutions using automotive telematics information, roadside assistance, and protection plans; and insurance products, such as identity protection and restoration through Allstate Protection Plans, Allstate Dealer Services, Allstate Roadside, Arity, and Allstate Identity Protection brands. In addition, the company offers life, accident, critical illness, hospital indemnity, short-term disability, and other health insurance products; self-funded stop-loss and fully insured group health products to employers; medicare supplement, ancillary products, and short-term medical insurance to individuals through independent agents, owned agencies, benefits brokers, and Allstate exclusive agents. Further, it offers automotive protection; vehicle service contracts, guaranteed asset protection, road hazard tires and wheels, and paintless dent repair protection; and roadside assistance, mobility data collection services, and analytic solutions using automotive telematics information, identity theft protection, and remediation services. The Allstate Corporation was founded in 1931 and is headquartered in Northbrook, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ALL",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

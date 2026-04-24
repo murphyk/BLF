@@ -1,0 +1,14 @@
+{
+  "id": "0x62b0cd598091a179147acbd4616400f804acfdff6f76f029944b481b37cbd45f_2025-12-21",
+  "source": "polymarket",
+  "question": "US x Venezuela military engagement by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military engagement between the military forces of the United States of America and Venezuela between August 21, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military engagement\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between US and Venezuelan military forces. Non-violent actions, such as warning shots or missile launches that land in territorial waters or pass through airspace, will not qualify for a \"Yes\" resolution. Intentional ship ramming that results in significant damage to (e.g., a hole in the hull) or the sinking of a military ship by another will count toward a \"Yes\" resolution; however, minor damage (scrapes, dents) will not. \n\nAny U.S. military kinetic strike that impacts Venezuelan land territory will qualify for a \u201cYes\u201d resolution.\n\nMissiles or drone strikes which are intercepted will not qualify regardless of whether they land on adversarial territory or cause damage. Similarly, surface-to-air missile strikes impacting adversarial territory will not qualify for a \"Yes\" resolution (although surface to air missiles fired at an adversarial military aircraft would qualify).\n\nNote: the U.S. Coast Guard is a branch of the U.S. Armed Forces; Venezuela\u2019s Milicia Nacional Bolivariana (militia) is a \u201cspecial component\u201d of the Venezuelan National Bolivarian Armed Forces (FANB); and Venezuela\u2019s Coast Guard (Comando de Guardacostas) is a component of the Venezuelan Navy (Armada Bolivariana) and thus part of the FANB.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-x-venezuela-military-engagement-by-december-31-391-819-722-945-174-285-817-971-353-859-836-598-255-382-192",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.265",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

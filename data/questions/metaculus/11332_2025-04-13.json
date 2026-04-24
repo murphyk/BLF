@@ -1,0 +1,15 @@
+{
+  "id": "11332_2025-04-13",
+  "source": "metaculus",
+  "question": "Will the Coalition win the next Australian federal election?",
+  "resolution_criteria": "This question resolves positively if, following the next Australian federal election, the governor-general of Australia swears in a prime minister supplied by the Liberal/National Coalition or by the Liberal Party.\n\nIt resolves negatively if the governor-general swears in a prime minister supplied by another party or coalition\n\nIf no party is able to form a stable government following the next election, the question will resolve according to the results of the first election where a party is able to form a stable government.\n\nIf the political structure of Australia is changed such that the head of government is no longer nominated by parties in a democratically elected house of the legislature, this question will resolve ambiguously.\n\nThis question will close when voting closes for the eastern states (NSW, Victoria, Queensland) on election day",
+  "background": "Australia is a parliamentary monarchy, with a bicameral legislature elected to maximum three-year and six-year terms for the lower and upper house, respectively. In May 2022, Australia held a general election to elect the 47th Parliament of Australia. The next general election (for the 48th Parliament) will occur within the next three years. \n\nFrom Wikipedia:\n\n> The next Australian federal election will be held some time in or before 2025 to elect members of the 48th Parliament of Australia. All 151 seats in the House of Representatives and likely 40 of the 76 seats in the Senate will be contested. It is expected that at this election, the Labor government of Prime Minister Anthony Albanese will be seeking re-election to a second term in office, opposed by the Liberal/National Coalition under Leader of the Opposition Peter Dutton.\n\nQuestion mostly copied from the [2022 general election question](https://www.metaculus.com/questions/7295/coalition-to-win-australian-federal-election/) by @chrisjbillington.",
+  "url": "https://www.metaculus.com/questions/11332",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-03",
+  "market_value": "0.47000000000000003",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The community prediction."
+}

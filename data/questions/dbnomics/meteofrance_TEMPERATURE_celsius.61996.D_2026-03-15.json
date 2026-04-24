@@ -1,0 +1,15 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.61996.D_2026-03-15",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Amsterdam Island will be higher on 2026-03-22 than on 2026-03-15?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D once the data is published.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 17.975. (The daily average temperature at the French weather station at Amsterdam Island.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - NOUVELLE AMSTERDAM - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

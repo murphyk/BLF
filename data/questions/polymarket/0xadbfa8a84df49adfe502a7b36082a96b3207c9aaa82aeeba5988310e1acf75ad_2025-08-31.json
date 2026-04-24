@@ -1,0 +1,15 @@
+{
+  "id": "0xadbfa8a84df49adfe502a7b36082a96b3207c9aaa82aeeba5988310e1acf75ad_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Xi Jinping be TIME's Person of the Year for 2025?",
+  "resolution_criteria": "If listed person/thing is named as TIME's Person of the Year for 2025, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nThis market will resolve to \"Yes\" if listed person is named TIME's Person of the Year either alone or in conjunction with any other person or thing which is not named in this market, so long as the term is explicitly named. \n\nFor example, if the Person of the Year is \"Donald Trump and the MAGA movement\", this would qualify to resolve this market to \u201cTrump\u201d. However if the Person of the Year is \"The MAGA movement\", this would not qualify to resolve this market to \u201cTrump\u201d regardless of whether Trump is depicted on the cover. \n\nIf two or more people or things which are named in this market are named TIME's Person of the Year, this market will resolve in favor of whichever person or thing is listed first. For example if TIME's Person of the Year is \u201cJoe Biden and Kamala Harris\u201d, the market for Joe Biden would resolve to \u201cYes\u201d and the market for Kamala Harris would resolve to \u201cNo\u201d. \n\nThis market will resolve based on Time's cover. Other Time webpages which differ from the cover will not be considered.\n\nThis market can resolve after the 2025 TIME's Person of the Year is announced by TIME magazine. If for any reason the 2025 TIME's Person of the Year is not announced by January 31, 2026 11:59 PM ET, this market will resolve to \"No\".\n\nNote: this event is mutually exclusive.\n\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-xi-jinping-be-times-person-of-the-year-for-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-11",
+  "market_value": "0.025",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

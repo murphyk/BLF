@@ -1,0 +1,21 @@
+{
+  "id": "ALGN_2025-08-31",
+  "source": "yfinance",
+  "question": "Will ALGN's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ALGN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 143.580. (The latest market close price of ALGN.)",
+  "background": "Align Technology, Inc. designs, manufactures, and markets Invisalign clear aligners, Vivera retainers, and iTero intraoral scanners and services in the United States, Switzerland, and internationally. The Clear Aligner segment offers comprehensive products, including Invisalign comprehensive package to treat adults and teens from mild to severe malocclusion and features, and orthodontic needs of teenage or younger patients; and Invisalign First Phase I and Invisalign First Comprehensive Phase 2 package for younger patients generally between the ages of six and ten years with a mixture of primary/baby and permanent teeth. This segment also provides Invisalign express, Invisalign lite, and Invisalign moderate; as well as Invisalign Go, Invisalign Go express, and Invisalign Go Plus; retention products, Invisalign training, adjusting tools used by dental professionals during treatment, ancillary Invisalign accessory products, and other oral health products; Invisalign Professional Whitening system; Invisalign Palatal Expander, a 3D printed orthodontic device; and 3D printing solutions. The Imaging Systems and CAD/CAM Services segment offers iTero intraoral scanning system, a single hardware platform for restorative or orthodontic procedures; exocad, a computer-aided design and computer-aided manufacturing (CAD/CAM) software; orthodontist software for digital records storage, orthodontic diagnosis, and fabrication of printed models and retainers; and restorative software for general practitioner dentists, prosthodontists, periodontists, and oral surgeons. This segment also provides Invisalign outcome simulator, a chair-side and cloud-based application for the iTero scanner; Invisalign progress assessment tool; Align Oral Health Suite, a digital interface for dental consultations; iTero TimeLapse technology for doctors or practitioners to compare a patient's historic 3D scans to the present-day scan; and subscription software, disposables, rents scanners, and pay per scan services. The company was incorporated in 1997 and is headquartered in Tempe, Arizona.",
+  "url": "https://finance.yahoo.com/quote/ALGN",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

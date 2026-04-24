@@ -1,0 +1,15 @@
+{
+  "id": "hPU6PpN0Zg_2025-04-13",
+  "source": "manifold",
+  "question": "Will the Philadelphia Eagles win Super Bowl LX?",
+  "resolution_criteria": "Resolves upon the completion of Super Bowl LX (60) or when the team is eliminated from Super Bowl contention, whichever comes first.",
+  "background": "",
+  "url": "https://manifold.markets/10thOfficial/will-the-philadelphia-eagles-win-su",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-12",
+  "market_value": "0.17680733948250701",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market value."
+}

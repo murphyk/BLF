@@ -1,0 +1,21 @@
+{
+  "id": "GL_2025-08-31",
+  "source": "yfinance",
+  "question": "Will GL's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 139.100. (The latest market close price of GL.)",
+  "background": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products, and annuities to lower middle- and middle-income families in the United States. The company operates through three segments: Life Insurance, Supplemental Health Insurance, and Investments. It offers whole, term, and other life insurance products; and Medicare supplement and limited-benefit supplemental health insurance products, such as accident, cancer, critical illness, heart, intensive care, and other health products. The company sells its products through its direct-to-consumer division, exclusive agencies, and independent agents. The company was formerly known as Torchmark Corporation and changed its name to Globe Life Inc. in August 2019. Globe Life Inc. was founded in 1900 and is headquartered in McKinney, Texas.",
+  "url": "https://finance.yahoo.com/quote/GL",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

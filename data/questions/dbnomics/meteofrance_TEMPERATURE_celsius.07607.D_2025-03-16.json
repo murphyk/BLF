@@ -1,0 +1,23 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07607.D_2025-03-16",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Mont-de-Marsan will be higher on each resolution date listed below than on 2025-03-16?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07607.D once the data is published.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 10.700. (The daily average temperature at the French weather station at Mont-de-Marsan.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - MONT-DE-MARSAN - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07607.D.",
+  "url": "https://db.nomics.world/meteofrance_TEMPERATURE_celsius.07607.D",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

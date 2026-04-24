@@ -1,0 +1,14 @@
+{
+  "id": "0x552c0807e8b239ef4e7ecb9d9e192519ba283acb731c5bd89b6b1cda658a2f8c_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Tencent have the top AI model on December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any model owned by Company E has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on December 31, 2025, 12:00 PM ET. Otherwise, this market will resolve to \"No\".\n\nThis market may be updated in the future to replace Company E with the name of another company.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tencent-have-the-top-ai-model-on-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0005",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

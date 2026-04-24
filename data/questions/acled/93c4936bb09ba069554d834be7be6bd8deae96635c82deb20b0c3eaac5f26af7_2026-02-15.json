@@ -1,0 +1,17 @@
+{
+  "id": "93c4936bb09ba069554d834be7be6bd8deae96635c82deb20b0c3eaac5f26af7_2026-02-15",
+  "source": "acled",
+  "question": "Will there be more 'Explosions/Remote violence' in Burundi for the 30 days before each resolution date listed below compared to the 30-day average of 'Explosions/Remote violence' over the 360 days preceding 2026-02-15?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Explosions/Remote violence'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Explosions/Remote violence' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Explosions/Remote violence' would need to occur in the 30 days leading up to the resolution.",
+  "resolution_criteria": "Resolves to the value calculated from the ACLED dataset once the data is published.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 0.333. (The 30-day average of 'Explosions/Remote violence' over the past 360 days in Burundi. This reference value will potentially change as ACLED updates its dataset.)",
+  "background": "\nACLED classifies events into six distinct categories:\n\n1. Battles: violent interactions between two organized armed groups at a particular time and\n   location;\n2. Protests: in-person public demonstrations of three or more participants in which the participants\n   do not engage in violence, though violence may be used against them;\n3. Riots: violent events where demonstrators or mobs of three or more engage in violent or\n   destructive acts, including but not limited to physical fights, rock throwing, property\n   destruction, etc.;\n4. Explosions/Remote violence: incidents in which one side uses weapon types that, by their nature,\n   are at range and widely destructive;\n5. Violence against civilians: violent events where an organized armed group inflicts violence upon\n   unarmed non-combatants; and\n6. Strategic developments: contextually important information regarding incidents and activities of\n   groups that are not recorded as any of the other event types, yet may trigger future events or\n   contribute to political dynamics within and across states.\n\nDetailed information about the categories can be found at:\nhttps://acleddata.com/knowledge-base/codebook/#acled-events\n",
+  "url": "https://acleddata.com/",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

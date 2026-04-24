@@ -1,0 +1,21 @@
+{
+  "id": "ICSA_2025-08-31",
+  "source": "fred",
+  "question": "Will the weekly number of initial unemployment claims have increased by each resolution date listed below as compared to its value on 2025-08-31?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/ICSA once the data is published.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 235000.000. (The latest value released in Initial Claims from the release Unemployment Insurance Weekly Claims Report.)",
+  "background": "The notes from the release: N/A.  The notes from the series: An initial claim is a claim filed by an unemployed individual after a separation from an employer. The claim requests a determination of basic eligibility for the Unemployment Insurance program..  Additional background of the series:  1. the units of the series: Number.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Saturday ",
+  "url": "https://fred.stlouisfed.org/series/ICSA",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

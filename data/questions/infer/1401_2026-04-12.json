@@ -1,0 +1,14 @@
+{
+  "id": "1401_2026-04-12",
+  "source": "infer",
+  "question": "Will Huawei sell or announce plans to sell Open RAN equipment before 1 January 2027?",
+  "resolution_criteria": "This question will be resolved as \u201cYes\u201d if Huawei sells or announces a commercial Open RAN equipment offering before 1 January 2027. Announcements about research plans or trials of Open RAN equipment will not count.",
+  "background": "Open RAN is an effort to push the mobile network industry away from vendor lock-in and towards interoperability, i.e., to allow mobile networks to use equipment from multiple companies instead of having to buy a completely proprietary solution from only one vendor ( Network World , Juniper Networks ). Huawei, the world\u2019s leading 5G equipment manufacturer, has expressed skepticism towards Open RAN efforts in the past ( Light Reading , Strand Consult ). In February 2024, Huawei dismissed speculation that plans to support Open RAN were forthcoming ( Telecom TV ).&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1401",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.0187",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The crowd forecast."
+}

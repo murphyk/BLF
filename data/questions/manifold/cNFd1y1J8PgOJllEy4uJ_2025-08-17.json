@@ -1,0 +1,15 @@
+{
+  "id": "cNFd1y1J8PgOJllEy4uJ_2025-08-17",
+  "source": "manifold",
+  "question": "Will Magnus Carlsen drop below 2800 Elo at any point before 2026?",
+  "resolution_criteria": "Rating graph:\n\n[image]Current live ratings: https://2700chess.com\n\nHe is currently at 2822. He was never below 2800 for 10+ years. \n\nOnly classical FIDE live rating is taken into account.",
+  "background": "",
+  "url": "https://manifold.markets/Weezing/will-magnus-carlsen-drop-below-2800",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.060138864107602004",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

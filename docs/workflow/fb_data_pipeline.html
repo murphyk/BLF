@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fb_make_data.py Pipeline Summary</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #1a1a1a;
+    line-height: 1.6;
+    background: #fff;
+  }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 8px; margin-top: 0; }
+  h2 { font-size: 1.25em; color: #333; margin-top: 32px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  h3 { font-size: 1.05em; color: #555; margin-top: 20px; }
+  p, li { font-size: 0.95em; }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  code {
+    font-family: "SF Mono", "Menlo", "Consolas", monospace;
+    font-size: 0.88em;
+    background: #f0f0f0;
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px 0;
+    font-size: 0.9em;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid #d0d0d0;
+  }
+  th {
+    background: #f5f5f5;
+    font-weight: 600;
+  }
+  tr:nth-child(even) td { background: #fafafa; }
+  .dropped { color: #c0392b; font-weight: 600; }
+  .renamed { color: #2874a6; font-weight: 600; }
+  .replaced { color: #7d3c98; font-weight: 600; }
+  .kept { color: #27ae60; }
+  .note { font-size: 0.85em; color: #666; margin-top: -8px; }
+  .legend {
+    display: flex; gap: 20px; font-size: 0.85em; margin: 8px 0 16px 0;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 4px; }
+  .legend .dot {
+    width: 10px; height: 10px; border-radius: 2px; display: inline-block;
+  }
+</style>
+</head>
+<body>
+
+<h1>Pipeline: question_sets + resolution_sets &rarr; output JSON</h1>
+<p class="note">Generated from <code>fb_make_data.py</code> and <code>data_tools.py</code> in forecast-bench-v5.</p>
+
+<h2>1. Loading &amp; joining</h2>
+<ul>
+  <li>Download question sets and resolution sets from GitHub (cached locally).</li>
+  <li>Join resolutions onto questions. For dataset questions, resolutions are looked up across <em>all</em> loaded date files (global lookup), not just the matching date.</li>
+  <li>Drop combination questions (where <code>id</code> is a list) for dates before a cutoff.</li>
+  <li>Drop unresolved questions by default (only questions with at least one resolution survive).</li>
+</ul>
+
+<h2>2. Deduplication &amp; merging</h2>
+<ul>
+  <li><strong>Market questions</strong> appearing in multiple date files: deduped by <code>(id, source)</code>, first occurrence kept.</li>
+  <li><strong>Dataset questions</strong>: deduped by <code>(id, source, forecast_due_date)</code>; duplicates have their <code>resolution_dates</code>/<code>resolved_to</code> lists merged.</li>
+  <li>Unresolved resolution dates (null values) stripped from dataset question lists.</li>
+</ul>
+
+<h2>3. Sampling (optional, via CLI flags)</h2>
+<ul>
+  <li>Round-robin by source, with optional market/dataset quotas and train/test splitting.</li>
+</ul>
+
+<h2>4. Dataset question preprocessing</h2>
+<p>Sources: <code>yfinance</code>, <code>fred</code>, <code>dbnomics</code>, <code>acled</code>, <code>wikipedia</code></p>
+
+<div class="legend">
+  <span><span class="dot" style="background:#27ae60"></span> Kept</span>
+  <span><span class="dot" style="background:#7d3c98"></span> Replaced</span>
+  <span><span class="dot" style="background:#c0392b"></span> Dropped</span>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Field</th><th>Change</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>id</code></td>
+      <td><span class="replaced">Replaced</span> &mdash; rewritten to <code>{id}_{forecast_due_date}</code></td>
+    </tr>
+    <tr>
+      <td><code>question</code></td>
+      <td><span class="replaced">Replaced</span> &mdash; <code>{forecast_due_date}</code> and <code>{resolution_date}</code> template placeholders substituted with actual values</td>
+    </tr>
+    <tr>
+      <td><code>resolution_criteria</code></td>
+      <td><span class="replaced">Replaced</span> &mdash; rebuilt from scratch: reference/freeze value only. Original content (which contained leaky data-source URLs) is discarded. Resolution dates are not included here; they are kept in the <code>resolution_dates</code> field and added to the prompt separately</td>
+    </tr>
+    <tr>
+      <td><code>background</code></td>
+      <td><span class="kept">Kept</span>, except for <strong>dbnomics</strong> where URLs are stripped (they contain the exact series ID)</td>
+    </tr>
+    <tr>
+      <td><code>resolution_dates</code></td>
+      <td><span class="kept">Kept</span> (list)</td>
+    </tr>
+    <tr>
+      <td><code>resolved_to</code></td>
+      <td><span class="kept">Kept</span> (list, aligned with <code>resolution_dates</code>)</td>
+    </tr>
+    <tr>
+      <td><code>forecast_due_date</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>source</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>url</code></td>
+      <td><span class="kept">Kept</span> (not used in prompt; only for eval display)</td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime</code></td>
+      <td><span class="dropped">Dropped</span> &mdash; incorporated into <code>resolution_criteria</code></td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime_value</code></td>
+      <td><span class="dropped">Dropped</span> &mdash; incorporated into <code>resolution_criteria</code></td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime_value_explanation</code></td>
+      <td><span class="dropped">Dropped</span> &mdash; incorporated into <code>resolution_criteria</code></td>
+    </tr>
+    <tr>
+      <td><code>source_intro</code></td>
+      <td><span class="dropped">Dropped</span></td>
+    </tr>
+    <tr>
+      <td><code>market_info_resolution_criteria</code></td>
+      <td><span class="dropped">Dropped</span> (was N/A for dataset sources)</td>
+    </tr>
+    <tr>
+      <td><code>resolved</code></td>
+      <td><span class="dropped">Dropped</span> &mdash; eval uses <code>resolved_to&nbsp;!=&nbsp;null</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>5. Market question preprocessing</h2>
+<p>Sources: <code>metaculus</code>, <code>polymarket</code>, <code>manifold</code>, <code>infer</code></p>
+
+<div class="legend">
+  <span><span class="dot" style="background:#27ae60"></span> Kept</span>
+  <span><span class="dot" style="background:#2874a6"></span> Renamed</span>
+  <span><span class="dot" style="background:#7d3c98"></span> Replaced / Derived</span>
+  <span><span class="dot" style="background:#c0392b"></span> Dropped</span>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Field</th><th>Change</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>id</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>question</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>resolution_criteria</code></td>
+      <td><span class="replaced">Replaced</span> &mdash; see source-specific table below</td>
+    </tr>
+    <tr>
+      <td><code>background</code></td>
+      <td><span class="replaced">Replaced</span> &mdash; see source-specific table below</td>
+    </tr>
+    <tr>
+      <td><code>resolution_date</code></td>
+      <td><span class="replaced">Derived</span> &mdash; comes from the <strong>resolution set</strong> (the date the question actually resolved), not from the question set. Stored as <code>resolution_dates</code> list, flattened to singular <code>resolution_date</code> if only one element</td>
+    </tr>
+    <tr>
+      <td><code>resolved_to</code></td>
+      <td><span class="replaced">Derived</span> &mdash; comes from the <strong>resolution set</strong>. Flattened from list to scalar if only one element</td>
+    </tr>
+    <tr>
+      <td><code>forecast_due_date</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>source</code></td>
+      <td><span class="kept">Kept</span></td>
+    </tr>
+    <tr>
+      <td><code>url</code></td>
+      <td><span class="kept">Kept</span> (not used in prompt; only for eval display)</td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime</code></td>
+      <td><span class="renamed">Renamed</span> to <code>market_date</code> (date only, no time)</td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime_value</code></td>
+      <td><span class="renamed">Renamed</span> to <code>market_value</code></td>
+    </tr>
+    <tr>
+      <td><code>freeze_datetime_value_explanation</code></td>
+      <td><span class="dropped">Dropped</span></td>
+    </tr>
+    <tr>
+      <td><code>market_info_close_datetime</code></td>
+      <td><span class="dropped">Dropped</span> &mdash; this is the market&rsquo;s scheduled close date (often far in the future); not the same as <code>resolution_date</code></td>
+    </tr>
+    <tr>
+      <td><code>market_info_open_datetime</code></td>
+      <td><span class="dropped">Dropped</span></td>
+    </tr>
+    <tr>
+      <td><code>source_intro</code></td>
+      <td><span class="dropped">Dropped</span></td>
+    </tr>
+    <tr>
+      <td><code>market_info_resolution_criteria</code></td>
+      <td><span class="dropped">Dropped</span> (after being used for metaculus; see below)</td>
+    </tr>
+    <tr>
+      <td><code>resolved</code></td>
+      <td><span class="dropped">Dropped</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>resolution_criteria / background normalization by source</h3>
+<table>
+  <thead>
+    <tr><th>Source</th><th><code>resolution_criteria</code> becomes</th><th><code>background</code> becomes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>metaculus</code></td>
+      <td><code>market_info_resolution_criteria</code> field (the actual criteria)</td>
+      <td>Unchanged</td>
+    </tr>
+    <tr>
+      <td><code>polymarket</code></td>
+      <td>Original <code>background</code> (where this platform stores criteria)</td>
+      <td>Cleared (<code>""</code>)</td>
+    </tr>
+    <tr>
+      <td><code>manifold</code></td>
+      <td>Original <code>background</code> (where this platform stores criteria)</td>
+      <td>Cleared (<code>""</code>)</td>
+    </tr>
+    <tr>
+      <td><code>infer</code></td>
+      <td>Parsed from <code>background</code> after HTML &ldquo;Resolution Criteria:&rdquo; marker; HTML tags stripped</td>
+      <td>Everything before that marker; HTML tags stripped</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>6. Anti-leakage measures</h2>
+<ul>
+  <li><strong>Dataset <code>resolution_criteria</code></strong>: original content discarded (contained direct URLs to yfinance, FRED, dbnomics, wikipedia data sources that would let the model look up the answer).</li>
+  <li><strong>Dataset <code>background</code> (dbnomics)</strong>: URLs stripped (contained exact series identifiers, e.g. <code>db.nomics.world/meteofrance/TEMPERATURE/celsius.07747.D</code>).</li>
+  <li><strong>Market <code>resolution_criteria</code></strong>: original content discarded (contained &ldquo;Resolves to the outcome of the question found at {market_url}&rdquo; which would let the model visit the market page).</li>
+  <li><strong><code>market_value</code> / <code>market_date</code></strong>: only injected into the prompt when <code>show_crowd=True</code>, and only exists on market questions &mdash; so dataset questions can&rsquo;t accidentally leak their reference value as a &ldquo;market estimate.&rdquo;</li>
+</ul>
+
+</body>
+</html>

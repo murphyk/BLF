@@ -1,0 +1,17 @@
+{
+  "id": "BDX_2026-02-01",
+  "source": "yfinance",
+  "question": "Will BDX's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BDX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 206.180. (The latest market close price of BDX.)",
+  "background": "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products for healthcare institutions, physicians, life science researchers, clinical laboratories, pharmaceutical industry, and the general public worldwide. It operates through Medical Essentials, Connected Care, BioPharma Systems, Interventional and Life Sciences segments. It provides peripheral intravenous (IV) and advanced peripheral catheters, central lines, acute dialysis catheters, vascular access technology, vascular care and preparation products, needle-free IV connectors and extensions sets, closed-system drug transfer devices, hazardous drug detections, hypodermic syringes and needles, anesthesia needles and trays, enteral syringes, and sharps disposal systems; IV medication safety and infusion therapy delivery systems, medication compounding workflow system, automated medication dispensing and supply management systems, informatics and analytics and pharmacy automation system, and medication inventory optimization and tracking system; hemodynamic monitoring system; and prefillable drug delivery systems. It also offers specimen and blood collection products; automated blood and tuberculosis culturing, molecular testing, and microorganism identification and drug susceptibility, as well as rapid diagnostic assays, microbiology laboratory automation products, and plated media products; and fluorescence-activated cell sorters and analyzers, antibodies and kits, reagent system, and solution for single-cell gene expression analysis, as well as clinical oncology, immunological, and transplantation diagnostic/monitoring reagents and analyzers. It provides hernia and soft tissue repair, biological and bioresorbable graft, biosurgery, and other surgical products; surgical infection prevention, peripheral intervention, and urology and critical care products. The company has a strategic collaboration with ChemoGLO for the advancement of hazardous drug contamination testing in health care settings to improve the safety of health care workers. The company was founded in 1897 and is headquartered in Franklin Lakes, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/BDX",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

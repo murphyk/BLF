@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0066",
+  "source": "aibq2",
+  "question": "Will Starlink's website show Somalia as a country with Starlink availability before July 1, 2025?",
+  "title_hash": "34438efddb69cc88",
+  "background": "[Musk announces Starlink license for Somalia](https://www.spacedaily.com/reports/Musk_announces_Starlink_license_for_Somalia_999.html)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the [Starlink Availability Map](https://www.starlink.com/us/map) has anywhere in Somalia listed as \"Available.\"",
+  "url": "https://www.spacedaily.com/reports/Musk_announces_Starlink_license_for_Somalia_999.html",
+  "forecast_due_date": "2025-05-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

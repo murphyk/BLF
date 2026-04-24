@@ -1,0 +1,15 @@
+{
+  "id": "0x1bbdc459d73e6972f5ba1f687d739fde70a9774f4875611699fb00a9eb28f090_2025-03-02",
+  "source": "polymarket",
+  "question": "Tether insolvent in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if official information released by Tether Limited Inc., official representatives of Tether Limited Inc. (e.g. lawyers, spokespeople, etc.), or a consensus of credible reporting announces by December 31, 2025, 11:59 PM ET that Tether Limited Inc. is insolvent or is filing/has filed for any variety of bankruptcy. Otherwise, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/tether-insolvent-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.09",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

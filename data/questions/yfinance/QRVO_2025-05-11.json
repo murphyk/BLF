@@ -1,0 +1,21 @@
+{
+  "id": "QRVO_2025-05-11",
+  "source": "yfinance",
+  "question": "Will QRVO's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/QRVO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 71.670. (The latest market close price of QRVO.)",
+  "background": "Qorvo, Inc. engages in development and commercialization of technologies and products for wireless, wired, and power markets worldwide. It operates through three segments: High Performance Analog (HPA), Connectivity and Sensors Group (CSG), and Advanced Cellular Group (ACG). The HPA segment supplies radio frequency and power management solutions for defense and aerospace, and 5G and 6G infrastructure markets. The CSG segment supplies connectivity and sensor solutions featuring various technologies, such as UWB, Matter, Bluetooth Low Energy, Zigbee, Thread, Wi-Fi, cellular IoT, and MEMS-based sensors. It serves smart home, industrial automation, automotive, smartphones, wearables, gaming, and industrial and enterprise access points markets. The ACG segment supplies cellular RF solutions for smartphones, wearables, laptops, tablets, and various other devices. It also offers foundry services for defense primes and other defense and aerospace customers. The company sells its products directly to original equipment manufacturers and original design manufacturers, as well as through a network of sales representative firms and distributors. Qorvo, Inc. was founded in 1957 and is headquartered in Greensboro, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/QRVO",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

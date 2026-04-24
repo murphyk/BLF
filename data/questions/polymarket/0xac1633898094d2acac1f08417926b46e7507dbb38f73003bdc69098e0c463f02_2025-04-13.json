@@ -1,0 +1,15 @@
+{
+  "id": "0xac1633898094d2acac1f08417926b46e7507dbb38f73003bdc69098e0c463f02_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the Punjab Kings win the 2025 Indian Premier League?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 Indian Premier League. \n\nIf at any point it becomes impossible for this team to win the Indian Premier League based on the rules of the IPL (e.g., they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.\n\nIf the 2025 IPL season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-punjab-kings-win-the-2025-indian-premier-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-25",
+  "market_value": "0.185",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

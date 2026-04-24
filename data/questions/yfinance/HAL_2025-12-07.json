@@ -1,0 +1,19 @@
+{
+  "id": "HAL_2025-12-07",
+  "source": "yfinance",
+  "question": "Will HAL's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HAL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 25.790. (The latest market close price of HAL.)",
+  "background": "Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The Completion and Production segment offers production enhancement services that include stimulation and sand control services; cementing services, such as well bonding and casing, and casing equipment; and completion tools that offer downhole solutions and services, including well completion products and services, intelligent well completions, liner hanger systems, sand control systems, multilateral systems, and service tools. This segment also provides electrical submersible pumps, as well as artificial lift services; production solutions comprising coiled tubing, hydraulic workover units, downhole tools, and pumping and nitrogen services; pipeline and process services, such as pre-commissioning, commissioning, maintenance, and decommissioning; and specialty chemicals and services. The Drilling and Evaluation segment offers drilling fluid systems, performance additives, completion fluids, solids control, specialized testing equipment, and waste management services; drilling systems and services; wireline and perforating services consists of open-hole logging, and cased-hole and slickline; and drill bits and services comprising roller cone rock bits, fixed cutter bits, hole enlargement, and related downhole tools and services, as well as coring equipment and services. This segment also provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management; testing and subsea services, such as acquisition and analysis of reservoir information and optimization solutions; and project management and integrated asset management services. Halliburton Company was founded in 1919 and is based in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/HAL",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

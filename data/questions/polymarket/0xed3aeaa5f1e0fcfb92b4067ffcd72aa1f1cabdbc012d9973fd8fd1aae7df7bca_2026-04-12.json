@@ -1,0 +1,14 @@
+{
+  "id": "0xed3aeaa5f1e0fcfb92b4067ffcd72aa1f1cabdbc012d9973fd8fd1aae7df7bca_2026-04-12",
+  "source": "polymarket",
+  "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if, at any point during April 2026, any 1-minute candle for the Active Month of WTI Crude Oil futures has a final \"High\" price equal to or above the listed price. Otherwise, this market will resolve to \"No\".\n\nFor WTI futures, the active month refers to the nearest listed contract month. The active month changes at 6:00:00 PM ET at the start of the trading session two business days prior to that contract's last trading day, at which point the next listed contract becomes the active month.\n\nFor WTI Crude Oil (CL) futures, the last trading day is defined as three business days prior to the 25th calendar day of the month preceding the contract's delivery month, consistent with CME contract specifications.\n\nOnly prices achieved during the applicable trading session for the underlying market will be considered. Under the standard schedule, trading is open from 6:00:00 PM ET Sunday through 5:00:00 PM ET Friday, with a daily break from 5:00:00 PM ET to 6:00:00 PM ET, except where modified by holiday or special-session hours as listed on Pyth.\n\nPrices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the listed time frame, this market will resolve to \"No\".\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for this market is Pyth \u2014 specifically, the Active Month WTI Crude Oil futures \"High\" prices available at https://pythdata.app/explore?search=WTI, with the chart settings configured for 1-minute candles.\n\nHistorical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nIf the relevant Pyth data is unavailable due to a system outage, data failure, or other technical disruption that prevents verification of the required 1-minute candle data, the official daily high price published for the Active Month WTI Crude Oil (CL) futures contract by CME Group may be used to determine whether the listed price was reached during the applicable trading session.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-wti-reach-110-in-april-2026-965-534-618",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.615",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

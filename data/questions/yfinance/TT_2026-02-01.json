@@ -1,0 +1,17 @@
+{
+  "id": "TT_2026-02-01",
+  "source": "yfinance",
+  "question": "Will TT's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 395.330. (The latest market close price of TT.)",
+  "background": "Trane Technologies plc designs, manufactures, sells, and services of solutions for heating, ventilation, air conditioning, and custom and transport refrigeration. It offers air conditioners, exchangers, and handlers; airside and terminal devices; air sourced heat pumps; chillers; coils and condensers; auxiliary power, cold storage, cold storage, and condensing units; controls contracting and commissioning, decarbonization programs, and gensets; dehumidifiers; energy and water efficiency programs; energy recovery ventilators; energy storage; furnaces; home automation; humidifiers; HVAC performance-monitoring products; and indoor air quality assessments and related products for HVAC and transport solutions. The company also provides asset management, building management, bus air purification, bus and rail HVAC, container refrigeration, control, cryogenic refrigeration, ductless, geothermal, data center and multi-pipe HVAC, package heating and cooling, rail refrigeration, residential air filtration, self-powered truck refrigeration, temporary heating and cooling, truck refrigeration, unitary, variable refrigerant flow, and trailer refrigeration systems. In addition, it offers industrial process refrigeration, installation contracting, lighting retrofit, medical grade refrigeration, refrigerant reclamation, renewable energy and storage, residential hybrid heating, telematics, thermostats/controls and associated digital, and ventilation solutions; packaged rooftop units; rate chambers; residential air filters; thermal energy storage; transport heater products; ultra-low temperature freezers; energy infrastructure programs and management, repair and maintenance, smart and AI-enabled, and rental services; and water source heat pumps, as well as aftermarket and OEM parts and supplies. The company was formerly known as Ingersoll-Rand Plc and changed its name to Trane Technologies plc in March 2020. The company was founded in 1885 and is headquartered in Swords, Ireland.",
+  "url": "https://finance.yahoo.com/quote/TT",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

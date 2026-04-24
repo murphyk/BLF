@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0043",
+  "source": "aibq2",
+  "question": "Will Starlink's website show Lesotho as a country with Starlink availability before July 1, 2025?",
+  "title_hash": "f9d0ea4bd5865292",
+  "background": "[Lesotho grants license to Musk's Starlink](https://www.ewn.co.za/2025/04/14/lesotho-grants-license-to-musks-starlink)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the [Starlink Availability Map](https://www.starlink.com/us/map) has anywhere in Lesotho listed as \"Available.\"",
+  "url": "https://www.ewn.co.za/2025/04/14/lesotho-grants-license-to-musks-starlink",
+  "forecast_due_date": "2025-05-07",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

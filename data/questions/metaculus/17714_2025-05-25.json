@@ -1,0 +1,15 @@
+{
+  "id": "17714_2025-05-25",
+  "source": "metaculus",
+  "question": "Will Norway announce an official referendum about EU accession before the next parliamentary election in September 2025?",
+  "resolution_criteria": "This question will be resolved as YES if the Norwegian government announces an official referendum on the issue of EU membership before the next parliamentary election date (some time in September 2025) via www.regjeringen.no or any other official communication channel, otherwise it resolves NO.",
+  "background": "Norway is not a member state of the European Union (EU). However, it is associated with the Union through its membership of the European Economic Area (EEA), signed in 1992 and established in 1994.\n\nThe Norwegians voted twice about EU membership. Once in 1972 and again in 1994. In the first case with 53,5% of the people against, in the second case 52,2% against.\n\nThe debate has gained some renewed interest in the public after Sweden and Finland decided to join the NATO. The political parties mostly support joining the Union, as they have done in the past, too. [Linked here](https://www.newsinenglish.no/2023/04/05/ex-premier-fires-up-norways-eu-debate/), for example, is a statement by the former prime minister, Erna Solberg.",
+  "url": "https://www.metaculus.com/questions/17714",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-31",
+  "market_value": "0.07",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CARACBW027SBOG_2025-03-16",
+  "source": "fred",
+  "question": "Will the total dollar amount representing all automobile loans made by commercial banks in the US have increased by each resolution date listed below as compared to its value on 2025-03-16?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/CARACBW027SBOG once the data is published.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 491.308. (The latest value released in Consumer Loans: Other Consumer Loans: Automobile Loans, All Commercial Banks from the release H.8 Assets and Liabilities of Commercial Banks in the United States.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Billions of U.S. Dollars.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly ",
+  "url": "https://fred.stlouisfed.org/series/CARACBW027SBOG",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

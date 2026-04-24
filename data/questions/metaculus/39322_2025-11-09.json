@@ -1,0 +1,14 @@
+{
+  "id": "39322_2025-11-09",
+  "source": "metaculus",
+  "question": "Will Russia test a nuclear device before January 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, after August 31, 2025 and before January 1, 2026, Russia conducts a nuclear test, according to [credible sources](https://www.metaculus.com/faq/#definitions).&#x20;",
+  "background": "UK Mirror: [Russia warning as Vladimir Putin close to first nuclear bomb tests for 35 years](https://www.mirror.co.uk/news/world-news/russia-warning-vladimir-putin-close-35801201)\n\n> Military specialist Dmitry Stefanovich is the latest to signal that\u00a0Vladimir Putin\u00a0could soon sanction the restart. It is claimed the former Soviet Arctic test site in the Novaya Zemlya archipelago is ready - should the dictator give the order.\n> &#x20;\n> The last confirmed tests in North Korea were in September 2017 and it is understood that leading pro-war\u00a0Russian\u00a0politicians have inspected the test site. Now the\u00a0world\u00a0waits to see if the Russian president gives the green light.\n\n> \u201cWe are closer to this situation than at any point since North Korea\u2019s last nuclear tests,\u201d said Stefanovich, of the Russian Centre for International Security, and a member of the Russian Academy of Science.\n\nSee also [Wikipedia List of nuclear weapons tests](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests)",
+  "url": "https://www.metaculus.com/questions/39322",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.05",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The community prediction."
+}

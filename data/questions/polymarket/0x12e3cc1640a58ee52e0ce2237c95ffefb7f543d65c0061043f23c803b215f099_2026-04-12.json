@@ -1,0 +1,14 @@
+{
+  "id": "0x12e3cc1640a58ee52e0ce2237c95ffefb7f543d65c0061043f23c803b215f099_2026-04-12",
+  "source": "polymarket",
+  "question": "Mojtaba Khamenei leaves Iran by April 30, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if it is confirmed that Mojtaba Khamenei has left Iran for any length of time by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIn cases where Mojtaba Khamenei may have exited Iranian airspace on a plane, he must be confirmed to have exited the plane in a country other than Iran for this market to resolve to \"Yes\". If Mojtaba Khamenei exits Iranian maritime territory on a boat to international waters, this market may resolve to \"Yes\".\n\nIf it is not confirmed by the resolution date that Mojtaba Khamenei left Iran, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/mojtaba-khamenei-leaves-iran-by-april-30-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.026500000000000003",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

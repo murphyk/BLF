@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks the price fluctuations of an actively traded commodity benchmark (WTI crude oil) specifically for the purpose of price discovery and investment forecasting.",
+  "question": "Will the price of West Texas Intermediate (WTI - Cushing) crude oil have increased by each resolution date listed below as compared to its value on 2026-01-18?"
+}

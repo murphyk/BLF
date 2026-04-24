@@ -1,0 +1,17 @@
+{
+  "id": "EMN_2026-02-01",
+  "source": "yfinance",
+  "question": "Will EMN's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EMN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 68.300. (The latest market close price of EMN.)",
+  "background": "Eastman Chemical Company operates as a specialty materials company in the United States, China, and internationally. The company's Additives & Functional Products segment offers amine derivative-based building blocks, intermediates for surfactants, metam-based soil fumigants, and organic acid-based solutions; specialty coalescent and solvents, paint additives, and specialty polymers; and heat transfer and aviation fluids. It serves transportation, personal care, wellness, food, feed, agriculture, building and construction, water treatment, energy, consumables, durables, and electronics markets. Its Advanced Materials segment provides copolyesters, cellulosic biopolymers, polyvinyl butyral sheets, polyester films and window and protective films for value-added end uses in the transportation, durables, electronics, building and construction, medical and pharma, and consumables end-markets. The company's Chemical Intermediates segment offers olefin and acetyl derivatives, ethylene, and commodity solvents; and primary non-phthalate and phthalate plasticizers, and niche non-phthalate plasticizers for industrial chemicals and processing, building and construction, health and wellness, and food and feed. Its Fibers segment provides cellulose acetate tow, triacetin, cellulose acetate flake, acetic acid, and acetic anhydride for use in filtration media primarily cigarette filters; natural and solution dyed acetate yarns, and staple fiber for use in consumables, and health and wellness markets; and wet-laid nonwoven media, specialty and engineered papers, and cellulose acetate fibers for transportation, industrial, agriculture and mining, and aerospace markets. The company was founded in 1920 and is headquartered in Kingsport, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/EMN",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

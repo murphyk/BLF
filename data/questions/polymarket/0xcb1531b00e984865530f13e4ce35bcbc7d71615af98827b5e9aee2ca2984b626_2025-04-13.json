@@ -1,0 +1,15 @@
+{
+  "id": "0xcb1531b00e984865530f13e4ce35bcbc7d71615af98827b5e9aee2ca2984b626_2025-04-13",
+  "source": "polymarket",
+  "question": "Will China invade Taiwan in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nTerritory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify. \n\nThe resolution source for this market will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-china-invade-taiwan-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.145",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

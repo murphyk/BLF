@@ -1,0 +1,15 @@
+{
+  "id": "0x40c7a35bcc7eca3f6e7f3ff8a942261958252b316af0ea44f9476912dff7e748_2025-06-08",
+  "source": "polymarket",
+  "question": "Will the Buffalo Bills win the AFC East?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Buffalo Bills win the AFC East in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Buffalo Bills team to win the AFC East based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-buffalo-bills-win-the-afc-east-11",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-29",
+  "market_value": "0.7000000000000001",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

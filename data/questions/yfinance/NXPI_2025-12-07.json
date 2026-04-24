@@ -1,0 +1,19 @@
+{
+  "id": "NXPI_2025-12-07",
+  "source": "yfinance",
+  "question": "Will NXPI's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NXPI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 193.760. (The latest market close price of NXPI.)",
+  "background": "NXP Semiconductors N.V. provides semiconductor products in China, the United States, Germany, Japan, Singapore, South Korea, Mexico, the Netherlands, Taiwan, and internationally. The company's product portfolio includes microcontrollers; application processors; communication processors; wireless connectivity solutions, such as near field communications, ultra-wideband, Bluetooth low-energy, Zigbee, Thread, and Wi-Fi and Wi-Fi/Bluetooth integrated SoCs; analog and interface devices; radio frequency power amplifiers; and security controllers, as well as semiconductor-based environmental and inertial sensors, including pressure, inertial, magnetic, and gyroscopic sensors. Its products are used in various applications, including automotive, industrial and Internet of Things, mobile, and communication infrastructure. The company markets its products to various original equipment manufacturers, contract manufacturers, and distributors. NXP Semiconductors N.V. was incorporated in 2006 and is headquartered in Eindhoven, the Netherlands.",
+  "url": "https://finance.yahoo.com/quote/NXPI",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

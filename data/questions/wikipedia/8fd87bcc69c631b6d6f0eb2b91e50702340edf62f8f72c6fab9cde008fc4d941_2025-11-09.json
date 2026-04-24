@@ -1,0 +1,19 @@
+{
+  "id": "8fd87bcc69c631b6d6f0eb2b91e50702340edf62f8f72c6fab9cde008fc4d941_2025-11-09",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will a vaccine have been developed for Gonorrhea by each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_infectious_diseases on the resolution date.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was No. (Vaccine status for Gonorrhea. 'No' means that a vaccine has not yet been created. 'Yes' means that it has.)",
+  "background": "According to Wikipedia, Gonorrhea is the common name of an infectious disease. A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
+  "url": "https://en.wikipedia.org/wiki/List_of_infectious_diseases",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

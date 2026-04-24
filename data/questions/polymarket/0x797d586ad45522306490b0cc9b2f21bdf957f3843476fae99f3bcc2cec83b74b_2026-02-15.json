@@ -1,0 +1,14 @@
+{
+  "id": "0x797d586ad45522306490b0cc9b2f21bdf957f3843476fae99f3bcc2cec83b74b_2026-02-15",
+  "source": "polymarket",
+  "question": "US strikes Iran by June 30, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market's creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by US military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by an US missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by US ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-strikes-iran-by-june-30-2026-699-664-723-485-753-218-567-164-387-443-377-384-159-973-494-631-694-956-361-443-224-518-537-678-486-386-275-153",
+  "forecast_due_date": "2026-02-15",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-02-28",
+  "market_value": "0.525",
+  "market_date": "2026-02-09",
+  "market_value_explanation": "The market price."
+}

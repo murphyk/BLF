@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_d5d04b4f",
+  "source": "aibq2",
+  "question": "Will the CDC still recommend 0.7 mg/L fluoride as the optimal level in community water supplies on July 1, 2025?",
+  "background": "NPR: [HHS will review guidance on the addition of fluoride to drinking water](https://www.npr.org/2025/04/10/g-s1-59452/hhs-rfk-fluoride-drinking-water-epa)",
+  "resolution_criteria": "This question resolves as **Yes** if the CDC's [Community Water Fluoridation Recommendations](https://www.cdc.gov/fluoridation/about/community-water-fluoridation-recommendations.html) recommends greater than or equal to 0.7 mg/L as the concentration that maximizes fluoride's oral health benefits while minimizing potential harms. If a lesser amount is recommended or if there is no longer any recommendation at all, then the question resolves as **No**.\n\nFine print:\nIf the page is pulled offline with no replacement, this question also resolves as **No**.",
+  "url": "https://www.npr.org/2025/04/10/g-s1-59452/hhs-rfk-fluoride-drinking-water-epa",
+  "forecast_due_date": "2025-05-20",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

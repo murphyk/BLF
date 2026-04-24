@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_705296f1",
+  "source": "aibq2",
+  "question": "Will any members of the European Parliament resign before July 1, 2025?",
+  "background": "Euro News: [Lobbying scandal related to Huawei: What we know so far](https://www.euronews.com/my-europe/2025/05/21/lobbying-scandal-related-to-huawei-what-we-know-so-far)",
+  "resolution_criteria": "This question resolves as **Yes** if a member of the European Parliament announces their resignation after June 9, 2025 and before July 1, 2025.",
+  "url": "https://www.euronews.com/my-europe/2025/05/21/lobbying-scandal-related-to-huawei-what-we-know-so-far",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

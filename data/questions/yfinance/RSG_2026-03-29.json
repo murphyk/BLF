@@ -1,0 +1,15 @@
+{
+  "id": "RSG_2026-03-29",
+  "source": "yfinance",
+  "question": "Will RSG's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RSG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 221.990. (The latest market close price of RSG.)",
+  "background": "Republic Services, Inc., together with its subsidiaries, offers environmental services in the United States and Canada. It is involved in the collection and processing of recyclable, solid waste, and industrial waste materials; transportation and disposal of non-hazardous and hazardous waste streams; and other environmental solutions. Its residential collection services include curbside collection of material for transport to transfer stations, landfills, recycling centers, and organics processing facilities; supply of recycling and waste containers; and renting of compactors. The company also engages in the processing and sale of old corrugated containers, old newsprint, aluminum, glass, and other materials; and provision of landfill services. It serves small-container, large-container, and residential customers. The company was incorporated in 1996 and is based in Phoenix, Arizona.",
+  "url": "https://finance.yahoo.com/quote/RSG",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

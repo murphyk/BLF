@@ -1,0 +1,14 @@
+{
+  "id": "0xdb4143780c085f54f82e6baf461e4df46ad900df8148d03258da93cf2c64b165_2025-12-21",
+  "source": "polymarket",
+  "question": "Will MicroStrategy hold 680k+ BTC by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if MicroStrategy Incorporated's total Bitcoin holdings are equal to or greater than the number specified in the title at any point by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be announcements from MicroStrategy or Michael Saylor as to their total BTC holdings.\n\nFor reference, MicroStrategy\u2019s reported BTC holdings can be tracked at: https://www.strategy.com/purchases\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-microstrategy-hold-680k-btc-by-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.2295",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

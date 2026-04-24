@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0052",
+  "source": "aibq2",
+  "question": "Will the USDA-posted recall by Johnsonville LLC of cheddar bratwurst for foreign matter contamination issued April 5, 2025 be closed before July 1, 2025?",
+  "title_hash": "408af05a4150603d",
+  "background": "Real Simple: [Over 22,000 Pounds of a Popular Sausage Brand Recalled Due to Contamination](https://www.realsimple.com/sausage-recall-2025-11711268)",
+  "resolution_criteria": "This question resolves as **Yes** if the status of the recall posted by the U.S. Department of Agriculture\u2019s Food Safety and Inspection Service (FSIS) is changed from Active to Closed on [this page](https://www.fsis.usda.gov/recalls-alerts/johnsonville-llc-recalls-cheddar-bratwurst-product-due-possible-foreign-matter) before July 1, 2025. If the recall is still shown as Active when the link is accessed by Metaculus on or after July 1, 2025, this question resolves as **No**.",
+  "url": "https://www.realsimple.com/sausage-recall-2025-11711268",
+  "forecast_due_date": "2025-05-09",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

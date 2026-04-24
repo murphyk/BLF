@@ -1,0 +1,14 @@
+{
+  "id": "0x4f7d83388f21541ec765e3eda3a9b8d2b5a3b20f0d7531fc4aa46089fb1bd588_2025-11-09",
+  "source": "polymarket",
+  "question": "Will Joe Biden be the #2 searched person on Google this year?",
+  "resolution_criteria": "This market will resolve according to the individual ranked #2 in Google\u2019s official Year in Search list for 2025, published on Google\u2019s Year in Search hub.\n\nThe authoritative location is trends.withgoogle.com/year-in-search/\n (navigate: Global \u2192 Trending \u2192 People), where the 2025 page will appear once released (as the 2024 page currently shows the Global \u201cPeople\u201d ranking).\n\nThis market may resolve as soon as the official 2025 data is released for the specified timeframe. If none of the listed options is ranked #2 in the respective list or if Google does not release the 2025 Year in Search by March 31, 2026, 11:59 PM ET, this market will resolve to \u201cOther.\u201d",
+  "background": "",
+  "url": "https://polymarket.com/market/will-joe-biden-be-the-2-searched-person-on-google-this-year",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-04",
+  "market_value": "0.006",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

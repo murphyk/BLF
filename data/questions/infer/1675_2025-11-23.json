@@ -1,0 +1,14 @@
+{
+  "id": "1675_2025-11-23",
+  "source": "infer",
+  "question": "Will the EU import at least 19 billion cubic meters of natural gas from Russia in the second half of 2025?",
+  "resolution_criteria": "This question will be resolved using data from the Bruegel European natural gas imports dataset and will be resolved as \u201cYes\u201d if the amount of natural gas imported to the EU from Russia is at least 19 billion cubic meters in the second half of 2025 (i.e., Q3 and Q4 2025 combined).&nbsp; To view European natural gas imports from Russia by quarter, refer to Figure 5: EU quarterly imports by source . Deselect countries that are not Russia in the legend to display only Russian import data. The chart shows values in millions of cubic meters, so 19 billion cubic meters will be shown as 19,000 million cubic meters on the chart. Data through Q3 2025 is shown in the chart below:",
+  "background": "European Union natural gas imports from Russia have declined dramatically since Russia\u2019s invasion of Ukraine, falling from over 150 billion cubic meters in 2021 to 45 billion cubic meters in 2024 ( European Council ). The landscape shifted further when Russia ended pipeline deliveries through Ukraine on 1 January 2025, leading to a 45% drop in Russian pipeline gas in the first quarter of 2025 compared to the previous quarter ( European Commission ). Russian gas now reaches the EU primarily via the TurkStream pipeline and as liquefied natural gas (LNG), with Russia\u2019s share of EU gas imports falling from 19% in Q4 2024 to 14% in Q1 2025 ( European Commission ).&nbsp; Recent data shows continued decline, with total Russian gas exports to Europe falling from 3.32 billion cubic meters in April 2025 to 3.01 billion cubic meters in June 2025, a 9.4% quarter-on-quarter drop ( Centre for Research on Energy and Clean Air ). The EU committed under its REPowerEU plan to phase out Russian fossil fuel imports by 2027, though some member states including Hungary and Slovakia continue to support Russian gas purchases, and the European Commission postponed plans to restrict Russian LNG imports in April 2025 after facing opposition from various member states ( Ember Energy ). &nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1675",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0942",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The crowd forecast."
+}

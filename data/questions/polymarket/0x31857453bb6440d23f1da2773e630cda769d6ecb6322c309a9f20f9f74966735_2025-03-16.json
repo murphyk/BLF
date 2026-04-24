@@ -1,0 +1,15 @@
+{
+  "id": "0x31857453bb6440d23f1da2773e630cda769d6ecb6322c309a9f20f9f74966735_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Brentford be relegated?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Brentford finishes in the bottom 3 of the 2024-25 Premier League season. Otherwise, the market will resolve to \u201cNo.\u201d\n\nIf it becomes mathematically certain that Brentford will finish in the bottom 3, this market will immediately resolve to \u201cYes.\u201d Likewise, if it becomes mathematically impossible for Brentford to finish in the bottom 3, this market will immediately resolve to \u201cNo.\u201d Potential retroactive points deductions past these points will have no bearing on this market\u2019s resolution.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-brentford-be-relegated",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-06",
+  "market_value": "0.006",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

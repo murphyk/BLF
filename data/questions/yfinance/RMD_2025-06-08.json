@@ -1,0 +1,21 @@
+{
+  "id": "RMD_2025-06-08",
+  "source": "yfinance",
+  "question": "Will RMD's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RMD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 246.220. (The latest market close price of RMD.)",
+  "background": "ResMed Inc. develops, manufactures, distributes, and markets medical devices and cloud-based software applications for the healthcare markets. The company operates in two segments, Sleep and Respiratory Care, and Software as a Service. It offers various products and solutions for a range of respiratory disorders, including ApneaLink Air, a portable diagnostic device that measures oximetry, respiratory effort, pulse, nasal flow, and snoring; and NightOwl, a portable, cloud-connected, and disposable diagnostic device that measures AHI based on derived peripheral arterial tone, actigraphy, and oximetry over several nights. The company also provides AirView, a cloud-based system that enables remote monitoring and changing of patients' device settings; myAir, a personalized therapy management application for patients with sleep apnea that provides support, education, and troubleshooting tools for increased patient engagement and improved compliance; U-Sleep, a compliance monitoring solution that enables home medical equipment (HME) to streamline their sleep programs; connectivity module and propeller solutions; and Propeller portal. It offers out-of-hospital software solution, such as Brightree business management software and service solutions to providers of HME, pharmacy, home infusion, orthotics, and prosthetics services; MatrixCare care management and related ancillary solutions to senior living, skilled nursing, life plan communities, home health, home care, and hospice organizations, as well as related accountable care organizations; HEALTHCAREfirst that offers electronic health record, software, billing and coding services, and analytics for home health and hospice agencies; and MEDIFOX DAN's software solutions. The company markets its products to sleep clinics, home healthcare dealers, and hospitals through a network of distributors and direct sales force. ResMed Inc. was founded in 1989 and is headquartered in San Diego, California.",
+  "url": "https://finance.yahoo.com/quote/RMD",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

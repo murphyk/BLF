@@ -1,0 +1,19 @@
+{
+  "id": "LEN_2025-12-07",
+  "source": "yfinance",
+  "question": "Will LEN's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LEN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 131.280. (The latest market close price of LEN.)",
+  "background": "Lennar Corporation, together with its subsidiaries, operates as a homebuilder primarily under the Lennar brand in the United States. It operates through Homebuilding East, Homebuilding Central, Homebuilding Texas, Homebuilding West, Financial Services, Multifamily, and Lennar Other segments. The company's homebuilding operations include the construction and sale of single-family attached and detached homes, as well as the purchase, development, and sale of residential land; and development, construction, and management of multifamily rental properties. It also offers residential mortgage financing, title, insurance, and closing services for home buyers and others, as well as originates and sells securitization commercial mortgage loans. In addition, the company is involved in the fund investment activity. It primarily serves first-time, move-up, active adult, and luxury homebuyers. The company was founded in 1954 and is based in Miami, Florida.",
+  "url": "https://finance.yahoo.com/quote/LEN",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

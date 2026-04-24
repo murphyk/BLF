@@ -1,0 +1,19 @@
+{
+  "id": "LHX_2025-11-23",
+  "source": "yfinance",
+  "question": "Will LHX's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LHX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 300.240. (The latest market close price of LHX.)",
+  "background": "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. It operates through Space & Airborne Systems (SAS), Integrated Mission Systems (IMS), Communication Systems (CS), and Aerojet Rocketdyne (AR) segments. The SAS segment provides satellite space payloads, sensors, and full-mission solutions; classified intelligence and cyber; airborne combat systems; and mission networks for air traffic management operations. The IMS segment offers intelligence, surveillance, and reconnaissance (ISR) systems; passive sensing and targeting; electronic attack platforms; autonomy; power and communications; networks; and sensors. The CS segment provides tactical radios, software, waveforms, satellite terminals, and end-to-end battlefield systems for the U.S. Department of Defense, international, federal, and state agency customers; broadband communications; integrated vision solutions, including helmet-mounted integrated night vision goggles with image intensifier tubes and weapon-mounted sights, aiming lasers, and range finders; and public safety radios, and system applications and equipment. The AR segment offers propulsion technologies and armament systems for strategic defense, missile defense, hypersonic, and tactical systems; and space propulsion and power systems for national security space and exploration missions. The company was formerly known as Harris Corporation and changed its name to L3Harris Technologies, Inc. in June 2019. L3Harris Technologies, Inc. was founded in 1895 and is based in Melbourne, Florida.",
+  "url": "https://finance.yahoo.com/quote/LHX",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "9t61v9e7x4_2025-04-27",
+  "source": "manifold",
+  "question": "Trump impose large tariffs in first year?",
+  "resolution_criteria": "Donald Trump has promised a 10% tariff across the board for all goods entering the United States if elected. This market will settle as YES if Donald Trump gets elected and in any one quarter of 2025, the US weighted average tariff is at least 6%. For the last quarter we have data at this time, second quarter of 2024, the number was 2.4%. It was at 3.5% at its highest level of the Trump presidency.\n\nData is sourced from the Federal Reserve Economic Data website (link below). This market will settle as soon as Callum Williams, senior economics writer at The Economist, has calculated the number has crossed the 6% threshold for any quarter in 2025, or it hasn\u2019t for any of the quarters. If, when he does his calculations for the fourth quarter of 2025, the 6% threshold has not been met, this market will then settle NO. This market will settle as YES if either an initial estimate or any revision for any of the first three quarters of 2025 crosses the 6% threshold while the market is open. The fourth quarter number will be based on initial data and the market will close after that data is available at the latest. \n\nIf Donald Trump loses the election, this market will settle as N/A. If Donald Trump wins the election but a different president takes office at any point, this market will settle according to the same rules based on the US weighted tariff average for each quarter. \n\nIf Callum Williams is unavailable to conduct the analysis, a suitable replacement will be found.\n\nSee data here: https://fred.stlouisfed.org/graph/?g=1wn5e\n\nCallum Williams on X: https://x.com/econcallum\u00a0\u00a0",
+  "background": "",
+  "url": "https://manifold.markets/RichardHanania/trump-impose-large-tariffs-in-first",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-08",
+  "market_value": "0.919999999999999",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "AVB_2025-06-22",
+  "source": "yfinance",
+  "question": "Will AVB's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AVB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 206.540. (The latest market close price of AVB.)",
+  "background": "AvalonBay Communities, Inc., a member of the S&P 500, is an equity REIT that develops, redevelops, acquires and manages apartment communities in leading metropolitan areas in New England, the New York/New Jersey Metro area, the Mid-Atlantic, the Pacific Northwest, and Northern and Southern California, as well as in the Company's expansion regions of Raleigh-Durham and Charlotte, North Carolina, Southeast Florida, Dallas and Austin, Texas, and Denver, Colorado. As of December 31, 2024, the Company owned or held a direct or indirect ownership interest in 306 apartment communities containing 93,518 apartment homes in 12 states and the District of Columbia, of which 17 communities were under development.",
+  "url": "https://finance.yahoo.com/quote/AVB",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

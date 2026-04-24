@@ -1,0 +1,15 @@
+{
+  "id": "IMLre6PYIQgsesV6Wa6O_2025-03-16",
+  "source": "manifold",
+  "question": "Did the US enter a recession before the end of 2024?",
+  "resolution_criteria": "Resolves YES if the NBER Business Cycle Dating Committee declares, by the end of 2025, US Eastern Time, that the US entered a recession at any point in 2023 or 2024. Resolves NO on 2026-01-01 otherwise.\n\nFor a derivative market that resolves sooner, based on how this market is priced at the end of 2024, see:\n\n@/chrisjbillington/will-manifold-price-a-2024-us-reces \n\nUpdate 2025-16-01 (PST): - Market now resolves NO at the end of 2025 if no recession is retrospectively declared before then. (AI summary of creator comment)",
+  "background": "",
+  "url": "https://manifold.markets/chrisjbillington/will-the-us-enter-a-recession-by-20",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.053513532100000004",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market value."
+}

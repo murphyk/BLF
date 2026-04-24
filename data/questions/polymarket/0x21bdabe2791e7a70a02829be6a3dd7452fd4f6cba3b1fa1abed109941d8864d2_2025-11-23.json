@@ -1,0 +1,14 @@
+{
+  "id": "0x21bdabe2791e7a70a02829be6a3dd7452fd4f6cba3b1fa1abed109941d8864d2_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Ukraine agree to give up the rest of Donbas in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if a deal in which Ukraine agrees to cede de facto control of all major cities under their control in the Donetsk and Luhansk Oblasts is reached between the Russian Federation and Ukraine by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nFor the purposes of this market, major cities under Ukrainian control include the following: Kramatorsk, Sloviansk, Kostiantynivka, Druzhkivka, and Pokrovsk. \n\nThe deal must be a publicly announced mutual agreement or otherwise confirmed by an overwhelming consensus of credible reporting.\n\nIf such an agreement is officially reached before the resolution date, this market will resolve to \"Yes\", regardless of if/when the agreement goes into effect.\n\nAny agreement which cedes de facto military control of the listed cities will qualify regardless of if Ukraine formally maintains its claim to sovereignty. For example, the 1999 Kumanovo Military Technical Agreement, in which Yugoslavia agreed to pull military forces out of Kosovo but did not recognize Kosovo\u2019s autonomy or independence would qualify for a 'Yes' resolution.  \n\nA Ukrainian agreement to cede de facto military control, will qualify regardless of the group/entity which replaces them.\n\nOnly territory ceded as part of a diplomatic process or agreement will qualify. If Russia captures these cities through military action it will not qualify for a \u201cYes\u201d resolution.\n\nThe primary resolution source for this market will be an official announcement by Ukraine and/or the Russian Federation, however, an overwhelming consensus of credible reporting confirming an agreement has been reached will also qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ukraine-agree-to-give-up-the-rest-of-donbas",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0155",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

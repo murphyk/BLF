@@ -1,0 +1,14 @@
+{
+  "id": "4290_2026-04-12",
+  "source": "metaculus",
+  "question": "Will NAD+ boosters be shown in a systematic review to increase human lifespan by >=5% by 2030?",
+  "resolution_criteria": "Long-term supplementation of NAD+ boosters such as Nicotinamide Riboside and Nicotinamide Mononucleotide have been demonstrated to increase lifespan in animal models.\n\nHuman clinical trials are ongoing, with published papers demonstrating:\n\n + Safety and increase in NAD+ levels. ([1],[2])\n + Insulin sensitivity unchanged. ([1])\n + Cardiac biomarkers seem to improve. ([3])\n\nWill a systematic review of human trials conclude by 2030 that NAD+ boosting is effective in increasing human lifespan by >5%?\n\nThis question will resolve positive if at any point until 2030 a systematic review of clinical trials of NAD+ boosting will explicitly mention a lifespan improvement of at least 5% in humans. (results in animal models or lifespan estimation based on results in treatment of diseases are not enough for positive resolution)\n\n[1]: https://pubmed.ncbi.nlm.nih.gov/29992272/\n\n[2]: https://pubmed.ncbi.nlm.nih.gov/29211728/\n\n[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5876407/",
+  "background": "",
+  "url": "https://www.metaculus.com/questions/4290",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.05",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "VLTO_2025-06-22",
+  "source": "yfinance",
+  "question": "Will VLTO's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VLTO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 98.210. (The latest market close price of VLTO.)",
+  "background": "Veralto Corporation provides water analytics, water treatment, marking and coding, and packaging and color solutions worldwide. It operates through two segments, Water Quality (WQ) and Product Quality & Innovation (PQI). The WQ segment offers precision instrumentation and water treatment technologies to measure, analyze, and treat water in residential, commercial, municipal, industrial, research, and natural resource applications under the Hach, Trojan Technologies, ChemTreat, and other brands. This segment also provides water solutions, including chemical reagents, services, and digital solutions. The PQI segment offers marking and coding for packaged goods and related consumables; a software solution that provides digital asset management, marketing resource management, and product information management; inline printing solutions for products and packaging with marking and coding systems; design software and imaging systems for the creation of new packaging designs; color management solutions for printed packages and consumer and industrial products; and color standard services for the design industry. This segment sells its products and services through the Videojet, Linx, Esko, X-Rite, and Pantone brands. The company serves industries, such as municipal utilities, food and beverage, pharmaceutical, and industrials. The company was formerly known as DH EAS Holding Corp. and changed its name to Veralto Corporation in February 2023. Veralto Corporation was incorporated in 2022 and is headquartered in Waltham, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/VLTO",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

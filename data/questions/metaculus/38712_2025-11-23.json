@@ -1,0 +1,14 @@
+{
+  "id": "38712_2025-11-23",
+  "source": "metaculus",
+  "question": "Will any new country attack Israel or Iran between June and December 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, after June 30, 2025 and before January 1, 2026, any country besides Israel, Iran, Palestine, or the US attacks Israel or Iran.\n\nFor the purposes of this question, an attack is defined as either:\n\n* A kinetic, explosive, chemical, or nuclear attack targeting officials, infrastructure, or the military, occurring within the borders of Israel or Iran. (See Fine Print for detailed explanation of Israel's borders.)\n* At least 20 official military personnel entering the internationally recognised land borders of Israel or Iran, without the Israel or Iran's overt permission.",
+  "background": "The [Iran-Israel war](https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war) began June 13, 2025, with Israel attacking Iranian military targets and nuclear facilities, killing top military leaders, regime officials and nuclear scientists. In response Iran launched missile and drone attacks on Israel. At the time of this question, both sides have continued striking the other, causing daily casualties and damage in both countries. On June 21, 2025, the United States joined the conflict by [striking](https://www.cnn.com/world/live-news/israel-iran-conflict-06-21-25-intl-hnk) nuclear facilities in Iran with six B-2 bombers dropping a dozen GBU-57A/B \"bunker buster\" bombs and submarines launching 30 Tomahawk missiles. Two days later, Iran [retaliated](https://fox8.com/news/iran-retaliates-launching-missile-attack-on-us-base-in-qatar/) by launching missile attacks on US bases in Qatar and Iraq.",
+  "url": "https://www.metaculus.com/questions/38712",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.02",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xe64a95a022a9012b0e5cba0c4c3c8e81caf10f7dd5a091c24714ed154e02c13c_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Galatasaray win the 2025\u201326 Champions League?",
+  "resolution_criteria": "This is a polymarket on whether the listed team will win the 2025\u201326 UEFA Champions League.\n\nThis market will resolve to \"Yes\" if the listed team is officially crowned the winner of the 2025\u201326 UEFA Champions League. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed team to win the tournament (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 UEFA Champions League is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from UEFA Champions League (https://www.uefa.com/uefachampionsleague/). A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-galatasaray-win-the-202526-champions-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-05-31",
+  "market_value": "0.0035",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

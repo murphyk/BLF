@@ -1,0 +1,23 @@
+{
+  "id": "TREAST_2025-03-30",
+  "source": "fred",
+  "question": "Will the total value of US Treasury securities held by the Federal Reserve have increased by each resolution date listed below as compared to its value on 2025-03-30?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/TREAST once the data is published.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 4242202.000. (The latest value released in Assets: Securities Held Outright: U.S. Treasury Securities: All: Wednesday Level from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: The total face value of U.S. Treasury securities held by the Federal Reserve. This total is broken out in the lines below. Purchases or sales of U.S. Treasury securities by the Federal Reserve Bank of New York (FRBNY) are made in the secondary market, or with various foreign official and international organizations that maintain accounts at the Federal Reserve. FRBNY's purchases or sales in the secondary market are conducted only through primary dealers.\n\nBills: The current face value of the Federal Reserve's outright holdings of Treasury bills.\nNotes and bonds, nominal: The current face value of the Federal Reserve's outright holdings of nominal Treasury notes and bonds.\nNotes and bonds, inflation-indexed: The current face value of the Federal Reserve's outright holdings of inflation-indexed Treasury notes and bonds.\nInflation compensation: Inflation compensation reflects adjustments for the effects of inflation to the principal of inflation-indexed securities..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, As of Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/TREAST",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

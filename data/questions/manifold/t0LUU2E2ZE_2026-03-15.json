@@ -1,0 +1,14 @@
+{
+  "id": "t0LUU2E2ZE_2026-03-15",
+  "source": "manifold",
+  "question": "Will the European Commission publish a new quantum strategy document within the next 60 days?",
+  "resolution_criteria": "Resolution criteria:\n\n- YES: The European Commission publicly releases a document, whitepaper, communication, strategy report, or official policy statement that is explicitly about a quantum strategy (e.g., quantum technologies, quantum research strategy) within 60 days from the market creation date.\n\n- NO: No such document is published by the European Commission within that time window.\n\nResolution source:\n\n- Official European Commission website (e.g., https://commission.europa.eu)\n\n- Official EU press releases and statements\n\n- EU policy documentation portals (e.g., EUR-Lex)",
+  "background": "",
+  "url": "https://manifold.markets/Superkael0/will-the-european-commission-publis",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-27",
+  "market_value": "0.546474757624396",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

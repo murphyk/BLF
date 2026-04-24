@@ -1,0 +1,14 @@
+{
+  "id": "0x796f36313d1142d739eafc84298b81832a1fa0efd4d332fdc7f03a9a906ff012_2026-01-04",
+  "source": "polymarket",
+  "question": "Aztec FDV above $800M one day after launch?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Aztec's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Aztec (https://aztec.network/) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/aztec-fdv-above-800m-one-day-after-launch",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-13",
+  "market_value": "0.195",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

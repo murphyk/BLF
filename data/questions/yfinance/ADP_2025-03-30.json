@@ -1,0 +1,23 @@
+{
+  "id": "ADP_2025-03-30",
+  "source": "yfinance",
+  "question": "Will ADP's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ADP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 298.790. (The latest market close price of ADP.)",
+  "background": "Automatic Data Processing, Inc. engages in the provision of cloud-based human capital management (HCM) solutions worldwide. It operates in two segments, Employer Services and Professional Employer Organization (PEO). The Employer Services segment offers strategic, cloud-based platforms, and human resources (HR) outsourcing solutions. This segment's offerings include RUN Powered by ADP, a software platform for small business payroll, HR management, and tax compliance administration; ADP Workforce Now, a HCM solution used across mid-sized and large businesses to manage employees; and ADP Vantage HCM, a solution for HR management, benefits administration, payroll services, time and attendance management, and talent management. The PEO Services segment provides HR and employment administration outsourcing solutions under ADP TotalSource name to businesses through a co-employment model. The segment also provides employee benefits, protection and compliance, talent engagement, expertise, comprehensive outsourcing, and recruitment process outsourcing services. The company was founded in 1949 and is headquartered in Roseland, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/ADP",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

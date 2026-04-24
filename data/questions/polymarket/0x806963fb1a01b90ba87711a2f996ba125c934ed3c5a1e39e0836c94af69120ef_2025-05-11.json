@@ -1,0 +1,15 @@
+{
+  "id": "0x806963fb1a01b90ba87711a2f996ba125c934ed3c5a1e39e0836c94af69120ef_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Bitcoin reach $120,000 by December 31, 2025?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 30, 2024, 20:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $120,000 or higher. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTCUSDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-reach-120000-by-december-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-07-14",
+  "market_value": "0.54",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

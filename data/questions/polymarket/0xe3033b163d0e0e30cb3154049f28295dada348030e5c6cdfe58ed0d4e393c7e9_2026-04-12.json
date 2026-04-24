@@ -1,0 +1,14 @@
+{
+  "id": "0xe3033b163d0e0e30cb3154049f28295dada348030e5c6cdfe58ed0d4e393c7e9_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Thomas Massie be the Republican nominee for KY-04?",
+  "resolution_criteria": "This market will resolve according to the candidate who wins the nomination for the Republican Party to contest the KY-04 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The Republican primary will take place on May 19, 2026.\n\nIf no nominee is announced by November 3, 2026, 11:59PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be a consensus of official Republican sources, including https://www.rnc.org/.\n\nAny replacement of the nominee before election day will not change the resolution of the market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-thomas-massie-be-the-republican-nominee-for-ky-04",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.645",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

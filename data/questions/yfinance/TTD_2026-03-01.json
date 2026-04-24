@@ -1,0 +1,17 @@
+{
+  "id": "TTD_2026-03-01",
+  "source": "yfinance",
+  "question": "Will TTD's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TTD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 25.500. (The latest market close price of TTD.)",
+  "background": "The Trade Desk, Inc. operates as a technology company in the United States and internationally. The company offers a self-service cloud-based ad-buying platform that allows buyers to plan, manage, optimize, and measure data-driven digital advertising campaigns across various ad formats and channels, including video, display, audio, digital-out-of-home, native, and social on various devices, such as computers, mobile devices, televisions, and streaming devices. It provides data and other value-added services. The company serves advertising agencies, advertisers, and other service providers for agencies or advertisers. The Trade Desk, Inc. was incorporated in 2009 and is headquartered in Ventura, California.",
+  "url": "https://finance.yahoo.com/quote/TTD",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xc4170a15840e61b89216fcdf6368f63486b51f037e5c0546d63ae75b14fa5c2a_2026-03-29",
+  "source": "polymarket",
+  "question": "Military action against Iran continues through March 31, 2026?",
+  "resolution_criteria": "This market will resolve according to the next date Iran Standard Time (GMT+3:30), on which neither the US nor Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate. \n\nIf the date/time of a qualifying strike cannot be confirmed by a consensus of credible reporting by the end of the third calendar day after the listed date, the respective market will resolve to \"Yes\" regardless of whether a strike is later confirmed to have occurred. If strikes could be verified under the prior rule for each listed day, this market will resolve to \"Military action continues through March 31.\"\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by US or Israeli military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by an US/Israeli missile, this will qualify).\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be considered, regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by US/Israeli ground operatives will not be considered.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/military-action-against-iran-continues-through-march-31-2026",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.89",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

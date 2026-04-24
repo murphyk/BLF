@@ -1,0 +1,6 @@
+{
+  "category": "Weather & Climate",
+  "suggested_category": null,
+  "justification": "The question asks for a forecast of daily average temperatures at a specific weather station based on meteorological data.",
+  "question": "What is the probability that the daily average temperature at the French weather station at Bordeaux\u2013M\u00e9rignac Airport will be higher on each resolution date listed below than on 2025-05-25?"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DDOG_2026-01-18",
+  "source": "yfinance",
+  "question": "Will DDOG's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DDOG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 141.450. (The latest market close price of DDOG.)",
+  "background": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, digital experience monitoring, continuous profiler, database monitoring, data observability, universal service monitoring, network monitoring, error tracking, incident management, workflow automation, observability pipelines, cloud cost and cloud security management, application security management, cloud SIEM, sensitive data scanner, event management and CI and LLM visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/DDOG",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

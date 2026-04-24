@@ -1,0 +1,21 @@
+{
+  "id": "BKNG_2025-05-25",
+  "source": "yfinance",
+  "question": "Will BKNG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BKNG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 5191.120. (The latest market close price of BKNG.)",
+  "background": "Booking Holdings Inc., together with its subsidiaries, provides online and traditional travel and restaurant reservations and related services in the United States, the Netherlands, and internationally. The company operates Booking.com, which offers online accommodation reservations; and Priceline, which provides discount travel reservations services, as well as online accommodation, flight, rental car reservation services, vacation packages, cruises, activity, and hotel distribution services for partners and affiliates. It also operates Agoda that offers online accommodation reservation, flight, ground transportation, and activities reservation services. In addition, the company operates KAYAK, an online meta-search service that allows consumers to search and compare travel itineraries and prices; and OpenTable for booking online restaurant reservations, as well as reservation management services to restaurants. Further, it offers travel-related insurance products and restaurant management services to consumers, travel service providers, and restaurants; and advertising services. The company was formerly known as The Priceline Group Inc. and changed its name to Booking Holdings Inc. in February 2018. Booking Holdings Inc. was founded in 1997 and is headquartered in Norwalk, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/BKNG",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

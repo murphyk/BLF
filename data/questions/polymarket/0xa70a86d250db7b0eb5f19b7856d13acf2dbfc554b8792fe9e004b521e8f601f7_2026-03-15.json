@@ -1,0 +1,14 @@
+{
+  "id": "0xa70a86d250db7b0eb5f19b7856d13acf2dbfc554b8792fe9e004b521e8f601f7_2026-03-15",
+  "source": "polymarket",
+  "question": "Will the U.S. test a nuclear weapon by March 31 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US conducts a nuclear test by the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nA nuclear test is defined as the intentional non-combat detonation of a device by the US that produces a nuclear chain reaction (fission or fusion), regardless of yield.\n\nAccidents, radiological dispersal devices (bombs that spread radioactive material using conventional explosives such as \"dirty bombs\"), or actions by third parties will not count toward this market's resolution.\n\nTests not explicitly claimed by US may still qualify if a clear consensus of credible reporting attributes the nuclear detonation to US. For example, an unclaimed nuclear test analogous to the 1979 \"Vela Incident\" would count if credible reporting attributes it to the US.\n\nThe resolution source for this market will be a broad consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-test-a-nuclear-weapon-by-march-31-2026",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.0335",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

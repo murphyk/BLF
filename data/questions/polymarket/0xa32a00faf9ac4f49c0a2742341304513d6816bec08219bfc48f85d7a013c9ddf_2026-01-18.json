@@ -1,0 +1,14 @@
+{
+  "id": "0xa32a00faf9ac4f49c0a2742341304513d6816bec08219bfc48f85d7a013c9ddf_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Moonshot have the best AI model at the end of January 2026?",
+  "resolution_criteria": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on January 31, 2026, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the highest arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g., if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-moonshot-have-the-best-ai-model-at-the-end-of-january-2026",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-31",
+  "market_value": "0.0005",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

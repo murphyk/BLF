@@ -1,0 +1,14 @@
+{
+  "id": "11045_2026-04-12",
+  "source": "metaculus",
+  "question": "Will a Democrat win the 2028 US presidential election?",
+  "resolution_criteria": "This question will resolve as **Yes** if a candidate from the [Democratic](https://en.wikipedia.org/wiki/Democratic_Party_\\(United_States\\)) Party receives the most votes in the [Electoral College](https://en.wikipedia.org/wiki/Electoral_College_\\(United_States\\)) in the 2028 US Presidential Election.  It will resolve on the date Congress certifies the votes, or when Congress selects the President in the case a candidate does not receive a majority.",
+  "background": "Every 4 years, the United States elects a president with its unique system of [the Electoral College](https://en.wikipedia.org/wiki/United_States_Electoral_College).  A candidate must secure the majority of Electoral College votes, following the process outlined in the [Twelfth Amendment](https://en.wikipedia.org/wiki/Twelfth_Amendment_to_the_United_States_Constitution) to the US Constitution.\n\nThe 2028 United States Presidential Election is set to be held on November 7, 2028.",
+  "url": "https://www.metaculus.com/questions/11045",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.63",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

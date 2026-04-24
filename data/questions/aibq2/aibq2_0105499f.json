@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_0105499f",
+  "source": "aibq2",
+  "question": "Will WorldAtlas.com display the body of water northwest of the Caribbean Sea as the Gulf of America before July 1, 2025?",
+  "background": "World Atlas article: [Gulf Of Mexico (Gulf of America)](https://www.worldatlas.com/gulfs/gulf-of-mexico.html)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the World Atlas website at its [North America](https://www.worldatlas.com/webimage/countrys/na.htm) page displays the body of water west of Florida, south of Louisiana and north of the Yucat\u00e1n Peninsula as the Gulf of America. (At the time of this question, the name displayed is the Gulf of Mexico.)\n\nFine print:\nIn case both names are used, for example \"Gulf of America formerly known as Gulf of Mexico,\" this question resolves as Yes. Note that verification will be from Metaculus admins accessing the webpage from the United States and that therefore resolution will be based on how the page appears when accessed from that location.",
+  "url": "https://www.worldatlas.com/gulfs/gulf-of-mexico.html",
+  "forecast_due_date": "2025-05-08",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "1654_2026-04-12",
+  "source": "infer",
+  "question": "Will China, Russia, the U.S., or the EU publicly announce new economic or trade sanctions that specifically target a state-owned oil or gas entity in Egypt, Jordan, or the United Arab Emirates (UAE) by 30 June 2026?",
+  "resolution_criteria": "This question will resolve through official government announcements and/or reports from credible news outlets. We define sanction as \u201cthe withdrawal of customary trade and financial relations for foreign- and security-policy purposes\u201d ( CFR ). Sanctions must target a specific company or organization for the question to resolve as \u201cYes.\u201d Sanctions against an individual will not be sufficient for resolution. &nbsp;",
+  "background": "The imposition of new economic sanctions or trade restrictions by China, Russia, the United States, or the European Union on state-owned oil or gas entities in the MENA region would shape investment climates and energy flows. Key sanctions trackers include the U.S. Office of Foreign Assets Control (OFAC) Sanctions Programs and Country Information and the European Commission EU sanctions tracker .&nbsp; &nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1654",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.018500000000000003",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The crowd forecast."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.61996.D_2025-05-25",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Amsterdam Island will be higher on each resolution date listed below than on 2025-05-25?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D once the data is published.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 16.775. (The daily average temperature at the French weather station at Amsterdam Island.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - NOUVELLE AMSTERDAM - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61996.D",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

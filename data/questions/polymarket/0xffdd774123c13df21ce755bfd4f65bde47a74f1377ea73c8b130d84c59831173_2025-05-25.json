@@ -1,0 +1,15 @@
+{
+  "id": "0xffdd774123c13df21ce755bfd4f65bde47a74f1377ea73c8b130d84c59831173_2025-05-25",
+  "source": "polymarket",
+  "question": "No change in Fed interest rates after June 2025 meeting?",
+  "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's June 2025 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC\u2019s statement after its meeting scheduled for June 17 - 18, 2025 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC\u2019s statement for their June meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+  "background": "",
+  "url": "https://polymarket.com/market/no-change-in-fed-interest-rates-after-june-2025-meeting",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-18",
+  "market_value": "0.885",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x2e24ca91d308d503fa3711b0ff3b4c40e0d971e72bbc8012448c0ece02328a69_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Russia capture Rodynske by December 31?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if, according to the ISW map, Russia captures the intersection between T-05-15 and Shakhtarskoi Slavy vulytsia located in Rodyns'ke by December 31, 2025, at 11:59 PM ET.\n\nThe intersection station will be considered captured if any part of the intersection is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by December 31, 2025, 11:59 PM ET, the market will resolve to \u201cNo\u201d.\n\nIf Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of whether it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.\n\nOnce Russia captures the intersection, any subsequent loss of control will not be considered towards the resolution of this market.\n\nIntersection Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/rodynske+intersection+zoom.png\n\nIntersection Location in Rodyns'ke: https://polymarket-upload.s3.us-east-2.amazonaws.com/rodynske+intersection.png\n\nRodyns'ke location: https://polymarket-upload.s3.us-east-2.amazonaws.com/rodynske.jpeg\n\nLocation on Google maps:  https://maps.app.goo.gl/oFYUB5RUaKXaPvVT9\n\nThe primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.\n\nNote: Any temporary glitches or errors in the map will not be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-capture-rodynske-by-december-31",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.795",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

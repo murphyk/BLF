@@ -1,0 +1,14 @@
+{
+  "id": "25578_2026-04-12",
+  "source": "metaculus",
+  "question": "By 2030, will there be a synthetic protein fiber costing less than nylon?",
+  "resolution_criteria": "This question resolves as **Yes** if, at any point before January 1, 2030, there is a synthetic protein fiber available for open market purchase at a price cheaper than nylon.",
+  "background": "There are several sources used nowadays for spinning yarn to make clothes and other textile products.\n\nOne source is natural protein fibers such as cotton, wool and silk. Another is synthetic fibers; some of these are called semi-synthetic, as they are produced from plant-based cellulose, like wood pulp. Examples include rayon and viscose. Then there are fully synthetic fibers, usually made from fossil fuels by polymerization of certain petrochemicals, among which are nylon and polyester.\n\nOne emerging area of research is to use synthetic biology processes to produce protein fibers. Possible pathways include cultured cells, genetically-modified organisms and protein design.\n\nWe want to forecast when one such fiber will be available for cheaper than a widely-available commodity synthetic fiber, using nylon as the reference. Although polyester is the most produced fiber, we have chosen nylon because it is 30 times more expensive per unit, higher quality than polyester, and thus more vulnerable to potential economic disruption from synbio, which makes it a more achievable goal for the industry. \n\nMultiple companies are currently working on this. Lululemon for example has recently [partnered](https://www.genomatica.com/nylon/) with Genomatica to develop a plant-based nylon to replace some of the petroleum-based nylon in [some](https://www.retaildive.com/news/lululemon-geno-plant-based-nylon-shirts/648222/) of its apparel.  For more information and context please see the following report from the Boston Consulting Group: [Synthetic Biology Is About to Disrupt Your Industry](https://www.bcg.com/publications/2022/synthetic-biology-is-about-to-disrupt-your-industry)",
+  "url": "https://www.metaculus.com/questions/25578",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.022",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

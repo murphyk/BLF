@@ -1,0 +1,15 @@
+{
+  "id": "0xdf26e0868001c55b6ece885a3012633eb5c31afb17c76ad9423a2de99b3aa4b6_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Brad Lander win second place in the 2025 NYC mayoral election?",
+  "resolution_criteria": "The 2025 New York City mayoral election will be held on November 4, 2025, to elect the mayor of New York City.\n\nThis market will resolve according to the candidate candidate that wins the second most votes in this election.\n\nThe primary resolution source for this market will be a consensus of credible reporting, however if there is any ambiguity in the results this market will resolve according to official information from New York City.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-brad-lander-win-second-place-in-the-2025-nyc-mayoral-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.0005",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

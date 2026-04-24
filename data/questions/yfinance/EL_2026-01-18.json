@@ -1,0 +1,17 @@
+{
+  "id": "EL_2026-01-18",
+  "source": "yfinance",
+  "question": "Will EL's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 105.270. (The latest market close price of EL.)",
+  "background": "The Est\u00e9e Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The company offers skin care products, including moisturizers, serums, cleansers, toners, eye care, body care, exfoliators, acne care and oil correctors, facial masks, and sun care products; and makeup products, such as foundations, powders, concealers and setting sprays, lipsticks, lip liners and lip glosses, mascaras, and eyeshadows and eyeliners, as well as compacts, brushes, and other makeup tools. It also provides fragrance products in various forms comprising parfum, eau de parfum, eau de toilette, eau de cologne, and body spray, as well as lotions, creams, powders, candles and soaps; and hair care products, including shampoos, conditioners, styling products, treatment, finishing sprays, and hair colour products, as well as sells ancillary products and services. The company offers its products under the La Mer, Jo Malone London, TOM FORD, AERIN Beauty, Le Labo, Editions de Parfums Fr\u00e9d\u00e9ric Malle, KILIAN PARIS, BALMAIN Beauty, Est\u00e9e Lauder, Clinique, M\u00b7A\u00b7C, The Ordinary, Aveda, Bobbi Brown Cosmetics, Too Faced, Dr.Jart+, Bumble and bumble, Editions de Parfums Fr\u00e9d\u00e9ric Malle, Smashbox, Darphin Paris, Lab Series, NIOD, Aramis, and GLAMGLOW brands. It sells its products through department stores, duty-free retailers, specialty multi retailers, online pure players, upscale perfumeries and pharmacies, and top-tier salons and spas, as well as direct-to-consumer businesses across freestanding stores, and brand websites and third-party online platforms. The Est\u00e9e Lauder Companies Inc. was founded in 1946 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/EL",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

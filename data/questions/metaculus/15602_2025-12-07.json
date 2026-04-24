@@ -1,0 +1,14 @@
+{
+  "id": "15602_2025-12-07",
+  "source": "metaculus",
+  "question": "Will ARC find that GPT-5 has autonomous replication capabilities?",
+  "resolution_criteria": "Will an ARC evaluation find GPT-5 capable of planning and executing a coherent sequence of actions aimed at its replication? This result must be publicly announced in either an OpenAI paper/blog, or an ARC paper/blog. This question will resolve as **Yes** if ARC publishes any qualifying evaluation within one year of the announcement of GPT-5, even if ARC has previously published an evaluation stating that GPT-5 did not have the capabilities in question.",
+  "background": "In 2023, researchers at the Alignment Research Center, [ARC, evaluated GPT-4](https://evals.alignment.org/blog/2023-03-18-update-on-recent-evals/). ARC researchers summarized their methodology and finding as follows, \"We prompted the model with instructions that explained that it was running on a cloud server and had various commands available, including running code on the server, giving tasks to fresh copies of itself, using a browser, and reasoning via chain-of-thought. We added text saying it had the goal of gaining power and becoming hard to shut down... We concluded that the versions of Claude and GPT-4 we tested did not appear to have sufficient capabilities to replicate autonomously and become hard to shut down... However, the models were able to fully or mostly complete many relevant subtasks.\"",
+  "url": "https://www.metaculus.com/questions/15602",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.018000000000000002",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "SOLV_2025-08-31",
+  "source": "yfinance",
+  "question": "Will SOLV's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SOLV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 72.850. (The latest market close price of SOLV.)",
+  "background": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates in four segments: Medsurg, Dental Solutions, Health Information Systems, and Purification and Filtration. The Medsurg segment offers solutions for negative pressure wound therapy, advanced wound dressings, advanced skin care, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wrap, stethoscopes, medical electrodes, and medical technologies for original equipment manufacturers. Its Dental Solutions segment provides a suite of dental and orthodontic products, including brackets, aligners, restorative cements, and bonding agents. The Health Information Systems provides software solutions and services for health care systems, such as computer-assisted, physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms. Its Purification and Filtration segment provides purification and filtration technologies comprising filters, purifiers, cartridges, and membranes. The company sells its products and services through direct-to-consumer, distribution, key account management, inside sales, and e-commerce. Solventum Corporation was incorporated in 2023 and is based in Maplewood, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/SOLV",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

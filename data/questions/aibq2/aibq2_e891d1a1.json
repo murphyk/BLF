@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_e891d1a1",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the International Traditional Karate Federation announce that Egypt has been chosen to host the 2026 Traditional Karate World Championship?",
+  "background": "VetoGate Egypt: [Ashraf Sobhi discusses hosting the 2026 World Cup with the President of the International Traditional Karate Federation](https://www.vetogate.com/5400045)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the International Traditional Karate Federation announces that Egypt has been chosen to host the 2026 Traditional Karate World Championship.",
+  "url": "https://www.vetogate.com/5400045",
+  "forecast_due_date": "2025-05-08",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

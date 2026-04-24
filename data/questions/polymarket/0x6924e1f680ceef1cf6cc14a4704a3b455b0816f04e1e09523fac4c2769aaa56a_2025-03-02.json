@@ -1,0 +1,15 @@
+{
+  "id": "0x6924e1f680ceef1cf6cc14a4704a3b455b0816f04e1e09523fac4c2769aaa56a_2025-03-02",
+  "source": "polymarket",
+  "question": "Was JFK assassination an inside job?",
+  "resolution_criteria": "On January 23, President Trump signed an executive order for the declassification of the records on JFK's assassination (see: https://www.whitehouse.gov/presidential-actions/2025/01/declassification-of-records-concerning-the-assassinations-of-president-john-f-kenned/)\n\nThis market will resolve to \"Yes\" if by March 31, 2025, 11:59 PM ET, definitive evidence is made public confirming that the US government orchestrated or was directly involved in the assassination of John F. Kennedy. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be publicly released information from the U.S. government.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/was-jfk-assassination-an-inside-job-march-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.0335",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

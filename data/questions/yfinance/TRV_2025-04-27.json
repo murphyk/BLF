@@ -1,0 +1,21 @@
+{
+  "id": "TRV_2025-04-27",
+  "source": "yfinance",
+  "question": "Will TRV's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TRV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 252.480. (The latest market close price of TRV.)",
+  "background": "The Travelers Companies, Inc., through its subsidiaries, provides a range of commercial and personal property, and casualty insurance products and services to businesses, government units, associations, and individuals in the United States and internationally. The company operates through three segments: Business Insurance, Bond & Specialty Insurance, and Personal Insurance. The Business Insurance segment offers workers' compensation, commercial automobile and property, general liability, commercial multi-peril, employers' liability, public and product liability, professional indemnity, marine, aviation, onshore and offshore energy, construction, terrorism, personal accident, and kidnap and ransom insurance products. This segment operates through select accounts, which serve small businesses; commercial accounts that serve mid-sized businesses; national accounts, which serve large companies; and national property and other that serve large and mid-sized customers, commercial trucking industry, and agricultural businesses, as well as markets and distributes its products through brokers, wholesale agents, and program managers. The Bond & Specialty Insurance segment provides surety, fidelity, management and professional liability, and other property and casualty coverages and related risk management services through independent agencies and brokers. The Personal Insurance segment offers property and casualty insurance covering personal risks, primarily automobile and homeowners' insurance to individuals through independent agencies and brokers. The Travelers Companies, Inc. was founded in 1853 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/TRV",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

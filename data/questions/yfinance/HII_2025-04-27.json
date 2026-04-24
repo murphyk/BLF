@@ -1,0 +1,21 @@
+{
+  "id": "HII_2025-04-27",
+  "source": "yfinance",
+  "question": "Will HII's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HII for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 215.600. (The latest market close price of HII.)",
+  "background": "Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships; expeditionary warfare ships; surface combatants; and national security cutters for the U.S. Navy and U.S. Coast Guard. It also provides nuclear-powered ships, such as aircraft carriers and submarines, as well as refueling and overhaul, and inactivation services of nuclear-powered aircraft carriers. In addition, the company offers naval nuclear support services, including fleet services comprising design, construction, maintenance, and disposal activities for in-service the U.S. Navy nuclear ships; and maintenance services on nuclear reactor prototypes. Further, the company provides C5ISR systems and operations; application of artificial intelligence and machine learning to battlefield decisions; defensive and offensive cyberspace strategies and electronic warfare; uncrewed autonomous systems; live, virtual, and constructive solutions; and fleet sustainment; and critical nuclear operations. Huntington Ingalls Industries, Inc. was founded in 1886 and is headquartered in Newport News, Virginia.",
+  "url": "https://finance.yahoo.com/quote/HII",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

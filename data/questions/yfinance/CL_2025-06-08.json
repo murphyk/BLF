@@ -1,0 +1,21 @@
+{
+  "id": "CL_2025-06-08",
+  "source": "yfinance",
+  "question": "Will CL's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 92.430. (The latest market close price of CL.)",
+  "background": "Colgate-Palmolive Company, together with its subsidiaries, manufactures and sells consumer products in the United States and internationally. It operates through two segments: Oral, Personal and Home Care; and Pet Nutrition. The Oral, Personal and Home Care segment offers toothpaste, toothbrushes, mouthwash, bar and liquid hand soaps, shower gels, shampoos, conditioners, deodorants and antiperspirants, skin health products, dishwashing detergents, fabric conditioners, household cleaners, and other related items. This segment markets and sells its products under the Colgate, Palmolive, Darlie, elmex, hello, meridol, Sorriso, Tom's of Maine, EltaMD, Filorga, Irish Spring, Protex, Sanex, Softsoap, Lady Speed Stick, Speed Stick, PCA SKIN, Ajax, Axion, Fabuloso, Murphy, Suavitel, and Soupline brands to a range of traditional and eCommerce retailers, wholesalers, and distributors, as well as dentists and skin health professionals. It also offers pharmaceutical products for dentists and other oral health professionals. The Pet Nutrition segment offers pet nutrition products for everyday nutritional needs under the Hill's Science Diet brand; and a range of therapeutic pet products to help nutritionally support dogs and cats in different stages of health under the Hill's Prescription Diet brand. This segment markets and sells its products through pet supply retailers, veterinarians, and eCommerce retailers. Colgate-Palmolive Company was founded in 1806 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/CL",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

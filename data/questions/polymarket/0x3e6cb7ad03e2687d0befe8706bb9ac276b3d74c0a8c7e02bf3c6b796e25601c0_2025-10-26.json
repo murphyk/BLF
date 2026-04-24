@@ -1,0 +1,14 @@
+{
+  "id": "0x3e6cb7ad03e2687d0befe8706bb9ac276b3d74c0a8c7e02bf3c6b796e25601c0_2025-10-26",
+  "source": "polymarket",
+  "question": "Will the Kansas City Chiefs win the AFC West?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Kansas City Chiefs win the AFC West in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Kansas City Chiefs team to win the AFC West based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-kansas-city-chiefs-win-the-afc-west-1",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-08",
+  "market_value": "0.42",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

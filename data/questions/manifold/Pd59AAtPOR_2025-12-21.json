@@ -1,0 +1,14 @@
+{
+  "id": "Pd59AAtPOR_2025-12-21",
+  "source": "manifold",
+  "question": "US-Iran nuclear deal in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if an official agreement over Iranian nuclear research and/or nuclear weapon development, defined as a publicly announced mutual agreement, is reached between the United States and Iran between February 4, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf such an agreement is officially reached before the resolution date, this market will resolve to \"Yes\", regardless of if/when the agreement goes into effect.\n\nAgreements that include the United States and Iran as parties, even if they also involve other countries (e.g., a multilateral deal like the JCPOA), will qualify for resolution.\n\nThe primary resolution source for this market will be an official announcement by the United States and/or the Islamic Republic of Iran, however an overwhelming consensus of credible reporting confirming an agreement has been reached will also qualify.\n\nUpdate 2025-06-17 (PST) (AI summary of creator comment): A deal will count if it is made with whatever governing body is considered to be Iran, even if it is a successor regime to the Islamic Republic of Iran.",
+  "background": "",
+  "url": "https://manifold.markets/HillaryClinton/usiran-nuclear-deal-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.015093371795856",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market value."
+}

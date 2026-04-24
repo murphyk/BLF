@@ -1,0 +1,15 @@
+{
+  "id": "35570_2025-08-03",
+  "source": "metaculus",
+  "question": "\u00bfSubir\u00e1n los precios de la vivienda en la ciudad de Madrid m\u00e1s de un 18% en 2025?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como **S\u00ed** si, seg\u00fan los datos de precios de venta publicados en el [<u>portal Idealista</u>](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/madrid-comunidad/madrid-provincia/madrid/), el precio medio de la vivienda en la **ciudad de Madrid** por metro cuadrado sube m\u00e1s de un 18% desde diciembre de 2024 hasta diciembre de 2025. Se resolver\u00e1 como **No** si el aumento es del 18% o menos, o si hay una disminuci\u00f3n de los precios.",
+  "background": "En 2024, los precios de la vivienda en la ciudad de Madrid subieron un 20%, y se espera que el mercado inmobiliario de Madrid contin\u00fae su trayectoria ascendente en 2025. Seg\u00fan informa\u00a0[<u>Caixabank Research</u>](https://www.caixabankresearch.com/en/sectoral-analysis/real-estate/spanish-real-estate-market-2024-2025-expansive-mode), el estado actual del mercado inmobiliario espa\u00f1ol se caracteriza, en t\u00e9rminos generales, por la fortaleza de la demanda y la escasez de oferta.\u00a0[<u>Pronostican</u>](https://www.caixabankresearch.com/en/sectoral-analysis/real-estate/new-forecasts-spanish-real-estate-sector-expansionary-cycle-takes)\u00a0un aumento del 6%-7% para los precios de la vivienda en Espa\u00f1a.",
+  "url": "https://www.metaculus.com/questions/35570",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.25",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The community prediction."
+}

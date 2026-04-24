@@ -1,0 +1,21 @@
+{
+  "id": "CCSA_2025-06-08",
+  "source": "fred",
+  "question": "Will the number of insured unemployment claims have increased by each resolution date listed below as compared to its value on 2025-06-08?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/CCSA once the data is published.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 1903000.000. (The latest value released in Continued Claims (Insured Unemployment) from the release Unemployment Insurance Weekly Claims Report.)",
+  "background": "The notes from the release: N/A.  The notes from the series: Continued claims, also referred to as insured unemployment, is the number of people who have already filed an initial claim and who have experienced a week of unemployment and then filed a continued claim to claim benefits for that week of unemployment. Continued claims data are based on the week of unemployment, not the week when the initial claim was filed..  Additional background of the series:  1. the units of the series: Number.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Saturday ",
+  "url": "https://fred.stlouisfed.org/series/CCSA",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

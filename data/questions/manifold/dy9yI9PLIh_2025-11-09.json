@@ -1,0 +1,14 @@
+{
+  "id": "dy9yI9PLIh_2025-11-09",
+  "source": "manifold",
+  "question": "Will Iran experience regime change in 2025?",
+  "resolution_criteria": "Resolution Criteria\n\nThis market will resolve YES if the current Iranian regime loses control of the central government in Tehran during calendar year 2025. This includes:\n\nA successful revolution or coup that removes the Supreme Leader and/or key government institutions\n\nThe current system of government being formally dissolved or replaced\n\nKey regime leaders fleeing the country due to loss of control\n\nThe market will resolve NO if:\n\nThe current regime maintains control through 2025\n\nChanges occur within the existing system (e.g. leadership succession)\n\nProtests or unrest occur but don't result in regime collapse (including civil war)\n\nConsiderations\n\nWhile Iran has experienced several periods of significant unrest, the last successful regime change was the 1979 Islamic Revolution\n\nThe regime maintains strong control over security forces and key economic institutions\n\nPrevious predictions of regime collapse have not materialized despite similar pressures\n\nThe impact of regional conflicts and international relations could significantly affect regime stability\n\nRelated question \n\n(https://manifold.markets/embed/MarcusAbramovitch/will-ali-khamenei-remain-supreme-le-9ecdaf5cd5d8?play=true)",
+  "background": "",
+  "url": "https://manifold.markets/LuisPedroCoelho/will-iran-experience-regime-change",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.034030759946441",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market value."
+}

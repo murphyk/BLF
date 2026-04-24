@@ -1,0 +1,17 @@
+{
+  "id": "4abea952feac95b930f3a577254e2b03792097e8c95ed1e4d70cd14533c086d5_2026-01-04",
+  "source": "acled",
+  "question": "Will there be more than ten times as many 'Battles' in Nepal for the 30 days before each resolution date listed below compared to one plus the 30-day average of 'Battles' over the 360 days preceding 2026-01-04?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Battles'\n2023-11-11,1\n2023-10-10,2\nto calculate one plus the 30-day average of 'Battles' over the preceding 360 days, we\u2019d have: 1+(1+2)/12=1.25.\n\nIn this example, for the question to resolve positively, 13 (10 x 1.25) or more 'Battles' would need to occur in the 30 days leading up to the resolution.",
+  "resolution_criteria": "Resolves to the value calculated from the ACLED dataset once the data is published.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 1.000. (One plus the 30-day average of 'Battles' over the past 360 days in Nepal. This reference value will potentially change as ACLED updates its dataset.)",
+  "background": "\nACLED classifies events into six distinct categories:\n\n1. Battles: violent interactions between two organized armed groups at a particular time and\n   location;\n2. Protests: in-person public demonstrations of three or more participants in which the participants\n   do not engage in violence, though violence may be used against them;\n3. Riots: violent events where demonstrators or mobs of three or more engage in violent or\n   destructive acts, including but not limited to physical fights, rock throwing, property\n   destruction, etc.;\n4. Explosions/Remote violence: incidents in which one side uses weapon types that, by their nature,\n   are at range and widely destructive;\n5. Violence against civilians: violent events where an organized armed group inflicts violence upon\n   unarmed non-combatants; and\n6. Strategic developments: contextually important information regarding incidents and activities of\n   groups that are not recorded as any of the other event types, yet may trigger future events or\n   contribute to political dynamics within and across states.\n\nDetailed information about the categories can be found at:\nhttps://acleddata.com/knowledge-base/codebook/#acled-events\n",
+  "url": "https://acleddata.com/",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

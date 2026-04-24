@@ -1,0 +1,13 @@
+{
+  "exam": "aibq2-n2",
+  "config": [
+    "flash/thk:high/crowd:1/tools:1"
+  ],
+  "metric": [
+    "brier-index",
+    "metaculus-score"
+  ],
+  "groups": [
+    "overall"
+  ]
+}

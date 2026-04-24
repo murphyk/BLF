@@ -1,0 +1,15 @@
+{
+  "id": "0x9ba0e12a339b01159f86cd697890e24ab2a25749cdaa8beb6a1a744fb4a93610_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Russia capture Pokrovsk by August 31?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if, according to the ISW map, Russia captures St. Michael's church in Pokrovsk located on Hrushevskoho Vulytsia by August 31, 2025, 11:59 PM ET.\n\nThe church will be considered captured if any part of building is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by August 31, 2025, 11:59 PM ET, the market will resolve to \u201cNo\u201d.\n\nOnce Russia captures the church, any subsequent loss of control will not be considered towards the resolution of this market.\n\nIf Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of if it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.\n\nChurch Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovsk+Church+Location.png\n\nPokrovsk Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovosk+Location.png\n\nLocation on Google maps: https://www.google.com/maps/@48.2794472,37.1801207,592m/data=!3m1!1e3\n\nThe primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.\n\nNote: Any temporary glitches or errors in the map which will not be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-capture-pokrovsk-by-august-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-08",
+  "market_value": "0.155",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

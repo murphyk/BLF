@@ -1,0 +1,21 @@
+{
+  "id": "DAY_2025-03-16",
+  "source": "yfinance",
+  "question": "Will DAY's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DAY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 57.230. (The latest market close price of DAY.)",
+  "background": "Dayforce Inc., together with its subsidiaries, operates as a human capital management (HCM) software company in the United States, Canada, Australia, and internationally. The company offers Dayforce, a cloud HCM platform that provides human resources, payroll and tax, workforce management, wallet, benefits, and talent intelligence functionalities; and Powerpay, a cloud HR and payroll solution for the small business market. It also provides payroll and payroll-related services; and professional services for its solutions, which include training and implementation consulting services. In addition, the company is involved in the shipment, rental, maintenance, and sale of payroll time clocks. It sells its solutions through direct sales force and third-party channels. The company was formerly known as Ceridian HCM Holding Inc. and changed its name to Dayforce Inc. in February 2024. Dayforce Inc. was founded in 1992 and is headquartered in Minneapolis, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/DAY",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

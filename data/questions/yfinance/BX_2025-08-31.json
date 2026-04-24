@@ -1,0 +1,21 @@
+{
+  "id": "BX_2025-08-31",
+  "source": "yfinance",
+  "question": "Will BX's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 164.470. (The latest market close price of BX.)",
+  "background": "Blackstone Inc. is an alternative asset management firm specializing in private equity, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies. The firm typically invests in early-stage, seed, middle market, mature, late venture, growth capital, emerging growth and later stage companies. It also provide capital markets services. The real estate segment specializes in opportunistic, core+ investments as well as debt investment opportunities collateralized by commercial real estate, and stabilized income-oriented commercial real estate across North America, Europe and Asia. The firm's corporate private equity business pursues transactions throughout the world across a variety of transaction types, including large buyouts, recapitalization, special situations, distressed mortgage loans, mid-cap buyouts, buy and build platforms, which involves multiple acquisitions behind a single management team and platform, and growth equity/development projects involving significant majority stakes in portfolio companies and minority investments in operating companies, shipping, real estate, corporate or consumer loans, and alternative energy greenfield development projects in energy and power, property, dislocated markets, shipping opportunities, financial institution breakups, re-insurance, and improving freight mobility, financial services, cargo, data processing, oil & gas production, oil & gas refining, oil & gas storage, building products, home entertainment, B2B, consumer electronics, home supply store, lodging, commercial services & supplies, metal & mineral mining machinery, coal, hazardous waste collection, solid waste collection, waste water treatment, renewable electricity, equity REITs, power generation by nuclear & fossil fuels, personal loan services, chemcials, other specialty retail, biotech, pharmaceuticals, metal, aerospace, healthcare, cable, entertainment services, infrastructure services, transportation infrastructure, exhaust, life sciences, alternative carriers, infrastructure, system software, manufacturing services, enterprise tech and consumer, enterprise software & application, as well as consumer technologies. The firm considers investment in Asia and Latin America. It seeks to invest between $0.25 million and $900 million per transaction. It invests in companies with enterprise value between $500 million and $5000 million. It has a three year investment period. The firm prefers to take majority and minority stakes. Its hedge fund business manages a broad range of commingled and customized fund solutions and its credit business focuses on loans, and securities of non-investment grade companies spread across the capital structure including senior debt, subordinated debt, preferred stock and common equity. Blackstone Inc. through its subsidiary South City Projects (Kolkata) Limited offers residential and commercial real estate development services that include development od township, residential towers, malls, IT parks, stadiums, resorts, hospitals, and schools. Blackstone Inc. was founded in 1985 and is headquartered in New York, New York with additional offices across Asia, Europe, North America and Central America.",
+  "url": "https://finance.yahoo.com/quote/BX",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07072.D_2025-12-07",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Reims \u2013 Prunay Aerodrome will be higher on each resolution date listed below than on 2025-12-07?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07072.D once the data is published.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 3.838. (The daily average temperature at the French weather station at Reims \u2013 Prunay Aerodrome.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - REIMS-PRUNAY - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07072.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07072.D",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

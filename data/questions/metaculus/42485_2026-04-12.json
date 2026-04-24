@@ -1,0 +1,14 @@
+{
+  "id": "42485_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Saudi Arabia conduct a direct military strike against Iran before June 1, 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before 23:59 UTC on 31 May 2026, Saudi Arabia publicly claims responsibility for, or is credibly confirmed to have carried out, a direct military strike against Iranian territory or against official Iranian military forces (including the Islamic Revolutionary Guard Corps or the Iranian Army). Eligible actions include, but are not limited to, airstrikes, missile strikes, or other direct military operations conducted by Saudi state forces.",
+  "background": "Tensions between Saudi Arabia and Iran have increased following recent reported attacks, including the [incidents affecting Aramco facilities](https://www.aljazeera.com/video/newsfeed/2026/3/2/missile-debris-sparks-fire-at-saudis-aramco-oil-refinery) and the [attack on the U.S. Embassy in Riyadh](https://www.washingtonpost.com/national-security/2026/03/03/cia-saudi-arabia-drone-attack-iran/). Public statements from Saudi officials have been widely perceived as unusually harsh toward Iran, while the U.S. president\u2019s response to the embassy attack ([\u201cYou\u2019ll find out soon\u201d](https://www.ndtv.com/world-news/iran-us-israel-conflict-middle-east-saudi-arabia-claims-it-intercepted-8-iranian-drones-near-riyadh-al-kharj-11161624)) has fueled speculation about possible larger scale military retaliation. In the Arab world, commentators and observers have debated whether these developments could escalate into a broader regional conflict, including the possibility of direct Saudi military action against Iran.",
+  "url": "https://www.metaculus.com/questions/42485",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.25",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

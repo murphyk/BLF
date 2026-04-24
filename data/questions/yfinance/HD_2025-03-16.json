@@ -1,0 +1,23 @@
+{
+  "id": "HD_2025-03-16",
+  "source": "yfinance",
+  "question": "Will HD's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 386.350. (The latest market close price of HD.)",
+  "background": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and d\u00e9cor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, bath, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, and windows. In addition, it provides tool and equipment rental services. The company primarily serves homeowners; and professional renovators/remodelers, general contractors, maintenance professionals, handymen, property managers, and building service contractors, as well as specialty tradesmen, such as electricians, plumbers, and painters. It sells its products through websites, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; thecompanystore.com, an online site for textiles and d\u00e9cor products; hdsupply.com for maintenance, repair, and operations (MRO) products and related services; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/HD",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

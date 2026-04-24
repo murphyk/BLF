@@ -1,0 +1,14 @@
+{
+  "id": "0x8da154fd9e7dbe6b0f22ab3626f36da576bdbffe533e4528fa7fd3411ae898bc_2025-11-23",
+  "source": "polymarket",
+  "question": "Will OpenAI IPO by December 31 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if OpenAI completes an Initial Public Offering (IPO) by the listed date ET, as confirmed by official company announcements and credible news sources. Otherwise, this market will resolve to \"No\".\n\nThe IPO refers to the first sale of stock by the listed company to the public on any recognized stock exchange.\n\nIf OpenAI is acquired by another company that is already public, this market will immediately resolve to \"No.\"\n\nThe resolution source for this market is a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-openai-ipo-by-december-31-2025",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0135",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

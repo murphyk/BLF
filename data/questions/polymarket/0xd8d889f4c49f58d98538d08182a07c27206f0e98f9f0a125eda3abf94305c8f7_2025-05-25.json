@@ -1,0 +1,15 @@
+{
+  "id": "0xd8d889f4c49f58d98538d08182a07c27206f0e98f9f0a125eda3abf94305c8f7_2025-05-25",
+  "source": "polymarket",
+  "question": "Will the Jets win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the New York Jets win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-jets-win-super-bowl-2026",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-08",
+  "market_value": "0.0095",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

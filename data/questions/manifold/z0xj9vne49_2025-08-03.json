@@ -1,0 +1,15 @@
+{
+  "id": "z0xj9vne49_2025-08-03",
+  "source": "manifold",
+  "question": "Will TSLA reach >$ 550 before 8pm EST on 8/8/25?",
+  "resolution_criteria": "Clarification:\n\nMarket resolves if TSLA reaches >$550 ($550.01+) at any point before 8pm EST on 8/8/25 - this includes After Market but not Overnight trading.\n\nFor After Market trading information: After-Hours Trading: How It Works, Advantages, Risks, Example (investopedia.com)",
+  "background": "",
+  "url": "https://manifold.markets/MattF/will-tsla-reach-550-before-8pm-est",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-08",
+  "market_value": "0.02",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market value."
+}

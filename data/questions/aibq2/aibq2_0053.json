@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0053",
+  "source": "aibq2",
+  "question": "Will GoPro file for bankruptcy before July 1, 2025?",
+  "title_hash": "d231cf37e08c30ea",
+  "background": "[GoPro Announces Fourth Quarter and 2024 Results](https://www.sec.gov/Archives/edgar/data/1500435/000150043525000003/gpro2024-12x31exh991xer.htm)",
+  "resolution_criteria": "This question will resolve as **Yes** if GoPro, Inc., files any petition for bankruptcy protection in the United States, under any chapter of the United States Bankruptcy Code, before July 1, 2025. The question will resolves on the filing of such a petition, not on whether any bankruptcy protection is granted by a court. If no such petition is filed by that date, this question will resolve as **No**.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1500435/000150043525000003/gpro2024-12x31exh991xer.htm",
+  "forecast_due_date": "2025-05-09",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

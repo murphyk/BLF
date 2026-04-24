@@ -1,0 +1,15 @@
+{
+  "id": "0x60e45f2a5cccd16fd60eda5f96670f946b2281b7ce59595b621eee05de4eda49_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Russia abandon Syrian naval base before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Russia abandons the Tartus Naval Facility in Syria by June 30, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nFor the purposes of this market, \"abandon\" is defined as Russia ceasing all military operations and withdrawing all personnel from the facility.\n\nThe resolution source for this market will be a consensus of credible reporting.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-abandon-syrian-naval-base-before-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.085",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

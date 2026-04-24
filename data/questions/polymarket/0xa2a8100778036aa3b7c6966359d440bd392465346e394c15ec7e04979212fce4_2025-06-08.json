@@ -1,0 +1,15 @@
+{
+  "id": "0xa2a8100778036aa3b7c6966359d440bd392465346e394c15ec7e04979212fce4_2025-06-08",
+  "source": "polymarket",
+  "question": "Will MicroStrategy hold 600k+ BTC before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if MicroStrategy Incorporated holds 600,000 or more bitcoins at any point by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will announcements from MicroStrategy or Michael Saylor as to their total BTC holdings.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-microstrategy-hold-600k-btc-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.852",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

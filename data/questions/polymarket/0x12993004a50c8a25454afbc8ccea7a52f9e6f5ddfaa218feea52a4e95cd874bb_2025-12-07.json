@@ -1,0 +1,14 @@
+{
+  "id": "0x12993004a50c8a25454afbc8ccea7a52f9e6f5ddfaa218feea52a4e95cd874bb_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Gold close at $2,700-2,800 at the end of 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the price of the COMEX Gold Continuous Contract (GC00) is between $2,700.00 (inclusive) and $2,800.00 (exclusive) per troy ounce as of the final market close price in 2025. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be COMEX trading data for the Gold Continuous Contract (https://www.google.com/finance/quote/GCW00:COMEX).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-gold-close-at-2700-2800-at-the-end-of-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0015",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sis542tw6o_2025-03-30",
+  "source": "manifold",
+  "question": "Will there be consensus on who Dwarkesh's \"biggest guest yet\" was, before Q3 2025? (Resolves to poll)",
+  "resolution_criteria": "For context, see this tweet.\n\nWithin the next few months, I'm going to be releasing an episode with by far my biggest guest yet.\n\nIf you're interesting in sponsoring it, shoot me an email at sponsor@dwarkeshpatel.com\n\nSee also @/Ziddletwix/will-manifold-agree-that-dwarkeshs \n\nI think it's not clear that these markets will be unambiguous and satisfactorily resolved, therefore I created this one.\n\nResolution\n\n\u200c\nA few separate possibilities to resolution here\n\n1) See: Who is Dwarkesh's upcoming \"biggest guest yet\"? Once that market resolves, I will close this one and run a poll for one week, using the [NAME] that it resolved to.\n\nThe phrasing will be something along the lines of \"Do you agree that [NAME] was the person Dwarkesh alluded  to with the 'by far the biggest guest yet' tweet?\", with options \"Agree\" and \"Disagree\".\n\nIf \"Agree\" has \u226580% of votes, this market resolves YES. If it has less this market resolves to NO.\n\n2) The above market does not resolve before Q2 2025, but one alternative has traded at \u226580% consistently over a week (brief dents below 80% don't matter) --> Resolves to YES \n\n3) Toward the end of Q2 2025, neither of the above has happened. I run a poll similar to what's described above, with my best guess at a name. Resolves to YES if \u226580% \"Agree\" on the suggested name.\n\n4) Dwarkesh unambiguously confirms who the person referred to is/was, this resolves to YES immediately.\n\n5) Unaccounted for by me, but very reasonable scenarios, that I think should resolve to YES or NO, outside of the above.\n\n\nFeel free to suggest improvements to these criteria and conditions, or ask for clarifications.\nI will not trade in this market, to better allow for fair resolution.",
+  "background": "",
+  "url": "https://manifold.markets/HenriThunberg/will-there-be-consensus-on-who-dwar",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-01",
+  "market_value": "0.349159627293441",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market value."
+}

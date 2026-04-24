@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0012",
+  "source": "aibq2",
+  "question": "Will Kilmar Abrego Garcia return to the United States before July 1, 2025?",
+  "title_hash": "82fa802d8a6bdef2",
+  "background": "Wikipedia: [Deportation of Kilmar Abrego Garcia](https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia)",
+  "resolution_criteria": "This question resolves as **Yes** if Kilmar Abrego Garcia after the launch of this question and before July 1, 2025 enters territory of the United States according to [credible sources](https://www.metaculus.com/help/faq/#definitions).\n\nFine print:\nSubsequently leaving the United States, such as a deportation, will not cause this question to re-resolve.",
+  "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xce4459c8dfc2b0800778305722ee9a2ad2c62f001c8a40d5e0b136c9e6a679d3_2025-11-23",
+  "source": "polymarket",
+  "question": "Will the U.S. invade Afghanistan in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States commences a military offensive intended to establish control over any portion of Afghanistan between June 19 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by Afghanistan or the United States as of June 19, 2025, 12:00 PM ET, will be considered the sovereign territory of that country.\n\nThe resolution source for this market will be a consensus of credible sources.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-invade-afghanistan-in-2025",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0205",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

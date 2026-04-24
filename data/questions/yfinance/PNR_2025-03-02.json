@@ -1,0 +1,23 @@
+{
+  "id": "PNR_2025-03-02",
+  "source": "yfinance",
+  "question": "Will PNR's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PNR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 96.730. (The latest market close price of PNR.)",
+  "background": "Pentair plc provides various water solutions in the United States, Western Europe, China, Eastern Europe, Latin America, the Middle East, Southeast Asia, Australia, Canada, and Japan. The company operates through three segments: Flow, Water Solutions, and Pool. The Flow segment designs, manufactures, and sells fluid treatment and pump products and systems, including pressure vessels, gas recovery solutions, membrane bioreactors, wastewater reuse systems and advanced membrane filtration, separation systems, water disposal pumps, water supply pumps, fluid transfer pumps, turbine pumps, solid handling pumps, and agricultural spray nozzles for fluid delivery, ion exchange, desalination, food and beverage, separation technologies in the oil and gas industry, residential and municipal wells, water treatment, wastewater solids handling, pressure boosting, circulation and transfer, fire suppression, flood control, agricultural irrigation, and crop spray in residential, commercial, and industrial markets. The Water Solutions segment provides commercial and residential water treatment products and systems, including pressure tanks, control valves, activated carbon products, commercial ice machines, conventional filtration products, and point-of-entry and point-of-use water treatment systems, as well as installation and preventative services for use in residential whole home water filtration, drinking water filtration, and water softening solutions, as well as commercial total water management and filtration in foodservice operations. The Pool segment provides residential and commercial pool equipment and accessories comprising pumps, filters, heaters, lights, automatic controls, automatic cleaners, maintenance equipment, and pool accessories for applications in residential and commercial pool maintenance, pool repair, renovation, service, and construction and aquaculture solutions. Pentair plc was founded in 1966 and is headquartered in London, the United Kingdom.",
+  "url": "https://finance.yahoo.com/quote/PNR",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

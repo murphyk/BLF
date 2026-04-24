@@ -1,0 +1,29 @@
+{
+  "id": "DPSACBW027SBOG_2026-04-12",
+  "source": "fred",
+  "question": "Will the amount of money representing deposits in all US commercial banks have increased by each resolution date listed below as compared to its value on 2026-04-12?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DPSACBW027SBOG once the data is published.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 18883.095. (The latest value released in Deposits, All Commercial Banks from the release H.8 Assets and Liabilities of Commercial Banks in the United States.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h8/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Billions of U.S. Dollars.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/DPSACBW027SBOG",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

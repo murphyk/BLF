@@ -1,0 +1,21 @@
+{
+  "id": "XEL_2025-04-27",
+  "source": "yfinance",
+  "question": "Will XEL's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/XEL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 69.100. (The latest market close price of XEL.)",
+  "background": "Xcel Energy Inc., through its subsidiaries, engages in the generation, purchasing, transmission, distribution, and sale of electricity in the United States. It operates through Regulated Electric Utility and Regulated Natural Gas Utility segments. The company generates electricity through wind, nuclear, hydroelectric, biomass, and solar energy sources, as well as coal, natural gas, oil, wood, and refuse-derived fuels. It also purchases, transports, distributes, and sells natural gas to retail customers, as well as transports customer-owned natural gas. In addition, the company develops and leases natural gas pipelines, and storage and compression facilities; and invests in rental housing projects and nonregulated assets, as well as procures equipment for the construction of renewable generation facilities. It serves residential, commercial, and industrial customers in the portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. Xcel Energy Inc. was formerly known as Northern States Power company. The company was incorporated in 1909 and is headquartered in Minneapolis, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/XEL",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

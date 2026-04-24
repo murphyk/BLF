@@ -1,0 +1,21 @@
+{
+  "id": "NDSN_2025-04-27",
+  "source": "yfinance",
+  "question": "Will NDSN's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NDSN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 180.690. (The latest market close price of NDSN.)",
+  "background": "Nordson Corporation engineers, manufactures, and markets products and systems to dispense, apply, and control adhesives, coatings, polymers, sealants, biomaterials, and other fluids. It operates through three segments: Industrial Precision Solutions; Medical and Fluid Solutions; and Advanced Technology Solutions. The Industrial Precision Solutions segment provides dispensing, coating, and laminating systems for adhesives, lotions, liquids, and fibers to disposable products and roll goods; automated adhesive dispensing systems used in packaged goods industries; components and systems for thermoplastic and biopolymer melt stream; fluid components, such as nozzles, pumps, and filters; smart components that measure and control the flow, quantity and location of dispensed fluid; control systems; and dispensing, coating, and laminating systems. It also offers automated and manual dispensing products and systems for cold materials, container coating, liquid finishing, and powder coating, as well as ultraviolet equipment used in curing and drying operations; and in-line measurement sensors, gauges and analyzers, lasers, X-ray, optical and nucleonic technologies, and proprietary algorithms and software. The Medical and Fluid Solutions segment offers cannulas, catheters, and medical balloons; single-use plastic components; precision manual and semi-automated dispensers; and plastic molded syringes, cartridges, tips, and fluid connection components. The Advanced Technology Solutions segment provides automated dispensing systems for fluids attachment, protection, and coating, as well as related gas plasma treatment systems for cleaning and conditioning surfaces; and bond testing and automated optical, acoustic microscopy, and x-ray inspection systems for semiconductor and printed circuit board industries. The company markets its products through direct sales force, distributors, and sales representatives. The company was founded in 1909 and is headquartered in Westlake, Ohio.",
+  "url": "https://finance.yahoo.com/quote/NDSN",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

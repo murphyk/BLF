@@ -1,0 +1,21 @@
+{
+  "id": "EFX_2025-05-11",
+  "source": "yfinance",
+  "question": "Will EFX's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EFX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 260.130. (The latest market close price of EFX.)",
+  "background": "Equifax Inc. operates as a data, analytics, and technology company. The company operates through three segments: Workforce Solutions, U.S. Information Solutions (USIS), and International. The Workforce Solutions segment offers services that enables customers to verify income, employment, educational history, criminal justice data, healthcare professional licensure, and sanctions of people in the United States; and employer customers with services that that assist them in complying with and automating certain payroll-related and human resource management processes throughout the entire cycle of the employment relationship. The U.S. Information Solutions segment provides consumer and commercial information services, such as credit information and credit scoring, credit modeling and portfolio analytics, locate, fraud detection and prevention, identity verification, and other consulting services; mortgage services; financial marketing services; identity management services; and credit monitoring products. The International segment offers information service products, which include consumer and commercial services, such as credit and financial information, and credit scoring and modeling; and credit and other marketing products and services, as well as offers information, technology, and services to support debt collections and recovery management. It also provides information solutions for businesses, governments and consumers; and human resources business process automation and outsourcing services for employers.It operates in Argentina, Australia, Brazil, Canada, Chile, Costa Rica, Dominican Republic, Ecuador, El Salvador, Honduras, India, Ireland, Mexico, New Zealand, Paraguay, Peru, Portugal, Spain, the United Kingdom, Uruguay, and the United States. The company was founded in 1899 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/EFX",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

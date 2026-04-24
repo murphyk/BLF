@@ -1,0 +1,15 @@
+{
+  "id": "0x0ff3c9a02e75c984371ca27a0527e66d01f9781f3e0889c8a777c7eabf7e2d27_2025-03-16",
+  "source": "polymarket",
+  "question": "Fauci extradited to Russia before April?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if former Chief Medical Advisor to the President Anthony Fauci is extradited to Russia by March 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\n\"Extradited\" to a Russia means Fauci must be extradited and physically enter the terrestrial or maritime territory of Russia while in official custody.\n\nThe resolution source will be official government sources from the relevant extraditing and receiving countries, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/fauci-extradited-to-russia",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.007",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

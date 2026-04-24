@@ -1,0 +1,14 @@
+{
+  "id": "0x2df3bce3a7e1b85fd6e26dcc87cb54a61052388e0bf676cbfcd94258d4b93343_2026-03-15",
+  "source": "polymarket",
+  "question": "Will the Colorado Avalanche make the NHL Playoffs?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the listed team makes the 2025\u201326 NHL Playoffs. Otherwise, this market will resolve to \u201cNo.\u201d\n\nA team will be considered to have made the Playoffs if it qualifies for the postseason bracket under the official rules of the NHL for the 2025\u201326 season. Qualification through any officially recognized NHL format (including Wild Card berths) will count.\n\nIf it becomes impossible for the listed team to qualify for the Playoffs based on the rules of the NHL (e.g. the team is mathematically eliminated), this market will resolve immediately to \u201cNo.\u201d\n\nThe resolution source for this market will be official information from the NHL, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-colorado-avalanche-make-the-nhl-playoffs",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-21",
+  "market_value": "0.9855",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

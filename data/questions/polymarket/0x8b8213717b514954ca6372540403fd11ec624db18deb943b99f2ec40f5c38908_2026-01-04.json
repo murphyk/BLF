@@ -1,0 +1,14 @@
+{
+  "id": "0x8b8213717b514954ca6372540403fd11ec624db18deb943b99f2ec40f5c38908_2026-01-04",
+  "source": "polymarket",
+  "question": "Will the Memphis Grizzlies finish with the best record in the NBA?",
+  "resolution_criteria": "This market will resolve according to the team that finishes the 2025-2026 NBA Regular Season with the best record in the league.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to finish the regular Season with the best record.\n\nIf multiple teams are tied for most wins in the 2025-26 NBA Regular Season, this market will resolve in favor of the team who receives home court advantage for the 2026 NBA playoffs. A list of the NBA\u2019s Tiebreak Procedures can be found here: https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-memphis-grizzlies-finish-with-the-best-record-in-the-nba",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-02",
+  "market_value": "0.004",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CHRW_2026-04-12",
+  "source": "yfinance",
+  "question": "Will CHRW's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CHRW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 168.500. (The latest market close price of CHRW.)",
+  "background": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding. The company offers transportation and logistics services, such as truckload; less than truckload transportation brokerage services, which include the shipment of single or multiple pallets of freight; intermodal transportation that comprises the shipment service of freight in containers or trailers by a combination of truck and rail; and non-vessel operating common carrier and freight forwarding services, as well as organizes indirect air carrier and freight forwarder providing door-to-door services. It also provides customs brokerage services; and other logistics services, such as fee-based managed, warehousing, supply chain consulting and optimization services, and other services. In addition, the company is involved in the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items under the Robinson Fresh trade name. Further, the company offers transportation management and other surface transportation services. It provides fresh produce to grocery retailers, restaurants, produce wholesalers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/CHRW",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

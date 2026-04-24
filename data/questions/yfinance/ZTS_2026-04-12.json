@@ -1,0 +1,29 @@
+{
+  "id": "ZTS_2026-04-12",
+  "source": "yfinance",
+  "question": "Will ZTS's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ZTS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 117.290. (The latest market close price of ZTS.)",
+  "background": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commercializes products primarily across companion animals comprising dogs, cats, and horses; and species, including livestock, such as cattle, swine, poultry, fish, and sheep. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaborated with Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was incorporated in 2012 and is headquartered in Parsippany, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/ZTS",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AMAT_2025-03-02",
+  "source": "yfinance",
+  "question": "Will AMAT's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AMAT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 169.200. (The latest market close price of AMAT.)",
+  "background": "Applied Materials, Inc. engages in the provision of manufacturing equipment, services, and software to the semiconductor, display, and related industries. The company operates through three segments: Semiconductor Systems, Applied Global Services, and Display. The Semiconductor Systems segment develops, manufactures, and sells semiconductor capital equipment that is used to fabricate semiconductor chips or integrated circuits. The Applied Global Services segment provides integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and other equipment and factory automation software for semiconductor, display, and other products. The Display segment offers products for manufacturing liquid crystal displays; organic light-emitting diodes; and other display technologies for TVs, monitors, laptops, personal computers, smart phones, and other consumer-oriented devices and solar energy cells. It operates in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company was incorporated in 1967 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/AMAT",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

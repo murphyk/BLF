@@ -1,0 +1,14 @@
+{
+  "id": "0x8c48f3acf4177b5ceb012a8a2dc7a9c219eeae4a032d6ddcbc3c2ffab907439a_2026-04-12",
+  "source": "polymarket",
+  "question": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+  "resolution_criteria": "Parliamentary elections are to be scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that gains the greatest number of seats in the next Russian State Duma election, compared to before the election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats gained, this market will resolve in favor of the party that received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats gained by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-liberal-democratic-party-of-russia-ldpr-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.07250000000000001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

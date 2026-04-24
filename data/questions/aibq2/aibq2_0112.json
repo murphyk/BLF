@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0112",
+  "source": "aibq2",
+  "question": "Will Sudan ratify AfCFTA (the pan-African free trade agreement) before July 1, 2025?",
+  "title_hash": "cae93fc3506be2b6",
+  "background": "[Draft National AfCFTA Implementation Strategy for Sudan Reviewed and Validated by Stakeholders](https://igad.int/draft-national-afcfta-implementation-strategy-for-sudan-reviewed-and-validated-by-stakeholders/)",
+  "resolution_criteria": "This question resolves as **Yes** if Sudan ratifies the African Continental Free Trade Area (AfCFTA) Agreement before July 1, 2025.",
+  "url": "https://igad.int/draft-national-afcfta-implementation-strategy-for-sudan-reviewed-and-validated-by-stakeholders/",
+  "forecast_due_date": "2025-06-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

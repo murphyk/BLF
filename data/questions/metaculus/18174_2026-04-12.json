@@ -1,0 +1,14 @@
+{
+  "id": "18174_2026-04-12",
+  "source": "metaculus",
+  "question": "Will solar power on Earth dominate renewable energy consumption before 2031?",
+  "resolution_criteria": "This question will resolve as **Yes** if, in any year from 2023 to 2030, inclusive, the total global consumption of primary energy from solar power on Earth exceeds the consumption of primary energy from all other individual renewable energy sources on Earth for the year (meaning solar must be the largest source of renewable energy, it need not exceed the sum of all other renewables). For the purposes of this question, renewables include, but are not limited to, solar, wind, hydroelectric, geothermal, and bioenergy. Resolution will be determined according to data published in the [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review).",
+  "background": "<iframe src=\"https://ourworldindata.org/grapher/primary-sub-energy-source\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\"></iframe>\n\nSolar power has seen significant growth in recent years, alongside wind power. As of September 1, 2023, solar power is the third largest renewable, behind hydropower and wind power, respectively.",
+  "url": "https://www.metaculus.com/questions/18174",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.88",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

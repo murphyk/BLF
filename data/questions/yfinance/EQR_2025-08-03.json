@@ -1,0 +1,21 @@
+{
+  "id": "EQR_2025-08-03",
+  "source": "yfinance",
+  "question": "Will EQR's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EQR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 68.340. (The latest market close price of EQR.)",
+  "background": "Equity Residential is committed to creating communities where people thrive. The Company, a member of the S&P 500, is focused on the acquisition, development and management of residential properties located in and around dynamic cities that attract affluent long-term renters. Equity Residential owns or has investments in 312 properties consisting of 84,648 apartment units, with an established presence in Boston, New York, Washington, D.C., Seattle, San Francisco and Southern California, and an expanding presence in Denver, Atlanta, Dallas/Ft. Worth and Austin.",
+  "url": "https://finance.yahoo.com/quote/EQR",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

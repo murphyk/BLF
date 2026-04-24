@@ -1,0 +1,15 @@
+{
+  "id": "IEX_2026-03-15",
+  "source": "yfinance",
+  "question": "Will IEX's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IEX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 203.330. (The latest market close price of IEX.)",
+  "background": "IDEX Corporation, together with its subsidiaries, provides applied solutions in the United States, North America, Europe, Asia, and internationally. It operates through three segments: Health & Science Technologies (HST), Fluid & Metering Technologies (FMT) and Fire & Safety/Diversified Products (FSDP). The HST segment designs, produces, and distributes a range of precision fluidics, positive displacement pumps, powder and liquid processing technologies, drying systems, micro-precision components, pneumatic components and sealing solutions, high performance molded and extruded sealing components, and custom mechanical and shaft seals. This segment also offers engineered hygienic mixers and valves, biocompatible medical devices and implantable products, air compressors and blowers, optical components and coatings, ultra-precision diamond tools, and laboratory and commercial equipment, as well as precision photonic solutions, technical ceramics, hermetic sealing products, porous material structures, and flow control solutions. The FMT segment designs, produces, and distributes positive displacement pumps, valves, small volume provers, flow meters, injectors, other fluid-handling pump modules, and systems; and provides flow monitoring and other services. The FSDP segment designs, produces, and distributes firefighting pumps, valves and controls, and rescue tools; lifting bags and other components and systems; engineered stainless steel banding and clamping devices; and precision equipment for dispensing, metering, and mixing colorants and paints. The company was incorporated in 1987 and is headquartered in Northbrook, Illinois.",
+  "url": "https://finance.yahoo.com/quote/IEX",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

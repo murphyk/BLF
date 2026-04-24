@@ -1,0 +1,14 @@
+{
+  "id": "0xb412664463bbfe21be44b1963291205ab332afd4f7f6e0d027aec1ba7a9e6793_2026-04-12",
+  "source": "polymarket",
+  "question": "Iran leadership change by April 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Supreme Leader of Iran, Mojtaba Khamenei, ceases to be the de facto leader of Iran at any point between market creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nMojtaba Khamenei will be considered to no longer be the de facto leader of Iran if he is removed from power, is detained, or otherwise loses his position or is prevented from acting as the de facto leader of Iran within this market's timeframe.\n\nAn official announcement of Mojtaba Khamenei\u2019s resignation or removal will qualify for a \"Yes\" resolution regardless of when the announced departure goes into effect.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/iran-leadership-change-by-april-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.105",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

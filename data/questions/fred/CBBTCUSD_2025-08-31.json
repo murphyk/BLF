@@ -1,0 +1,21 @@
+{
+  "id": "CBBTCUSD_2025-08-31",
+  "source": "fred",
+  "question": "Will the price of Bitcoin, as measured by Coinbase, have increased by each resolution date listed below as compared to its value on 2025-08-31?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/CBBTCUSD once the data is published.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 114182.940. (The latest value released in Coinbase Bitcoin from the release Coinbase Cryptocurrencies.)",
+  "background": "The notes from the release: N/A.  The notes from the series: All data is as of 5 PM PST. \n\nCopyright, 2018, Coinbase. \n\nReproduction of Coinbase data in any form is prohibited except with the prior written permission of Coinbase..  Additional background of the series:  1. the units of the series: U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily, 7-Day ",
+  "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

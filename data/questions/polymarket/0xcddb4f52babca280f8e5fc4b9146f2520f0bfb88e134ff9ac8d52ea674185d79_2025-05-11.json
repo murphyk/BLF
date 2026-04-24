@@ -1,0 +1,15 @@
+{
+  "id": "0xcddb4f52babca280f8e5fc4b9146f2520f0bfb88e134ff9ac8d52ea674185d79_2025-05-11",
+  "source": "polymarket",
+  "question": "Fed emergency rate cut in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Federal Open Market Committee (FOMC) holds an emergency meeting after which the upper bound of the target federal funds rate is lowered between January 1 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn emergency meeting is defined as any unscheduled meeting called by the Federal Reserve Board or the Federal Open Market Committee (FOMC) apart from the regular eight pre-scheduled meetings for 2025.\n\nThe resolution source will be official announcements from the Federal Reserve\u2019s website (federalreserve.gov) or credible news sources reporting on the emergency meeting.",
+  "background": "",
+  "url": "https://polymarket.com/market/fed-emergency-rate-cut-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.27",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

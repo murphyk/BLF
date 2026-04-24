@@ -1,0 +1,15 @@
+{
+  "id": "1573_2025-06-22",
+  "source": "infer",
+  "question": "Will the national military forces, militia, and/or law enforcement personnel of India and the People's Republic of China engage in a lethal confrontation by 30 September 2025?",
+  "resolution_criteria": "This question will be resolved as \u201cYes\u201d if personnel from the national military forces, militia, and/or law enforcement of India engage in a confrontation with personnel from the national military forces, militia, and/or law enforcement of the People's Republic of China and the confrontation results in one fatality or more among personnel from either country.&nbsp; This question will be resolved using official statements from the governments of India or China or reporting from major global news outlets, such as Reuters, BBC, the New York Times, and the Washington Post. If credible reporting indicates that a lethal confrontation between China and India occurs but both governments deny or fail to acknowledge it, RFI admins will make a determination based on the available evidence.&nbsp; NOTE: For the purposes of this question, a \u201cconfrontation\u201d is a hostile incident involving the use of force or weapons. Accidental or non-combat deaths that occur outside of a confrontation will not be considered.&nbsp; The confrontation must occur on or before 30 September 2025, but if evidence of a qualifying incident emerges after 30 September 2025, but demonstrates that the incident occurred before that date, the question will resolve as \"Yes.\"",
+  "background": "The Sino-Indian border dispute in the Western Himalayas has been ongoing since 1962. In June 2020, the first deadly military confrontation since 1975 took place, with at least 20 Indian and four Chinese soldiers killed in the area of Ladakh, close to the disputed region of Aksai Chin ( AP News , Reuters ). In 2024, India and China reached a deal to end a military standoff at their disputed frontier ( Al Jazeera ). Since the 2020 clash, both nations have significantly enhanced military infrastructure along the Line of Actual Control, deploying additional troops, constructing new roads and airfields, and positioning advanced weapons systems in the border areas ( New Lines Institute , The Federal ). The larger border dispute remains unsolved.&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1573",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-01",
+  "market_value": "0.0316",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

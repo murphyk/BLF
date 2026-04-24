@@ -1,0 +1,19 @@
+{
+  "id": "WDAY_2025-12-07",
+  "source": "yfinance",
+  "question": "Will WDAY's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WDAY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 215.340. (The latest market close price of WDAY.)",
+  "background": "Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to streamline supplier selection and contract management, build and execute sourcing events, such as requests for proposals, and manage indirect spend; expense management solutions to submit and approve expenses; and a suite of human capital management applications that enables HR teams to hire, onboard, pay, develop, reskill, and provide employee experiences. In addition, the company offers planning applications; and applications for analytics and reporting comprising augmented analytics to surface insights to the line of business in simple-to-understand stories. Further, it provides supply chain and inventory solutions to healthcare organizations; solutions to manage the end-to-end student and faculty lifecycle; Workday Extend for customers and their developers to build custom applications; and Workday Illuminate, which helps customers accelerate manual tasks, assist employees, and transform business processes. The company serves the professional and business services, financial services, healthcare, education, government, technology, media, retail, and hospitality industries. It sells its solutions through its direct sales organization. The company was formerly known as North Tahoe Power Tools, Inc. and changed its name to Workday, Inc. in July 2005. Workday, Inc. was incorporated in 2005 and is headquartered in Pleasanton, California.",
+  "url": "https://finance.yahoo.com/quote/WDAY",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

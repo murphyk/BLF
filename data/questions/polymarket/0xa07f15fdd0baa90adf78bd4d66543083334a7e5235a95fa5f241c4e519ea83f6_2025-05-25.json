@@ -1,0 +1,15 @@
+{
+  "id": "0xa07f15fdd0baa90adf78bd4d66543083334a7e5235a95fa5f241c4e519ea83f6_2025-05-25",
+  "source": "polymarket",
+  "question": "Will US leave NATO by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States formally withdraws from NATO or provides an official notice of denunciation to NATO by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA notice of denunciation refers to the submission of a notice of withdrawal as per Article 13 of the North Atlantic Treaty.\n\nThe US's exit from NATO\u2019s integrated military command structure will not be sufficient to resolve this market to \"Yes\". The US must either withdraw or submit a notice of denunciation to trigger a \"Yes\" resolution.\n\nThe resolution source will be official information from the US government and NATO, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-us-leave-nato-by-june-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0155",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "MNST_2025-06-08",
+  "source": "yfinance",
+  "question": "Will MNST's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MNST for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 64.240. (The latest market close price of MNST.)",
+  "background": "Monster Beverage Corporation, through its subsidiaries, engages in development, marketing, sale, and distribution of energy drink beverages and concentrates in the United States and internationally. The company operates through four segments: Monster Energy Drinks, Strategic Brands, Alcohol Brands, and Other. It offers carbonated non-carbonated energy drinks, ready-to-drink iced teas, lemonades, juice cocktails, single-serve juices and fruit beverages, ready-to-drink dairy and coffee drinks, energy drinks, sports drinks and single-serve still waters, and sodas that are considered natural, sparkling juices, and flavored sparkling beverages. In addition, the company provides its products under the Monster Energy, Monster Energy Ultra, Rehab Monster, Monster Energy Nitro, Java Monster, Punch Monster, Juice Monster, Monster Tour Water, Reign Total Body Fuel, Reign Inferno Thermogenic Fuel, Reign Storm, Bang Energy, NOS, Full Throttle, Burn, Mother, Nalu, Ultra Energy, Play and Power Play, Relentless, BPM, BU, Samurai, Live+, Predator, and Fury brands. Further, it offers craft beers, flavored malt beverages,and hard seltzers under the Jai Alai IPA, Florida Man IPA, Dale's Pale Ale, Wild Basin Hard Seltzers, Dallas Blonde, Deep Ellum IPA, Perrin Brewing Company Black Ale, Hop Rising Double IPA, Wasatch Apricot Hefeweizen, The Beast, and Nasty Beast Hard Tea brands. The company engages in the concentrates and/or beverage bases to authorized bottling, and canning operations. It sells its products to full-service beverage bottlers/distributors, retail grocery and specialty chains, wholesalers, club stores, mass merchandisers, convenience chains, food service customers, value stores, e-commerce retailers, and the military. The company was formerly known as Hansen Natural Corporation and changed its name to Monster Beverage Corporation in January 2012. Monster Beverage Corporation was founded in 1985 and is headquartered in Corona, California.",
+  "url": "https://finance.yahoo.com/quote/MNST",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

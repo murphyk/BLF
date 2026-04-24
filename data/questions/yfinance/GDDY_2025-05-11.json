@@ -1,0 +1,21 @@
+{
+  "id": "GDDY_2025-05-11",
+  "source": "yfinance",
+  "question": "Will GDDY's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GDDY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 188.330. (The latest market close price of GDDY.)",
+  "background": "GoDaddy Inc. engages in the design and development of cloud-based products in the United States and internationally. It operates in two segments: Applications and Commerce (A&C), and Core Platform (Core). The A&C segment offers applications products, including Websites + Marketing, a mobile-optimized online tool that enables customers to build websites and e-commerce enabled online stores; and Managed WordPress, a streamlined and optimized website building that allows customers to build and manage a WordPress site; Managed WooCommerce Stores to sell anything and anywhere online; and marketing tools and services, such as GoDaddy Studio mobile application, search engine optimization, Meta and Google My Business, and email and social media marketing designed to help businesses acquire and engage customers and create content. The segment also offers connected commerce comprising Smart Terminal, a dual screen all-in-one point-of-sale system that allows customers to manage in-store inventory and product catalogs and accept payments; GoDaddy Payments, a payment facilitator that enables customers to accept various forms of payments; and email service plans with a multi-feature web interface, and Microsoft 365 accounts that connects to customers' domains. The Core segment offers domain products, including primary registrations, domain aftermarket platform, and domain name add-ons, as well as GoDaddy Registry, a provider of domain name registry services; and hosting and security services comprising shared website hosting and virtual private servers, as well as security products with a suite of tools designed to help secure customers' online presence. The company serves small businesses, individuals, organizations, developers, designers, and domain investors. GoDaddy Inc. was founded in 1997 and is headquartered in Tempe, Arizona.",
+  "url": "https://finance.yahoo.com/quote/GDDY",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

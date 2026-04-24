@@ -1,0 +1,15 @@
+{
+  "id": "35576_2025-04-27",
+  "source": "metaculus",
+  "question": "Will the world's five largest companies at the end of 2025 be in the tech sector?",
+  "resolution_criteria": "The question will be answered as **Yes** if, as of December 31, 2025, the five largest global companies by market capitalization are in the technology sector, according to [ <u>CompaniesMarketCap</u> ](https://companiesmarketcap.com/). It will be answered as **No** if any of the top five are not considered technology companies.",
+  "background": "The major tech companies, often referred to as FAANG (Facebook, Apple, Amazon, Netflix, and Google), have dominated global market capitalization in recent years. As of February 2025, Apple leads with a market cap of $3.657 trillion, followed by Nvidia ($3.435 trillion) and Microsoft ($3.039 trillion). Amazon and Alphabet round out the top five. Notably, Saudi Aramco, a non-tech company, is ranked sixth, while Meta Platforms is ranked seventh.",
+  "url": "https://www.metaculus.com/questions/35576",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.9",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The community prediction."
+}

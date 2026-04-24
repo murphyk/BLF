@@ -1,0 +1,21 @@
+{
+  "id": "GM_2025-08-17",
+  "source": "yfinance",
+  "question": "Will GM's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 52.470. (The latest market close price of GM.)",
+  "background": "General Motors Company designs, builds, and sells trucks, crossovers, cars, and automobile parts worldwide. The company operates through GM North America, GM International, Cruise, and GM Financial segments. It markets its vehicles primarily under the Buick, Cadillac, Chevrolet, GMC, Baojun, and Wuling brand names. In addition, the company sells trucks, crossovers, cars, and automobile parts through retail dealers, distributors and dealers, as well as to fleet customers, including daily rental car companies, commercial fleet customers, leasing companies, and governments. Further, it offers software-enabled services and subscriptions; and various range of after-sale services through dealer network, such as maintenance, light repairs, collision repairs, vehicle accessories, and extended service warranties. Additionally, the company provides automotive financing; and software-enabled services and subscriptions. General Motors Company was founded in 1908 and is headquartered in Detroit, Michigan.",
+  "url": "https://finance.yahoo.com/quote/GM",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

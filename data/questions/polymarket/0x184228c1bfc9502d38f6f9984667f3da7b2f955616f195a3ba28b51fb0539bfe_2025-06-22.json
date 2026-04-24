@@ -1,0 +1,15 @@
+{
+  "id": "0x184228c1bfc9502d38f6f9984667f3da7b2f955616f195a3ba28b51fb0539bfe_2025-06-22",
+  "source": "polymarket",
+  "question": "Will the Saints win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the New Orleans Saints win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-saints-win-super-bowl-2026",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-01",
+  "market_value": "0.0085",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

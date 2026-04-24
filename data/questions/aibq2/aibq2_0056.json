@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0056",
+  "source": "aibq2",
+  "question": "Will the NFL ban the \"Tush-Push\" before June 1, 2025?",
+  "title_hash": "135dceac5f956c9d",
+  "background": "ESPN: [Vote on tush push ban tabled by NFL owners for more discussion](https://www.espn.com/nfl/story/_/id/44490292/sources-tush-push-ban-vote-tabled-nfl-owners) | CBS Sports: [Expansive 'Tush Push' ban could have strong support at NFL's next owners meeting, per report](https://www.cbssports.com/nfl/news/expansive-tush-push-ban-could-have-strong-support-at-nfls-next-owners-meeting-per-report/)",
+  "resolution_criteria": "This question resolves as **Yes** if the National Football League officially approves or announces a rule restricting the quarterback sneak known as the [Tush-Push](https://en.wikipedia.org/wiki/Quarterback_sneak#Tush_push) before June 1, 2025. If there are no reports of this occurring before that date, this question resolves as **No**.",
+  "url": "https://www.espn.com/nfl/story/_/id/44490292/sources-tush-push-ban-vote-tabled-nfl-owners",
+  "forecast_due_date": "2025-05-12",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

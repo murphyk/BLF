@@ -1,0 +1,19 @@
+{
+  "id": "NTAP_2025-11-09",
+  "source": "yfinance",
+  "question": "Will NTAP's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NTAP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 114.120. (The latest market close price of NTAP.)",
+  "background": "NetApp, Inc. provides a range of enterprise software, systems, and services that customers use to transform their data infrastructures in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Hybrid Cloud and Public Cloud. The company offers data management software, such as NetApp ONTAP, ONTAP One, NetApp Snapshot, NetApp SnapCenter Backup Management, NetApp SnapMirror Data Replication, and NetApp SnapLock Data Compliance; and storage infrastructure solutions, including NetApp All-Flash FAS (AFF A-Series), NetApp All-Flash FAS with capacity flash (AFF C-Series), NetApp All-Flash SAN Array (ASA A-Series & C-Series), NetApp Fabric Attached Storage (FAS), NetApp E/EF series, and NetApp StorageGRID. It also provides cloud storage services comprising NetApp Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSx for NetApp ONTAP, and Google Cloud NetApp Volumes, as well as NetApp BlueXP, BlueXP Copy and Sync, BlueXP Backup and Recovery, BlueXP Classification, and BlueXP Ransomware Protection. In addition, the company offers operational services, such as NetApp Data Infrastructure Insights and Instaclustr; and professional and support services offerings include storage-as-a-service (STaaS), strategic consulting, professional, managed, and support services, as well as assessment, design, implementation, migration, and proactive support services to help customers optimize the performance and efficiency of their on-premises and hybrid multicloud storage environments. It serves various industries comprising energy, financial services, government, technology, internet, life sciences, healthcare services, manufacturing, media, entertainment, animation, video postproduction, and telecommunications through a direct sales force and an ecosystem of partners, including the leading cloud providers. NetApp, Inc. was incorporated in 1992 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/NTAP",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

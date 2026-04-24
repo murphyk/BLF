@@ -1,0 +1,15 @@
+{
+  "id": "0x7cb962714c60c82f7fd72cb0a5222c592c114e1d1c2c2cc65a22459d5de141c6_2025-06-22",
+  "source": "polymarket",
+  "question": "Will 'Jurassic World: Rebirth' have the best domestic opening weekend in 2025?",
+  "resolution_criteria": "This is a market on how whether 'Jurassic World: Rebirth' (2025) will gross more domestically on its opening weekend than any other movie in 2025. The \u201cWeekend Box Office Performance\u201d table on https://www.the-numbers.com/movie/Jurassic-World-Rebirth-(2025)#tab=box-office will be used to resolve this market once the values for the 3-day opening weekend (July 4 - 6) are final (i.e. not studio estimates).\n\nThis market will resolve to \"Yes\" if 'Jurassic World: Rebirth' (2025) grosses more on its 3-day domestic opening weekend than any other movie in 2025. Otherwise, this market will resolve to \"No\".\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nResolution will be based specifically on the figures provided for this movie's 3-day opening weekend (Friday, Saturday, Sunday), regardless of whether the movie has a 4 or 5-day opening weekend.\n\nIf another movie's opening weekend box office performance surpasses that of 'Jurassic World: Rebirth' (2025) after numbers for both are finalized, this market may immediately resolve to \"No\".\n\nIf this movie's opening weekend box office performance ties with any other's, the movie whose title comes first in alphabetical order will win.\n\nIf there is no final data available by January 31, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jurassic-world-rebirth-have-the-best-domestic-opening-weekend-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-07",
+  "market_value": "0.024",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

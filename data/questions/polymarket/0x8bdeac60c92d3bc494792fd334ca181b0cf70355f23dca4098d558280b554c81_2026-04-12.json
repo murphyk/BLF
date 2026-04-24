@@ -1,0 +1,14 @@
+{
+  "id": "0x8bdeac60c92d3bc494792fd334ca181b0cf70355f23dca4098d558280b554c81_2026-04-12",
+  "source": "polymarket",
+  "question": "Iran Nuke before 2027?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if credible reports from international nuclear agencies, Iran's government itself, or credible global news sources officially confirm that Iran possesses a nuclear weapon by December 31, 2026, 11:59 PM ET.\n\nOtherwise, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/iran-nuke-before-2027",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.105",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

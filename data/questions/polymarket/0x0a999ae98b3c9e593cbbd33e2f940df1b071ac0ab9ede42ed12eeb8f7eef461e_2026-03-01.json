@@ -1,0 +1,14 @@
+{
+  "id": "0x0a999ae98b3c9e593cbbd33e2f940df1b071ac0ab9ede42ed12eeb8f7eef461e_2026-03-01",
+  "source": "polymarket",
+  "question": "Will CD win the most seats in the 2026 Colombian Chamber of Representatives election?",
+  "resolution_criteria": "Parliamentary elections are scheduled to be held in Colombia on 8 March 2026.\n\nThis market will resolve to the political party that wins the greatest number of seats in the Colombian Chamber of Representatives.\n\nIf voting in the Colombian Chamber of Representatives election does not occur by December 31, 2026, this market will resolve to \"Other\".\n\nIn the event of a tie between this party and any other for the most seats won, this market will be resolved in favor of the party or coalition whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition in the Senate.\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Colombia's National Civil Registry (Registradur\u00eda Nacional del Estado Civil) (https://registraduria.gov.co).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-cd-win-the-most-seats-in-the-2026-colombian-chamber-of-representatives-election",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-08",
+  "market_value": "0.021500000000000002",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

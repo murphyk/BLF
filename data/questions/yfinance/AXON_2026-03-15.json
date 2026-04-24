@@ -1,0 +1,15 @@
+{
+  "id": "AXON_2026-03-15",
+  "source": "yfinance",
+  "question": "Will AXON's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AXON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 570.490. (The latest market close price of AXON.)",
+  "background": "Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.",
+  "url": "https://finance.yahoo.com/quote/AXON",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

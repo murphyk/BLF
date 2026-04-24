@@ -1,0 +1,15 @@
+{
+  "id": "0x9a76ce64d7da9eac3f42aa09b1d25eb610ccc16eaf4849493b3d1698fb79ba57_2025-08-03",
+  "source": "polymarket",
+  "question": "Will the Buccaneers win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Tampa Bay Buccaneers win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-buccaneers-win-super-bowl-2026",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-11",
+  "market_value": "0.018000000000000002",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

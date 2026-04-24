@@ -1,0 +1,19 @@
+{
+  "id": "50ff16043ba629140f82ada741c6f24245bb98b8eefd7d55aac10f750d2d43ad_2025-11-09",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will Liu Zige still hold the world record for 200m butterfly in long course (50 metres) swimming pools on each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 200m butterfly. (Liu Zige is a record holder in the 200m butterfly.)",
+  "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
+  "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

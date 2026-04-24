@@ -1,0 +1,14 @@
+{
+  "id": "ENeRvHYBhq48Fol2AtB8_2026-04-12",
+  "source": "manifold",
+  "question": "Will any player score 7 or more goals in the 2026 FIFA World Cup?",
+  "resolution_criteria": "Total goals. Goals scored from penalty shootouts are not counted towards an individual player's goal count.",
+  "background": "",
+  "url": "https://manifold.markets/UniversalFC/will-any-player-score-more-than-7-g-98549854de1e",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.693690376959844",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

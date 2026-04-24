@@ -1,0 +1,21 @@
+{
+  "id": "WYNN_2025-05-25",
+  "source": "yfinance",
+  "question": "Will WYNN's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WYNN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 82.980. (The latest market close price of WYNN.)",
+  "background": "Wynn Resorts, Limited designs, develops, and operates integrated resorts. It operates through four segments: Wynn Palace, Wynn Macau, Las Vegas Operations, and Encore Boston Harbor. The Wynn Palace segment operates private gaming salons and sky casinos; a luxury hotel tower with suites, and villas, including a health club, spa, salon, and pool; food and beverage outlets; retail space; meeting and convention space; and performance lake and floral displays. The Wynn Macau segment operates casino space with private gaming salons, sky casinos, and a poker room; a luxury hotel tower, that include health clubs, spas, a salon, and a pool; food and beverage outlets; retail space; meeting and convention space; and Chinese zodiac-inspired ceiling attractions. The Las Vegas Operations segment operates casino space with private gaming salons, a sky casino, a poker room, and a race and sports book; a luxury hotel tower with suites, and villas, including swimming pools, private cabanas, full-service spas and salons, and a wedding chapel; food and beverage outlets; meeting and convention space; retail space; and theaters, nightclubs, a beach club. The Encore Boston Harbor segment operates casino space with gaming areas, and a poker room; a luxury hotel tower including a spa and salon; food and beverage outlets and a nightclub; retail space; meeting and convention space; and a waterfront park, floral displays, and water shuttle service. Wynn Resorts, Limited was incorporated in 2002 and is based in Las Vegas, Nevada.",
+  "url": "https://finance.yahoo.com/quote/WYNN",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

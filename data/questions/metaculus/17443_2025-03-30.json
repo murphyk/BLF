@@ -1,0 +1,15 @@
+{
+  "id": "17443_2025-03-30",
+  "source": "metaculus",
+  "question": "Will OpenAI release an LLM product or API that hallucinates 5x less than GPT-4 did when it was released, by June 30, 2025?",
+  "resolution_criteria": "This question resolves as **YES** if, by June 30, 2025, OpenAI releases an LLM product or API that claims it scores >=95% on its internal factual eval, _OR_ >= 92% on TruthfulQA, and **NO** otherwise.\n\n\"LLM product or API\" here will be interpreted broadly. For example, if the system that reaches this eval does so by first generating LLM output, and then subsequently verifying that output before showing it to users or returning it in the API, that would qualify.\n\n\"Releases\" means the product or API must be available to the public in some capacity. A limited beta suffices as long as third party users can verify the claims OpenAI makes. A paper alone, or a model without an interface or API, are not sufficient.",
+  "background": "On June 10, 2023, Mustafa Suleyman, cofounder of DeepMind, [tweeted](https://twitter.com/mustafasuleymn/status/1667340253584297992) that \"LLM hallucinations will be largely eliminated by 2025.\" He elaborated this meant 80% accuracy by June 30, 2025, though Gary Marcus, Riley Goodside, and others responded this bar was way too low - current accuracy is ~75% or ~59% depending on the benchmark.\n\nThe [GPT-4 paper](https://arxiv.org/pdf/2303.08774.pdf), in section 5 on \"Limitations\", describes the problem of hallucinations, i.e. producing seemingly-reasonable text that is factually incorrect.\n\nGPT-4 uses two evals for factuality. One is an internal OpenAI set of \"adversarially-designed factuality evaluations\", Figure 6, on which GPT-4 scored ~75% across 9 domains, compared to ~55% for GPT-3.5.\n\nThe other is a public benchmark, TruthfulQA, which \"tests the model\u2019s ability to separate fact from an adversarially-selected set of incorrect statements\", in Figure 7, on which GPT-4 scored ~59%, compared to ~47% for GPT-3.5-turbo.",
+  "url": "https://www.metaculus.com/questions/17443",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.7000000000000001",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "TSCO_2026-01-18",
+  "source": "yfinance",
+  "question": "Will TSCO's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TSCO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 49.890. (The latest market close price of TSCO.)",
+  "background": "Tractor Supply Company operates as a rural lifestyle retailer in the United States. The company offers various merchandise, including livestock and equine feed and equipment, poultry, fencing, and sprayers and chemicals; companion animal products, such as food, treats, and equipment for dogs, cats, and other small animals, as well as dog wellness products; seasonal and recreation products comprising tractors and riders, lawn and garden, bird feeding, power equipment, and other recreational products; truck, tool, and hardware products, such as truck accessories, trailers, generators, lubricants, batteries, and hardware and tools; and clothing, gift, and d\u00e9cor products consist of clothing, footwear, toys, snacks, and decorative merchandise. It provides its products under the 4health, Paws & Claws, American Farmworks, Producer's Pride, Bit & Bridle, Red Shed, Blue Mountain, Redstone, C.E. Schmidt, Retriever, Country Lane, Ridgecut, Countyline, Royal Wing, Country Tuff, Strive, Dumor, Traveller, Farm Table, Treeline, Groundwork, TSC Tractor Supply Co, Huskee, Untamed, JobSmart, and Impeckable brand names. The company operates its retail stores under the Tractor Supply Company, Petsense by Tractor Supply, and Orscheln Farm and Home names; and operates websites under the TractorSupply.com and Petsense.com names. It sells its products to recreational farmers, ranchers, and others. Tractor Supply Company was founded in 1938 and is based in Brentwood, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/TSCO",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

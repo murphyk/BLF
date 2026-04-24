@@ -1,0 +1,14 @@
+{
+  "id": "0xcfeec50a34d9429bfdc60d180f391b828924b88bd40c5b2361a43b7375b7a533_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Reza Pahlavi enter Iran by May 31?",
+  "resolution_criteria": "If Reza Pahlavi visits Iran between market creation and May 31, 2026, 11:59 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nFor the purpose of this market, a \"visit\" is defined as Reza Pahlavi physically entering the terrestrial territory of Iran. Whether or not Reza Pahlavi enters Iranian airspace or maritime territory during the timeframe of this market will have no bearing on a positive resolution.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-reza-pahlavi-enter-iran-by-may-31",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.037",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

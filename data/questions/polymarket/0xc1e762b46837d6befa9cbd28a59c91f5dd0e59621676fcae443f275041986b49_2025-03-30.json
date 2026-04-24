@@ -1,0 +1,15 @@
+{
+  "id": "0xc1e762b46837d6befa9cbd28a59c91f5dd0e59621676fcae443f275041986b49_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Solana dip to $100 by March?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Solana (SOLUSDT) between March 1, 2025, 00:00 and March 31, 2025, 23:59 in the ET timezone has a final \"Low\" price of $100.00 or lower. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the SOLUSDT \"Low\" prices available at https://www.binance.com/en/trade/SOL_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance SOLUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-solana-dip-to-100-by-march-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.145",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

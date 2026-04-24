@@ -1,0 +1,21 @@
+{
+  "id": "CDW_2025-06-08",
+  "source": "yfinance",
+  "question": "Will CDW's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CDW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 185.720. (The latest market close price of CDW.)",
+  "background": "CDW Corporation provides information technology (IT) solutions in the United States, the United Kingdom, and Canada. It operates through three segments: Corporate, Small Business, and Public. The company offers discrete hardware and software products and services, as well as integrated IT solutions, including on-premise and cloud capabilities across hybrid infrastructure, digital experience, and security. It also provides hardware products comprising notebooks/mobile devices, tablets, network communications, collaboration hardware, data storage and servers, desktop computers, and other hardware; and software products, such as cloud solutions, software assurance, application suites, security, virtualization, collaboration and productivity applications, operating systems, and network management. In addition, the company offers advisory and design, software development, implementation, and managed services, as well as warranties. It serves business, government, education, and healthcare customers. The company was formerly known as CDW Computer Centers, Inc. and changed its name to CDW Corporation in June 2003. CDW Corporation was founded in 1984 and is based in Vernon Hills, Illinois.",
+  "url": "https://finance.yahoo.com/quote/CDW",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

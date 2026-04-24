@@ -1,0 +1,14 @@
+{
+  "id": "41512_2026-03-01",
+  "source": "metaculus",
+  "question": "Will the U.S. Congress still be operating under a continuing resolution (CR) on March 15, 2026?",
+  "resolution_criteria": "This question will resolve as Yes if the United States enacts a continuing resolution that funds the United States government through March 15, 2026.\n\nIf the United States government enacts complete full-year appropriations funding, applicable through March 15, 2026, this question will immediately resolve as No.",
+  "background": "In recent fiscal years, the U.S. Congress has frequently relied on short-term continuing resolutions rather than passing full-year appropriations bills by statutory deadlines. While shutdowns are often avoided through temporary funding extensions, full-year appropriations are sometimes delayed well into the fiscal year due to partisan disagreement, policy riders, or sequencing issues between chambers.\n\nThis question assesses whether Congress completes a full-year FY 2026 appropriations package by mid-March, 2026, rather than continuing to govern via temporary funding measures.",
+  "url": "https://www.metaculus.com/questions/41512",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-15",
+  "market_value": "0.9500000000000001",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The community prediction."
+}

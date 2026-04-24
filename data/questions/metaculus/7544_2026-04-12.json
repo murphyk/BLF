@@ -1,0 +1,14 @@
+{
+  "id": "7544_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Pr\u00f3spera at any point before 2035 have at least 10,000 residents?",
+  "resolution_criteria": "This question resolves positively if Pr\u00f3spera, or the same entity with a different name, at any point before 2035 reports that it has 10,000 or more residents.\n\nFor the purposes of this question, e-residents do not count as residents. Only people living on land managed by Pr\u00f3spera do.\n\nIf Pr\u00f3spera does not publish population data and such data is not available even upon request, then this question resolves ambiguously",
+  "background": "[Pr\u00f3spera](https://en.wikipedia.org/wiki/Pr%C3%B3spera) is a private charter city and [ZEDE](https://en.wikipedia.org/wiki/Zone_for_Employment_and_Economic_Development_(Honduras)) (Zone for Employment and Economic Development) on the island of Roat\u00e1n in Honduras. \n\nThe project aims to attract both Hondurans and internationals by (among other things) being business-friendly, having the lowest taxes in the world and having a special legal system where residents can choose much of the legal code that they individually live under.\n\nAccording to [Scott Alexander](https://astralcodexten.substack.com/p/prospectus-on-prospera), Pr\u00f3spera expects 10,000 residents by 2025.\n\nPr\u00f3spera currently contains only three buildings and has no permanent residents.\n\nPredict the population in 2035 in this [related question](https://www.metaculus.com/questions/7110/pr%25C3%25B3spera-population-in-2035/).",
+  "url": "https://www.metaculus.com/questions/7544",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.02",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

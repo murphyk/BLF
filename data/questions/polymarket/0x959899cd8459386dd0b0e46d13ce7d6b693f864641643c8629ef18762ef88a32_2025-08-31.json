@@ -1,0 +1,15 @@
+{
+  "id": "0x959899cd8459386dd0b0e46d13ce7d6b693f864641643c8629ef18762ef88a32_2025-08-31",
+  "source": "polymarket",
+  "question": "Will the Baltimore Ravens win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Baltimore Ravens win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-baltimore-ravens-win-super-bowl-2026",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-05",
+  "market_value": "0.115",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

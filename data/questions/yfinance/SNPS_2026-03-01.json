@@ -1,0 +1,17 @@
+{
+  "id": "SNPS_2026-03-01",
+  "source": "yfinance",
+  "question": "Will SNPS's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SNPS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 442.310. (The latest market close price of SNPS.)",
+  "background": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon-proven IP solutions, logic libraries and embedded memories, processor and security solutions, IP Offerings for the automotive market, SOC infrastructure IP, data path and building block IP, and mathematical and floating-point components. The company was incorporated in 1986 and is headquartered in Sunnyvale, California.",
+  "url": "https://finance.yahoo.com/quote/SNPS",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

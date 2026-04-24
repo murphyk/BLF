@@ -1,0 +1,15 @@
+{
+  "id": "0xd2f7e89f40398eaee7f1eb271de7cb32ff32377122c9272f41115a77f91b24c3_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Lazio win the Serie A?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Lazio is the 2024-25 Serie A Champion. Otherwise, the market will resolve to \u201cNo\u201d.\n\nIf it is a mathematical certainty that Lazio will win the Serie A, this market will immediately resolve to \u201cYes.\u201d Likewise, if it becomes mathematically impossible for Lazio to win, this market will immediately resolve to \u201cNo.\u201d Potential retroactive points deductions past these points will have no bearing on this market\u2019s resolution.\n\nThe primary resolution source for this market will be official information from the Serie A (https://www.legaseriea.it/en). However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-lazio-win-the-serie-a",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.0025",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

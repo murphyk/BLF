@@ -1,0 +1,21 @@
+{
+  "id": "A_2025-08-31",
+  "source": "yfinance",
+  "question": "Will A's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/A for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 119.110. (The latest market close price of A.)",
+  "background": "Agilent Technologies, Inc. provides application focused solutions to the life sciences, diagnostics, and applied chemical markets worldwide. The company operates in three segments: Life Sciences and Applied Markets, Diagnostics and Genomics, and Agilent CrossLab. The Life Sciences and Applied Markets segment offers liquid chromatography systems and components; liquid chromatography mass spectrometry systems; gas chromatography systems and components; gas chromatography mass spectrometry systems; inductively coupled plasma mass spectrometry instruments; atomic absorption instruments; microwave plasma-atomic emission spectrometry instruments; inductively coupled plasma optical emission spectrometry instruments; raman spectroscopy; laboratory software; information management and analytics; laboratory automation and robotic systems; dissolution testing; and vacuum pumps, and measurement technologies. This segment also offers GC and LC columns, sample preparation products, custom chemistries, and laboratory instrument supplies. The Diagnostics and Genomics segment provides genomics, contract manufacturing and research and development, pathology, companion diagnostics, reagent partnership, and biomolecular analysis businesses; and cell analysis plate based assays, flow cytometers, real-time cell analyzers, cell imaging systems, microplate readers, and related consumables. The Agilent CrossLab segment provides various services, including repairs, parts, maintenance, installations, training, compliance support, software as a service, asset management, and consulting services. The company markets its products through direct sales, distributors, resellers, manufacturer's representatives, and electronic commerce. Agilent Technologies, Inc. was incorporated in 1999 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/A",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

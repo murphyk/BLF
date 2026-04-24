@@ -1,0 +1,21 @@
+{
+  "id": "JKHY_2025-06-08",
+  "source": "yfinance",
+  "question": "Will JKHY's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/JKHY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 184.590. (The latest market close price of JKHY.)",
+  "background": "Jack Henry & Associates, Inc., a financial technology company that connects people and financial institutions through technology solutions and payment processing services that reduce the barriers to financial health. It operates through four segments: Core, Payments, Complementary, and Corporate and Other. The Core segment provides core information processing platforms to banks and credit unions, which consist of integrated applications required to process deposit, loan, and general ledger transactions, and maintain centralized customer/member information. The Payments segment provides secure payment processing tools and services, including ATM, debit, and credit card processing services, online and mobile bill pay solutions, ACH origination and remote deposit capture processing, and risk management products and svervices. The Complementary segment provides additional software, hosted processing platforms, and services, including digital/mobile banking, treasury services, online account opening, fraud/anti-money laundering, and lending/deposit solutions. The Corporate and Other segment offers hardware and other products. The company offers specialized financial performance, imaging and payments processing, information security and risk management, retail delivery, and online and mobile solutions to financial services organizations and corporate entities. Its core banking platform offerings include SilverLake system, CIF 20/20, and Core Director, as well as core credit union platform under the Symitar name. In addition, the company provides digital products and services and electronic payment solutions; hardware systems; implementation, training, and support services; and software licensing and related services, as well as professional services, and data centers. Jack Henry & Associates, Inc. was founded in 1976 and is headquartered in Monett, Missouri.",
+  "url": "https://finance.yahoo.com/quote/JKHY",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "40407_2025-12-07",
+  "source": "metaculus",
+  "question": "Will Nancy Pelosi beat the S&P 500 in 2025?",
+  "resolution_criteria": "This question resolves as **Yes** if after the close of trading on the final trading day of December 2025, the 12-month total return of Nancy Pelosi's portfolio as reported by Quiver Quantitative exceeds the 12-month return of the S\\&P 500 as reported by Yahoo Finance.\n\nTo access Nancy Pelosi's return go to Quiver Strategies [here](https://www.quiverquant.com/strategies/s/Nancy%20Pelosi/). The resolution value will be the Total Return displayed for the 12-month period from the final trading day of 2024 to the final trading day of 2025.\n\nTo find out the return of the S\\&P 500, go to Yahoo Finance [here](https://finance.yahoo.com/quote/%5EGSPC/history/). Divide the closing price of the S\\&P 500 on the final trading day of December by the \"Adj Close\" price shown for December 31, 2024.",
+  "background": "InsiderFinance Wire:[ Is Nancy Pelosi the greatest investor of all time?](https://wire.insiderfinance.io/is-nancy-pelosi-the-greatest-investor-of-all-time-97e96b41e0cf) by Michael Schwartz\n\n> After four decades in this business, from managing portfolios to sitting in endless macroeconomic meetings, I\u2019ve seen just about every kind of investor come and go. Some are technical wizards, others are gut-driven gamblers. But every once in a while, someone comes along who captures the imagination of the retail crowd and the suspicion of professionals alike. In recent years, Nancy Pelosi has become that figure.&#x20;\n\nWhile in previous years Pelosi has won handily (see Metaculus's 2024 question [here](https://www.metaculus.com/questions/30619/will-nancy-pelosis-stock-portfolio-beat-the-sp-500-in-2024/)), as of October 17, 2025, Nancy Pelosi's portfolio had a year-to-date return of +7.14% according to the resolution source, while the S\\&P 500 had a year-to-date return of +12.7%.",
+  "url": "https://www.metaculus.com/questions/40407",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.37",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EVRG_2026-01-04",
+  "source": "yfinance",
+  "question": "Will EVRG's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EVRG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 73.010. (The latest market close price of EVRG.)",
+  "background": "Evergy, Inc., together with its subsidiaries, engages in the generation, transmission, distribution, and sale of electricity in the United States. It generates electricity through coal, landfill gas, uranium, and natural gas and oil sources, as well as solar, wind, other renewable sources. The company serves residences, commercial firms, industrials, municipalities, and other electric utilities. The company was incorporated in 2017 and is headquartered in Kansas City, Missouri.",
+  "url": "https://finance.yahoo.com/quote/EVRG",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

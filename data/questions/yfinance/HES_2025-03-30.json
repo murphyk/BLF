@@ -1,0 +1,19 @@
+{
+  "id": "HES_2025-03-30",
+  "source": "yfinance",
+  "question": "Will HES's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HES for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 156.380. (The latest market close price of HES.)",
+  "background": "Hess Corporation, an exploration and production company, explores, develops, produces, purchases, transports, and sells crude oil, natural gas liquids, and natural gas in the United States, Guyana, the Malaysia/Thailand Joint Development Area, and Malaysia. It operates in two segments, Exploration and Production, and Midstream. The company also conduct exploration activities principally offshore Guyana, in the U.S. Gulf of America, and offshore Suriname. In addition, the company is involved in gathering, compressing, and processing natural gas; fractionating natural gas liquids; gathering, terminaling, loading, and transporting crude oil and natural gas liquids; and storing and terminaling propane, as well as providing water handling services primarily in the Bakken Shale plays in the Williston Basin area of North Dakota. Hess Corporation was incorporated in 1920 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/HES",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

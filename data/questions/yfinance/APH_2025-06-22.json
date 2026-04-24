@@ -1,0 +1,21 @@
+{
+  "id": "APH_2025-06-22",
+  "source": "yfinance",
+  "question": "Will APH's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/APH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 93.070. (The latest market close price of APH.)",
+  "background": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Harsh Environment Solutions, Communications Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including harsh environment data, power, high-speed, fiber optic, and radio frequency interconnect products; busbars and power distribution systems; and power interconnect products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, broadband communication, commercial aerospace, industrial, information technology and data communication, military, mobile device, and mobile network markets. Amphenol Corporation was founded in 1932 and is headquartered in Wallingford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/APH",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

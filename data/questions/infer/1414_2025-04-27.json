@@ -1,0 +1,15 @@
+{
+  "id": "1414_2025-04-27",
+  "source": "infer",
+  "question": "On 31 May 2025, will Nvidia be the world\u2019s most valuable company by market cap?",
+  "resolution_criteria": "This question will be resolved by comparing market capitalizations on CompaniesMarketCap on 31 May 2025. Note that 31 May 2025 is a Saturday, so market caps will be based on the end-of-day stock prices on 30 May 2025.",
+  "background": "Market capitalization (or \u201cmarket cap\u201d) is a way of measuring the size of a company by calculating the total value of a company\u2019s shares on the open market ( Investopedia , Fidelity ). A global ranking of companies by market capitalization is available on CompaniesMarketCap . Nvidia has become an essential player in artificial intelligence, as the technologies the company produces underpin many of the major advancements and applications of AI ( Plus500 , Forbes ). The demand for AI chips has skyrocketed Nvidia\u2019s value in recent months, leading it to briefly become the world\u2019s largest company by market cap in June 2024, before falling back to third behind Microsoft and Apple ( CNBC , The Motley Fool ). Many expect the value of Nvidia to continue to rise, with some predicting market caps as high as $5 trillion by 2026 or $10 trillion by 2030 ( The Motley Fool , Forbes ). However, others have suggested that we may be in an AI bubble and that its costs and unclear value could cause Nvidia\u2019s value to fall back to earth ( MarketWatch , Business Insider ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1414",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-31",
+  "market_value": "0.07150000000000001",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The crowd forecast."
+}

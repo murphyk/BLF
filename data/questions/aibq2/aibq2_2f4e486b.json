@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_2f4e486b",
+  "source": "aibq2",
+  "question": "Will there be any human cases of the novel coronavirus, HKU5-CoV-2, before July 1, 2025?",
+  "background": "[Discovery of HKU5-CoV-2, a Novel Coronavirus in China](https://assure-test.com/discovery-of-hku5-cov-2-a-novel-coronavirus-in-china/)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, there are any human cases reported anywhere globally of HKU5-CoV-2.\n\nFine print:\nQuestion resolves according to [credible sources](https://www.metaculus.com/help/faq/#definitions), especially the World Health Organization or US Centers for Disease Control.",
+  "url": "https://assure-test.com/discovery-of-hku5-cov-2-a-novel-coronavirus-in-china/",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

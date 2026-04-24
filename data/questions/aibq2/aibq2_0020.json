@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0020",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the government of Scotland officially announce a date for an independence referendum?",
+  "title_hash": "a83d62aac483efa8",
+  "background": "The National: [Yes posts huge 11-point lead in new Scottish independence poll](https://www.thenational.scot/news/25089457.yes-posts-huge-11-point-lead-new-scottish-independence-poll/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a referendum on the independence of Scotland from the United Kingdom is officially scheduled. If this does not occur before that date, this question resolves as **No**.\n\nFine print:\nFor purposes of this question, the referendum will be considered \"officially scheduled\" when it is announced by a person or entity with the authority to do so within Scotland. Please note that broader legality, such as within the United Kingdom, will be considered irrelevant for this question, so if the federal government declared the referendum illegal, the question would still resolve as Yes.",
+  "url": "https://www.thenational.scot/news/25089457.yes-posts-huge-11-point-lead-new-scottish-independence-poll/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

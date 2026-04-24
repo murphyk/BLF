@@ -1,0 +1,14 @@
+{
+  "id": "0xeffa3fd586db59043682b5bb90e4162f90bbfeb488edc118702d985183de0700_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Elena Rybakina be the 2026 Women\u2019s Wimbledon Winner?",
+  "resolution_criteria": "Wimbledon 2026 is scheduled for June 29 - July 12, 2026.\n\nThis market will resolve to the player that wins the 2026 Wimbledon Women\u2019s Singles Tournament.\n\nIf at any point it becomes impossible for a listed player to win the 2026 Wimbledon Women\u2019s Singles Tournament per the rules of the tournament, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 Wimbledon Women\u2019s Singles Tournament is cancelled, postponed after August 31, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from Wimbledon (https://www.wimbledon.com/index.html); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-elena-rybakina-be-the-2026-womens-wimbledon-winner",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.155",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

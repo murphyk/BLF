@@ -1,0 +1,15 @@
+{
+  "id": "0x5dd6d072364a196c2c980b52d9df93599a63ff497619e0b6a028f9ec7d4d3252_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Denmark win Eurovision 2025?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2025 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2025 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2025, 11:59 PM ET, this market will resolve \"Other\". If two or more countries tie to win Eurovision 2025, this market will resolve to the country which comes first alphabetically.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2025, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-denmark-win-eurovision-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.008",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

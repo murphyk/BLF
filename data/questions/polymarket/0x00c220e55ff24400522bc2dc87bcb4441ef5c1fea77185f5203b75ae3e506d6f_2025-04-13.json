@@ -1,0 +1,15 @@
+{
+  "id": "0x00c220e55ff24400522bc2dc87bcb4441ef5c1fea77185f5203b75ae3e506d6f_2025-04-13",
+  "source": "polymarket",
+  "question": "Will John-Ion Banu-Muscel win the Romanian presidential election?",
+  "resolution_criteria": "The first round of the Romanian presidential election, originally held on November 24, 2024, was annulled by the Constitutional Court. On January 16, Romania's coalition government approved a re-run of the presidential election. It is scheduled for May 4, with a second round on May 18, if no candidate receives an absolute majority of the vote (see: https://www.reuters.com/world/europe/romania-confirms-date-tightens-rules-presidential-election-rerun-2025-01-16/).\n\nThis market will resolve to the individual who wins the next Romanian presidential election including any potential second round.\n\nThis market is inclusive of any election which results in the election of the next Romanian President. For example, if Romania decides to recertify the results of the November 2024 election, this market would resolve accordingly.\n\nIf the result of this election isn't known by December 31, 2025, 11:59 PM ET, the market group will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Romanian Government, specifically the Permanent Electoral Authority (https://www.roaep.ro/prezentare/).\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-john-ion-banu-muscel-win-the-romanian-presidential-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-19",
+  "market_value": "0.002",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question tracks a volatility index (OVX) which is a key financial indicator used to measure expectations of price fluctuations in the options market.",
+  "question": "Will the Chicago Board Options Exchange's Crude Oil ETF Volatility Index have increased by each resolution date listed below as compared to its value on 2025-10-26?"
+}

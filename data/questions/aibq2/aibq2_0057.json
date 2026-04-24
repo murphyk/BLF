@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0057",
+  "source": "aibq2",
+  "question": "Will Donald Trump and Volodymyr Zelenskyy speak on the phone with each other before June 15, 2025?",
+  "title_hash": "04344f15f34a801f",
+  "background": "Sky News: [Key moments that have shaped Trump and Zelenskyy's relationship](https://news.sky.com/story/trump-and-zelenskyys-relationship-from-perfect-phone-call-to-oval-office-clash-13331892)",
+  "resolution_criteria": "This question resolves as **Yes** if, after May 12, 2025 and before June 15, 2025, Donald Trump and Volodymyr Zelenskyy speak on the phone with each other, according to [credible sources](https://www.metaculus.com/faq/#definitions).\n\nFine print:\nBoth sides must acknowledge the phone call took place for it to count. \"Speak on the phone with each other\" is defined as both individuals, from different physical spaces, orally uttering words intended for the other individual into a telephone or equivalent device, those words being converted into electrical or digital signals in real time, and then transferred to the other individual via telecommunications links, where they are reconverted into sound waves at the other individual's listening device.",
+  "url": "https://news.sky.com/story/trump-and-zelenskyys-relationship-from-perfect-phone-call-to-oval-office-clash-13331892",
+  "forecast_due_date": "2025-05-13",
+  "resolution_date": "2025-06-15",
+  "resolved_to": 1.0
+}

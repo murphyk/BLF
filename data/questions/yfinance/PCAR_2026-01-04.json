@@ -1,0 +1,19 @@
+{
+  "id": "PCAR_2026-01-04",
+  "source": "yfinance",
+  "question": "Will PCAR's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PCAR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 111.510. (The latest market close price of PCAR.)",
+  "background": "PACCAR Inc designs, manufactures, and distributes light, medium, and heavy-duty commercial trucks in the United States, Canada, Europe, Mexico, South America, Australia, and internationally. It operates through three segments: Truck, Parts, and Financial Services. The Truck segment designs, manufactures, and distributes trucks for the over-the-road and off-highway hauling of commercial and consumer goods. It sells its trucks through a network of independent dealers under the Kenworth, Peterbilt, and DAF nameplates. The Parts segment distributes aftermarket parts for trucks and related commercial vehicles. The Financial Services segment conducts full-service leasing operations under the PacLease trade name, as well as provides finance and leasing products and services to customers and dealers. This segment offers equipment financing and administrative support services for its franchisees; retail loan and leasing services for small, medium, and large commercial trucking companies, as well as independent owners/operators and other businesses; and truck inventory financing services to independent dealers. In addition, this segment offers loans and leases directly to customers for the acquisition of trucks and related equipment. The company manufactures and markets industrial winches under the Braden, Carco, and Gearmatic nameplates. PACCAR Inc was founded in 1905 and is headquartered in Bellevue, Washington.",
+  "url": "https://finance.yahoo.com/quote/PCAR",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

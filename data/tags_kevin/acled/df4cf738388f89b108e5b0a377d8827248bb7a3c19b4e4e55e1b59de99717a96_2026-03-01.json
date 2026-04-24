@@ -1,0 +1,6 @@
+{
+  "category": "Geopolitics & Conflict",
+  "suggested_category": null,
+  "justification": "The question concerns the frequency of riots in Ethiopia, which is a key indicator of internal political instability and conflict monitored by ACLED.",
+  "question": "Will there be more 'Riots' in Ethiopia for the 30 days before 2026-03-08 compared to the 30-day average of 'Riots' over the 360 days preceding 2026-03-01?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Riots'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Riots' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Riots' would need to occur in the 30 days leading up to the resolution."
+}

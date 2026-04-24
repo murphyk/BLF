@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_8b4483bd",
+  "source": "aibq2",
+  "question": "Will Vietnam and South Korea announce an agreement for South Korea to export self-propelled howitzers to Vietnam?",
+  "background": "The Korea Herald: [South Korea-Vietnam ties enter new strategic terrain, but need more detailed road map: Seoul envoy](https://www.koreaherald.com/article/10464718) \"Vietnam is reportedly in negotiations to import 20 units of K9 self-propelled howitzers from Korea in a deal valued at $300 million. If finalized, it would mark Korea\u2019s first defense arms sale to the country.\"",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the governments of Vietnam and/or South Korea announce an agreement for South Korea to export 2 or more self-propelled howitzers to Vietnam. If no such agreement is announced after the launch of this question and before July 1, 2025, this question resolves as **No**.",
+  "url": "https://www.koreaherald.com/article/10464718",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

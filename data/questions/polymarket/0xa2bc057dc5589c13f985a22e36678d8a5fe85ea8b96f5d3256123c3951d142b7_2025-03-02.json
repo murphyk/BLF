@@ -1,0 +1,15 @@
+{
+  "id": "0xa2bc057dc5589c13f985a22e36678d8a5fe85ea8b96f5d3256123c3951d142b7_2025-03-02",
+  "source": "polymarket",
+  "question": "Will the Utah Hockey Club win the 2025 President\u2019s Trophy?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Utah Hockey Club win the 2025 NHL President\u2019s Trophy. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025 President\u2019s Trophy based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-utah-hockey-club-win-the-2025-presidents-trophy",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-21",
+  "market_value": "0.003",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

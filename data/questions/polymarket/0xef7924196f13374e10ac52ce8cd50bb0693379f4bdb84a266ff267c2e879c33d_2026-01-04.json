@@ -1,0 +1,14 @@
+{
+  "id": "0xef7924196f13374e10ac52ce8cd50bb0693379f4bdb84a266ff267c2e879c33d_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Takehiro Hira be nominated for Best Supporting Actor at the 98th Academy Awards?",
+  "resolution_criteria": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 98th Academy Awards in 2026, nominations are scheduled to be announced on January 22, followed by the ceremony on March 15, 2026.\n\nThis market will resolve to \"Yes\" if the listed actor is nominated for the 98th Academy Award for Best Supporting Actor. If an actor is not officially nominated for the Academy Award for Best Supporting Actor when the 2026 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIf, for any reason, no nominations are declared by March 15, 2026, 11:59 PM ET,  this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-takehiro-hira-be-nominated-for-best-supporting-actor-at-the-98th-academy-awards",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-22",
+  "market_value": "0.02",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x324d699420ad881471d0fd29acc86e664e397bd6461b3fa440dcd3efc514ac79_2025-03-02",
+  "source": "polymarket",
+  "question": "Putin out as President of Russia in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Russia's president, Vladimir Putin, is removed from power for any length of time between December 28, 2024, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nPresident Vladimir Putin will be considered to be removed from power if he resigns, is detained, or otherwise loses his position or is prevented from fulfilling his duties as President of Russia within this market's timeframe.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/putin-out-as-president-of-russia-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.085",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

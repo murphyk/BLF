@@ -1,0 +1,15 @@
+{
+  "id": "SqEcEtuq28_2025-05-25",
+  "source": "manifold",
+  "question": "Will Elon Musk buy OpenAI?",
+  "resolution_criteria": "Resolves YES if Elon Musk & OpenAI formally begin the process for Elon Musk or his associated companies to be\u2014whether alone or as part of a consortium of other investors\u2014the majority/controlling owner of OpenAI before market close (August 31st, 2025). Otherwise (including in the absence of any other information), resolves NO at market close.\n\nIt does not matter if the process is eventually blocked before it completes, there just needs to be a formal-ish announcement from both parties.\n\nThere are many edge cases I cannot specify in advance, so please ask clarifying questions if you are unsure. I plan to be fairly broad with how I define \"Musk buying OpenAI\"\u2014the goal is to capture the spirit of the headlines.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-elon-musk-buy-openai",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.021669393470946003",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market value."
+}

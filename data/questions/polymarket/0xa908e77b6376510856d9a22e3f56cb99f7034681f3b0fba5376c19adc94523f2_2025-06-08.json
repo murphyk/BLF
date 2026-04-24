@@ -1,0 +1,15 @@
+{
+  "id": "0xa908e77b6376510856d9a22e3f56cb99f7034681f3b0fba5376c19adc94523f2_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Ximena Rinc\u00f3n win the Chilean presidential election?",
+  "resolution_criteria": "Presidential elections are scheduled to be held in Chile on November 16, 2025. If no candidate secures more than 50% of the vote outright, a second round of elections will be scheduled.\n\nThis market will resolve to the candidate that wins this election. Otherwise, this market will resolve to \"No\".\n\nThis market includes any potential second round. If the result of this election isn't known by May 31, 2026, 11:59 PM ET, the market will resolve to \"No\".\n\nThis market will resolve based on the result of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Chilean Government, specifically the Chilean Electoral Service (Servicio\u202fElectoral de Chile, Serval) (https://www.servel.cl/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ximena-rincn-win-the-chilean-presidential-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-16",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

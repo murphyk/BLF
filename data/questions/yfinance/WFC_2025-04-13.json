@@ -1,0 +1,21 @@
+{
+  "id": "WFC_2025-04-13",
+  "source": "yfinance",
+  "question": "Will WFC's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WFC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 72.260. (The latest market close price of WFC.)",
+  "background": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. It operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate and Investment Banking; and Wealth and Investment Management. The Consumer Banking and Lending segment offers diversified financial products and services for consumers and small businesses. Its financial products and services include checking and savings accounts, and credit and debit cards, as well as home, auto, personal, and small business lending services. The Commercial Banking segment provides financial solutions to private, family owned, and certain public companies. Its products and services include banking and credit products across various industry sectors and municipalities, secured lending and lease products, and treasury management services. The Corporate and Investment Banking segment offers a suite of capital markets, banking, and financial products and services, such as corporate banking, investment banking, treasury management, commercial real estate lending and servicing, equity, and fixed income solutions, as well as sales, trading, and research capabilities services to corporate, commercial real estate, government, and institutional clients. The Wealth and Investment Management segment provides personalized wealth management, brokerage, financial planning, lending, private banking, and trust and fiduciary products and services to affluent, high-net worth, and ultra-high-net worth clients. It also operates through financial advisors in brokerage and wealth offices, consumer bank branches, independent offices, and digitally through WellsTrade and Intuitive Investor. Wells Fargo & Company was founded in 1852 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/WFC",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

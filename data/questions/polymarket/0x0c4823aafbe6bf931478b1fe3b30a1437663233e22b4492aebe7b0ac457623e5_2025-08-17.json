@@ -1,0 +1,15 @@
+{
+  "id": "0x0c4823aafbe6bf931478b1fe3b30a1437663233e22b4492aebe7b0ac457623e5_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Bitcoin dip to $105K in August?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-dip-to-105k-in-august-172",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.25",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ROK_2025-11-23",
+  "source": "yfinance",
+  "question": "Will ROK's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ROK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 394.540. (The latest market close price of ROK.)",
+  "background": "Rockwell Automation, Inc. provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The company operates through three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The Intelligent Devices segment offers drives, motion, safety, sensing, industrial components, and configured-to-order products. The Software & Control segment provides control and visualization software and hardware, information software, and network and security infrastructure solutions. The Lifecycle Services segment provides consulting, professional services and solutions, and connected and maintenance services. It sells its solutions primarily through independent distributors in relation with its direct sales force. It serves discrete end markets, including automotive, semiconductor, and warehousing and logistics, as well as general industries comprising printing and publishing, marine, glass, fiber and textiles, airports, and aerospace; hybrid end markets, such as food and beverage, life sciences, household and personal care, and tire, as well as eco industrial, including water/wastewater, waste management, mass transit, and renewable energy; and process end markets comprising oil and gas, mining, metals, chemicals, pulp and paper, and others. The company was founded in 1903 and is headquartered in Milwaukee, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/ROK",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

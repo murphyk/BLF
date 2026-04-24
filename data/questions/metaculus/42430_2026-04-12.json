@@ -1,0 +1,14 @@
+{
+  "id": "42430_2026-04-12",
+  "source": "metaculus",
+  "question": "Will there be a successful coup in Africa or Latin America before May 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if there is a successful coup d\u2019\u00e9tat in any country on the African continent or Latin America after February 28, 2026 and before May 1, 2026, according to [credible](https://www.metaculus.com/faq/#definitions) media reports. If this does not occur, this question resolves as **No**.",
+  "background": "According to [Powell & Thyne (2011, p. 252)](https://www.uky.edu/~clthyn2/powell-thyne-JPR-2011.pdf), a coup is \"illegal and overt attempts by the military or other elites within the state apparatus to unseat the sitting executive.\" In recent years, some of the coups in Africa have been:&#x20;\n\n* [Guinea-Bisau November 2025](https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat)\n* [Madagascar October 2025](https://en.wikipedia.org/wiki/2025_Malagasy_mutiny)\n* [Mali August 2020](https://en.wikipedia.org/wiki/2020_Malian_coup_d%27%C3%A9tat)\n* [Mali May 2021](https://en.wikipedia.org/wiki/2021_Malian_coup_d%27%C3%A9tat)\n* [Niger March 2021](https://en.wikipedia.org/wiki/2021_Nigerien_coup_attempt) (attempt)\n* [Niger July 2023](https://en.wikipedia.org/wiki/2023_Nigerien_coup_d%27%C3%A9tat)\n* [Gabon August 2023](https://en.wikipedia.org/wiki/2023_Gabonese_coup_d%27%C3%A9tat)\n* [Chad January 2025](https://en.wikipedia.org/wiki/2025_N%27Djamena_attack) (possible attempt)\n* [Burkina Faso January 2022](https://en.wikipedia.org/wiki/January_2022_Burkina_Faso_coup_d%27%C3%A9tat)\n* [Burkina Faso September 2022](https://en.wikipedia.org/wiki/September_2022_Burkina_Faso_coup_d%27%C3%A9tat)&#x20;\n* [Guinea September 2021](https://en.wikipedia.org/wiki/2021_Guinean_coup_d%27%C3%A9tat)\n\nLatin America has had the following coup attempts in recent years:\n\n* [Peru self-coup attempt](https://en.wikipedia.org/wiki/2022_Peruvian_self-coup_attempt), December 2022\n* [Brazil Congress attack](https://en.wikipedia.org/wiki/2023_Brazilian_Congress_attack), January 2023\n* [Bolivia coup attempt](https://en.wikipedia.org/wiki/2024_Bolivian_coup_attempt), June 2024\n\nSee also: [VoA by the numbers Coups in Africa](https://projects.voanews.com/african-coups/)",
+  "url": "https://www.metaculus.com/questions/42430",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.17",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

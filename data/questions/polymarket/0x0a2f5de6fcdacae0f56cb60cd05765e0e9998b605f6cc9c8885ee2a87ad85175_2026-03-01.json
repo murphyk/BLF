@@ -1,0 +1,14 @@
+{
+  "id": "0x0a2f5de6fcdacae0f56cb60cd05765e0e9998b605f6cc9c8885ee2a87ad85175_2026-03-01",
+  "source": "polymarket",
+  "question": "Will Paul Thomas Anderson win Best Director at the 98th Academy Awards?",
+  "resolution_criteria": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 98th Academy Awards in 2026, nominations are scheduled to be announced on January 22, followed by the ceremony on March 15, 2026.\n\nThis market will resolve according to the listed director who wins the 98th Academy Award for Best Director. \n\nIf a director is not officially nominated for the Academy Award for Best Director when the 2026 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated director whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2026, 11:59 PM ET,  this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-paul-thomas-anderson-win-best-director-at-the-98th-academy-awards",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-15",
+  "market_value": "0.895",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

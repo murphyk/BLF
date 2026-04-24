@@ -1,0 +1,15 @@
+{
+  "id": "0xc33864b627355a80ffc177e9fb26f029c2343c5fff190b41b6e0f1b590797d72_2025-08-31",
+  "source": "polymarket",
+  "question": "Will France recognize Palestine in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the French government formally recognizes the State of Palestine by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nAn announcement of intentions will not suffice to resolve this market to \"Yes.\" Only the French government's formal recognition of the State of Palestine will count toward a \u201cYes\u201d resolution for this market.\n\nThe primary resolution source for this market will be official information from the French government. However, a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-france-recognize-palestine-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-09-22",
+  "market_value": "0.915",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

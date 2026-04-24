@@ -1,0 +1,19 @@
+{
+  "id": "BRO_2025-11-09",
+  "source": "yfinance",
+  "question": "Will BRO's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BRO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 80.300. (The latest market close price of BRO.)",
+  "background": "Brown & Brown, Inc. markets and sells insurance products and services in the United States, Canada, Ireland, the United Kingdom, and internationally. It operates through four segments: Retail, Programs, Wholesale Brokerage, and Services. The Retail segment provides property and casualty, employee benefits insurance products, personal insurance products, specialties insurance products, risk management strategies, loss control survey and analysis, consultancy, and claims processing services. It serves commercial, public and quasi-public entities, professional, and individual customers. The Programs segment offers professional liability and related package insurance products for dentistry, legal, eyecare, insurance, financial, physicians, real estate title professionals, as well as supplementary insurance products related to weddings, events, medical facilities, and cyber liabilities. This segment also provides public entity-related and specialty programs through a network of independent agents; and program management services for insurance carrier partners. The Wholesale Brokerage segment markets and sells excess and surplus commercial and personal lines insurance through independent agents and brokers. The Services segment offers third-party claims administration and medical utilization management services in the workers' compensation and all-lines liability arenas, Medicare Set-aside, Social Security disability, Medicare benefits advocacy, and claims adjusting services. Brown & Brown, Inc. was founded in 1939 and is headquartered in Daytona Beach, Florida.",
+  "url": "https://finance.yahoo.com/quote/BRO",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "DEXMXUS_2026-01-04",
+  "source": "fred",
+  "question": "Will the spot exchange rate of Mexican pesos to US dollars have increased by each resolution date listed below as compared to its value on 2026-01-04?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DEXMXUS once the data is published.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 17.998. (The latest value released in Mexican Pesos to U.S. Dollar Spot Exchange Rate from the release H.10 Foreign Exchange Rates.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h10/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: Noon buying rates in New York City for cable transfers payable in foreign currencies..  Additional background of the series:  1. the units of the series: Mexican Pesos to One U.S. Dollar.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DEXMXUS",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

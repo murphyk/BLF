@@ -1,0 +1,23 @@
+{
+  "id": "CAH_2025-03-16",
+  "source": "yfinance",
+  "question": "Will CAH's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CAH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 127.420. (The latest market close price of CAH.)",
+  "background": "Cardinal Health, Inc. operates as a healthcare services and products company in the United States, Canada, Europe, Asia, and internationally. It provides customized solutions for hospitals, healthcare systems, pharmacies, ambulatory surgery centers, clinical laboratories, physician offices, and patients in the home. The company operates in two segments: Pharmaceutical and Specialty Solutions, and Global Medical Products and Distribution. It distributes branded and generic pharmaceutical, specialty pharmaceutical, and over-the-counter healthcare and consumer products, as well as medical supplies. The company also provides services to pharmaceutical manufacturers and healthcare providers for specialty pharmaceutical products; offers pharmacy management services to hospitals; operates pharmacies, including pharmacies in community health centers; and repackages generic pharmaceuticals and over-the-counter healthcare products. In addition, it manufactures, sources, and distributes Cardinal Health branded medical, surgical, and laboratory products and devices that include exam and surgical gloves; needles, syringe, and sharps disposals; compression solution, incontinence, nutritional delivery, and wound care products; single-use surgical drapes, gowns, and apparel products; fluid suction and collection systems; urology products; operating room supply products; and electrode product lines. Further, the company distributes a range of national brand products, including medical, surgical, and laboratory products; provides supply chain services and solutions to hospitals, ambulatory surgery centers, clinical laboratories, and other healthcare providers; and assembles and sells sterile, and non-sterile procedure kits. Additionally, it manufactures, prepares, delivers, and distributes radiopharmaceuticals and related treatments; and optimizes direct shipments through integrated technology solutions. The company was incorporated in 1979 and is headquartered in Dublin, Ohio.",
+  "url": "https://finance.yahoo.com/quote/CAH",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

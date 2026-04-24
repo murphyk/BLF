@@ -1,0 +1,17 @@
+{
+  "id": "NOW_2026-03-01",
+  "source": "yfinance",
+  "question": "Will NOW's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NOW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 107.810. (The latest market close price of NOW.)",
+  "background": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/NOW",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

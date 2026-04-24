@@ -1,0 +1,15 @@
+{
+  "id": "0xf164a0d86e0080be4a1e559ebfe2f15b15770b67950cf9cae6923b1fd69f598c_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the Kolkata Knight Riders win the 2025 Indian Premier League?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 Indian Premier League. \n\nIf at any point it becomes impossible for this team to win the Indian Premier League based on the rules of the IPL (e.g., they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.\n\nIf the 2025 IPL season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-kolkata-knight-riders-win-the-2025-indian-premier-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-22",
+  "market_value": "0.0405",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

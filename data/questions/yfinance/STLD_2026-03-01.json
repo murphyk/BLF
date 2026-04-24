@@ -1,0 +1,17 @@
+{
+  "id": "STLD_2026-03-01",
+  "source": "yfinance",
+  "question": "Will STLD's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/STLD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 192.740. (The latest market close price of STLD.)",
+  "background": "Steel Dynamics, Inc., together with its subsidiaries, operates as a steel producer and metal recycler in the United States. It operates through four segments: Steel Operations, Metals Recycling Operations, Steel Fabrication Operations, and Aluminum Operations. The Steel Operations segment offers hot rolled, cold rolled, and coated steel products; parallel flange beams and channel sections, large unequal leg angles, and reinforcing steel bars, as well as standard strength carbon, intermediate alloy hardness, and premium grade rail products; engineered special-bar-quality products, merchant-bar-quality products, and other engineered round steel bars; channels, angles, flats, merchant rounds, and reinforcing steel bars; and specialty shapes and light structural steel products. This segment also engages in turning, polishing, straightening, chamfering, precision saw-cutting, and heat treating of bar products. Its products are used in construction, automotive, manufacturing, transportation, heavy and agriculture equipment, energy, and pipe and tube markets. The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services. Its ferrous products include heavy melting steel, busheling, bundled scrap, shredded scrap, steel turnings, and cast-iron products; and nonferrous products comprise aluminum, brass, copper, stainless steel, and other nonferrous metals. The Steel Fabrication Operations segment produces steel non-residential building components, such as steel joists, girders, and steel deck products for non-residential steel fabricators, metal building companies, general construction contractors, developers, owners, brokers, and governmental entities. The Aluminum Operations segment offers recycled aluminum flat rolled products. The company also exports its products. Steel Dynamics, Inc. was incorporated in 1993 and is headquartered in Fort Wayne, Indiana.",
+  "url": "https://finance.yahoo.com/quote/STLD",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CPT_2026-02-01",
+  "source": "yfinance",
+  "question": "Will CPT's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CPT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 108.430. (The latest market close price of CPT.)",
+  "background": "Camden Property Trust, an S&P 500 Company, is a real estate company primarily engaged in the ownership, management, development, redevelopment, acquisition, and construction of multifamily apartment communities. Camden owns and operates 174 properties containing 59,416 apartment homes across the United States. Upon completion of 3 properties currently under development, the Company's portfolio will increase to 60,578 apartment homes in 177 properties. Camden has been recognized as one of the 100 Best Companies to Work For by FORTUNE magazine for 18 consecutive years, most recently ranking #18.",
+  "url": "https://finance.yahoo.com/quote/CPT",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

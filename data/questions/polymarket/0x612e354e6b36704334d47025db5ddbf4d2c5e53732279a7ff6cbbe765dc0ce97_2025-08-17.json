@@ -1,0 +1,15 @@
+{
+  "id": "0x612e354e6b36704334d47025db5ddbf4d2c5e53732279a7ff6cbbe765dc0ce97_2025-08-17",
+  "source": "polymarket",
+  "question": "Will de Goes Rodrygo win the 2025 Ballon d'Or?",
+  "resolution_criteria": "This market will resolve according to winner of the 2025 Ballon D\u2019Or. \n\nIf no 2025 Ballon D\u2019Or winner is declared by December 31, 2025, 11:59 PM ET this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-de-goes-rodrygo-win-the-2025-ballon-dor",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-26",
+  "market_value": "0.0005",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

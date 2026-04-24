@@ -1,0 +1,23 @@
+{
+  "id": "RF_2025-03-30",
+  "source": "yfinance",
+  "question": "Will RF's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 21.750. (The latest market close price of RF.)",
+  "background": "Regions Financial Corporation, a financial holding company, provides various banking and related products and services to individual and corporate customers. It operates through three segments: Corporate Bank, Consumer Bank, and Wealth Management. The Corporate Bank segment offers commercial banking services, such as commercial and industrial, commercial real estate, and investor real estate lending; equipment lease financing; deposit products; capital markets activities, such as securities underwriting and placement; and loan syndication and placement, foreign exchange, derivatives, merger and acquisition, and other advisory services to corporate, middle market, and commercial real estate developers and investors. The Consumer Bank segment provides consumer banking products and services related to residential first mortgages, home equity lines and loans, consumer credit cards, and other consumer loans, as well as the corresponding deposit relationships. The Wealth Management segment offers credit related products, and retirement and savings solutions; and trust and investment management, asset management, and estate planning to individuals, businesses, governmental institutions, and non-profit entities. It also provides investment and insurance products; home improvement lending, investment advisory services, equipment financing for commercial clients, small business customers, low-income housing tax credit corporate fund syndication services, financing to CRA-qualified customers, and broker-dealer services to commercial clients; and other specialty financing services. The company was founded in 1971 and is headquartered in Birmingham, Alabama.",
+  "url": "https://finance.yahoo.com/quote/RF",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

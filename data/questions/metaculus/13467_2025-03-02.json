@@ -1,0 +1,15 @@
+{
+  "id": "13467_2025-03-02",
+  "source": "metaculus",
+  "question": "Will at least ten countries have committed to any diplomatic agreement restricting solar geoengineering, before 2026?",
+  "resolution_criteria": "The question resolves positively if, by the end of the day GMT on December 31st, 2025, 10 or more countries have committed as a matter of treaty obligation to discourage, restrict, or bar solar geoengineering activities in whole or part.\n\nOtherwise it resolves **No** if *midnight on January 1st, 2026, GMT* arrives without these circumstances coming into being",
+  "background": "[According to Wikipedia,](https://en.wikipedia.org/wiki/Solar_geoengineering) Solar geoengineering, or solar radiation modification, is a type of climate engineering in which sunlight (solar radiation) would be reflected back to outer space to limit or reverse human-caused climate change.\n\n[An independent initiative](https://www.solargeoeng.org) calls for an International Non-Use Agreement regarding solar geoengineering. The initiators' view is [that solar geoengineering is currently not desirable due to associated risks.](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcc.754)\n\nThis question asks a simpler and less strict question than [its companion](https://www.metaculus.com/questions/10176/stringent-anti-solar-geo-engng-pact-by-2026/); whether there will be *any* pact against solar geoengineering, even if it doesn't meet the [full 5 core commitments and measures](https://www.solargeoeng.org/non-use-agreement/) of the proposed Agreement.",
+  "url": "https://www.metaculus.com/questions/13467",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.06",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The community prediction."
+}

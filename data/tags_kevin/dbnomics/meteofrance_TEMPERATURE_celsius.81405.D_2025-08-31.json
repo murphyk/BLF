@@ -1,0 +1,6 @@
+{
+  "category": "Weather & Climate",
+  "suggested_category": null,
+  "justification": "The question asks for a forecast of daily average temperatures at a specific weather station based on historical meteorological data.",
+  "question": "What is the probability that the daily average temperature at the French weather station at Cayenne \u2013 F\u00e9lix \u00c9bou\u00e9 Airport will be higher on each resolution date listed below than on 2025-08-31?"
+}

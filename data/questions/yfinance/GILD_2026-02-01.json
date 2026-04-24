@@ -1,0 +1,17 @@
+{
+  "id": "GILD_2026-02-01",
+  "source": "yfinance",
+  "question": "Will GILD's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GILD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 129.110. (The latest market close price of GILD.)",
+  "background": "Gilead Sciences, Inc., a biopharmaceutical company, discovers, develops, and commercializes medicines in the areas of unmet medical need in the United States, Europe, and internationally. The company provides Biktarvy, Genvoya, Descovy, Odefsey, Truvada, Complera/ Eviplera, Stribild, Sunlencs, and Atripla products for the treatment of HIV/AIDS; Veklury, an injection for intravenous use, for the treatment of COVID-19; and Epclusa, Harvoni, Vemlidy, and Viread for the treatment of viral hepatitis. It also offers Yescarta, Tecartus, and Trodelvy products for the treatment of oncology; Letairis, an oral formulation for the treatment of pulmonary arterial hypertension; and AmBisome, a liposomal formulation for the treatment of serious invasive fungal infections. The company has collaboration agreements with Arcus Biosciences, Inc.; Merck Sharp & Dohme Corp.; Pionyr Immunotherapeutics Inc.; Tizona Therapeutics, Inc.; Galapagos NV; Janssen Sciences Ireland Unlimited Company; Japan Tobacco, Inc.; Dragonfly Therapeutics, Inc.; Arcellx, Inc.; Everest Medicines; Merck & Co, Inc.; Tentarix Biotherapeutics Inc.; Marengo Therapeutics; and Assembly Biosciences, Inc. It also has research collaboration, option, and license agreement with Merus N.V. for the discovery of novel dual tumor-associated antigens (TAA) targeting trispecific antibodies. The company has a collaboration with Terray Therapeutics, Inc. to discover and develop small molecule therapies; and LEO Pharma to develop, manufacture, and commercialize the small molecule oral STAT6 program. The company was incorporated in 1987 and is headquartered in Foster City, California.",
+  "url": "https://finance.yahoo.com/quote/GILD",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

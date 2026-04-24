@@ -1,0 +1,14 @@
+{
+  "id": "AIpzy9ZIp2_2026-04-12",
+  "source": "manifold",
+  "question": "Above human scores on ARC-AGI-3 in 2026?",
+  "resolution_criteria": "Resolves to YES if at least one model scores at or above the human baseline, as evaluated by the creators of the benchmark, in 2026.\n\nResolves to NO if this does not happen.",
+  "background": "",
+  "url": "https://manifold.markets/ZviMowshowitz/above-human-scores-on-arcagi3-in-20",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.217656587333751",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

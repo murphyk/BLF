@@ -1,0 +1,23 @@
+{
+  "id": "MCHP_2025-03-02",
+  "source": "yfinance",
+  "question": "Will MCHP's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MCHP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 55.760. (The latest market close price of MCHP.)",
+  "background": "Microchip Technology Incorporated engages in the development, manufacture, and sale of smart, connected, and secure embedded control solutions in the Americas, Europe, and Asia. The company offers general purpose 8-bit, 16-bit, and 32-bit mixed-signal microcontrollers; 32-bit embedded mixed-signal microprocessors; and specialized microcontrollers for automotive, industrial, computing, communications, lighting, power supplies, motor control, human machine interface, security, wired connectivity, and wireless connectivity applications. It also provides analog, interface, mixed signal, and timing products comprising power management, linear, mixed-signal, high-voltage, thermal management, discrete diodes, and metal oxide semiconductor field effect transistors (MOSFETS), radio frequency (RF), drivers, safety, security, timing, USB, Ethernet, wireless, and other interface products; field-programmable gate array (FPGA) products; and application development tools that enable system designers to program microcontroller, FPGA, and microprocessor products for specific applications. In addition, the company offers serial electrically erasable programmable read-only memory, serial flash memories, parallel flash memories, serial static random access memories, and serial electrically erasable random access memories for the production of very small footprint devices; and licenses its SuperFlash embedded flash and non-volatile memory technologies to foundries, integrated device manufacturers, and design partners for use in the manufacture of microcontroller products, gate array, RF, analog, and neuromorphic compute products that require embedded non-volatile memory, as well as provides engineering services. Further, it offers wafer foundry and assembly, and test subcontracting manufacturing services; and timing systems products, application specific integrated circuits, and aerospace products. The company was incorporated in 1989 and is headquartered in Chandler, Arizona.",
+  "url": "https://finance.yahoo.com/quote/MCHP",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "INTU_2025-12-21",
+  "source": "yfinance",
+  "question": "Will INTU's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/INTU for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 662.430. (The latest market close price of INTU.)",
+  "background": "Intuit Inc. provides financial management, payments and capital, compliance, and marketing products and services in the United States. The company operates in four segments: Global Business Solutions, Consumer, Credit Karma, and ProTax. The Global Business Solutions segment provides QuickBooks services, which include financial and business management online services, desktop software, payroll solutions, time tracking, merchant payment processing and bill pay solutions, checking accounts, and financing services for small and mid-market businesses; and Mailchimp, a marketing automation and customer relationship management. This segment also offers QuickBooks online services and desktop software solutions comprising QuickBooks Online, QuickBooks Live, QuickBooks Online Advanced, QuickBooks Self-Employed, QuickBooks Solopreneur financial and business management offerings, QuickBooks Online Payroll, QuickBooks Checking, QuickBooks Desktop software subscriptions, and QuickBooks Assisted Payroll. The Consumer segment provides do-it-yourself and assisted TurboTax income tax preparation products and services. The Credit Karma segment offers consumers with a personal finance platform that provides recommendations for credit card, home, auto, and personal loan, and insurance products; online savings and checking accounts; and access to its credit scores and reports, credit and identity monitoring, credit report dispute, credit building tools, and tools. The ProTax segment provides Lacerte, ProSeries, and ProFile desktop tax-preparation software products; and ProConnect Tax Online bill pay tax products, electronic tax filing service, and bank products and related services. It sells products and services through direct sales channels, multichannel shop-and-buy experiences, mobile application stores, and partner and other channels. Intuit Inc. was founded in 1983 and is headquartered in Mountain View, California.",
+  "url": "https://finance.yahoo.com/quote/INTU",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

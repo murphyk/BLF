@@ -1,0 +1,21 @@
+{
+  "id": "PM_2025-04-13",
+  "source": "yfinance",
+  "question": "Will PM's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 156.170. (The latest market close price of PM.)",
+  "background": "Philip Morris International Inc. operates as a tobacco company. The company offers cigarettes and smoke-free products, including heat-not-burn, vapor, and oral nicotine products under the IQOS and ZYN brands; and consumer accessories, such as lighters and matches. It also offers wellness and healthcare products. Philip Morris International Inc. was incorporated in 1987 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/PM",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

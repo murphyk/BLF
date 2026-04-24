@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0029",
+  "source": "aibq2",
+  "question": "Will Ethiopia receive a \"Level 4 \u2013 Do Not Travel\" travel advisory from the US State Department before July 1, 2025?",
+  "title_hash": "89cb830614367cf8",
+  "background": "Travel and Tour World: [Is Ethiopia Safe for Travel? Exploring Addis Ababa\u2019s Rich Culture Amid New Travel Warnings in 2025 : What more you need to know](https://www.travelandtourworld.com/news/article/is-ethiopia-safe-for-travel-exploring-addis-ababas-rich-culture-amid-new-travel-warnings-in-2025-what-more-you-need-to-know/)",
+  "resolution_criteria": "This question resolves as **Yes** if the country of Ethiopia has received a Level 4 [travel advisory](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Ethiopia.html) from the US Department of State before July 1, 2025,",
+  "url": "https://www.travelandtourworld.com/news/article/is-ethiopia-safe-for-travel-exploring-addis-ababas-rich-culture-amid-new-travel-warnings-in-2025-what-more-you-need-to-know/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

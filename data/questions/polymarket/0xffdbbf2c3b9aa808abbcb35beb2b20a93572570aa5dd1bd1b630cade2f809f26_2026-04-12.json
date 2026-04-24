@@ -1,0 +1,14 @@
+{
+  "id": "0xffdbbf2c3b9aa808abbcb35beb2b20a93572570aa5dd1bd1b630cade2f809f26_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Scottie Scheffler win the 2026 Masters tournament?",
+  "resolution_criteria": "This polymarket will resolve according to the player who wins the 2026 Masters Tournament.\n\nIf this player is eliminated from contention for The Masters based on the official rules of the tournament, the relevant market will resolve to \"No\".\n\nIn the event of a tie, this market will resolve according to the official winner as determined by The Masters official tournament rules.\n\nIf no winner is announced by December 31, 2026, this market will resolve to \"Other\".\n\nThe primary resolution sources will be the official results published by the PGA TOUR website and The Masters website. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-scottie-scheffler-win-the-2026-masters-tournament",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.135",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

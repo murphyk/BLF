@@ -1,0 +1,21 @@
+{
+  "id": "CMI_2025-05-11",
+  "source": "yfinance",
+  "question": "Will CMI's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CMI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 293.840. (The latest market close price of CMI.)",
+  "background": "Cummins Inc. offers various power solutions worldwide. It operates through five segments: Engine, Distribution, Components, Power Systems, and Accelera. The company offers diesel and natural gas-powered engines; and drivetrain systems, including axles, drivelines, brakes, and suspension systems; truck, trailer, on- and off-highway, and other products. It also provides aftertreatment technology and solutions comprising custom engineering systems and integrated controls, oxidation catalysts, particulate filters, and selective catalytic reduction systems, as well as engineered components, including dosers; turbochargers, fuel systems, and valvetrain technologies; electronic control modules, sensors, and supporting software; and automated manual transmissions, dual-clutch transmissions, and automatic transmissions for internal combustion engines. In addition, the company sells and offers support services power generation systems, high-horsepower engines, and heavy-duty and medium-duty engines; offers application engineering services, custom-designed assemblies, and inshop and field-based repair services; and retails and wholesales aftermarket parts. Further, it offers standby and prime power generators, controls, paralleling systems, and transfer switches; turnkey solutions for distributed generation and energy management applications using natural gas, diesel, and newer alternative sustainable fuels; diesel and natural gas high-speed, high-horsepower engines; and A/C generator/alternator products. Additionally, the company provides electrified power systems, including batteries, fuel cells, and electric powertrain technologies, as well as hydrogen production technologies. It sells its products to original equipment manufacturers, distributors, dealers, and other customers. The company was formerly known as Cummins Engine Company and changed its name to Cummins Inc. in 2001. Cummins Inc. was founded in 1919 and is headquartered in Columbus, Indiana.",
+  "url": "https://finance.yahoo.com/quote/CMI",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

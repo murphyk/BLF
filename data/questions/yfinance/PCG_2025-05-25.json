@@ -1,0 +1,21 @@
+{
+  "id": "PCG_2025-05-25",
+  "source": "yfinance",
+  "question": "Will PCG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PCG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 16.920. (The latest market close price of PCG.)",
+  "background": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cell, and photovoltaic sources. The company owns and operates interconnected transmission lines; electric transmission substations, distribution lines, switching and distribution substations; and natural gas transmission, storage, and distribution system consisting of distribution pipelines, backbone and local transmission pipelines, and various storage facilities. It serves residential, commercial, industrial, and agricultural customers, as well as natural gas-fired electric generation facilities. PG&E Corporation was incorporated in 1905 and is based in Oakland, California.",
+  "url": "https://finance.yahoo.com/quote/PCG",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

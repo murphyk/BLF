@@ -1,0 +1,15 @@
+{
+  "id": "0x3e15582e2252432aa69de4d284d0384c8812794274e14daa68a0a40fb80c67ed_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the New Democratic Party win the popular vote in Canada's next election?",
+  "resolution_criteria": "The next Canadian general election will take place on or before October 20, 2025, to elect members of the House of Commons to the 45th Canadian Parliament.\n\nThis market will resolve to the party that wins popular vote in the next Canadian general election. Winning the popular vote is defined as receiving the largest total number of votes regardless of seats won.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Canadian government, specifically Elections Canada (https://www.elections.ca/home.aspx).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-new-democratic-party-win-the-popular-vote-in-canadas-next-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-28",
+  "market_value": "0.0005",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

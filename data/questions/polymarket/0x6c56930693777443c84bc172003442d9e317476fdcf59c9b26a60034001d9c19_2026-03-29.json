@@ -1,0 +1,14 @@
+{
+  "id": "0x6c56930693777443c84bc172003442d9e317476fdcf59c9b26a60034001d9c19_2026-03-29",
+  "source": "polymarket",
+  "question": "Will Ethereum reach $2,600 in March?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT High prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ethereum-reach-2600-in-march-2026",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.38",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

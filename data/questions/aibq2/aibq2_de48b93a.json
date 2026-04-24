@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_de48b93a",
+  "source": "aibq2",
+  "question": "Will the United States accuse the People's Republic of China of blockading Taiwan before July 1, 2025?",
+  "background": "WSJ via MSN: [China Is Ready to Blockade Taiwan. Here\u2019s How.](https://www.msn.com/en-us/news/world/china-is-ready-to-blockade-taiwan-here-s-how/ar-AA1BvnW8)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the US government publicly accuses the People's Republic of China of blockading at least one of Taiwan's seaports without consent from the Taiwanese government in Taipei.",
+  "url": "https://www.msn.com/en-us/news/world/china-is-ready-to-blockade-taiwan-here-s-how/ar-AA1BvnW8",
+  "forecast_due_date": "2025-05-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

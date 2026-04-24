@@ -1,0 +1,15 @@
+{
+  "id": "0x35aaaa9b77b25834ddf3647bd4c34376ba3f1dcd87e3d4801c829b3658b15b82_2025-06-22",
+  "source": "polymarket",
+  "question": "OpenAI announces it has achieved AGI before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if OpenAI or an official representative of the company announces that it has created an artificial general intelligence (AGI) by June 30, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from OpenAI and/or its official representative, however a consensus of credible reporting will also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/openai-announces-it-has-achieved-agi-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.007500000000000001",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

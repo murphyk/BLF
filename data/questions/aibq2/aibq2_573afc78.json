@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_573afc78",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the United States accuse Russia of invading any country other than Ukraine?",
+  "background": "Sky News [Ukraine war: Which countries could Putin go for next? Is Europe vulnerable to a nuclear-armed bully? Your questions answered](https://news.sky.com/story/ukraine-war-which-countries-could-putin-go-for-next-is-europe-vulnerable-to-a-nuclear-armed-bully-your-questions-answered-13317497)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the US government publicly accuses Russia of invading any country other than Ukraine, by Russia sending its ground military forces into that country without consent from the government of the country.",
+  "url": "https://news.sky.com/story/ukraine-war-which-countries-could-putin-go-for-next-is-europe-vulnerable-to-a-nuclear-armed-bully-your-questions-answered-13317497",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

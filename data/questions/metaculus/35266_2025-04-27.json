@@ -1,0 +1,15 @@
+{
+  "id": "35266_2025-04-27",
+  "source": "metaculus",
+  "question": "\u00bfSer\u00e1 Kylian Mbapp\u00e9 el m\u00e1ximo goleador en LaLiga EA Sports 2024/25?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si Kylian Mbapp\u00e9 aparece como el jugador con m\u00e1s goles en la clasificaci\u00f3n oficial de goleadores al final de la temporada 2024/25, seg\u00fan\u00a0[<u>la p\u00e1gina web oficial de LaLiga</u>](https://www.laliga.com/leaderboard/todos-los-lideres?stat_competition=laliga-easports\\&stat=total_goals_ranking). Se resolver\u00e1 como\u00a0**No**\u00a0si cualquier otro jugador tiene m\u00e1s goles.",
+  "background": "El Trofeo Pichichi se otorga al m\u00e1ximo goleador de LaLiga cada temporada. A febrero de 2025, la lucha por el Trofeo Pichichi en la temporada 2024/25 de LaLiga es particularmente competitiva. El delantero del FC Barcelona Robert Lewandowski lidera la tabla de goleadores con 20 goles, seguido de cerca por Kylian Mbapp\u00e9 del Real Madrid, que ha anotado 17 veces. Otros contendientes destacados incluyen a Raphinha (Barcelona) y Ante Budimir (Osasuna), ambos con 13 goles.\n\nEn temporadas recientes, el m\u00e1ximo goleador ha sido Robert Lewandowski con el Barcelona (2023/24), Karim Benzema con el Real Madrid (2021/22 y 2022/23) y Lionel Messi, Barcelona (2019/20 y 2020/21).",
+  "url": "https://www.metaculus.com/questions/35266",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-23",
+  "market_value": "0.24",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The community prediction."
+}

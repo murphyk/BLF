@@ -1,0 +1,14 @@
+{
+  "id": "0x52847ca1413b76a5570b97c0c432e38dbe61b0140f9d45e912604591b08f6fca_2026-04-12",
+  "source": "polymarket",
+  "question": "Will the Montreal Canadiens win the 2026 NHL Stanley Cup?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Montreal Canadiens win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-montreal-canadiens-win-the-2026-nhl-stanley-cup",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.056",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

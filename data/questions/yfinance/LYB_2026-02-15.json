@@ -1,0 +1,17 @@
+{
+  "id": "LYB_2026-02-15",
+  "source": "yfinance",
+  "question": "Will LYB's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LYB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 55.100. (The latest market close price of LYB.)",
+  "background": "LyondellBasell Industries N.V. operates as a chemical company in the United States, Germany, Mexico, Italy, Poland, France, Japan, China, the Netherlands, and internationally. The company operates in six segments: Olefins and Polyolefins\u0097Americas; Olefins and Polyolefins\u0097Europe, Asia, International; Intermediates and Derivatives; Advanced Polymer Solutions; Refining; and Technology. It produces and markets olefins and co-products, such as ethylene, aromatics, propylene and butadiene; polyolefins; polyethylene; and polypropylene homopolymers and copolymers; and propylene oxide and derivatives; oxyfuels and related products; and intermediate chemicals, such as styrene monomer, acetyls, and ethylene oxide. The company also produces and markets compounding and solutions, including polypropylene compounds, engineered plastics, masterbatches, engineered composites, colors and powders, and advanced polymers, such as catalloy and polybutene-1; and refines heavy, high-sulfur crude oil and other crude oils, as well as refined products, including gasoline and distillates. In addition, it develops and licenses chemical and polyolefin process technologies; manufactures and sells polyolefin catalysts; and serves food packaging, home furnishings, automotive components, and paints and coatings applications. LyondellBasell Industries N.V. was incorporated in 2009 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/LYB",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

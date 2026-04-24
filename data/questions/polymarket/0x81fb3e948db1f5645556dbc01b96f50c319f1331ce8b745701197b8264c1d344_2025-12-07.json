@@ -1,0 +1,14 @@
+{
+  "id": "0x81fb3e948db1f5645556dbc01b96f50c319f1331ce8b745701197b8264c1d344_2025-12-07",
+  "source": "polymarket",
+  "question": "Iran Nuke in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if credible reports from international nuclear agencies, Iran's government itself, or credible global news sources officially confirm that Iran possesses a nuclear weapon by December 31, 2025, 11:59 PM ET.\n\nOtherwise, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/iran-nuke-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.019",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

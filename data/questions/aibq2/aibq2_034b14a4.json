@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_034b14a4",
+  "source": "aibq2",
+  "question": "Will Circle be publicly-traded before July 1, 2025?",
+  "background": "Forbes: [The Circle IPO Solidifies 2025 As The Year Of Stablecoins](https://www.forbes.com/sites/digital-assets/2025/04/04/the-circle-ipo-solidifies-2025-as-the-year-of-stablecoin/)",
+  "resolution_criteria": "This question resolves as **Yes** if shares of Circle Internet Group, Inc. are publicly traded on New York Stock Exchange (the \"NYSE\") before July 1, 2025.",
+  "url": "https://www.forbes.com/sites/digital-assets/2025/04/04/the-circle-ipo-solidifies-2025-as-the-year-of-stablecoin/",
+  "forecast_due_date": "2025-05-14",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

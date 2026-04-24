@@ -1,0 +1,15 @@
+{
+  "id": "5768_2025-03-02",
+  "source": "metaculus",
+  "question": "Will any senior executives of these major public companies be imprisoned for corporate crimes before 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if any senior executive (current or former) is convicted of crimes relating to actions taken in a corporate capacity (ie ignoring crimes committed which are unrelated to their companies and crimes committed for their own benefit at the expense of their employer (eg insider trading)), and their prison sentence begins between January 1, 2021 to January 1, 2026.\n\nSenior executives are those executives and directors who are named on official filings to their respective stock exchanges.\n\nAn executive will be eigible in this question if they are employed by a company that was listed in any of these major indicies at any time in 2021 or later, even if subsequently delisted:\n\n* S&P500\n* FTSE100\n* DAX40\n* CAC40\n* FTSE MIB\n* Nikkei 22",
+  "background": "In 2006 [Jeffrey Skilling](https://en.wikipedia.org/wiki/Jeffrey_Skilling) was imprisoned for 12 years for his part in the [Enron scandal](https://en.wikipedia.org/wiki/Enron_scandal). \n\nSince then, there have been very few high profile convictions of corporate bad-actors. (Much ink was spilled over the lack of convictions of bankers during for the [2007-2008 financial crisis](https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008))\n\nThere have been prison terms for some more junior employees. [Tom Hayes](https://en.wikipedia.org/wiki/Tom_Hayes_(trader)) was imprisoned for his part of the [LIBOR fixing scandal](https://en.wikipedia.org/wiki/Libor_scandal) although generally executives have escaped sanctions:\n\nThere are currently outstanding warrants for Wirecard executives, and a former [VW CEO is faces charges of fraud in court](https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal#Charges_against_Volkswagen_engineering/management).  (His imprisonment would result in this question resolving positive)",
+  "url": "https://www.metaculus.com/questions/5768",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.35000000000000003",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The community prediction."
+}

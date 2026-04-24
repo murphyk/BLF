@@ -1,0 +1,17 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.61972.D_2026-01-18",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Europa Island will be higher on each resolution date listed below than on 2026-01-18?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61972.D once the data is published.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 28.088. (The daily average temperature at the French weather station at Europa Island.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - EUROPA - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61972.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61972.D",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

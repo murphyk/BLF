@@ -1,0 +1,15 @@
+{
+  "id": "0xc2e5f441b24c3bde052635a5ca1d10a7fa8740e4efb8df6b815276e887aa979d_2025-06-08",
+  "source": "polymarket",
+  "question": "Israel x Hamas ceasefire before 2026?",
+  "resolution_criteria": "On March 17, Israel announced extensive strikes on terror targets belonging to the Hamas terrorist organization in the Gaza Strip ending a previous ceasefire agreement which had been agreed on January 15 (See: https://x.com/IDF/status/1901802698237935705).\n\nThis market will resolve to \"Yes\" if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Israel and Hamas between March 19, and December 31, 2025, 11:59 PM ET.\n\nIf the agreement is officially reached before the resolution date, this market will resolve to \"Yes\", regardless of whether the ceasefire officially starts afterwards.\n\nAn announced agreement to reinstate the previous agreed upon January 15th ceasefire deal will qualify.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nThis market's resolution will be based on official announcements from both Israel and Hamas, however a wide consensus of credible media reporting stating an official ceasefire agreement between Israel and Hamas has been reached will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-x-hamas-ceasefire-before-2026",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-10-09",
+  "market_value": "0.855",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

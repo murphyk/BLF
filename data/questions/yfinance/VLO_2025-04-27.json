@@ -1,0 +1,21 @@
+{
+  "id": "VLO_2025-04-27",
+  "source": "yfinance",
+  "question": "Will VLO's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VLO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 107.130. (The latest market close price of VLO.)",
+  "background": "Valero Energy Corporation manufactures, markets, and sells petroleum-based and low-carbon liquid transportation fuels and petrochemical products in the United States, Canada, the United Kingdom, Ireland, Latin America, Mexico, Peru, and internationally. It operates through three segments: Refining, Renewable Diesel, and Ethanol. The company produces California Reformulated Gasoline Blendstock for Oxygenate Blending (CARBOB) and Conventional Blendstock for Oxygenate Blending (CBOB) gasolines, CARB diesel, diesel, jet fuel, heating oil, and asphalt; feedstocks; aromatics; sulfur and residual fuel oil; intermediate oils; and sulfur, sweet, and sour crude oils. It sells its refined products through wholesale rack and bulk markets; and through outlets under the Valero, Beacon, Diamond Shamrock, Shamrock, Ultramar, and Texaco brand names. The company owns and operates renewable diesel and ethanol plants, as well as produces renewable diesel and naphtha under the Diamond Green Diesel brand name. In addition, it offers ethanol and various co-products, including dry distiller grains, syrup, and inedible distillers corn oil to animal feed customers. The company was formerly known as Valero Refining and Marketing Company and changed its name to Valero Energy Corporation in August 1997. Valero Energy Corporation was founded in 1980 and is headquartered in San Antonio, Texas.",
+  "url": "https://finance.yahoo.com/quote/VLO",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

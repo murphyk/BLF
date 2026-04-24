@@ -1,0 +1,14 @@
+{
+  "id": "Q86zpNZRsU_2026-03-29",
+  "source": "manifold",
+  "question": "Will the United States officially withdraw from NATO by March 31, 2026?",
+  "resolution_criteria": "Resolution Criteria\n\nThis market resolves to \"Yes\" if the United States government formally submits a notice of denunciation of the North Atlantic Treaty to the U.S. Department of State or NATO by March 31, 2026, 11:59 PM ET. Article 13 of the North Atlantic Treaty requires a one-year notice by the member nation to the U.S. government as the treaty depositary, which then promulgates the notice to other member nations. The market resolves to \"No\" if no such notice is submitted by the deadline.\n\nResolution will be verified through official statements from the U.S. Department of State, the White House, or the official NATO website.\n\nBackground\n\nIn December 2024, president-elect Donald Trump suggested that he might support withdrawal from NATO in light of low defense spending by America's European allies. In December 2025, Representative Thomas Massie introduced HR 6508, the NATO Act, to remove the United States from the North Atlantic Treaty Organization. However, the National Defense Authorization Act for Fiscal Year 2024, enacted on 22 December 2023, prohibits the President from unilaterally withdrawing from NATO without approval of a two-thirds Senate super-majority or an act of Congress.\n\nConsiderations\n\nIt is unclear whether the law can legally stop the President from unilaterally withdrawing, because of constitutional authority that the President has regarding foreign policy. As of 2026, no member state has rescinded their membership, making any U.S. withdrawal unprecedented.\n\nUpdate 2026-02-01 (PST) (AI summary of creator comment): The following scenarios do NOT count as an official withdrawal:\n\nAn armed attack by the United States against a NATO member state\n\nA \"de facto\" cessation of cooperation with NATO\n\nThe market resolves YES only if:\n\nThe US Government delivers a formal notice of denunciation under Article 13, OR\n\nThe President issues an official Executive Order declaring the United States is no longer a member of NATO",
+  "background": "",
+  "url": "https://manifold.markets/IrmiPolonsky/will-the-united-states-officially-w",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.016139748584175002",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market value."
+}

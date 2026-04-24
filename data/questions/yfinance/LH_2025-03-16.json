@@ -1,0 +1,23 @@
+{
+  "id": "LH_2025-03-16",
+  "source": "yfinance",
+  "question": "Will LH's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 254.290. (The latest market close price of LH.)",
+  "background": "Labcorp Holdings Inc. provides laboratory services. It operates through two segments, Diagnostics Laboratories and Biopharma Laboratory Services. The company offers various tests, such as blood chemistry analyses, urinalyses, blood cell counts, thyroid, PAP, hemoglobin A1C, prostate-specific antigens, sexually transmitted diseases, hepatitis C, vitamin D, microbiology cultures and procedures, and alcohol and other substance-abuse tests. It also provides specialty testing services comprising gene-based and esoteric testing; advanced tests target specific diseases; services related to anatomic pathology/oncology, cardiovascular disease, coagulation, diagnostic genetics, endocrinology, infectious disease, women's health, pharmacogenetics, parentage and donor testing, occupational testing services, medical drug monitoring services, chronic disease programs, and kidney stone prevention tests; and health and wellness services to employers and managed care organizations (MCOs). In addition, the company offers online and mobile applications that enable patients to check offerings, schedule PSC visits, check-in upon PSC arrival, complete documentation, access tests and test results, and manage their accounts; online applications for providers, MCOs, and accountable care organizations; specimen collection services; and drug development, medical device, and companion diagnostic development solutions, as well as support for crop protection and chemical testing. It serves pharmaceutical, biotechnology, medical device, and diagnostics companies; and MCOs, employer plans, other health insurance providers, governments, physician, large provider organizations, other healthcare providers, hospitals and health systems, patients and consumers, crop protection and chemical companies, academic institutions, independent clinical laboratories, and retailers. The company was founded in 1995 is headquartered in Burlington, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/LH",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

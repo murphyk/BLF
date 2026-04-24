@@ -1,0 +1,21 @@
+{
+  "id": "T5YIFR_2025-04-27",
+  "source": "fred",
+  "question": "Will the US' 5-year forward inflation expectation rate have increased by each resolution date listed below as compared to its value on 2025-04-27?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/T5YIFR once the data is published.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 2.050. (The latest value released in 5-Year, 5-Year Forward Inflation Expectation Rate from the release Interest Rate Spreads.)",
+  "background": "The notes from the release: N/A.  The notes from the series: This series is a measure of expected inflation (on average) over the five-year period that begins five years from today.\r\n\r\nThis series is constructed as:\r\n(((((1+((BC_10YEAR-TC_10YEAR)/100))^10)/((1+((BC_5YEAR-TC_5YEAR)/100))^5))^0.2)-1)*100\r\n\r\nwhere BC10_YEAR, TC_10YEAR, BC_5YEAR, and TC_5YEAR are the 10 year and 5 year nominal and inflation adjusted Treasury securities. \r\nStarting with the update on June 21, 2019, the Treasury bond data used in calculating interest rate spreads is obtained directly from the U.S. Treasury Department (https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)..  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/T5YIFR",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

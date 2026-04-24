@@ -1,0 +1,15 @@
+{
+  "id": "0x2824855a28f57ac9abe1ee115f688b2763b53f1da10b1e881d685f4c4ef4f41a_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the Washington Nationals win the 2025 National League Championship?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 MLB National League (ie advances to the 2025 MLB World Series). \n\nIf at any point it becomes impossible for this team to win the National League based on the rules of the MLB (e.g., they are eliminated from the playoffs), this market will immediately resolve to \u201cNo\u201d.\n\nIf the 2025  MLB season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-washington-nationals-win-the-2025-national-league-championship",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-14",
+  "market_value": "0.0135",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

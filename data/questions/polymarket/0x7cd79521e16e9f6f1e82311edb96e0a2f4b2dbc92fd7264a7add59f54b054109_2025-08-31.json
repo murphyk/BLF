@@ -1,0 +1,15 @@
+{
+  "id": "0x7cd79521e16e9f6f1e82311edb96e0a2f4b2dbc92fd7264a7add59f54b054109_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Tesla launch a driverless Robotaxi service in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Tesla publicly launches a fully driverless taxi service by December 31, 11:59 PM ET. Otherwise, it will resolve to \u201cNo.\u201d\n\nAny service that allows a member of the general public to summon and ride in a Tesla vehicle operating without any human\u2014onboard or remote\u2014actively controlling the vehicle will count. A human may be present in the vehicle or monitoring remotely for emergency intervention, but they must not be physically positioned to take control (for example, no safety driver in the driver\u2019s seat) and must not actively steer, brake, accelerate, or otherwise drive the car under normal operation.\n\nA program that is restricted to Tesla employees, invite-only testers, closed-beta participants, factory self-delivery features, or the mere release of Full Self-Driving software for private owner-drivers will not qualify. Regulatory permits or approvals, press demonstrations, and prototype unveilings without live public ridership likewise will not count toward resolution.\n\nThis market\u2019s resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tesla-launch-a-driverless-robtotaxi-service-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-09-11",
+  "market_value": "0.605",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

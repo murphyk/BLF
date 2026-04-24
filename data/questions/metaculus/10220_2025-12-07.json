@@ -1,0 +1,14 @@
+{
+  "id": "10220_2025-12-07",
+  "source": "metaculus",
+  "question": "Will 95% or more of Nigerians have a bank account before 2025?",
+  "resolution_criteria": "This question will be resolve as \"Yes\" if 95% or more of Nigerians aged 18 or older have an account at a bank or financial institution before January 1, 2025.  This question will resolve according to data from the [Central Bank of Nigeria](https://www.cbn.gov.ng/out/2019/ccd/q2%202019%20financial%20inclusion%20newsletter_final_08.08.19.pdf); if no such data is available, or said data is known to be inaccurate, data from [The World Bank](https://data.worldbank.org/indicator/fx.own.totl.zs?locations=NG) may be considered, or from credible independent researchers.\n\nIf the data shows less than 95% of the population with a bank account through 2024, or If no such data is available by March 1, 2026, this question will resolve negatively",
+  "background": "An important concept in economic development is [Financial Inclusion](https://en.wikipedia.org/wiki/Financial_inclusion): the degree which a population has access to affordable, convenient, and reliable banking and financial services.   One basic measure of financial inclusion is the percent of a population with a bank account.  According to the [World Bank](https://ourworldindata.org/grapher/account-at-financial-institution?tab=chart&country=~NGA), 39.7% of Nigerians had a bank account in 2017, an increase from 29.7% in 2011. \n\n\n[Motta, V. 2020](https://link.springer.com/article/10.1007/s11187-018-0082-9) found a positive relationship between access to external finance and labor productivity of small/medium businesses.\n\nIn July 2019 Godwin Emefiele, Governor of the Central Bank of Nigeria, [set a goal](https://www.cbn.gov.ng/out/2019/ccd/q2%202019%20financial%20inclusion%20newsletter_final_08.08.19.pdf) to reach 95% of the population with a bank account by 2024.",
+  "url": "https://www.metaculus.com/questions/10220",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-28",
+  "market_value": "0.01",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

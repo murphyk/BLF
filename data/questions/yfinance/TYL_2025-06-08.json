@@ -1,0 +1,21 @@
+{
+  "id": "TYL_2025-06-08",
+  "source": "yfinance",
+  "question": "Will TYL's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TYL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 576.110. (The latest market close price of TYL.)",
+  "background": "Tyler Technologies, Inc. provides integrated software and technology management solutions for the public sector. It operates in two segments, Enterprise Software and Platform Technologies. The company offers platform and transformative technology solutions, including cybersecurity, threat detection and response, customized employee training, and vulnerability testing; data and insights, and digital solutions; billing, presentment, merchant onboarding, collections, reconciliation, and disbursements; and outdoor recreation solutions for use in campsite reservations, activity registrations, licensing sales and renewals, and real-time data for conservation and park management. It also provides public administration solutions comprising civil services for managing permitting, enforcement, health and safety inspections, compliance, maintenance and work orders, 311 requests, and others; financial applications with human resources, revenue management, tax billing, utilities, asset management, and payment processing; property tax life cycle, including appraisal services, valuation, tax billing and collections, assessment administration, land and official records; and licensing and regulatory management solutions. In addition, the company offers courts and public safety solutions, K-12 education solutions, and health and human services solutions. Tyler Technologies, Inc. has a strategic collaboration agreement with Amazon Web Services for cloud hosting services. The company was founded in 1966 and is headquartered in Plano, Texas.",
+  "url": "https://finance.yahoo.com/quote/TYL",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

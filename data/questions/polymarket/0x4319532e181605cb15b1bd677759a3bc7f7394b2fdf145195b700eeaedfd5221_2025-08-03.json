@@ -1,0 +1,15 @@
+{
+  "id": "0x4319532e181605cb15b1bd677759a3bc7f7394b2fdf145195b700eeaedfd5221_2025-08-03",
+  "source": "polymarket",
+  "question": "Fed rate hike in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the upper bound of the target federal funds rate is increased at any point between January 1, 2025 and the Fed's December 2025 meeting, currently scheduled for December 9-10. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market may not resolve to \"No\" until the Fed has released its rate changes information following its December meeting.\n\nThe primary resolution source for this market will be the official website of the Federal Reserve (https://www.federalreserve.gov/monetarypolicy/openmarket.htm), however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/fed-rate-hike-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-10",
+  "market_value": "0.055",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

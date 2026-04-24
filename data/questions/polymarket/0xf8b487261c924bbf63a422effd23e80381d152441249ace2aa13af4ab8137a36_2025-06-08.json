@@ -1,0 +1,15 @@
+{
+  "id": "0xf8b487261c924bbf63a422effd23e80381d152441249ace2aa13af4ab8137a36_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Alexander Isak win the 2025 Ballon d'Or?",
+  "resolution_criteria": "This market will resolve according to winner of the 2025 Ballon D\u2019Or. \n\nIf no 2025 Ballon D\u2019Or winner is declared by December 31, 2025, 11:59 PM ET this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-alexander-isak-win-the-2025-ballon-dor",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-23",
+  "market_value": "0.0035",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

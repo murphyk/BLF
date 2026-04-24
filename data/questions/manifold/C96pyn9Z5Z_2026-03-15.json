@@ -1,0 +1,14 @@
+{
+  "id": "C96pyn9Z5Z_2026-03-15",
+  "source": "manifold",
+  "question": "Iran Government falls before end of March 2026",
+  "resolution_criteria": "Current Iranian Government \n\nResolution criteria\n\nThis market resolves YES if the Iranian government falls before March 31, 2026. \"Government falls\" means the Islamic Republic ceases to exist as the governing authority of Iran, whether through military coup, popular revolution, foreign intervention, or collapse of state institutions. Resolution will be determined by international news sources confirming that a new governing authority has replaced the Islamic Republic. If the Islamic Republic remains in control of Iran's government end of March 31, 2026, the market resolves NO.\n\nIf Iran is split into multiple territories with Islamic Republic in control of some area. Will resolve NO if they control more than 50% of the territory.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/ScottO/iran-government-falls-before-end-of",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.19636867306299102",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

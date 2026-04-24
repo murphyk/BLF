@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_d7dfab9a",
+  "source": "aibq2",
+  "question": "Will Donald Trump or Elon Musk tweet (X post) about the Diversity Visa before April 1, 2025",
+  "background": "[Federal judge\u2019s order leaves many visa lottery winners out of luck](https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/) | Recent tweet [here](https://x.com/fentasyl/status/1894451029934039492) from a Twitter/X account followed by Elon Musk.",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025 either Donald Trump or Elon Musk tweet using the exact words \"diversity visa\" as shown through [this search](https://x.com/search?f=top&q=%22diversity%20visa%22%20(from%3Arealdonaldtrump%20OR%20from%3Aelonmusk)&src=typed_query) on Twitter/X, which will be checked by Metaculus on or after July 1, 2025. If a tweet (now renamed to X post) containing the phrase is seen by a Metaculus Admin at that time, this question resolves as **Yes**. If not, it resolves as **No**.",
+  "url": "https://www.siliconvalley.com/2020/10/01/judges-order-leaves-many-visa-lottery-winners-out-of-luck/",
+  "forecast_due_date": "2025-05-22",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

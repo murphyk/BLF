@@ -1,0 +1,29 @@
+{
+  "id": "HSIC_2026-04-12",
+  "source": "yfinance",
+  "question": "Will HSIC's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HSIC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 73.040. (The latest market close price of HSIC.)",
+  "background": "Henry Schein, Inc. provides health care products and services to office-based dental and medical practitioners worldwide. It operates through Global Distribution and Value-Added Services; Global Specialty Products; and Global Technology segments. The Global Distribution and Value-Added Services segment distributes infection-control products, handpieces, preventatives, impression materials, composites, anesthetics, teeth, gypsum, acrylics, articulators, abrasives, PPE products, branded and generic pharmaceuticals, vaccines, surgical products, diagnostic tests, dental chairs, delivery units and lights, digital dental laboratories, X-ray supplies and equipment, and high-tech and digital restoration equipment, as well as provides equipment repair services, financial services on a non-recourse basis, continuing education services for practitioners, consulting, and other services. It also markets and sells a portfolio of consumable merchandise under its own corporate brand. The Global Specialty Products segment engage in manufacturing, marketing, and sales of dental implant and biomaterial products; and endodontic, orthodontic and orthopedic products, and other health care-related products and services. The Global Technology segment is involved in the development and distribution of practice management software, e-services, and other products which are distributed to health care providers. The company serves dental practices, laboratories, physician practices, and ambulatory surgery centers, as well as government, institutional health care clinics, home health providers, and other alternate care clinics. Henry Schein, Inc. was founded in 1932 and is headquartered in Melville, New York.",
+  "url": "https://finance.yahoo.com/quote/HSIC",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

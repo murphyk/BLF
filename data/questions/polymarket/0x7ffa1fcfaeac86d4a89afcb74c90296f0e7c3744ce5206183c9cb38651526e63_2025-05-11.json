@@ -1,0 +1,15 @@
+{
+  "id": "0x7ffa1fcfaeac86d4a89afcb74c90296f0e7c3744ce5206183c9cb38651526e63_2025-05-11",
+  "source": "polymarket",
+  "question": "New pandemic in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the World Health Organization (WHO) declares any disease a pandemic between January 1, 2025 and December 31, 2025 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be official announcements from the World Health Organization.",
+  "background": "",
+  "url": "https://polymarket.com/market/new-pandemic-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.089",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

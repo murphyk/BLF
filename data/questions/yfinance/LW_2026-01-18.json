@@ -1,0 +1,17 @@
+{
+  "id": "LW_2026-01-18",
+  "source": "yfinance",
+  "question": "Will LW's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 40.290. (The latest market close price of LW.)",
+  "background": "Lamb Weston Holdings, Inc. engages in the production, distribution, and marketing of frozen potato products in the United States, Canada, Mexico, and internationally. It offers frozen potatoes, commercial ingredients, and appetizers under the Lamb Weston brand, as well as under various customer labels. The company also provides its products under its owned or licensed brands, such as Grown in Idaho and Alexia, and other licensed brands, as well as under retailers' own brands. It sells its products through a network of internal sales personnel and independent brokers, agents, and distributors to quick service and full-service restaurants and chains, wholesale, grocery, mass merchants, club retailers, and specialty retailers, as well as foodservice distributors and institutions, including businesses, educational institutions, independent restaurants, regional chain restaurants, and convenience stores. Lamb Weston Holdings, Inc. was incorporated in 1950 and is headquartered in Eagle, Idaho.",
+  "url": "https://finance.yahoo.com/quote/LW",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "MU_2025-05-25",
+  "source": "yfinance",
+  "question": "Will MU's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MU for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 80.420. (The latest market close price of MU.)",
+  "background": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Mainland China, rest of the Asia Pacific, Hong Kong, Japan, Europe, and internationally. The company operates through four segments: Compute and Networking Business Unit, Mobile Business Unit, Embedded Business Unit, and Storage Business Unit. It provides memory and storage technologies comprising dynamic random access memory semiconductor devices with low latency that provide high-speed data retrieval; non-volatile and re-writeable semiconductor storage devices; and non-volatile re-writable semiconductor memory devices that provide fast read speeds under the Micron and Crucial brands, as well as through private labels. The company offers serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as for smartphone and other mobile-device markets. It markets its products through its direct sales force, independent sales representatives, distributors, and retailers; and web-based customer direct sales channel, as well as through channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+  "url": "https://finance.yahoo.com/quote/MU",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

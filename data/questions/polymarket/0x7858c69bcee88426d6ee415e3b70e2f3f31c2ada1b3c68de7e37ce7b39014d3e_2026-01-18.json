@@ -1,0 +1,14 @@
+{
+  "id": "0x7858c69bcee88426d6ee415e3b70e2f3f31c2ada1b3c68de7e37ce7b39014d3e_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Purdue win the 2026 NCAA Tournament?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2026 NCAA Men\u2019s Basketball Tournament.\n\nIf it is impossible for a team to win the 2026 NCAA Men\u2019s Basketball Tournament according to the rules of the competition (i.e. they are eliminated) , the corresponding market will immediately resolve to \u201cNo\u201d.\n\nIf for any reason no winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be information from the NCAA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-purdue-win-the-2026-ncaa-tournament",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-29",
+  "market_value": "0.07",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

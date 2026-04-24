@@ -1,0 +1,21 @@
+{
+  "id": "UHS_2025-08-31",
+  "source": "yfinance",
+  "question": "Will UHS's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/UHS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 184.700. (The latest market close price of UHS.)",
+  "background": "Universal Health Services, Inc., through its subsidiaries, owns and operates acute care hospitals, and outpatient and behavioral health care facilities. It operates through Acute Care Hospital Services and Behavioral Health Care Services segments. The company's hospitals offer general and specialty surgery, internal medicine, obstetrics, emergency room care, radiology, oncology, diagnostic and coronary care, pediatric, pharmacy, and/or behavioral health services. It also provides commercial health insurance services; and various management services, including central purchasing, information services, finance and control systems, facilities planning, physician recruitment, administrative personnel management, marketing, and public relations services. The company was founded in 1978 and is headquartered in King of Prussia, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/UHS",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

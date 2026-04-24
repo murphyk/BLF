@@ -1,0 +1,15 @@
+{
+  "id": "njIsNltHOS7eR4ZUgaXX_2025-06-22",
+  "source": "manifold",
+  "question": "Will a New York sports team win a championship by the end of the 2025 sports season?",
+  "resolution_criteria": "This market will resolve YES if one of the following major New York metropolitan area-based teams wins their respective championship by the conclusion of the 2025 NFL season (Latest Feb 9, 2026 \u2013 Super Bowl 60)\n\nNew York Mets \u2013  World Series \n\nNew York Yankees \u2013 World Series\n\nNew York Giants \u2013 Super Bowl\n\nNew York Jets \u2013 Super Bowl \n\nNew York Red Bulls \u2013 MLS Cup or Leagues Cup\n\nNew York City FC \u2013 MLS Cup or Leagues Cup\n\nNew York Nets \u2013 NBA Final\n\nNew York Knicks \u2013 NBA Final\n\nNew York Rangers \u2013 Stanley Cup\n\nNew York Islanders \u2013 Stanley Cup\n\nThe two New York football teams, although not physically based in the NY Metropolitan area, will be considered New York teams for the purpose of the market. \n\nOther small-market teams, such as the WNBA's NY Liberty, MLR New York Rugby, or NLL Lacrosse will not be counted.",
+  "background": "",
+  "url": "https://manifold.markets/wadu/will-a-new-york-sports-team-win-a-c",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-11",
+  "market_value": "0.254080935936491",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market value."
+}

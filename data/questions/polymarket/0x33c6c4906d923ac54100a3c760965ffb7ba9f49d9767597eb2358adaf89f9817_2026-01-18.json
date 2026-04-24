@@ -1,0 +1,14 @@
+{
+  "id": "0x33c6c4906d923ac54100a3c760965ffb7ba9f49d9767597eb2358adaf89f9817_2026-01-18",
+  "source": "polymarket",
+  "question": "Will the next Dutch government be PVV + VVD + CDA?",
+  "resolution_criteria": "The 2025 Dutch general election is scheduled to take place on October 29, 2025.\n\nThis market will resolve to the first ruling coalition of parties that forms after the 2025 Dutch general election.\n\nIf the next Dutch Government after the election is not announced by October 31, 2026, this market will resolve to \"No Coalition by October 31\".\n\nA party will only be considered part of the coalition if it signs the coalition agreement and provides at least one cabinet minister.\n\nThis market may resolve once the first government is officially announced and sworn in by the monarch, with ministers appointed under non-caretaker circumstances.\n\nThe following parties will be to be considered for this market: PVV, GroenLinks\u2013PvdA, VVD, CDA, D66, JA21. All other parties (including but not limited to SP, BBB, NSC, DENK, PvdD, FvD, SGP, CU, and Volt) will not be considered. \n\nResolution will be based on the listed option that most completely matches the parties included. If the coalition formed after the election includes all of the parties listed in a market option (along with any other parties), that option will resolve to \u201cYes\u201d unless there exists another market option that more completely covers the coalition.\n\nFor example:\n\nIf the governing coalition includes GL\u2013PvdA + VVD + CDA + JA21, but no option explicitly lists those four together, the market will resolve to \u201cVVD + CDA + JA21\u201d.\n\nIf the governing coalition includes PVV + VVD + CDA + D66, the option \u201cPVV + VVD + CDA + D66\u201d will resolve to \u201cYes\u201d, while \u201cPVV + VVD + CDA\u201d will resolve to \u201cNo\".\n\nIf the governing coalition does not match any listed option (e.g. the governing coalition is D66 + JA21) this market will resolve to \u201cOther\u201d. \n\nIn the event that multiple market options each contain an equal number of coalition parties, the tie will be resolved in favor of the option whose listed parties together hold the greater number of seats in the newly elected House of Representatives. If this presents another tie, this market will resolve in favor of the listed coalition which received the greater number of valid votes.\n\nThis market will resolve based on a consensus of credible reporting. In case of ambiguity, this market will resolve based on official information from the Government of the Netherlands.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-next-dutch-government-be-pvv-vvd-cda",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-23",
+  "market_value": "0.0005",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

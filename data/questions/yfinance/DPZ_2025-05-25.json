@@ -1,0 +1,21 @@
+{
+  "id": "DPZ_2025-05-25",
+  "source": "yfinance",
+  "question": "Will DPZ's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DPZ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 477.840. (The latest market close price of DPZ.)",
+  "background": "Domino's Pizza, Inc. operates as a pizza company in the United States and internationally. The company operates through three segments: U.S. Stores, International Franchise, and Supply Chain. It offers pizzas under the Domino's brand name through company-owned and franchised stores. It provides bread products, wings, boneless chicken, pastas, oven-baked sandwiches, dips, soft drink products and desserts. Domino's Pizza, Inc. was founded in 1960 and is headquartered in Ann Arbor, Michigan.",
+  "url": "https://finance.yahoo.com/quote/DPZ",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "PNC_2025-08-17",
+  "source": "yfinance",
+  "question": "Will PNC's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PNC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 188.560. (The latest market close price of PNC.)",
+  "background": "The PNC Financial Services Group, Inc. operates as a diversified financial services company in the United States. It operates through three segments: Retail Banking, Corporate & Institutional Banking, and Asset Management Group segments. The Retail Banking segment offers checking, savings, and money market accounts, and time deposit; residential mortgages, home equity loans and lines of credit, auto loans, credit cards, education loans, and personal and small business loans and lines of credit; and brokerage, insurance, and investment and cash management services. This segment serves consumer and small business customers through a network of branches, digital channels, ATMs, and through phone-based customer contact centers. The Corporate & Institutional Banking segment provides secured and unsecured loans, letters of credit, and equipment leases; cash and investment management, receivables and disbursement management, funds transfer, international payment, and access to online/mobile information management and reporting services; asset-backed financing, securities underwriting, loan syndications, mergers and acquisitions and equity capital markets advisory, and customer related services; and commercial loan servicing and technology solutions. It serves mid-sized and large corporations, and government and not-for-profit entities. The Asset Management Group segment offers investment and retirement planning, customized investment management, credit and cash management solutions, and trust management and administration services for high net worth and ultra high net worth individuals, and their families; and multi-generational family planning services. It also provides outsourced chief investment officer, custody, cash and fixed income client solutions, and retirement plan fiduciary investment services for institutional clients. The company was founded in 1865 and is headquartered in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/PNC",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

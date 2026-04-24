@@ -1,0 +1,14 @@
+{
+  "id": "0x7d5d324974fd30f5b011c0c7e041e50d3cb8af7a5483eb5e69fae955bfe3cc8f_2026-02-01",
+  "source": "polymarket",
+  "question": "Will Jayden Daniels win the 2025\u201326 NFL OPOY?",
+  "resolution_criteria": "This is a polymarket on which player will be named the 2025\u201326 NFL Offensive Player of the Year. \n\nIf the listed player is named the 2025-26 NFL Offensive Player of the Year, the market will resolve to \"Yes\". Otherwise, it will resolve to \"No\".\n\nIf the 2025\u201326 NFL Offensive Player of the Year award is not announced by May 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official announcements from the NFL. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jayden-daniels-win-the-202526-nfl-opoy",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-06",
+  "market_value": "0.0005",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x07f106c0b60e94d96a63954f0536811c1a0b054b958f26bb749689b620b72f50_2025-08-17",
+  "source": "polymarket",
+  "question": "NATO/EU troops fighting in Ukraine in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if active military personnel officially affiliated with any NATO or EU country enter Ukraine for combat-related military purposes directly pertaining to the ongoing conflict with Russia by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor military personnel to qualify toward a \"Yes\" resolution, they must be 1) officially acknowledged as active military by the NATO or EU entity or member state they are affiliated with; 2) be publicly acknowledged by NATO or an EU-affiliated entity to have entered Ukraine for a combat-related military purpose directly pertaining to the ongoing conflict with Russia.\n\nFor military personnel to qualify toward a \"Yes\" resolution they need be active duty and acknowledged as described above. Participation in a combat role is necessary for this market to resolve to \"Yes\" (e.g. military personnel providing training or intelligence support would not qualify toward a \"Yes\" resolution, however drone pilots or infantry directly attacking Russian troops, or soldiers targeting and downing missiles from Ukrainian soil would qualify toward a \"Yes\" resolution).\n\nThe primary resolution source for this market will be official information from NATO, the EU, or member states of either entity, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/natoeu-troops-fighting-in-ukraine-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0655",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

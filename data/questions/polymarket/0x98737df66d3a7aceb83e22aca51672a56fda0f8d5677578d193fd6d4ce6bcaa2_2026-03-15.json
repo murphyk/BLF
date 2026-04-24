@@ -1,0 +1,14 @@
+{
+  "id": "0x98737df66d3a7aceb83e22aca51672a56fda0f8d5677578d193fd6d4ce6bcaa2_2026-03-15",
+  "source": "polymarket",
+  "question": "Will AfD win the most seats in the 2026 Rhineland-Palatinate parliamentary elections?",
+  "resolution_criteria": "Parliamentary elections to elect the Landtag of Rhineland-Palatinate are scheduled to take place in Rhineland-Palatinate on March 22, 2026.\n\nThis market will resolve to the political party that wins the greatest number of seats in the formal deliberative assembly of Rhineland-Palatinate (Landtag) as a result of this election.\n\nIf voting in the Rhineland-Palatinate election for the Landtag does not occur by July 31, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party or coalition and any other for the most seats won, this market will resolve in favor of the party or coalition whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition.\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Election Office of Rhineland-Palatinate (Landeswahlleiter Rheinland-Pfalz https://www.wahlen.rlp.de/landtagswahl/ergebnisse)",
+  "background": "",
+  "url": "https://polymarket.com/market/will-afd-win-the-most-seats-in-the-2026-rhineland-palatinate-parliamentary-elections",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-22",
+  "market_value": "0.013000000000000001",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

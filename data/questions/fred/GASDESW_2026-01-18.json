@@ -1,0 +1,17 @@
+{
+  "id": "GASDESW_2026-01-18",
+  "source": "fred",
+  "question": "Will the average price of diesel in the US have increased by each resolution date listed below as compared to its value on 2026-01-18?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/GASDESW once the data is published.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 3.477. (The latest value released in US Diesel Sales Price from the release Gasoline and Diesel Fuel Update.)",
+  "background": "The notes from the release: N/A.  The notes from the series: Weighted average based on sampling of approximately 350 retail outlets, as reported for the week. See (http://www.eia.doe.gov/oil_gas/petroleum/data_publications/wrgp/mogas_home_page.html) for further definitions..  Additional background of the series:  1. the units of the series: Dollars per Gallon.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Monday ",
+  "url": "https://fred.stlouisfed.org/series/GASDESW",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

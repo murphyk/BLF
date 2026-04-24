@@ -1,0 +1,15 @@
+{
+  "id": "0x8be38f21b6c39fff2de0258b1d18fc9feafdef9e95f14d7f81db3bd3d7effeff_2025-08-17",
+  "source": "polymarket",
+  "question": "Will the Farmer\u2013Citizen Movement win the most seats in the 2025 Netherlands parliamentary election?",
+  "resolution_criteria": "The ruling coalition of the Netherlands collapsed on June 3, 2025. New parliamentary elections are expected to be scheduled soon.\n\nThis market will resolve to the political party that wins the greatest number of seats in the Netherlands House of Representatives (Tweede Kamer der Staten-Generaal) as a result of this election.\n\nIf voting in the Netherlands election for the House does not occur by July 31, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party and any other for the most seats won, this market will resolve in favor of the party whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Electoral Council (Kiesraad) (https://www.kiesraad.nl/).\n\nNote: If the GL/PvdA alliance splits and announce they will not run a joint list, this market will refer to the Labor Party (PvdA).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-farmercitizen-movement-win-the-most-seats-in-the-2025-netherlands-parliamentary-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-02",
+  "market_value": "0.0015",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

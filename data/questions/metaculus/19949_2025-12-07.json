@@ -1,0 +1,14 @@
+{
+  "id": "19949_2025-12-07",
+  "source": "metaculus",
+  "question": "Will at least 500,000 Palestinians be displaced from Gaza before December 31st, 2025?",
+  "resolution_criteria": "The question will resolve **Yes** based on credible reports that 500,000 or more Palestinians have left Gaza before December 31st 2025.\n\nReports of displacement within Gaza - for instance, from the north to the south - are not sufficient to resolve this question.",
+  "background": "Israel has pushed [1.7 million people](https://www.haaretz.com/israel-news/2023-11-20/ty-article/1-7-million-palestinians-displaced-from-their-homes-in-gaza-un-says/0000018b-ee55-d6a0-a7ff-ee779f3f0000), much of the Gazan population, into the southern half of the strip and [intends to expand its war](https://www.reuters.com/world/middle-east/israeli-offensive-crowded-south-gaza-will-put-civilians-crosshairs-2023-11-18/) to the strip's southern border with Egypt.\n\nThe New York Times [reports](https://www.nytimes.com/2023/11/05/world/middleeast/israel-egypt-gaza.html) that Israel has petitioned Egypt to accept mass numbers of refugees. At least [one Israeli government document](https://www.haaretz.com/israel-news/2023-10-30/ty-article/.premium/israeli-govt-document-suggests-possible-relocation-of-gazans-to-northern-sinai/0000018b-7ff6-d1da-a1bb-7ffe83ed0000) explored the possibility of resettling Gazans in Sinai and concluded that it is the best of the available options.",
+  "url": "https://www.metaculus.com/questions/19949",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.01",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

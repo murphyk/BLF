@@ -1,0 +1,15 @@
+{
+  "id": "37347_2025-08-17",
+  "source": "metaculus",
+  "question": "Will the Department of Homeland Security revoke or suspend the Student and Exchange Visitor Program (SEVP) certification for an Ivy League university before September 1, 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, at any time before September 1, 2025, the DHS formally revokes or suspends the SEVP certification of at least one university in the Ivy League, thereby preventing the affected institution from enrolling new international students under F or M visas.\n\nIt will resolve as **No** if no Ivy League SEVP certification is revoked or suspended before that date.",
+  "background": "According to the [US Department of State](https://it.usembassy.gov/visas/niv/f-m/):\n\n> F and M visas are for persons who wish to study in the U.S. The \u201cF\u201d visa is for academic studies, and the \u201cM\u201d visa is for nonacademic or vocational studies.\n\nAs of April 2025, the U.S. Department of Homeland Security (DHS) has [<u>threatened</u>](https://www.cnn.com/2025/04/16/us/harvard-kristi-noem-international-students/index.html) to revoke Harvard University's certification under the Student and Exchange Visitor Program (SEVP), which authorizes institutions to enroll international students on F and M visas. This threat stems from allegations that Harvard has created a \"hostile learning environment\" for Jewish students and has failed to adequately address antisemitism on campus. DHS has demanded that Harvard provide detailed records of international students' involvement in \"illegal and violent activities\" by April 30, 2025, warning that noncompliance would result in the automatic withdrawal of the university's SEVP certification.",
+  "url": "https://www.metaculus.com/questions/37347",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.2",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "9595_2026-04-12",
+  "source": "metaculus",
+  "question": "Will humanity find and exploit a new source of xenon on Earth before 2040?",
+  "resolution_criteria": "This question resolves **Yes** if before 2040:\n\n- A new source of xenon is found on Earth that was not verified before March 3rd, 2023\n- This source of xenon is reported by at least two [credible sources](https://www.metaculus.com/help/faq/#definitions) to be under active exploitation for commercial use by humans",
+  "background": "Xenon is a rare noble gas used in various applications such as ion propulsion, lighting, and medicine. However, xenon is much scarcer in Earth\u2019s atmosphere than expected based on observations of other matter in the universe. This is known as the mystery of the missing xenon.\n\n[Some scientists speculate](https://gl.carnegiescience.edu/news/case-missing-xenon) that the \"missing\" xenon may be sequestered somewhere underground. Others believe it may have left the planet [long ago](https://www.nature.com/articles/nature.2012.11564).",
+  "url": "https://www.metaculus.com/questions/9595",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.23",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

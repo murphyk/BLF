@@ -1,0 +1,15 @@
+{
+  "id": "0xdf6a672e18c94c70b53260043fbc49a73395d51de3d5db2bcd5afd23efa13f97_2025-08-03",
+  "source": "polymarket",
+  "question": "Will there be at least 1400 measles cases in the U.S. in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there have been 1,400 or more confirmed cases of Measles (Rubeola) in humans in the territory of the United States of America in 2025 according to the CDC case counter by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be the CDC Measles (Rubeola) counter (see: https://www.cdc.gov/measles/data-research/index.html) at the resolution time. If the counter becomes unavailable, another credible source will be used.\n\nNote: Only cases reported by the CDC Measles (Rubeola) counter will qualify, regardless of reports from U.S. State agencies or other sources.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-there-be-at-least-1400-measles-cases-in-the-us-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-27",
+  "market_value": "0.77",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

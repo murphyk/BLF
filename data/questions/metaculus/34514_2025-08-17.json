@@ -1,0 +1,15 @@
+{
+  "id": "34514_2025-08-17",
+  "source": "metaculus",
+  "question": "Will the Department of Justice announce an investigation or prosecution of a Democrat who served as president, vice president, congressional leader, whip, or impeachment manager before 2026?",
+  "resolution_criteria": "This question will resolve as Yes if [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) report that the U.S. Department of Justice (DOJ) announces a new investigation or prosecution of a high-profile Democrat, which is for purposes of this question defined as an individual who meets any of the following criteria before January 1, 2026:\n\n\\- Has served as Democratic President or Vice President of the United States.\n\n\\- Has held any of the following leadership roles in the House of Representatives or Senate (Speaker of the House or House Minority/Democratic Leader, Senate Majority or Minority/Democratic Leader, House or Senate Majority/Democratic Whip).\n\n-Has served as an impeachment manager during either of the impeachment proceedings against Donald Trump (2019\u20132020 or 2020\u20132021). The 2019-2020 impeachment managers were Adam Schiff, Jerry Nadler, Zoe Lofgren, Hakeem Jeffries, Val Demings, Sylvia Garcia, and Jason Crow. The 2020-2021 impeachment managers were Jamie Raskin, Diana DeGette, David Cicilline, Joaquin Castro, Eric Swalwell, Ted Lieu, Stacey Plaskett, Madeline Dean, and Joe Neguse.",
+  "background": "During his 2024 presidential campaign, Donald Trump [<u>repeatedly vowed to pursue investigations and prosecutions against political opponents</u>](https://www.foxnews.com/media/trump-addresses-concerns-he-would-seek-retribution-i-would-have-every-right-go-after-them?msockid=1772840357ba6b8c2861908256286a1f). Prosecution of a high-profile Democrat by the DOJ under the Trump administration would reflect a notable shift in precedent given these campaign promises.",
+  "url": "https://www.metaculus.com/questions/34514",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.42",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The community prediction."
+}

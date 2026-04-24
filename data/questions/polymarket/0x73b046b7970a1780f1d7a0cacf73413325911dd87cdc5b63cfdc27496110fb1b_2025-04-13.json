@@ -1,0 +1,15 @@
+{
+  "id": "0x73b046b7970a1780f1d7a0cacf73413325911dd87cdc5b63cfdc27496110fb1b_2025-04-13",
+  "source": "polymarket",
+  "question": "Will Turkey leave NATO by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Turkey formally withdraws from NATO or provides an official notice of denunciation to the United States government by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA notice of denunciation refers to the submission of a notice of withdrawal as per Article 13 of the North Atlantic Treaty.\n\nTurkey's exit from NATO\u2019s integrated military command structure will not be sufficient to resolve this market to \"Yes\". Turkey must either withdraw or submit a notice of denunciation to trigger a \"Yes\" resolution.\n\nThe resolution source will be official information from the Turkish government and NATO, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-turkey-leave-nato-by-june-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0325",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

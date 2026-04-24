@@ -1,0 +1,14 @@
+{
+  "id": "0x0d44a3b546096156afdf40be8f37bce617970ee3d0901d35f4ade50d46ae18a8_2026-01-04",
+  "source": "polymarket",
+  "question": "Will the Detroit Pistons make the NBA Playoffs?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the listed team makes the 2025-26 NBA Playoffs. Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote: reaching the Play-In Tournament will not qualify as making the Playoffs. To make the NBA Playoffs, a team must earn one of the 16 spots in the postseason bracket.\n\nIf at any point it becomes impossible for this team to make the Playoffs based on the rules of the NBA (e.g. they are mathematically eliminated from reaching the Play-In), this market will resolve immediately to \"No\".\n\nThe resolution source for this market will be official information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-detroit-pistons-make-the-nba-playoffs-298",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-21",
+  "market_value": "0.9725",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

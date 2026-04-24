@@ -1,0 +1,14 @@
+{
+  "id": "0x12a561b723e051783fb5f5a67fbc9764986ae2996ca7b2ebcef0dc2d9b222fec_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Johannes Kaiser win the 1st round of the 2025 Chilean presidential election?",
+  "resolution_criteria": "The 2025 Chilean general election is scheduled for 16 November 2025. The President of Chile is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff.\n\nThis market will resolve according to the candidate who receives the greatest number of valid votes in the first round of voting.\n\nIf the results of the first round of the Chilean presidential election are not known by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Chilean Electoral Service (https://www.servel.cl/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-johannes-kaiser-win-the-1st-round-of-the-2025-chilean-presidential-election",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-16",
+  "market_value": "0.0175",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

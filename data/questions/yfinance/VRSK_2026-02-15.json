@@ -1,0 +1,17 @@
+{
+  "id": "VRSK_2026-02-15",
+  "source": "yfinance",
+  "question": "Will VRSK's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VRSK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 179.100. (The latest market close price of VRSK.)",
+  "background": "Verisk Analytics, Inc. engages in the provision of data analytics and technology solutions to the insurance industry in the United States and internationally. The company offers underwriting solutions, including forms, rules, and loss costs services that provides policy language, prospective loss costs, policy writing and rating rules, and underwriting solutions for risk selection and segmentation, pricing, and workflow optimization; underwriting data and analytics solutions, which provides property and auto specific rating, and underwriting information solutions; extreme event solutions, including catastrophe modelling solutions; life insurance solutions for transforming current workflows in life insurance underwriting, claim insights, policy administration, unclaimed property/equity, compliance and fraud detection, and actuarial and portfolio modelling; specialty business solutions, which provides full end-to-end management of insurance and reinsurance business; marketing solutions, such as compliant, real-time decisioning, profitability, and risk assessment for inbound consumer interactions; and international underwriting solutions. It also provides claims insurance solutions, including property estimating solutions, provide data, analytics, and networking solutions for professionals involved in estimating all phases of building repair and reconstruction; anti-fraud solutions that provide fraud-detection tools for the property and casualty insurance industry; casualty solutions, which focus on compliance, casualty claims decision, and workflow automation; and international claims solutions, which focus on personal injury and motor franchises with complementary offerings to the property claims sector. The company was founded in 1971 and is headquartered in Jersey City, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/VRSK",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

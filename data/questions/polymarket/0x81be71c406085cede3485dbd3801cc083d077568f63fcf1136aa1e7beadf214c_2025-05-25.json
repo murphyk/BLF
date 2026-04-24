@@ -1,0 +1,15 @@
+{
+  "id": "0x81be71c406085cede3485dbd3801cc083d077568f63fcf1136aa1e7beadf214c_2025-05-25",
+  "source": "polymarket",
+  "question": "Will the Los Angeles Rams win the NFC West?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Los Angeles Rams win the NFC West in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Los Angeles Rams team to win the NFC West based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-los-angeles-rams-win-the-nfc-west-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-29",
+  "market_value": "0.32",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

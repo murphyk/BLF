@@ -1,0 +1,14 @@
+{
+  "id": "0xb9b15d243a2adc2c7c63cfe9f92de8a079a38a8035a1638b3151d19d53b3ed2a_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Greece win the televote for Eurovision 2026?",
+  "resolution_criteria": "The Grand Final of the Eurovision Song Contest 2026 is scheduled for May 16, 2026.\n\nThis market will resolve to the country that receives the highest number of points from the televote in the Grand Final of the Eurovision Song Contest 2026.\n\nAll ties will be broken according to EBU's official Eurovision rules.\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-greece-win-the-televote-for-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.18",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

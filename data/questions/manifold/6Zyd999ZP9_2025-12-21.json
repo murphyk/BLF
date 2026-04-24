@@ -1,0 +1,14 @@
+{
+  "id": "6Zyd999ZP9_2025-12-21",
+  "source": "manifold",
+  "question": "Will India and Pakistan go to war in 2025?",
+  "resolution_criteria": "Resolution criteria:\n\nThis market will resolve to \"Yes\" if, between now, and December 31, 2025, if either India  or Pakistan issue a formal declaration of war against the other. \n\nUpdate 2025-05-08 (PST) (AI summary of creator comment): The creator has provided the following clarification regarding the resolution criteria:\n\nA formal declaration of war is strictly required.\n\nThe following events, on their own, do not constitute a formal declaration of war for the purposes of this market:\n\nBorder skirmishes\n\nSurgical strikes\n\nProxy wars that lack a formal declaration of war by either India or Pakistan against the other.\n\nOnly a public, official declaration of war by the government of either India or Pakistan against the other will cause this market to resolve to Yes.",
+  "background": "",
+  "url": "https://manifold.markets/Sebastianus/will-india-and-pakistan-go-to-war-i",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.011186105839392",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x267caa12157e2494fa6ef09c62bae0c2966d85a2b84d1e9d3c15e75d973b6a07_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Frank Baylis be the next leader of the Canadian Liberal Party?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the first leader of The Liberal Party of Canada following Justin Trudeau is Frank Baylis. Otherwise, this market will resolve to \"No\".\n \nThe resolution of this market will be based on the first official announcement of the next permanent  leader of The Liberal Party of Canada after Justin Trudeau. Any interim or acting leader of the party will not count toward the resolution of this market.\n\nThe primary resolution source will be official information from The Liberal Party of Canada; however, a consensus of credible media sources will also suffice.\n\nIf Justin Trudeau remains the  leader of the The Liberal Party of Canada or the next leader of the The Liberal Party of Canada after Justin Trudeau is not announced by December 31, 2025, 11:59 PM ET, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-frank-baylis-be-the-next-leader-of-the-canadian-liberal-party",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-10",
+  "market_value": "0.0015",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

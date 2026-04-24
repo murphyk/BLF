@@ -1,0 +1,21 @@
+{
+  "id": "CC4WSA_2025-04-13",
+  "source": "fred",
+  "question": "Will the 4-week moving average of insured unemployment claims have increased by each resolution date listed below as compared to its value on 2025-04-13?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/CC4WSA once the data is published.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 1870000.000. (The latest value released in 4-Week Moving Average of Continued Claims (Insured Unemployment) from the release Unemployment Insurance Weekly Claims Report.)",
+  "background": "The notes from the release: N/A.  The notes from the series: Continued claims, also referred to as insured unemployment, is the number of people who have already filed an initial claim and who have experienced a week of unemployment and then filed a continued claim to claim benefits for that week of unemployment. Continued claims data are based on the week of unemployment, not the week when the initial claim was filed..  Additional background of the series:  1. the units of the series: Number.  2. the seasonal adjustments of the series:  Seasonally Adjusted  3. the update frequency: Weekly, Ending Saturday ",
+  "url": "https://fred.stlouisfed.org/series/CC4WSA",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

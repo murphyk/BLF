@@ -1,0 +1,14 @@
+{
+  "id": "0x58d6aefe2c32e491460bd0a115153ebeb67b77c801e092615ffa01f625148aec_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Le Havre win the 2025\u201326 French Ligue 1?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 French Ligue 1.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 French Ligue 1. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 French Ligue 1 season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from French Ligue 1. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-le-havre-win-the-202526-french-ligue-1",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-01",
+  "market_value": "0.0005",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

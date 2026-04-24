@@ -1,0 +1,14 @@
+{
+  "id": "cqcSp5ZC9h_2026-03-15",
+  "source": "manifold",
+  "question": "Russia joins the Board of Peace by March 31?",
+  "resolution_criteria": "This market will resolve YES if the Russian Federation is formally admitted as a member of an entity officially named \u201cBoard of Peace\u201d on or before March 31, 11:59 PM PT.\n\n\u201cJoins\u201d is defined as:\n\nOfficial acceptance of membership, seat, or board position,\n\nConfirmed by a formal announcement, charter update, resolution, or official documentation issued by the Board of Peace or an authoritative governing body of that organization.\n\nThis market will resolve NO if:\n\nRussia is not formally admitted by the deadline, or\n\nParticipation is limited to observer status, informal cooperation, dialogue, or talks without formal membership.\n\nClarifications\n\nInvitations, negotiations, endorsements, or intent statements do not count unless membership is formally finalized.\n\nConditional, provisional, or pending membership does not count unless fully ratified by the deadline.\n\nIf multiple organizations claim similar names, only an entity explicitly and officially titled \u201cBoard of Peace\u201d will be considered valid.\n\nPrimary Resolution Sources\n\nOfficial statements from the Board of Peace\n\nFoundational documents, charters, or press releases of the organization\n\nConsensus of credible international news reporting if official documentation is unavailable\n\n",
+  "background": "",
+  "url": "https://manifold.markets/predyx_markets/russia-joins-the-board-of-peace-by",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.130568486661262",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

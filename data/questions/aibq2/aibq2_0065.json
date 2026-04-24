@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0065",
+  "source": "aibq2",
+  "question": "Will Serbia announce a general election before July 1, 2025?",
+  "title_hash": "21efd8c469230100",
+  "background": "[Serbia could face snap elections as PM\u2019s resignation confirmed](https://tvpworld.com/85681783/serbia-could-face-snap-elections-as-pms-resignation-confirmed-)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, a specific date on which a general election will be held is officially announced by the government of Serbia or any of its agencies that have the authority to do so. If no such announcement occurs before July 1, 2025, this question resolves as **No**.\n\nFine print:\nThe election does not have to be held before July 1, 2025; this question resolves based on an announcement.",
+  "url": "https://tvpworld.com/85681783/serbia-could-face-snap-elections-as-pms-resignation-confirmed-",
+  "forecast_due_date": "2025-05-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

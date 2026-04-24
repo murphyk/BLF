@@ -1,0 +1,14 @@
+{
+  "id": "39771_2025-10-26",
+  "source": "metaculus",
+  "question": "Will there be a stronger hurricane than Erin during the 2025 Atlantic hurricane season?",
+  "resolution_criteria": "This question will resolve as **Yes** if an Atlantic hurricane reaches maximum sustained winds of more than 160 mph before December 1, 2025.",
+  "background": "In August 2025, [Hurricane Erin](https://en.wikipedia.org/wiki/Hurricane_Erin_\\(2025\\)) swept across the Atlantic Ocean and then moved through the northern Caribbean before skirting up the east coast of the United States and heading back out to sea. At its peak intensity, it reached 160 mph [maximum sustained wind](https://en.wikipedia.org/wiki/Maximum_sustained_wind), classifying it as a Category 5: the highest category on the [Saffir\u2013Simpson](https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale) hurricane-intensity scale.\n\nStill, it was no record-breaker. The most powerful Atlantic hurricane on record remains [Allen](https://en.wikipedia.org/wiki/Hurricane_Allen), which in 1980 reached maximum sustained winds of 190 mph. And more recently, [Hurricane Milton](https://en.wikipedia.org/wiki/Hurricane_Milton) reached 180 mph in October 2024.",
+  "url": "https://www.metaculus.com/questions/39771",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-10-27",
+  "market_value": "0.04",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The community prediction."
+}

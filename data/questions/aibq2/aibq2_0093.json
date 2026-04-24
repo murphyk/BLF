@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0093",
+  "source": "aibq2",
+  "question": "Will the word \"tariff\" disappear from the front pages of The New York Times and Wall Street Journal before July 2025?",
+  "title_hash": "419d3e7856d6a0aa",
+  "background": "Whether reading the newspaper or social media or watching the news, it is highly likely you are going to see something about tariffs - mainly due to US President Donald Trump's [renewed love](https://www.france24.com/en/live-news/20250401-tariff-man-trump-s-long-history-with-trade-wars) for this somewhat antiquated form of taxation.\r\n\r\nThe New York Times and the Wall Street Journal are two of the largest print newspapers in the US. Before July, will we see tariffs wiped from the front pages of both papers?",
+  "resolution_criteria": "This question will resolve as\u00a0**Yes**\u00a0if, on any single day after May 19, 2025 and before July 1, 2025, the words \"tariff\" or \"tariffs\" appear on neither the digital version of the front page of The New York Times nor the Wall Street Journal. The following URLs will be used to resolve the question:\r\n\r\n* The New York Times: [https://www.nytimes.com/section/todayspaper](https://www.nytimes.com/section/todayspaper)\r\n* Wall Street Journal: [https://www.wsj.com/print-edition/20250515/frontpage](https://www.wsj.com/print-edition/20250515/frontpage)\r\n\r\n***\r\n\r\n<sup>Note: WSJ front page URL for May 15, 2025. Format is: yyyy-mm-dd.</sup>\n\nFine print:\n* Grammar or spelling will not prevent a **No** resolution.\r\n* \"Tariff(s)\" must be omitted from both papers' front pages on the same day.\r\n* \"Tariff(s)\" can appear anywhere on the page, including \"Pages A2-A3 and Corrections\", \"What's News: Business & Finance\" not just the initial section at the top. The only sections that do not qualify are those that do not change between different front pages such as the \"Most Popular News\" or \"Recommended Videos\" sections on WSJ.",
+  "url": "https://www.france24.com/en/live-news/20250401-tariff-man-trump-s-long-history-with-trade-wars",
+  "forecast_due_date": "2025-05-26",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

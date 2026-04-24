@@ -1,0 +1,21 @@
+{
+  "id": "CSX_2025-06-22",
+  "source": "yfinance",
+  "question": "Will CSX's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CSX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 32.320. (The latest market close price of CSX.)",
+  "background": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations. It also transports chemicals, agricultural and food products, minerals, automotive, forest products, fertilizers, and metals and equipment; and coal, coke, and iron ore to electricity-generating power plants, steel manufacturers, and industrial plants, as well as exports coal to deep-water port facilities. In addition, the company provides intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containers; and drayage services, including the pickup and delivery of intermodal shipments. It serves the automotive industry with distribution centers and storage locations, as well as connects non-rail served customers through transferring products, such as plastics and ethanol from rail to trucks. The company operates approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississippi River, the District of Columbia, and the Canadian provinces of Ontario and Quebec, as well as owns and leases approximately 3,500 locomotives. It serves production and distribution facilities through track connections. CSX Corporation was incorporated in 1978 and is headquartered in Jacksonville, Florida.",
+  "url": "https://finance.yahoo.com/quote/CSX",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

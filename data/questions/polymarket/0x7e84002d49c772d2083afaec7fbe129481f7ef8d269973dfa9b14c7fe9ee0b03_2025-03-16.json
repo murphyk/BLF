@@ -1,0 +1,15 @@
+{
+  "id": "0x7e84002d49c772d2083afaec7fbe129481f7ef8d269973dfa9b14c7fe9ee0b03_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Real Betis win La Liga?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Real Betis is the 2024-25 La Liga Champion. Otherwise, the market will resolve to \u201cNo\u201d.\n\nIf it is a mathematical certainty Real Betis will win, this market will immediately resolve to \u201cYes.\u201d Likewise, if it becomes mathematically impossible for Real Betis to win, this market will immediately resolve to \u201cNo.\u201d Potential retroactive points deductions past these points will have no bearing on this market\u2019s resolution.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-real-betis-win-la-liga",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-13",
+  "market_value": "0.0005",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

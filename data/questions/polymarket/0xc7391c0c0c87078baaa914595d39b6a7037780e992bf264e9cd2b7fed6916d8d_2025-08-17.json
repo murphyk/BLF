@@ -1,0 +1,15 @@
+{
+  "id": "0xc7391c0c0c87078baaa914595d39b6a7037780e992bf264e9cd2b7fed6916d8d_2025-08-17",
+  "source": "polymarket",
+  "question": "Will the U.S. take over Gaza in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States government assumes administrative, military, or political control over the Gaza Strip by December 31, 2025 11:59 PM ET.\n\nThis includes direct governance, military occupation with administrative authority, or any formal arrangement where the U.S. exercises primary governing authority over Gaza territory.\n\nMere military presence including the establishment of bases, advisory roles, humanitarian missions, or support for other governing entities without the U.S. holding primary control will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-take-over-gaza-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.057",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

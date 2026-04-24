@@ -1,0 +1,15 @@
+{
+  "id": "10176_2025-04-13",
+  "source": "metaculus",
+  "question": "Will more than 34 countries have committed to a stringent anti-solar-geoengineering pact before 2026?",
+  "resolution_criteria": "[According to Wikipedia,](https://en.wikipedia.org/wiki/Solar_geoengineering) Solar geoengineering, or solar radiation modification, is a type of climate engineering in which sunlight (solar radiation) would be reflected back to outer space to limit or reverse human-caused climate change.\n\n[An independent initiative](https://www.solargeoeng.org) calls for an International Non-Use Agreement regarding solar geoengineering. The initiators' view is [that solar geoengineering is currently not desirable due to associated risks.](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcc.754)\n\nThus, the initiative requests nations to prohibit the research and deployment of solar geoengineering.  Furthermore, nations are asked to not support solar geoengineering in international institutions and to not grant any funds or patents.\n\n***Will more than 34 countries have committed to a stringent diplomatic agreement against solar geoengineering, before 2026?***\n\nThe question resolves **Yes** if, by the end of the day GMT on December 31st, 2025, 35 or more countries have committed as a matter of treaty obligation to:\n\n1. Ban solar geoengineering experiments\n\n    #####AND\n\n2. Ban deployment of any technologies aimed at influencing the global climate by deliberately adding substances to the global atmosphere\n\n    #####AND\n\n3. Bar government funds from any research into developing solar geoengineering capabilities, domestically and internationally\n\n    #####AND\n\n4. Bar patent rights for inventions of a single-purpose solar geoengineering design\n\n    #####AND\n\n5. Agree to work against the development or deployment of solar geoengineering capabilities in international relations and within international institutions.\n\nLand use and regulatory changes, vegetation planting, roof whitening, etc need not be banned as \"solar geoengineering\" under such a pact for the question to resolve \"yes.\"\n\n**All** of these criteria must be met by any treaty, and more than 34 countries must fully commit to these provisions, without reservations other than on purely procedural or intergovernmental questions, for the question to resolve \"yes.\"\n\nOtherwise it resolves **No** if *midnight on January 1st, 2026, GMT* arrives without these circumstances coming into being.\n\n*This question also has a less stringent companion:* [Will at least ten countries have committed to *any* diplomatic agreement restricting solar geoengineering, before 2026?](https://www.metaculus.com/questions/13467/any-anti-solar-geo-engineering-pact-by-2026/)",
+  "background": "",
+  "url": "https://www.metaculus.com/questions/10176",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.03",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The community prediction."
+}

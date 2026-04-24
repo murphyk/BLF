@@ -1,0 +1,21 @@
+{
+  "id": "WM_2025-06-22",
+  "source": "yfinance",
+  "question": "Will WM's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 234.290. (The latest market close price of WM.)",
+  "background": "Waste Management, Inc., through its subsidiaries, provides environmental solutions to residential, commercial, industrial, and municipal customers in the United States, Canada, Western Europe, and internationally. It offers collection services, including picking up and transporting waste and recyclable materials from where it was generated to a transfer station, recovery facility, or disposal site; owns and operates transfer stations; and owns, develops, and operates landfill gas-to-energy facilities that produce renewable electricity and renewable natural gas. It also operates materials processing and commodities recycling services, including cardboard, paper, glass, metals, plastics, construction and demolition materials, and other recycling commodities are recovered for resale or redirected for other purposes; recycling brokerage services, such as managing the marketing of recyclable materials for third parties; and other strategic business solutions. In addition, the company collects recyclable food and yard waste, as well as markets and sells mulch, compost, soil amendments, and renewable energy; offers remediation and construction, and industrial waste services; and manages and markets fly ash. Further, it provides Regulated Waste and Compliance Services (RWCS), which offers compliance programs, as well as collection, processing, and disposal of regulated and specialized waste, including medical, pharmaceutical, and hazardous waste; and Secure Information Destruction (SID) services that includes the collection of personal and confidential information for secure destruction and recycling of sorted office paper. The company was formerly known as USA Waste Services, Inc. and changed its name to Waste Management, Inc. in 1998. Waste Management, Inc. was founded in 1968 and is based in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/WM",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

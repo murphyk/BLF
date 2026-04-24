@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0047",
+  "source": "aibq2",
+  "question": "Will the USDA-posted recall by LPK1 of its ready-to-eat chicken caesar wrap for misbranding and an undeclared allergen issued February 24, 2025 be closed before June 1, 2025?",
+  "title_hash": "5ce462ae23d7d3fb",
+  "background": "Food Safety News: [Chicken Caesar wraps sold in vending machines in Washington recalled over undeclared fish](https://www.foodsafetynews.com/2025/02/chicken-caesar-wraps-sold-in-veding-machines-in-washington-recalled-over-undeclared-fish/)",
+  "resolution_criteria": "This question resolves as **Yes** if the status of the recall posted by the U.S. Department of Agriculture\u2019s Food Safety and Inspection Service (FSIS) is changed from Active to Closed on [this page](https://www.fsis.usda.gov/recalls-alerts/lpk1-recalls-ready-eat-chicken-caesar-wrap-products-due-misbranding-and-undeclared) before June 1, 2025. If the recall is still shown as Active when the link is accessed by Metaculus on or after that date, this question resolves as **No**.",
+  "url": "https://www.foodsafetynews.com/2025/02/chicken-caesar-wraps-sold-in-veding-machines-in-washington-recalled-over-undeclared-fish/",
+  "forecast_due_date": "2025-05-08",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 1.0
+}

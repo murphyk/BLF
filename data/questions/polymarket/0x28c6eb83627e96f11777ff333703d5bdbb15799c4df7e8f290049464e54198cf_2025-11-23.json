@@ -1,0 +1,14 @@
+{
+  "id": "0x28c6eb83627e96f11777ff333703d5bdbb15799c4df7e8f290049464e54198cf_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Frankenstein win Best Film Editing at the 98th Academy Awards?",
+  "resolution_criteria": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 98th Academy Awards in 2026, nominations are scheduled to be announced on January 22, followed by the ceremony on March 15, 2026.\n\nThis market will resolve according to the listed movie that wins the 98th Academy Award for Best Film Editing. \n\nIf a film is not officially nominated for the Academy Award for Best Film Editing when the 2026 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2026, 11:59 PM ET,  this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-frankenstein-win-best-film-editing-at-the-98th-academy-awards",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-22",
+  "market_value": "0.0335",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x21149909e80c13a5c21889b6d648671d4ebe40a87bca022fd7b7f37fba646af2_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Kim Moon-soo be the People's Power Party candidate for president?",
+  "resolution_criteria": "An early presidential election will be held in South Korea on 3 June 2025.\n\nThis market will resolve according to the candidate selected to represent the The People Power Party (PPP; Korean: \uad6d\ubbfc\uc758\ud798) for President of South Korea. \n\nIf a candidate which is not listed is selected, this market will resolve to \u201cOther\u201d. \n\nIf no candidate is selected by June 3, 2025, 11:59 PM ET, this market will resolve to \u201cOther\u201d. \n\nThe resolution source for this market will be the first official announcement of the chosen candidate by the The People Power Party, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-kim-moon-soo-be-the-peoples-power-party-candidate-for-president",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-03",
+  "market_value": "0.545",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

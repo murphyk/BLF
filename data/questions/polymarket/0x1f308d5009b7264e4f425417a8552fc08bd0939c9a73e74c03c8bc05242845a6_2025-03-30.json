@@ -1,0 +1,15 @@
+{
+  "id": "0x1f308d5009b7264e4f425417a8552fc08bd0939c9a73e74c03c8bc05242845a6_2025-03-30",
+  "source": "polymarket",
+  "question": "Will C\u0103lin Georgescu advance to the Romanian Presidential Election Runoff?",
+  "resolution_criteria": "Romania has a two-round system for presidential elections, where a runoff between the top two candidates is held if no candidate secures an absolute majority in the first round.\n\nThe first round of the Romanian presidential election, originally held on November 24, 2024, was annulled by the Constitutional Court. A new timeline for the elections has not yet been announced, but it is expected that the electoral process will restart in early 2025.\n\nThis market will resolve to \"Yes\" if C\u0103lin Georgescu either advances to the Romanian presidential runoff election, or wins the Presidency in the first round. Otherwise, this market will resolve to \"No\".\n\nIf the results of the first round of the Romanian presidential election are not known by June 30, 2025, 11:59 PM ET, this market will resolve to \"No.\"\n\nThis market will resolve based on the official results of the election, as reported by a consensus of credible reporting. If there is ambiguity, this market resolves based on the election results from the Romanian Government, specifically the Permanent Electoral Authority (https://www.roaep.ro/prezentare/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-clin-georgescu-advance-to-the-romanian-presidential-election-runoff",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-05",
+  "market_value": "0.0165",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

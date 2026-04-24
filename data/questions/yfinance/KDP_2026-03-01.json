@@ -1,0 +1,17 @@
+{
+  "id": "KDP_2026-03-01",
+  "source": "yfinance",
+  "question": "Will KDP's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KDP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 29.140. (The latest market close price of KDP.)",
+  "background": "Keurig Dr Pepper Inc. owns, manufactures, and distributors beverages and single serve brewing systems in the United States and internationally. It operates through three segments: U.S. Refreshment Beverages, U.S. Coffee, and International. The company manufactures and distributes branded concentrates, syrup, and finished beverages, as well as sales of owned brands and third-party brands; tea, cocoa, and other products; and offers finished goods relating to K-Cup pods, single serve brewers, specialty coffee, and ready to drink coffee products. It offers its products under the Dr Pepper, Canada Dry, Mott's, A&W, Pe\u00f1afiel, Snapple, 7UP, Green Mountain Coffee Roasters, GHOST, Clamato, Core Hydration, The Original Donut Shop, Sunkist soda, Squirt, C4 Energy, Hawaiian Punch, Electrolit, Bai, Evian, Yoo-Hoo, Vita Coco, Big Red, Crush, McCaf\u00e9, Tim Hortons, Van Houtte, Celestial Seasonings, Bigelow, Starbucks, Dunkin', Folgers, Peet's, and Swiss Miss brands, as well as other partner and private label brands. The company markets and sells its products to supermarkets, mass merchandisers, club stores, pure-play e-commerce retailers, office superstores, restaurants, hotel chains, office product and coffee distributors, partner brand owners, and directly to consumers through Keurig.com website. Keurig Dr Pepper Inc. was founded in 1981 and is headquartered in Burlington, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/KDP",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

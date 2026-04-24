@@ -1,0 +1,23 @@
+{
+  "id": "PAYX_2025-03-16",
+  "source": "yfinance",
+  "question": "Will PAYX's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PAYX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 152.100. (The latest market close price of PAYX.)",
+  "background": "Paychex, Inc., together with its subsidiaries, provides integrated human capital management solutions (HCM) for payroll, benefits, human resources (HR), and insurance services for small to medium-sized businesses in the United States, Europe, and India. It offers payroll processing services; payroll tax administration services; employee payment services; and regulatory compliance services, such as new-hire reporting and garnishment processing. The company also provides HR solutions, including integrated HCM technology solutions and HR advisory services through both virtual and on-site availability of a professionally trained HR representative, as well as HR support to non-payroll clients through its HR Partner Plus solution; and retirement services administration, such as plan implementation, ongoing compliance with government regulations, employee and employer reporting, participant and employer online access, electronic funds transfer, and other administrative services. In addition, it offers cloud-based HR administration software products for employee benefits management and administration, time and attendance, digital communication solutions, recruiting, and onboarding solutions; plan administration outsourcing and state unemployment insurance services; various business services to small to medium-sized businesses comprising payroll funding and outsourcing services, which include payroll processing, invoicing, and tax preparation; and payment processing services, financial fitness programs, and a small-business loan resource center. Further, the company provides insurance services for property and casualty coverage, such as workers' compensation, business-owner policies, cyber security protection, and commercial auto, as well as health and benefits coverage, including health, dental, vision, and life. It markets and sells its services primarily through its direct sales force. The company was founded in 1971 and is headquartered in Rochester, New York.",
+  "url": "https://finance.yahoo.com/quote/PAYX",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

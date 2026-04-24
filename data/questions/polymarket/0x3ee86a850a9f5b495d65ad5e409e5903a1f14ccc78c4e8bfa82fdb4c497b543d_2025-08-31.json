@@ -1,0 +1,15 @@
+{
+  "id": "0x3ee86a850a9f5b495d65ad5e409e5903a1f14ccc78c4e8bfa82fdb4c497b543d_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Ap win the most seats in the next Norwegian parliamentary election?",
+  "resolution_criteria": "Parliamentary elections are scheduled to be held in Norway on September 8, 2025.\n\nThis market will resolve to the political party that wins the greatest number of seats in the 167th Storting of Norway. \n\nIf voting in the Norwegian election for the 167th Storting does not occur by February 28, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party and any other for the most seats won, this market will resolve in favor of the party whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Norway's government (e.g. via https://www.valg.no/en/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ap-win-the-most-seats-in-the-next-norwegian-parliamentary-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-09-08",
+  "market_value": "0.79",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

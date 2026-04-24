@@ -1,0 +1,19 @@
+{
+  "id": "TMO_2025-12-07",
+  "source": "yfinance",
+  "question": "Will TMO's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TMO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 593.250. (The latest market close price of TMO.)",
+  "background": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services in the North America, Europe, Asia-Pacific, and internationally. The company's Life Sciences Solutions segment offers reagents, instruments, and consumables for biological and medical research, discovery and production of drugs and vaccines, as well as diagnosis of infections and diseases. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The company's Specialty Diagnostics segment includes clinical diagnostics offering liquid, ready-to-use, and lyophilized immunodiagnostic reagent kits, as well as calibrators, controls, protein detection assays, and instruments; immunodiagnostics offers develops, manufactures, and markets complete blood test systems to support the clinical diagnosis and monitoring of allergy, asthma, and autoimmune diseases; microbiology offers dehydrated and prepared culture media, collection and transport systems, instrumentation, and consumables; transplant diagnostics products include human leukocyte antigen typing and testing for organ transplant market; and healthcare market channel offers consumables, diagnostic kits and reagents, equipment, instruments, solutions, and services. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. It offers products and services through a direct sales force, customer-service professionals, electronic commerce, and third-party distributors under Thermo Scientific; Applied Biosystems; Invitrogen; Fisher Scientific; Unity Lab Services; and Patheon and PPD. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/TMO",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

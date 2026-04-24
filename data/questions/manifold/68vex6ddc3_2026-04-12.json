@@ -1,0 +1,14 @@
+{
+  "id": "68vex6ddc3_2026-04-12",
+  "source": "manifold",
+  "question": "Will Elon spend a night in jail by EOY 2026 if Trump loses, or not if Trump wins?",
+  "resolution_criteria": "[tweet]This is a derivative question; it will resolve exactly according to these questions:\n@/ManifoldPolitics/will-trump-win-the-2024-election \n\n@/EvanDaniel/will-elon-musk-spend-a-night-in-pri \n\nIt will resolve yes if those questions resolve in different ways. That is, if Trump wins and Elon stays out of jail, or Trump loses and Elon goes to jail, this will resolve Yes. If the questions resolve in the same way, this question will resolve No.",
+  "background": "",
+  "url": "https://manifold.markets/EvanDaniel/will-elon-spend-a-night-in-jail-by",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9464040057975791",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

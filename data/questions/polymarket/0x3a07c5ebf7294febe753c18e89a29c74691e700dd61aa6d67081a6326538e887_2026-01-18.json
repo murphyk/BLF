@@ -1,0 +1,14 @@
+{
+  "id": "0x3a07c5ebf7294febe753c18e89a29c74691e700dd61aa6d67081a6326538e887_2026-01-18",
+  "source": "polymarket",
+  "question": "Will Learner Tien win the 2026 Australian Open?",
+  "resolution_criteria": "The 2026 Australian Open is set to take place from January 18 - February 1, 2026.\n\nThis market will resolve to the player that wins the 2026 Australian Open Men\u2019s Singles Tournament.\n\nIf at any point it becomes impossible for a listed player to win the 2026 Australian Open Men\u2019s Singles Tournament per the rules of the tournament, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 Australian Open Men\u2019s Singles Tournament is cancelled, postponed after February 28, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from the Australian Open (https://ausopen.com/); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-learner-tien-win-the-2026-australian-open",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-27",
+  "market_value": "0.0025",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

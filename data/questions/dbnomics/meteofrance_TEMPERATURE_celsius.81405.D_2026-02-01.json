@@ -1,0 +1,17 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.81405.D_2026-02-01",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Cayenne \u2013 F\u00e9lix \u00c9bou\u00e9 Airport will be higher on each resolution date listed below than on 2026-02-01?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.81405.D once the data is published.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 25.725. (The daily average temperature at the French weather station at Cayenne \u2013 F\u00e9lix \u00c9bou\u00e9 Airport.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - CAYENNE-MATOURY - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.81405.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.81405.D",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

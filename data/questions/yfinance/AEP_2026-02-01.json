@@ -1,0 +1,17 @@
+{
+  "id": "AEP_2026-02-01",
+  "source": "yfinance",
+  "question": "Will AEP's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AEP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 118.980. (The latest market close price of AEP.)",
+  "background": "American Electric Power Company, Inc., an electric public utility holding company, engages in the generation, transmission, and distribution of electricity for sale to retail and wholesale customers in the United States. It operates through Vertically Integrated Utilities, Transmission and Distribution Utilities, AEP Transmission Holdco, and Generation & Marketing segments. The company generates electricity using coal and lignite, natural gas, renewable, nuclear, hydro, solar, wind, and other energy sources; owns, operates, maintains, and invests in transmission infrastructure; and engages in wholesale energy trading and marketing business. It operates approximately 225,000 circuit miles of distribution lines that delivers electricity to 5.6 million customers; 40,000 circuit miles of transmission lines; and 23,000 MWs of regulated owned generating capacity. American Electric Power Company, Inc. was incorporated in 1906 and is headquartered in Columbus, Ohio.",
+  "url": "https://finance.yahoo.com/quote/AEP",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

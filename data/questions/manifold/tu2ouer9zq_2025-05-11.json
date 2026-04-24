@@ -1,0 +1,15 @@
+{
+  "id": "tu2ouer9zq_2025-05-11",
+  "source": "manifold",
+  "question": "Will an AI win a gold medal on International Math Olympiad (IMO) 2025?",
+  "resolution_criteria": "Will an AI score well enough on the 2025 International Mathematics Olympiad (IMO) to earn a gold medal score (top ~50 human performance)? Resolves YES if this result is reported no later than 1 month after IMO 2025 (currently scheduled for July 10-20). The AI must complete this task under the same time limits as human competitors. The AI may receive and output either informal or formal problems and proofs. More details below. Otherwise NO.\n\nThis is related to https://imo-grand-challenge.github.io/ but with some different rules.\n\nRules:\n\nThe result must be achieved on the IMO 2025 problemset and be reported by reliable publications no later than 1 month after the end of the IMO contest dates (https://www.imo-official.org/organizers.aspx, so by end of August 20 2025, if the IMO does not reschedule its date. Local timezone at the contest site).\n\nThe AI has only as much time as a human competitor (4.5 hours for each of the two sets of 3 problems), but there are no other limits on the computational resources it may use during that time.\n\nThe AI may receive and output either informal (natural language) or formal (e.g. the Lean language) problems as input and proofs as output.\n\nThe AI cannot query the Internet.\n\nThe AI must not have access to the problems before being evaluated on them, e.g. the problems cannot be included in the training set.\n\n(The deadline of 1 month after the competition is intended to give enough time for results to be finalized and published, while minimizing the chances of any accidental inclusion of the IMO solutions in the training set.)\n\nIf a gold medal score is achieved on IMO 2024 or an earlier IMO, that would not count for this market.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/jack/will-an-ai-win-a-gold-medal-on-imo",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-07-21",
+  "market_value": "0.68",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market value."
+}

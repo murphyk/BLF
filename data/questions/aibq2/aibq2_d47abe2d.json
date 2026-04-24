@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_d47abe2d",
+  "source": "aibq2",
+  "question": "Will any of these companies get dropped from the Dow Jones Industrial Average before July 1, 2025?",
+  "background": "Oregon Business: [Intel Ousted From Dow Jones By Rival Nvidia](https://oregonbusiness.com/intel-ousted-from-dow-jones-by-rival-nvidia/)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, there is any official announcement or confirmation (or credible source reporting) that any of the following companies will no longer be a component of the Dow Jones Industrial Average (DJIA) either on the official announcement or that the company has been or will be removed from the index: Amazon.com Inc, American Express Co, Amgen Inc, Apple Inc, Boeing Co, Caterpillar Inc, Cisco Systems Inc, Chevron Corp, Goldman Sachs Group Inc, Home Depot Inc, Honeywell International Inc, International Business Machines Corp, Johnson & Johnson, Coca-Cola Co, JPMorgan Chase & Co, McDonald\u2019s Corp, 3M Co, Merck & Co Inc, Microsoft Corp, Nike Inc, Procter & Gamble Co, Sherwin-Williams Co, Travelers Companies Inc, Unitedhealth Group Inc, Salesforce Inc, NVIDIA Corp, Verizon Communications Inc, Visa Inc, Walmart Inc, Walt Disney Co.\n\nFine print:\nAlthough removals from the index are generally effective immediately in order to forestall frontrunning, this is not a requirement for this question. All that is required is for there to be an announcement or confirmation before the resolution date about the removal from the DJIA at any point in time. Therefore this question will resolve based on the announcement or confirmation, not on the actual removal date.",
+  "url": "https://oregonbusiness.com/intel-ousted-from-dow-jones-by-rival-nvidia/",
+  "forecast_due_date": "2025-04-25",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

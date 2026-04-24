@@ -1,0 +1,14 @@
+{
+  "id": "0x07c96dbd0f70e5a27a0e15c22042abcc57bc6acc7f740f7935e0a08cde5e5138_2025-10-26",
+  "source": "polymarket",
+  "question": "Will the U.S. collect between $500b and $1t in revenue in 2025?",
+  "resolution_criteria": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-collect-between-500b-and-1t-in-revenue-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-28",
+  "market_value": "0.002",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

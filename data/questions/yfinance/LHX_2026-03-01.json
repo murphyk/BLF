@@ -1,0 +1,17 @@
+{
+  "id": "LHX_2026-03-01",
+  "source": "yfinance",
+  "question": "Will LHX's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LHX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 352.120. (The latest market close price of LHX.)",
+  "background": "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. It operates through three segments: Space & Mission Systems (SMS), Communications & Spectrum Dominance (CSD), and Missile Solutions (MSL). The SMS segment integrates satellite and payload capabilities, including missile warning and defense, with maritime, air special missions, and other global defense and civil government programs. Its MSL segment unites propulsion, hypersonic, and other advanced missile technologies. The CSD segment provides tactical radios, software, waveforms, satellite terminals, and end-to-end battlefield systems for the U.S. Department of Defense, international, federal, and state agency customers; broadband communications; integrated vision solutions, such as helmet-mounted integrated night vision goggles with image intensifier tubes and weapon-mounted sights, aiming lasers, and range finders; and public safety radios and system applications and equipment. The company was formerly known as Harris Corporation and changed its name to L3Harris Technologies, Inc. in June 2019. L3Harris Technologies, Inc. was founded in 1895 and is headquartered in Melbourne, Florida.",
+  "url": "https://finance.yahoo.com/quote/LHX",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

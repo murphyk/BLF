@@ -1,0 +1,21 @@
+{
+  "id": "TKO_2025-06-08",
+  "source": "yfinance",
+  "question": "Will TKO's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TKO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 158.950. (The latest market close price of TKO.)",
+  "background": "TKO Group Holdings, Inc. operates as a sports and entertainment company. The company owns and manages sports and entertainment intellectual property; produces and licenses live events, programing, and long-form and short-form content, reality series, and other filmed entertainment on digital and linear channels and via pay-per-view; and offers UFC FIGHT PASS, a direct-to-consumer streaming product that provides access to live and video-on-demand events, as well as original content. It is also involved in the merchandising of video games, apparel, equipment, trading cards, memorabilia, digital goods, and toys. In addition, the company engages in the sponsorships and advertising business, which offers sale of in-venue and in-broadcast advertising assets, content product integration, and digital impressions. The company was incorporated in 2023 and is based in New York, New York. TKO Group Holdings, Inc. is a subsidiary of Endeavor Group Holdings, Inc.",
+  "url": "https://finance.yahoo.com/quote/TKO",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

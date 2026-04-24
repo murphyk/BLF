@@ -1,0 +1,15 @@
+{
+  "id": "1413_2025-04-13",
+  "source": "infer",
+  "question": "Will Vladimir Putin cease to be the president of the Russian Federation before 1 July 2025?",
+  "resolution_criteria": "This question will be resolved using open-source news media reports.",
+  "background": "In March 2024, Vladimir Putin was re-elected to serve a new six year term ( Reuters ). This comes after Putin signed into law in 2021 a change to the Russian constitution that reset his term limits, allowing him to run in 2024 and possibly 2030 ( CBS , AP News ). However, the full impact of the war in Ukraine, Russia\u2019s economic problems, and domestic instability remains to be seen ( Atlantic Council , Wilson Center ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1413",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-01",
+  "market_value": "0.0071",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The crowd forecast."
+}

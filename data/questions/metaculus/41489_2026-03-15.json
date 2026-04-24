@@ -1,0 +1,14 @@
+{
+  "id": "41489_2026-03-15",
+  "source": "metaculus",
+  "question": "Will Venezuela announce a presidential election before April 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, before April 1, 2026, Venezuela officially announces a new presidential election. In order to count, the announcement must be made by a person or entity with the legal authority to do so, the announcement must name a specific election date, and voting must take place before January 1, 2027.&#x20;",
+  "background": "Reuters: [Maduro opponent Machado vows to return to Venezuela, wants election](https://www.tbsnews.net/world/maduro-opponent-machado-vows-return-venezuela-wants-election-1327666)\n\n> Venezuela's main opposition leader Maria Corina Machado has vowed to return home quickly, praising US President Donald Trump for toppling her enemy Nicolas Maduro and declaring her movement ready to win a free election.\n\n> \"We believe that this transition should move forward,\" she told Fox News in an interview late on Monday. \"We won an election (in 2024) by a landslide under fraudulent conditions. In free and fair elections, we will win over 90% of the votes.\"\n\n> Machado said she had not spoken to Trump since October 10, when the Nobel award was announced. He has said the United States needs to help address Venezuela's problems before any new elections, calling a 30-day timeline for a vote unrealistic.\n\n> \"We have to fix the country first. You can't have an election. There's no way the people could even vote,\" Trump told NBC.\n\nSee also from Wikipedia: [Next Venezuelan Presidential Election](https://en.wikipedia.org/wiki/Next_Venezuelan_presidential_election)",
+  "url": "https://www.metaculus.com/questions/41489",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.09",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The community prediction."
+}

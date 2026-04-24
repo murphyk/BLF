@@ -1,0 +1,21 @@
+{
+  "id": "SMCI_2025-05-11",
+  "source": "yfinance",
+  "question": "Will SMCI's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SMCI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 31.860. (The latest market close price of SMCI.)",
+  "background": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells high performance server and storage solutions based on modular and open architecture in the United States, Europe, Asia, and internationally. It offers various IT solutions, including complete servers, storage systems, modular blade servers, blades, workstations, full-rack scale solutions, networking devices, server sub-systems, and server management and security software. The company also provides application-optimized server solutions, rackmount and blade servers, storage, and subsystems and accessories; and server software management solutions, such as Server Management Suite, including Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, and SuperDoctor 5. In addition, it offers server subsystems and accessories comprising server boards, chassis, power supplies, and other accessories. Further, the company identifies service requirements, creates and executes project plans, conducts verification testing and training activities, and provides technical documentation services. Additionally, it offers help desk and on-site support services for its server and storage systems; and customer support services, including ongoing maintenance and technical support for its products. The company provides its products to enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets. It sells its products through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. The company was incorporated in 1993 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/SMCI",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1554_2025-06-08",
+  "source": "infer",
+  "question": "Will the United States implement new or expanded export controls on advanced AI chips, cloud access to AI computing, and/or AI model weights in 2025?",
+  "resolution_criteria": "This question will resolve as \"Yes\" if the United States implements new or expanded export controls on any of the following, with an effective date between 1 May 2025 and 31 December 2025: Advanced AI chips: New restrictions beyond those implemented on 13 January 2025. Cloud access to AI computing: Introduction of specific controls on cloud-based access to AI technologies. AI model weights: Expansion or modification of the controls implemented under ECCN 4E091 effective as of 13 January 2025. Export controls must apply broadly, and must not be targeted or limited to a single country or entity. Controls that apply globally but allow exceptions for certain countries or organizations will qualify. Additionally, implementation must be verifiable through at least one of the following: Official announcements from the U.S. Department of Commerce or Bureau of Industry and Security Publication of new rules in the Federal Register Updates to the Export Administration Regulations (EAR) The question will resolve as \"No\" if no such new or expanded measures are implemented by 31 December 2025.",
+  "background": "The United States recently implemented significant export controls on AI-related technologies. In January 2025, the Bureau of Industry and Security (BIS) issued new regulations that: Expanded worldwide export controls on advanced AI chips, requiring licenses for exports of certain advanced computing items, and Introduced first-time controls on AI model weights, creating a new Export Control Classification Number (ECCN) 4E091 for \"frontier\" AI model weights. These regulations took effect on 13 January 2025, with compliance required by 15 May 2025. The controls on AI model weights apply to closed-source models trained using high levels of computing power (more than 10 26 operations). While specific controls on cloud access to AI computing have not been implemented, there are ongoing discussions about potential regulations in this area. Additional Reading: &nbsp; New U.S. Export Controls on Advanced Computing Items and Artificial Intelligence Model Weights: Seven Key Takeaways (Sidley) BIS Issues Long-Awaited Export Controls on AI (WilmerHale) Confidential compute no more? US export controls, confidentiality, and privacy (ITLawCo)",
+  "url": "https://www.randforecastinginitiative.org/questions/1554",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.5723",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The crowd forecast."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "LMT_2025-06-08",
+  "source": "yfinance",
+  "question": "Will LMT's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LMT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 476.850. (The latest market close price of LMT.)",
+  "background": "Lockheed Martin Corporation, an aerospace and defense company, engages in the research, design, development, manufacture, integration, and sustainment of technology systems, products, and services worldwide. The company operates through four segments: Aeronautics; Missiles and Fire Control (MFC); Rotary and Mission Systems (RMS); and Space. The Aeronautics segment offers combat and air mobility aircraft, unmanned air vehicles, and related technologies. The MFC segment provides air and missile defense systems; tactical missiles and precision strike weapon systems; logistics; fire control systems; mission operations support, readiness, engineering support, and integration services; ground vehicles; and energy management solutions. The RMS segment offers military and commercial helicopters, surface ships, sea and land-based missile defense systems, radar and laser systems, sea and air-based mission and combat systems, command and control mission solutions, cyber solutions, simulation and training solutions, and services and supports surface ships. The Space segment provides satellites; space transportation systems; strategic, advanced strike, and defensive systems; and classified systems and services in support of national security systems. This segment also provides network-enabled situational awareness and integrates space and ground global systems to help its customers gather, analyze, and securely distribute critical intelligence data. It serves primarily serves the U.S. government and international customers, as well as foreign military sales contracted through the U.S. government. The company was formerly known as The Lockheed Corporation and changed its name to Lockheed Martin Corporation in March 1995. Lockheed Martin Corporation was founded in 1912 and is based in Bethesda, Maryland.",
+  "url": "https://finance.yahoo.com/quote/LMT",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

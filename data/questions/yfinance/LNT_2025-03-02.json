@@ -1,0 +1,23 @@
+{
+  "id": "LNT_2025-03-02",
+  "source": "yfinance",
+  "question": "Will LNT's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LNT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 61.330. (The latest market close price of LNT.)",
+  "background": "Alliant Energy Corporation operates as a utility holding company that provides regulated electricity and natural gas services in the United States. It operates in three segments: Utility Electric Operations, Utility Gas Operations, and Utility Other. The company, through its subsidiary, Interstate Power and Light Company (IPL), primarily generates and distributes electricity, and distributes and transports natural gas to retail customers in Iowa; sells electricity to wholesale customers in Minnesota, Illinois, and Iowa; and generates and distributes steam in Cedar Rapids, Iowa. Alliant Energy Corporation, through its other subsidiary, Wisconsin Power and Light Company (WPL), generates and distributes electricity, and distributes and transports natural gas to retail customers in Wisconsin; and sells electricity to wholesale customers in Wisconsin. It serves retail customers in the farming, agriculture, industrial manufacturing, chemical, packaging, and food industries, as well as wholesale customers comprising municipalities and rural electric cooperatives. In addition, the company owns and operates a short-line rail freight service in Iowa; a Mississippi River barge, rail, and truck freight terminal in Illinois; freight brokerage services; wind turbine blade recycling services; and a rail-served warehouse in Iowa. Further, it holds interests in a natural gas-fired electric generating unit near Sheboygan Falls, Wisconsin; and a wind farm located in Oklahoma. The company was formerly known as Interstate Energy Corp. and changed its name to Alliant Energy Corporation in May 1999. Alliant Energy Corporation was incorporated in 1981 and is headquartered in Madison, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/LNT",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

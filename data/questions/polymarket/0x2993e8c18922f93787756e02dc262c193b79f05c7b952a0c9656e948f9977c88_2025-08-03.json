@@ -1,0 +1,15 @@
+{
+  "id": "0x2993e8c18922f93787756e02dc262c193b79f05c7b952a0c9656e948f9977c88_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Captain America: Brave New World be the top grossing movie of 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the \"Gross\" column on https://www.boxofficemojo.com/year/2025/?grossesOption=calendarGrosses shows 'Captain America: New World Order' (2025) as the film with the highest 2025 gross once data for December 31 is made available. Otherwise, this market will resolve to \"No\".\n\nNote: This market is about the movie's domestic calendar gross in 2025 - dates outside of 2025 will not count toward this movie's gross.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by January 7, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-captain-america-new-world-order-be-the-top-grossing-movie-of-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0025",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

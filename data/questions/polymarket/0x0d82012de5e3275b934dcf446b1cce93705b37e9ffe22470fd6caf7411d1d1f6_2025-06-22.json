@@ -1,0 +1,15 @@
+{
+  "id": "0x0d82012de5e3275b934dcf446b1cce93705b37e9ffe22470fd6caf7411d1d1f6_2025-06-22",
+  "source": "polymarket",
+  "question": "US x Russia military clash in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military encounter between the military forces of the United States and Russia between May 28 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military encounter\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between U.S. and Russian military forces. Non-violent actions, such as airspace violations, firing of warning shots (such as the June, 2021 Black Sea Confrontations between Russian forces and HMS Defender), or cyberattacks will not qualify. \n\nIntentional physical collisions, including aerial interceptions and naval ramming without the direct use of weaponry, such as the 2023 Black Sea incident\u2014where a Russian Su-27 damaged a U.S. MQ-9 Reaper drone's propeller, leading to its crash\u2014 will not qualify regardless of damage. \n\nMilitary contractors will qualify only if confirmed to be operating under the direct command or coordination of the respective state\u2019s armed forces (e.g. the Battle of Khasham would not qualify).\n\nThe resolution source for this market will be a consensus of credible reporting.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/us-x-russia-military-clash-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.055",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

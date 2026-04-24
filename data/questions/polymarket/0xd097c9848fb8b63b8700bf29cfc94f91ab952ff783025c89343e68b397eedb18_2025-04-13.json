@@ -1,0 +1,15 @@
+{
+  "id": "0xd097c9848fb8b63b8700bf29cfc94f91ab952ff783025c89343e68b397eedb18_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the Sacramento Kings win the Western Conference?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Sacramento Kings win the 2024-2025 NBA Western Conference finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2024-25 NBA Western Conference finals based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-sacramento-kings-win-the-western-conference",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-17",
+  "market_value": "0.0025",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

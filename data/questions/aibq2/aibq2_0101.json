@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0101",
+  "source": "aibq2",
+  "question": "Will James Comey be arrested before July 1, 2025?",
+  "title_hash": "39a7d996337aa4b5",
+  "background": "[Secret Service Is Asking Comey About a Photo of Seashells Spelling \u201886 47\u2019](https://www.nytimes.com/2025/05/16/us/politics/secret-service-comey-social-media-trump.html)",
+  "resolution_criteria": "This question resolves as **Yes** if former FBI director James Comey is arrested before July 1, 2025, according to [credible sources](https://www.metaculus.com/faq/#definitions).\n\nFine print:\nIn order to streamline this question's resolution, please note that an arrest anywhere in the world, for any reason, will resolve this question as Yes. For purposes of this question, we define \"arrest\" using the definition [posted at Nolo](https://www.nolo.com/legal-encyclopedia/justifies-arrest-probable-cause.html): \"An arrest requires taking someone into custody, against that person's will, in order to prosecute or interrogate. It involves a physical application of force, or submission to an officer's show of force. In sum, the arrestee must not be free to leave. Whether the act by the police is termed an arrest under state law is not relevant. When deciding whether someone has been arrested, courts apply the 'reasonable man' standard. This means asking whether a reasonable person, in the shoes of the defendant, would have concluded that he or she was not free to leave.\"",
+  "url": "https://www.nytimes.com/2025/05/16/us/politics/secret-service-comey-social-media-trump.html",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EW_2025-12-07",
+  "source": "yfinance",
+  "question": "Will EW's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 86.750. (The latest market close price of EW.)",
+  "background": "Edwards Lifesciences Corporation provides products and technologies to treat advanced cardiovascular diseases in the United States, Europe, Japan, and internationally. The company offers transcatheter heart valve replacement products for minimally invasive replacement of aortic heart valves under the Edwards SAPIEN family of valves system; and transcatheter heart valve repair and replacement products to treat mitral and tricuspid valve diseases under the PASCAL PRECISION and Cardioband brands. It also provides surgical structural heart solutions, such as aortic surgical valve under the INSPIRIS brand name; INSPIRIS RESILIA aortic valve, which offers RESILIA tissue and VFit technology; KONECT RESILIA, a pre-assembled tissue valve conduit for complex combined procedures; and MITRIS RESILIA valve. The company distributes its products through a direct sales force and independent distributors. Edwards Lifesciences Corporation was founded in 1958 and is headquartered in Irvine, California.",
+  "url": "https://finance.yahoo.com/quote/EW",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ANET_2026-03-01",
+  "source": "yfinance",
+  "question": "Will ANET's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ANET for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 139.540. (The latest market close price of ANET.)",
+  "background": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/ANET",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

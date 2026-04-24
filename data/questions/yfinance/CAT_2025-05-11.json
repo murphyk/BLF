@@ -1,0 +1,21 @@
+{
+  "id": "CAT_2025-05-11",
+  "source": "yfinance",
+  "question": "Will CAT's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CAT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 309.270. (The latest market close price of CAT.)",
+  "background": "Caterpillar Inc. manufactures and sells construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives in the United States and internationally. Its Construction Industries segment offers asphalt pavers, cold planers, compactors, forestry machines, material handlers, motor graders, pipelayers, road reclaimers, telehandlers, track-type tractors, and track and wheel excavators; compact track, wheel, track-type, backhoe, and skid steer loaders; and related parts and tools. The company's Resource Industries segment provides electric rope and hydraulic shovels, draglines, rotary drills, hard rock vehicles, tractors, mining trucks, wheel loaders, off-highway and articulated trucks, wide-body trucks, wheel tractor scrapers and dozers, fleet management products, landfill and soil compactors, machinery components, autonomous ready vehicles and solutions, work tools, and safety services and mining performance solutions, as well as related parts and services. Its Energy & Transportation segment offers reciprocating engine powered generator sets; reciprocating engines, drivetrain, and integrated systems and solutions; turbines, centrifugal gas compressors, and related services; and diesel-electric locomotives and components, and other rail-related products. The company's Financial Products segment provides operating and finance leases, installment sale contracts, revolving charge accounts, repair/rebuild financing services, working capital loans, and wholesale financing; and insurance and risk management products and services. Its All Other segment offers wear and maintenance components; parts distribution; logistics solutions and distribution services; dealer portfolio management, and brand management and marketing strategy services; and digital investment services. Caterpillar Inc. was founded in 1925 and is headquartered in Irving, Texas.",
+  "url": "https://finance.yahoo.com/quote/CAT",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

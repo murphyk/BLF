@@ -1,0 +1,14 @@
+{
+  "id": "0x77b5bfe44beb0641905f76ee2f32f96f47d8863bcad586678224a6dc02f03ad3_2025-11-23",
+  "source": "polymarket",
+  "question": "US forces in Iran in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if active regular US military personnel physically enter Iran for combat operations at any point between June 21, 2025, and December 31, 2025, 11:59 PM ET.\n\nUS military personnel must physically enter the terrestrial territory of Iran to qualify. Entering Iran's maritime or aerial territory will not count.\n\nHigh ranking US service members entering Iran for diplomatic purposes (and their accompanying entourage), military contractors, military advisors, and special operation forces will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-forces-in-iran-in-2025",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.025500000000000002",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

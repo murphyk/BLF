@@ -1,0 +1,15 @@
+{
+  "id": "0x4fccc0dcb625ea55ff1ca0409bb44fe1952c04bc16cf5255002ceb2cc3791888_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Russia pull out of Syria before April 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Russia withdraws all conventional combat units from Syria by March 31, 2025, 11:59 PM ET. \n\nThis market refers only to conventional Russian military units operating under the Ministry of Defense, such as ground forces, air forces, or naval personnel. The presence of private military contractors (PMCs) such as Wagner Group, military advisors, or special operations forces will not disqualify the market from resolving to \"Yes,\" provided there are no conventional Russian military units actively operating in Syria.\n\nThe resolution source for this market will be a consensus of credible reporting.\n\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-pull-out-of-syria",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.085",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

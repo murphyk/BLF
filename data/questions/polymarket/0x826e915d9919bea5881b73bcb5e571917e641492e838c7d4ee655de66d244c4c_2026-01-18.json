@@ -1,0 +1,14 @@
+{
+  "id": "0x826e915d9919bea5881b73bcb5e571917e641492e838c7d4ee655de66d244c4c_2026-01-18",
+  "source": "polymarket",
+  "question": "Will the Washington Wizards win the 2025\u20132026 NBA Southeast Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-southeast-division-winner-washington-wizards",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-09",
+  "market_value": "0.004",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "HAS_2025-03-02",
+  "source": "yfinance",
+  "question": "Will HAS's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HAS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 60.820. (The latest market close price of HAS.)",
+  "background": "Hasbro, Inc., together with its subsidiaries, operates as a toy and game company in the United States, Europe, Canada, Mexico, Latin America, Australia, China, and Hong Kong. The company operates through Consumer Products; Wizards of the Coast and Digital Gaming; Entertainment; and Corporate and Other segments. The Consumer Products segment engages in the sourcing, marketing, and sale of toy and game products. This segment also promotes its brands through the out-licensing of trademarks, characters, and other brand and intellectual property rights to third parties through the sale of branded consumer products, such as toys and apparel. Its toys and games include action figures, arts and crafts and creative play products, dolls, play sets, preschool toys, plush products, sports action blasters and accessories, vehicles and toy-related specialty products, games, and other consumer products; and licensed products, such as apparel, publishing products, home goods and electronics, and toy products. The Wizards of the Coast and Digital Gaming segment engages in the promotion of its brands through the development of trading cards, role-playing, and digital game experiences based on Hasbro and Wizards of the Coast games. The Entertainment segment engages in the development, production, and sale of entertainment content, including film, television, children's programming, digital content, and live entertainment. The company sells its products to retailers, distributors, wholesalers, discount stores, specialty hobby stores, drug stores, mail order houses, catalog stores, department stores, and other traditional retailers, as well as e-commerce retailers; and directly to customers through its e-commerce websites under the MAGIC: THE GATHERING, Hasbro Gaming, PLAY-DOH, NERF, TRANSFORMERS, DUNGEONS & DRAGONS, PEPPA PIG, and other brand names. Hasbro, Inc. was founded in 1923 and is headquartered in Pawtucket, Rhode Island.",
+  "url": "https://finance.yahoo.com/quote/HAS",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

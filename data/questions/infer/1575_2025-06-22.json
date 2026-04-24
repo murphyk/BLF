@@ -1,0 +1,15 @@
+{
+  "id": "1575_2025-06-22",
+  "source": "infer",
+  "question": "Will U.S. President Donald Trump\u2019s approval rating be greater than 45% on 1 August 2025?",
+  "resolution_criteria": "This question will be resolved using Gallup's Presidential Approval Ratings for Donald Trump , and will be resolved as \u201cYes\u201d if the \u201cLast job approval rating\u201d published by Gallup is higher than 45% at 5:00 pm ET on 1 August 2025.",
+  "background": "Gallup\u2019s presidential job approval poll asks respondents whether they \u201capprove or disapprove of the way Donald Trump is handling his job as president.\u201d As of April 2025, President Donald Trump\u2019s second term approval ratings have ranged between 43% to 47%, with its peak being shortly after his second term began in January 2025. For comparison, his job approval rating was 41% at a similar point in his first term. Overall, his first term approval rating averaged 41%, with a high of 49% and a low of 34%.",
+  "url": "https://www.randforecastinginitiative.org/questions/1575",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-18",
+  "market_value": "0.1579",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

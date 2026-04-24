@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_586d7514",
+  "source": "aibq2",
+  "question": "Will a pilot report of UFOs come from a country in South America in June 2025?",
+  "background": "For example, the resolution source [reports](https://nuforc.org/subndx/?id=x) a sighting in Brazil in December 2024.",
+  "resolution_criteria": "This question resolves as **Yes** if The National UFO Reporting Center posts a pilot report of a UFO/UAP having occurred in a country on the South American continent, during the month of June 2025 at [this link](https://nuforc.org/subndx/?id=x) when accessed by Metaculus on or after July 1, 2025.",
+  "url": "https://nuforc.org/subndx/?id=x",
+  "forecast_due_date": "2025-05-21",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

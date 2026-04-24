@@ -1,0 +1,14 @@
+{
+  "id": "0xba9aa10e79d2411a71685731968a8dd15662d1d900173f189c3261174bde1108_2025-12-21",
+  "source": "polymarket",
+  "question": "Choo Kyung-ho in jail by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Choo Kyung-ho spends any time in custody in a jail or prison between October 30 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve to \"Yes\" if Choo Kyung-ho spends time in custody in a jail or prison. Temporary holding at a facility, such as the Seoul Detention Center, while awaiting a judge\u2019s decision on whether to grant a detention warrant, does not qualify. However, non-temporary detention initiated by a court-ordered warrant will count.\n\nThe primary resolution source for this market will be official information from involved government(s), however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/choo-kyung-ho-in-jail-by-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.007",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

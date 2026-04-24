@@ -1,0 +1,15 @@
+{
+  "id": "0x50b8b0f741566a420756d975faaf4cc4716229cd5183c3a35b3b20ac2b5050ef_2025-04-27",
+  "source": "polymarket",
+  "question": "Will a new country buy Bitcoin in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the government of any sovereign UN member state announces between January 1 and December 31, 2025, 11:59 PM ET that they bought Bitcoin for the first time. Otherwise, this market will resolve to \"No\".\n\nThis announcement can pertain to a first purchase of Bitcoin outside of the timeframe of this market (e.g. if a country announces it made its first purchase of Bitcoin prior to this market's timeframe, but the announcement is made within the timeframe, this market will resolve to \"Yes\").\n\nThe primary resolution source will be official announcements from the governments of any purchasing UN member state, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-a-new-country-buy-bitcoin-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-13",
+  "market_value": "0.505",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

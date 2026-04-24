@@ -1,0 +1,21 @@
+{
+  "id": "NTRS_2025-04-13",
+  "source": "yfinance",
+  "question": "Will NTRS's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NTRS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 98.730. (The latest market close price of NTRS.)",
+  "background": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals worldwide. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytical services, employee benefit services, securities lending, foreign exchange, treasury management, brokerage services, transition management services, banking, and cash management services. This segment serves corporate and public retirement funds, foundations, endowments, fund managers, insurance companies, sovereign wealth funds, and other institutional investors. The Wealth Management segment offers trust, investment management, custody, and philanthropic; financial consulting; guardianship and estate administration; family business consulting; family financial education; brokerage services; and private and business banking services. This segment serves high-net-worth individuals and families, business owners, executives, professionals, retirees, and established privately-held businesses. The company provides asset management services, such as active and passive equity; active and passive fixed income; cash management; muti-asset and alternative asset classes comprising private equity and hedge funds of funds; and multi-manager advisory services and products through separately managed accounts, bank common and collective funds, registered investment companies, exchange traded funds, non-U.S. collective investment funds, and unregistered private investment funds. In addition, it offers overlay and other risk management services. The company was founded in 1889 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/NTRS",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

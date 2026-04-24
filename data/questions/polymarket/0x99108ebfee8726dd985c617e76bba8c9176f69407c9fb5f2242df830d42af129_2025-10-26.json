@@ -1,0 +1,14 @@
+{
+  "id": "0x99108ebfee8726dd985c617e76bba8c9176f69407c9fb5f2242df830d42af129_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Z.ai have the best AI model on October 31?",
+  "resolution_criteria": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on October 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g., if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zai-have-the-best-ai-model-on-october-31",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-31",
+  "market_value": "0.0025",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

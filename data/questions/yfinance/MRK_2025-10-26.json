@@ -1,0 +1,19 @@
+{
+  "id": "MRK_2025-10-26",
+  "source": "yfinance",
+  "question": "Will MRK's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MRK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 84.110. (The latest market close price of MRK.)",
+  "background": "Merck & Co., Inc. operates as a healthcare company worldwide. The company offers human health pharmaceutical for various areas under the Keytruda, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, RotaTeq, Pneumovax 23, Bridion, Dificid, Zerbaxa, Noxafil, Winrevair, Adempas, Verquvo, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. It also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. The company has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types, and Koselugo for multiple indications; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. It has a collaboration agreement with Antengene Corporation Limited to evaluate the combination of ATG-022, a CLDN18.2-targeting antibody-drug conjugate, and anti-PD-1 therapy, as well as KEYTRUDA (pembrolizumab) in patients with advanced solid tumors. Merck & Co., Inc. was founded in 1891 and is headquartered in Rahway, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/MRK",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

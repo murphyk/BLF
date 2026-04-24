@@ -1,0 +1,15 @@
+{
+  "id": "0x386813cf90074b5b5bc274d145be89a20f07386a3f8a7d370781a0af7196dc25_2025-08-31",
+  "source": "polymarket",
+  "question": "Lee Jae-myung impeached in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the President of South Korea, Lee Jae-myung, is formally impeached by the South Korean National Assembly by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nFor this market to resolve to \"Yes\" it is only necessary that the National Assembly propose and approve a motion of impeachment against Lee Jae-myung, regardless of whether the Constitutional Court later upholds the impeachment.\n\nThe primary resolution source for this market is official information from the South Korean government, however a consensus of credible reporting may be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/south-korean-president-lee-jae-myung-impeached-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0395",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

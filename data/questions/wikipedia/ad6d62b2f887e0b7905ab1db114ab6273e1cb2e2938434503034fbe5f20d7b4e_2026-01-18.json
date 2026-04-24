@@ -1,0 +1,17 @@
+{
+  "id": "ad6d62b2f887e0b7905ab1db114ab6273e1cb2e2938434503034fbe5f20d7b4e_2026-01-18",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will a vaccine have been developed for Human granulocytic anaplasmosis (HGA) by each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_infectious_diseases on the resolution date.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was No. (Vaccine status for Human granulocytic anaplasmosis (HGA). 'No' means that a vaccine has not yet been created. 'Yes' means that it has.)",
+  "background": "According to Wikipedia, Human granulocytic anaplasmosis (HGA) is the common name of an infectious disease. A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
+  "url": "https://en.wikipedia.org/wiki/List_of_infectious_diseases",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

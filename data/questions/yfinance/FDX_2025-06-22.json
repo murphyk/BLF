@@ -1,0 +1,21 @@
+{
+  "id": "FDX_2025-06-22",
+  "source": "yfinance",
+  "question": "Will FDX's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FDX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 224.000. (The latest market close price of FDX.)",
+  "background": "FedEx Corporation, together with its subsidiaries, provides transportation, e-commerce, and business services in the United States and internationally. It operates through FedEx Express, FedEx Ground, FedEx Freight, and FedEx Services segments. The FedEx Express segment offers express transportation, small-package ground delivery, and freight transportation services; and time-critical transportation services. The FedEx Ground segment provides small-package ground delivery services. The FedEx Freight segment offers less-than-truckload freight transportation services. The FedEx Services segment provides sales, marketing, information technology, communications, customer service, technical support, billing and collection, and back-office support services. In addition, the company offers supply chain management solutions; and air and ocean freight forwarding and cargo transportation, specialty transportation, customs brokerage, third party logistics and supply chain, and document and business solutions, as well as provides trade management tools and data. The company was founded in 1971 and is headquartered in Memphis, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/FDX",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

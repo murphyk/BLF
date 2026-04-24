@@ -1,0 +1,21 @@
+{
+  "id": "ABBV_2025-05-25",
+  "source": "yfinance",
+  "question": "Will ABBV's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ABBV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 196.070. (The latest market close price of ABBV.)",
+  "background": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacture, commercialization, and sale of medicines and therapies worldwide. The company offers Humira, an injection for autoimmune and intestinal Beh\u00e7et's diseases, generalized pustular psoriasis, and pyoderma gangrenosum; Skyrizi to treat autoimmune diseases, erythrodermic psoriasis, generalized pustular psoriasis, and palmoplantar pustulosis; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta/Venclyxto to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox therapeutic to treat neurologic diseases; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duopa and Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; and Qulipta for episodic and chronic migraine, as well as other neuroscience products. In addition, the company offers Ozurdex for eye diseases; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; Restasis to increase tear production; and other eye care products. Further, it provides Mavyret/Maviret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ABBV",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

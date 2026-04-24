@@ -1,0 +1,15 @@
+{
+  "id": "AaZr2KnQYHGRVHzvKoHa_2025-08-03",
+  "source": "manifold",
+  "question": "Was synthetic video data generated and used in training Sora?",
+  "resolution_criteria": "Was synthetic video data generated for training Sora, eg large scale clips from Unreal Engine as suggested by this tweet. It does not count if there happens to be synthetic data in the training data. This will resolve yes if the consensus is large scale synthetic data generation was used for Sora.\n\nIf there is no clear consensus, I will resolve it based on my judgement using any material released by OpenAI.",
+  "background": "",
+  "url": "https://manifold.markets/m2/was-synthetic-data-generated-and-us",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-15",
+  "market_value": "0.36115645166154503",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market value."
+}

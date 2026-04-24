@@ -1,0 +1,14 @@
+{
+  "id": "rB6cE6FteTvCCFBPWUUw_2026-04-12",
+  "source": "manifold",
+  "question": "Will the Flexport internal prediction market on freight rates have alpha (as per their CEO)?",
+  "resolution_criteria": "As per Ryan Peterson: https://twitter.com/typesfast/status/1740773927310504064\n\n\"Flexport now has an internal betting market for where ocean freight prices will land next month on each major trade lane. Curious to see if someone has alpha in predicting this, if we all do together (wisdom of the crowds), or if it's just a random walk.\"\n\nThis resolves to YES if it is revealed that, in the judgment of Ryan Peterson, after a minimum of 6 months, this market has Alpha.\n\nThis resolves to NO if it is revealed that, in the judgment of Ryan Peterson, after a minimum of 6 months, this market does not have Alpha.\n\nIf the results are revealed but Ryan does not chime in on YES/NO, I will use best judgment, a poll or other methods. I will not do this without at least 9 months of data, and an attempt to get Ryan to chime in.\n\nIf after 2 years we have neither results nor a judgment, and no sign of either or another way to know conclusively whether there was Alpha, this resolves N/A.",
+  "background": "",
+  "url": "https://manifold.markets/ZviMowshowitz/will-the-flexport-internal-predicti",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.804933999777199",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

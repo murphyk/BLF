@@ -1,0 +1,21 @@
+{
+  "id": "LYV_2025-04-27",
+  "source": "yfinance",
+  "question": "Will LYV's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LYV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 125.460. (The latest market close price of LYV.)",
+  "background": "Live Nation Entertainment, Inc. operates as a live entertainment company worldwide. It operates through Concerts, Ticketing, and Sponsorship & Advertising segments. The Concerts segment promotes live music events in its owned or operated venues, and in rented third-party venues. This segment operates and manages music venues; produces music festivals; creates associated content; and offers management and other services to artists. The Ticketing segment manages the ticketing operations, including the provision of ticketing software and services to consumers with marketplace for tickets and event information through mobile apps, other websites, and retail outlets, as well as its websites, such as livenation.com and ticketmaster.com; and provides ticket resale services. This segment offers ticketing services for arenas, stadiums, amphitheaters, music clubs, concert promoters, professional sports franchises and leagues, college sports teams, performing arts venues, museums, and theaters. The Sponsorship & Advertising segment sells international, national, and local sponsorships and placement of advertising, including signage, online advertising, and promotional programs; rich media offering, including advertising related with live streaming and music-related content; and ads through distribution network of venues, events, and websites. This segment also manages the development of strategic sponsorship programs, as well as develops, books, and produces custom events or programs for specific brands. It owns, operates, or leases entertainment venues. The company was formerly known as Live Nation, Inc. and changed its name to Live Nation Entertainment, Inc. in January 2010. Live Nation Entertainment, Inc. was incorporated in 2005 and is based in Beverly Hills, California.",
+  "url": "https://finance.yahoo.com/quote/LYV",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

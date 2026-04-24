@@ -1,0 +1,14 @@
+{
+  "id": "0x1fad72fae204143ff1c3035e99e7c0f65ea8d5cd9bd1070987bd1a3316f772be_2026-04-12",
+  "source": "polymarket",
+  "question": "New Rihanna Album before GTA VI?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Rihanna officially releases a new album before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nOfficially released means that a newly released album is officially available for download or streaming (not including live events) by the resolution date.\n\nRe-releases, deluxe editions, compilations, or greatest hits albums will not count, unless they contain at least 50% tracks that have never been officially released in any format prior to the album's release.\n\nThe resolution source for the album release will be any official streaming or download site, e.g. Apple Music or Spotify.",
+  "background": "",
+  "url": "https://polymarket.com/market/new-rhianna-album-before-gta-vi-926",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.59",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

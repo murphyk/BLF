@@ -1,0 +1,21 @@
+{
+  "id": "FI_2025-03-02",
+  "source": "yfinance",
+  "question": "Will FI's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 230.600. (The latest market close price of FI.)",
+  "background": "Fiserv, Inc., together with its subsidiaries, provides payments and financial services technology services in the United States, Europe, the Middle East and Africa, Latin America, the Asia-Pacific, and internationally. It operates through Merchant Acceptance, Financial Technology, and Payments and Network segments. The Merchant Acceptance segment provides merchant acquiring and digital commerce services; mobile payment services; security and fraud protection products; Clover, a cloud based POS and integrated commerce operating system for small and mid-sized businesses and independent software vendors; and Carat, an integrated operating system for large businesses. This segment distributes through various channels, including direct sales teams, strategic partnerships with agent sales forces, independent software vendors, financial institutions, and other strategic partners in the form of joint venture alliances, revenue sharing alliances, and referral agreement. The Financial Technology segment offers customer deposit and loan accounts, as well as manages an institution's general ledger and central information files. This segment also provides digital banking, financial and risk management, professional services and consulting, check processing, and other products and services. The Payments and Network segment offers card transactions, such as debit, credit, and prepaid card processing and services; funds access, debit payments, cardless ATM access, and surcharge-free ATM network; security and fraud protection products; card production; print services; and various network services, as well as non-card digital payment software and services, including bill payment, account-to-account transfers, person-to-person payments, electronic billing, and security and fraud protection products. It serves merchants, banks, credit unions, other financial institutions, and corporate clients. Fiserv, Inc. was incorporated in 1984 and is headquartered in Milwaukee, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/FI",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

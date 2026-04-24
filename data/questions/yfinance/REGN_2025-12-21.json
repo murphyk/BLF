@@ -1,0 +1,19 @@
+{
+  "id": "REGN_2025-12-21",
+  "source": "yfinance",
+  "question": "Will REGN's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/REGN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 726.210. (The latest market close price of REGN.)",
+  "background": "Regeneron Pharmaceuticals, Inc. discovers, invents, develops, manufactures, and commercializes medicines for treating various diseases worldwide. The company's products include EYLEA injection to treat wet age-related macular degeneration and diabetic macular edema; myopic choroidal neovascularization; diabetic retinopathy; neovascular glaucoma; and retinopathy of prematurity. It also provides Dupixent injection to treat atopic dermatitis and asthma in adults and pediatrics; Libtayo injection to treat metastatic or locally advanced cutaneous squamous cell carcinoma; Praluent injection for heterozygous familial hypercholesterolemia (HoFH) or clinical atherosclerotic cardiovascular disease in adults; REGEN-COV for covid-19; and Kevzara solution for treating rheumatoid arthritis in adults. In addition, the company offers Inmazeb injection for infection caused by Zaire ebolavirus; ARCALYST injection for cryopyrin-associated periodic syndromes, including familial cold auto-inflammatory syndrome and muckle-wells syndrome; and ZALTRAP injection for intravenous infusion to treat metastatic colorectal cancer; Evkeeza for treatment of HoFH; Ordspono for Follicular lymphoma and Diffuse large B-cell lymphoma; and Veopoz for CD55-deficient protein-losing enteropathy. Further, it develops product candidates for treating patients with eye, allergic and inflammatory, cardiovascular and metabolic, infectious, and rare diseases; and cancer, pain, and hematologic conditions. It has collaboration with Mammoth Biosciences, Inc. to research, develop and commercialize in vivo CRISPR-based gene editing therapies for multiple tissues and cell types; with Sonoma Biotherapeutics, Inc. to discover, develop, and commercialize engineered regulatory T cell therapies; and Tessera Therapeutics, Inc. to develop and commercialize TSRA-196, an investigational gene editing therapy for Alpha-1 antitrypsin deficiency. The company was incorporated in 1988 and is headquartered in Tarrytown, New York.",
+  "url": "https://finance.yahoo.com/quote/REGN",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

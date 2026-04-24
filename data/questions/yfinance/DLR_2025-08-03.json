@@ -1,0 +1,21 @@
+{
+  "id": "DLR_2025-08-03",
+  "source": "yfinance",
+  "question": "Will DLR's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DLR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 179.240. (The latest market close price of DLR.)",
+  "background": "Digital Realty Trust, Inc. (\u0093Digital Realty\u0094 or the \u0093company\u0094) owns, acquires, develops, and operates data centers through its operating partnership subsidiary, Digital Realty Trust, L.P. (the \u0093operating partnership\u0094). The company is focused on providing data center, colocation, and interconnection solutions for domestic and international customers across a variety of industry verticals ranging from cloud and information technology services, communications and social networking to financial services, manufacturing, energy, healthcare, and consumer products. As of March 31, 2025, the company's 308 data centers, including 78 data centers held as investments in unconsolidated joint ventures, contain applications and operations critical to the day-to-day operations of technology industry and corporate enterprise data center customers. Digital Realty's portfolio is comprised of approximately 41.8 million square feet, excluding approximately 9.5 million square feet of space under active development and 5.1 million square feet of space held for future development, located throughout North America, Europe, South America, Asia, Australia, and Africa.",
+  "url": "https://finance.yahoo.com/quote/DLR",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

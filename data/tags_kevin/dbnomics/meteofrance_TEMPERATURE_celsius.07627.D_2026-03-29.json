@@ -1,0 +1,6 @@
+{
+  "category": "Weather & Climate",
+  "suggested_category": null,
+  "justification": "The question asks for a prediction regarding specific daily average temperatures at a meteorological station.",
+  "question": "What is the probability that the daily average temperature at the French weather station at Saint-Girons will be higher on 2026-04-05 than on 2026-03-29?"
+}

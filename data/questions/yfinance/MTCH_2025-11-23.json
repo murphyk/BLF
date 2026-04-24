@@ -1,0 +1,19 @@
+{
+  "id": "MTCH_2025-11-23",
+  "source": "yfinance",
+  "question": "Will MTCH's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MTCH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 32.990. (The latest market close price of MTCH.)",
+  "background": "Match Group, Inc. engages in the provision of digital technologies. It operates through four segments: Tinder, Hinge, Evergreen and Emerging, and Match Group Asia. The company's portfolio of brands includes Tinder, Hinge, Match, Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, BLK, and other brands, built to increase users' likelihood of connecting with others. Its services are available in over 40 languages to users worldwide. The company was incorporated in 1986 and is based in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/MTCH",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

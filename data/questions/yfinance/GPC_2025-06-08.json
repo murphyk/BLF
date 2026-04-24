@@ -1,0 +1,21 @@
+{
+  "id": "GPC_2025-06-08",
+  "source": "yfinance",
+  "question": "Will GPC's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GPC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 127.270. (The latest market close price of GPC.)",
+  "background": "Genuine Parts Company distributes automotive and industrial replacement parts. It operates in two segments, Automotive Parts Group and Industrial Parts Group. The company distributes automotive parts, accessories and solutions and replacement parts for hybrid and electric vehicles, trucks, SUVs, buses, motorcycles, farm equipment, and heavy duty equipment; and equipment parts and technologies. It also offers automotive parts, including brakes, batteries, filters, engine components, tools, accessories, and fluids; custom services, such as paint mixing, hydraulic hose assembly, battery testing, and key cutting; and accessories, tools, and equipment for servicing heavy duty and diesel vehicles, as well as operates service and mechanical repair centers for heavy vehicles. In addition, the company operates independent repair shops and auto care centers under the NAPA brand; and NAPA online, an online platform to browse, purchase, and have automotive products, as well as provides DIY workshops and training sessions to customers. Further, it provides abrasives, adhesives, sealants and tape, bearings, chemicals, cutting tools, electrical, facility maintenance, hose and fittings, hydraulics, janitorial, mechanical power transmission, pneumatics, process pumps and equipment, safety, seals and gaskets, tools and testing instruments, as well as inventory management, asset repair and tracking, vendor managed inventory, radio frequency identification asset management, gearbox and fluid power assembly and repair, process pump assembly and repair, drive shaft repair, electrical panel assembly and repair, and hose and gasket manufacture and assembly services. The company was incorporated in 1928 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/GPC",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

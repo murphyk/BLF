@@ -1,0 +1,15 @@
+{
+  "id": "0x453157d57aa34741278cb3d6f20d3d01b138395c3ae9eb34e2b97137fe0f2eaa_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Bitcoin reach $200k in April?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between April 1, 2025, 00:00 and April 30, 2025, 23:59 in the ET timezone has a final \"High\" price of $200,000 or higher. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTCUSDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-reach-200k-in-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.0025",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

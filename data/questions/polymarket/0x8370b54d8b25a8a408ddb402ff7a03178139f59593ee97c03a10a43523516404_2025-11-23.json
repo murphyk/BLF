@@ -1,0 +1,14 @@
+{
+  "id": "0x8370b54d8b25a8a408ddb402ff7a03178139f59593ee97c03a10a43523516404_2025-11-23",
+  "source": "polymarket",
+  "question": "Will the 10-year Treasury yield dip below 3.5% in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Treasury 10-year yield is lower than the listed value for any date between February 24 and December 31, 2025. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market is the Department of the treasury, specially the data listed under \"Daily Treasury Par Yield Curve Rates\" for the column \"10 Yr\" (see: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025).\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-10-year-treasury-yield-dip-below-3pt5-in-2025-662-366-362-827",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0345",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

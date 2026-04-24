@@ -1,0 +1,17 @@
+{
+  "id": "SJM_2026-03-01",
+  "source": "yfinance",
+  "question": "Will SJM's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SJM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 107.690. (The latest market close price of SJM.)",
+  "background": "The J. M. Smucker Company manufactures and markets branded food and beverage products worldwide. The company operates through four segments: U.S. Retail Coffee, U.S. Retail Frozen Handheld and Spreads, U.S. Retail Pet Foods, and Sweet Baked Snacks. It offers coffee, sweet baked goods, pet snacks, frozen handheld products, peanut butter, cat and dog food, fruit and specialty spreads, cookies, frozen sandwiches and snacks, hot beverages, portion control products, toppings and syrups, baking mixes and ingredients, and flour. The company provides its products under the Folgers, Caf\u00e9 Bustelo, Dunkin', Jif, Smucker's, Smucker's Uncrustables, Meow Mix, Milk-Bone, Pup-Peroni, Canine Carry Outs, Hostess, 1850, Robin Hood, and Five Roses brands. The company sells its products through direct sales and brokers to food retailers, club stores, discount and dollar stores, online retailers, pet specialty stores, distributors, drug stores, military commissaries, mass merchandisers, supermarket chains, national mass retailers, convenience stores, vending channels, and foodservice distributors and operators. The J. M. Smucker Company was founded in 1897 and is headquartered in Orrville, Ohio.",
+  "url": "https://finance.yahoo.com/quote/SJM",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

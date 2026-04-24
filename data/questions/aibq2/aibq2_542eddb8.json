@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_542eddb8",
+  "source": "aibq2",
+  "question": "Will a UN member country newly recognize Palestine in June 2025?",
+  "background": "[UK joins France's initiative for recognition of Palestinian state](https://www.lemonde.fr/en/international/article/2025/05/20/uk-joins-france-s-initiative-for-recognition-of-palestinian-state_6741456_4.html)",
+  "resolution_criteria": "This question resolves as **Yes** if after May 31, 2025 and before July 1, 2025, a UN member country announces that it recognizes Palestine as a sovereign nation. Resolves based on Al Jazeera's [tracking page](https://www.aljazeera.com/news/2025/4/10/mapping-which-countries-recognise-palestine-in-2025) or other credible sources should the tracking page not be timely updated.",
+  "url": "https://www.lemonde.fr/en/international/article/2025/05/20/uk-joins-france-s-initiative-for-recognition-of-palestinian-state_6741456_4.html",
+  "forecast_due_date": "2025-05-31",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

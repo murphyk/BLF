@@ -1,0 +1,19 @@
+{
+  "id": "EXPE_2025-12-21",
+  "source": "yfinance",
+  "question": "Will EXPE's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EXPE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 274.070. (The latest market close price of EXPE.)",
+  "background": "Expedia Group, Inc. operates as an online travel company in the United States and internationally. The company operates through B2C, B2B, and trivago segments. The B2C segment includes Brand Expedia, a full-service online travel brand offers various travel products and services; Hotels.com for lodging accommodations; Vrbo, an online marketplace for the alternative accommodations; Orbitz, Travelocity, Wotif Group, ebookers, CheapTickets, Hotwire.com and CarRentals.com. The B2B segment provides various travel and non-travel companies including airlines, offline travel agents, online retailers, corporate travel management, and financial institutions who leverage its travel technology and tap into its diverse supply to augment their offerings and market Expedia Group rates and availabilities to its travelers. The trivago segment send referrals to online travel companies and travel service providers from hotel metasearch websites. In addition, the company provides brand advertising through online and offline channels, loyalty programs, mobile apps, and search engine marketing, as well as metasearch, social media, direct and personalized traveler communications on its websites, and through direct e-mail communication with its travelers. The company was formerly known as Expedia, Inc. and changed its name to Expedia Group, Inc. in March 2018. Expedia Group, Inc. was founded in 1996 and is headquartered in Seattle, Washington.",
+  "url": "https://finance.yahoo.com/quote/EXPE",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

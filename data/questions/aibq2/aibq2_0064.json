@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0064",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will Anthropic announce that it is planning an IPO?",
+  "title_hash": "992f26daa853fe45",
+  "background": "In its most recent funding talks, Anthropic [floated](https://www.theinformation.com/articles/openai-rival-anthropic-has-floated-40-billion-valuation-in-early-talks-about-new-funding) a valuation of $40 billion. Although there has been speculation that the company could IPO, nothing concrete has been announced yet.",
+  "resolution_criteria": "This question will resolve as **Yes** if Anthropic, Inc., announces before July 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) The company filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or 2) An announcement at the [News](https://www.anthropic.com/news) section of its website. If there is no such announcement before that date, this question resolves as **No**.",
+  "url": "https://www.theinformation.com/articles/openai-rival-anthropic-has-floated-40-billion-valuation-in-early-talks-about-new-funding",
+  "forecast_due_date": "2025-05-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

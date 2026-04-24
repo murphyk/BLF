@@ -1,0 +1,21 @@
+{
+  "id": "NEE_2025-08-31",
+  "source": "yfinance",
+  "question": "Will NEE's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NEE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 76.180. (The latest market close price of NEE.)",
+  "background": "NextEra Energy, Inc., through its subsidiaries, generates, transmits, distributes, and sells electric power to retail and wholesale customers in North America. The company generates electricity through wind, solar, nuclear, natural gas, and other clean energy. It also develops, constructs, and operates long-term contracted assets that consists of clean energy solutions, such as renewable generation facilities, battery storage facilities, and electric transmission facilities; sells energy commodities; and owns, develops, constructs, manages and operates electric generation facilities in wholesale energy markets. The company had approximately 35,052 megawatts of net generating capacity; approximately 91,000 circuit miles of transmission and distribution lines; and 921 substations. It serves approximately 12 million people through approximately 6 million customer accounts in the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.",
+  "url": "https://finance.yahoo.com/quote/NEE",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

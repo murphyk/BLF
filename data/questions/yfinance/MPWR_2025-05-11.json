@@ -1,0 +1,21 @@
+{
+  "id": "MPWR_2025-05-11",
+  "source": "yfinance",
+  "question": "Will MPWR's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MPWR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 593.100. (The latest market close price of MPWR.)",
+  "background": "Monolithic Power Systems, Inc. designs, develops, markets, and sells semiconductor-based power electronics solutions for the storage and computing, automotive, enterprise data, consumer, communications, and industrial markets. The company provides direct current (DC) to DC integrated circuits (ICs) that are used to convert and control voltages of various electronic systems, such as cloud-based and on-premises CPU servers, server artificial intelligence applications, storage applications, notebooks, infotainment, workstation applications, power sources, home appliances, and network infrastructure and satellite communications applications. It also offers alternating current to DC, driver metal-oxide-semiconductor field-effect transistor, power management ICs, current limit switch, and lighting control products. The company sells its products through third-party distributors, value-added resellers, end customers and other resellers, original design manufacturers, and original equipment manufacturers. It has operations in China, Taiwan, South Korea, Europe, Southeast Asia, Japan, the United States, and internationally. Monolithic Power Systems, Inc. was incorporated in 1997 and is headquartered in Kirkland, Washington.",
+  "url": "https://finance.yahoo.com/quote/MPWR",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

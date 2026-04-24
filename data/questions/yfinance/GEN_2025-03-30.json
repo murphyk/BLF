@@ -1,0 +1,23 @@
+{
+  "id": "GEN_2025-03-30",
+  "source": "yfinance",
+  "question": "Will GEN's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GEN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 27.900. (The latest market close price of GEN.)",
+  "background": "Gen Digital Inc. engages in the provision of cyber safety solutions for consumers in the United States, Canada, Latin America, Europe, the Middle East, Africa, the Asia Pacific, and Japan. The company offers security and performance products under Norton, Avast, Avira, AVG, and CCleaner brands that provide real-time protection and maintenance for PCs, Macs, and mobile devices against malware, viruses, adware, and other online threats. It also provides identity protection solutions, including LifeLock Identity Theft Protection, Avast and AVG Secure Identity, Norton Identity Theft Protection, and Dark Web Monitoring for monitoring of credit reports, financial accounts, the dark web, and social media accounts to help safeguard customers' personal information. In addition, the company offers Virtual Private Network (VPN) solutions under Norton, Avast and AVG brands to enhance security and online privacy that allows customers to securely transmit and access private information, such as passwords, bank details, and credit card numbers, when using public Wi-Fi on PCs, Macs, and mobile iOS and Android devices; AntiTrack and Secure Browser products which helps to keep personal information and browsing activity anonymous while browsing online; and Privacy Monitor Assistant and BreachGuard products for removing customers' data from public data broker sites; and ReputationDefender, a white glove service that helps customers manage all aspects of their personal branding online, including search results, social media sites, and overall web presence. It markets and sells its products and related services through retailers, telecom service providers, hardware original equipment manufacturers, and employee benefit providers, as well as e-commerce platform. The company was formerly known as NortonLifeLock Inc. and changed its name to Gen Digital Inc. in November 2022. Gen Digital Inc. was founded in 1982 and is headquartered in Tempe, Arizona.",
+  "url": "https://finance.yahoo.com/quote/GEN",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

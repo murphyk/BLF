@@ -1,0 +1,14 @@
+{
+  "id": "R5Cz029RqC_2026-04-12",
+  "source": "manifold",
+  "question": "Will Manifold be more accurate than the Veritasium crowd-sourced estimate?",
+  "resolution_criteria": "This resolves YES if Manifold's estimate from this market is more accurate than the crowd-sourced estimate from Veritasium.\n\nhttps://manifold.markets/Quroe/how-many-jelly-beans-are-in-this-ja-OUnuy9zORR\n\nCurrently, the value there is 1750, which seems like a good average over the last few days as well.\n\nSO, \n\nIf Veritasium gives the \"crowd-sourced\" estimate AND the actual value of jellybeans AND Manifold's estimate of 1750 is closer, this resolves YES.\n\nIf Veritasium gives the \"crowd-sourced\" estimate AND the actual value of jellybeans AND Manifold's estimate of 1750 is NOT closer, this resolves NO.\n\nIf they are equidistant, rounded to the nearest integer, this resolves to 50%.\n\nIf Veritasium does NOT release the necessary information, then this resolves to N/A.\n\nUpdate 2025-05-30 (PST) (AI summary of creator comment): The Manifold estimate to be used for determining resolution is 1750. This is a fixed value. It will not be updated if the estimate in the separate Manifold market on jelly bean counting (referred to in the market description) changes.\n\nUpdate 2025-05-30 (PST) (AI summary of creator comment): If Veritasium presents multiple 'crowd-sourced' estimates:\n\nThe creator will use the estimate that Veritasium most prominently highlights.\n\nIf Veritasium presents several estimates on equal footing (without a single highlighted one), the creator will use the median of those estimates.",
+  "background": "",
+  "url": "https://manifold.markets/bens/will-manifold-be-more-accurate-than-ESUsQREOtp",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.572478151927021",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

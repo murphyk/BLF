@@ -1,0 +1,15 @@
+{
+  "id": "0x19848149723bbd00545b98f45aa239864d8afd2194fec522af4dd2cb222f9766_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Russia capture Kostyantynivka by October 31?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if, according to the ISW map, Russia captures the Kostyantynivka railroad station located on Pravoberezhna vulytsia by October 31, 2025 at 11:59 PM ET.\n\nThe railroad station will be considered captured if any part of the train station icon is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by October 31, 2025, 11:59 PM ET, the market will resolve to \u201cNo\u201d.\n\nIf Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of if it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.\n\nOnce Russia captures the railroad station, any subsequent loss of control will not be considered towards the resolution of this market.\n\nTrain Station Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Kostyantynivka3.jpg\n\nTrain Station Location in Kostyantynivka: https://polymarket-upload.s3.us-east-2.amazonaws.com/Kostyantynivka2.jpg\n\nKostyantynivka Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Kostyantynivka1.jpg\n\nLocation on Google maps: https://maps.app.goo.gl/hZ6ch5jVRvkNFY317\n\nThe primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.\n\nNote: Any temporary glitches or errors in the map which will not be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-capture-kostyantynivka-by-october-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-31",
+  "market_value": "0.32",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

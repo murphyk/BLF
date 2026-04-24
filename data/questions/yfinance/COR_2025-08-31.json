@@ -1,0 +1,21 @@
+{
+  "id": "COR_2025-08-31",
+  "source": "yfinance",
+  "question": "Will COR's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/COR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 303.690. (The latest market close price of COR.)",
+  "background": "Cencora, Inc. sources and distributes pharmaceutical products in the United States and internationally. The company's U.S. Healthcare Solutions segment distributes pharmaceuticals, over-the-counter healthcare products, home healthcare supplies and equipment, and related services to acute care hospitals and health systems, independent and chain retail pharmacies, mail order pharmacies, medical clinics, long-term care and alternate site pharmacies, and other customers; provides pharmacy management, staffing, and other consulting services; supply management software to retail and institutional healthcare providers; packaging solutions to institutional and retail healthcare providers; clinical trial support, product post-approval, and commercialization support services; data analytics, outcomes research, and other services for biotechnology and pharmaceutical manufacturers; pharmaceuticals, vaccines, parasiticides, diagnostics, micro feed ingredients, and other products to the companion animal and production animal markets; and sales force services to manufacturers. This segment also distributes plasma and other blood products, injectable pharmaceuticals, vaccines, and other specialty products; and offers other services to physicians who specialize in various disease states, such as oncology, as well as to other healthcare providers, including hospitals and dialysis clinics. Its International Healthcare Solutions segment provides international pharmaceutical wholesale and related service, and global commercialization services; distributes pharmaceuticals, other healthcare products, and related services to pharmacies, doctors, health centers, and hospitals; and offers specialty transportation and logistics services for the biopharmaceutical industry. The company was formerly known as AmerisourceBergen Corporation and changed its name to Cencora, Inc. in August 2023. Cencora, Inc. was founded in 1871 and is headquartered in Conshohocken, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/COR",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

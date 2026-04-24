@@ -1,0 +1,15 @@
+{
+  "id": "35574_2025-03-16",
+  "source": "metaculus",
+  "question": "\u00bfCerrar\u00e1 la acci\u00f3n de Nvidia el 2025 m\u00e1s alta de lo que empez\u00f3?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si el precio de la acci\u00f3n de Nvidia al cierre del \u00faltimo d\u00eda h\u00e1bil de 2025 (en el mercado principal donde cotiza, NASDAQ) supera los 134,29\\$, seg\u00fan la columna Close/Last de\u00a0[<u>su p\u00e1gina en NASDAQ</u>](https://www.nasdaq.com/market-activity/stocks/nvda/historical). Se resolver\u00e1 como\u00a0**No**\u00a0si es igual o inferior.",
+  "background": "Nvidia es una empresa tecnol\u00f3gica l\u00edder especializada en procesadores gr\u00e1ficos y de IA. La acci\u00f3n de la compa\u00f1\u00eda ha demostrado un fuerte crecimiento en los \u00faltimos a\u00f1os, impulsado por la creciente demanda de tecnolog\u00edas de IA y unidades de procesamiento gr\u00e1fico (GPUs). En 2024, el precio de la acci\u00f3n de Nvidia aument\u00f3 aproximadamente un 170%, reflejando su s\u00f3lido rendimiento.",
+  "url": "https://www.metaculus.com/questions/35574",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.67",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}

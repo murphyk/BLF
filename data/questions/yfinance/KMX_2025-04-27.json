@@ -1,0 +1,21 @@
+{
+  "id": "KMX_2025-04-27",
+  "source": "yfinance",
+  "question": "Will KMX's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KMX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 64.110. (The latest market close price of KMX.)",
+  "background": "CarMax, Inc., through its subsidiaries, operates as a retailer of used vehicles and related products in the United States. The company operates in two segments: CarMax Sales Operations and CarMax Auto Finance. The CarMax Sales Operations segment offers customers a range of makes and models of used vehicles, including domestic, imported, and luxury vehicles, as well as hybrid and electric vehicles; used vehicle auctions; extended protection plans to customers at the time of sale; and reconditioning and vehicle repair services. The CarMax Auto Finance segment provides financing alternatives for retail customers across a range of credit spectrum and arrangements with various financial institutions. The company was founded in 1993 and is based in Richmond, Virginia.",
+  "url": "https://finance.yahoo.com/quote/KMX",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

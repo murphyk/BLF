@@ -1,0 +1,21 @@
+{
+  "id": "GD_2025-04-13",
+  "source": "yfinance",
+  "question": "Will GD's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 276.040. (The latest market close price of GD.)",
+  "background": "General Dynamics Corporation operates as an aerospace and defense company worldwide. It operates through four segments: Aerospace, Marine Systems, Combat Systems, and Technologies. The Aerospace segment produces and sells business jets; and offers aircraft maintenance and repair, management, aircraft-on-ground support and completion, charter, staffing, and fixed-base operator services. The Marine Systems segment designs and builds nuclear-powered submarines, surface combatants, and auxiliary ships for the United States Navy and Jones Act ships for commercial customers, as well as builds crude oil and product tankers, and container and cargo ships; provides maintenance, modernization, and lifecycle support services for navy ships; offers and program management, planning, engineering, and design support services for submarine construction programs. The Combat Systems segment manufactures land combat solutions, such as wheeled and tracked combat vehicles, Stryker wheeled combat vehicles, piranha vehicles, weapons systems, munitions, mobile bridge systems with payloads, tactical vehicles, main battle tanks, and armored vehicles; and offers modernization programs, engineering, support, and sustainment services. The Technologies segment provides information technology solutions and mission support services; mobile communication, computers, and command-and-control mission systems; intelligence, surveillance, and reconnaissance solutions to military, intelligence, and federal civilian customers; cloud services, cybersecurity, network modernization, artificial intelligence; machine learning; application development, high-performance computing, and 5G and next-generation wireless communications services; and unmanned undersea vehicle manufacturing and assembly services. The company was founded in 1899 and is headquartered in Reston, Virginia.",
+  "url": "https://finance.yahoo.com/quote/GD",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

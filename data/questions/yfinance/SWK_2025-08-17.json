@@ -1,0 +1,21 @@
+{
+  "id": "SWK_2025-08-17",
+  "source": "yfinance",
+  "question": "Will SWK's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SWK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 68.270. (The latest market close price of SWK.)",
+  "background": "Stanley Black & Decker, Inc. provides hand tools, power tools, outdoor products, and related accessories in the United States, Canada, Other Americas, Europe, and Asia. The company's Tools & Outdoor segment offers professional grade corded and cordless electric power tools and equipment, including drills, impact wrenches and drivers, grinders, saws, routers, concrete prep and placement tools, and sanders; pneumatic tools and fasteners, such as nail guns, nails, staplers and staples, and concrete and masonry anchors; corded and cordless electric power tools; hand-held vacuums, paint tools, and cleaning appliances; leveling and layout tools, planes, hammers, demolition tools, clamps, vises, knives, saws, chisels, and industrial and automotive tools; drill, screwdriver, router bits, abrasives, saw blades, and threading products; tool boxes, sawhorses, medical cabinets, and engineered storage solutions; and electric and gas-powered lawn and garden products. This segment sells its products under the DEWALT, CRAFTSMAN, CUB ADET, BLACK+DECKER, and HUSTLER brands through retailers, third-party distributors, independent dealers, and a direct sales force. Its Industrial segment provides threaded fasteners, blind rivets and tools, blind inserts and tools, drawn arc weld studs and systems, engineered plastic and mechanical fasteners, self-piercing riveting systems, precision nut running systems, micro fasteners, high-strength structural fasteners, axel swage, latches, heat shields, pins, couplings, fitting, and other engineered products; and attachments used on excavators and handheld tools. This segment sells its products through direct sales force and third-party distributors to the automotive, manufacturing, electronics, construction, aerospace, and other industries. The company was formerly known as The Stanley Works and changed its name to Stanley Black & Decker, Inc. in March 2010. The company was founded in 1843 and is headquartered in New Britain, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/SWK",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

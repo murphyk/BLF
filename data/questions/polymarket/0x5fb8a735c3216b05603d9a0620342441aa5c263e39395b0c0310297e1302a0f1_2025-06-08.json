@@ -1,0 +1,15 @@
+{
+  "id": "0x5fb8a735c3216b05603d9a0620342441aa5c263e39395b0c0310297e1302a0f1_2025-06-08",
+  "source": "polymarket",
+  "question": "Will the San Francisco 49ers win the NFC West?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the San Francisco 49ers win the NFC West in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the San Francisco 49ers team to win the NFC West based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-san-francisco-49ers-win-the-nfc-west-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-04",
+  "market_value": "0.375",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

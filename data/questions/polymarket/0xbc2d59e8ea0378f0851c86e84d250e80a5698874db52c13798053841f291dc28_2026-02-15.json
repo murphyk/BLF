@@ -1,0 +1,14 @@
+{
+  "id": "0xbc2d59e8ea0378f0851c86e84d250e80a5698874db52c13798053841f291dc28_2026-02-15",
+  "source": "polymarket",
+  "question": "Will the Sacramento Kings win the 2026 NBA Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Sacramento Kings win the 2026 NBA Finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-sacramento-kings-win-the-2026-nba-finals",
+  "forecast_due_date": "2026-02-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-12",
+  "market_value": "0.0015",
+  "market_date": "2026-02-09",
+  "market_value_explanation": "The market price."
+}

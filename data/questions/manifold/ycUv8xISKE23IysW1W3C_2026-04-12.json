@@ -1,0 +1,14 @@
+{
+  "id": "ycUv8xISKE23IysW1W3C_2026-04-12",
+  "source": "manifold",
+  "question": "Will Kompany coach Bayern Munich for at least two full seasons?",
+  "resolution_criteria": "Vincent Kompany is Bayern Munich\u2019s new coach. They signed a contract until 30th of June 2027.\n\nThe last Bayern coaches didn\u2019t make it until the end of their second full season, even though their contracts were much longer than that. Will Vincent Kompany\u2019s turn be different?\n\nResolves YES if Kompany is Bayern\u2019s coach on their last game of the season 25/26 (only counting Bundesliga, DFB Pokal, Champions League, Europa League and Conference League)\n\nResolves NO in all other cases.\n\nI will not bet in this market.",
+  "background": "",
+  "url": "https://manifold.markets/Gideon37/will-kompany-coach-bayern-munich-fo",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.938579262055215",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

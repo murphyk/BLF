@@ -1,0 +1,21 @@
+{
+  "id": "ODFL_2025-05-25",
+  "source": "yfinance",
+  "question": "Will ODFL's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ODFL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 156.230. (The latest market close price of ODFL.)",
+  "background": "Old Dominion Freight Line, Inc. operates as a less-than-truckload motor carrier in the United States and North America. The company offers regional, inter-regional, and national less-than-truckload services, as well as expedited transportation. It also provides various value-added services, including container drayage, truckload brokerage, and supply chain consulting. In addition, the company operates service and fleet maintenance centers. As of December 31, 2024, it owned and operated 11,284 tractors, 31,451 linehaul trailers, and 15,263 pickup and delivery trailers. Old Dominion Freight Line, Inc. was founded in 1934 and is headquartered in Thomasville, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/ODFL",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

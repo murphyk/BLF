@@ -1,0 +1,17 @@
+{
+  "id": "A_2026-01-18",
+  "source": "yfinance",
+  "question": "Will A's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/A for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 147.810. (The latest market close price of A.)",
+  "background": "Agilent Technologies, Inc. provides application focused solutions to the life sciences, diagnostics, and applied chemical markets worldwide. The company operates through three segments: Life Sciences and Diagnostics Markets, Agilent CrossLab, and Applied Markets. The Life Sciences and Diagnostics Markets segment offers liquid chromatography systems and components; and liquid chromatography mass spectrometry systems. This segment is also involved in the genomics, contract development and manufacturing organization, pathology, companion diagnostics, and biomolecular analysis businesses. The Agilent CrossLab segment provides various services, including repairs, parts, maintenance, installations, training, compliance support, software as a service, asset management, consulting, and other custom services. This segment also offers consumables, including gas chromatography and liquid chromatography columns, sample preparation products, custom chemistries, and various laboratory supplies; software and informatics solutions comprising software for instrument control, data acquisition, data analysis, secure storage of results, and laboratory information and workflow management; and OpenLab laboratory software, an open software platform that enables customers to capture, analyze, and share scientific data throughout the lab and across the enterprise. In addition, it provides automated sample preparation solutions, such as liquid handling, plate management, consumables, and scheduling software. The Applied Markets segment offers products in the areas of gas chromatography, mass spectrometry, spectroscopy, vacuum technology, and remarketed instruments. It markets its products through direct sales, distributors, resellers, manufacturer's representatives, and electronic commerce. Agilent Technologies, Inc. was incorporated in 1999 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/A",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

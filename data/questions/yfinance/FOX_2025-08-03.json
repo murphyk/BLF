@@ -1,0 +1,21 @@
+{
+  "id": "FOX_2025-08-03",
+  "source": "yfinance",
+  "question": "Will FOX's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FOX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 51.910. (The latest market close price of FOX.)",
+  "background": "Fox Corporation operates as a news, sports, and entertainment company in the United States (U.S.). The company operates through four segments: Cable Network Programming, Television, Credible, and The FOX Studio Lot. The Cable Network Programming segment produces and licenses news and sports content for distribution through traditional cable television systems, direct broadcast satellite operators and telecommunication companies, virtual multi-channel video programming distributors, and other digital platforms primarily in the U.S. Television segment produces, acquires, markets, and distributes programming through the FOX broadcast network, advertising supported video-on-demand service Tubi, and operates power broadcast television stations including duopolies and other digital platform; and produces content for third parties. The Credible segment engages in the consumer finance marketplace. The FOX Studio Lot segment provides television and film production services along with office space, studio operation services and includes all operations of the facility. The company was incorporated in 2018 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/FOX",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

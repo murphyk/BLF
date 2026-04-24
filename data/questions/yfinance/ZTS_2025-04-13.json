@@ -1,0 +1,21 @@
+{
+  "id": "ZTS_2025-04-13",
+  "source": "yfinance",
+  "question": "Will ZTS's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ZTS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 163.500. (The latest market close price of ZTS.)",
+  "background": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of animal health medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health products in the United States and internationally. The company commercializes products primarily across species, including livestock, such as cattle, swine, poultry, fish, and sheep; and companion animals comprising dogs, cats, and horses. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaboration Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was founded in 1950 and is headquartered in Parsippany, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/ZTS",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

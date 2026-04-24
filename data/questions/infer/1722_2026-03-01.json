@@ -1,0 +1,14 @@
+{
+  "id": "1722_2026-03-01",
+  "source": "infer",
+  "question": "Will Denis Sassour Nguesso win the 2026 Presidential election in the Republic of the Congo?",
+  "resolution_criteria": "This question will be resolved using official election results announced by the Republic of the Congo's Constitutional Court or reports from credible international news organizations (e.g., Reuters, AFP, France 24). In the event of a contested result, the question will resolve based on official results. The question resolves \u201cYes\u201d if Denis Sassou Nguesso is declared the winner of the 2026 presidential election, whether in the first round or in a runoff.",
+  "background": "Presidential elections in the Republic of the Congo are scheduled for 15 March 2026 ( Africa News ). Denis Sassou Nguesso, 82, has served as president since 1997 (and previously from 1979 to 1992), making him one of Africa's longest-serving leaders. In late December 2025, the Congolese Labour Party (PCT) formally nominated him as its candidate at its sixth ordinary congress in Brazzaville, framing his candidacy around themes of \"stability\" and \"continuity\" ( France 24 ). A 2015 constitutional referendum removed the presidential age limit of 70 and reset term limits, allowing Sassou Nguesso to seek additional five-year terms. Opposition parties, including the Rally for Democracy and Development (RDD), Movement of Republicans (MR), and People's Party (PAPE), formed the \"Alliance for Democratic Alternation in 2026\" in April 2023 to contest the election ( Africa Press ). However, the opposition remains weakened by internal divisions, limited resources, and an uneven political playing field. Two prominent opposition candidates from the 2016 election\u2014Jean-Marie Michel Mokoko and Andr\u00e9 Okombi Salissa\u2014remain imprisoned. Sassou Nguesso has won every election since 2002, each marred by accusations of fraud and intimidation. International observers from the African Union and European Union have expressed interest in deploying technical assistance teams ( The Congo Mail ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1722",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-16",
+  "market_value": "0.9915",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The crowd forecast."
+}

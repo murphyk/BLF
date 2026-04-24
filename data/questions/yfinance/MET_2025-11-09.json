@@ -1,0 +1,19 @@
+{
+  "id": "MET_2025-11-09",
+  "source": "yfinance",
+  "question": "Will MET's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MET for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 78.320. (The latest market close price of MET.)",
+  "background": "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide. It operates in six segments: Group Benefits; Retirement and Income Solutions; Asia; Latin America; Europe, the Middle East and Africa; and MetLife Holdings. The company offers life, dental, group short-and long-term disability, paid family and medical leave, individual disability, accidental death and dismemberment, accident and health, vision, and pet insurance, as well as prepaid legal plans; administrative services-only arrangements to employers; and general and separate account, and synthetic guaranteed interest contracts, as well as private floating rate funding agreements. It also provides pension risk transfers, institutional income annuities, structured settlements, and capital markets investment products; and other products and services, such as life insurance products and funding agreements for funding postretirement benefits, as well as company, bank, or trust-owned life insurance used to finance nonqualified benefit programs for executives. In addition, it offers fixed, indexed-linked, and variable annuities; pension products; regular savings products; whole and term life, endowments, universal and variable life, and group life products; longevity and funded reinsurance solutions; credit insurance products; accident & health products covering hospitalization, cancer, critical illness, income protection, and scheduled medical reimbursement plans; and protection against long-term health care services. MetLife, Inc. was incorporated in 1999 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/MET",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

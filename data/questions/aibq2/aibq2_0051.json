@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0051",
+  "source": "aibq2",
+  "question": "Will Sheikh Hasina return to Bangladesh before July 1, 2025?",
+  "title_hash": "958297df8f0a5f16",
+  "background": "Firstpost: [Bangladesh has turned into a \u2018terrorist country\u2019: Sheikh Hasina targets Yunus, vows to return](https://www.firstpost.com/world/bangladesh-has-turned-into-a-terrorist-country-sheikh-hasina-targets-yunus-vows-to-return-13878191.html)",
+  "resolution_criteria": "This question resolves as **Yes** if Sheikh Hasina after May 12, 2025 and before July 1, 2025 enters territory of Bangladesh according to [credible sources](https://www.metaculus.com/help/faq/#definitions).\n\nFine print:\nThe circumstances of her entering Bangladeshi territory, whether voluntarily or due to her extradition from India, will not affect resolution.",
+  "url": "https://www.firstpost.com/world/bangladesh-has-turned-into-a-terrorist-country-sheikh-hasina-targets-yunus-vows-to-return-13878191.html",
+  "forecast_due_date": "2025-05-08",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

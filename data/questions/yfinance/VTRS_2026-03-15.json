@@ -1,0 +1,15 @@
+{
+  "id": "VTRS_2026-03-15",
+  "source": "yfinance",
+  "question": "Will VTRS's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VTRS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 14.530. (The latest market close price of VTRS.)",
+  "background": "Viatris Inc., together with its subsidiaries, operates as a healthcare company in North America, Europe, China, Taiwan, Hong Kong, Japan, Australia, New Zealand, rest of Asia, Africa, Latin America, and the Middle East. It operates in four segments: Developed Markets, Greater China, JANZ, and Emerging Markets. The company offers prescription brand drugs, generic drugs, complex generic drugs, and biosimilars. It also provides drugs in various therapeutic areas covering various noncommunicable and infectious diseases, including cardiovascular, CNS and anesthesia, dermatology, diabetes and metabolism, eye care, gastroenterology, immunology, oncology, and respiratory and allergy, as well as support services, such as diagnostic clinics, educational seminars, and digital tools to help patients better manage their health. In addition, the company offers medicines in the form of oral solid doses, injectables, and complex dosage forms to retail and pharmacy establishments, wholesalers and distributors, payers, insurers and governments, and institutions. It distributes its products through pharmaceutical wholesalers/distributors, pharmaceutical retailers, institutional pharmacies, mail-order and e-commerce pharmacies, and specialty pharmacies under the Lyrica, Lipitor, Celebrex, Viagra, Creon, Influvac, Wixela Inhub, EpiPen Auto-Injector, Fraxiparine, Yupelri, Norvasc, Amitiza, Effexor, Lipacreon, Zoloft, Xalabrands, Dymista, Xanax, and Breyna brands. The company has collaboration agreements with Mapi Pharma Ltd. to develop and commercialize long-acting glatiramer acetate depot products and additional products; Revance Therapeutics, Inc. to develop, manufacture, and commercialize a biosimilar to the branded biologic product, BOTOX; and Theravance Biopharma, Inc. to develop and commercialize revefenacin. Viatris Inc. was founded in 1961 and is headquartered in Canonsburg, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/VTRS",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

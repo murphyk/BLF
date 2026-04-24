@@ -1,0 +1,19 @@
+{
+  "id": "GEHC_2026-01-04",
+  "source": "yfinance",
+  "question": "Will GEHC's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GEHC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 83.390. (The latest market close price of GEHC.)",
+  "background": "GE HealthCare Technologies Inc. engages in the development, manufacture, and marketing of products, services, and complementary digital solutions used in the diagnosis, treatment, and monitoring of patients in the United States, Canada, and internationally. The company operates through four segments: Imaging, Advanced Visualization Solutions (AVS), Patient Care Solutions (PCS), and Pharmaceutical Diagnostics (PDx). The Imaging segment offers molecular imaging, computed tomography (CT) scanning, magnetic resonance (MR) imaging, image-guided therapy, X-ray systems, and women's health products. The AVS segment provides ultrasound, image guided therapies, and interventional solutions for screening, diagnosis, treatment, and monitoring of certain diseases in clinical areas, such as women's health, cardiovascular, and comprehensive care ultrasound as well as surgical visualization and guidance products. The PCS segment provides medical devices, consumables, services, and digital solutions. Its portfolio includes patient monitoring, diagnostic cardiology, consumables and services, digital solutions, maternal infant care, and anesthesia products. The PDx segment supplies diagnostic agents, including CT, angiography and X-ray, MR, single-photon emission computed tomography, and positron emission tomography to the radiology and nuclear medicine industries. The segment also provides contrast media pharmaceuticals that are administered to a patient prior to certain diagnostic scans to increase the visibility of tissues or structures during imaging exams; and molecular imaging agents or radiopharmaceuticals, which are molecular tracers labeled with radioisotopes. The company was formerly known as GE Healthcare Holding LLC and changed its name to GE HealthCare Technologies Inc. in December 2022. The company was incorporated in 2022 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/GEHC",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1564_2025-05-25",
+  "source": "infer",
+  "question": "Will the EU import at least 15 billion cubic meters of natural gas from Russia in any quarter of 2025?",
+  "resolution_criteria": "This question will be resolved using data from the Breugel European natural gas imports dataset and will be resolved as \u201cYes\u201d if the amount of natural gas imported to the EU from Russia is at least 15 billion cubic meters in any quarter of 2025.&nbsp; To view European natural gas imports from Russia by quarter, refer to Figure 5: EU quarterly imports by source. Deselect countries that are not Russia in the legend to display only Russian import data. The chart shows values in millions of cubic meters, so 15 billion cubic meters will be shown as 15,000 million on the chart. Data through Q1 2025 is shown in the chart below: This chart is updated quarterly, so the question will be resolved when Q4 2025 is shown, likely in Q1 2026.",
+  "background": "In early 2025, Europe continues to import Russian natural gas, but at much lower levels than before the Ukraine conflict. Most of this gas now arrives via the TurkStream pipeline or as liquefied natural gas (LNG), as Russia ended pipeline deliveries through Ukraine in January 2025 ( Fitch Ratings , NPR ). The European Union committed to phasing out Russian fossil fuels by 2027 in its REPowerEU plan, and Eastern European countries have drastically reduced dependence, with five countries fully phasing out Russian gas imports since 2024, down significantly from pre-war levels ( Carnegie Endowment ).&nbsp; However, the share of EU natural gas imports from Russia rose in Q4 2024 compared to the same quarter in previous years, despite import restrictions ( Eurostat ). Additionally, in April 2025, the European Commission decided to hold off on plans for restricting Russian LNG purchases after facing opposition from various member states and concerns about securing reliable alternative gas supplies ( Reuters ). &nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1564",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.0702",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The crowd forecast."
+}

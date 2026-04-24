@@ -1,0 +1,21 @@
+{
+  "id": "LDOS_2025-04-13",
+  "source": "yfinance",
+  "question": "Will LDOS's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LDOS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 142.940. (The latest market close price of LDOS.)",
+  "background": "Leidos Holdings, Inc., together with its subsidiaries, provides services and solutions for government and commercial customers in the United States and internationally. The National Security & Digital segment provides national security software; services by using artificial intelligence and machine learning to coordinate sea, ground, air, and space to help warfighters; offensive, defensive, and physical cyber operation solutions; intelligence analysis, operational support, logistics operations, security, linguistics, force production, biometrics, chemical, biological, radiological, nuclear, and explosives, energetics, training, and IT services and solutions; and Digital Modernization and transformation services. The Health & Civil segment offers air traffic control systems; health mission software; managed health services; site-wide infrastructure management and operation; product and logistical support services; and life science research and development support services. The Commercial & International segment provides power grid engineering and design, grid modernization, utility planning and consulting, energy management and efficiency, technical and financial consulting, and software and application development; people scanners, computed tomography carry-on baggage scanners, checked baggage scanners, and explosive trace detectors; mobile non-intrusive inspection systems; open-architecture platform that transforms airport security by integrating disparate devices and technologies into a unified management system; biometric and smart border protection systems; IT service management and transformation programs; and aerial border surveillance and search-and-rescue operation services. The Defense Systems segment offers airborne, air and missile defense, maritime, aerospace, and cyber and threat systems. Leidos Holdings, Inc. was founded in 1969 and is headquartered in Reston, Virginia.",
+  "url": "https://finance.yahoo.com/quote/LDOS",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

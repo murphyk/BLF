@@ -1,0 +1,15 @@
+{
+  "id": "gTpJ2NRBMPIL7IJenUsE_2025-03-16",
+  "source": "manifold",
+  "question": "Will a critically acclaimed video game feature AI-generated dialogue in 2025?",
+  "resolution_criteria": "The \"AI-generated dialogue\" is any dialogue generated live during play using artificial intelligence, such as GPT-4. If the developers of a game say that their scripts were co-written or fully written with AI beforehand, this would not count. Mods do not count, only the game as released by the developers.\n\nTo make verification easy for whether a game is \"critically acclaimed\" I will check Wikipedia's section for 2025 games that won awards at awards shows or achieved high scores from Metacritic (i.e. 90+).\n\nSee also:\n\n[markets]",
+  "background": "",
+  "url": "https://manifold.markets/cash/will-a-critically-acclaimed-video-g-501ad8d5115d",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.1679782451",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market value."
+}

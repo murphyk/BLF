@@ -1,0 +1,21 @@
+{
+  "id": "CMS_2025-05-25",
+  "source": "yfinance",
+  "question": "Will CMS's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CMS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 73.040. (The latest market close price of CMS.)",
+  "background": "CMS Energy Corporation operates as an energy company primarily in Michigan. The company operates through three segments: Electric Utility; Gas Utility; and NorthStar Clean Energy. The Electric Utility segment is involved in the generation, purchase, distribution, and sale of electricity. This segment generates electricity through coal, wind, gas, renewable energy, oil, and nuclear sources. Its distribution system comprises 270 miles of high-voltage distribution overhead lines; 4 miles of high-voltage distribution underground lines; 4,646 miles of high-voltage distribution overhead lines; 18 miles of high-voltage distribution underground lines; 81,924 miles of electric distribution overhead lines; 9,775 miles of underground distribution lines; and 1,098 substations. The Gas Utility segment engages in the purchase, transmission, storage, distribution, and sale of natural gas, which includes 2,342 miles of transmission lines; 15 gas storage fields; 28,368 miles of distribution mains; and 8 compressor stations. The NorthStar Clean Energy segment is involved in the independent power production and marketing, including the development and operation of renewable generation. The company serves 1.9 million electric and 1.8 million gas customers, including residential, commercial, and diversified industrial customers. The company was incorporated in 1987 and is headquartered in Jackson, Michigan.",
+  "url": "https://finance.yahoo.com/quote/CMS",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

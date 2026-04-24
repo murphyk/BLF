@@ -1,0 +1,21 @@
+{
+  "id": "AXP_2025-06-08",
+  "source": "yfinance",
+  "question": "Will AXP's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AXP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 293.760. (The latest market close price of AXP.)",
+  "background": "American Express Company, together with its subsidiaries, operates as integrated payments company in the United States, Europe, the Middle East and Africa, the Asia Pacific, Australia, New Zealand, Latin America, Canada, the Caribbean, and Internationally. It operates through four segments: U.S. Consumer Services, Commercial Services, International Card Services, and Global Merchant and Network Services. The company's products and services include credit card, charge card, banking, and other payment and financing products; network services; expense management products and services; and travel and lifestyle services. It also provides merchant acquisition and processing, servicing and settlement, point-of-sale marketing, and information products and services for merchants; and fraud prevention services, as well as the design and operation of customer loyalty programs. In addition, the company leases and operates lounges at airports. Further, it designs and develops a software to manage company expenses. The company sells its products and services to consumers, small businesses, mid-sized companies, and large corporations through mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, direct mail, telephone, in-house sales teams, telephone, and direct response advertising. American Express Company was founded in 1850 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/AXP",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

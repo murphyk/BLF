@@ -1,0 +1,14 @@
+{
+  "id": "0xc8e9ba9e25f5adcf7e159e62c24ca3bda9a5245a049acb94fdd534e67ed1969e_2026-04-12",
+  "source": "polymarket",
+  "question": "Will the Virginia redistricting referendum pass?",
+  "resolution_criteria": "Pending legal challenges, Virginia is scheduled to vote in a special election on April 21, 2026 over a referendum to amend the state constitution, allowing the Virginia General Assembly to redraw its congressional districts (see: https://www.elections.virginia.gov/election-law/proposed-amendment-for-april-2026-special-election/).\n\nThis market will resolve to \u201cYes\u201d if this proposed constitutional amendment is approved by a majority of valid votes cast in a statewide referendum by November 3, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf the referendum vote is postponed prior to November 3, 2026, 11:59 PM ET, this market will remain open until the referendum vote occurs and resolve based on the results of that vote. If this referendum vote is postponed after November 3, 2026, 11:59 PM ET, or, for any other reason the referendum vote does not take place by that time, this market will resolve to \u201cNo\u201d.\n\nIf the referendum vote is definitively cancelled, with no opportunity to be rescheduled, this market will resolve immediately to \u201cNo\u201d.\n\nThis market will resolve based on the results of this referendum vote according to a consensus of credible reporting. In case of ambiguity, this market will resolve solely based on the official referendum results reported by the State of Virginia, specifically the Department of Elections (https://www.elections.virginia.gov/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-virginia-redistricting-referendum-pass",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.925",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

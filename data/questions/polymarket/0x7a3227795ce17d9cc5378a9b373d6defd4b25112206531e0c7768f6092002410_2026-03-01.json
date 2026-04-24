@@ -1,0 +1,14 @@
+{
+  "id": "0x7a3227795ce17d9cc5378a9b373d6defd4b25112206531e0c7768f6092002410_2026-03-01",
+  "source": "polymarket",
+  "question": "Will the Houston Rockets win the 2025\u20132026 NBA Southwest Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-southwest-division-winner-houston-rockets",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-24",
+  "market_value": "0.13",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

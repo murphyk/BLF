@@ -1,0 +1,14 @@
+{
+  "id": "0x6b2e51f006ae5613849c3913db2a766390a05c2d67bc8b0b0872d3d63cb517ee_2025-12-21",
+  "source": "polymarket",
+  "question": "Will the Oklahoma City Thunder make the NBA Playoffs?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the listed team makes the 2025-26 NBA Playoffs. Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote: reaching the Play-In Tournament will not qualify as making the Playoffs. To make the NBA Playoffs, a team must earn one of the 16 spots in the postseason bracket.\n\nIf at any point it becomes impossible for this team to make the Playoffs based on the rules of the NBA (e.g. they are mathematically eliminated from reaching the Play-In), this market will resolve immediately to \"No\".\n\nThe resolution source for this market will be official information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-make-the-nba-playoffs-225",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-18",
+  "market_value": "0.99",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

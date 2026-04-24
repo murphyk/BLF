@@ -1,0 +1,14 @@
+{
+  "id": "0xf5ec2524e8d5fdd9f4f7e1084ba14805fa78aacc9f31d58e0c713100c3a462ae_2025-10-26",
+  "source": "polymarket",
+  "question": "Will the Fed Cut\u2013Cut\u2013Pause in 2025?",
+  "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve according to the decisions made by the next three Federal Open Market Committee (FOMC) meetings in 2025 (September 16-17, October 28-29, and December 9-10).\n\nA qualifying cut occurs when the new upper bound of the target federal funds rate is lower compared to the level it was prior to the respective meeting.\n\nA qualifying hike occurs when the new upper bound of the target federal funds rate is higher compared to the level it was prior to the respective meeting.\n\nA qualifying pause occurs when the new upper bound of the target federal funds rate is equal to the level it was prior to the respective meeting.\n\nIf the Fed publishes a different combination than any listed, this market will resolve to \"Other\".\n\nEmergency rate cuts outside the regularly scheduled meetings will not be considered. \n\nAny rate hike will be encompassed by \"Other\".\n\nThe resolution source for this market is the FOMC\u2019s statement after its meetings: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve: https://www.federalreserve.gov/monetarypolicy/openmarket.htm\n\nIf no statement is released for the December meeting by December 31, 2025, 11:59 PM ET, this market will resolve to \"Other\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-fed-cutcutpause-in-2025-136",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-10",
+  "market_value": "0.14300000000000002",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

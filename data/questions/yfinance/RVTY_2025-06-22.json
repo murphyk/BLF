@@ -1,0 +1,21 @@
+{
+  "id": "RVTY_2025-06-22",
+  "source": "yfinance",
+  "question": "Will RVTY's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RVTY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 96.070. (The latest market close price of RVTY.)",
+  "background": "Revvity, Inc. provides health sciences solutions, technologies, and services worldwide. The company's Life Sciences segment provides instruments, reagents, informatics, software, subscriptions, detection, imaging technologies, warranties, training, and DNA sequencing services. Its Diagnostics segment offers instruments, reagents, assay platforms, and software products for the early detection of genetic disorders, such as pregnancy and early childhood, as well as infectious disease testing in the diagnostics market. Its products are used for testing and screening genetic abnormalities, disorders, and diseases, including down syndrome, hypothyroidism, muscular dystrophy, infertility, and various metabolic conditions. It also develops technologies that enable and support genomic workflows using protein coupled receptor and next-generation DNA sequencing for use in oncology, screening newborns for rare genetic conditions, immunodiagnostics, and drug discovery. It serves pharmaceutical and biotechnology companies, laboratories, academic and research institutions, public health authorities, private healthcare organizations, doctors, and government agencies under the AutoDELFIA, BACS-on-Beads, BIOCHIPs, Bioo Scientific, BioQule, BoBs, chemagic, Chitas, DELFIA, DELFIA Xpress, DOPlify, EONIS, EUROArray, EUROIMMUN, EUROLabWorkstation, EUROLINE, EUROPatternTM, Evolution Evoya, explorer, Fontus, GSP, Haoyuan, IDS Immunodiagnosticsystems, IDS-i10, IDS-i10T, IDS-iSYS, iLab, iQ, JANUS, LabChip, LifeCycle, LimsLink, Migele, MultiPROBE, NEXTFLEX, NextPrep, Omni Bead Ruptor, Omni Bead Ruptor Elite, Omni Tip, Pannoramic, Panthera Puncher, PG-Seq, PG-Find, PreNAT II, Prime, Protein Clear, ProteinEXact, QuantiVac, RONIA, Sciclone, SimplicityChrom, Specimen Gate, Superflex, Symbio, T-SPOT, Touch, Twister, Vanadis, VariSpec, ViaCord, VICTOR2D, and Zephyr brands. The company was formerly known as PerkinElmer, Inc. and changed its name to Revvity, Inc. in April 2023. Revvity, Inc. was founded in 1937 and is headquartered in Waltham, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/RVTY",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

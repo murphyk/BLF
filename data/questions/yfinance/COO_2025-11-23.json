@@ -1,0 +1,19 @@
+{
+  "id": "COO_2025-11-23",
+  "source": "yfinance",
+  "question": "Will COO's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/COO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 72.490. (The latest market close price of COO.)",
+  "background": "The Cooper Companies, Inc., together with its subsidiaries, develops, manufactures, and markets contact lens wearers. The company operates in two segments, CooperVision and CooperSurgical. The CooperVision segment provides toric and multifocal lenses comprising lenses correcting vision challenges, such as astigmatism, presbyopia, and myopia; and spherical lense, including lenses that correct near and farsightedness in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The CooperSurgical segment focuses on family and women's health care, which provides fertility products and services, medical devices, and contraception, as well as cryostorage, such as cord blood and cord tissue storage to health care professionals and patients worldwide. It offers surgical and office products, including paragard contraceptive intrauterine devices; and fertility consumables and equipment, donor gamete services, and genomic services, including genetic testing. The company sells its products to distributors, group purchasing organizations, eye care and health care professionals, including independent practices, corporate retailers, hospitals and clinics, and authorized resellers. The Cooper Companies, Inc. was founded in 1958 and is headquartered in San Ramon, California.",
+  "url": "https://finance.yahoo.com/quote/COO",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

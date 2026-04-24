@@ -1,0 +1,15 @@
+{
+  "id": "0xee3898d16e04818aa853e39e1533b368ad57ca092ec0e6298ccdf41b62786ab9_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Gold close at $3,200 or more at the end of 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the price of the COMEX Gold Continuous Contract (GC00) is $3,200.00 per troy ounce or greater as of the final market close price in 2025. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be COMEX trading data for the Gold Continuous Contract (https://www.google.com/finance/quote/GCW00:COMEX).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-gold-close-at-3200-or-more-at-the-end-of-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.725",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

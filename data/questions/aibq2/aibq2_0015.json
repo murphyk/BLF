@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0015",
+  "source": "aibq2",
+  "question": "Will North Korea test a nuclear weapon before July 1, 2025?",
+  "title_hash": "ff196be225796ef8",
+  "background": "According to Wikipedia, \"North Korea has conducted six nuclear tests, in 2006, 2009, 2013, twice in 2016, and in 2017.\"",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, North Korea tests a nuclear weapon, according to [credible source](https://www.metaculus.com/help/faq/#definitions) reporting such as the [International Monitoring System\u2019s ](https://www.ctbto.org/our-work/detecting-nuclear-tests) and the sources cited at Wikipedia's [List of nuclear weapons tests of North Korea](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests_of_North_Korea).",
+  "url": "",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

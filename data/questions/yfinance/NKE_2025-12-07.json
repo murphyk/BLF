@@ -1,0 +1,19 @@
+{
+  "id": "NKE_2025-12-07",
+  "source": "yfinance",
+  "question": "Will NKE's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NKE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 64.330. (The latest market close price of NKE.)",
+  "background": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic and casual footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company offers its products under the NIKE, Jordan, Jumpman, Converse, Chuck Taylor, All Star, One Star, Star Chevron, and Jack Purcell trademarks. It also provides a line of performance equipment and accessories, including bags, socks, sport balls, eyewear, timepieces, digital devices, bats, gloves, protective equipment, and other equipment for sports activities, as well as various plastic products to other manufacturers; distributes and licenses casual sneakers, apparel, and accessories; and markets apparel with licensed college and professional team and league logos. In addition, the company offers consumer services and experiences, including sport focused events and activations; fitness and activity apps; sport, fitness, and wellness content; and digital services and features in retail stores. It sells its products to footwear stores; sporting goods stores; athletic specialty stores; department stores; skate, tennis, and golf shops; and other wholesale accounts through NIKE-owned retail stores, independent distributors, licensees, sales representatives, and digital platforms. The company was formerly known as Blue Ribbon Sports, Inc. and changed its name to NIKE, Inc. in May 1971. NIKE, Inc. was founded in 1964 and is headquartered in Beaverton, Oregon.",
+  "url": "https://finance.yahoo.com/quote/NKE",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

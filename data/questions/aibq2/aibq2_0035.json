@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0035",
+  "source": "aibq2",
+  "question": "Will Chegg file for bankruptcy before July 1, 2025?",
+  "title_hash": "a336ddf5effb3300",
+  "background": "Wall Street Journal: [How ChatGPT Brought Down an Online Education Giant](https://www.wsj.com/tech/ai/how-chatgpt-brought-down-an-online-education-giant-200b4ff2)",
+  "resolution_criteria": "This question will resolve as **Yes** if Chegg, Inc., files any petition for bankruptcy protection in the United States, under any chapter of the United States Bankruptcy Code, before July 1, 2025. The question will resolves on the filing of such a petition, not on whether any bankruptcy protection is granted by a court. If no such petition is filed by that date, this question will resolve as **No**.",
+  "url": "https://www.wsj.com/tech/ai/how-chatgpt-brought-down-an-online-education-giant-200b4ff2",
+  "forecast_due_date": "2025-05-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

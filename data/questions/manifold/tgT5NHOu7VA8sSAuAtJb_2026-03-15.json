@@ -1,0 +1,14 @@
+{
+  "id": "tgT5NHOu7VA8sSAuAtJb_2026-03-15",
+  "source": "manifold",
+  "question": "Will the Julia programming language be in top 15 TIOBE Index by 2026?",
+  "resolution_criteria": "Resolves positively if the [Julia programming language](https://julialang.org/) enters the top 15 on the [TIOBE Index](https://www.tiobe.com/tiobe-index/) before 2026-03-26 (26th March 2026). [This page](https://www.tiobe.com/tiobe-index/julia/) has a 'highest position' field so I'll resolve on whether this number is \u2265 15 before the close date.\n\nJulia reportedly [got into the top 20](https://www.techrepublic.com/article/tiobe-index-news-august-2023-julia). However the [live rankings](https://www.tiobe.com/tiobe-index/) have it at 25 at the time of open.\n\nI chose these criteria because I have a preexisting bet with a friend. I will make a big no bet as incentive.\n\nRelated market: https://manifold.markets/FelipeArgolo/considering-the-tiobe-index-will-ju\n\n[link preview]At the time of writing we have R 18, COBOL 21, Fortran 11, Matlab 13, Julia 25",
+  "background": "",
+  "url": "https://manifold.markets/EdAyers/will-the-julia-programming-language",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-26",
+  "market_value": "0.023214576026038002",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "AQOlO0nOsc_2026-03-01",
+  "source": "manifold",
+  "question": "United States Recession by End of Q4 2025?",
+  "resolution_criteria": "Resolves YES if there are two consecutive negative quarters. \n\nhttps://www.bea.gov/data/gdp/gross-domestic-product\n\nBased on 'Third Estimate' figures.",
+  "background": "",
+  "url": "https://manifold.markets/jim/united-states-recession-by-end-of-q-ZlAq9RlP8n",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-27",
+  "market_value": "0.010825366200144002",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CCI_2026-02-15",
+  "source": "yfinance",
+  "question": "Will CCI's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CCI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 80.880. (The latest market close price of CCI.)",
+  "background": "Crown Castle owns, operates and leases approximately 40,000 cell towers and approximately 90,000 route miles of fiber supporting small cells and fiber solutions across every major U.S. market. This nationwide portfolio of communications infrastructure connects cities and communities to essential data, technology and wireless service \u0096 bringing information, ideas and innovations to the people and businesses that need them.",
+  "url": "https://finance.yahoo.com/quote/CCI",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

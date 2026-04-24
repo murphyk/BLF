@@ -1,0 +1,17 @@
+{
+  "id": "STE_2026-03-01",
+  "source": "yfinance",
+  "question": "Will STE's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/STE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 249.350. (The latest market close price of STE.)",
+  "background": "STERIS plc provides infection prevention products and services worldwide. It operates in three segments: Healthcare, Applied Sterilization Technologies (AST), and Life Sciences. The Healthcare segment offers cleaning chemistries and sterility assurance products; automated endoscope reprocessing system and tracking products; endoscopy accessories, washers, sterilizers, and other pieces of capital equipment for the operation of a sterile processing department; and equipment used directly in procedure rooms, including surgical tables, lights, and connectivity solutions, as well as equipment management services. It also provides capital equipment installation, maintenance, upgradation, repair, and troubleshooting services; preventive maintenance programs and repair services; instrument, devices, and endoscope repair and maintenance services; and custom process improvement consulting and outsourced instrument sterile processing services. The AST segment provides contract sterilization and testing services for medical device and pharmaceutical manufacturers through a network of contract sterilization and laboratory facilities, as well as integrated sterilization equipment and control systems to medical device manufacturers and research institutions. The Life Sciences segment designs, manufactures, and sells consumable products, such as pharmaceutical detergents, cleanroom disinfectants and sterilants, pharmaceutical grade and research sterilizers and washers, sterility assurance and maintenance products, vaporized hydrogen peroxide room decontamination systems and sterilizers, and high purity water and pure steam generators. This segment also offers equipment installation, maintenance, upgradation, repair, and troubleshooting services; and preventive maintenance programs and repair services. It serves its products and services to hospitals, other healthcare providers, and pharmaceutical manufacturers. The company was founded in 1985 and is headquartered in Mentor, Ohio.",
+  "url": "https://finance.yahoo.com/quote/STE",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

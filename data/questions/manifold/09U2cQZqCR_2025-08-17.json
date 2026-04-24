@@ -1,0 +1,15 @@
+{
+  "id": "09U2cQZqCR_2025-08-17",
+  "source": "manifold",
+  "question": "Will Elon Musk be the world's richest person on December 31, 2025?",
+  "resolution_criteria": "From the ACX 2025 Prediction Contest:\n\n(https://www.metaculus.com/questions/embed/30863)I will resolve according to the Metaculus resolution:\n\nThis question resolves as Yes if, according to the Bloomberg Billionaires Index, Elon Musk is ranked #1 in net worth when the resolution source is accessed by Metaculus on December 31, 2025. If Musk is not ranked #1, then this question resolves as No.",
+  "background": "",
+  "url": "https://manifold.markets/WalterMartin/will-elon-musk-be-the-worlds-riches-R9ZRu02dsR",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-02",
+  "market_value": "0.8105505973668211",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

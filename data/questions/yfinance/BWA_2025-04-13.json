@@ -1,0 +1,21 @@
+{
+  "id": "BWA_2025-04-13",
+  "source": "yfinance",
+  "question": "Will BWA's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BWA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 29.120. (The latest market close price of BWA.)",
+  "background": "BorgWarner Inc., together with its subsidiaries, provides solutions for combustion, hybrid, and electric vehicles worldwide. It offers turbochargers, eBoosters, eTurbos, emissions systems, thermal systems, gasoline ignition technology, smart remote actuators, powertrain sensors, cabin heaters, and battery heaters. The company also provides control modules, friction, and mechanical clutch products for automatic transmissions, torque-management products and rear-wheel drive, all-wheel drive transfer case systems, and coupling systems; and power electronics, such as inverters, onboard chargers, DC/DC converters and combination boxes, rotating electric machines, fully integrated drive modules, and electronic controls. It sells its products to original equipment manufacturers of light vehicles, which comprise passenger cars, sport-utility vehicles, vans, and light trucks; commercial vehicles, including medium-duty and heavy-duty trucks, and buses; and off-highway vehicles, such as agricultural and construction machinery, and marine applications, as well as to tier one vehicle systems suppliers and the aftermarket for light, commercial, and off-highway vehicles. The company was formerly known as Borg-Warner Automotive, Inc. BorgWarner Inc. was founded in 1928 and is headquartered in Auburn Hills, Michigan.",
+  "url": "https://finance.yahoo.com/quote/BWA",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

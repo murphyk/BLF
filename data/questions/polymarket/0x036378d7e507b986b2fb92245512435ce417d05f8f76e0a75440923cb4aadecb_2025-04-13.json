@@ -1,0 +1,15 @@
+{
+  "id": "0x036378d7e507b986b2fb92245512435ce417d05f8f76e0a75440923cb4aadecb_2025-04-13",
+  "source": "polymarket",
+  "question": "Israel military action against Iran in April?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Israel initiates a military action on Iranian soil, airspace, or maritime territory or against any Iranian embassies or consulates between April 1, and April 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a \"military action\" will be considered to be any use of force executed by Israel on Iranian soil, airspace, or maritime territory (e.g. if a weapons depot on Iranian soil is hit by an Israeli missile, this market will resolve to \"Yes\") that is officially acknowledged by the Israeli government or a consensus of credible reporting. This includes, but is not limited to, airstrikes, naval attacks, or ground invasions. Cyber attacks, sanctions, or diplomatic actions will not count towards the resolution of this market.\n\nIn the case that the \"Yes\" resolution criteria are met prior to this market's resolution date, this market will resolve immediately.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-military-action-against-iran-in-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.12",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

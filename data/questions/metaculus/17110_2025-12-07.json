@@ -1,0 +1,14 @@
+{
+  "id": "17110_2025-12-07",
+  "source": "metaculus",
+  "question": "Will the US or California require licenses to train large AI models before 2026?",
+  "resolution_criteria": "This question resolves as **YES** if, by Dec 31, 2025, the US or California government requires a license or permit of some type to do large training runs of AIs, and **NO** otherwise.",
+  "background": "As of May 2023, US law does not require any license or permit before training large AI models. One way US policymakers may address risks from AI is to require those who train large models to first apply for a license, as Sam Altman, CEO of OpenAI, [called for](https://www.reuters.com/technology/openai-chief-goes-before-us-congress-propose-licenses-building-ai-2023-05-16/) in DC on May 16, 2023. Reuters also reported an OpenAI staffer [calling for a licensing agency for AI](https://www.reuters.com/technology/washington-is-determined-govern-ai-how-2023-05-15/).\n\nMany similar regimes exist in US law - for example, licenses to drive cars or fly planes, or permits to construct buildings in various places. Many are at the state level - since most all Frontier AI labs are headquartered in California, and California generally regulates these things more than other states, this question considers state licensing as well.\n\nA list of large AI training runs and who did them can be found [here](https://docs.google.com/spreadsheets/d/1AAIebjNsnJj_uKALHbXNfn3_YsT6sHXtCU0q7OIPuc4/edit#gid=0), this could be a rough list of who would require a license.",
+  "url": "https://www.metaculus.com/questions/17110",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.001",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

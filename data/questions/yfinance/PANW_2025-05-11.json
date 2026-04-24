@@ -1,0 +1,21 @@
+{
+  "id": "PANW_2025-05-11",
+  "source": "yfinance",
+  "question": "Will PANW's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PANW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 186.930. (The latest market close price of PANW.)",
+  "background": "Palo Alto Networks, Inc. provides cybersecurity solutions worldwide. The company's network security platforms include Prisma Access, a security services edge (SSE) solution, as well as Strata Cloud Manager, a network security management solution. It also provides cloud security solutions, including Prisma Cloud, a cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. In addition, the company provides security operation solutions through Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR for the prevention, detection, and response to complex cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers threat intelligence and advisory services under the Unit 42 name. Further, it provides subscription services covering the areas of threat prevention, malware and persistent threat, URL filtering, laptop and mobile device protection, DNS security, Internet of Things security, SaaS security API, and SaaS security inline, as well as threat intelligence, and data loss prevention. Additionally, the company offers professional services, including architecture design and planning, implementation, configuration, and firewall migration; education services, such as certifications, as well as online and in-classroom training; and support services. It sells its products and services through its channel partners, as well as directly to medium to large enterprises, service providers, and government entities operating in various industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications. The company was incorporated in 2005 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/PANW",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

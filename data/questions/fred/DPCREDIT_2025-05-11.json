@@ -1,0 +1,21 @@
+{
+  "id": "DPCREDIT_2025-05-11",
+  "source": "fred",
+  "question": "Will the discount rate for the Federal Reserve's primary credit discount window program have increased by each resolution date listed below as compared to its value on 2025-05-11?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DPCREDIT once the data is published.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 4.500. (The latest value released in Discount Window Primary Credit Rate from the release H.15 Selected Interest Rates.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: discount window program (https://www.frbdiscountwindow.org/), which became effective January 9, 2003. \n\nPrimary credit is available to generally sound depository institutions at a rate set relative to the Federal Open Market Committee's (FOMC) target range for the federal funds rate. Depository institutions are not required to seek alternative sources of funds before requesting advances of primary credit. Primary credit may be used for any purpose, including financing the sale of federal funds. By making funds readily available at the primary credit rate the primary credit program complements open market operations in the implementation of monetary policy.\nReserve Banks ordinarily do not require depository institutions to provide reasons for requesting very short-term primary credit. Rather, borrowers are asked to provide only the minimum information necessary to process a loan, usually the amount and term of the loan.\n\nThis rate replaces that for adjustment credit, which was discontinued after January 8, 2003. For further information, see Board of Governor's  announcement (https://www.federalreserve.gov/boarddocs/press/bcreg/2002/200210312/). The rate reported is that for the Federal Reserve Bank of New York.\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DPCREDIT",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

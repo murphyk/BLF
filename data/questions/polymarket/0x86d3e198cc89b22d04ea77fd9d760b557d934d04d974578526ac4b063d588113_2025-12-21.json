@@ -1,0 +1,14 @@
+{
+  "id": "0x86d3e198cc89b22d04ea77fd9d760b557d934d04d974578526ac4b063d588113_2025-12-21",
+  "source": "polymarket",
+  "question": "Will a Chinese AI model become #1 in 2025? ",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any model owned by a Chinese company has the highest arena score on the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) by December 31, 2025, at 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf a Chinese AI model ties for #1 Arena score, it will suffice to resolve this market to \"Yes.\"\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source becomes unavailable, the market will remain open until it is accessible again. If it becomes permanently unavailable, resolution will be based on another credible source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-a-chinese-ai-model-become-1-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.021",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

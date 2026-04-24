@@ -1,0 +1,15 @@
+{
+  "id": "0x134bc0bb11dd106662b5d8412bbc404548891e34b6b019a1da19c26b23dda475_2025-06-22",
+  "source": "polymarket",
+  "question": "US 10Y Treasury yield above 5% by June 30?",
+  "resolution_criteria": "This is a market on whether the yield of the United States 10-Year Treasury Bond reaches greater than 5.000% between December 28 and market close on June 30, 2025.\n\nIf the yield of the US 10-Year T-Bond is greater than 5.000% at any time between between December 28, 2024 and market close on June 30 2025, this market will resolve to \u201cYes\u201d. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be investing.com's reporting found at https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data. The resolution will be based on the values listed in the column labelled \u201cHigh\u201d in rows titled by dates within this market's timeframe.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-10y-treasury-yield-above-5-by-june-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.043000000000000003",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CI_2026-03-15",
+  "source": "yfinance",
+  "question": "Will CI's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 281.270. (The latest market close price of CI.)",
+  "background": "The Cigna Group, together with its subsidiaries, provides insurance and related products and services in the United States. It operates through two segments: Evernorth Health Services and Cigna Healthcare. The Evernorth Health Services segment includes Pharmacy Benefit Services and Specialty and Care Services, offering pharmacy benefit management, drug claim adjudication, retail pharmacy network administration, benefit design consultation, drug utilization review, drug formulary management, pharmacy benefits, home delivery pharmacy, specialty pharmacy, specialty pharmaceutical distribution, and clinical programs for whole-person health outcomes. The Cigna Healthcare segment comprises U.S. Healthcare and International Health, delivering comprehensive medical and coordinated solutions such as employer medical plans, individual and family plans, behavioral health, consumer health engagement, dental, pharmacy management, stop-loss insurance, global health care, and local health care solutions, as well as health care benefits for mobile individuals and employees of multinational organizations. The company offers other operations, including corporate-owned life insurance, reinsurance, and certain run-off and non-strategic businesses. The company distributes its products and services through brokers and consultants; directly to employers, unions and other groups, or individuals; and private and public exchanges. The company was formerly known as Cigna Corporation and changed its name to The Cigna Group in February 2023. The company was founded in 1792 and is headquartered in Bloomfield, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/CI",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

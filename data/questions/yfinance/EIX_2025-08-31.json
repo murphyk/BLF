@@ -1,0 +1,21 @@
+{
+  "id": "EIX_2025-08-31",
+  "source": "yfinance",
+  "question": "Will EIX's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EIX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 55.960. (The latest market close price of EIX.)",
+  "background": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern California. It serves residential, commercial, industrial, public authorities, agricultural, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California.",
+  "url": "https://finance.yahoo.com/quote/EIX",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

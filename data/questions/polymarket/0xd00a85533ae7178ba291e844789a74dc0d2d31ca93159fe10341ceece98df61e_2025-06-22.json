@@ -1,0 +1,15 @@
+{
+  "id": "0xd00a85533ae7178ba291e844789a74dc0d2d31ca93159fe10341ceece98df61e_2025-06-22",
+  "source": "polymarket",
+  "question": "Will the Jacksonville Jaguars win the AFC South?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Jacksonville Jaguars win the AFC South in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Jacksonville Jaguars team to win the AFC South based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-jacksonville-jaguars-win-the-afc-south-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-05",
+  "market_value": "0.245",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

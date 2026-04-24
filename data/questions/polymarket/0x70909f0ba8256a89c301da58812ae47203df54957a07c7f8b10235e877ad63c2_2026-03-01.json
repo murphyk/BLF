@@ -1,0 +1,14 @@
+{
+  "id": "0x70909f0ba8256a89c301da58812ae47203df54957a07c7f8b10235e877ad63c2_2026-03-01",
+  "source": "polymarket",
+  "question": "Khamenei out as Supreme Leader of Iran by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Iran's Supreme Leader, Ali Khamenei, is removed from power for any length of time between this market's creation and the specified date and March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nKhamenei will be considered to be removed from power if he resigns, is detained, or otherwise loses his position or is prevented from fulfilling his duties as Supreme Leader of Iran within this market's timeframe.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/khamenei-out-as-supreme-leader-of-iran-by-march-31",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-04",
+  "market_value": "0.215",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

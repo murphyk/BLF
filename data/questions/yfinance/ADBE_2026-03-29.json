@@ -1,0 +1,15 @@
+{
+  "id": "ADBE_2026-03-29",
+  "source": "yfinance",
+  "question": "Will ADBE's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ADBE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 246.000. (The latest market close price of ADBE.)",
+  "background": "Adobe Inc. operates as a technology company worldwide. The Digital Media segment offers products and services that enable individuals, teams, and enterprises to create, publish, and promote content. This segment serves photographers, video editors, graphic and experience designers, game developers, content creators, students, marketers, business owners, knowledge workers, and consumers. The Digital Experience segment provides an integrated platform; and products, services, and solutions that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers e-learning, technical document publishing, web conferencing, document and forms platform, web application development, printing, and Adobe Advertising solutions. It also provides consulting, training, customer management, technical support, and learning services. The company offers its solutions to enterprise customers, and businesses and consumers; and licenses its products to end-user customers through app stores and website at adobe.com. It markets and distributes its products through distributors, retailers, software developers, mobile app stores, systems integrators, independent software vendors, value-added resellers, and original equipment and hardware manufacturers. The company has a strategic alliance with HUMAIN for the development of generative AI models and AI-powered applications. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/ADBE",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

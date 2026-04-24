@@ -1,0 +1,14 @@
+{
+  "id": "2gZEQtlQyO_2026-04-12",
+  "source": "manifold",
+  "question": "Lamine Yamal scores 15+ La Liga goals in 2025/26 season?",
+  "resolution_criteria": "This market resolves to YES if Lamine Yamal scores 15 or more goals in the 2025/26 La Liga season for FC Barcelona. It resolves to NO if he scores fewer than 15 goals.\n\nLamine Yamal scored 9 goals in La Liga during the 2024/25 season according to StatMuse and Tribuna. Under Hansi Flick, he had a total of 18 goals across all competitions in the 2024/25 season according to FC Barcelona's official website.\n\nResolution will be based on official La Liga statistics as reported by major sports data providers such as StatMuse, FBref, or the official La Liga website.\n\nOnly regular season La Liga goals count - Copa del Rey, Champions League, and other competition goals do not count toward this total.",
+  "background": "",
+  "url": "https://manifold.markets/augur/lamine-yamal-scores-15-la-liga-goal",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9336510066740521",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

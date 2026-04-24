@@ -1,0 +1,21 @@
+{
+  "id": "MA_2025-08-31",
+  "source": "yfinance",
+  "question": "Will MA's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 592.680. (The latest market close price of MA.)",
+  "background": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. The company offers integrated products and value-added services for account holders, merchants, financial institutions, digital partners, businesses, governments, and other organizations, such as programs that enable issuers to provide consumers with credits to defer payments; payment products and solutions that allow its customers to access funds in deposit and other accounts; prepaid programs services; consumer bill payment services; and commercial credit, debit, and prepaid payment products and solutions. It also provides solutions that enable businesses or governments to make payments to businesses, including Virtual Card Number, which is generated dynamically from a physical card and leverages the credit limit of the funding account; and a platform to optimize supplier payment enablement campaigns for financial institutions. In addition, the company offers Mastercard Move, which partners with digital messaging and payment platforms to enable consumers to send money directly within applications to other consumers; and partners with central banks, fintechs and financial institutions to help governments and nonprofits, as well as enables various cross-border payment flows. Further, it provides security solutions; personalization, issuer and merchant loyalty, and marketing services; advanced analytics, business intelligence, economic and location-based insights, payments consulting, and operational insights services; processing and gateway solutions; and open banking services. The company offers payment solutions and services under the MasterCard, Maestro, and Cirrus names. Mastercard Incorporated was founded in 1966 and is headquartered in Purchase, New York.",
+  "url": "https://finance.yahoo.com/quote/MA",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

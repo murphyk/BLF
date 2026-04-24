@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0082",
+  "source": "aibq2",
+  "question": "Will NOAA's Climate.gov still be online on July 1, 2025?",
+  "title_hash": "c289e7e30e330599",
+  "background": "National Security Archive: [Disappearing Data: Trump Administration Removing Climate Information from Government Websites](https://nsarchive.gwu.edu/briefing-book/climate-change-transparency-project-foia/2025-02-06/disappearing-data-trump)",
+  "resolution_criteria": "This question resolves as **Yes** if Climate.gov is online according to [Is It Down Right Now?](https://www.isitdownrightnow.com/climate.gov.html) when accessed by Metaculus on or after July 1, 2025.\n\nFine print:\nAs of May 7, 2025, the resolution source returns the message, \"Climate.gov is UP and reachable by us.\"",
+  "url": "https://nsarchive.gwu.edu/briefing-book/climate-change-transparency-project-foia/2025-02-06/disappearing-data-trump",
+  "forecast_due_date": "2025-05-21",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

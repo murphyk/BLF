@@ -1,0 +1,14 @@
+{
+  "id": "0x58234757c9519ddfffdbc8f33bea3b172d5a55a7fedb07c6df4fed1e97ba1ca7_2026-03-01",
+  "source": "polymarket",
+  "question": "Will the Detroit Pistons win the 2025\u20132026 NBA Central Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-central-division-winner-detroit-pistons",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.905",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

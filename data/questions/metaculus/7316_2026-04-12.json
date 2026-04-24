@@ -1,0 +1,14 @@
+{
+  "id": "7316_2026-04-12",
+  "source": "metaculus",
+  "question": "Will a exascale volume of connectome be mapped and revealed to the public by June 2031?",
+  "resolution_criteria": "This question resolves positively, if before June 1st 2031, a reliable paper, blog post, or some other article appears in the literature indicating that researchers had digitally mapped a section of an animal connectome using some high-resolution scanning technology, such by [serial section electron microscopy](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jmi.122240), and the size of that map meets or exceeds one exabyte. Otherwise, it resolves negatively.",
+  "background": "From [Shapson-Coe et al.](https://www.biorxiv.org/content/10.1101/2021.05.29.446289v1.full.pdf), published May 30th, 2021,\n\n> We acquired a rapidly preserved human surgical sample from the temporal lobe of the cerebral cortex. We stained a 1 mm3 volume with heavy metals, embedded it in resin, cut more than 5000 slices at ~30 nm and imaged these sections using a high-speed multibeam scanning electron microscope. We used computational methods to render the three-dimensional structure of 50,000 cells, hundreds of millions of neurites and 130 million synaptic connections. The 1.4 petabyte electron microscopy volume, the segmented cells, cell parts, blood vessels, myelin, inhibitory and excitatory synapses, and 100 manually proofread cells are [available to peruse online](https://h01-dot-neuroglancer-demo.appspot.com/). [...]\n\n> This improvement was in large part due to two noteworthy advances: fast imaging owing to multibeam scanning electron microscopy (Eberle et al. 2015) and the profound effect of AI on image processing and analysis (Januszewski et al. 2018). The rapid improvements over the past few years (Briggman, Helmstaedter, and Denk 2011; Bock et al. 2011; Helmstaedter et al. 2013; Takemura et al. 2013; Lee et al. 2016; Motta et al. 2019; Scheffer et al. 2020; Dorkenwald et al. 2020; Yin et al. 2020; Gour et al. 2021) argues that *analyzing volumes that are even three orders of magnitude larger, such as an exascale whole mouse brain connectome, will likely be in reach within a decade* (Abbott et al. 2020). [Emphasis added]\n\nSee also this [accompanying blog post from the Google AI Blog](https://ai.googleblog.com/2021/06/a-browsable-petascale-reconstruction-of.html).",
+  "url": "https://www.metaculus.com/questions/7316",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.58",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

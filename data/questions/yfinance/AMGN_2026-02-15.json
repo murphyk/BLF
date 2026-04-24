@@ -1,0 +1,17 @@
+{
+  "id": "AMGN_2026-02-15",
+  "source": "yfinance",
+  "question": "Will AMGN's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AMGN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 384.320. (The latest market close price of AMGN.)",
+  "background": "Amgen Inc. discovers, develops, manufactures, and delivers human therapeutics worldwide. The company's principal products include Enbrel for the treatment of rheumatoid arthritis, plaque psoriasis, and psoriatic arthritis; Otezla for the treatment of adult patients with plaque psoriasis, psoriatic arthritis, and oral ulcers associated with Beh\u00e7et's disease; Prolia to treat postmenopausal women with osteoporosis; XGEVA for skeletal-related events prevention; Repatha, which reduces the risks of myocardial infarction, stroke, and coronary revascularization; Nplate for the treatment of patients with immune thrombocytopenia; KYPROLIS to treat patients with relapsed or refractory multiple myeloma; Aranesp to treat a lower-than-normal number of red blood cells and anemia; EVENITY for the treatment of osteoporosis in postmenopausal for men and women; Vectibix to treat patients with wild-type RAS metastatic colorectal cancer; BLINCYTO for the treatment of patients with acute lymphoblastic leukemia; TEPEZZA to treat thyroid eye disease; and KRYSTEXXA for the treatment of chronic refractory gout. It also markets other products, including Neulasta, MVASI, AMJEVITA/AMGEVITA, TEZSPIRE, Parsabiv, Aimovig, LUMAKRAS/LUMYKRAS, EPOGEN, KANJINTI, TAVNEOS, RAVICTI, UPLIZNA and PROCYSBI. The company serves healthcare providers, including physicians or their clinics, dialysis centers, hospitals, and pharmacies. It distributes its products through pharmaceutical wholesale distributors, as well as direct-to-consumer channels. The company has collaboration agreements with AstraZeneca plc for the development and commercialization of TEZSPIRE; Novartis Pharma AG to develop and commercialize Aimovig; UCB for the development and commercialization of EVENITY; Kyowa Kirin Co., Ltd. for rocatinlimab development and commercialization; and BeiGene, Ltd. for oncology products expansion and development. Amgen Inc. was incorporated in 1980 and is headquartered in Thousand Oaks, California.",
+  "url": "https://finance.yahoo.com/quote/AMGN",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

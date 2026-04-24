@@ -1,0 +1,15 @@
+{
+  "id": "7335_2025-03-02",
+  "source": "metaculus",
+  "question": "Will Freedom House report that internet freedom has declined every year until 2025?",
+  "resolution_criteria": "This question resolves positively if for each year until 2025, inclusive, Freedom House reports more countries with a decrease in their internet freedom scores than with an increase",
+  "background": "The Freedom on the Net [report](https://freedomhouse.org/report/freedom-net/2020/pandemics-digital-shadow) is an annual report on internet freedom worldwide, produced by Freedom House. It tracks changes in internet regulation across 65 countries. As of the 2020 edition, it claimed that freedom had been on the decline (operationalised as more countries' scores decreasing than increasing) for ten years in a row, with 26 countries' scores worsening and 22 improving in 2020. This question asks if this pattern of decline will persist for the next five years.",
+  "url": "https://www.metaculus.com/questions/7335",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.9",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The community prediction."
+}

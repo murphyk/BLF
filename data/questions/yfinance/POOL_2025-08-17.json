@@ -1,0 +1,21 @@
+{
+  "id": "POOL_2025-08-17",
+  "source": "yfinance",
+  "question": "Will POOL's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/POOL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 309.560. (The latest market close price of POOL.)",
+  "background": "Pool Corporation distributes swimming pool supplies, equipment, related leisure, irrigation, and landscape maintenance products in the United States and internationally. The company offers maintenance products, including chemicals, supplies, and pool accessories; repair and replacement parts for pool equipment, such as cleaners, filters, heaters, pumps, and lights; and building materials, such as concrete, plumbing and electrical components, functional and decorative pool surfaces, decking materials, tiles, hardscapes, and natural stones for pool installations and remodeling. It also provides pool equipment and components for new pool construction and the remodeling of existing pools; irrigation and related products, such as irrigation system components, and professional turf care equipment and supplies; commercial products, including heaters, safety equipment, commercial decking equipment, and commercial pumps and filters. In addition, the company offers fiberglass pools, and hot tubs and packaged pool kits comprising walls, liners, braces, and coping for in-ground and above-ground pools; and other pool construction and recreational products which consist discretionary recreational and related outdoor living products, such as grills and components for outdoor kitchens. It serves swimming pool remodelers and builders; specialty retailers that sell swimming pool supplies; swimming pool repair and service businesses; irrigation construction and landscape maintenance contractors; and commercial pool operators and pool contractors. Pool Corporation was incorporated in 1993 and is headquartered in Covington, Louisiana.",
+  "url": "https://finance.yahoo.com/quote/POOL",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

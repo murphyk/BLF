@@ -1,0 +1,21 @@
+{
+  "id": "AOS_2025-04-27",
+  "source": "yfinance",
+  "question": "Will AOS's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AOS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 62.860. (The latest market close price of AOS.)",
+  "background": "A. O. Smith Corporation manufactures and markets residential and commercial gas and electric water heaters, boilers, heat pumps, tanks, and water treatment products in North America, China, Europe, and India. The company offers water heaters for residences, restaurants, hotels, office buildings, laundries, car washes, and small businesses; boilers for hospitals, schools, hotels, and other large commercial buildings, as well as homes, apartments, and condominiums; and water treatment products comprising point-of-entry water softeners, well water solutions, and whole-home water filtration products, and point-of-use carbon and reverse osmosis products for residences, restaurants, hotels, and offices. It also provides commercial water treatment and filtration products; expansion tanks, commercial solar water heating systems, swimming pool and spa heaters, and related products and parts; and electric wall-hung, gas tankless, combi-boiler, and heat pump and solar water heaters. The company offers its products under the A. O. Smith, State, Lochinvar, Hague, Water-Right, Master Water, Atlantic Filter, and Water Tec brands. It distributes its products through independent wholesale plumbing distributors, as well as to retail channels consisting of hardware and home center chains, and manufacturer representative firms; and offers Aquasana branded products directly to consumers through e-commerce channels. A. O. Smith Corporation was founded in 1874 and is headquartered in Milwaukee, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/AOS",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xb564e5e20a0d3ab9b07d24ff25b19001d9d6b2d1d3121d4b9a2a0691713643cb_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Mar\u00eda Corina Machado enter Venezuela by April 30?",
+  "resolution_criteria": "If Mar\u00eda Corina Machado visits Venezuela between market creation and April 30, 2026, 11:59 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nFor the purpose of this market, a \"visit\" is defined as Mar\u00eda Corina Machado physically entering the terrestrial territory of Venezuela. Whether or not Mar\u00eda Corina Machado enters Venezuelan airspace or maritime territory during the timeframe of this market will have no bearing on a positive resolution.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-mara-corina-machado-enter-venezuela-by-april-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.255",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

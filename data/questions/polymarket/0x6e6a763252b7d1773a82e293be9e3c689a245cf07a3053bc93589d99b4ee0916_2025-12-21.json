@@ -1,0 +1,14 @@
+{
+  "id": "0x6e6a763252b7d1773a82e293be9e3c689a245cf07a3053bc93589d99b4ee0916_2025-12-21",
+  "source": "polymarket",
+  "question": "Obama arrested in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Barack Obama is arrested between July 22 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying arrest/detention includes:\n* Being taken into physical custody by law enforcement authorities (including federal, state, local, military, or international law enforcement)\n* Voluntarily surrendering to law enforcement authorities in response to an arrest warrant\n* Being formally booked or processed following detention\n* Being handcuffed by a state authority and taken to a police station\n* Surrendering at a police station or courthouse with their attorney\n* Being placed under house arrest or electronic monitoring\n\nThe following scenarios will NOT qualify as an arrest/detention\n* An arrest warrant being issued but not executed\n* Being briefly detained but not arrested (e.g. such as in the South Korean judicial system when an individual is awaiting a judge\u2019s decision on whether to grant a detention warrant)\n* Being questioned or interviewed without arrest\n* Being named in an indictment without arrest\n\nThe primary resolution source for this market will be official information from the arresting government and law enforcement, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/obama-arrested-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.009000000000000001",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

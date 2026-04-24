@@ -1,0 +1,21 @@
+{
+  "id": "REG_2025-04-27",
+  "source": "yfinance",
+  "question": "Will REG's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/REG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 70.210. (The latest market close price of REG.)",
+  "background": "Regency Centers is a preeminent national owner, operator, and developer of shopping centers located in suburban trade areas with compelling demographics. Our portfolio includes thriving properties merchandised with highly productive grocers, restaurants, service providers, and best-in-class retailers that connect to their neighborhoods, communities, and customers. Operating as a fully integrated real estate company, Regency Centers is a qualified real estate investment trust (REIT) that is self-administered, self-managed, and an S&P 500 Index member.",
+  "url": "https://finance.yahoo.com/quote/REG",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0059",
+  "source": "aibq2",
+  "question": "Will Mahmoud Khalil be deported before July 1, 2025?",
+  "title_hash": "f8fefea19fef169c",
+  "background": "[Mahmoud Khalil's challenge to his detention moves forward]()",
+  "resolution_criteria": "This question resolves as **Yes** if the United States deports Mahmoud Khalil before July 1, 2025. For purposes of this question, \"deported\" means Khalil being transported out of the territory of the United States against his will.",
+  "url": "",
+  "forecast_due_date": "2025-05-14",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

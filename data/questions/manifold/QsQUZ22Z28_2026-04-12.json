@@ -1,0 +1,14 @@
+{
+  "id": "QsQUZ22Z28_2026-04-12",
+  "source": "manifold",
+  "question": "Will Trump attempt to fire Jerome Powell before May 2026?",
+  "resolution_criteria": "Resolves YES if Trump announces he's firing Jerome Powell as Fed chair, or otherwise makes an attempt to fire Powell before his term ends in May of 2026. Resolves NO if he makes no public attempt before then. This market is not contingent on whether the attempt is successful.\n\nIn the edge case where Powell resigns without Trump attempting to fire him, this market will N/A. \n\nUpdate 2025-07-02 (PST) (AI summary of creator comment): A public announcement of Powell's imminent removal is enough to resolve this YES even if Trump does not take any further action. ",
+  "background": "",
+  "url": "https://manifold.markets/Marnix/will-trump-attempt-to-fire-jerome-p",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.08200610916161001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

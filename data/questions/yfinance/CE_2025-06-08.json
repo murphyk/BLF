@@ -1,0 +1,21 @@
+{
+  "id": "CE_2025-06-08",
+  "source": "yfinance",
+  "question": "Will CE's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 55.160. (The latest market close price of CE.)",
+  "background": "Celanese Corporation, a chemical and specialty materials company, manufactures and sells engineered polymers worldwide. The Engineered Materials segment offers nylon and polypropylene compounds and formulations, high temperature nylon, polyoxymethylene, polyethylene and polybutylene terephthalates, ultra-high molecular weight polyethylene, long-chain polyamides, long-fiber reinforced thermoplastics, liquid crystal polymers, thermoplastic elastomers and vulcanizates, polyphenylene sulfide, ethylene vinyl acetate pharmaceutical grade copolymers, and ethylene acrylic elastomers for use in automotive, medical, industrial, energy storage, consumer electronics, appliance, construction, filtration equipment, telecommunication, beverage, electrical, and consumer apparel applications. Its Acetyl Chain segment produces and supplies acetyl products, including acetic acid, vinyl acetate monomers, vinyl acetate ethylene emulsions, conventional emulsions, ethylene vinyl acetate resins and compounds, low-density polyethylene resins, redispersible powders, acetic anhydride, ethyl acetates, formaldehydes, butyl acetates, acetate tows, and acetate flakes for use in paints, coatings, adhesives, textiles, paper finishing, flexible packaging, lamination products, pharmaceuticals, films, inks, plasticizers, solvents, automotive parts, external thermal insulation composite systems, tiling, plasters and renders, lubricants, filtration, food and beverage, consumer goods, and food packaging applications. The company offers its products under the Celanyl, FRIANYL, ECOMID, Zytel, Celcon, Hostaform, Celanex, Crastin, Thermx, Rynite, GUR, Celstran, Factor, Vectra, Zenite, Forprene, Sofprene, Laprene, Hytrel, Santoprene, Dytron, Geolast, Vamac, Polifor, Tecnoprene, and VitalDose brands. It sells its products directly to customers and through distributors; and serves original equipment manufacturers and suppliers. Celanese Corporation was founded in 1912 and is headquartered in Irving, Texas.",
+  "url": "https://finance.yahoo.com/quote/CE",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

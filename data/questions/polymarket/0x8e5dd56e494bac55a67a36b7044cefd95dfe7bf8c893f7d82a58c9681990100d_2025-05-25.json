@@ -1,0 +1,15 @@
+{
+  "id": "0x8e5dd56e494bac55a67a36b7044cefd95dfe7bf8c893f7d82a58c9681990100d_2025-05-25",
+  "source": "polymarket",
+  "question": "Israel and Saudi Arabia normalize relations in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if both Israel and the Kingdom of Saudi Arabia officially announce the establishment of diplomatic relations between Janaury 26, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Israel and the Kingdom of Saudi Arabia, however a consensus of credible reporting may also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-and-saudi-arabia-normalize-relations-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.20500000000000002",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

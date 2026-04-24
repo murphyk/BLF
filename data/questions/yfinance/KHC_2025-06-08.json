@@ -1,0 +1,21 @@
+{
+  "id": "KHC_2025-06-08",
+  "source": "yfinance",
+  "question": "Will KHC's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KHC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 26.830. (The latest market close price of KHC.)",
+  "background": "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally. Its products include condiments and sauces, cheese and dairy products, meals, meats, refreshment beverages, coffee, and other grocery products under the Kraft, Oscar Mayer, Heinz, Philadelphia, Lunchables, Velveeta, Ore-Ida, Maxwell House, Kool-Aid, Jell-O, Heinz, ABC, Master, Quero, Kraft, Golden Circle, Wattie's, Pudliszki, and Plasmon brands. It sells its products through its own sales organizations, as well as through independent brokers, agents, and distributors to chain, wholesale, cooperative, and independent grocery accounts; convenience, value, and club stores; pharmacies and drug stores; mass merchants; foodservice distributors; institutions, including hotels, restaurants, bakeries, hospitals, health care facilities, and government agencies; and c various e-commerce platforms and retailers. The company was formerly known as H.J. Heinz Holding Corporation and changed its name to The Kraft Heinz Company in July 2015. The company was founded in 1869 and is based in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/KHC",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

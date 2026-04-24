@@ -1,0 +1,21 @@
+{
+  "id": "SHW_2025-04-27",
+  "source": "yfinance",
+  "question": "Will SHW's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SHW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 331.280. (The latest market close price of SHW.)",
+  "background": "The Sherwin-Williams Company engages in the development, manufacture, distribution, and sale of paint, coatings, and related products to professional, industrial, commercial and retail customers. It operates through three segments: Paint Stores Group, Consumer Brands Group, and Performance Coatings Group. The Paint Stores Group segment offers architectural paint and coatings; protective and marine products; and OEM product finishes and related products for architectural and industrial paint contractors, and do-it-yourself homeowners under the Sherwin-Williams brand. The Consumer Brands Group segment supplies a portfolio of branded and private-label architectural paints, stains, varnishes, industrial products, wood finishes products, wood preservatives, applicators, corrosion inhibitors, aerosols, caulks, and adhesives to retailers, including home centers and hardware stores, and dedicated dealers and distributors. The Performance Coatings Group segment develops and sells industrial coatings for wood finishing and general industrial applications; automotive refinish products; protective and marine coatings; coil coatings; packaging coatings; and performance-based resins and colorants. This segment serves retailers, dealers, jobbers, licensees, and other third-party distributors. The company has operations in the North and South America, the Caribbean, Europe, Asia, and Australia. The Sherwin-Williams Company was founded in 1866 and is headquartered in Cleveland, Ohio.",
+  "url": "https://finance.yahoo.com/quote/SHW",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

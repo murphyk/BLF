@@ -1,0 +1,21 @@
+{
+  "id": "MOS_2025-05-25",
+  "source": "yfinance",
+  "question": "Will MOS's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MOS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 30.600. (The latest market close price of MOS.)",
+  "background": "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients in the United States, Brazil, China, Canada, Paraguay, Argentina, Japan, Colombia, India, Australia, Peru, Mexico, Honduras, the Dominican Republic, Thailand, Indonesia, and internationally. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The company owns and operates mines and production facilities, which produce concentrated phosphate crop nutrients, such as diammonium phosphate, monoammonium phosphate, and MicroEssentials ammoniated phosphate products; and phosphate based animal feed ingredients under the Biofos and Nexfos brands, as well as produces a double sulfate of potash magnesia product under the K-Mag brand. It also produces and sells potash for use in the manufacturing of mixed crop nutrients and animal feed ingredients, and for industrial use; and for use in the deicing and as a water softener regenerant. In addition, the company provides blended crop nutrients for agricultural use; triple superphosphate, single superphosphate, and dicalcium phosphate; and biological fertilizer complements, industrial products, and other ancillary services. Further, it owns and operates chemical plants, crop nutrient blending and bagging facilities, port terminals, and warehouses; distributes nitrogen based crop nutrients and phosphogypsum; and purchases and sells phosphates, potash, and nitrogen products. The company sells its products to distributors, retail chains, cooperatives, independent retailers and dealers, industrial accounts, animal feed industry, wholesalers, farmers, crop nutrient manufacturers, and national accounts through its sales force. It also exports its products. The Mosaic Company was incorporated in 1987 and is headquartered in Tampa, Florida.",
+  "url": "https://finance.yahoo.com/quote/MOS",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xc8f7efe4f5cf3c6d5b51cdd87cbd360e7f2a3b9999f6b8fa96d2dcd96e287141_2025-12-07",
+  "source": "polymarket",
+  "question": "Pepe ETF in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any spot Pepe (https://etherscan.io/token/0x6982508145454ce325ddbe47a25d4ec3d2311933) ETF receives approval from the SEC by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nApproval under Rule 19-4b will qualify for a \"Yes\" resolution, even if there has not been an S-1 approval. Similarly, an S-1 approval without a 19-4b approval will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/pepe-etf-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.021500000000000002",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

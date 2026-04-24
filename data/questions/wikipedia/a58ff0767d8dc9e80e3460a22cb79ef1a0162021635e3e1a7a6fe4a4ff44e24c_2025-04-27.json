@@ -1,0 +1,21 @@
+{
+  "id": "a58ff0767d8dc9e80e3460a22cb79ef1a0162021635e3e1a7a6fe4a4ff44e24c_2025-04-27",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will a vaccine have been developed for Strongyloidiasis by each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_infectious_diseases on the resolution date.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was No. (Vaccine status for Strongyloidiasis. 'No' means that a vaccine has not yet been created. 'Yes' means that it has.)",
+  "background": "According to Wikipedia, Strongyloidiasis is the common name of an infectious disease. A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
+  "url": "https://en.wikipedia.org/wiki/List_of_infectious_diseases",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

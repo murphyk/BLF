@@ -1,0 +1,15 @@
+{
+  "id": "0xadc74c7282d955d2603b56ba7eee2831b295bb71596a056e46e5848b13562377_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the Miami Heat win the 2025 NBA Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Miami Heat win the 2024-2025 NBA Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to become 2024-25 NBA Champion based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-miami-heat-win-the-2025-nba-finals",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.0005",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

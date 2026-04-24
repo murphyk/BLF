@@ -1,0 +1,21 @@
+{
+  "id": "0f2532ef303196d59163eca38db9ce68b93b23343c320fc091d29106a5c324c6_2025-08-17",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will a vaccine have been developed for Valley fever by each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_infectious_diseases on the resolution date.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was No. (Vaccine status for Valley fever. 'No' means that a vaccine has not yet been created. 'Yes' means that it has.)",
+  "background": "According to Wikipedia, Valley fever is the common name of an infectious disease. A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
+  "url": "https://en.wikipedia.org/wiki/List_of_infectious_diseases",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

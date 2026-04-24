@@ -1,0 +1,17 @@
+{
+  "id": "APTV_2026-01-18",
+  "source": "yfinance",
+  "question": "Will APTV's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/APTV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 82.150. (The latest market close price of APTV.)",
+  "background": "Aptiv PLC engages in design, manufacture, and sale of vehicle components for the automotive and commercial vehicle markets in North America, Europe, the Middle East, Africa, the Asia Pacific, South America, and internationally. It operates through two segments, Signal and Power Solutions, and Advanced Safety and User Experience. The Signal and Power Solutions segment designs, manufactures, and assembles vehicle's electrical architecture, including engineered component products, connectors, wiring assemblies and harnesses, cable management products, electrical centers, and high voltage and safety distribution systems. The Advanced Safety and User Experience segment provides critical technologies and services for vehicle safety, security, comfort, and convenience, such as sensing and perception systems, electronic control units, multi-domain controllers, vehicle connectivity systems, cloud-native software platform, application software, autonomous driving technologies, and end-to-end DevOps tools. Aptiv PLC was incorporated in 2011 and is based in Schaffhausen, Switzerland.",
+  "url": "https://finance.yahoo.com/quote/APTV",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

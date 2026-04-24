@@ -1,0 +1,15 @@
+{
+  "id": "9LUOtIpQ5t_2025-04-13",
+  "source": "manifold",
+  "question": "Will Trump golf for at least 25% of his first 100 days?",
+  "resolution_criteria": "Resolution source: https://trumpgolftrack.com/\n\nDetails: \n\nResolves YES if \"Time Spent Golfing\" is at least 25% after his first 100 days, and NO if \"Time Spent Golfing\" is <25%.\n\nI plan to resolve following the linked webpage, and I make no promises about (a) the comprehensiveness/rigor of their sourcing & (b) the definitions they use.\n\nHowever, if the site seems slow to update, I will wait a few days to resolve & will do my best to estimate what the true Day 100 percentage would have been based on their tally.\n\nE.g. if it says \"24%\" on the 100th day but early the next morning they update the site and include that day as a golf day, it could still resolve YES, it's clear that the intended tally was 25%.\n\nBut if e.g. they \"missed a day\" because of their sourcing, that doesn't matter, it resolves based on their tally.\n\nOther exception: if it's clear that the site is essentially abandoned (e.g. they're not making any sort of good faith effort to keep the tally updated), then this will N/A.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-trump-golf-for-at-least-25-of",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-01",
+  "market_value": "0.743970777126422",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_4e325dee",
+  "source": "aibq2",
+  "question": "Will Donald Trump and Vladimir Putin speak on the phone with each other before June 15, 2025?",
+  "background": "Wikipedia: [February 2025 Putin\u2013Trump call](https://en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call)",
+  "resolution_criteria": "This question resolves as **Yes** if, after May 12, 2025 and before June 15, 2025, Donald Trump and Vladimir Putin speak on the phone with each other, according to [credible sources](https://www.metaculus.com/faq/#definitions).\n\nFine print:\nBoth sides must acknowledge the phone call took place for it to count. \"Speak on the phone with each other\" is defined as both Trump and Putin, from different physical spaces, orally uttering words intended for the other individual into a telephone or equivalent device, those words being converted into electrical or digital signals in real time, and then transferred to the other individual via telecommunications links, where they are reconverted into sound waves at the other individual's listening device.",
+  "url": "https://en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call",
+  "forecast_due_date": "2025-05-06",
+  "resolution_date": "2025-06-15",
+  "resolved_to": 1.0
+}

@@ -1,0 +1,19 @@
+{
+  "id": "AIZ_2025-11-09",
+  "source": "yfinance",
+  "question": "Will AIZ's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AIZ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 208.110. (The latest market close price of AIZ.)",
+  "background": "Assurant, Inc. provides protection services to connected devices, homes, and automobiles in North America, Latin America, Europe, and the Asia Pacific. It operates in two segments, Global Lifestyle and Global Housing. The Global Lifestyle segment offers mobile device solutions, and extended service contracts and related services for consumer electronics and appliances, and financial services and other insurance products; and vehicle protection, commercial equipment, and other related services. The Global Housing segment provides lender-placed homeowners, manufactured housing, and flood insurance; renters insurance and related products; and voluntary manufactured housing, and condominium and homeowners insurance products. The company was formerly known as Fortis, Inc. and changed its name to Assurant, Inc. in February 2004. Assurant, Inc. was founded in 1892 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/AIZ",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0
+  ]
+}

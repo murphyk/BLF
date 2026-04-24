@@ -1,0 +1,19 @@
+{
+  "id": "MSFT_2025-12-21",
+  "source": "yfinance",
+  "question": "Will MSFT's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MSFT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 478.560. (The latest market close price of MSFT.)",
+  "background": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Windows Commercial, Power BI, Exchange, SharePoint, Microsoft Teams, Security and Compliance, and Copilot; Microsoft 365 Commercial products, such as Windows Commercial on-premises and Office licensed services; Microsoft 365 Consumer products and cloud services, such as Microsoft 365 Consumer subscriptions, Office licensed on-premises, and other consumer services; LinkedIn; Dynamics products and cloud services, such as Dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services, such as Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; Server products, including SQL and Windows Server, Visual Studio and System Center related Client Access Licenses, and other on-premises offerings; Enterprise and partner services, including Enterprise Support and Nuance professional Services, Industry Solutions, Microsoft Partner Network, and Learning Experience. The company's Personal Computing segment provides Windows and Devices, such as Windows OEM licensing and Devices and Surface and PC accessories; Gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox Game Pass, subscriptions, and Cloud Gaming, advertising, and other cloud services; search and news advertising services, such as Bing and Copilot, Microsoft News and Edge, and third-party affiliates. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+  "url": "https://finance.yahoo.com/quote/MSFT",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

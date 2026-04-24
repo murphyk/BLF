@@ -1,0 +1,14 @@
+{
+  "id": "0x781a06aa5779f97724b75ed8128aaf72c4a8955c893a6fefdc0efd7cb001c513_2026-04-12",
+  "source": "polymarket",
+  "question": "Will John Cornyn win the 2026 Texas Republican Primary?",
+  "resolution_criteria": "This market will resolve according to the winner of the Republican Primary for United States Senator from Texas. \n\nIf no 2026 Texas Republican Senate Primary takes place, this market will resolve to \"Other\".\n\nThe resolution source for this market will be the first announcement of the results from the Texas Republican party, however an overwhelming consensus of credible reporting may suffice.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-john-cornyn-win-the-2026-republican-primary",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.315",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

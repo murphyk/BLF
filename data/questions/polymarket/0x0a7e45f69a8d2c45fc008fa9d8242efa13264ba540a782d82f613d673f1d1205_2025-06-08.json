@@ -1,0 +1,15 @@
+{
+  "id": "0x0a7e45f69a8d2c45fc008fa9d8242efa13264ba540a782d82f613d673f1d1205_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Yordan Alvarez win the 2025 AL MVP?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Yordan Alvarez is awarded the 2025 MLB American League Most Valuable Player (MVP) Award. Otherwise, this market will resolve to \"No\".\n\nIf Yordan Alvarez is not announced as a finalist for the 2025 MLB AL MVP award, this market will immediately resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the MLB. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-yordan-alvarez-win-the-2025-al-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.0155",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

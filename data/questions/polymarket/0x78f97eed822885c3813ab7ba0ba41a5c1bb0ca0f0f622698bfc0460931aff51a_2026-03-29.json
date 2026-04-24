@@ -1,0 +1,14 @@
+{
+  "id": "0x78f97eed822885c3813ab7ba0ba41a5c1bb0ca0f0f622698bfc0460931aff51a_2026-03-29",
+  "source": "polymarket",
+  "question": "Will 20 ships transit the Strait of Hormuz on any day in March?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if IMF Portwatch publishes a daily number of transit calls (\u201cArrivals of Ships\u201d) for the Strait of Hormuz equal to or above __ for any date between market creation and March 31, 2026. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThe number of daily transit calls/arrivals includes container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nThis market will resolve as soon as IMF Portwatch publishes a daily number of transit calls equal to or above the specified level, or once data has been published for the final date in the specified period and no such value has been published. If no data has been published for the final date of the specified period within 14 calendar days (ET) after the end of that period, this market will resolve based on data published up to that point.\n\nRevisions to previously published data points, made within this market\u2019s timeframe, will be considered. However, they will not disqualify a previously published data point from qualifying. Revisions to previously published data points after data is published for March 31, 2026, however, will not be considered.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Strait of Hormuz at https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730, both in the chart and through downloadable files.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-20-ships-transit-the-strait-of-hormuz-on-any-day-in-march",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.255",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

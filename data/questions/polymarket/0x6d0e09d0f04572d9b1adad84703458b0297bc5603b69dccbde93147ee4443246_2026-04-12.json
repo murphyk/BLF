@@ -1,0 +1,14 @@
+{
+  "id": "0x6d0e09d0f04572d9b1adad84703458b0297bc5603b69dccbde93147ee4443246_2026-04-12",
+  "source": "polymarket",
+  "question": "US forces enter Iran by April 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if active US military personnel physically enter Iran at any point by the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nMilitary special operation forces will qualify; however, intelligence operatives will not count.\n\nUS military personnel must physically enter the terrestrial territory of Iran to qualify. Entering Iran's maritime or aerial territory will not count.\n\nMilitary contractors, military advisors, or high-ranking US service members entering Iran for diplomatic purposes (and their accompanying entourage) will not qualify.\n\nThe resolution source will be a consensus of credible reporting.\n\nNote: Only US military personnel who deliberately enter the terrestrial territory of Iran for operational purposes (e.g., military, humanitarian, etc.) will qualify. Pilots who are shot down, or other cases in which US military personnel do not deliberately enter the terrestrial territory of Iran, will not qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-forces-enter-iran-by-april-30-899",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.515",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

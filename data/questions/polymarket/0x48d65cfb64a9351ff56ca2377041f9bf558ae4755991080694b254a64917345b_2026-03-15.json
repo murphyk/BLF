@@ -1,0 +1,14 @@
+{
+  "id": "0x48d65cfb64a9351ff56ca2377041f9bf558ae4755991080694b254a64917345b_2026-03-15",
+  "source": "polymarket",
+  "question": "Will Hamas agree to disarm by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Hamas officially announces it will disarm in the Gaza Strip by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nOnly credible announcements, for example by the widely acknowledged leadership of Hamas, will qualify.\n\nFor the purposes of this market, \"disarm\" refers to a public commitment to relinquish or dismantle its military, whether partially or completely, in the Gaza Strip.\n\nAnnouncements of partial disarmament (e.g., surrendering a class of weapons or agreeing to disarm in stages or a certain region) will qualify as long as it is part of an acknowledged disarmament process.\n\nOnly official announcements will qualify. Informal statements, plans contingent on future conditions, statements of intent without a formal policy directive, or any other statements that do not constitute a formal policy announcement will not be considered.\n\nPrimary resolution sources will include official statements from Hamas leadership; however, a wide consensus of credible reporting confirming a policy of disarmament has been instituted will also qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-hamas-agree-to-disarm-by-march-31-966",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.055",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

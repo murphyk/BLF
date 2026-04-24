@@ -1,0 +1,29 @@
+{
+  "id": "FDX_2026-04-12",
+  "source": "yfinance",
+  "question": "Will FDX's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FDX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 359.310. (The latest market close price of FDX.)",
+  "background": "FedEx Corporation, together with its subsidiaries, provides transportation, e-commerce, and business services in the United States and internationally. It operates through Federal Express and FedEx Freight segments. The company offers transportation services, including express, freight, less-than-truckload freight, and time-specific freight-shipping; and small-package ground delivery services. It also provides e-commerce and digital solutions; dataworks; printing and shipping management, including digital printing, professional finishing, document creation, design solutions, direct mail, signs and graphics, custom-branded boxes, copying, computer rental, free Wi-Fi, corporate print solutions, shredding, expedited U.S. passport processing and renewal, and digital notarization; packing services, as well as packing supplies and boxes; document and business services; and retail access for package transportation. In addition, the company offers logistics services, air and ocean freight-forwarding and cargo transportation, specialty transportation, customs brokerage and clearance, trade management tools and data, and door-to-door solutions; and third party logistics and supply chain management solutions, such as inbound logistics, warehousing and distribution, fulfillment, contract packaging and product configuration, systems integration, returns process and disposition, test, repair, refurbishment, and product liquidation. Further, it provides sales, marketing, administrative, information technology, and back-office support services. FedEx Corporation was founded in 1971 and is headquartered in Memphis, Tennessee.",
+  "url": "https://finance.yahoo.com/quote/FDX",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

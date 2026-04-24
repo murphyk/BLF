@@ -1,0 +1,19 @@
+{
+  "id": "OBMMIVA30YF_2026-01-04",
+  "source": "fred",
+  "question": "Will the 30-year fixed rate Veterans Affairs mortgage index have increased by each resolution date listed below as compared to its value on 2026-01-04?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/OBMMIVA30YF once the data is published.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 5.838. (The latest value released in 30-Year Fixed Rate Veterans Affairs Mortgage Index from the release Optimal Blue Mortgage Market Indices.)",
+  "background": "The notes from the release: Optimal Blue Mortgage Market Indices\u2122 (OBMMI\u2122) is calculated from actual locked rates with consumers across over one-third of all mortgage transactions nationwide. OBMMI includes multiple mortgage pricing indices developed around the most popular products and specific borrower and loan level attributes..  The notes from the series: This index includes rate locks from U.S. Department of Veterans Affairs loans.\n\nOptimal Blue Mortgage Market Indices (https://www2.optimalblue.com/obmmi/)\u2122 (OBMMI\u2122) is calculated from actual locked rates with consumers across over one-third of all mortgage transactions nationwide. OBMMI includes multiple mortgage pricing indices developed around the most popular products and specific borrower and loan level attributes.\n\nEach index is calculated as the average of all appropriate rate locks locked through the Optimal Blue product eligibility and pricing engine on a given day. More details about methodology and definitions are available here (https://www2.optimalblue.com/obmmi/)..  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/OBMMIVA30YF",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

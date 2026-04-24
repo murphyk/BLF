@@ -1,0 +1,23 @@
+{
+  "id": "DLTR_2025-03-16",
+  "source": "yfinance",
+  "question": "Will DLTR's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DLTR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 70.160. (The latest market close price of DLTR.)",
+  "background": "Dollar Tree, Inc. operates retail discount stores. The company operates in two segments, Dollar Tree and Family Dollar. The Dollar Tree segment offers merchandise at the fixed price of $ 1.25. It provides consumable merchandise, which includes everyday consumables, such as household paper and chemicals, food, candy, health, personal care products, and frozen and refrigerated food; variety merchandise comprising toys, durable housewares, gifts, stationery, party goods, greeting cards, softlines, arts and crafts supplies, and other items; and seasonal goods that include Christmas, Easter, Halloween, and Valentine's Day merchandise. It operates stores under the Dollar Tree and Dollar Tree Canada brands, as well as distribution centers in the United States and Canada. The Family Dollar segment operates general merchandise retail discount stores that offer consumable merchandise, which comprise food and beverages, tobacco, health and personal care, household chemicals, paper products, hardware and automotive supplies, diapers, batteries, and pet food and supplies; and home products, including housewares, home d\u00e9cor, and giftware, as well as domestics, such as comforters, sheets, and towels. It also provides apparel and accessories merchandise comprising clothing, fashion accessories, and shoes; and seasonal and electronics merchandise that include Christmas, Easter, Halloween, and Valentine's Day merchandise, as well as personal electronics, which comprise pre-paid cellular phones and services, stationery and school supplies, and toys. Dollar Tree, Inc. was founded in 1986 and is based in Chesapeake, Virginia.",
+  "url": "https://finance.yahoo.com/quote/DLTR",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

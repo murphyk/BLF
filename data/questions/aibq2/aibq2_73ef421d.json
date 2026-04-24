@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_73ef421d",
+  "source": "aibq2",
+  "question": "Will Donald Trump visit China before July 1, 2025?",
+  "background": "Fox News: [Trump touts 'very positive' breakthrough with Xi after slamming China for trade violation](https://www.foxnews.com/politics/trump-touts-very-positive-breakthrough-xi-after-slamming-china-trade-violation) | Wikipedia: [List of international presidential trips made by Donald Trump](https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump)",
+  "resolution_criteria": "This question resolves as **Yes** if, after this question opens and before July 1, 2025, President Donald Trump personally visits China.",
+  "url": "https://www.foxnews.com/politics/trump-touts-very-positive-breakthrough-xi-after-slamming-china-trade-violation",
+  "forecast_due_date": "2025-06-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

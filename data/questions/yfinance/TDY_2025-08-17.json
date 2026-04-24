@@ -1,0 +1,21 @@
+{
+  "id": "TDY_2025-08-17",
+  "source": "yfinance",
+  "question": "Will TDY's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TDY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 548.960. (The latest market close price of TDY.)",
+  "background": "Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets in the United States, Europe, Asia, and internationally. Its Digital Imaging segment provides visible spectrum sensors and digital cameras; and infrared, ultraviolet, visible, and X-ray spectra products, as well as micro electromechanical systems and semiconductors, including analog-to-digital and digital-to-analog converters. This segment offers cooled and uncooled infrared or thermal products, including sensors, camera cores, and camera systems; high-resolution, low-dose X-ray sensors, high-power microwave, and high-energy X-ray subsystems; and instruments for the measurement of physical properties and maritime products, as well as develops and manufactures multi-spectrum electro-optic/infrared imaging systems and associated products, such as lasers, optics, and radars, CBRNE (Chemical, Biological, Radiological, Nuclear and Explosive detectors), and unmanned air and ground systems. The company's Instrumentation segment offers monitoring, control, and electronic test and measurement equipment; and power and communications connectivity devices for distributed instrumentation systems and sensor networks. The company's Aerospace and Defense Electronics segment provides electronic components and subsystems, data acquisition and communications components and equipment, harsh environment interconnects, general aviation batteries, and other components; and onboard avionics systems and ground-based applications, aircraft data and connectivity solutions, hardware systems, and software applications. Its Engineered Systems segment offers systems engineering and integration, technology development, and manufacturing solutions for defense, space, environmental, and energy applications; and designs and manufactures electrochemical energy systems and electronics for military applications. The company was founded in 1960 and is headquartered in Thousand Oaks, California.",
+  "url": "https://finance.yahoo.com/quote/TDY",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

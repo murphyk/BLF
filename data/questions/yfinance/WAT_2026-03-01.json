@@ -1,0 +1,17 @@
+{
+  "id": "WAT_2026-03-01",
+  "source": "yfinance",
+  "question": "Will WAT's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WAT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 327.530. (The latest market close price of WAT.)",
+  "background": "Waters Corporation provides analytical workflow solutions in Asia, the Americas, and Europe. It operates through two segments, Waters and TA. The company designs, manufactures, sells, and services liquid chromatography, as well as mass spectrometry (MS) technology systems and support products, including chromatography columns, and other consumable products. It designs, manufactures, sells, and services thermal analysis, rheometry, and calorimetry instruments; and develops and supplies software-based products that interface with its instruments, as well as other manufacturers' instruments. In addition, the company offers MS technology, which is used in drug discovery and development comprising clinical trial testing, the analysis of proteins in disease processes, nutritional safety analysis, and environmental testing. Further, the company provides thermal analysis, rheometry, and calorimetry instruments for use in predicting the suitability and stability of fine chemicals, pharmaceuticals, water, polymers, metals, and viscous liquids for various industrial, consumer good, and healthcare products, as well as for life science research. Its products are used by clinical, pharmaceutical, biochemical, industrial, nutritional safety, environmental, academic, and governmental customers working in research and development, quality assurance, and other laboratory applications. The company was founded in 1958 and is headquartered in Milford, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/WAT",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

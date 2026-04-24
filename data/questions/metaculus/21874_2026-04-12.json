@@ -1,0 +1,14 @@
+{
+  "id": "21874_2026-04-12",
+  "source": "metaculus",
+  "question": "If China detonates a nuclear weapon offensively as a first use before 2035, will they have first officially renounced their \u201cno first use\u201d policy?",
+  "resolution_criteria": "This question resolves as **Yes** if, before January 1, 2035, China detonates a nuclear weapon offensively as a first use after having officially renounced their \u201cno first use\u201d policy. This question will be **Annulled** if China does not use a nuclear weapon first before 2035, and will resolve as **No** if China uses a nuclear weapon first but has not first renounced no first use.",
+  "background": "For decades, China has maintained a \u201cno first use\u201d nuclear weapons policy, which is a commitment by Chinese leadership to not use nuclear weapons first under any circumstances (e.g., [Zhao, 2023](https://foreignpolicy.com/2023/11/06/united-states-china-nuclear-meeting-no-first-use-arms-control/)). (In other words, China commits to only using nuclear weapons in retaliation to an adversary launching a nuclear attack on China first.)\n\nThere is debate amongst D.C. nuclear analysts as to whether China will abide by its no first use policy if and when push comes to shove. China\u2019s nuclear arsenal has undergone an unprecedented expansion in recent years ([Kristensen & Korda, 2024](https://thebulletin.org/premium/2024-01/chinese-nuclear-weapons-2024/)), which leads some to further question China\u2019s nuclear intentions.\n\nRelated questions:\n\n- [Will China go back on its \u201cno first use\u201d nuclear weapons policy before the following years?](https://www.metaculus.com/questions/21778/china-nuclear-no-first-use/)\n- [If the U.S. detonates a nuclear weapon offensively as a first use before 2035, will China have first officially renounced their \u201cno first use\u201d policy?](https://www.metaculus.com/questions/21875/us-nuclear-first-use-after-china-drops-nfu/)",
+  "url": "https://www.metaculus.com/questions/21874",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.66",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

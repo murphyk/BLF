@@ -1,0 +1,21 @@
+{
+  "id": "TRMB_2025-06-08",
+  "source": "yfinance",
+  "question": "Will TRMB's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TRMB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 71.920. (The latest market close price of TRMB.)",
+  "background": "Trimble Inc. provides technology solutions that enable professionals and field mobile workers to enhance or transform their work processes in North America, Europe, the Asia Pacific, and internationally. The company offers architecture design, engineering, construction, and owner software products. It also provides field-based data collection systems and field software, and real-time communications systems, as well as back-office software for data processing, modeling, monitoring, reporting, and analysis; office-based products, including software for planning, data processing and editing, quality control, 3D modeling, intelligent data analysis and AI-based feature extraction, deformation monitoring, project reporting, and data export; field and office software for project design and visualization; software for 3D design and data sharing; systems to guide and control construction equipment; and software to facilitate the management of the construction process. In addition, the company offers positioning services comprising VRSNow; CenterPoint RTX; FieldPoint RTX; Rangepoint RTX; ViewPoint RTX; Trimble xFill; and OmniSTAR (HP, XP, G2, and VBS) services. Further, it provides transportation management system that automates business processes for shippers, carriers, and intermediaries, delivering visibility, control, and decision support, as well as truck routing, mileage, mapping, and voice navigation solutions; and transporeon solutions that offers freight sourcing and procurement, including dock and yard management, and freight auditing. It serves architecture, engineering, construction, design, asset management, operations, and maintenance; private, commercial, and government; and shippers, carriers, and intermediaries customers. The company was formerly known as Trimble Navigation Limited and changed its name to Trimble Inc. in October 2016. Trimble Inc. was founded in 1978 and is headquartered in Westminster, Colorado.",
+  "url": "https://finance.yahoo.com/quote/TRMB",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

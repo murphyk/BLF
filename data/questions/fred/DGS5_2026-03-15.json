@@ -1,0 +1,15 @@
+{
+  "id": "DGS5_2026-03-15",
+  "source": "fred",
+  "question": "Will the market yield on US treasury securities at 5-year constant maturity, quoted on an investment basis, have increased by 2026-03-22 as compared to its value on 2026-03-15?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DGS5 once the data is published.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 3.670. (The latest value released in Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Quoted on an Investment Basis from the release H.15 Selected Interest Rates.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: H.15 Statistical Release notes (https://www.federalreserve.gov/releases/h15/default.htm) and the Treasury Yield Curve Methodology (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DGS5",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

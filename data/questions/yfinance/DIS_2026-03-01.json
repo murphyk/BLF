@@ -1,0 +1,17 @@
+{
+  "id": "DIS_2026-03-01",
+  "source": "yfinance",
+  "question": "Will DIS's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DIS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 107.100. (The latest market close price of DIS.)",
+  "background": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific. It operates in three segments: Entertainment, Sports, and Experiences. The company produces and distributes film and television content under the ABC Television Network, Disney, Freeform, FX, Fox, National Geographic, and Star brand television channels, as well as ABC television stations and A+E television networks; and produces original content under the Disney Branded Television, FX Productions, Lucasfilm, Marvel, National Geographic Studios, Pixar, Searchlight Pictures, Twentieth Century Studios, 20th Television, and Walt Disney Pictures banners. It also provides direct-to-consumer streaming services through Disney+, Disney+ Hotstar, and Hulu; sports-related video streaming content through ESPN, ESPN on ABC, ESPN+ DTC, and Star; sale/licensing of film and episodic content to television and video-on-demand services; theatrical, home entertainment, and music distribution services; DVD and Blu-ray discs, electronic home video licenses, and VOD rental services; staging and licensing of live entertainment events; and post-production services. In addition, the company operates theme parks and resorts, such as Walt Disney World Resort, Disneyland Resort, Disneyland Paris, Hong Kong Disneyland Resort, Shanghai Disney Resort, Disney Cruise Line, Disney Vacation Club, National Geographic Expeditions, and Adventures by Disney, as well as Aulani, a Disney resort and spa in Hawaii. Further, it licenses its intellectual property (IP) to a third party that owns and operates Tokyo Disney Resort; licenses trade names, characters, visual, literary, and other IP for use on merchandise, published materials, and games; operates a direct-to-home satellite distribution platform; sells branded merchandise through retail, online, and wholesale businesses; and develops and publishes books, comic books, and magazines. The company was founded in 1923 and is based in Burbank, California.",
+  "url": "https://finance.yahoo.com/quote/DIS",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

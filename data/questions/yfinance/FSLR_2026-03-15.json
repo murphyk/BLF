@@ -1,0 +1,15 @@
+{
+  "id": "FSLR_2026-03-15",
+  "source": "yfinance",
+  "question": "Will FSLR's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FSLR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 191.800. (The latest market close price of FSLR.)",
+  "background": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules. It also designs, manufactures, and sells cadmium telluride solar modules that convert sunlight into electricity. The company serves system developers, independent power producers, utilities, commercial and industrial companies, large corporate energy buyers, and other system owners and operators. The company was formerly known as First Solar Holdings, Inc. and changed its name to First Solar, Inc. in 2006. First Solar, Inc. was founded in 1999 and is headquartered in Tempe, Arizona.",
+  "url": "https://finance.yahoo.com/quote/FSLR",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

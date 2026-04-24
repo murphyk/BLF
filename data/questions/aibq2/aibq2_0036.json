@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0036",
+  "source": "aibq2",
+  "question": "Will the United States accuse the People's Republic of China of invading Taiwan before July 1, 2025?",
+  "title_hash": "f29ea71520c14afd",
+  "background": "CFR: [Why China-Taiwan Relations Are So Tense](https://www.cfr.org/backgrounder/china-taiwan-relations-tension-us-policy-trump)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the US government publicly accuses the People's Republic of China of invading Taiwan by sending its ground military forces into Taiwan without consent from the Taiwanese government in Taipei.",
+  "url": "https://www.cfr.org/backgrounder/china-taiwan-relations-tension-us-policy-trump",
+  "forecast_due_date": "2025-05-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

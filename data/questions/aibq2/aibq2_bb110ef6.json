@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_bb110ef6",
+  "source": "aibq2",
+  "question": "Will Starlink's website show Sri Lanka as a country with Starlink availability before July 1, 2025?",
+  "background": "Reuters: [Musk's Starlink wins Sri Lanka licence](https://www.reuters.com/business/media-telecom/sri-lanka-regulator-grants-licence-musks-starlink-satellite-broadband-2024-08-13/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the [Starlink Availability Map](https://www.starlink.com/us/map) has anywhere in Sri Lanka listed as \"Available.\"",
+  "url": "https://www.reuters.com/business/media-telecom/sri-lanka-regulator-grants-licence-musks-starlink-satellite-broadband-2024-08-13/",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

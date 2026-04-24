@@ -1,0 +1,14 @@
+{
+  "id": "34504_2026-04-12",
+  "source": "metaculus",
+  "question": "Will customs duties revenue to the federal government increase from $80 billion in fiscal year 2023 to $160 billion in fiscal year 2026 (in 2023 dollars)?",
+  "resolution_criteria": "This question will resolve as **Yes** if [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) such as the U.S. Treasury Department in its [Combined Statement](https://fiscal.treasury.gov/reports-statements/combined-statement/current.html) or the Congressional Budget Office (CBO) report that customs duties revenue to the federal government is at least \\$160 billion in fiscal year 2026.",
+  "background": "During his 2024 presidential campaign, Donald Trump repeatedly expressed a desire to implement tariffs on a wide range of countries, including [<u>U.S. trade competitors</u>](https://truthsocial.com/@realDonaldTrump/posts/113546215408213585), [<u>partners, and allies</u>](https://truthsocial.com/@realDonaldTrump/posts/113546215051155542). As of January 24, 2025, [<u>President Trump announced his plan to implement 25% tariffs on Mexico and Canada as well as 10% tariffs on China by February 1, 2025</u>](https://www.reuters.com/world/trump-says-he-is-discussing-10-tariff-china-feb-1-2025-01-21/). It remains to be seen, however, the extent to which potential tariffs mentioned during President Trump's campaign and first days in office will materialize into a significant aspect of U.S. international economic policy.",
+  "url": "https://www.metaculus.com/questions/34504",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9500000000000001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

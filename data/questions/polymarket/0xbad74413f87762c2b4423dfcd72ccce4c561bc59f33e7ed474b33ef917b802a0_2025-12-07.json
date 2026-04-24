@@ -1,0 +1,14 @@
+{
+  "id": "0xbad74413f87762c2b4423dfcd72ccce4c561bc59f33e7ed474b33ef917b802a0_2025-12-07",
+  "source": "polymarket",
+  "question": "US defaults on debt in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States federal government fails to make a scheduled payment on any Treasury note, bond, or bill at any point between April 8 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf Standard & Poor\u2019s, Moody\u2019s, or Fitch publicly classify any U.S. sovereign debt as being in default during the qualifying period this will qualify for a \u201cYes\u201d resolution. \n\nThe resolution source will be official information from the U.S. Department of the Treasury, Standard & Poor\u2019s, Moody\u2019s, and Fitch.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-defaults-on-debt-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.006",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

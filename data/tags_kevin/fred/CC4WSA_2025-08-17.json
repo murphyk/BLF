@@ -1,0 +1,6 @@
+{
+  "category": "Macroeconomics",
+  "suggested_category": null,
+  "justification": "The question tracks unemployment claims data from a central economic database, which serves as a key indicator of labor market health and macroeconomic stability.",
+  "question": "Will the 4-week moving average of insured unemployment claims have increased by each resolution date listed below as compared to its value on 2025-08-17?"
+}

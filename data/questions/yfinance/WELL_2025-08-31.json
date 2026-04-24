@@ -1,0 +1,21 @@
+{
+  "id": "WELL_2025-08-31",
+  "source": "yfinance",
+  "question": "Will WELL's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WELL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 165.990. (The latest market close price of WELL.)",
+  "background": "Welltower Inc. (NYSE: WELL), an S&P 500 company, is one of the world's preeminent residential wellness and healthcare infrastructure companies. We seek to position our portfolio of 1,500+ seniors and wellness housing communities at the intersection of housing, healthcare, and hospitality, creating vibrant communities for mature renters and older adults in the United States, United Kingdom, and Canada. We also strive to support physicians in our outpatient medical buildings with the critical infrastructure needed to deliver quality care. We believe our real estate portfolio is unmatched, located in highly attractive micro-markets with stunning built environments. Yet, we are an unusual real estate organization as we view ourselves as a product company in a real estate wrapper, driven by relationships and an unconventional culture. Through our disciplined approach to capital allocation powered by our Data Science platform and superior operating results driven by our operating platform, the Welltower Business System, we aspire to deliver long-term compounding of per share growth and returns for our existing investors \u0096 our North Star.",
+  "url": "https://finance.yahoo.com/quote/WELL",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

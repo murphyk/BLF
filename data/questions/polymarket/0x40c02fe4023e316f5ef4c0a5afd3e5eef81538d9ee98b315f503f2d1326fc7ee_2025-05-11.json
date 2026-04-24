@@ -1,0 +1,15 @@
+{
+  "id": "0x40c02fe4023e316f5ef4c0a5afd3e5eef81538d9ee98b315f503f2d1326fc7ee_2025-05-11",
+  "source": "polymarket",
+  "question": "China x Taiwan military clash by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military encounter between the military forces of China (People's Republic of China) and Taiwan (Republic of China) between January 29, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military encounter\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between Chinese and Taiwanese military forces. Non-violent actions, such as warning shots, artillery fire into uninhabited areas, or missile launches that land in territorial waters or pass through airspace, will not qualify for a \"Yes\" resolution. Intentional ship ramming that results in significant damage to (e.g., a hole in the hull) or the sinking of a military ship by another will count toward a \"Yes\" resolution, however minor damage (scrapes, dents) will not.\n\nNote: the China Coast Guard (CCG) is part of the military, however Taiwan's Coast Guard Administration (CGA) is not.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/china-x-taiwan-military-clash-by-december-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.155",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

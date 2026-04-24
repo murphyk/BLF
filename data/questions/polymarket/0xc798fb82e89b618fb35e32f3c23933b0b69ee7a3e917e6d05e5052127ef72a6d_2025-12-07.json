@@ -1,0 +1,14 @@
+{
+  "id": "0xc798fb82e89b618fb35e32f3c23933b0b69ee7a3e917e6d05e5052127ef72a6d_2025-12-07",
+  "source": "polymarket",
+  "question": "Gavin Newsom out as California Governor in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Gavin Newsom is no longer serving as Governor of California for any length of time between January 13 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement of Gavin Newsom's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThis market's resolution source will be a consensus of credible reporting.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/gavin-newsom-out-as-california-governor-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0145",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x7b94d6cef097f44d4f2327f2777b0c3f79048d25dad50bd9e752c7ea3fb80acc_2025-04-27",
+  "source": "polymarket",
+  "question": "Will the People's party win the most seats in the next Canadian election?",
+  "resolution_criteria": "The next Canadian general election will take place on or before October 20, 2025, to elect members of the House of Commons to the 45th Canadian Parliament.\n\nThis market will resolve to \"Yes\" if the People's party wins the most seats in the  House of Commons as a result of the next Canadian general election.\n\nIf voting in the next Canadian general election does not occur by December 31, 2025, this market will resolve to \"No\".\n\nIn the case of a tie between this party and any other for the most seats won, this market will resolve in favor of the party whose listed name comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by this party, not any coalition of which it may be a part.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Canadian government, specifically Elections Canada (https://www.elections.ca/home.aspx).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-peoples-party-win-the-most-seats-in-the-next-canadian-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-28",
+  "market_value": "0.0005",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

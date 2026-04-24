@@ -1,0 +1,17 @@
+{
+  "id": "KEY_2026-01-18",
+  "source": "yfinance",
+  "question": "Will KEY's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KEY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 21.300. (The latest market close price of KEY.)",
+  "background": "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States. It operates in two segments, Consumer Bank and Commercial Bank. The company offers various deposits and investment products; commercial leasing, investment management, consumer finance; personal finance and financial wellness, lending, student loan refinancing, mortgage and home equity, credit card, treasury, and business advisory; and wealth management and investment services for institutional, non-profit, and high-net-worth clients. It also provides lending, cash management, equipment financing, and commercial mortgage loans; and capital market products and services, such as syndicated finance, debt and equity underwriting, fixed income and equity sales and trading, derivatives, foreign exchange, mergers and acquisition, other advisory, and public finance to large corporate and institutional clients. In addition, the company offers personal and institutional trust custody services, personal financial and planning services, access to mutual funds, treasury services, and international banking services. Further, it provides community development financing, securities underwriting, brokerage, and investment banking services, as well as merchant services. The company was founded in 1849 and is headquartered in Cleveland, Ohio.",
+  "url": "https://finance.yahoo.com/quote/KEY",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

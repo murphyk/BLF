@@ -1,0 +1,15 @@
+{
+  "id": "0x8eff77c559ceb1141d32741d418b923b613b84d5a6e701d22466bb374b20156a_2025-08-31",
+  "source": "polymarket",
+  "question": "Hyperliquid daily fees above $8M in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Hyperliquid's daily fees exceed $8M on any day between July 15 and December 31, 2025. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Defillama, specifically the \"Fees by protocol version\" bar chart set on \"Daily\" available at https://defillama.com/fees/hyperliquid \n\nThis market will resolve once any daily bar meets the specified threshold, or once the bar for \"31 Dec 2025\" is finalized and no bar within the timeframe has met that threshold.\n\nThe \"Hyperliquid Spot Orderbook\" value displayed when hovering over the bar for \"31 Dec 2025\" will be considered finalized once any bar for January 1 is published.",
+  "background": "",
+  "url": "https://polymarket.com/market/hyperliquid-daily-fees-above-8m-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-10-18",
+  "market_value": "0.8200000000000001",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

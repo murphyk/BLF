@@ -1,0 +1,19 @@
+{
+  "id": "EXC_2025-10-26",
+  "source": "yfinance",
+  "question": "Will EXC's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EXC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 47.830. (The latest market close price of EXC.)",
+  "background": "Exelon Corporation, a utility services holding company, engages in the energy distribution and transmission businesses. The company is involved in the purchase and regulated retail sale of electricity and natural gas; transmission and distribution of electricity; and distribution of natural gas to retail customers. It serves residential, commercial, industrial, governmental, public authorities and electric railroads, and transportation customers. Exelon Corporation was incorporated in 1999 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/EXC",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

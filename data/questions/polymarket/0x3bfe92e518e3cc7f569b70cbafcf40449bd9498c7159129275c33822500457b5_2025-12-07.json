@@ -1,0 +1,14 @@
+{
+  "id": "0x3bfe92e518e3cc7f569b70cbafcf40449bd9498c7159129275c33822500457b5_2025-12-07",
+  "source": "polymarket",
+  "question": "Israel x Turkey military clash in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is a military encounter between the military forces of Israel and Turkey between April 1, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA \"military encounter\" is defined as any incident involving the use of force such as missile strikes, artillery fire, exchange of gunfire, or other forms of direct military engagement between Isreali and Turkish military forces. Non-violent actions, such as warning shots, artillery fire into uninhabited areas, or missile launches that land in territorial waters or pass through airspace, will not qualify for a \"Yes\" resolution. Intentional ship ramming that results in significant damage to (e.g., a hole in the hull) or the sinking of a military ship by another will count toward a \"Yes\" resolution, however minor damage (scrapes, dents) will not.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-x-turkey-military-clash-by",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.027",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

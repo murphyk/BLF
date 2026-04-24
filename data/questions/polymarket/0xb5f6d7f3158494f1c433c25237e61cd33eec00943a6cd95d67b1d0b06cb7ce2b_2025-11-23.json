@@ -1,0 +1,14 @@
+{
+  "id": "0xb5f6d7f3158494f1c433c25237e61cd33eec00943a6cd95d67b1d0b06cb7ce2b_2025-11-23",
+  "source": "polymarket",
+  "question": "Will BNB reach $1600 in November?",
+  "resolution_criteria": "This market will immediately resolve to \u201cYes\u201d if any Binance 1 minute candle for BNB/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last) has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \u201cNo.\u201d\n\nThe resolution source for this market is Binance, specifically the BNB/USDT High prices available at https://www.binance.com/en/trade/BNB_USDT, with the chart settings on \u201c1m\u201d for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BNB/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bnb-reach-1600-in-november",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-01",
+  "market_value": "0.016",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

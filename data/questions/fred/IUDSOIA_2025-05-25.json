@@ -1,0 +1,21 @@
+{
+  "id": "IUDSOIA_2025-05-25",
+  "source": "fred",
+  "question": "Will the daily Sterling Overnight Index Average, the interest rate applied to bank transactions in the British Sterling Market during off hours, have increased by each resolution date listed below as compared to its value on 2025-05-25?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/IUDSOIA once the data is published.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 4.210. (The latest value released in Daily Sterling Overnight Index Average (SONIA) Rate from the release SONIA Interest Rate Benchmark.)",
+  "background": "The notes from the release: SONIA is a measure of the rate at which interest is paid on sterling short-term wholesale funds in circumstances where credit, liquidity and other risks are minimal.\r\n\r\nOn each London business day, SONIA is measured as the trimmed mean, rounded to four decimal places, of interest rates paid on eligible sterling denominated deposit transactions. \r\n\r\nThe trimmed mean is calculated as the volume-weighted mean rate, based on the central 50 per cent of the volume-weighted distribution of rates..  The notes from the series: The Sterling Overnight Index Average (SONIA) is the interest rate applied to bank transactions in the British Sterling Market during off hours.\n\nFor more information please visit the Bank of England's explication on the key features and policies of SONIA. (https://www.bankofengland.co.uk/statistics/details/further-details-about-wholesale-interbank-sterling-market-data/).  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/IUDSOIA",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

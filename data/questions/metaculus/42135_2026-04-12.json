@@ -1,0 +1,14 @@
+{
+  "id": "42135_2026-04-12",
+  "source": "metaculus",
+  "question": "Will the UK increase the qualifying period for settlement to 10 years before May 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before May 1, 2026, the baseline qualifying period for settlement (permanent residency) in the UK is 10 or more years.",
+  "background": "Immigrants to the UK can currently apply for permanent residency \u2013 or \"indefinite leave to remain\" \u2013 after living in the country [for 5 years under most visa categories](https://www.gov.uk/indefinite-leave-to-remain#:~:text=You%20must%20usually%20have%20lived%20and%20worked%20in%20the%20UK%20for%205%20years).\n\nShabana Mahmood, the Home Secretary, has proposed a change to the requirements to apply for this status; the core changes proposed include increasing [the baseline requirement to 10 years](https://www.gov.uk/government/consultations/earned-settlement/a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible#:~:text=a\\)%20increasing%20the%20baseline%20qualifying%20period%20for%20settlement%20to%2010%20years) while also introducing modifying factors which may increase or reduce this period.\n\nThis change is driven by [forecasts of record high applications](https://www.gov.uk/government/consultations/earned-settlement/a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible#future-settlement-forecast) for residency over the next five years and a backdrop of [21% of British people polled](https://news.gallup.com/poll/701990/leads-world-concern-migration.aspx) considering immigration to be Britain's \"biggest national problem\".\n\nIn November 2025, Mahmood indicated that the changes would come into effect [in April 2026.](https://hansard.parliament.uk/commons/2025-11-20/debates/E3CE324D-7597-40C5-8697-DB48AA843CFC/MigrationSettlementPathway#contribution-44475956-0A57-466A-A4EA-7A7FD64AAD83)",
+  "url": "https://www.metaculus.com/questions/42135",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.01",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

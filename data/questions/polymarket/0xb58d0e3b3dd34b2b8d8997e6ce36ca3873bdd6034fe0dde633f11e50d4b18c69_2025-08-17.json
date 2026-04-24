@@ -1,0 +1,15 @@
+{
+  "id": "0xb58d0e3b3dd34b2b8d8997e6ce36ca3873bdd6034fe0dde633f11e50d4b18c69_2025-08-17",
+  "source": "polymarket",
+  "question": "Zelensky resigns in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if President of Ukraine Volodymyr Zelenskyy announces he has resigned or will resign the presidency by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Volodymyr Zelenskyy to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Zelenskyy announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the government of Ukraine; however, a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/zelensky-resigns-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.095",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

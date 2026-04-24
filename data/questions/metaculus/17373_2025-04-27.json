@@ -1,0 +1,15 @@
+{
+  "id": "17373_2025-04-27",
+  "source": "metaculus",
+  "question": "Will the U.S. have passed legislation that requires cybersecurity around AI models before 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, by Dec 31, 2025, there is a federal law which requires all U.S. actors in possession of AI models fitting certain criteria to take measures to secure those models. The law must be designed to promote security of _powerful_ models, rather than, for example, models that might compromise individuals' privacy if stolen. If necessary, this will be decided by a judging panel made up of the Metaculus AI Forecasting team, or, failing that (e.g., because the AI Forecasting team no longer exists), at least 3 Metaculus admins: the judging panel would consider the stated intent of those who proposed the initial version of the bill.",
+  "background": "Many AI experts worry about powerful AI getting into the hands of bad actors\u2014those who might use such powerful AI to cause damage or for personal gain that inflicts costs on others\u2014via hacking. A bad actor might be a black hat hacker, a terrorist group, or a rogue state.\n\nOne way to decrease the chance of this type of hacking succeeding is for those building powerful AI, the leading AI labs, to have strong cybersecurity measures in place. Given how high the stakes might be (see, e.g., \u201c[AI risk](https://forum.effectivealtruism.org/topics/ai-risk)\u201d), policymakers may decide to not bank on AI labs attaining strong enough cybersecurity by default.",
+  "url": "https://www.metaculus.com/questions/17373",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.5700000000000001",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The community prediction."
+}

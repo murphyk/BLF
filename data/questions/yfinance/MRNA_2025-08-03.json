@@ -1,0 +1,21 @@
+{
+  "id": "MRNA_2025-08-03",
+  "source": "yfinance",
+  "question": "Will MRNA's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MRNA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 34.670. (The latest market close price of MRNA.)",
+  "background": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, herpes simplex virus, varicella zoster virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as individualized neoantigen and checkpoint adaptive immune modulation therapy; and rare disease products, including propionic and methylmalonic acidemia, glycogen storage disease type 1a, ornithine transcarbamylase deficiency, phenylketonuria, crigler-najjar syndrome type 1, and cystic fibrosis. It has strategic alliances and collaborations with AstraZeneca; Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; Generation Bio Co.; immatics N.V.; Life Edit Therapeutics; Carisma Therapeutics, Inc.; CytomX Therapeutics; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/MRNA",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

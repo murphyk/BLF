@@ -1,0 +1,14 @@
+{
+  "id": "0x4d0d43382de6021ce0e906774caf6fc73fbe24078c9a75c6d7ae07b04299f8d0_2026-03-15",
+  "source": "polymarket",
+  "question": "Russian strike on a NATO member by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Russia initiates a drone, missile, or air strike on the sovereign territory of any NATO member state or on any official embassy or consulate of a NATO member state between December 4, 2025, and March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including cruise or ballistic missiles) launched by Russian military forces that impact the ground territory of a NATO member state or an official embassy/consulate of a NATO member (e.g., if a weapons depot on NATO territory is hit by a Russian missile, this market will resolve to \"Yes\").\n\nMissiles or drones that are intercepted (i.e., do not impact) and surface-to-air missile launches will not be sufficient for a \"Yes\" resolution, regardless of whether debris falls on NATO territory or causes damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes conducted directly by ground operatives, ground incursions, naval shelling, cyberattacks, or other operations conducted by Russian ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/russian-strike-on-a-nato-member-by-march-31",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.025",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

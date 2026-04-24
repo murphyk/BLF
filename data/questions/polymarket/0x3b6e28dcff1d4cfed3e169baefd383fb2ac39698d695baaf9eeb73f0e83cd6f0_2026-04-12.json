@@ -1,0 +1,14 @@
+{
+  "id": "0x3b6e28dcff1d4cfed3e169baefd383fb2ac39698d695baaf9eeb73f0e83cd6f0_2026-04-12",
+  "source": "polymarket",
+  "question": "Pete Hegseth out as Secretary of Defense by April 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and the specified date (ET). Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Pete Hegseth's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be official information from Pete Hegseth and the U.S. government; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/pete-hegseth-out-as-secretary-of-defense-by-april-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.0345",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

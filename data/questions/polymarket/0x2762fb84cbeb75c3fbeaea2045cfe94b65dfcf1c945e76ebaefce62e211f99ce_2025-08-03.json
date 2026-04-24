@@ -1,0 +1,15 @@
+{
+  "id": "0x2762fb84cbeb75c3fbeaea2045cfe94b65dfcf1c945e76ebaefce62e211f99ce_2025-08-03",
+  "source": "polymarket",
+  "question": "Will the Indianapolis Colts win the AFC South?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Indianapolis Colts win the AFC South in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Indianapolis Colts team to win the AFC South based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-indianapolis-colts-win-the-afc-south-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-23",
+  "market_value": "0.195",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

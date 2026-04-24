@@ -1,0 +1,15 @@
+{
+  "id": "0xa3958a7207ea6ed2b47fc7e3b03943e9f3c4a745cb71d7515dc529dd91e102ae_2025-08-03",
+  "source": "polymarket",
+  "question": "Any Tesla arsonist found guilty in 2025?",
+  "resolution_criteria": "Recently, there have been a spate of arson attacks on Teslas and Tesla facilities. You can read more about that here: https://abcnews.go.com/Business/video/investigation-underway-apparent-tesla-arson-attacks-119962366\n\nThis market will resolve to \"Yes\" if at least one person is found guilty of arson involving a Tesla facility or property, or any vehicle owned or produced by Tesla, between March 20 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve according to the initial judgment rendered a relevant case. Any appeals will have no bearing on the resolution of this market.\n\nThe primary resolution source will be an official judgement delivered a the ruling court; however, other credible reporting may be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/any-tesla-arsonist-found-guilty-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-14",
+  "market_value": "0.9165000000000001",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "MMC_2025-08-31",
+  "source": "yfinance",
+  "question": "Will MMC's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 211.210. (The latest market close price of MMC.)",
+  "background": "Marsh & McLennan Companies, Inc., a professional services company, provides advisory services and insurance solutions to clients in the areas of risk, strategy, and people worldwide. It operates through Risk and Insurance Services, and Consulting segments. The Risk and Insurance Services segment offers risk management services, such as risk advice, risk transfer, and risk control and mitigation solutions, as well as insurance and reinsurance broking, strategic advisory services, and analytics solutions, and insurance program management services. It serves businesses, public entities, insurance companies, associations, professional services organizations, and private clients. The Consulting segment provides health, wealth and career advice, solutions and products; and specialized management, strategic, economic, and brand consulting services. Marsh & McLennan Companies, Inc. was founded in 1871 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/MMC",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "category": "Financial Markets",
+  "suggested_category": null,
+  "justification": "The question concerns the option-adjusted spread (OAS) of corporate debt securities, which is a key metric used to evaluate risk and return in the credit and bond markets.",
+  "question": "Will the option-adjusted spread of securities with an investment grade rating of CCC or below in the ICE BofA US High Yield Master II Index, which tracks the performance of corporate debt below investment grade in the US domestic market, have increased by each resolution date listed below as compared to its value on 2026-02-15?"
+}

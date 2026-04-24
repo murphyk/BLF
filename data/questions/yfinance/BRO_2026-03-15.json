@@ -1,0 +1,15 @@
+{
+  "id": "BRO_2026-03-15",
+  "source": "yfinance",
+  "question": "Will BRO's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BRO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 73.120. (The latest market close price of BRO.)",
+  "background": "Brown & Brown, Inc. markets and sells insurance products and services in the United States, the United Kingdom, and internationally. It operates through Retail and Specialty Distribution segments. The Retail segment provides property and casualty, employee benefits insurance products, personal insurance products, specialties insurance products, risk management strategies, loss control survey and analysis, consultancy, and claims processing services. This segment also offers non-insurance services and products through automobile and recreational vehicle dealer services businesses. It serves commercial, public and quasi-public entities, professional, and individual customers. The Specialty Distribution segment comprises wholesale brokerage and specialty businesses. This segment offers professional liability and related package insurance products for dentistry, legal, eyecare, insurance, insurance, financial, physicians, real estate title professionals, as well as supplementary insurance products related to weddings, events, medical facilities, and cyber liabilities. This segment also provides public entity-related and specialty programs through a network of independent agents; and program management services for insurance carrier partners. In addition, the company's wholesale brokerage businesses underwrite and place excess and surplus commercial and personal lines insurance through independent agents and brokers. Its programs businesses operate under the Arrowhead Programs' name. Brown & Brown, Inc. was founded in 1939 and is headquartered in Daytona Beach, Florida.",
+  "url": "https://finance.yahoo.com/quote/BRO",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

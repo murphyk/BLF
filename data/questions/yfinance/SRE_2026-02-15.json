@@ -1,0 +1,17 @@
+{
+  "id": "SRE_2026-02-15",
+  "source": "yfinance",
+  "question": "Will SRE's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SRE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 87.360. (The latest market close price of SRE.)",
+  "background": "Sempra operates as an energy infrastructure company in the United States and internationally. It operates through three segments: Sempra California, Sempra Texas Utilities, and Sempra Infrastructure. The Sempra California segment provides natural gas and electric services to Southern California and part of central California. As of December 31, 2024, it offered electric services to approximately 3.6 million population and natural gas services to approximately 3.3 million population that covers 4,100 square miles. This segment owns and operates a natural gas distribution, transmission, and storage system that supplies natural gas. As of December 31, 2024, it served a population of 21.1 million covering an area of 24,000 square miles. The Sempra Texas Utilities segment engages in the regulated electricity transmission and distribution business. As of December 31, 2024, its transmission system included 18,324 circuit miles of transmission lines; 1,288 transmission and distribution substations; interconnection to 192 third-party generation facilities totaling 58,597 MW; and distribution system included approximately 4 million points of delivery and consisted of 125,975 miles of overhead and underground lines. The Sempra Infrastructure segment develops, builds, operates, and invests in energy infrastructure to help enable the access to cleaner energy in markets in the United States, Mexico, and internationally. The company was formerly known as Sempra Energy and changed its name to Sempra in May 2023. Sempra was incorporated in 1996 and is based in San Diego, California.",
+  "url": "https://finance.yahoo.com/quote/SRE",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

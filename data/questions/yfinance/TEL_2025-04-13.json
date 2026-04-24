@@ -1,0 +1,21 @@
+{
+  "id": "TEL_2025-04-13",
+  "source": "yfinance",
+  "question": "Will TEL's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TEL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 142.290. (The latest market close price of TEL.)",
+  "background": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the Asia\u0096Pacific, and the Americas. The company operates through three segments: Transportation Solutions, Industrial Solutions, and Communications Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, backshells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, and microfluidic devices, as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
+  "url": "https://finance.yahoo.com/quote/TEL",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

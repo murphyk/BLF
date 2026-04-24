@@ -1,0 +1,15 @@
+{
+  "id": "0x7214ecfdc0d4e45a3b1e2903e19df196851867c0793f8b4b1f25f5f921679835_2025-08-17",
+  "source": "polymarket",
+  "question": "2025 August hottest on record?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the data for the Global Land-Ocean Temperature Index for August 2025 shows an increase greater than that of any prior August when it is released. Otherwise, this market will resolve to \"No\".\n\nAt the point the data for August 2025 is first released, it will be compared to all previous data points for August, and if the data for August 2025 is higher than all previous data points, this market will resolve to \"Yes\".\n\nNote: If 2025 August is tied for highest with another year, it will NOT suffice to resolve this market to \"Yes\" - it must be higher.\n\nThe primary resolution source for this market will be the figures found in the table titled \"GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius\" under the column \"Aug\" (https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt). If NASA's \"Global Temperature Index\" is rendered permanently unavailable, other information from NASA may be used. If no information for August 2025 is provided by NASA by October 1, 2025, 11:59 PM ET, a consensus of credible sources will be used to resolve this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/2025-august-hottest-on-record",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-31",
+  "market_value": "0.025500000000000002",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

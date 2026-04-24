@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0003",
+  "source": "aibq2",
+  "question": "Will Han Duck-soo announce his candidacy for South Korean president before May 5, 2025?",
+  "title_hash": "fecfcd0f2f86fc07",
+  "background": "The Chosun Daily: [Support grows in PPP to draft Acting President Han for June election](https://www.koreaherald.com/article/10464554)",
+  "resolution_criteria": "This question resolves as **Yes** if Han Duck-soo announces his candidacy for president of South Korea before May 5, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://www.koreaherald.com/article/10464554",
+  "forecast_due_date": "2025-04-22",
+  "resolution_date": "2025-05-05",
+  "resolved_to": 1.0
+}

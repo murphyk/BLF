@@ -1,0 +1,23 @@
+{
+  "id": "TFC_2025-03-16",
+  "source": "yfinance",
+  "question": "Will TFC's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TFC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 43.110. (The latest market close price of TFC.)",
+  "background": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through three segments: Consumer Banking and Wealth, Corporate and Commercial Banking, and Insurance Holdings.Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; automobile lending; credit card lending; consumer finance; home equity and mortgage lending; other direct retail lending; insurance; investment brokerage; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; small business lending; and wealth management/private banking services. In addition, it offers asset based lending, investment banking and capital market, institutional trust, insurance premium finance, derivatives, commercial lending, international banking, leasing, merchant, commercial deposit and treasury, floor plan, mortgage warehouse lending, real estate lending, and supply chain financing services. Further, the company provides insurance brokerage, retail and wholesale brokerage, securities underwriting and market making, loan syndication, and investment management and advisory services. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/TFC",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

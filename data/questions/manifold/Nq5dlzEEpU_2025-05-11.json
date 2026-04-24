@@ -1,0 +1,15 @@
+{
+  "id": "Nq5dlzEEpU_2025-05-11",
+  "source": "manifold",
+  "question": "Will Carson the Terrier place top 3 in the 2025 World Dog Surfing Championships?",
+  "resolution_criteria": "Context: The World Dog Surfing Championship (WDSC) is the most prestigious dog surfing competition (yes, that means literally dogs on surfboards).\n\nAt WDSC 2023, Carson the Terrier (personal website) was dominant, placing #1 as the overall \"Top Dog\". This was his second consecutive trip to the podium, after his strong #3 finish at WDSC 2022.\n\nBut in 2024 (here's the original market) Carson couldn't complete the three-peat, and placed outside the top 3 for \"Top Dog\" (although he finished a respectable #2 in the \"Small Dog\" division).\n\nCan Carson stage a comeback and reclaim the title?\n\nResolution:\n\nResolves YES if Carson the Terrier places in the top 3 of the \"Top Dog\" overall category at the 2025 WDSC.\n\nResolves N/A if Carson does not compete for any reason (e.g., retirement, the event is cancelled, etc). \n\nResolves NO if he competes but does not place in the top 3.\n\nThis market may close before the event to return liquidity.",
+  "background": "",
+  "url": "https://manifold.markets/Ziddletwix/will-carson-the-terrier-place-top-3",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-01",
+  "market_value": "0.33630045402336",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market value."
+}

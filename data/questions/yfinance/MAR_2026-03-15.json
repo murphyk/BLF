@@ -1,0 +1,15 @@
+{
+  "id": "MAR_2026-03-15",
+  "source": "yfinance",
+  "question": "Will MAR's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MAR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 333.040. (The latest market close price of MAR.)",
+  "background": "Marriott International, Inc. engages in the operation, franchise, and licensing of hotel, residential, timeshare, and other lodging properties in the U.S. & Canada, Europe, Middle East & Africa, Greater China, and Asia Pacific, and internationally. It operates properties under JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le M\u00e9ridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizen, City Express by Marriott, and Four Points Flex by Sheraton brand names, as well as operates residences, timeshares, and yachts. The company was founded in 1927 and is headquartered in Bethesda, Maryland.",
+  "url": "https://finance.yahoo.com/quote/MAR",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

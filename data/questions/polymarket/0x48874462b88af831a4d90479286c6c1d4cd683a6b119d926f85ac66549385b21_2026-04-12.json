@@ -1,0 +1,14 @@
+{
+  "id": "0x48874462b88af831a4d90479286c6c1d4cd683a6b119d926f85ac66549385b21_2026-04-12",
+  "source": "polymarket",
+  "question": "Miguel D\u00edaz-Canel out as President of Cuba by June 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Miguel D\u00edaz-Canel ceases to be the President of Cuba for any period of time between November 18, 2025 and June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Miguel D\u00edaz-Canel's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be the government of Cuba, however a consensus of credible reporting will also suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/miguel-daz-canel-out-as-president-of-cuba-by-june-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.33",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

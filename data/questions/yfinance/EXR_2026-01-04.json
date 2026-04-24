@@ -1,0 +1,19 @@
+{
+  "id": "EXR_2026-01-04",
+  "source": "yfinance",
+  "question": "Will EXR's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EXR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 130.260. (The latest market close price of EXR.)",
+  "background": "Extra Space Storage Inc., headquartered in Salt Lake City, Utah, is a self-administered and self-managed REIT and a member of the S&P 500. As of September 30, 2025, the Company owned and/or operated 4,238 self-storage stores in 43 states and Washington, D.C.The Company's stores comprise approximately 2.9 million units and approximately 326.9 million square feet of rentable space operating under the Extra Space brand. The Company offers customers a wide selection of conveniently located and secure storage units across the country, including boat storage, RV storage and business storage. It is the largest operator of self-storage properties in the United States.",
+  "url": "https://finance.yahoo.com/quote/EXR",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

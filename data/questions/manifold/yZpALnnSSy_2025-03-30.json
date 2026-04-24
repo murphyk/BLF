@@ -1,0 +1,15 @@
+{
+  "id": "yZpALnnSSy_2025-03-30",
+  "source": "manifold",
+  "question": "Boston Celtics win the 2025 NBA Championship",
+  "resolution_criteria": "Will the Boston Celtics win the 2025 NBA Championship? \n\nMarket resolves YES if the Celtics win the 2025 NBA Finals, NO otherwise. \n\nResolution will be based on official NBA results.\n\nI will likely be on this question. \n\nCurrent betting odds from various sources:\n\n+260 (BetMassachusetts)\n\n+255 (DraftKings)\n\n+225 (Odds Shark)\n\nSources: https://www.betmassachusetts.com/odds/nba/boston-celtics https://www.oddsshark.com/nba/championship-odds\n\n[link preview]",
+  "background": "",
+  "url": "https://manifold.markets/kenmichaels/boston-celtics-win-the-2025-nba-cha",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.22560450655906303",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market value."
+}

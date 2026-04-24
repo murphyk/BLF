@@ -1,0 +1,14 @@
+{
+  "id": "0xc2846f35e85eb09a094edbd4e93e345d3c682dc0436615adc27122222fccbd81_2025-11-09",
+  "source": "polymarket",
+  "question": "Will 4 Fed rate cuts happen in 2025?",
+  "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to \u201cYes\u201d if the there are exactly 4 cuts of 25 basis points by the Fed's December meeting (including any cuts made during Dec meeting). Otherwise, this market will resolve to \u201cNo.\u201d\n\nThis market may resolve to \"Yes\" immediately after the statement from the Fed's December 2025 meeting has been released if there has been exactly 4 rate cuts by then.\n\nFor example, if the FED cuts rates by 50 bps after a meeting, it would be considered 2 cuts (of 25 bps each). If there are 5 or more rate cuts at any point before this market's resolution date, this market will resolve to \"No\".\n\nNote that cuts between 1-24 bps (inclusive) will also be considered 1 rate cut.\n\nThe resolution source for this market will be FOMC statements after meetings scheduled in 2025 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. The level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-4-fed-rate-cuts-happen-in-2025",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-10",
+  "market_value": "0.018000000000000002",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

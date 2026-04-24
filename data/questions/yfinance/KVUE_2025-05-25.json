@@ -1,0 +1,21 @@
+{
+  "id": "KVUE_2025-05-25",
+  "source": "yfinance",
+  "question": "Will KVUE's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KVUE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 23.640. (The latest market close price of KVUE.)",
+  "background": "Kenvue Inc. operates as a consumer health company in the United States, Europe, the Middle East, Africa, Asia-Pacific, and Latin America. It operates through three segments: Self Care, Skin Health and Beauty, and Essential Health. The Self Care segment offers cough, cold and allergy, pain care, digestive health, smoking cessation, eye care, and other products under the Tylenol, Motrin, Benadryl, Nicorette, Zarbee's, ORSLTM, Rhinocort, Calpol, and Zyrtec brands. Its Skin Health and Beauty segment provides face and body care, hair, sun, and other care products under the Neutrogena, Aveeno, Dr.Ci:Labo, Le Petit Marseillais, Lubriderm, Rogaine, and OGX brand names. The Essential Health segment offers oral and baby, women's health, wound, and other care products under the Listerine, Johnson's, Band-Aid, and Stayfree, o.b., tampons, Carefree, and Desitin Diaper Rash brands. Kenvue Inc. was incorporated in 2022 and is headquartered in Summit, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/KVUE",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

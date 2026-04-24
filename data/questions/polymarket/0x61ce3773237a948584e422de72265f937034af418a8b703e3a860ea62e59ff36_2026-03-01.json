@@ -1,0 +1,14 @@
+{
+  "id": "0x61ce3773237a948584e422de72265f937034af418a8b703e3a860ea62e59ff36_2026-03-01",
+  "source": "polymarket",
+  "question": "Will the Iranian regime fall by March 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Islamic Republic of Iran\u2019s current ruling regime is overthrown, collapsed, or otherwise ceases to govern by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis requires a broad consensus of reporting indicating that core structures of the Islamic Republic (e.g. the office of the Supreme Leader, the Guardian Council, IRGC control under clerical authority) have been dissolved, incapacitated, or replaced by a fundamentally different governing system or otherwise lost de facto power over a majority of the population of Iran. This could occur via revolution, civil war, military coup, or voluntary abdication, but only qualifies if the Islamic Republic no longer exercises sovereign power.\n\nRoutine political events such as elections, reforms, or leadership succession do not qualify. Internal coups or power shifts that preserve the Islamic Republic\u2019s core structures also do not qualify. Only a clear break in continuity\u2014such as a new provisional government, revolutionary council, or constitution replacing the Islamic Republic will qualify.\n\nPartial loss of territory or challenges from rebel or exile groups will not qualify unless the Islamic Republic no longer administers the majority of the Iranian population within Iran. \n\nThe resolution source will be a consensus of credible reporting. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-iranian-regime-fall-by-march-31",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.11750000000000001",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

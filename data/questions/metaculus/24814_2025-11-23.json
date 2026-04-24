@@ -1,0 +1,14 @@
+{
+  "id": "24814_2025-11-23",
+  "source": "metaculus",
+  "question": "Will \"stagflation\" occur in the United States before 2026, as measured by the \"misery index\" reaching 10 or more for at least three consecutive months?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before January 1, 2026, the \"[misery index](https://fred.stlouisfed.org/graph/?g=1dD3)\" has been 10 or more for at least three consecutive months in the United States.",
+  "background": "At a recent Goldman Sachs investment event, CEO of JPMorgan Chase [Jamie Dimon](https://en.wikipedia.org/wiki/Jamie_Dimon) was [reported to have said the following](https://finance.yahoo.com/news/tell-won-t-lead-stagflation-193751412.html) about the potential for stagflation:\n\n>I'm not saying it's going to happen, I just give the odds much higher than other people. . . I look at the amount of fiscal and monetary stimulus that has taken place over the last five years\u2014it has been so extraordinary, how can you tell me it won't lead to stagflation? . . . It might not, but I, for one, am quite prepared for it.\n\n[\"Stagflation\"](https://www.investopedia.com/terms/s/stagflation.asp) is typically characterized by high unemployment and high inflation occurring simultaneously. One measure of these combined metrics has been dubbed the \"misery index\". As described by [The Fred Blog](https://fredblog.stlouisfed.org/2015/07/measuring-misery/):\n\n>The mandate of the Federal Reserve calls for stable prices and maximum employment. One way to assess these conditions is to look at the consumer price index inflation rate and the unemployment rate, respectively. It has even become somewhat popular to look at the sum of these two measures, the so-called \u201cmisery index\u201d. . .\n\nThe misery index is the sum of the consumer price index and unemployment rate in the United States. It peaked above a value of 20 in the early 1980s, at the tail end of the period most associated with the term \"stagflation\" in the US. In April of 2024 the latest value was 7.25.\n\n<iframe src=\"https://fred.stlouisfed.org/graph/graph-landing.php?g=1olYd&width=100%25&height=475\" scrolling=\"no\" frameborder=\"0\" style=\"overflow:hidden; width:100%; height:550px;\" allowTransparency=\"true\" loading=\"lazy\"></iframe>",
+  "url": "https://www.metaculus.com/questions/24814",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.05",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The community prediction."
+}

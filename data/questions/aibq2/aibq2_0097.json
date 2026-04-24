@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0097",
+  "source": "aibq2",
+  "question": "Will BC Hydro still exclude Tesla from its EV charger rebate program for single-family homes in July 2025?",
+  "title_hash": "f751d8731950fa0f",
+  "background": "According to the resolution source, \"The Government of B.C. and BC Hydro are taking action to preference Canadian goods in our rebate programs going forward and to exclude, where practicable, U.S. produced goods. As of March 12, 2025, Tesla products (electric vehicle chargers, energy storage batteries and inverters) are not eligible for CleanBC and BC Hydro rebates. If you purchased or have received pre-approval for your Tesla product before March 12, 2025, it can still qualify for rebates and will be processed as normal.\"",
+  "resolution_criteria": "This question resolves as **Yes** if BC Hydro at [this page](https://www.bchydro.com/powersmart/electric-vehicles/rebates-incentives/rebates-home-chargers.html) when checked by Metaculus on or after July 1, 2025, says that Tesla products are not eligible for the EV charger at home program. If it does not mention Tesla being ineligible, then this question resolves as **No**.",
+  "url": "",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

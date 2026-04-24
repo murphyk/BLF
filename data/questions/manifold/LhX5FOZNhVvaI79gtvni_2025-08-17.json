@@ -1,0 +1,15 @@
+{
+  "id": "LhX5FOZNhVvaI79gtvni_2025-08-17",
+  "source": "manifold",
+  "question": "Will there be a new human moon landing by the end of 2025?",
+  "resolution_criteria": "Resolves YES if a human being steps foot on the moon on or before 11:59pm Eastern US time on December 31, 2025.\n\nResolves NO if no human steps onto the moon by then. Orbits don\u2019t count, nor do landings by a lander but no exiting and stepping onto the surface.",
+  "background": "",
+  "url": "https://manifold.markets/Treldman/will-there-be-a-new-human-moon-land",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.010028886274855",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xfa48a99317daef1654d5b03e30557c4222f276657275628d9475e141c64b545d_2025-06-22",
+  "source": "polymarket",
+  "question": "US recession in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d, if either of the following conditions are met:\n\n1.  The National Bureau of Economic Research (NBER) publicly announces that a recession has occurred in the United States, at any point in 2025, with the announcement made by December 31, 2025, 11:59 PM ET.\n\n2.  The seasonally adjusted annualized percent change in quarterly U.S. real GDP from the previous quarter is less than 0.0 for two consecutive quarters between Q4 2024 and Q4 2025 (inclusive), as reported by the Bureau of Economic Analysis (BEA). \n\nOtherwise, this market will resolve to \"No\". \n\nNote that advance estimates will be considered. For example, if upon release, the advance estimate for Q2 2025 was negative, and the Q1 2025's most recent, up-to-date estimate was also negative, this market would resolve to \"Yes\". If on December 31, 2025 the latest estimate for quarterly GDP in Q3 2025 was negative, this market will stay open until the Advance estimate of Q4 2025 is published, at which point it will resolve to \"Yes\" if Q4 2025 was negative or if the NBER declares a recession by then.\n\nThe resolution source will be the official announcements from the NBER and the BEA\u2019s estimate of seasonally adjusted annualized percent change in quarterly US real GDP from previous quarters as released by the Bureau of Economic Analysis (BEA), https://www.bea.gov/data/gdp/gross-domestic-product",
+  "background": "",
+  "url": "https://polymarket.com/market/us-recession-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.225",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

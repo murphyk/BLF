@@ -1,0 +1,19 @@
+{
+  "id": "CINF_2026-01-04",
+  "source": "yfinance",
+  "question": "Will CINF's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CINF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 165.870. (The latest market close price of CINF.)",
+  "background": "Cincinnati Financial Corporation provides property casualty insurance products in the United States. The company operates through five segments: Commercial Lines Insurance, Personal Lines Insurance, Excess and Surplus Lines Insurance, Life Insurance, and Investments. The Commercial Lines Insurance segment offers coverage for commercial casualty and property, commercial auto, and workers' compensation. This segment also provides contract and commercial surety bonds, and fidelity bonds; management liability; and machinery and equipment insurance products. The Personal Lines Insurance segment offers personal auto; homeowner; and other personal lines insurance, such as dwelling fire, inland marine, personal umbrella liability, and watercraft coverages. The Excess and Surplus Lines Insurance segment offers commercial casualty insurance that covers businesses for third-party liability from accidents occurring on their premises or arising out of their operations, such as injuries sustained from products, as well as other coverages comprising miscellaneous errors and omissions, professional liability, and excess liability; and commercial property insurance, which insures buildings, inventory, equipment, and business income from loss or damage due to various causes, such as fire, wind, hail, water, theft, and vandalism. The Life Insurance segment provides term life insurance; universal life insurance; and worksite and whole life insurance products, as well as annuities. The Investments segment invests in fixed-maturity investments, including taxable and tax-exempt bonds, and redeemable preferred stocks; and equity investments comprising common and nonredeemable preferred stocks. The company also offers commercial leasing and financing services; and insurance brokerage services. Cincinnati Financial Corporation was founded in 1950 and is headquartered in Fairfield, Ohio.",
+  "url": "https://finance.yahoo.com/quote/CINF",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

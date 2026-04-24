@@ -1,0 +1,15 @@
+{
+  "id": "DHI_2026-03-15",
+  "source": "yfinance",
+  "question": "Will DHI's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DHI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 149.880. (The latest market close price of DHI.)",
+  "background": "D.R. Horton, Inc. operates as a homebuilding company in East, North, Southeast, South Central, Southwest, and Northwest regions in the United States. It engages in the acquisition and development of land; and construction and sale of residential homes in 126 markets across 36 states under the names of D.R. Horton. The company also constructs and sells single-family detached homes; and attached homes, such as townhomes and duplexes. In addition, it provides mortgage financing and title agency services; and engages in the residential lot development business. Further, the company develops, constructs, owns, leases, and sells multi-family and single-family rental properties; conducts insurance-related operations; and owns water rights and other water-related assets, as well as non-residential real estate, including ranch land and improvements. It primarily serves homebuyers. D.R. Horton, Inc. was founded in 1978 and is headquartered in Arlington, Texas.",
+  "url": "https://finance.yahoo.com/quote/DHI",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

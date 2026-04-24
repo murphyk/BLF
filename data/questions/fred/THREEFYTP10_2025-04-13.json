@@ -1,0 +1,21 @@
+{
+  "id": "THREEFYTP10_2025-04-13",
+  "source": "fred",
+  "question": "Will the term premium on a 10-year zero-coupon bond have increased by each resolution date listed below as compared to its value on 2025-04-13?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/THREEFYTP10 once the data is published.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 0.521. (The latest value released in Term Premium on a 10 Year Zero Coupon Bond from the release An Arbitrage-Free Three-Factor Term Structure Model and the Recent Behavior of Long-Term Yields and Distant-Horizon Forward Rates.)",
+  "background": "The notes from the release: This research reviews a simple three-factor arbitrage-free term structure model estimated by Federal Reserve Board staff and reports results obtained from fitting this model to U.S. Treasury yields since 1990. The model ascribes a large portion of the decline in long-term yields and distant-horizon forward rates since the middle of 2004 to a fall in term premiums. A variant of the model that incorporates inflation data indicates that about two-thirds of the decline in nominal term premiums owes to a fall in real term premiums, but estimated compensation for inflation risk has diminished as well..  The notes from the series: Kim and Wright (2005) produced this data by fitting a simple three-factor arbitrage-free term structure model to U.S. Treasury yields since 1990, in order to evaluate the behavior of long-term yields, distant-horizon forward rates, and term premiums. For the full paper, please go to http://www.federalreserve.gov/pubs/feds/2005/200533/200533abs.html.  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/THREEFYTP10",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

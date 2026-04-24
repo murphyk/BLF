@@ -1,0 +1,15 @@
+{
+  "id": "17519_2025-03-02",
+  "source": "metaculus",
+  "question": "Will the UK housing market crash before July 2025?",
+  "resolution_criteria": "This question resolves **Yes** if, for any month before July 2025, the [Rightmove House Price Index](https://www.rightmove.co.uk/news/house-price-index/) indicates that the National average asking price for houses is equal to or less than \u00a3260,968; a decline of 30% from June 2023 levels.",
+  "background": "As of 19 June 2023, the [Rightmove House Price Index](https://www.rightmove.co.uk/news/house-price-index/) indicates that the average asking price for a property in the UK is \u00a3372,812.",
+  "url": "https://www.metaculus.com/questions/17519",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.001",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The community prediction."
+}

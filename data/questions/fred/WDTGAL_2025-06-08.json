@@ -1,0 +1,21 @@
+{
+  "id": "WDTGAL_2025-06-08",
+  "source": "fred",
+  "question": "Will the total dollar amount of deposits in the US Treasury's general accounts of Federal Reserve Banks, other than reserve balances, have increased by each resolution date listed below as compared to its value on 2025-06-08?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WDTGAL once the data is published.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 475886.000. (The latest value released in Liabilities and Capital: Liabilities: Deposits with F.R. Banks, Other Than Reserve Balances: U.S. Treasury, General Account: Wednesday Level from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: This account is the primary operational account of the U.S. Treasury at the Federal Reserve. Virtually all U.S. government disbursements are made from this account. Some tax receipts, primarily individual and other tax payments made directly to the Treasury, are deposited in this account, and it is also used to collect funds from sales of Treasury debt..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, As of Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/WDTGAL",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

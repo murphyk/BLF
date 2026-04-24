@@ -1,0 +1,15 @@
+{
+  "id": "DOC_2026-03-15",
+  "source": "yfinance",
+  "question": "Will DOC's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DOC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 17.410. (The latest market close price of DOC.)",
+  "background": "Healthpeak Properties, Inc. is a Standard & Poor's 500 company that owns, operates, and develops high-quality real estate focused on healthcare discovery and delivery in the United States. Our company was originally founded in 1985. We are organized as an umbrella partnership REIT. We hold substantially all our assets and conduct our operations through our operating subsidiary, Healthpeak OP, a consolidated subsidiary of which we are the managing member. We are a Maryland corporation and qualify as a self-administered REIT. We are headquartered in Denver, Colorado, with additional corporate offices in California, Tennessee, Wisconsin, and Massachusetts and property management offices in several locations throughout the U.S. We have a diversified portfolio of high-quality healthcare properties across three core asset classes of outpatient medical, lab, and continuing care retirement community real estate. Under the outpatient medical and lab segments, we own, operate, and develop outpatient medical buildings, hospitals, and lab buildings. Under the CCRC segment, our properties are operated through RIDEA structures. We have other non-reportable segments that are comprised primarily of: (i) an interest in an unconsolidated joint venture that owns 19 senior housing assets (our \u0093SWF SH JV\u0094), (ii) loans receivable, and (iii) a preferred equity investment. These non-reportable segments have been presented on a combined basis herein. At September 30, 2025, our portfolio of investments, including properties in certain of our unconsolidated joint ventures, consisted of interests in 703 properties: (i) Outpatient medical \u0096 530 properties; (ii) Lab \u0096 139 properties; (iii) CCRC \u0096 15 properties; and (iv) Other non-reportable \u0096 19 properties.",
+  "url": "https://finance.yahoo.com/quote/DOC",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

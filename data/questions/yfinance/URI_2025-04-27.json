@@ -1,0 +1,21 @@
+{
+  "id": "URI_2025-04-27",
+  "source": "yfinance",
+  "question": "Will URI's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/URI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 585.230. (The latest market close price of URI.)",
+  "background": "United Rentals, Inc., through its subsidiaries, operates as an equipment rental company. It operates in two segments, General Rentals and Specialty. The General Rentals segment rents general construction and industrial equipment includes backhoes, skid-steer loaders, forklifts, earthmoving equipment, and material handling equipment; aerial work platforms, such as boom and scissor lifts; and general tools and light equipment comprising pressure washers, water pumps, and power tools for construction and industrial companies, manufacturers, utilities, municipalities, homeowners, and government entities. The specialty segment rents trench safety equipment consists of trench shields, aluminum hydraulic shoring systems, slide rails, crossing plates, construction lasers, and line testing equipment for underground work; power and heating, ventilating, and air conditioning equipment, such as portable diesel generators, electrical distribution equipment, and temperature control equipment; fluid solutions equipment for fluid containment, transfer, and treatment; surface protection mats; and mobile storage equipment and modular office space. This segment serves construction companies involved in infrastructure projects, and municipalities and industrial companies. It also sells aerial lifts, reach forklifts, telehandlers, compressors, and generators; construction consumables, tools, small equipment, and safety supplies; and parts for equipment that is owned by its customers, as well as provides repair and maintenance services. The company sells used equipment through its sales force, brokers, website, at auctions, and directly to manufacturers. The company operates in the United States, Canada, Europe, Australia, and New Zealand. United Rentals, Inc. was incorporated in 1997 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/URI",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

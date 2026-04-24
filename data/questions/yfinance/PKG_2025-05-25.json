@@ -1,0 +1,21 @@
+{
+  "id": "PKG_2025-05-25",
+  "source": "yfinance",
+  "question": "Will PKG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PKG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 181.220. (The latest market close price of PKG.)",
+  "background": "Packaging Corporation of America manufactures and sells containerboard and uncoated freesheet (UFS) paper products in North America. The company operates through Packaging and Paper segments. The Packaging segment offers various containerboard and corrugated packaging products, such as conventional shipping containers used to protect and transport manufactured goods; multi-color boxes and displays that help to merchandise the packaged product in retail locations; and honeycomb protective packaging products, as well as packaging for meat, fresh fruit and vegetables, processed food, beverages, and other industrial and consumer products. This segment sells its corrugated products through a direct sales and marketing organization. The Paper segment manufactures and sells commodity and specialty papers, as well as communication papers, including cut-size office papers, and printing and converting papers; and white papers. This segment sells papers through its sales and marketing organization. Packaging Corporation of America was founded in 1867 and is headquartered in Lake Forest, Illinois.",
+  "url": "https://finance.yahoo.com/quote/PKG",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

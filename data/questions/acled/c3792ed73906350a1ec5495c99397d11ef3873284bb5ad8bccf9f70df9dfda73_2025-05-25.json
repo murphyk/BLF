@@ -1,0 +1,21 @@
+{
+  "id": "c3792ed73906350a1ec5495c99397d11ef3873284bb5ad8bccf9f70df9dfda73_2025-05-25",
+  "source": "acled",
+  "question": "Will there be more 'Protests' in Palau for the 30 days before each resolution date listed below compared to the 30-day average of 'Protests' over the 360 days preceding 2025-05-25?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Protests'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Protests' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Protests' would need to occur in the 30 days leading up to the resolution.",
+  "resolution_criteria": "Resolves to the value calculated from the ACLED dataset once the data is published.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 0.083. (The 30-day average of 'Protests' over the past 360 days in Palau. This reference value will potentially change as ACLED updates its dataset.)",
+  "background": "\nACLED classifies events into six distinct categories:\n\n1. Battles: violent interactions between two organized armed groups at a particular time and\n   location;\n2. Protests: in-person public demonstrations of three or more participants in which the participants\n   do not engage in violence, though violence may be used against them;\n3. Riots: violent events where demonstrators or mobs of three or more engage in violent or\n   destructive acts, including but not limited to physical fights, rock throwing, property\n   destruction, etc.;\n4. Explosions/Remote violence: incidents in which one side uses weapon types that, by their nature,\n   are at range and widely destructive;\n5. Violence against civilians: violent events where an organized armed group inflicts violence upon\n   unarmed non-combatants; and\n6. Strategic developments: contextually important information regarding incidents and activities of\n   groups that are not recorded as any of the other event types, yet may trigger future events or\n   contribute to political dynamics within and across states.\n\nDetailed information about the categories can be found at:\nhttps://acleddata.com/knowledge-base/codebook/#acled-events\n",
+  "url": "https://acleddata.com/",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

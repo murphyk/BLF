@@ -1,0 +1,21 @@
+{
+  "id": "MSCI_2025-06-08",
+  "source": "yfinance",
+  "question": "Will MSCI's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MSCI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 566.590. (The latest market close price of MSCI.)",
+  "background": "MSCI Inc., together with its subsidiaries, provides critical decision support tools and solutions for the investment community to manage investment processes worldwide. The Index segment provides indexes for use in various areas of the investment process, including indexed financial product, such as ETFs, mutual funds, annuities, futures, options, structured products, and over-the-counter derivatives; performance benchmarking; portfolio construction and rebalancing; and asset allocation, as well as licenses GICS and GICS Direct. The Analytics segment offers risk management, performance attribution and portfolio management content, application, an integrated view of risk and return service, and an analysis of market, credit, liquidity, counterparty, and climate risk across asset classes; managed services, including consolidation of client portfolio data, review and reconciliation of input data and results, and customized reporting; and HedgePlatform to measure, evaluate, and monitor the risk of hedge fund investments. The ESG and Climate segment provides products and services that help institutional investors understand how ESG impacts the long-term risk and return of their portfolio and individual security-level investments; and data, ratings, research, and tools to help investors navigate increasing regulation. The All Other \u0096 Private Assets segment comprising real estate and infrastructure data, benchmarks, return-analytics, climate assessments and market insights; business intelligence to real estate owners, managers, developers, and brokers; and offers investment decision support tools for private capital. The Private Capital Solutions segment offers tools to help private asset investors across mission-critical workflows, such as sourcing terms and conditions, evaluating operating performance, managing risk and other activities supporting private capital investing. MSCI Inc. was incorporated in 1998 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/MSCI",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

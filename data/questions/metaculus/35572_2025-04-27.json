@@ -1,0 +1,15 @@
+{
+  "id": "35572_2025-04-27",
+  "source": "metaculus",
+  "question": "\u00bfCerrar\u00e1 el IBEX 35 el 2025 m\u00e1s alto de lo que empez\u00f3?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si el valor oficial de cierre del Ibex 35 en el \u00faltimo d\u00eda h\u00e1bil de 2025 (normalmente el 31 de diciembre o la sesi\u00f3n anterior si cae en festivo) supera los 11.595,00, seg\u00fan la columna Close de\u00a0[<u>su p\u00e1gina en Yahoo Finance</u>](https://uk.finance.yahoo.com/quote/%5EIBEX/history/). Se resolver\u00e1 como\u00a0**No**\u00a0si el valor es igual o inferior a 11.595,00\u20ac.",
+  "background": "El Ibex 35 es el principal \u00edndice burs\u00e1til de la Bolsa de Madrid. Sirve como un bar\u00f3metro clave de la econom\u00eda espa\u00f1ola, reflejando las condiciones econ\u00f3micas nacionales e internacionales. La composici\u00f3n del \u00edndice puede explorarse en detalle\u00a0[<u>en Wikipedia</u>](https://es.wikipedia.org/wiki/IBEX_35)<u>.</u> \u00a0\nDespu\u00e9s de liderar el crecimiento de los mercados burs\u00e1tiles de la UE en 2023 con un aumento del 23%, el IBEX 35 se ha mantenido cerca de la cima de la tabla en 2024, subiendo un 14,78%. Fue el\u00a0[<u>segundo \u00edndice burs\u00e1til con mejor rendimiento entre los principales mercados europeos</u>](https://www.bolsasymercados.es/docs/infmercado/2024/ing/Market-Report-BME-2024.pdf).",
+  "url": "https://www.metaculus.com/questions/35572",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.75",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The community prediction."
+}

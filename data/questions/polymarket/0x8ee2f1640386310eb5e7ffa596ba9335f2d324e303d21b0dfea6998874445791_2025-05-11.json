@@ -1,0 +1,15 @@
+{
+  "id": "0x8ee2f1640386310eb5e7ffa596ba9335f2d324e303d21b0dfea6998874445791_2025-05-11",
+  "source": "polymarket",
+  "question": "Russia x Ukraine ceasefire in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine by December 31, 2025, 11:59 PM ET.\n\nIf the agreement is officially reached before the resolution date, this market will resolve to \"Yes,\" regardless of whether the ceasefire officially starts afterward.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nThis market's resolution will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/russia-x-ukraine-ceasefire-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.5750000000000001",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "CDNS_2025-12-21",
+  "source": "yfinance",
+  "question": "Will CDNS's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CDNS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 338.060. (The latest market close price of CDNS.)",
+  "background": "Cadence Design Systems, Inc. provides software, hardware, and other services worldwide. The company offers functional verification services, such as Jasper, a formal verification platform; Xcelium, a parallel logic simulation platform; Palladium, an enterprise emulation platform; and Protium, a prototyping platform for chip verification. It also provides digital IC design and sign off products, including Genus synthesis and Joules RTL power solutions, as well as Modus DFT software solution to reduce systems-on-chip design-for-test time; physical implementation tools, such as place and route, optimization, and performing sign-off checks for manufacturing; and Innovus implementation system, a digital IC design and signoff solution. In addition, the company offers custom IC design and simulation, such as Virtuoso Studio, a solution platform for custom, analog, mixed-signal, photonics, and RF semiconductors; and system design and analysis products, a Multiphysics platform that helps in design and simulate electronics and entire systems in electromagnetic, thermal, structure, computational fluid dynamics, molecular, PCB and packaging, mechanical, and structural analysis. Further, it provides semiconductor IP product for design architectures; Functional Verification; digital ic design and signoff; EDA product that addresses the design and verification for semiconductor chips and manufacturing process technologies; and verification IP with memory models to emulate and model the expected behavior and interaction of standard industry system interface protocols. Additionally, it offers services related to methodology, education, and hosted design solutions, as well as technical support and maintenance services. It serves consumer, hyperscale computing, 5G communications, mobile, automotive, aerospace and defense, industrial, and life science industries. Cadence Design Systems, Inc. was incorporated in 1987 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/CDNS",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

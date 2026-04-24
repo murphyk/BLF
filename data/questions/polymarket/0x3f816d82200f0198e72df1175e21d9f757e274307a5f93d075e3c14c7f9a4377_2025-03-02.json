@@ -1,0 +1,15 @@
+{
+  "id": "0x3f816d82200f0198e72df1175e21d9f757e274307a5f93d075e3c14c7f9a4377_2025-03-02",
+  "source": "polymarket",
+  "question": "Will the Toronto Maple Leafs win the 2025 Stanley Cup?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Toronto Maple Leafs win the 2025 NHL Stanley Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025 NHL Stanley Cup based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-toronto-maple-leafs-win-the-2025-stanley-cup",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-19",
+  "market_value": "0.065",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1386_2025-03-16",
+  "source": "infer",
+  "question": "Will a North American testing center (OTIC) issue an O-RAN Certificate between 1 April 2024 and 31 March 2025?",
+  "resolution_criteria": "This question will be resolved using the O-RAN Certification and Badging Catalogue . To count towards resolution, the catalog entry must show the following: \u201cDate of issued certificate\u201d must be on or after 2024-04-01 and on or before 2025-03-31 \u201cType\u201d must be \u201cCertificate\u201d \u201cOTIC name\u201d must be any of the North American OTICs, which are listed here In the event that the question is not resolved before the question closes for forecasting, the INFER team will wait until late April to resolve this question to allow for delays in updating the catalog. Note that the question will be resolved as of the \u201cDate of issued certificate\u201d listed in the catalog.",
+  "background": "The O-RAN Alliance (O-RAN) is an organization that creates standards for telecommunication technology to ensure that mobile network telecommunications equipment operate within an open architecture and are interoperable between vendors. One way that manufacturers can show that a product complies with O-RAN standards is by obtaining an O-RAN Certificate from one of O-RAN\u2019s Open Testing and Integration Centres (OTIC). In August 2023, O-RAN announced the opening of four new OTICs in the U.S. ( Business Wire ). However, no companies have received certificates from an OTIC in the U.S. to date.",
+  "url": "https://www.randforecastinginitiative.org/questions/1386",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-01",
+  "market_value": "0.0697",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The crowd forecast."
+}

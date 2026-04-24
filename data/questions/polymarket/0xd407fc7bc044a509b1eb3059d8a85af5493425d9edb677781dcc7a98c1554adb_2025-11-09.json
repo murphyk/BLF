@@ -1,0 +1,14 @@
+{
+  "id": "0xd407fc7bc044a509b1eb3059d8a85af5493425d9edb677781dcc7a98c1554adb_2025-11-09",
+  "source": "polymarket",
+  "question": "Will the Philadelphia Eagles win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Philadelphia Eagles win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-philadelphia-eagles-win-super-bowl-2026",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-12",
+  "market_value": "0.085",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

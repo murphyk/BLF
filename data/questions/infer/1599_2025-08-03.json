@@ -1,0 +1,15 @@
+{
+  "id": "1599_2025-08-03",
+  "source": "infer",
+  "question": "By 30 September 2025, will the United States announce its intent to withdraw at least 4,500 troops from South Korea?",
+  "resolution_criteria": "This question will resolve \u201cYes\u201d if, by 30 September 2025, the U.S. government officially announces its intent to withdraw at least 4,500 troops from South Korea.&nbsp; Qualifying announcements must meet the following criteria:&nbsp; Be communicated through official U.S. government channels or be made by named government officials with authority over military deployments Indicate definitive plans to withdraw, not merely consideration or review Include a specific or reasonably determinable timeframe for the withdrawal. Note that the announcement must be made before 30 September 2025 for the question to resolve \u201cYes\", but the timeline for withdrawal may extend beyond that date.&nbsp; The following will not be sufficient for resolution:&nbsp; Expressions of \"considering\u201d a reduction in force or \"reviewing\" troop levels without firm commitment Suggestions or recommendations from Congress members without administration commitment Temporary deployments or rotational changes that don't constitute permanent force reduction",
+  "background": "The United States has maintained military forces in South Korea since 1957, with approximately 28,500 American troops currently stationed there. During his first term, President Trump sought to increase South Korea\u2019s share of the military costs to $5 billion ( Korea Times ). Ultimately, Washington and Seoul agreed to an $890 million per year burden sharing deal ( NPR ). More recently, U.S. military officials suggested the Trump Administration is considering the withdrawal of thousands of military troops ( WSJ , ABC News , Reuters ).&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1599",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-30",
+  "market_value": "0.061",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The crowd forecast."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "7444_2025-11-23",
+  "source": "metaculus",
+  "question": "Will Elon Musk be the richest person in the world on December 31, 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if Elon Musk is the world's richest person according to the [Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/) on December 31, 2025.\n\nIf the Bloomberg Billionaires Index is no longer published, the [Forbes Real Time Billionaires](https://www.forbes.com/real-time-billionaires/#13e9791c3d78) list should be used. If neither list is published, this will resolve according to the source identified by a consensus of Metaculus moderators; if there is no clear consensus, then the question will resolve as **Ambiguous**",
+  "background": "[Elon Musk](https://en.m.wikipedia.org/wiki/Elon_Musk) is the founder and/or CEO of several companies, including electric vehicle company Tesla, space exploration and nascent Internet provider company SpaceX, tunneling company The Boring Company, and brain interface company Neuralink. He is currently the third richest person in the world, with a net worth of $167 billion, according to [Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/).\n\nHe [was briefly the richest person in the world](https://www.google.com/amp/s/www.thehindubusinessline.com/news/elon-musk-is-richest-man-on-the-planet-mukesh-ambani-ranks-eighth/article33968896.ece/amp/) in early 2021.",
+  "url": "https://www.metaculus.com/questions/7444",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.8300000000000001",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The community prediction."
+}

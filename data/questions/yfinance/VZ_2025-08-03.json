@@ -1,0 +1,21 @@
+{
+  "id": "VZ_2025-08-03",
+  "source": "yfinance",
+  "question": "Will VZ's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/VZ for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 42.840. (The latest market close price of VZ.)",
+  "background": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and entertainment products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smart watches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA broadband, data, video and conferencing, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/VZ",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "FICO_2025-04-27",
+  "source": "yfinance",
+  "question": "Will FICO's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FICO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 1899.780. (The latest market close price of FICO.)",
+  "background": "Fair Isaac Corporation develops software with analytics and digital decisioning technologies that enable businesses to automate, enhance, and connect decisions in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Scores and Software. The Scores segment provides business-to-business scoring solutions and services for consumers that give clients access to predictive credit and other scores that can be integrated into their transaction streams and decision-making processes, as well as business-to-consumer scoring solutions comprising myFICO.com subscription offerings. The Software segment provides pre-configured analytic and decision management solution designed for various business needs or processes, such as account origination, customer management, customer engagement, fraud detection, and marketing, as well as associated professional services. This segment also offers FICO Platform, a modular software offering designed to support advanced analytic and decision use cases, as well as stand-alone analytic and decisioning software that can be configured by customers to address a wide range of business use cases. It offers FICO\u00ae Decision Modeler and FICO Blaze Advisor, FICO Xpress Optimization, FICO Analytics Workbench, FICO Data Orchestrator, FICO DMP Streaming, FICO Business Outcome Simulator, FICO Decision Optimizer, FICO TRIAD Customer Manager, FICO Fraud Solutions, FICO Originations, FICO Customer Communication Service, FICO Strategy Director, FICO Analytic Services, FICO Advisors, and FICO Blaze Advisor, as well as software implementation and configuration services. The company markets its products and services primarily through its direct sales organization and indirect channels, as well as online. The company was formerly known as Fair Isaac & Company, Inc. and changed its name to Fair Isaac Corporation in July 1992. Fair Isaac Corporation was founded in 1956 and is headquartered in Bozeman, Montana.",
+  "url": "https://finance.yahoo.com/quote/FICO",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

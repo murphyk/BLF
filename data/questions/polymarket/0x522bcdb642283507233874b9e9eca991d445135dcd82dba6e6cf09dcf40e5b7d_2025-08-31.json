@@ -1,0 +1,15 @@
+{
+  "id": "0x522bcdb642283507233874b9e9eca991d445135dcd82dba6e6cf09dcf40e5b7d_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Ethereum dip to $2400 in August?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Ethereum (ETH/USDT) during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT \"Low\" prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ethereum-dip-to-2400-in-august-449-785-754-898-948-349-323-486",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

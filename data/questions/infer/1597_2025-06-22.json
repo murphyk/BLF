@@ -1,0 +1,15 @@
+{
+  "id": "1597_2025-06-22",
+  "source": "infer",
+  "question": "Will all NATO members agree to a defense spending target of 5% of GDP by 31 July 2025?",
+  "resolution_criteria": "This question will resolve \u201cYes\u201d if all 32 members of NATO agree to spend 5% of GDP or more on defense by 31 July 2025. Resolution sources can include formal communiques, official government statements, or confirmed reporting of unanimous consent by major international news organizations (such as Reuters, the Associated Press, or The New York Times). For the purposes of this question: Softer commitments such as \"aspiring to,\" \"working toward,\" or \"committing to work toward\" 5% defense spending will not qualify as agreement. The agreement does not need to specify a timeline for reaching the 5% target. If there is unanimous agreement among all members to commit to a 5% defense spending target, then the question will resolve \u201cYes\u201d regardless of whether countries later walk away from the commitment.",
+  "background": "In 2014, NATO Heads of State and Government agreed to commit 2% of GDP for defense spending ( NATO ). However, in the wake of the changing security environment, including Russia\u2019s invasion of Ukraine and pressure from the Trump Administration, NATO Secretary General Mark Rutte proposed a ramp up to 5% GDP spending on defense, with 3.5% dedicated to defense and equipment budgets and 1.5% on infrastructure and cybersecurity ( New York Times , Reuters ). In recent comments, Rutte said he \u201cassumes\u201d the alliance members will agree to the 5% target during the 2025 summit from 24-25 June ( Reuters ).&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1597",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-31",
+  "market_value": "0.5132",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

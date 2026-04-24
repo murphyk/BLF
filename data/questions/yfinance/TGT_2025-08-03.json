@@ -1,0 +1,21 @@
+{
+  "id": "TGT_2025-08-03",
+  "source": "yfinance",
+  "question": "Will TGT's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TGT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 107.430. (The latest market close price of TGT.)",
+  "background": "Target Corporation operates as a general merchandise retailer in the United States. The company offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. It also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home d\u00e9cor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, the company sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. It sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/TGT",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

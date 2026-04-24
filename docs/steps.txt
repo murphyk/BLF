@@ -1,0 +1,50 @@
+
+# paper
+
+grep -r '%figsrc:' docs/nips26/sec_*.tex
+
+# compete!
+caffeinate -s python3 src/fb_compete.py --date 2026-04-12 --config "pro/thk:high/crowd:1/tools:1" --ntrials 5 --calibration-model tranche-a1 
+
+
+# data -  ben rich
+python3 src/fb_make_data.py --exam ben-rich \
+--github-url https://github.com/forecastingresearch/forecastbench-datasets/blob/44a65ba500dfe046f6060ac09c70ef4de36b5cdb/datasets/resolution_sets/2026-03-15_resolution_set.json
+
+for XID in xid-data-early-n2 xid-market-late-n20; do            
+  echo "=== $XID ==="                                                                                                                                                                      
+  caffeinate -s python3 src/predict.py --xid $XID --ntrials 1 --verbose
+done 
+
+
+
+XID=xid-data-early-n2
+XID=xid-market-both
+XID=xid-ben-rich
+XID=xid-aibq2-repro
+XID=xid-tranche-a1
+XID=xid-tranche-a1-data
+
+python3 src/fb_leaderboard.py --xid $XID 
+
+python3 src/fb_leaderboard.py --history --org "xAI,Lightning Rod Labs,Cassi,limeforecast"                                                                                                                             
+                                                                                                                                                                                             
+# Import a method for direct comparison in eval                                                                                                                                            
+python3 src/fb_leaderboard.py --xid xid-ben-rich --import-method "external.Google DeepMind.2" --score 
+
+
+caffeinate -s python3 src/predict.py --xid $XID  --verbose --monitor
+
+python3 src/calibrate.py --xid $XID --cv loo
+
+caffeinate -s python3 src/eval.py --xid $XID --add-calibration
+
+caffeinate -s python3 src/leak_detective.py --xid $XID
+
+python3 src/aggregate.py --xid $XID
+# mean variants mean:1,mean:3,mean:5,shrink:3,shrink:5
+
+caffeinate -s python3 src/aggregate.py --xid $XID --method llm-agg 
+# creates
+
+python3 src/ensemble.py --xid $XID

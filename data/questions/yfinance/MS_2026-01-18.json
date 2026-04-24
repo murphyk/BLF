@@ -1,0 +1,17 @@
+{
+  "id": "MS_2026-01-18",
+  "source": "yfinance",
+  "question": "Will MS's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 184.790. (The latest market close price of MS.)",
+  "background": "Morgan Stanley, a financial holding company, provides various financial products and services to governments, financial institutions, and individuals in the Americas, Asia, Europe, Middle East, and Africa. The company operates through Institutional Securities, Wealth Management, and Investment Management segments. It offers capital raising and financial advisory services, including services related to the underwriting of debt, equity, and other securities, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities; and research. In addition, the company offers financial advisor-led brokerage, custody, and administrative and investment advisory services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential and commercial real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. The company was founded in 1924 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/MS",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

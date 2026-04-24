@@ -1,0 +1,19 @@
+{
+  "id": "AMP_2025-12-21",
+  "source": "yfinance",
+  "question": "Will AMP's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AMP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 497.260. (The latest market close price of AMP.)",
+  "background": "Ameriprise Financial, Inc., together with its subsidiaries, operates as a diversified financial services company in the United States and internationally. The company offers financial planning and advice services to individual and institutional clients. It operates through Advice & Wealth Management, Asset Management, and Retirement & Protection Solutions segments. The Advice & Wealth Management segment provides financial planning and advice; brokerage products and services for retail and institutional clients; discretionary and non-discretionary investment advisory accounts; mutual funds; insurance and annuities products; cash management and banking products; and face-amount certificates. The Asset Management segment offers investment management, advice, and products to retail, high net worth, and institutional clients through third-party financial institutions, advisor networks, direct retail, and its institutional sales force under the Columbia Threadneedle Investments brand name. Its products include U.S. mutual funds and their non-U.S. equivalents, exchange-traded funds, variable product funds underlying insurance, and annuity separate accounts; and institutional asset management products, such as traditional asset classes, separately managed accounts, individually managed accounts, collateralized loan obligations, hedge funds, collective funds, and property and infrastructure funds. The Retirement & Protection Solutions segment provides variable annuity products, as well as life and disability income insurance products to retail clients. The company was formerly known as American Express Financial Corporation and changed its name to Ameriprise Financial, Inc. in September 2005. Ameriprise Financial, Inc. was founded in 1894 and is based in Minneapolis, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/AMP",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0
+  ]
+}

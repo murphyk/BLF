@@ -1,0 +1,15 @@
+{
+  "id": "0xf931e094c21b844b916c65258bc9b24311f13f91507fe8efda9923217fc79523_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Israel win Eurovision 2025?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2025 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2025 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2025, 11:59 PM ET, this market will resolve \"Other\".\n\nAll ties will be broken according to EBU's official Eurovision rules.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2025, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-israel-win-eurovision-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.059000000000000004",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

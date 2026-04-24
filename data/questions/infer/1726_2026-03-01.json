@@ -1,0 +1,14 @@
+{
+  "id": "1726_2026-03-01",
+  "source": "infer",
+  "question": "Will North Korea conduct a missile test between 1 February 2026 and 31 March 2026, inclusive?",
+  "resolution_criteria": "This question will be resolved using official statements from South Korea's Joint Chiefs of Staff, Japan's Ministry of Defense, the U.S. Indo-Pacific Command, or credible international news reports (e.g., Reuters, AP, Yonhap). The question will resolve as \u201cYes\u201d if North Korea conducts at least one missile test (including ballistic missiles, cruise missiles, or rocket artillery tests) between 1 February 2026 and 31 March 2026, inclusive. The following will not be sufficient for resolution: Satellite launches, unless credible sources assess them to be disguised ballistic missile tests Unconfirmed reports lacking corroboration from at least one of the sources listed above",
+  "background": "North Korea maintains an active ballistic missile testing program aimed at improving precision strike capabilities and demonstrating its nuclear deterrent. On 4 January 2026, North Korea conducted its first missile test of the year, launching multiple ballistic missiles from near Pyongyang that flew approximately 900 km into the Sea of Japan ( The Defense Post ). State media claimed the test involved hypersonic missiles, possibly the Hwasong-16B intermediate-range ballistic missile, though open-source analysts have suggested it may have been the Hwasong-11E ( Center for Arms Control and Non-Proliferation ). Analysts noted the timing\u2014hours after the U.S. capture of Venezuelan President Nicol\u00e1s Maduro\u2014was likely intended to signal that North Korea differs from Venezuela in terms of military capability ( India's World ). North Korea conducted over 272 missile launches between 2012 and 2025 and tested ICBMs in 2022, 2023, and 2024, including the solid-fueled Hwasong-18 and Hwasong-19 ( Congress.gov ). In October 2025, North Korea unveiled the Hwasong-20, described as its \"most powerful nuclear strategic weapon system,\" at a military parade, and analysts expect a flight test in the coming months ( Fortune ). A ruling party congress scheduled for early 2026 could provide further impetus for testing. U.S. intelligence assesses that Russian military cooperation is accelerating North Korean weapons development.",
+  "url": "https://www.randforecastinginitiative.org/questions/1726",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-04",
+  "market_value": "0.9285",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The crowd forecast."
+}

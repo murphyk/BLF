@@ -1,0 +1,23 @@
+{
+  "id": "CHD_2025-03-02",
+  "source": "yfinance",
+  "question": "Will CHD's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CHD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 105.000. (The latest market close price of CHD.)",
+  "background": "Church & Dwight Co., Inc. develops, manufactures, and markets household, personal care, and specialty products. It operates in three segments: Consumer Domestic, Consumer International, and Specialty Products Division. The company offers cat litters, carpet deodorizers, laundry detergents, and baking soda, as well as other baking soda based products under the ARM & HAMMER brand; condoms, lubricants, and vibrators under the TROJAN brand; stain removers, cleaning solutions, laundry detergents, and bleach alternatives under the OXICLEAN brand; toothbrushes under the SPINBRUSH brand; home pregnancy and ovulation test kits under the FIRST RESPONSE brand; depilatories under the NAIR brand; oral analgesics under the ORAJEL brand; laundry detergents under the XTRA brand; gummy dietary supplements under the L'IL CRITTERS and VITAFUSION brands; dry shampoos under the BATISTE brand; water flossers and showerheads under the WATERPIK brand; cold shortening and relief products under the ZICAM brand; oral care products under the THERABREATH brand; and acne treatment products under the HERO brand. Its specialty products include animal and food productivity products, such as ARM & HAMMER baking soda as a feed additive to help dairy cow; BIO-CHLOR and FERMENTEN used to reduce health issues associated with calving, as well as needed protein; CELMANAX refined functional carbohydrate, a yeast-based prebiotic; and CERTILLUS a probiotics products used in the poultry, dairy, beef, and swine industries. It offers sodium bicarbonate; and cleaning and deodorizing products. The company sells its consumer products through supermarkets, mass merchandisers, wholesale clubs, drugstores, convenience stores, home stores, dollar and other discount stores, pet and other specialty stores, and websites and other e-commerce channels; and specialty products to industrial customers and livestock producers through distributors. The company was founded in 1846 and is headquartered in Ewing, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/CHD",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x6a67b9d828d53862160e470329ffea5246f338ecfffdf2cab45211ec578b0347_2025-06-08",
+  "source": "polymarket",
+  "question": "US military action against Iran before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US initiates a military action on Iranian soil, airspace, or maritime territory or against any Iranian embassies or consulates between March 31, and June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a \"military action\" will be considered to be any use of force executed by the US military on Iranian soil, airspace, or maritime territory (e.g. if a weapons depot on Iranian soil is hit by an the US missile, this market will resolve to \"Yes\") that is officially acknowledged by the the US government or a consensus of credible reporting. This includes, but is not limited to, airstrikes, naval attacks, or ground invasions. Cyber attacks, sanctions, or diplomatic actions will not count towards the resolution of this market.\n\nIn the case that the \"Yes\" resolution criteria are met prior to this market's resolution date, this market will resolve immediately.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-military-action-against-iran-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-22",
+  "market_value": "0.095",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

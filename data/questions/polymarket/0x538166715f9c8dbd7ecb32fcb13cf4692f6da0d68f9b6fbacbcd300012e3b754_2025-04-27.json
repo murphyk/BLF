@@ -1,0 +1,15 @@
+{
+  "id": "0x538166715f9c8dbd7ecb32fcb13cf4692f6da0d68f9b6fbacbcd300012e3b754_2025-04-27",
+  "source": "polymarket",
+  "question": "XRP Up or Down in April?",
+  "resolution_criteria": "This market will resolve to \"Up\" if the \"Close\" price for the Binance 1 minute candle for XRPUSDT 01 Apr '25 00:00 in the ET timezone (noon) is lower than the final \"Close\" price for the 30 Apr '25 23:59 ET candle.\nThis market will resolve to \"Down\" if the \"Close\" price for the Binance 1 minute candle for XRPUSDT 01 Apr '25 00:00 in the ET timezone (noon) is higher than the final \"Close\" price for the 30 Apr '25 23:59 ET candle.\nIf the final \"Close\" price for both of these candles is exactly equal on Binance, this market will resolve 50-50.\n\nThe resolution source for this market is Binance, specifically the XRPUSDT \"Close\" prices currently available at https://www.binance.com/en/trade/XRP_USDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance XRPUSDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/xrp-up-or-down-in-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.49",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

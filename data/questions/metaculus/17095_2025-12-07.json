@@ -1,0 +1,14 @@
+{
+  "id": "17095_2025-12-07",
+  "source": "metaculus",
+  "question": "Will the US place restrictions on the total compute capacity individuals or companies are allowed to have before 2026?",
+  "resolution_criteria": "This question resolve as **YES** if, by Dec 31, 2025, US law places at least some restrictions on the total amount of compute capacity that any individual or corporation may purchase, manufacture, or possess, and **NO** otherwise.",
+  "background": "Under May 2023 US law, individuals or corporations are not restricted from owning and operating any amount of computational hardware.\n\nCurrent state-of-the-art AI projects require immense computational resources to develop. One way US policymakers may address AI risks is to legally restrict the compute capacity available to individual projects or actors, akin to how the US regulates the possession and usage of weapons, chemicals, and human labor.\n\nLegal restrictions on computational resources might also arise due to concerns from cryptography, cryptocurrency, or the environment.",
+  "url": "https://www.metaculus.com/questions/17095",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.001",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The community prediction."
+}

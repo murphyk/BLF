@@ -1,0 +1,15 @@
+{
+  "id": "0x7be6233d547d49405c77bafc5e9d3eec72bb10559f913f8c9df75a9852841548_2025-03-16",
+  "source": "polymarket",
+  "question": "Will XRP reach $3.50 in March?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for XRP (XRPUSDT) between March 1, 2025, 00:00 and March 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $3.5000 or higher. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the XRPUSDT \"High\" prices available at https://www.binance.com/en/trade/XRP_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance XRPUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-xrp-reach-3pt50-in-march",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.275",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

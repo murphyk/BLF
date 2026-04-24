@@ -1,0 +1,15 @@
+{
+  "id": "34511_2025-03-30",
+  "source": "metaculus",
+  "question": "Will President Trump formally invoke his authority under the Constitution to adjourn Congress before 2026?",
+  "resolution_criteria": "This question will resolve as Yes if [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) report that President Trump has formally invoked his constitutional authority to adjourn the United States Congress before January 1, 2026.",
+  "background": "[<u>Article II, Section 3</u>](https://constitution.congress.gov/browse/article-2/section-3/) of the Constitution stipulates that the President has the authority to adjourn Congress in the event of a dispute over the time of adjournment. Because this power has not been employed before, the specifics of its use are not fully clear.\n\nPresident Trump has suggested that he [<u>might employ the adjournment power for the purpose of making recess appointments</u>](https://www.cbsnews.com/news/trump-senate-recess-appointments-new-leader/), circumventing the traditional process of Senate confirmation.",
+  "url": "https://www.metaculus.com/questions/34511",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.07",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The community prediction."
+}

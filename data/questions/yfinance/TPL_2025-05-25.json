@@ -1,0 +1,21 @@
+{
+  "id": "TPL_2025-05-25",
+  "source": "yfinance",
+  "question": "Will TPL's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TPL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 1321.610. (The latest market close price of TPL.)",
+  "background": "Texas Pacific Land Corporation engages in the land and resource management, and water services and operations businesses. The Land and Resource Management segment manages surface acres of land, and oil and gas royalty interest in Permian Basin. This segment also engages in easements, such as transporting oil, gas and related hydrocarbons, power line and utility, and subsurface wellbore easements. In addition, this segment leases its land for processing, storage, and compression facilities and roads; and is involved in sale of materials, such as caliche, sand, and other material, as well as sells land. The Water Services and Operations segment provides full-service water offerings, including water sourcing, produced-water treatment, infrastructure development, and disposal solutions to operators in the Permian Basin. This segment also holds produced water royalties. The company owns a 1/128th nonparticipating perpetual oil and gas royalty interest (NPRI) under approximately 85,000 acres of land; a 1/16th NPRI under approximately 371,000 acres of land; and approximately 16,000 additional net royalty acres, total of approximately 207,000 NRA located in the Permian Basin. Texas Pacific Land Corporation was founded in 1888 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/TPL",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

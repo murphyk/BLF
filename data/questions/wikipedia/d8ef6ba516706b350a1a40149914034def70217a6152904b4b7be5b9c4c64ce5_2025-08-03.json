@@ -1,0 +1,21 @@
+{
+  "id": "d8ef6ba516706b350a1a40149914034def70217a6152904b4b7be5b9c4c64ce5_2025-08-03",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will Summer McIntosh still hold the world record for 400m individual medley in long course (50 metres) swimming pools on each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 400m individual medley. (Summer McIntosh is a record holder in the 400m individual medley.)",
+  "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
+  "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

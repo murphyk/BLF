@@ -1,0 +1,15 @@
+{
+  "id": "0x67cc22ede739a48424f07683b53b546579345c8c963a9b21b7e6c31501e84353_2025-03-02",
+  "source": "polymarket",
+  "question": "Will the U.S. abandon Syrian base before April 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the U.S. abandons the Al-Tanf Military Facility in Syria by March 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nFor the purposes of this market, \"abandon\" is defined as the U.S ceasing all military operations and withdrawing all personnel from the facility.\n\nThe resolution source for this market will be a consensus of credible reporting",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-abandon-syrian-base-before-april-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.058",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

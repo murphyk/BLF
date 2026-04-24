@@ -1,0 +1,15 @@
+{
+  "id": "BcJbQTDX1rdmaLYGKUOz_2025-03-16",
+  "source": "manifold",
+  "question": "Will an AI get gold on any International Math Olympiad by the end of 2025?",
+  "resolution_criteria": "In Feb 2022, Paul Christiano wrote: Eliezer and I publicly stated some predictions about AI performance on the IMO by 2025.... My final prediction (after significantly revising my guesses after looking up IMO questions and medal thresholds) was:\n\nI'd put 4% on \"For the 2022, 2023, 2024, or 2025 IMO an AI built before the IMO is able to solve the single hardest problem\" where \"hardest problem\" = \"usually problem #6, but use problem #3 instead if either: (i) problem 6 is geo or (ii) problem 3 is combinatorics and problem 6 is algebra.\" (Would prefer just pick the hardest problem after seeing the test but seems better to commit to a procedure.)\n\nMaybe I'll go 8% on \"gets gold\" instead of \"solves hardest problem.\"\n\nEliezer spent less time revising his prediction, but said (earlier in the discussion):\n\nMy probability is at least 16% [on the IMO grand challenge falling], though I'd have to think more and Look into Things, and maybe ask for such sad little metrics as are available before I was confident saying how much more. \u00a0Paul?\n\nEDIT: \u00a0I see they want to demand that the AI be open-sourced publicly before the first day of the IMO, which unfortunately sounds like the sort of foolish little real-world obstacle which can prevent a proposition like this from being judged true even where the technical capability exists. \u00a0I'll stand by a >16% probability of the technical capability existing by end of 2025\n\nSo I think we have Paul at <8%, Eliezer at >16% for AI made before the IMO is able to get a gold (under time controls etc. of grand challenge) in one of 2022-2025.\n\nResolves to YES if either Eliezer or Paul acknowledge that an AI has succeeded at this task.\n\nRelated market: https://manifold.markets/MatthewBarnett/will-a-machine-learning-model-score-f0d93ee0119b\n\n\nUpdate: As noted by Paul, the qualifying years for IMO completion are 2023, 2024, and 2025.\n\nUpdate 2024-06-21: Description formatting\n\nUpdate 2024-07-25: Changed title from \"by 2025\" to \"by the end of 2025\" for clarity",
+  "background": "",
+  "url": "https://manifold.markets/Austin/will-an-ai-get-gold-on-any-internat",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-07-21",
+  "market_value": "0.84",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market value."
+}

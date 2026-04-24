@@ -1,0 +1,21 @@
+{
+  "id": "KR_2025-05-11",
+  "source": "yfinance",
+  "question": "Will KR's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 72.210. (The latest market close price of KR.)",
+  "background": "The Kroger Co. operates as a food and drug retailer in the United States. The company operates combination food and drug stores, multi-department stores, marketplace stores, and price impact warehouses. Its combination food and drug stores offer natural food and organic sections, pharmacies, general merchandise, pet centers, fresh seafood, and organic produce; and its multi-department stores provide apparel, home fashion and furnishings, outdoor living, electronics, automotive products, and toys. The company's marketplace stores offer full-service grocery, pharmacy, health and beauty care, and perishable goods, as well as general merchandise, including apparel, home goods, and toys; and its price impact warehouse stores provide grocery, and health and beauty care items, as well as meat, dairy, baked goods, and fresh produce items. It also manufactures and processes food products for sale in its supermarkets and online; and sells fuel through its fuel centers. The company sells its products through its stores, fuel centers, and online platforms. The Kroger Co. was founded in 1883 and is based in Cincinnati, Ohio.",
+  "url": "https://finance.yahoo.com/quote/KR",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

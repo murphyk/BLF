@@ -1,0 +1,23 @@
+{
+  "id": "CMCSA_2025-03-02",
+  "source": "yfinance",
+  "question": "Will CMCSA's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CMCSA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 35.390. (The latest market close price of CMCSA.)",
+  "background": "Comcast Corporation operates as a media and technology company worldwide. It operates through Residential Connectivity & Platforms, Business Services Connectivity, Media, Studios, and Theme Parks segments. The Residential Connectivity & Platforms segment provides residential broadband and wireless connectivity services, residential and business video services, sky-branded entertainment television networks, and advertising. The Business Services Connectivity segment offers connectivity services for small business locations, which include broadband, wireline voice, and wireless services; and ethernet network services for medium-sized customers and larger enterprises. The Media segment operates NBCUniversal's national and regional cable networks; the NBC and Telemundo broadcast networks and owned local broadcast television stations; and Peacock, a direct-to-consumer streaming services. It also operates international television networks comprising the Sky Sports networks, as well as other digital properties. The Studios segment operates NBCUniversal and Sky film and television studio production and distribution operations. The Theme Parks segment operates Universal theme parks in Orlando, Florida; Hollywood, California; Osaka, Japan; and Beijing, China. The company also offers a consolidated streaming platforms under the Philadelphia Flyers and the Wells Fargo Center arena in Philadelphia, Pennsylvania; and Xumo. Comcast Corporation was founded in 1963 and is headquartered in Philadelphia, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/CMCSA",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

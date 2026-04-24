@@ -1,0 +1,17 @@
+{
+  "id": "STX_2026-01-18",
+  "source": "yfinance",
+  "question": "Will STX's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/STX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 308.260. (The latest market close price of STX.)",
+  "background": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
+  "url": "https://finance.yahoo.com/quote/STX",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

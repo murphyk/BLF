@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>TODO</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+       max-width: 860px; margin: 0 auto; padding: 24px 32px; color: #222;
+       line-height: 1.6; }
+h1 { border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; }
+h2 { margin-top: 36px; color: #2c3e50; }
+h3 { color: #555; }
+hr { border: none; border-top: 1px solid #ddd; margin: 28px 0; }
+code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.92em; }
+pre { background: #1e1e2e; color: #cdd6f4; padding: 14px 18px; border-radius: 6px;
+      overflow-x: auto; font-size: 0.88em; line-height: 1.5; }
+pre code { background: none; padding: 0; }
+blockquote { border-left: 4px solid #e0c060; background: #fffde7; margin: 16px 0;
+             padding: 10px 16px; border-radius: 0 4px 4px 0; }
+blockquote p { margin: 4px 0; }
+ul, ol { padding-left: 24px; }
+li { margin: 4px 0; }
+a { color: #2980b9; }
+table { border-collapse: collapse; margin: 12px 0; font-size: 0.92em; }
+th, td { border: 1px solid #ddd; padding: 6px 12px; }
+th { background: #f5f5f5; text-align: left; }
+img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin: 8px 0; }
+h1 .anchor, h2 .anchor, h3 .anchor, h4 .anchor {
+    text-decoration: none; color: #ccc; margin-left: 6px; font-size: 0.8em;
+}
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor {
+    color: #2980b9;
+}
+
+</style>
+</head><body>
+<h1 id="todo">TODO</h1>
+<p>Tracked items for the paper and codebase. Check off when done.</p>
+<h2 id="before-next-experiment-run">Before next experiment run</h2>
+<ul>
+<li>[ ] Change early-submit threshold from 0.03 to 0.1 in prompts.py</li>
+<li>[ ] Consider relative-to-reference metric plot (user-specified baseline)</li>
+</ul>
+<h2 id="paper-docsnips26maintex">Paper (docs/nips26/main.tex)</h2>
+<ul>
+<li>[ ] Write intro section</li>
+<li>[ ] Write system description sections (agent loop, belief state, tools, search)</li>
+<li>[ ] Write related work section</li>
+<li>[ ] Write conclusion</li>
+<li>[ ] Fill in main results table (after tranche-a)</li>
+<li>[ ] Fill in mixed effects table (after tranche-a)</li>
+<li>[ ] Fill in leakage audit confusion matrix</li>
+<li>[ ] Report backtesting-live rank correlation</li>
+<li>[ ] Report clairvoyant BI vs backtesting BI per source</li>
+<li>[ ] Report improvement from seasonal analysis on dbnomics</li>
+<li>[ ] Create belief trace figure (select good example question)</li>
+<li>[ ] Create agent trace figure (select interesting question)</li>
+<li>[ ] Create BI by source composite figure</li>
+<li>[ ] Add calibration curves figure (from tranche-a)</li>
+<li>[ ] Describe Qtype adaptive policy (currently TODO in tex)</li>
+</ul>
+<h2 id="documentation-docsworkflow">Documentation (docs/workflow)</h2>
+<ul>
+<li>[ ] Add better calibration plots to workflow.md (derived from tranche)</li>
+</ul>
+<h2 id="code-improvements">Code improvements</h2>
+<ul>
+<li>[ ] Allow agent to choose starting date for fetch_ts tools.</li>
+<li>[ ] Show injected per-step messages in trace HTML files</li>
+<li>[ ] Relative-to-reference metric plot (paired test visualization)</li>
+<li>[ ] Improve show_prompts to diff prompts across configs</li>
+<li>[ ] Fix calibration curve binning (use 5 bins for n&lt;150)</li>
+<li>[ ] Add <code>--refresh</code> to fb_leaderboard for auto-redownload</li>
+<li>[ ] Create question_analyzer, which examines all the questions in an exam using an LLM, and tries to find a small number of patterns or templates that describe each source, eg for dbnomics, all questions have the form "What is the probability that the daily average temperature at the French weather station at X will be higher on each resolution date listed below than on Y".</li>
+<li>[ ] Add support for https://prophetarena.co/</li>
+</ul>
+<h2 id="experiments">Experiments</h2>
+<ul>
+<li>[ ] Run tranche-a1 (in progress, ~2h)</li>
+<li>[ ] Run tranche-a2 (after a1 passes smoke test)</li>
+<li>[ ] Run tranche-b (if a results are strong)</li>
+<li>[ ] Run aggregation variants (mean:1, mean:5, shrink:5) on tranche-a</li>
+<li>[ ] Run hierarchical calibration on tranche-a</li>
+<li>[ ] Run leak detective on tranche-a</li>
+<li>[ ] Run mixed effects analysis on tranche-a</li>
+<li>[ ] Cache data tool lookups (fetch_ts_*) to disk so repeated calls with same params are instant. Key: (source, series_id/url, end_date) -&gt; CSV result. Would make fb_make_data --lookup-dataset-ref-values fast on reruns, and speed up multi-trial predictions.</li>
+<li>[ ] Consider running fb_make_data --lookup-dataset-ref-values by default (with caching), so question files have the actual forecast-date value, not just the stale value from question creation.</li>
+<li>[ ] Fetch more history for seasonal analysis: dbnomics currently 2 years (2 prior-year comparisons), yfinance 1 year (0-1), fred 1 year (0-1). Consider fetching 5+ years. Let agent choose start_date.</li>
+<li>[ ] Better statistical models for time-series forecasting tool:</li>
+<li>Current: linear trend + same-period-in-prior-years + source-specific shrinkage</li>
+<li>Available data: yfinance ~250 daily pts (1yr), dbnomics ~730 daily pts (2yr), fred varies</li>
+<li>Options to explore (evaluate via LOO outside LLM framework):<ul>
+<li>Linear regression with periodic basis functions (sin/cos at annual, semi-annual)</li>
+<li>Gaussian processes with empirical Bayes for frequency params</li>
+<li>Prophet (already in v4/predict_baseline.py — didn't work well, but worth revisiting)</li>
+<li>Simple seasonal decomposition (STL)</li>
+</ul>
+</li>
+<li>Once we have a good model, wrap it as a tool that returns P(exceed) with calibrated CI</li>
+<li>[ ] As a perturbation analysis, consider forcing the belief state.p to be equal to the true outcome at some step during the trace. What does the agent do in response to this external intervention? Does it immediately call submit? Does it try to reconcile its sudden change in beliefs?</li>
+<li>[ ] Consider asking the negation of each question eg "Will X be bigger than Y" becomes "Will X be smaller than Y". Ask both versions and call the results p and q. We should have p=1-q. We can check for deviations from this, and also consider returning the average, 0.5(p+q). This will require using question_analyzer above to figure out what the template is, and thus how to negate it.</li>
+</ul>
+<script>
+document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]').forEach(h => {
+    const a = document.createElement('a');
+    a.className = 'anchor'; a.href = '#' + h.id; a.textContent = '#';
+    h.appendChild(a);
+});
+</script>
+
+</body></html>

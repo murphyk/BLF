@@ -1,0 +1,23 @@
+{
+  "id": "RL_2025-03-02",
+  "source": "yfinance",
+  "question": "Will RL's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 282.630. (The latest market close price of RL.)",
+  "background": "Ralph Lauren Corporation designs, markets, and distributes lifestyle products in North America, Europe, Asia, and internationally. The company offers apparel, including a range of men's, women's, and children's clothing; footwear and accessories, which comprise casual shoes, dress shoes, boots, sneakers, sandals, eyewear, watches, fashion and fine jewelry, scarves, hats, gloves, and umbrellas, as well as leather goods, such as handbags, luggage, small leather goods, and belts; home products consisting of bed and bath lines, furniture, fabric and wallcoverings, floor coverings, lighting, tabletop, kitchen linens, floor coverings, dining, decorative accessories, and giftware; and fragrances. It sells apparel and accessories under the Ralph Lauren Collection, Ralph Lauren Purple Label, Polo Ralph Lauren, Double RL, Lauren Ralph Lauren, Polo Golf Ralph Lauren, Ralph Lauren Golf, RLX Ralph Lauren, Polo Ralph Lauren Children, and Chaps brands; women's fragrances under the Ralph Lauren Collection, Woman by Ralph Lauren, Romance Collection, and Ralph Collection brand names; and men's fragrances under the Ralph's Club, Purple Label, Polo Blue, Polo Red, Polo Green, Polo Black, Polo 67, Safari, Polo Sport, and Big Pony Men's brand names. The company's restaurant collection includes The Polo Bar in New York City; RL Restaurant in Chicago; Ralph's in Paris; The Bar at Ralph Lauren located in Milan; Ralph's Bar located in Chengdu, China; and Ralph's Coffee concept. It sells its products to department stores, specialty stores, and golf and pro shops, as well as directly to consumers through its retail stores, concession-based shop-within-shops, and its digital commerce sites. The company directly operates retail stores and concession-based shop-within-shops; and operates Ralph Lauren stores and stores and shops through licensing partners. Ralph Lauren Corporation was founded in 1967 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/RL",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

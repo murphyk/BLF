@@ -1,0 +1,15 @@
+{
+  "id": "1363_2025-03-02",
+  "source": "infer",
+  "question": "Will Myanmar hold national elections before 1 July 2025?",
+  "resolution_criteria": "This question will only resolve once voting has begun for a nationwide general election (including early voting) or the 1 July 2025 deadline has passed. It will not resolve on an official announcement of an election date. This question will resolve as \"yes\" if election voting occurs anywhere in the country, even if voting is canceled in some locations.",
+  "background": "The chief of Myanmar\u2019s military junta, Min Aung Hlaing, declared that the country would hold elections by August 2023 as part of a broader pledge to restore democracy in the country ( Deutsche Welle ). However, the junta extended the state of emergency for six months in February 2023 and again in July 2023, delaying elections beyond 2023 ( AP News ). Officials have stated that the election may not occur until a nationwide census is completed in 2024 ( ABC Australia ). Additional Reading: Myanmar's Precipice: The Stalemate and Internal Strife Compelling the Military toward an Election (Center for Strategic and International Studies) Pilot opposition suggests no meaningful census for Myanmar polls (Radio Free Asia)",
+  "url": "https://www.randforecastinginitiative.org/questions/1363",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-01",
+  "market_value": "0.0125",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The crowd forecast."
+}

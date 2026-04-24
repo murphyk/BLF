@@ -1,0 +1,15 @@
+{
+  "id": "0x8c866938d6598760f8d18bd624d6ba822b79f7e23604573f52cf8e769614fa5e_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Robert Negoi\u021b\u0103 be the next Mayor of Bucharest?",
+  "resolution_criteria": "Nicu\u0219or Dan, the current Mayor of Bucharest, was elected President of Romania on May 18, 2025, triggering a mayoral by-election expected within 90 days of his departure.\n\nThis market will resolve according to the candidate who wins the 2025 Bucharest mayoral by-election to become the next elected Mayor of Bucharest. \n\nTemporary, interim, or placeholder mayors appointed before the by-election will not be considered. \n\nIf no by-election takes place by July 31, 2026, this market will resolve to \u201cOther.\u201d\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Romanian Government, specifically the Permanent Electoral Authority (https://www.roaep.ro/prezentare/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-robert-negoi-be-the-next-mayor-of-bucharest",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-07",
+  "market_value": "0.004",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

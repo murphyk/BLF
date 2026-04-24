@@ -1,0 +1,19 @@
+{
+  "id": "FRT_2025-11-23",
+  "source": "yfinance",
+  "question": "Will FRT's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FRT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 97.650. (The latest market close price of FRT.)",
+  "background": "Federal Realty is a recognized leader in the ownership, operation and redevelopment of high-quality retail-based properties located primarily in major coastal markets and select underserved regions with strong economic and demographic fundamentals. Founded in 1962, Federal Realty's mission is to deliver long-term, sustainable growth through investing in communities where retail demand exceeds supply. This includes a portfolio of open-air shopping centers and mixed-use destinations\u0097such as Santana Row, Pike & Rose and Assembly Row\u0097which together reflect the company's ability to create distinctive, high-performing environments that serve as vibrant destinations for their communities. Federal Realty's 103 properties include approximately 3,600 tenants in 27.9 million commercial square feet, and approximately 3,000 residential units. Federal Realty has increased its quarterly dividends to its shareholders for 58 consecutive years, the longest record in the REIT industry. The company is an S&P 500 index member, and its shares are traded on the NYSE under the symbol FRT.",
+  "url": "https://finance.yahoo.com/quote/FRT",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

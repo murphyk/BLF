@@ -1,0 +1,15 @@
+{
+  "id": "34838_2025-03-16",
+  "source": "metaculus",
+  "question": "Will the US officially announce the withdrawal of at least half of its troops out of Syria before April, 2025?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before April 1, 2025, either of the following has happened:\n\n* the US has officially announced that a plan to withdraw at least half of the US troops stationed in Syria will be set in motion\n* such a withdrawal has already taken place, according to [credible sources](https://www.metaculus.com/faq/#definitions).",
+  "background": "According to [NBC](https://www.nbcnews.com/politics/national-security/dod-drafting-plans-withdraw-us-troops-syria-recent-trump-comments-rcna190726), the US Department of Defense is drafting plans for a full withdrawal of American troops from Syria following renewed interest from Donald Trump. The proposed withdrawal could occur within 30, 60, or 90 days, though officials emphasise that no final decision has been made. Trump had briefly removed US forces from Syria in the past, however he quickly reinstated them and as of early 2025, approximately 2,000 personnel are stationed there (1,100 troops as \"temporary rotational forces\" and 900 as \"core troops\"). The US military mission in Syria has been to counter ISIS and support local military groups, such as the Kurdish-led Syrian Democratic Forces (SDF). A withdrawal could jeopardize these efforts, particularly regarding the security of detention facilities housing thousands of ISIS fighters.",
+  "url": "https://www.metaculus.com/questions/34838",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.25",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0ro1dbilJ4pRABnZPNE3_2026-04-12",
+  "source": "manifold",
+  "question": "Was Alexei Navalny killed [see description]?",
+  "resolution_criteria": "Killed is meant in a narrow sense here. It can be argued that imprisoning Navalny and putting him in harsh conditions already constitutes murder. However, this market is about the immediate cause of Navalny's death. \n\nThis resolves \"yes\" once there is convincing evidence that the Russian authorities wanted Navalny to die at that particular time and took successful steps to this aim (e.g. by poisoning him). For reference, I regard the evidence for Navalny's poisoning in 2020 to be convincing; I will use consensus in Western media to decide. Reasons like extended solitary confinement or insufficient medical care do not count, even if they contributed or led to Navalny's death, if they did not seem to aim at killing him there and then.\n\nThe market resolves \"no\" if there is no convincing evidence by the end of 2025.\n\nIf there is some evidence, but it isn't conclusive (there is no consensus), I will resolve at 50%.\n\nUPD. Given the recent Joint Statement by the UK, Sweden, France, Germany and The Netherlands on Alexei Navalny's death, I'm extending the deadline until mid-2026 to see if any counterevidence turns up. If it doesn't, I expecto to resolve \"Yes\".",
+  "background": "",
+  "url": "https://manifold.markets/PS/was-alexei-navalny-killed-see-descr",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.7462646794416911",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

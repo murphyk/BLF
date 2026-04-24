@@ -1,0 +1,14 @@
+{
+  "id": "0x1d395b8dea9dd429fbce85f8b8cbd5aa85ec8a2e8980755756be3eec03da5b9a_2025-10-26",
+  "source": "polymarket",
+  "question": "Will the Kansas City Chiefs win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Kansas City Chiefs win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-kansas-city-chiefs-win-super-bowl-2026",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-08",
+  "market_value": "0.125",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

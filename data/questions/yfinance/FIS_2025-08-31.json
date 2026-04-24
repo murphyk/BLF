@@ -1,0 +1,21 @@
+{
+  "id": "FIS_2025-08-31",
+  "source": "yfinance",
+  "question": "Will FIS's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FIS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 69.760. (The latest market close price of FIS.)",
+  "background": "Fidelity National Information Services, Inc. engages in the provision of financial services technology solutions for financial institutions, businesses, and developers worldwide. It operates through Banking Solutions, Capital Market Solutions, and Corporate and Other segments. The company provides core processing and ancillary applications; mobile and online banking; fraud, risk management, and compliance; card and retail payment; electronic funds transfer and network; wealth and retirement; and item processing and output solutions. It also offers trading and asset, lending, leveraged and syndicated loan markets, and treasury and risk solutions. Fidelity National Information Services, Inc. was founded in 1968 and is headquartered in Jacksonville, Florida.",
+  "url": "https://finance.yahoo.com/quote/FIS",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

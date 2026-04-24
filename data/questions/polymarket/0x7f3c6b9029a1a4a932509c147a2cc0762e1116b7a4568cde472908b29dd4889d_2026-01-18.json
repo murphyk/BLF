@@ -1,0 +1,14 @@
+{
+  "id": "0x7f3c6b9029a1a4a932509c147a2cc0762e1116b7a4568cde472908b29dd4889d_2026-01-18",
+  "source": "polymarket",
+  "question": "Will the U.S. invade Venezuela by January 31, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States commences a military offensive intended to establish control over any portion of Venezuela between November 3, 2025, and January 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by Venezuela or the United States as of September 6, 2025, 12:00 PM ET, will be considered the sovereign territory of that country.\n\nThe resolution source for this market will be a consensus of credible sources.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-invade-venezuela-by-january-31-2026",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-01",
+  "market_value": "0.0485",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "35345_2026-04-12",
+  "source": "metaculus",
+  "question": "Will an AI shopping agent service achieve significant commercial deployment by December 31, 2026?",
+  "resolution_criteria": "This question resolves positively if by December 31, 2026, there is clear public evidence that an AI agent system has achieved any of the following:\n\n* Public announcement by a major technology company (market cap >\\$10B at the time of the announcement) of an AI shopping service that has completed at least 100,000 transactions.\n* SEC filings or earnings reports showing revenue or transaction volume specifically attributed to autonomous AI shopping agents\n* Verified media coverage documenting deployment of AI shopping agents serving at least 10,000 monthly active users\n* Patent filings or technical documentation showing actual deployment data for autonomous purchasing systems.\n\nThe AI agent must autonomously perform at least three of these functions:\n\n* Search and compare prices across multiple vendors\n* Make product recommendations based on user preferences\n* Complete purchases using authorized payment methods\n* Track orders and delivery status\n* Handle basic customer service interactions",
+  "background": "[*Hannah Rosenberg*](https://pr.linkedin.com/in/hannahmr) *provided this question for their talk* Bitcoin + AI *at Foresight Institute's* [*Vision Weekend 2025*](https://foresight.org/vw2025pr/)*. Learn more in the* [*Foresight Community*](https://www.metaculus.com/c/foresight/)*.*\n\nSeveral major technology companies and startups are developing AI agents capable of autonomously making purchases on behalf of users. These range from simple price comparison tools to more sophisticated agents that can understand preferences, negotiate deals, and complete transactions.",
+  "url": "https://www.metaculus.com/questions/35345",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9500000000000001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CNC_2025-03-02",
+  "source": "yfinance",
+  "question": "Will CNC's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CNC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 56.860. (The latest market close price of CNC.)",
+  "background": "Centene Corporation operates as a healthcare enterprise that provides programs and services to under-insured and uninsured families, commercial organizations, and military families in the United States. The company operates through Medicaid, Medicare, Commercial, and Other segments. The Medicaid segment offers health plan coverage, including medicaid expansion, aged, blind, disabled, children's health insurance program, foster care, medicare-medicaid plans, long-term services and support. This segment also provides healthcare products. The Medicare segment offers special needs and medicare supplement, and prescription drug plans. The Commercial segment provides health insurance marketplace product for individual, small, and large group commercials. It also operates clinical healthcare and pharmacies, as well as offers dental and speech therapy services. In addition, the company engages in the government contracts business under the TRICARE program and other healthcare related government contracts. It provides services through primary and specialty care physicians, hospitals, and ancillary providers. Centene Corporation was founded in 1984 and is headquartered in Saint Louis, Missouri.",
+  "url": "https://finance.yahoo.com/quote/CNC",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

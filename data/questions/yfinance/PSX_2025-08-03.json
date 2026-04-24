@@ -1,0 +1,21 @@
+{
+  "id": "PSX_2025-08-03",
+  "source": "yfinance",
+  "question": "Will PSX's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PSX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 127.850. (The latest market close price of PSX.)",
+  "background": "Phillips 66 operates as an energy manufacturing and logistics company in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment transports crude oil and other feedstocks; delivers refined petroleum products to market; provides terminaling and storage services for crude oil and refined petroleum products; gathers, processes, transports, and markets natural gas; transports, fractionates, markets, and exports natural gas liquids. The Chemicals segment produces and markets ethylene and other olefin products; aromatics and styrenics products, such as benzene, cyclohexane, styrene, and polystyrene; and various specialty chemical products, including organosulfur chemicals, solvents, catalysts, and chemicals used in drilling and mining. The Refining segment refines crude oil and other feedstocks into petroleum products, such as gasolines, distillates, and aviation fuels. The M&S segment purchases for resale and markets refined petroleum products, including gasolines, distillates, and aviation fuels. This segment also manufactures and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oils. The Renewable Fuels segment processes renewable feedstocks into renewable products. This segment also procures renewable feedstocks, manage certain regulatory credits, and market renewable diesel, renewable jet fuel and other renewable fuels. The company markets its products through Phillips 66, Conoco and 76, JET, Kendall, Red Line, and other private label brands. Phillips 66 was founded in 1875 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/PSX",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

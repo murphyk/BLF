@@ -1,0 +1,19 @@
+{
+  "id": "CARR_2026-01-04",
+  "source": "yfinance",
+  "question": "Will CARR's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CARR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 53.500. (The latest market close price of CARR.)",
+  "background": "Carrier Global Corporation provides intelligent climate and energy solutions in the United States, Europe, the Asia Pacific, and internationally. It operates in two segments, Heating, Ventilating and Air Conditioning (HVAC), and Refrigeration. The HVAC segment provides products, controls, services, and solutions to meet the heating, cooling, and ventilation needs of residential and commercial customers. Its products include air conditioners, heating systems, heat pumps, building automation systems, aftermarket components, and repair and maintenance services and rentals, as well as modernization and upgrades. The Refrigeration segment offers transport refrigeration and monitoring products, services, and digital solutions for trucks, trailers, shipping containers, and intermodal and rail applications. The company offers its products under the Carrier, Viessmann, Toshiba, Automated Logic, Bryant, CIAT, Day & Night, Heil, NORESCO, Riello, Carrier Transicold, and Sensitech brands. The company was incorporated in 2019 and is headquartered in Palm Beach Gardens, Florida.",
+  "url": "https://finance.yahoo.com/quote/CARR",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

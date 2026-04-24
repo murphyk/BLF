@@ -1,0 +1,15 @@
+{
+  "id": "0x5374a734024814a7e91a50b025cf0924bcf99756f40384beb260ede9322ca28f_2025-08-17",
+  "source": "polymarket",
+  "question": "US-Iran nuclear deal in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if an official agreement over Iranian nuclear research and/or nuclear weapon development, defined as a publicly announced mutual agreement, is reached between the United States and Iran between February 4, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf such an agreement is officially reached before the resolution date, this market will resolve to \"Yes\", regardless of if/when the agreement goes into effect.\n\nAgreements that include the United States and Iran as parties, even if they also involve other countries (e.g., a multilateral deal like the JCPOA), will qualify for resolution.\n\nThe primary resolution source for this market will be an official announcement by the United States and/or the Islamic Republic of Iran, however an overwhelming consensus of credible reporting confirming an agreement has been reached will also qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-x-iran-nuclear-deal-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.165",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

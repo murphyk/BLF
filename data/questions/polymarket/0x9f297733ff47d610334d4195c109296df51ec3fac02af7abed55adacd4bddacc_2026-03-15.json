@@ -1,0 +1,14 @@
+{
+  "id": "0x9f297733ff47d610334d4195c109296df51ec3fac02af7abed55adacd4bddacc_2026-03-15",
+  "source": "polymarket",
+  "question": "Will USA win the 2026 World Baseball Classic?",
+  "resolution_criteria": "This market will resolve to the team that wins the 2026 World Baseball Classic (WBC). \n\nIf at any point it becomes impossible for a listed team to win the 2026 WBC per the rules of the tournament (e.g., they are eliminated in the playoffs), the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 WBC tournament is cancelled, postponed after March 31, 2026 ET, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from the tournament organizer (https://www.mlb.com/world-baseball-classic); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-usa-win-the-2026-world-baseball-classic",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-17",
+  "market_value": "0.495",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

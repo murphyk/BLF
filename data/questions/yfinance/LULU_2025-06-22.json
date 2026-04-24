@@ -1,0 +1,21 @@
+{
+  "id": "LULU_2025-06-22",
+  "source": "yfinance",
+  "question": "Will LULU's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LULU for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 252.280. (The latest market close price of LULU.)",
+  "background": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China Mainland, Hong Kong, Taiwan, Macau, and internationally. The company offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. It also provides fitness-inspired accessories. The company sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. lululemon athletica inc. was founded in 1998 and is based in Vancouver, Canada.",
+  "url": "https://finance.yahoo.com/quote/LULU",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

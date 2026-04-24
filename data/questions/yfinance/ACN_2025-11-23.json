@@ -1,0 +1,19 @@
+{
+  "id": "ACN_2025-11-23",
+  "source": "yfinance",
+  "question": "Will ACN's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ACN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 246.530. (The latest market close price of ACN.)",
+  "background": "Accenture plc provides strategy and consulting, industry X, song, and technology and operation services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers systems integration and application management; security; intelligent platform; infrastructure; software engineering; data, AI, cloud; and automation and global delivery services. The company also operates business processes for specific enterprise functions, including finance and accounting, sourcing and procurement, supply chain, marketing and sales, and human resources, as well as industry-specific services, such as platform trust and safety, banking, insurance, network and health services; and designs, manufactures, and assembles automation equipment, robotics, and other commercial hardware products. It serves communications, media, and technology; financial services; banking and capital markets, and insurance; health and public service; consumer goods, retail, travel services; industrial; life science; and chemicals, natural resources, energy, and utilities sectors. Accenture plc has collaboration with Amazon Web Services (AWS) to deliver transformative digital services to public sector, defense, and national security organizations. Accenture plc was founded in 1951 and is based in Dublin, Ireland.",
+  "url": "https://finance.yahoo.com/quote/ACN",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

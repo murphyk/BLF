@@ -1,0 +1,21 @@
+{
+  "id": "LVS_2025-04-27",
+  "source": "yfinance",
+  "question": "Will LVS's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LVS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 31.860. (The latest market close price of LVS.)",
+  "background": "Las Vegas Sands Corp., together with its subsidiaries, owns, develops, and operates integrated resorts in Macao and Singapore. The company owns and operates The Venetian Macao Resort Hotel, The Londoner Macao, The Parisian Macao, The Plaza Macao and Four Seasons Hotel Macao, and The Sands Macao in Macao, the People's Republic of China; and Marina Bay Sands in Singapore. Its integrated resorts feature accommodations, gaming, entertainment and retail malls, convention and exhibition facilities, celebrity chef restaurants, and other amenities. The company was founded in 1988 and is based in Las Vegas, Nevada.",
+  "url": "https://finance.yahoo.com/quote/LVS",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

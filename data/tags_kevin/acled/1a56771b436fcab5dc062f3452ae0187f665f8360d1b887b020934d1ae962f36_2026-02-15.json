@@ -1,0 +1,6 @@
+{
+  "category": "Geopolitics & Conflict",
+  "suggested_category": null,
+  "justification": "The question uses ACLED data, which tracks political violence and conflict dynamics, to forecast strategic shifts and potential instability in the Turks and Caicos Islands.",
+  "question": "Will there be more than ten times as many 'Strategic developments' in Turks and Caicos Islands for the 30 days before each resolution date listed below compared to one plus the 30-day average of 'Strategic developments' over the 360 days preceding 2026-02-15?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Strategic developments'\n2023-11-11,1\n2023-10-10,2\nto calculate one plus the 30-day average of 'Strategic developments' over the preceding 360 days, we\u2019d have: 1+(1+2)/12=1.25.\n\nIn this example, for the question to resolve positively, 13 (10 x 1.25) or more 'Strategic developments' would need to occur in the 30 days leading up to the resolution."
+}

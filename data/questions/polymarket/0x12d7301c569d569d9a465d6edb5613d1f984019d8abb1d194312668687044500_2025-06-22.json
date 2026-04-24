@@ -1,0 +1,15 @@
+{
+  "id": "0x12d7301c569d569d9a465d6edb5613d1f984019d8abb1d194312668687044500_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Trump acquire Greenland before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States officially announces that Greenland will come under US sovereignty by June 30, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nSovereignty is defined as the transfer of the majority of the territory of Greenland from its current status as an autonomous territory within the Kingdom of Denmark to being under the formal governance or jurisdiction of the United States, either as a state, territory, or other classification within the US system.\n\nAn official announcement made by the United States and Denmark that Greenland will come under US sovereignty will qualify, even if the actual transfer of sovereignty is yet to occur. Only announcements of official agreements or actions (e.g. executive order, signed legislation, etc.) will count - mere posts on Social Media will not.\n\nThe resolution source for this market will be official information from the governments of the US, Greenland, and Denmark , however a consensus of credible reporting confirming that Greenland has come under U.S. sovereignty will also qualify. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-acquire-greenland-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.0035",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

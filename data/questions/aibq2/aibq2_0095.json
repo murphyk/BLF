@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0095",
+  "source": "aibq2",
+  "question": "Will Senator John Fetterman cease caucusing with the Democrats before July 1, 2025?",
+  "title_hash": "537d88f305dad37c",
+  "background": "[Fetterman says he won\u2019t resign, gets support from McCormick as article blowback continues](https://www.pennlive.com/news/2025/05/fetterman-says-he-wont-resign-gets-support-from-mccormick-as-article-blowback-continues.html) | [An isolated, angry Fetterman is yet another challenge for Democrats](https://www.washingtonpost.com/politics/2025/05/16/john-fetterman-senate-relationships/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, John Fetterman ceases caucusing with the [Senate Democrats](https://www.democrats.senate.gov/about-senate-dems/our-caucus) for any reason, whether because he switches parties, resigns, or any other reason.",
+  "url": "https://www.pennlive.com/news/2025/05/fetterman-says-he-wont-resign-gets-support-from-mccormick-as-article-blowback-continues.html",
+  "forecast_due_date": "2025-05-29",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

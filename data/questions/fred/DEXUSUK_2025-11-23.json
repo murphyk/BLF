@@ -1,0 +1,19 @@
+{
+  "id": "DEXUSUK_2025-11-23",
+  "source": "fred",
+  "question": "Will the spot exchange rate of US dollars to UK pound sterling have increased by each resolution date listed below as compared to its value on 2025-11-23?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DEXUSUK once the data is published.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 1.317. (The latest value released in U.S. Dollars to U.K. Pound Sterling Spot Exchange Rate from the release H.10 Foreign Exchange Rates.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h10/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: Noon buying rates in New York City for cable transfers payable in foreign currencies..  Additional background of the series:  1. the units of the series: U.S. Dollars to One U.K. Pound Sterling.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DEXUSUK",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

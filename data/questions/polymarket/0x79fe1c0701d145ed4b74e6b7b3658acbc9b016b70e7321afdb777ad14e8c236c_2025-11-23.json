@@ -1,0 +1,14 @@
+{
+  "id": "0x79fe1c0701d145ed4b74e6b7b3658acbc9b016b70e7321afdb777ad14e8c236c_2025-11-23",
+  "source": "polymarket",
+  "question": "U.S. recognizes Russian sovereignty over Crimea in 2025? ",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the U.S. government formally recognizes Russian sovereignty over the majority of the Crimean peninsula by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nDonald Trump's March 25, 2019, recognition of Israel's sovereignty over the Golan Heights is an example of a qualifying action. \n\nStatement of intents, or announcements of planned recognition will not qualify. \n\nThe resolution source for this market will be the U.S. Government, however a consensus of credible reporting may also be used. \n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-recognize-russian-sovereignty-over-crimea-in-2025",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.029",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

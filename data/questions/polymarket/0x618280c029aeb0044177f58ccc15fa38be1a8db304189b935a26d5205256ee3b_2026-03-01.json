@@ -1,0 +1,14 @@
+{
+  "id": "0x618280c029aeb0044177f58ccc15fa38be1a8db304189b935a26d5205256ee3b_2026-03-01",
+  "source": "polymarket",
+  "question": "Will France win the 2026 Six Nations championship?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2026 Six Nations Championship. \n\nIf at any point it becomes impossible for a listed team to win the 2026 Six Nations Championship per the rules of the tournament (e.g., they are mathematically eliminated), the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 Six Nations Championship is cancelled, postponed after March 31, 2026 ET, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nIf multiple teams are declared champions, this market will resolve in favor of the team whose listed team name comes first alphabetically.\n\nThe primary resolution source will be official information from the tournament organizer (https://www.sixnationsrugby.com/); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-france-win-the-2026-six-nations-championship",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-14",
+  "market_value": "0.85",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

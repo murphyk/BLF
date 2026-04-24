@@ -1,0 +1,17 @@
+{
+  "id": "FTV_2026-02-15",
+  "source": "yfinance",
+  "question": "Will FTV's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FTV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 60.120. (The latest market close price of FTV.)",
+  "background": "Fortive Corporation designs, develops, manufactures, and markets products, software, and services in the United States, China, and internationally. It operates through Intelligent Operating Solutions and Advanced Healthcare Solutions segments. The Intelligent Operating Solutions segment provides advanced instrumentation, software, and services, including electrical test and measurement, facility and asset lifecycle software applications, and connected worker safety and compliance solutions for manufacturing, process industries, healthcare, utilities and power, communications and electronics, and other industries. This segment markets its products and services under the ACCRUENT, FLUKE, GORDIAN, INDUSTRIAL SCIENTIFIC, INTELEX, PRUFTECHNIK, and SERVICECHANNEL brand names. The Advanced Healthcare Solutions segment provides critical workflow solutions comprising instrument sterilization, instrument tracking, design and manufacture of cell therapy equipment, biomedical test tools, radiation detection and safety monitoring, and end-to-end clinical productivity software and solutions under the ASP, CENSIS, CENSITRAC, EVOTECH, FLUKE BIOMEDICAL, INVETECH, LANDAUER, PROVATION, RAYSAFE, and STERRAD brand names. Fortive Corporation was incorporated in 2015 and is headquartered in Everett, Washington.",
+  "url": "https://finance.yahoo.com/quote/FTV",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x553e544e90a507cbda445ff4e625d664d1693ca7ab2b2cb1c911bcdce5a97d5d_2025-06-08",
+  "source": "polymarket",
+  "question": "Will Donald Trump visit Canada in 2025?",
+  "resolution_criteria": "If U.S. President Donald Trump visits a listed country between January 15 and December 31, 2025 11:59 PM ET, the relevant market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nFor the purpose of this market, a \"visit\" is defined as Trump physically entering the terrestrial or maritime territory of the listed country. Whether or not Trump enters the country's airspace during the timeframe of this market will have no bearing on a positive resolution.\n\nThe primary resolution source for this information will be official information from government of the United States of America, official information from Trump or released by his verified social media accounts (e.g. https://twitter.com/POTUS), however, a consensus of credible reporting will also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/which-countries-will-donald-trump-visit-in-2025-will-donald-trump-visit-canada-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-16",
+  "market_value": "0.977",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

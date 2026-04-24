@@ -1,0 +1,15 @@
+{
+  "id": "0x8efb4c843e360d922a27c2afbd5ad671ee44772c2d84fa113549d82d7cfc3e0b_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Barcelona win the treble?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if FC Barcelona wins the the 2024-25 La Liga title, the Copa del Rey, and the UEFA Champions League. Otherwise, this market will resolve to \"No\".\n\nIf it becomes impossible for Barcelona to win any of these competitions based on the rules of the competition, this market will resolve to \"No\".\n\nSupercopa de Espa\u00f1a, UEFA Super Cup, and FIFA Club World Cup do not count toward the treble. \n\nThe resolution source will be a consensus of credible sports reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-barcelona-win-the-treble",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-07",
+  "market_value": "0.215",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

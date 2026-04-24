@@ -1,0 +1,14 @@
+{
+  "id": "zQ1e9iEqFv4BDjq2Bytg_2026-04-12",
+  "source": "manifold",
+  "question": "Will there be an AI smartphone brought to market by 2027?",
+  "resolution_criteria": "Will a consumer smartphone be brought to market by 2027 (Dec 31 2026) that is built from the ground up with generative AI features?\n\nRequirements:\n\nRuns an LLM locally.\n\nVoice input to activate AI assistant.\n\nAI call transcription, voice recording and summarizing capabilities.\n\nAI search runs on notes, photo gallery, files, etc.\n\nSamsung has rolled out a number of preliminary AI features under the Galaxy AI brand. Apple has promised generative AI features in 2024. \n\nHowever, this market seeks a smartphone that is designed to run AI locally, privately, and constantly, allowing AI to organize the user's data in the background and surface it when needed. ",
+  "background": "",
+  "url": "https://manifold.markets/SimranRahman/will-there-be-an-ai-smartphone-brou",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.7892652721302521",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

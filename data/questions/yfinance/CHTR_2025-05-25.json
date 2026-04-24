@@ -1,0 +1,21 @@
+{
+  "id": "CHTR_2025-05-25",
+  "source": "yfinance",
+  "question": "Will CHTR's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CHTR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 394.240. (The latest market close price of CHTR.)",
+  "background": "Charter Communications, Inc. operates as a broadband connectivity and cable operator company serving residential and commercial customers in the United States. The company offers subscription-based internet, video, and mobile and voice services; a suite of broadband connectivity services, including fixed internet, WiFi, and mobile; advanced WiFi services; Spectrum internet products; in-home WiFi, which provides customers with high performance wireless routers and managed WiFi services to enhance their wireless internet experience; and out-of-home WiFi and Spectrum WiFi services. It also offers wireline voice communications services using voice over internet protocol technology; and broadband communications solutions, such as internet access, data networking, fiber connectivity, video entertainment, and business telephone services to cellular towers and office buildings for business and carrier organizations. In addition, the company provides mobile services; Audience App to create data-driven linear TV campaigns for local advertisers; and video programming, static IP and business WiFi, voice, and e-mail and security services, as well as sells local advertising across various platforms for networks, such as TBS, CNN, and ESPN; and advertising inventory to local sports and news channels. Further, it offers communications products and managed service solutions; data connectivity services to mobile and wireline carriers on a wholesale basis; and Spectrum community solutions that delivers broadband connectivity solutions to apartments, single-family gated communities, off-campus student housing, senior residences, and RV parks and marinas, as well as owns and operates regional sports networks and news channels. The company was founded in 1993 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/CHTR",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

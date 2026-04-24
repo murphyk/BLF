@@ -1,0 +1,15 @@
+{
+  "id": "0x9107ead2f3c70967b3f792e7a96fceb49ad5e2af454b05996356e8a40de573c5_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Solana reach $300 in April?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Solana (SOLUSDT) between April 1, 2025, 00:00 and April 30, 2025, 23:59 in the ET timezone has a final \"High\" price of $300.00 or higher. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the SOLUSDT \"High\" prices available at https://www.binance.com/en/trade/SOL_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance SOLUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-solana-reach-300-in-april",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.003",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

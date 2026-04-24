@@ -1,0 +1,23 @@
+{
+  "id": "DOC_2025-03-30",
+  "source": "yfinance",
+  "question": "Will DOC's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DOC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 20.430. (The latest market close price of DOC.)",
+  "background": "Healthpeak Properties, Inc. is a fully integrated real estate investment trust (REIT) and S&P 500 company. Healthpeak owns, operates, and develops high-quality real estate focused on healthcare discovery and delivery.",
+  "url": "https://finance.yahoo.com/quote/DOC",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

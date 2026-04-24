@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_d1988113",
+  "source": "aibq2",
+  "question": "Will Casey DeSantis announce her candidacy for Florida governor before July 1, 2025?",
+  "background": "[Poll: Trump's endorsement boosts Byron Donalds over Casey DeSantis for Florida governor](https://www.tallahassee.com/story/news/local/state/2025/05/09/poll-byron-donalds-surges-past-casey-desantis-with-trump-backing/83412367007/)",
+  "resolution_criteria": "This question resolves as **Yes** if Casey DeSantis announces her candidacy for governor of Florida before July 1, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://www.tallahassee.com/story/news/local/state/2025/05/09/poll-byron-donalds-surges-past-casey-desantis-with-trump-backing/83412367007/",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

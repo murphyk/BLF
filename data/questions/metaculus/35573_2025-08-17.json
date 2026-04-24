@@ -1,0 +1,15 @@
+{
+  "id": "35573_2025-08-17",
+  "source": "metaculus",
+  "question": "\u00bfCerrar\u00e1 Bitcoin el 2025 m\u00e1s alto de lo que empez\u00f3?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si el precio de Bitcoin al final del 31 de diciembre de 2025 (o el \u00faltimo d\u00eda de registro disponible) supera los 93.429,20\\$, seg\u00fan el valor de Cierre de su\u00a0[<u>p\u00e1gina en CoinMarketCap</u>](https://coinmarketcap.com/currencies/bitcoin/historical-data/). Se resolver\u00e1 como\u00a0**No**\u00a0si es igual o inferior.",
+  "background": "Bitcoin es la criptomoneda m\u00e1s conocida con la mayor capitalizaci\u00f3n de mercado. Su precio es altamente vol\u00e1til y puede fluctuar r\u00e1pidamente debido a factores regulatorios, de demanda y especulativos. En 2024, bitcoin subi\u00f3 aproximadamente un 125%. En 2025, el presidente Donald Trump ha adoptado\u00a0[<u>una postura pro-cripto</u>](https://www.reuters.com/business/finance/trump-signs-order-create-cryptocurrency-working-group-2025-01-23/), emitiendo una orden ejecutiva para promover los activos digitales y explorar nuevas regulaciones. La administraci\u00f3n de Trump tiene como objetivo posicionar a EE.UU. como l\u00edder en tecnolog\u00eda financiera digital, lo que podr\u00eda impulsar las criptomonedas.",
+  "url": "https://www.metaculus.com/questions/35573",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.8",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The community prediction."
+}

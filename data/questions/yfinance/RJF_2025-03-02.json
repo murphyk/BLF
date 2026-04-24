@@ -1,0 +1,23 @@
+{
+  "id": "RJF_2025-03-02",
+  "source": "yfinance",
+  "question": "Will RJF's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/RJF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 159.840. (The latest market close price of RJF.)",
+  "background": "Raymond James Financial, Inc., a diversified financial services company, provides private client group, capital markets, asset management, banking, and other services to individuals, corporations, and municipalities in the United States, Canada, and Europe. The Private Client Group segment offers investment services, portfolio management services, insurance and annuity products, and mutual funds; support to third-party mutual fund and annuity companies, including sales and marketing support, as well as distribution and accounting, and administrative services; margin loans; securities borrowing and lending services; diversification strategies and alternative investment products; and custodial, trade execution, research, and other support and services. The Capital Markets segment provides investment banking services, such as equity and debt underwriting, and merger and acquisition advisory services; and fixed income and equity brokerage services. This segment also offers institutional sales, securities trading, equity research, and the syndication and management of investments in low-income housing funds and funds of a similar nature. The Asset Management segment provides asset management, portfolio management, and related administrative services to retail and institutional clients; and administrative support services, such as record-keeping. The Bank segment offers various types of loans, including securities-based, commercial and industrial, commercial real estate and construction, real estate investment trust, residential mortgage, and tax-exempt loans; insured deposit accounts; retail and corporate deposit; and liquidity management products and services. The Other segment engages in the private equity investments comprising invests in third-party funds. Raymond James Financial, Inc. was founded in 1962 and is headquartered in Saint Petersburg, Florida.",
+  "url": "https://finance.yahoo.com/quote/RJF",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0067",
+  "source": "aibq2",
+  "question": "Will the United States and Iran announce a new nuclear deal before July 1, 2025?",
+  "title_hash": "46e4f6f570949388",
+  "background": "Israeli media (Hebrew): [Senior ministers were informed: There is a high chance that the US and Iran will reach an agreement](https://www.kan.org.il/content/kan-news/politic/895178/)",
+  "resolution_criteria": "This question resolves as **Yes** if the US and Iran sign or announce an agreement with respect to Iran's nuclear program.",
+  "url": "https://www.kan.org.il/content/kan-news/politic/895178/",
+  "forecast_due_date": "2025-05-15",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

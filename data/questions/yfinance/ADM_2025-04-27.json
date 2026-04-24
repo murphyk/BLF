@@ -1,0 +1,21 @@
+{
+  "id": "ADM_2025-04-27",
+  "source": "yfinance",
+  "question": "Will ADM's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ADM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 46.130. (The latest market close price of ADM.)",
+  "background": "Archer-Daniels-Midland Company engages in the procurement, transportation, storage, processing, and merchandising of agricultural commodities, ingredients, flavors, and solutions in the United States, Switzerland, the Cayman Islands, Brazil, Mexico, Canada, the United Kingdom, and internationally. It operates in three segments: Ag Services and Oilseeds; Carbohydrate Solutions; and Nutrition. The company originates, merchandises, stores, and transports agricultural raw materials, such as oilseeds and soft seeds. It engages in the agricultural commodity and feed product import, export, and distribution; and various structured trade finance activities. In addition, the company offers soybean meal and oil; vegetable and salad oils and protein meals; ingredients for the food, feed, energy, and industrial customers; margarine, shortening, and other food products; and partially refined oils to produce biodiesel and glycols for use in chemicals, paints, and other industrial products. Further, it provides peanuts, peanut-derived ingredients, and cotton cellulose pulp; sweeteners, corn and wheat starches, syrup, glucose, wheat flour, and dextrose; alcohol, and other food and animal feed ingredients; ethyl alcohol and ethanol; corn gluten feed and meal; distillers' grains; corn germ; and citric acids. Additionally, the company provides proteins, natural flavors, flavor systems, natural colors, emulsifiers, soluble fiber, polyols, hydrocolloids, probiotics, prebiotics, postbiotics, enzymes, and botanical extracts; and other specialty food and feed ingredients; edible beans; formula feeds, and animal health and nutrition products; and contract and private label pet treats and food products. It also offers futures commission merchant; commodity brokerage services; cash margins and securities pledged to commodity exchange clearinghouse; and cash pledged as security under certain insurance arrangements. The company was founded in 1902 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ADM",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

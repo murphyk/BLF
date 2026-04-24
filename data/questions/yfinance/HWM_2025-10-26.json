@@ -1,0 +1,19 @@
+{
+  "id": "HWM_2025-10-26",
+  "source": "yfinance",
+  "question": "Will HWM's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HWM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 192.270. (The latest market close price of HWM.)",
+  "background": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the United Kingdom, Mexico, Italy, Canada, Poland, China, and internationally. It operates through four segments: Engine Products, Fastening Systems, Engineered Structures, and Forged Wheels. The Engine Products segment offers airfoils and seamless rolled rings primarily for aircraft engines and industrial gas turbines; and rotating and structural parts. The Fastening Systems segment produces aerospace fastening systems, as well as commercial transportation, industrial, and other fasteners; and latches, bearings, fluid fittings, and installation tools. The Engineered Structures segment provides titanium ingots and mill products, aluminum and nickel forgings, and machined components and assemblies for aerospace and defense applications; and titanium forgings, extrusions, and forming and machining services for airframe, wing, aero-engine, and landing gear components. The Forged Wheels segment offers forged aluminum wheels and related products for heavy-duty trucks and commercial transportation markets. The company was formerly known as Arconic Inc. Howmet Aerospace Inc. was founded in 1888 and is based in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/HWM",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xce733629b3b1bea0649c9c9433401295eb8e1ba6d572803cb53446c93d28cd44_2025-10-26",
+  "source": "polymarket",
+  "question": "Will a US ally get a nuke in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if credible reports from international nuclear agencies, a claimant government, or a consensus of credible global news sources officially confirm that a US ally which did not possess nuclear weapons as of March 10, 2025,  possesses a nuclear weapon by December 31, 2025, 11:59 PM ET. \n\nIf a US ally participates in a nuclear sharing agreement that does not include independent control over nuclear weapons, this will not qualify for \"Yes\" resolution. Only full control over an operational nuclear weapon will count. \n\nFor the purposes of this market, a \"US ally\" is defined as a country that is a member of NATO or a Major Non-NATO Ally (https://www.state.gov/major-non-nato-ally-status/) as of March 10. Otherwise, this market will resolve to \"No\".\n\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-a-us-ally-get-a-nuke-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0275",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

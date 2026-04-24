@@ -1,0 +1,15 @@
+{
+  "id": "35262_2025-05-11",
+  "source": "metaculus",
+  "question": "\u00bfTerminar\u00e1 el PSOE el 2025 por delante del PP en el promedio de las encuestas?",
+  "resolution_criteria": "The question will be resolved as **Yes** if, according to the graph of the average of polls for the General Elections in Spain, maintained by [ <u>Politico Poll of Polls</u> ](https://www.politico.eu/europe-poll-of-polls/spain/), the PSOE is ahead of the PP in the average voting intention for December 31, 2025. It will be resolved as **No** if the PP is ahead of the PSOE or if they are tied.",
+  "background": "The Spanish Socialist Workers' Party (PSOE) and the Popular Party (PP) are the two main political parties in Spain. In the general election in July 2023, the PP won with 33.1% of the vote, while the PSOE received 31.7%. Despite coming in second place, the PSOE managed to form a government through coalition agreements. Currently, according to [ <u>Politico's Poll of Polls</u> ](https://www.politico.eu/europe-poll-of-polls/spain/), the PP leads with 34% while the PSOE stands at 28%. There are no general elections scheduled for 2025, so these numbers could fluctuate significantly if an election is called.",
+  "url": "https://www.metaculus.com/questions/35262",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.11",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The community prediction."
+}

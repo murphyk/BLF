@@ -1,0 +1,21 @@
+{
+  "id": "SBAC_2025-08-03",
+  "source": "yfinance",
+  "question": "Will SBAC's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SBAC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 236.910. (The latest market close price of SBAC.)",
+  "background": "SBA Communications Corporation is a leading independent owner and operator of wireless communications infrastructure including towers, buildings, rooftops, distributed antenna systems (DAS) and small cells. With a portfolio of more than 39,000 communications sites throughout the Americas and in Africa, SBA is listed on NASDAQ under the symbol SBAC. Our organization is part of the S&P 500 and one of the top Real Estate Investment Trusts (REITs) by market capitalization.",
+  "url": "https://finance.yahoo.com/quote/SBAC",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

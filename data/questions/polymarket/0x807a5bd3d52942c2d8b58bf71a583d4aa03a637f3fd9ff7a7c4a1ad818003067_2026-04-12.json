@@ -1,0 +1,14 @@
+{
+  "id": "0x807a5bd3d52942c2d8b58bf71a583d4aa03a637f3fd9ff7a7c4a1ad818003067_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Graham Platner be the Democratic nominee for Senate in Maine?",
+  "resolution_criteria": "This market will resolve according to the winner of the Democratic Primary for United States Senator from Maine.\n\nIf no 2026 Maine Democratic Senate Primary takes place, this market will resolve to \"Other\".\n\nThe resolution source for this market will be the first announcement of the results from the Maine Democratic party, however an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-graham-platner-be-the-democratic-nominee-for-senate-in-maine",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.89",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

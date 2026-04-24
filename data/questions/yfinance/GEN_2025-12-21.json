@@ -1,0 +1,19 @@
+{
+  "id": "GEN_2025-12-21",
+  "source": "yfinance",
+  "question": "Will GEN's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GEN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 27.530. (The latest market close price of GEN.)",
+  "background": "Gen Digital Inc. engages in the provision of cyber safety solutions for individuals, families, and small businesses. It offers security and performance management, identity protection, and online privacy, as well as technology platform. The company offers its products under the Norton, Avast, LifeLock, MoneyLion, Avira, AVG, and CCleaner brands. The company was formerly known as NortonLifeLock Inc. and changed its name to Gen Digital Inc. in November 2022. Gen Digital Inc. was founded in 1982 and is headquartered in Tempe, Arizona.",
+  "url": "https://finance.yahoo.com/quote/GEN",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

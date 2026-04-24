@@ -1,0 +1,23 @@
+{
+  "id": "CRM_2025-03-30",
+  "source": "yfinance",
+  "question": "Will CRM's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CRM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 279.390. (The latest market close price of CRM.)",
+  "background": "Salesforce, Inc. provides customer relationship management (CRM) technology that connects companies and customers together worldwide. The company offers Agentforce, an agentic layer of the salesforce platform; Data Cloud; Industries AI; Salesforce Starter, a suite of solution for small and medium-size business; Slack, a workplace communication and productivity platform; Tableau, an end-to-end analytics solution for range of enterprise use cases and intelligent analytics with AI models, spot trends, predict outcomes, creates summaries, timely recommendations, and take action from any device; and MuleSoft, which provides building blocks to deliver end-to-end and connected experiences. It also provides marketing platform; commerce services, which empowers shopping experience across various customer touchpoint; and field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.",
+  "url": "https://finance.yahoo.com/quote/CRM",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

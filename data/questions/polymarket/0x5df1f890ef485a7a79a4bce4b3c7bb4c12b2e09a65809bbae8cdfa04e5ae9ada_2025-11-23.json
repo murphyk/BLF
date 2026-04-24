@@ -1,0 +1,14 @@
+{
+  "id": "0x5df1f890ef485a7a79a4bce4b3c7bb4c12b2e09a65809bbae8cdfa04e5ae9ada_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Tennessee win the 2026 College Football National Championship?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed team wins the 2026 College Football National Championship. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the College Football National Championship based on the rules of the NCAA (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.\n\nThe primary resolution source will be official information from NCAA Football, however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tennessee-win-the-2026-college-football-national-championship",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-07",
+  "market_value": "0.0005",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

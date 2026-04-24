@@ -1,0 +1,23 @@
+{
+  "id": "BBY_2025-03-16",
+  "source": "yfinance",
+  "question": "Will BBY's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BBY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 75.530. (The latest market close price of BBY.)",
+  "background": "Best Buy Co., Inc. engages in the retail of technology products in the United States, Canada, and international. Its stores provide computing and mobile phone products, such as desktops, notebooks, and peripherals; mobile phones comprising related mobile network carrier commissions; networking products; tablets covering e-readers; smartwatches; and consumer electronics consisting of digital imaging, health and fitness products, portable audio comprising headphones and portable speakers, and smart home products, as well as home theaters, which includes home theater accessories, soundbars, and televisions. The company's stores also offer appliances, such as dishwashers, laundry, ovens, refrigerators, blenders, coffee makers, vacuums, and personal care; entertainment products consisting of drones, peripherals, movies, and toys, as well as hardware and software, and virtual reality and other software products; and other products, such as baby, food and beverage, luggage, outdoor living, and sporting goods. In addition, it provides delivery, installation, memberships, repair, set-up, technical support, health-related, and warranty-related services. The company offers its products through stores and websites under the Best Buy, Best Buy Ads, Best Buy Business, Best Buy Health, Buy Mobile, CST, Current Health, Geek Squad, Lively, Magnolia, Pacific Kitchen, Home, TechLiquidators, and Yardbird brands, as well as domain names comprising bestbuy.com, currenthealth.com, lively.com, techliquidators.com, yardbird.com, and bestbuy.ca. The company was formerly known as Sound of Music, Inc. Best Buy Co., Inc. was incorporated in 1966 and is headquartered in Richfield, Minnesota.",
+  "url": "https://finance.yahoo.com/quote/BBY",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12",
+    "2026-03-16"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

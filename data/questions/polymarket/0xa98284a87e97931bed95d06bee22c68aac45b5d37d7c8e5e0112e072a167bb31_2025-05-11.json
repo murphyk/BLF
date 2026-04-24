@@ -1,0 +1,15 @@
+{
+  "id": "0xa98284a87e97931bed95d06bee22c68aac45b5d37d7c8e5e0112e072a167bb31_2025-05-11",
+  "source": "polymarket",
+  "question": "Will Manchester City finish in the top 4 of the EPL?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Manchester City finishes in the top 4 of the 2024-25 Premier League season. Otherwise, the market will resolve to \u201cNo.\u201d\n\nIf it becomes mathematically certain that Manchester City  will finish in the top 4, this market will immediately resolve to \u201cYes.\u201d Likewise, if it becomes mathematically impossible for Manchester City to finish in the top 4, this market will immediately resolve to \u201cNo.\u201d Potential retroactive points deductions past these points will have no bearing on this market\u2019s resolution.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-manchester-city-finish-in-the-top-4-of-the-epl",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-05-25",
+  "market_value": "0.795",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

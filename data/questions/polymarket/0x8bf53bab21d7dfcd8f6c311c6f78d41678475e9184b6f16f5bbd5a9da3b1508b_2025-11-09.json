@@ -1,0 +1,14 @@
+{
+  "id": "0x8bf53bab21d7dfcd8f6c311c6f78d41678475e9184b6f16f5bbd5a9da3b1508b_2025-11-09",
+  "source": "polymarket",
+  "question": "Will the Washington Commanders win Super Bowl 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Washington Commanders win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-washington-commanders-win-super-bowl-2026",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-08",
+  "market_value": "0.007500000000000001",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

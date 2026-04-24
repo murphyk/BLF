@@ -1,0 +1,21 @@
+{
+  "id": "TAP_2025-06-22",
+  "source": "yfinance",
+  "question": "Will TAP's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TAP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 51.760. (The latest market close price of TAP.)",
+  "background": "Molson Coors Beverage Company manufactures, markets, and sells beer and other malt beverage products in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company offers flavored malt beverages including hard seltzers, craft, spirits, and ready to drink beverages. It provides its products under Arnold Palmer Spiked, Aspall Cider, Blue Moon, Beck's, Blue Run Spirits, Cobra, Corona Extra, Coors Original, Five Trail, Heineken, Leinenkugel's, Madri, Miller Genuine Draft, Molson Ultra, Peroni Nastro Azurro, Pilsner Urquell, Redd's, Sharp's, Simply Spiked, Sol, Staropramen, Stella Artois, Topo Chico Hard Seltzer, ZOA Energy, and Vizzy Hard Seltzer above premium brands; Bergenbier, Borsodi, Burgasko, Caraiman, Carling, Coors Banquet, Coors Light, Jelen, Kamenitza, Miller Lite, Molson Canadian brands, Niksicko, and O\u009eujsko under the premium brands; and Branik, Icehouse, Keystone, Lowenbrau, Miller High Life, Milwaukee's Best, and Steel Reserve under the economy brands. The company was formerly known as Molson Coors Brewing Company and changed its name to Molson Coors Beverage Company in January 2020. Molson Coors Beverage Company was founded in 1774 and is based in Golden, Colorado.",
+  "url": "https://finance.yahoo.com/quote/TAP",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

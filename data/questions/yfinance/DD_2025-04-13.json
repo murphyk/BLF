@@ -1,0 +1,21 @@
+{
+  "id": "DD_2025-04-13",
+  "source": "yfinance",
+  "question": "Will DD's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 75.250. (The latest market close price of DD.)",
+  "background": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through Electronics & Industrial, Water & Protection, and Corporate & Other segments. The Electronics & Industrial segment supplies materials and solutions for the fabrication of semiconductors and integrated circuits. This segment also provides semiconductor and advanced packaging materials; dielectric and metallization solutions for chip packaging; silicones for light emitting diode packaging and semiconductor applications; and permanent and process chemistries for the fabrication of printed circuit boards to include laminates and substrates, and electroless and electrolytic metallization solutions, and electromagnetic shielding and thermal management solutions, as well as patterning solutions, and materials and metallization processes for metal finishing, decorative, and industrial applications. In addition, it offers various materials to manufacture rigid and flexible displays for organic light emitting diode, and other display applications; provides high performance parts, and specialty silicone elastomers, and lubricants to automotive, aerospace, electronics, industrial, and healthcare markets; and photopolymer plates and platemaking systems used in flexographic printing, and digital inks for textile, commercial, and home-office printing applications. The Water & Protection segment provides engineered products and integrated systems for worker safety, water purification and separation, transportation, energy, medical packaging and building materials. The Corporate & Other segment offers auto adhesives and fluids; Multibase; and Tedlar products. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
+  "url": "https://finance.yahoo.com/quote/DD",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Lc2SQtQQCg_2025-11-09",
+  "source": "manifold",
+  "question": "Will an AI score over 80% on FrontierMath Benchmark in 2025",
+  "resolution_criteria": "\"Today we're launching FrontierMath, a benchmark for evaluating advanced mathematical reasoning in AI. We collaborated with 60+ leading mathematicians to create hundreds of original, exceptionally challenging math problems, of which current AI systems solve less than 2%. \nExisting math benchmarks like GSM8K and MATH are approaching saturation, with AI models scoring over 90%\u2014partly due to data contamination. FrontierMath significantly raises the bar. Our problems often require hours or even days of effort from expert mathematicians.\nWe evaluated six leading models, including Claude 3.5 Sonnet, GPT-4o, and Gemini 1.5 Pro. Even with extended thinking time (10,000 tokens), Python access, and the ability to run experiments, success rates remained below 2%\u2014compared to over 90% on traditional benchmarks.\"",
+  "background": "",
+  "url": "https://manifold.markets/sponge/will-an-ai-score-over-80-on-frontie",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.038889974734950004",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market value."
+}

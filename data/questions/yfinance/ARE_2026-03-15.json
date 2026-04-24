@@ -1,0 +1,15 @@
+{
+  "id": "ARE_2026-03-15",
+  "source": "yfinance",
+  "question": "Will ARE's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ARE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 51.790. (The latest market close price of ARE.)",
+  "background": "Alexandria Real Estate Equities, Inc. an S&P 500 company, is a best-in-class, mission-driven life science REIT making a positive and lasting impact on the world. With our founding in 1994, Alexandria pioneered the life science real estate niche. Alexandria is the preeminent and longest-tenured owner, operator, and developer of collaborative Mega campus ecosystems in AAA life science innovation cluster locations, including Greater Boston, the San Francisco Bay Area, San Diego, Seattle, Maryland, Research Triangle, and New York City. As of December 31, 2025, Alexandria has a total market capitalization of $20.75 billion and an asset base in North America that includes 35.9 million RSF of operating properties and 3.5 million RSF of Class A/A+ properties undergoing construction. Alexandria has a long-standing and proven track record of developing Class A/A+ properties clustered in highly dynamic and collaborative Mega campus environments that enhance our tenant ability to successfully recruit and retain world-class talent and inspire productivity, efficiency, creativity, and success. Alexandria also provides strategic capital to transformative life science companies through our venture capital platform. We believe our unique business model and diligent underwriting ensure a high-quality and diverse tenant base that results in higher occupancy levels, longer lease terms, higher rental income, higher returns, and greater long-term asset value.",
+  "url": "https://finance.yahoo.com/quote/ARE",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

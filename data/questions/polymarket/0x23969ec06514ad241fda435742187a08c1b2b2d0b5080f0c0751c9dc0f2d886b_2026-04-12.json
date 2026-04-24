@@ -1,0 +1,14 @@
+{
+  "id": "0x23969ec06514ad241fda435742187a08c1b2b2d0b5080f0c0751c9dc0f2d886b_2026-04-12",
+  "source": "polymarket",
+  "question": "Puffpaw FDV above $100M one day after launch?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Puffpaw's governance token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\nThe FDV will be determined using the total token supply multiplied by the token price.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Puffpaw (https://www.puffpaw.xyz/) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/puffpaw-fdv-above-100m-one-day-after-launch",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.365",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

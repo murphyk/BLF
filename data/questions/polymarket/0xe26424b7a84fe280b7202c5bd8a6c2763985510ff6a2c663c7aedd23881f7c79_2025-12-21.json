@@ -1,0 +1,14 @@
+{
+  "id": "0xe26424b7a84fe280b7202c5bd8a6c2763985510ff6a2c663c7aedd23881f7c79_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Trump announce Howard Lutnick as next Fed Chair in 2025?",
+  "resolution_criteria": "Trump's Treasury Secretary pick Scott Bessent has floated the idea of Trump naming a successor to Jerome Powell to serve as a \"shadow chair\", prior to the end of Powell's term, scheduled for May 2026. (see: https://www.nbcwashington.com/news/business/money-report/fed-chair-jerome-powell-can-serve-remainder-of-term-says-trumps-treasury-pick-bessent/3788991/).\n\nThis market will resolve to according the individual Donald Trump announces as his pick for the next Federal Reserve Chair. If Donald Trump does not announce his pick for the next Federal Reserve Chair by December 31, 2025, 11:59 PM ET, this market will resolve to \"No announcement by December 31\".  \n\nThe resolution source for this market will be official information form Donald Trump or one of his official representatives, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-announce-howard-lutnick-as-next-fed-chair-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0005",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

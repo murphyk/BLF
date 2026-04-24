@@ -1,0 +1,19 @@
+{
+  "id": "WRMFNS_2025-12-07",
+  "source": "fred",
+  "question": "Will Retail Money Market Funds, a component of M2, a measure of USD money supply, have increased by each resolution date listed below as compared to its value on 2025-12-07?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WRMFNS once the data is published.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 2223.100. (The latest value released in Retail Money Market Funds from the release H.6 Money Stock Measures.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h6/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h6/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>.  Additional background of the series:  1. the units of the series: Billions of Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Monday ",
+  "url": "https://fred.stlouisfed.org/series/WRMFNS",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

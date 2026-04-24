@@ -1,0 +1,15 @@
+{
+  "id": "35575_2025-04-13",
+  "source": "metaculus",
+  "question": "\u00bfCerrar\u00e1 la acci\u00f3n de Microsoft el 2025 m\u00e1s alta de lo que empez\u00f3?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como\u00a0**S\u00ed**\u00a0si el precio de la acci\u00f3n de Microsoft al cierre del \u00faltimo d\u00eda h\u00e1bil de 2025 (en el mercado principal donde cotiza, NASDAQ) supera los 421,50\\$, seg\u00fan la columna Close/Last de\u00a0[<u>su p\u00e1gina en NASDAQ</u>](https://www.nasdaq.com/market-activity/stocks/msft/historical). Se resolver\u00e1 como\u00a0**No**\u00a0si es igual o inferior.",
+  "background": "Microsoft es una de las mayores empresas tecnol\u00f3gicas del mundo, conocida por sus productos de software, as\u00ed como por su plataforma en la nube. En 2024, el precio de la acci\u00f3n de Microsoft aument\u00f3 aproximadamente un 50%, impulsado por avances significativos en inteligencia artificial y computaci\u00f3n en la nube. La compa\u00f1\u00eda ha integrado la IA en todos sus servicios, mejorando las herramientas de productividad y las soluciones en la nube, consolidando su posici\u00f3n como l\u00edder en el sector de la IA.",
+  "url": "https://www.metaculus.com/questions/35575",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.5",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "LLY_2025-08-17",
+  "source": "yfinance",
+  "question": "Will LLY's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LLY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 746.370. (The latest market close price of LLY.)",
+  "background": "Eli Lilly and Company discovers, develops, and markets human pharmaceuticals in the United States, Europe, China, Japan, and internationally. The company offers Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, and Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, including Alimta, Cyramza, Erbitux, Jaypirca, Retevmo, Tyvyt, and Verzenio. In addition, the company offers Olumiant for rheumatoid arthritis, atopic dermatitis, severe alopecia areata, and COVID-19; Taltz for plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondylarthritis; Omvoh for ulcerative colitis; Cymbalta for depressive disorder, diabetic peripheral neuropathic pain, generalized anxiety disorder, fibromyalgia, and chronic musculoskeletal pain; Ebglyss for severe atopic dermatitis; and Emgality for migraine prevention and episodic cluster headache. It has collaborations with Incyte Corporation; Boehringer Ingelheim Pharmaceuticals, Inc.; F. Hoffmann-La Roche Ltd and Genentech, Inc.; Biologics, Inc., AbCellera Biologics Inc.; Verge Genomics; collaboration with AdvanCell to advance novel targeted alpha therapies for the treatment of cancer; and Chugai Pharmaceutical Co., Ltd, as well as Strategic Collaboration with Eli Lilly to advance development of its myeloid engager platform for autoimmune disease. Eli Lilly and Company was founded in 1876 and is headquartered in Indianapolis, Indiana.",
+  "url": "https://finance.yahoo.com/quote/LLY",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

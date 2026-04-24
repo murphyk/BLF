@@ -1,0 +1,15 @@
+{
+  "id": "0x52dde4a6bf4493e06461504e2651dc090b0e11bcdc6d486f727b0272d8e8880e_2025-06-22",
+  "source": "polymarket",
+  "question": "Will US GDP growth in Q2 2025 be greater than 2%?",
+  "resolution_criteria": "This market will resolve according to the seasonally adjusted and annualized GDP \"Advance Estimate\" release for Q2 of 2025 scheduled for July 30, 2025.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe GDP release will be made available here: https://www.bea.gov/data/gdp/gross-domestic-product\n\nNote: data in the first available GDP report is labelled by the BEA as an \"Advance Estimate\". The data found in the advance estimate will be used to resolve this market. Data may be revised during the following quarter or as a part of the next estimate's publication, however any revisions to GDP report data made after the release of the advance estimate will not be considered for this market's resolution.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-us-gdp-growth-in-q2-2025-be-greater-than-2",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.8",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

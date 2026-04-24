@@ -1,0 +1,14 @@
+{
+  "id": "0xcd14407814c97e5fa5684e4154a63be045c048365a8b12acab3f20bc9286d3a7_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Anxiety (Doechii) win Record of the Year at the 68th Annual GRAMMY Awards?",
+  "resolution_criteria": "The GRAMMY Awards are presented annually by the Recording Academy. For the 68th Annual GRAMMY Awards, nominations are scheduled for November 7, 2025, and the ceremony for February 1, 2026.\n\nThis market will resolve according to the listed track that wins Record of the Year at the 68th Annual GRAMMY Awards.\n\nIf, for any reason, no winner is declared by June 30, 2026, 11:59 PM ET, or in case of a tie for the winner, this market will resolve in favor of the listed track that comes first in alphabetical order.\n\nThe resolution source will be the television broadcast of the awards and the Grammy website (https://www.grammy.com/); however, other credible reporting may be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-anxiety-doechii-win-record-of-the-year-at-the-68th-annual-grammy-awards",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-01",
+  "market_value": "0.03",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

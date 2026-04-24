@@ -1,0 +1,14 @@
+{
+  "id": "0xefb4d37ec67929c1bbffb16454c5bb8bf574ed367f52c54495a28f0717a1e005_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Finland be in the top 3 at Eurovision 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the named country finishes Eurovision 2026 as one of the top 3 highest scoring candidates.\n\nIf at any point it is impossible for the listed candidate to finish as one of the top 3 highest scorers based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-finland-be-in-the-top-3-at-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.6950000000000001",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

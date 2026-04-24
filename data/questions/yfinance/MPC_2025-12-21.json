@@ -1,0 +1,19 @@
+{
+  "id": "MPC_2025-12-21",
+  "source": "yfinance",
+  "question": "Will MPC's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MPC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 191.300. (The latest market close price of MPC.)",
+  "background": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. It sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
+  "url": "https://finance.yahoo.com/quote/MPC",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

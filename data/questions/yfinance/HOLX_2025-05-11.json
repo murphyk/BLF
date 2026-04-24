@@ -1,0 +1,21 @@
+{
+  "id": "HOLX_2025-05-11",
+  "source": "yfinance",
+  "question": "Will HOLX's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HOLX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 58.200. (The latest market close price of HOLX.)",
+  "background": "Hologic, Inc. engages in the development, manufacture, and supply of diagnostics products, medical imaging systems, and surgical products for women's health through early detection and treatment worldwide. The company operates through four segments: Diagnostics, Breast Health, GYN Surgical, and Skeletal Health. It provides Aptima molecular diagnostic assays to detect the infectious microorganisms; Aptima viral load assays for Hepatitis B virus, Hepatitis C virus, human immunodeficiency virus, and human cytomegalo virus; Aptima bacterial vaginosis and candida vaginitis assays for the diagnosis of vaginitis; Aptima SARS-CoV-2 and Panther Fusion SARS-CoV-2 assays to detect SARS-CoV-2; ThinPrep System for cytology applications; and Rapid Fetal Fibronectin Test that assists physicians in assessing the risk of pre-term birth. The company also offers breast cancer care solutions in the areas of radiology, breast surgery, pathology, and treatment, such as 3D digital mammography systems, image analytics software, reading workstations, minimally invasive breast biopsy guidance systems, breast biopsy site markers, localization, and specimen radiology solutions; and breast conserving surgery products. In addition, it provides MyoSure Hysteroscopic Tissue Removal System for the removal of fibroids and polyps in the uterus; NovaSure Endometrial Ablation System to treat abnormal uterine bleeding; Fluent Fluid Management System that provides liquid distention during diagnostic and operative hysteroscopic procedures; Acessa ProVu system to treat various fibroids; and CoolSeal portfolio, such as bipolar vessel sealing devices. Further, it offers Horizon DXA, a dual energy X-ray system; and Fluoroscan Insight FD mini C-arm to perform minimally invasive orthopedic surgical procedures. It sells its products through direct sales, service forces, independent distributors, and sales representatives. The company was incorporated in 1985 and is headquartered in Marlborough, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/HOLX",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

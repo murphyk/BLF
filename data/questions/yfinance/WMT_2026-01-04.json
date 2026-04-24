@@ -1,0 +1,19 @@
+{
+  "id": "WMT_2026-01-04",
+  "source": "yfinance",
+  "question": "Will WMT's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WMT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 111.610. (The latest market close price of WMT.)",
+  "background": "Walmart Inc. engages in the operation of retail and wholesale stores and clubs, eCommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart International, and Sam's Club. It operates supercenters, supermarkets, warehouse clubs, cash and carry stores, and discount stores under Walmart and Walmart Neighborhood Market brands; membership-only warehouse clubs; and ecommerce websites, such as walmart.com.mx, walmart.ca, flipkart.com, PhonePe and other sites. The company also offers grocery items, including dry grocery, snacks, dairy, meat, produce, deli and bakery, frozen foods, alcoholic and nonalcoholic beverages, as well as consumables, such as health and beauty aids, pet supplies, household chemicals, paper goods, and baby products; and fuel and other categories. In addition, it is involved in the provision of health and wellness products covering pharmacy, optical and hearing services, over-the-counter drugs, and protein and nutrition products; and home, hardlines, and seasonal items, including home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys, and mattresses. Further, the company offers consumer electronics and accessories, software, video games, office supplies, appliances, and third-party gift cards. Additionally, it operates digital payment platforms; offers financial services and related products, including money transfers, bill payments, money orders, check cashing, prepaid access, co-branded credit cards, installment lending, and earned wage access; and markets lines of merchandise under private and licensed brands. The company was formerly known as Wal-Mart Stores, Inc. and changed its name to Walmart Inc. in February 2018. Walmart Inc. was founded in 1945 and is based in Bentonville, Arkansas.",
+  "url": "https://finance.yahoo.com/quote/WMT",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

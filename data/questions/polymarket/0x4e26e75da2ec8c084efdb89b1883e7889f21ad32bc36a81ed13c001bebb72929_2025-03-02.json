@@ -1,0 +1,15 @@
+{
+  "id": "0x4e26e75da2ec8c084efdb89b1883e7889f21ad32bc36a81ed13c001bebb72929_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Dominic Solanke be the top goalscorer in the EPL?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Dominic Solanke is the top goalscorer for the 2024/2025 English Premier League season. Otherwise, this market will resolve to \u201cNo.\u201d\n\nIf multiple players tie for the most goals in the 2024/2025 English Premier League season, the market will resolve based on most assists, then most games played, and finally the player\u2019s last name alphabetically if ties persist.\n\nThe primary resolution source for this market will be official information from the English Premier League. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-dominic-solanke-be-the-top-goalscorer-in-the-epl",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-25",
+  "market_value": "0.0035",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

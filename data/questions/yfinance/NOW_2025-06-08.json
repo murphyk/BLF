@@ -1,0 +1,21 @@
+{
+  "id": "NOW_2025-06-08",
+  "source": "yfinance",
+  "question": "Will NOW's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NOW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 1027.390. (The latest market close price of NOW.)",
+  "background": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company operates the Now platform, an AI platform for digital transformation machine learning, robotic process automation, process mining, analytics, and low-code/no-code development tools. It also provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; and field service management applications. n addition, the company offers human resources, legal, and workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. It serves to government, financial services, healthcare and life science, manufacturing, Public Sector, retail, IT services, technology, and Telecom sectors through service providers and resale partners. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.",
+  "url": "https://finance.yahoo.com/quote/NOW",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

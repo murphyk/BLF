@@ -1,0 +1,14 @@
+{
+  "id": "0xf562feabe9922f78e99b488df4fcef6be8cbc831605388751538d178585007aa_2026-03-01",
+  "source": "polymarket",
+  "question": "Will Zootopia 2 be the 2025 film with the highest domestic gross on March 15?",
+  "resolution_criteria": "This market will resolve according to the title of the film with the highest domestic gross between opening and March 15, 2026 according to \"Daily Box Office Performance\" figures found on the \u201cBox Office\u201d tab on this movie's The Numbers (https://www.the-numbers.com/) page.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by March 31, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zootopia-2-be-the-2025-film-with-the-highest-domestic-gross-on-march-15",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-03-15",
+  "market_value": "0.982",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market price."
+}

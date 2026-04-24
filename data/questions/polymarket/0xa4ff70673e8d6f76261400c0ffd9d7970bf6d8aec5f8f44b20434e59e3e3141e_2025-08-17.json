@@ -1,0 +1,15 @@
+{
+  "id": "0xa4ff70673e8d6f76261400c0ffd9d7970bf6d8aec5f8f44b20434e59e3e3141e_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Leeds win the 2025\u201326 English Premier League?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 English Premier League.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 English Premier League. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 English Premier League season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from the English Premier League. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-leeds-win-the-202526-english-premier-league",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-01",
+  "market_value": "0.0035",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

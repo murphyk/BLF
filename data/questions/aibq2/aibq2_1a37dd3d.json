@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_1a37dd3d",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will Rippling announce that it is planning an IPO?",
+  "background": "[Startup News: Shares of HR firm Rippling gain value as its business expands](https://forgeglobal.com/insights/blog/startup-news-shares-of-rippling-gain-value-as-its-business-expands/)",
+  "resolution_criteria": "This question will resolve as **Yes** if Rippling, Inc., announces before July 1, 2025, that it is planning an initial public offering. In order to streamline the resolution of this question, there are two resolution sources for the IPO announcement: 1) The company filing an [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) or 2) An announcement at the [news](https://www.rippling.com/blog) section of its website. If there is no such announcement before that date, this question resolves as **No**.",
+  "url": "https://forgeglobal.com/insights/blog/startup-news-shares-of-rippling-gain-value-as-its-business-expands/",
+  "forecast_due_date": "2025-05-22",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

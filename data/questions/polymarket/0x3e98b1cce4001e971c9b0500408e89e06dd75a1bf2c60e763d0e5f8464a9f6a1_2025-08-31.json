@@ -1,0 +1,15 @@
+{
+  "id": "0x3e98b1cce4001e971c9b0500408e89e06dd75a1bf2c60e763d0e5f8464a9f6a1_2025-08-31",
+  "source": "polymarket",
+  "question": "Putin and Zelenskyy shake hands in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Vladimir Putin and Volodymyr Zelenskyy shake hands at any point between August 7 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the handshake to qualify toward a \"Yes\" resolution, there must be video or photographic evidence.\n\nThe resolution source for this market will be photographic or digital evidence verified by a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/putin-and-zelenskyy-shake-hands-by-october-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.145",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "DJIA_2025-05-25",
+  "source": "fred",
+  "question": "Will the Dow Jones Industrial Average have increased by each resolution date listed below as compared to its value on 2025-05-25?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DJIA once the data is published.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 42051.060. (The latest value released in Dow Jones Industrial Average from the release Dow Jones Averages.)",
+  "background": "The notes from the release: N/A.  The notes from the series: The observations for the Dow Jones Industrial Average represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early.\n\nThe Dow Jones Industrial Average provides a view of the US stock market and economy. Originally, the index was made up of 12 stocks, it now contains 30 component companies in various industries. See indexology (http://us.spindices.com/indexology/djia-and-sp-500?homepage=true) for more information.\n\nCopyright \u00c2\u00a9 2016, S&P Dow Jones Indices LLC. All rights reserved. Reproduction of Dow Jones Industrial Average in any form is prohibited except with the prior written permission of S&P Dow Jones Indices LLC (\"S&P\"). S&P does not guarantee the accuracy, adequacy, completeness or availability of any information and is not responsible for any errors or omissions, regardless of the cause or for the results obtained from the use of such information. S&P DISCLAIMS ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE. In no event shall S&P be liable for any direct, indirect, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or lost profit and opportunity costs) in connection with subscriber's or others' use of Dow Jones Industrial Average.\n\nPermission to reproduce this series can be requested from index_services@spdji.com. More contact details are available here (http://us.spindices.com/contact-us), including phone numbers for all regional offices..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily, Close ",
+  "url": "https://fred.stlouisfed.org/series/DJIA",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

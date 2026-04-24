@@ -1,0 +1,21 @@
+{
+  "id": "TRMB_2025-04-13",
+  "source": "yfinance",
+  "question": "Will TRMB's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TRMB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 66.510. (The latest market close price of TRMB.)",
+  "background": "Trimble Inc. provides technology solutions that enable professionals and field mobile workers to enhance or transform their work processes worldwide. The company's Buildings and Infrastructure segment offers field and office software for project design and visualization; systems to guide and control construction equipment; software for 3D design and data sharing; systems to monitor, track, and manage assets, equipment, and workers; software to share and communicate data; program management solutions for construction owners; 3D conceptual design and modeling software; building information modeling software; enterprise resource planning, project management, and project collaboration solutions; integrated site layout and measurement systems; cost estimating, scheduling, and project controls solutions; and applications for sub-contractors and trades. Its Geospatial segment provides surveying and geospatial products, and geographic information systems. The company's Resources and Utilities segment offers precision agriculture products and services, such as guidance and positioning systems, including autonomous steering systems, automated and variable-rate application and technology systems, and information management solutions; manual and automated navigation guidance for tractors and other farm equipment; solutions to automate application of pesticide and seeding; water solutions; and agricultural software. Its Transportation segment offers solutions for long haul trucking and freight shipper markets; mobility solutions comprising route management, safety and compliance, end-to-end vehicle management, video intelligence, and supply chain communications; and fleet and transportation management systems, analytics, routing, mapping, reporting, and predictive modeling solutions. The company was formerly known as Trimble Navigation Limited and changed its name to Trimble Inc. in October 2016. Trimble Inc. was founded in 1978 and is headquartered in Westminster, Colorado.",
+  "url": "https://finance.yahoo.com/quote/TRMB",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

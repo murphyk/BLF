@@ -1,0 +1,14 @@
+{
+  "id": "0q0RRPtScc_2026-04-12",
+  "source": "manifold",
+  "question": "China's rebar failure rate below 20% in 2025 national quality check?",
+  "resolution_criteria": "THIS WILL PROBABLY RESOLVE EARLIER THAN THE RESOLUTION DATE\n\nResolution sources:\n\nPrimary: SAMR official website (samr.gov.cn, quality supervision section)\n\nSecondary: CISA official reports (chinaisa.org.cn)\n\nIf multiple reports conflict, SAMR's official report is authoritative. If no report is published by the market close date, the market resolves N/A. Resolution is based purely on the numerical failure percentage reported\u2014no subjective interpretation.\n\nBackground\n\nSAMR released a new mandatory national standard for hot-rolled ribbed rebar (GB 1499.2-2024) in June 2024, taking effect September 25, 2024. A 2023 investigation revealed that 22.9% of rebar samples from the market failed to meet the previous standard's requirements for mechanical properties and metallurgical structure. The new regulations shift standards from recommendatory to mandatory and implement stricter requirements on rebar quality.\n\nConsiderations\n\nThe 2024 standard introduces tighter tolerances than the 2018 version. For example, tolerance for rebar with diameters of 6-12mm is 5.5% in 2024 standards compared with 6% in 2018, and for 14-20mm diameter rebar it is 4.5% compared with 5%. This stricter regulatory environment may influence 2025 failure rates relative to the 2023 baseline of 22.9%.",
+  "background": "",
+  "url": "https://manifold.markets/MikhailTal/chinas-rebar-failure-rate-below-20",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.959438126631414",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "CPB_2025-10-26",
+  "source": "yfinance",
+  "question": "Will CPB's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CPB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 30.150. (The latest market close price of CPB.)",
+  "background": "The Campbell's Company, together with its subsidiaries, manufactures and markets food and beverage products in the United States and internationally. It operates through Meals & Beverages, and Snacks segments. The Meals & Beverages segment engages in the retail and foodservice businesses in the United States and Canada. This segment provides Campbell's condensed and ready-to-serve soups; Swanson broth and stocks; Pacific Foods broth, soups, and non-dairy beverages; Prego pasta sauces; Pace Mexican sauces; Campbell's gravies, pasta, beans, and dinner sauces; Swanson canned poultry; V8 juices and beverages; Campbell's tomato juice; Rao's pasta sauces, dry pasta, frozen entr\u00e9es, frozen pizza, and soups; and Michael Angelo's frozen entr\u00e9es and pasta sauces, as well as snacking products in foodservice in Canada. Its Snacks segment retails Pepperidge Farm cookies, crackers, fresh bakery, and frozen products, that includes Goldfish crackers, Snyder's of Hanover pretzels, Lance sandwich crackers, Cape Cod and Kettle Brand potato chips, Late July snacks, Snack Factory pretzel crisps, and other snacking products. This segment is also involved in the snacking, and meals and beverage retail business in Latin America. It sells its products through retail food chains, mass discounters and merchandisers, club stores, convenience and dollar stores, e-commerce and other retail, commercial, and non-commercial establishments, and independent contractor distributors. The company was formerly known as Campbell Soup Company and changed its name to The Campbell's Company in November 2024. The Campbell's Company was founded in 1869 and is headquartered in Camden, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/CPB",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

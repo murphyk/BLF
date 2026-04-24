@@ -1,0 +1,21 @@
+{
+  "id": "FI_2025-03-16",
+  "source": "yfinance",
+  "question": "Will FI's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 225.960. (The latest market close price of FI.)",
+  "background": "Fiserv, Inc. provides payments and financial services technology solutions in the United States, Europe, the Middle East and Africa, Latin America, the Asia-Pacific, and internationally. It operates through the Merchant Solutions and Financial Solutions segments. The company provides merchant acquiring and digital commerce services, mobile payment services, security and fraud protection solutions, stored-value solutions, software-as-a-service, and pay-by-bank solutions, as well as Clover, a point-of-sale and business management platform through various channels, including direct sales teams, strategic partnerships with agent sales forces, independent software vendors, independent sales organizations, financial institutions, and other strategic partners. It also offers debit card processing services, debit network services, security and fraud protection products, bill payment; person-to-person payments, account-to-account transfers, credit card processing services, prepaid card processing services, card production services, print services, government payment processing, student loan processing, and customer loan and deposit account processing; digital banking; financial and risk management; and professional services and consulting, check processing, automated clearing house, and real-time payments. It serves large enterprise, small business, banks, credit union, large financial institution, fintech, public sectors, and software providers. Fiserv, Inc. was incorporated in 1984 and is headquartered in Milwaukee, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/FI",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

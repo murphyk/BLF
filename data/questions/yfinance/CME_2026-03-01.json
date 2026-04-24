@@ -1,0 +1,17 @@
+{
+  "id": "CME_2026-03-01",
+  "source": "yfinance",
+  "question": "Will CME's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CME for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 302.550. (The latest market close price of CME.)",
+  "background": "CME Group Inc., together with its subsidiaries, operates contract markets for the trading of futures and options on futures contracts worldwide. It offers futures and options products based on interest rates, equity indexes, foreign exchange, agricultural commodities, energy, and metals, as well as fixed income and foreign currency trading services. The company provides clearing house services, including clearing, settling, and guaranteeing futures and options contracts, and cleared swaps products traded through its exchanges; and trade processing and risk mitigation services. In addition, the company offers a range of market data services, including real-time and historical data services. It serves professional traders, financial institutions, institutional and individual investors, corporations, manufacturers, producers, governments, and central banks. The company was formerly known as Chicago Mercantile Exchange Holdings Inc. and changed its name to CME Group Inc. in July 2007. The company was founded in 1898 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/CME",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

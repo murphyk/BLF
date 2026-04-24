@@ -1,0 +1,15 @@
+{
+  "id": "0x9fcfb9bf9287879a8f4b67ca9af614c819b73c299d63a0aa8d56d013e763005c_2025-04-13",
+  "source": "polymarket",
+  "question": "Pete Hegseth out as Secretary of Defense before July?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Pete Hegseth ceases to be the US Secretary of Defense for any period of time between March 25 and June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Hegseth's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be official information from the Trump administration, however a consensus of credible reporting may also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/pete-hegseth-out-as-secretary-of-defense-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.105",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

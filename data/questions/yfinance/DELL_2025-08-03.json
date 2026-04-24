@@ -1,0 +1,21 @@
+{
+  "id": "DELL_2025-08-03",
+  "source": "yfinance",
+  "question": "Will DELL's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DELL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 127.220. (The latest market close price of DELL.)",
+  "background": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates in two segments, Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG). The ISG segment provides modern and traditional storage solutions, including all-flash arrays, scale-out file, object platforms, hyper-converged infrastructure, and software-defined storage; and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, support and deployment, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements; and offers payment and consumption solutions and services, such as as-a-Service, subscription, utility, leases, and loans, as well as fixed-term loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in August 2016. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.",
+  "url": "https://finance.yahoo.com/quote/DELL",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

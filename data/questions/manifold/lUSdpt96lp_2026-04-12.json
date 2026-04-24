@@ -1,0 +1,14 @@
+{
+  "id": "lUSdpt96lp_2026-04-12",
+  "source": "manifold",
+  "question": "Will Ukraine gain more territory than it loses in any month of 2026?",
+  "resolution_criteria": "Resolution criteria\n\nThis market will resolve YES if, in any month of 2026, Ukraine\u2019s net territorial gain in the Russia-Ukraine conflict is greater than zero square kilometres according to two or more of the following sources:\n\nISW\n\nBlack Bird Group\n\nDivgen\n\nLostArmour\n\nCreamy caprice\n\nReuters\n\nAgence France-Presse\n\nAssociated Press\n\nThis market will otherwise resolve NO.\n\nClarifications\n\nThis market concerns de facto territorial changes. Territory gained or lost by diplomatic means (i.e. in a peace treaty) will be counted in this market, as well as territory gained or lost militarily.\n\nFor the purpose of this market, Ukraine\u2019s net territorial gain can be understood as equal in magnitude and opposite in direction to Russia\u2019s net territorial loss in the Russia-Ukraine conflict.\n\nI will not trade in this market.",
+  "background": "",
+  "url": "https://manifold.markets/a_l_e_x/will-ukraine-gain-more-territory-th",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.614837995238371",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

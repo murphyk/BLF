@@ -1,0 +1,23 @@
+{
+  "id": "PH_2025-03-30",
+  "source": "yfinance",
+  "question": "Will PH's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 630.010. (The latest market close price of PH.)",
+  "background": "Parker-Hannifin Corporation manufactures and sells motion and control technologies and systems for various mobile, industrial, and aerospace markets worldwide. The company operates through two segments: Diversified Industrial and Aerospace Systems. The Diversified Industrial segment offers various motion-control systems and components, such as active and passive vibration control, high purity sealing, coatings, high temperature sealing, cryogenic valves and fittings, HVAC/R controls and monitoring, elastomeric, fabric reinforced, metal, precision cut seals, hydrogen and natural gas filters, electric and hydraulic pumps and motors, industrial air, gas filtration, electric and hydraulic valves, miniature pumps and valves, electromagnetic interface shielding, pneumatic actuators, regulators and valves, electromechanical and hydraulic actuators, power take offs, electronics, drives and controllers, process filtration solutions, engine filtration solutions, rubber to substrate adhesives, fluid condition monitoring, sensors and diagnostics, fluid conveyance hose and tubing, structural adhesives, high pressure connectors, fittings, valves and regulators, thermal management, high purity fittings. The Aerospace Systems segment offers products for use in commercial and defense airframe and engine programs, such as avionics, electric & hydraulic braking systems, electric power, electromechanical actuators, engine exhaust systems and components, fire detection and suppression, flight control systems, fluid conveyance, fuel systems & components, fuel tank inerting systems, hydraulic pumps & motors, hydraulic valves & actuators, pneumatics, seals, sensors, and thermal management products. The company sells its products to original equipment manufacturers, distributors, direct-sales employees, and sales representatives. Parker-Hannifin Corporation was founded in 1917 and is headquartered in Cleveland, Ohio.",
+  "url": "https://finance.yahoo.com/quote/PH",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "BMY_2025-05-25",
+  "source": "yfinance",
+  "question": "Will BMY's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BMY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 50.060. (The latest market close price of BMY.)",
+  "background": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. It offers products for oncology, hematology, immunology, cardiovascular, neuroscience, and other areas. The company's products include Eliquis for reduction in risk of stroke/systemic embolism in non-valvular atrial fibrillation and for the treatment of DVT/PE; Opdivo for various anti-cancer indications; Pomalyst/Imnovid for multiple myeloma; Orencia for active rheumatoid arthritis and psoriatic arthritis; and Sprycel to treat patients with Philadelphia chromosome-positive chronic myeloid leukemia. It also provides Yervoy for the treatment of patients with unresectable or metastatic melanoma; Empliciti for the treatment of relapsed/refractory multiple myeloma; Abecma for the treatment of patients with relapsed or refractory multiple myeloma; Reblozyl to treat anemia; Opdualag for the treatment of unresectable or metastatic melanoma; and Zeposia to treat relapsing forms of multiple sclerosis. In addition, the company offers Breyanzi for the treatment of patients with relapsed or refractory large B-cell lymphoma; Cobenfy to treat schizophrenia in adults; Krazati for the treatment of adult patients with KRASG12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC); Camzyos to treat symptomatic obstructive HCM to improve functional capacity and symptom; Sotyktu for the treatment of moderate-to-severe plaque psoriasis; Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC; Revlimid, an oral immunomodulatory drug to treat multiple myeloma; and Abraxane for the treatment of breast cancer, NSCLC and pancreatic cancer. It sells products to wholesalers, distributors, pharmacies, retailers, hospitals, clinics, and government agencies. The company was formerly known as Bristol-Myers Company. Bristol-Myers Squibb Company was founded in 1887 and is headquartered in Princeton, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/BMY",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

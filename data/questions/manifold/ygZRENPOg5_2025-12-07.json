@@ -1,0 +1,14 @@
+{
+  "id": "ygZRENPOg5_2025-12-07",
+  "source": "manifold",
+  "question": "OpenAI to become a for-profit by EOY? (read description)",
+  "resolution_criteria": "https://www.reuters.com/technology/artificial-intelligence/openai-remove-non-profit-control-give-sam-altman-equity-sources-say-2024-09-25/\n\nSAN FRANCISCO, Sept 25 (Reuters) - ChatGPT-maker OpenAI is working on a plan to restructure its core business into a for-profit benefit corporation that will no longer be controlled by its non-profit board, people familiar with the matter told Reuters, in a move that will make the company more attractive to investors.\n\nResolves YES if OpenAI's core business both \n\nis no longer controlled by a non-profit board\n\nis a for-profit corporation \n\nResolves NO otherwise.\n\nUpdate 2025-10-28 (PST) (AI summary of creator comment): Regarding \"controlled by a non-profit board\": The creator clarifies that if the non-profit board only has indirect control through share ownership (rather than constitutional/governance authority), this will satisfy the condition that the for-profit is \"no longer controlled by a non-profit board.\"\n\nPreviously, the for-profit was directly controlled and governed by the non-profit board without its own board. The key distinction is between:\n\nConstitutional/governance control (old structure)\n\nIndirect control via shareholding (acceptable for YES resolution)\n\nUpdate 2025-10-29 (PST) (AI summary of creator comment): The creator has stated that as of their comment, they do not consider the condition \"is no longer controlled by a non-profit board\" to be met. The market will not resolve NO yet since the year is not over.",
+  "background": "",
+  "url": "https://manifold.markets/jim/openai-to-become-a-forprofit-by-eoy",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0719193685",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market value."
+}

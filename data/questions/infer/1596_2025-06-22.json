@@ -1,0 +1,15 @@
+{
+  "id": "1596_2025-06-22",
+  "source": "infer",
+  "question": "Will Andrew Cuomo win the Democratic mayoral primary for New York City on 24 June 2025 in five rounds or fewer?",
+  "resolution_criteria": "This question will be resolved using open source news media reports on the election results of the Democratic mayoral primary. If Cuomo wins the primary in five rounds or fewer, the question will resolve \u201cYes\u201d. If Cuomo wins in six or more rounds, or if Cuomo loses, the question will resolve \u201cNo\u201d. In the event that results are not clear, RFI admins will wait for the official election results to be released by the New York City Board of Elections . Official results from the 2021 Democratic mayoral primary are available here .",
+  "background": "New York City employs ranked choice voting for primary and special elections, including that of mayoral primary ( NYC Board of Elections ). The Democratic mayoral primary is slated to be held on 24 June 2025. While incumbent Eric Adams is running as an independent, there are at least 10 candidates vying for the Democratic ticket ( City &amp; State ). According to polling from PIX11, Emerson College, and The Hill, former New York Governor Andrew Cuomo has a 12 percentage point lead over Zohran Mamdani. However, with ranked-choice voting, Cuomo\u2019s lead shrinks to 8 points ( PIX11 ).&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1596",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-24",
+  "market_value": "0.3069",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CZR_2025-08-17",
+  "source": "yfinance",
+  "question": "Will CZR's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CZR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 24.880. (The latest market close price of CZR.)",
+  "background": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. The company owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. It also operates and conducts retail and online sports wagering across 32 jurisdictions in North America, and iGaming in five jurisdictions in North America; sports betting from retail and online sportsbooks; and other games, such as keno. In addition, the company operates dining venues, bars, nightclubs, lounges, hotels, and entertainment venues; and provides staffing and management services. The company was founded in 1937 and is based in Reno, Nevada.",
+  "url": "https://finance.yahoo.com/quote/CZR",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

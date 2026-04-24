@@ -1,0 +1,19 @@
+{
+  "id": "TXT_2025-11-09",
+  "source": "yfinance",
+  "question": "Will TXT's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TXT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 79.990. (The latest market close price of TXT.)",
+  "background": "Textron Inc. operates in the aircraft, defense, industrial, and finance businesses worldwide. It operates in six segments: Textron Aviation, Bell, Textron Systems, Industrial, Textron eAviation, and Finance. The Textron Aviation segment manufactures, sells, and services business jets, turboprop and piston engine aircraft, and military trainer and defense aircraft; and offers maintenance, inspection, and repair services, as well as sells commercial parts. The Bell segment supplies military and commercial helicopters, tiltrotor aircrafts, and related spare parts and services. The Textron Systems segment offers unmanned aircraft systems, electronic systems and solutions, advanced marine crafts, piston aircraft engines, live military air-to-air and air-to-ship training, weapons and related components, and armored and specialty vehicles. The Industrial segment offers blow-molded solutions, including conventional plastic fuel tanks and pressurized fuel tanks for hybrid vehicle applications, clear-vision systems, plastic tanks for catalytic reduction systems, and battery housing systems for use in electric vehicles primarily to automobile original equipment manufacturers (OEMs); and golf cars, off-road utility vehicles, powersports products, light transportation vehicles, aviation ground support equipment, professional turf-maintenance equipment, and turf-care vehicles to golf courses and resorts, government agencies and municipalities, consumers, outdoor enthusiasts, and commercial and industrial users. The Textron eAviation segment manufactures and sells light aircraft and gliders with electric and combustion engines; and provides other research and development initiatives related to sustainable aviation solutions. The Finance segment offers financing services to purchase new and pre-owned aviation aircraft and Bell helicopters. Textron Inc. was founded in 1923 and is headquartered in Providence, Rhode Island.",
+  "url": "https://finance.yahoo.com/quote/TXT",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

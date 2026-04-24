@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0076",
+  "source": "aibq2",
+  "question": "Will Claude 4 be available to the general public before July 1, 2025?",
+  "title_hash": "0612bf11fbd84759",
+  "background": "PromptLayer: [Everything we know: Claude 4](https://blog.promptlayer.com/claude-4/)",
+  "resolution_criteria": "This question resolves as **Yes** if a member of the general public can access Anthropic's Claude 4 model without first joining a waitlist or participating in an early access or testing phase. If Anthropic does not release Claude 4 before July 1, 2025, this question resolves as **No**.\n\nFine print:\nThe resolution will rely on [credible sources](https://www.metaculus.com/help/faq/#definitions), including that it may rely on the ability of Metaculus employees to access Claude 4. \"Access\" may be via API, the Anthropic website, or any other method that allows interaction with Claude 4. Models that do not include both \"Claude\" and \"4\" in the name will not be considered for resolution of this question.",
+  "url": "https://blog.promptlayer.com/claude-4/",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

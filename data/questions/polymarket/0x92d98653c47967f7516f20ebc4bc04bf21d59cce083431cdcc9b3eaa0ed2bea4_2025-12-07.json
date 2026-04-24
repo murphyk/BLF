@@ -1,0 +1,14 @@
+{
+  "id": "0x92d98653c47967f7516f20ebc4bc04bf21d59cce083431cdcc9b3eaa0ed2bea4_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Anthropic have the second best AI model at the end of December 2025?",
+  "resolution_criteria": "This market will resolve according to the company that owns the model with the second-highest arena score based on the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on December 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the second best arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-anthropic-have-the-second-best-ai-model-at-the-end-of-december-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.022500000000000003",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

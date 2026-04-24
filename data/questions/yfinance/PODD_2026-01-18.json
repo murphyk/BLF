@@ -1,0 +1,17 @@
+{
+  "id": "PODD_2026-01-18",
+  "source": "yfinance",
+  "question": "Will PODD's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PODD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 299.170. (The latest market close price of PODD.)",
+  "background": "Insulet Corporation develops, manufactures, and sells insulin delivery systems for people with insulin-dependent diabetes in the United States and internationally. The company offers Omnipod platform products comprising Omnipod 5 automated insulin delivery system, which includes a proprietary AID algorithm embedded in the pod that integrates with a third-party continuous glucose monitor to obtain glucose values through wireless Bluetooth communication; and Omnipod DASH insulin management system that features a Bluetooth enabled pod that is controlled by a smartphone-like personal diabetes manager with a color touch screen user interface. It also provides pods for Amgen for use in the Neulasta Onpro kit, which is a delivery system to help reduce the risk of infection after intense chemotherapy. The company sells its products to end-users through the pharmacy channel; and independent distributors. Insulet Corporation was incorporated in 2000 and is headquartered in Acton, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/PODD",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "DUK_2025-08-03",
+  "source": "yfinance",
+  "question": "Will DUK's market close price on each resolution date listed below be higher than its market close price on 2025-08-03?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DUK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-03 is unknown, but the most recent known value (as of 2025-07-24) was 119.510. (The latest market close price of DUK.)",
+  "background": "Duke Energy Corporation, through its subsidiaries, operates as an energy company in the United States. It operates through two segments: Electric Utilities and Infrastructure (EU&I); and Gas Utilities and Infrastructure (GU&I). The EU&I segment generates, transmits, distributes, and sells electricity to approximately 8.6 million customers in the Southeast and Midwest regions. It generates electricity through coal, hydroelectric, natural gas, oil, renewables, and nuclear fuel. This segment also engages in the wholesale of electricity to municipalities, electric cooperative utilities, and other load-serving entities. The GU&I segment distributes natural gas to approximately 1.7 million customers in the residential, commercial, industrial, and power generation natural gas sectors; and invests in pipeline transmission projects, renewable natural gas projects, and natural gas storage facilities. The company was formerly known as Duke Energy Holding Corp. and changed its name to Duke Energy Corporation in April 2006. Duke Energy Corporation was founded in 1904 and is headquartered in Charlotte, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/DUK",
+  "forecast_due_date": "2025-08-03",
+  "resolution_dates": [
+    "2025-08-10",
+    "2025-09-02",
+    "2025-11-01",
+    "2026-01-30"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

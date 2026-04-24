@@ -1,0 +1,15 @@
+{
+  "id": "0xf29fa22170d0b76f638c36ecb9adbdd57696e743e49c2681a748b1f149b1f84c_2025-03-30",
+  "source": "polymarket",
+  "question": "Will the Washington Capitals win the 2025 Stanley Cup?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Washington Capitals win the 2025 NHL Stanley Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025 NHL Stanley Cup based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-washington-capitals-win-the-2025-stanley-cup",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-16",
+  "market_value": "0.062",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

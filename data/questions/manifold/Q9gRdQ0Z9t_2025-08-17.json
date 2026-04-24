@@ -1,0 +1,15 @@
+{
+  "id": "Q9gRdQ0Z9t_2025-08-17",
+  "source": "manifold",
+  "question": "Will the San Francisco 49ers win Super Bowl LX?",
+  "resolution_criteria": "Resolves upon the completion of Super Bowl LX (60) or when the team is eliminated from Super Bowl contention, whichever comes first.",
+  "background": "",
+  "url": "https://manifold.markets/10thOfficial/will-the-san-francisco-49ers-win-su",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-18",
+  "market_value": "0.06655704383762001",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market value."
+}

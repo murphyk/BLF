@@ -1,0 +1,21 @@
+{
+  "id": "COP_2025-06-08",
+  "source": "yfinance",
+  "question": "Will COP's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/COP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 85.550. (The latest market close price of COP.)",
+  "background": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids. The company operates in six segments: Alaska; Lower 48; Canada; Europe, Middle East and North Africa; Asia Pacific; and Other International. The company's portfolio includes unconventional plays in North America; conventional assets in North America, Europe, Asia, and Australia; global LNG developments; oil sands assets in Canada; and an inventory of global exploration prospects. It serves in the United States, Canada, China, Equatorial Guinea, Libya, Malaysia, Norway, Singapore, the United Kingdom, and internationally ConocoPhillips was founded in 1917 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/COP",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

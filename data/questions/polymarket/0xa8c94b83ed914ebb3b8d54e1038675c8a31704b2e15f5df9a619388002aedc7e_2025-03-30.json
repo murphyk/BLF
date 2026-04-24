@@ -1,0 +1,15 @@
+{
+  "id": "0xa8c94b83ed914ebb3b8d54e1038675c8a31704b2e15f5df9a619388002aedc7e_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Trump pardon Julian Assange in his first 100 days?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Julian Assange receives a presidential pardon, commutation, or reprieve from Donald Trump by April 29, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf it becomes impossible for Trump issue a federal pardon, commutation, or reprieve within this market's timeframe, it may immediately resolve to \"No\".\n\nThe primary resolution source for whether Julian Assange is pardoned or not will be official information from the US government, however a consensus of credible reporting will also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-pardon-julian-assange-in-his-first-100-days",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-29",
+  "market_value": "0.034",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

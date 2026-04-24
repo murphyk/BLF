@@ -1,0 +1,15 @@
+{
+  "id": "0x9939fd74f2d2078cafd04de7a9a8060b27ff331f8db4a737121519b81440de1e_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Esteban Ocon be the 2025 Drivers Champion?",
+  "resolution_criteria": "This market will resolve according to the driver that finishes 1st in the driver standings for the 2025 F1 season. Otherwise, this market will resolve to \"No\".\n\nAs soon as the results for the final scheduled race of the 2025 F1 season are known this market will resolve.\n\nIf at any point it becomes impossible for a listed driver to win the 2025 F1 Drivers Championship based on the rules of F1 (e.g., they are mathematically eliminated from contention), this market will resolve to \u201cNo\u201d.\n\nIf the F1 season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source for this market will be official information from Formula 1. \n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-esteban-ocon-be-the-2025-drivers-champion",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-07",
+  "market_value": "0.0015",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

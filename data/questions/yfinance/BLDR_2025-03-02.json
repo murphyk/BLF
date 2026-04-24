@@ -1,0 +1,23 @@
+{
+  "id": "BLDR_2025-03-02",
+  "source": "yfinance",
+  "question": "Will BLDR's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BLDR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 153.900. (The latest market close price of BLDR.)",
+  "background": "Builders FirstSource, Inc., together with its subsidiaries, manufactures and supplies building materials, manufactured components, and construction services to professional homebuilders, sub-contractors, remodelers, and consumers in the United States. It offers lumber and lumber sheet goods comprising dimensional lumber, plywood, and oriented strand board products that are used in on-site house framing; manufactured products, such as wood floor and roof trusses, floor trusses, wall panels, stairs, and engineered wood products; and windows, and interior and exterior door units, as well as interior trims and custom products comprising intricate mouldings, stair parts, and columns under the Synboard brand name. The company also provides specialty building products and services, including vinyl, composite and wood siding, exterior trims, metal studs, cement, roofing, insulation, wallboards, ceilings, cabinets, and hardware products; turn-key framing, shell construction, design assistance, and professional installation services. In addition, it offers software products, such as drafting, estimating, quoting, and virtual home design services, which provide software solutions to retailers, distributors, manufacturers, and homebuilders. The company was formerly known as BSL Holdings, Inc. and changed its name to Builders FirstSource, Inc. in October 1999. Builders FirstSource, Inc. was incorporated in 1998 and is based in Irving, Texas.",
+  "url": "https://finance.yahoo.com/quote/BLDR",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

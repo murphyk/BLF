@@ -1,0 +1,21 @@
+{
+  "id": "BAX_2025-06-22",
+  "source": "yfinance",
+  "question": "Will BAX's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BAX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 31.400. (The latest market close price of BAX.)",
+  "background": "Baxter International Inc., through its subsidiaries, provides a portfolio of healthcare products in the United States. The company operates through three segments: Medical Products and Therapies, Healthcare Systems and Technologies, and Pharmaceuticals. It offers sterile intravenous (IV) solutions; infusion systems and devices; parenteral nutrition therapies; administrative sets; generic injectable pharmaceuticals; surgical hemostat and sealant products; advanced surgical equipment; smart bed systems; patient monitoring and diagnostic technologies; and respiratory health devices, as well as advanced equipment for the surgical space comprising operating room integration technologies, precision positioning devices, and other accessories. The company also provides specialty injectable pharmaceuticals, inhaled anesthetics, and drug compounding services. Its products are used in hospitals, nursing homes, rehabilitation centers, ambulatory surgery centers, doctors' offices, kidney dialysis centers, and patients at home under physician supervision. The company sells its products through direct sales force, independent distributors, drug wholesalers, and specialty pharmacy or other alternate site providers. It has an agreement with Celerity Pharmaceuticals, LLC to develop acute care generic injectable premix and oncolytic products. The company operates in Eastern Europe, the Middle East, Africa, Latin America, Asia, Western Europe, Canada, Japan, Australia, and New Zealand. Baxter International Inc. was incorporated in 1931 and is headquartered in Deerfield, Illinois.",
+  "url": "https://finance.yahoo.com/quote/BAX",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

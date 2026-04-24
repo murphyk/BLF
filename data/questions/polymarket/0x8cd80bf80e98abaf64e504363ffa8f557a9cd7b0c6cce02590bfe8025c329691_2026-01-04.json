@@ -1,0 +1,14 @@
+{
+  "id": "0x8cd80bf80e98abaf64e504363ffa8f557a9cd7b0c6cce02590bfe8025c329691_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Solana dip to $80 by December 31, 2026?",
+  "resolution_criteria": "This market will immediately resolve to \u201cYes\u201d if any Binance 1-minute candle for Solana (SOL/USDT) between November 24, 2025, 14:30 and December 31, 2026, 23:59 in the ET timezone has a final \u201cLow\u201d price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \u201cNo.\u201d\n\nThe resolution source for this market is Binance, specifically the SOL/USDT \u201cLow\u201d prices available at:\nhttps://www.binance.com/en/trade/SOL_USDT with the chart settings on \u201c1m\u201d (one-minute candles) selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-solana-dip-to-80-by-december-31-2026",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-02-05",
+  "market_value": "0.58",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

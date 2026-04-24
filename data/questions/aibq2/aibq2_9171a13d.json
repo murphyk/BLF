@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_9171a13d",
+  "source": "aibq2",
+  "question": "Will the Project 2025 Tracker spreadsheet have the objective of stopping funding for NPR and PBS marked as complete before July 1, 2025?",
+  "background": "At the time of this question, the objective was marked as \"in progress.\" The 2025 Tracker is a project of the Keep_Track subreddit and is explained [here](https://www.reddit.com/r/Keep_Track/comments/1ii7tbr/project_2025_tracker_is_now_live/).",
+  "resolution_criteria": "This question resolves as **Yes** if the Project 2025 objective to \"stop funding for NPR and PBS\" is marked as complete according to [this spreadsheet](https://docs.google.com/spreadsheets/d/1QGG6wNHna-1tt91yXNkOauAJJ7snobFjfEnmxlmzhl4/edit?gid=0#gid=0) before July 1, 2025. If it is anything other than complete (such as \"in progress\") when accessed by Metaculus on or after July 1, 2025, then the question resolves as **No**.",
+  "url": "https://www.reddit.com/r/Keep_Track/comments/1ii7tbr/project_2025_tracker_is_now_live/",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

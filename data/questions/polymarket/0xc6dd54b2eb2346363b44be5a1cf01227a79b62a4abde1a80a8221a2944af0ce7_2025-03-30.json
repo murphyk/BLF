@@ -1,0 +1,15 @@
+{
+  "id": "0xc6dd54b2eb2346363b44be5a1cf01227a79b62a4abde1a80a8221a2944af0ce7_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Chaz Lanier win the Wooden Award?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Chaz Lanier is awarded the 2025 Wooden Award. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf Chaz Lanier is not announced as a finalist for the 2025 Wooden Award, this market will immediately resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information from Woodenaward.com.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-chaz-lanier-win-the-wooden-award",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-02",
+  "market_value": "0.0015",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

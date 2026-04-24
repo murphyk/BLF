@@ -1,0 +1,15 @@
+{
+  "id": "FOXA_2026-03-29",
+  "source": "yfinance",
+  "question": "Will FOXA's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FOXA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 57.650. (The latest market close price of FOXA.)",
+  "background": "Fox Corporation operates as a news, sports, and entertainment company in the United States. It operates in four segments: Cable Network Programming, Television, Credible, and The FOX Studio Lot. The Cable Network Programming segment produces and licenses news and sports content for distribution through traditional cable television systems, direct broadcast satellite operators, telecommunication companies, virtual multi-channel video programming distributors, and other digital platforms. Its Television segment produces, acquires, markets, and distributes programming through the FOX broadcast network, advertising-supported video-on-demand service Tubi, and operates full power broadcast television stations, including duopolies and other digital platforms. This segment also produces content for third parties. The Credible segment engages in the consumer finance marketplace. Its FOX Studio Lot segment provides television and film production services along with office space, studio operation services, and all operations of the facility. Fox Corporation was incorporated in 2018 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/FOXA",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

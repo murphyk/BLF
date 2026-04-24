@@ -1,0 +1,15 @@
+{
+  "id": "0x74f65609db661f4e166df3cb604c5557a60cf55448a7ce1e7884afc9d54f912a_2025-04-27",
+  "source": "polymarket",
+  "question": "Will Tanya Plibersek be the next Prime Minister of Australia after the 2025 election?",
+  "resolution_criteria": "The 2025 Australian federal election will be held on or before 17 May 2025 to elect members of the 48th Parliament of Australia. \n\nThis market will resolve to \"Yes\" if Tanya Plibersek is the next Prime Minister of Australia following the election. Otherwise, this market will resolve to \"No.\"\n\nAny interim/caretaker Prime Minister will not count toward the resolution of this market. If no next Prime Minister of Australia is announced by December 31, of 2025, 11:59 PM ET this market will resolve to \"No.\"\n\nThe primary resolution source for this market will be official information from the Government of Australia, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tanya-plibersek-be-the-next-prime-minister-of-australia-after-the-2025-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-05",
+  "market_value": "0.0015",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market price."
+}

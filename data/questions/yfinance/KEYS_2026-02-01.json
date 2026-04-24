@@ -1,0 +1,17 @@
+{
+  "id": "KEYS_2026-02-01",
+  "source": "yfinance",
+  "question": "Will KEYS's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KEYS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 216.690. (The latest market close price of KEYS.)",
+  "background": "Keysight Technologies, Inc. provides electronic design and test solutions worldwide. The company operates through Communications Solutions Group and Electronic Industrial Solutions Group segments. It offers electronic design and test software, instrumentation, systems, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of communication systems in wireless, data center ecosystem, enterprise, and aerospace, defense, and government end markets. The company also develops and deploys communications products and services; and operates communications networks. In addition, it provides electronic design, test and simulation software, instrumentation, systems, computer-aided engineering solutions, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of electronic equipment in the automotive and energy, semiconductor solutions, and general electronics industries. Further, the company offers product support; technical and application support for hardware, software, and solutions; and professional services, such as installation, training, engineering, optimization of equipment and solution adoption, utilization, and integration services. Additionally, it provides oscilloscopes; generators, sources and power supplies; software products; analyzers; wireless products; network test and security; modular instruments; meters; network visibility; and other products, as well as KeysightCare support plans, calibration, repair, technology refresh, test as a service, network/security, consulting, financial alternatives, education, software testing, support, managed, device vulnerability analysis, support portal, and used equipment services. Keysight Technologies, Inc. was founded in 1939 and is headquartered in Santa Rosa, California.",
+  "url": "https://finance.yahoo.com/quote/KEYS",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

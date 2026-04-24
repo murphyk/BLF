@@ -1,0 +1,15 @@
+{
+  "id": "cWo9pRQFGfKsTDgC7VTj_2025-06-08",
+  "source": "manifold",
+  "question": "New arena for the Washington Wizards / Washington Capitals in Northern Virginia?",
+  "resolution_criteria": "This market will resolve YES immediately if ground is broke in the construction of a arena/stadium complex in Northern Virginia. The announcement of a planned stadium will not be sufficient to resolve YES. If ground is not broke by January 1st, 2026, this market will resolve NO.\n\nIt must be credibly reported that this stadium will host the Washington Wizards and/or Washington Capitals.\n\nIt must be credibly reported that construction is actually starting for the new stadium (i.e \"ground breaks\"). A formal ground breaking ceremony is not required though, if construction starts, this will resolve YES. An example of a suitable similar source is: https://www.alxnow.com/2021/09/15/virginia-techs-innovation-campus-breaks-ground-in-potomac-yard/. Approvals must be in place for a stadium to be built on the site. For example, a demolition of an existing structure to make way for a future stadium that has not been approved yet will not be sufficient for this market to resolve YES.\n\nPlease ask any clarifying questions.",
+  "background": "",
+  "url": "https://manifold.markets/mint/new-arena-for-the-washington-wizard",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-02",
+  "market_value": "0.148596991385878",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market value."
+}

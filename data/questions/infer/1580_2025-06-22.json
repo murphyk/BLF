@@ -1,0 +1,15 @@
+{
+  "id": "1580_2025-06-22",
+  "source": "infer",
+  "question": "Will the number of acres burned by wildfires in the United States in July 2025 exceed 1,283,147 acres?",
+  "resolution_criteria": "This question will resolve as \u201cYes\u201d if the total number of acres burned by wildfires in the U.S. in July 2025, as reported by the NCEI, exceeds 1,283,147 acres. The official value will be taken from the NCEI\u2019s monthly data for July 2025, published here when available.&nbsp; To see the wildfire data for any given month, select \u201cWildfires Report\u201d, then select the Year and Month. To view historical data in the line chart, deselect \u201cFires\u201d and \u201cAcres/Fire\u201d in the legend on the top right so the chart will only display the number of acres burned in the selected month of each year. The data for the selected month is also available in the 1-Month Wildfire Statistics table below, in the \u201cAcres Burned\u201d row and \u201cTotals\u201d column.",
+  "background": "The National Interagency Fire Center (NIFC) has recorded an average of about 70,000 wildfires annually in the U.S. since 1983. NIFC data for the number of wildfires and acres burned for July in the past few years is below, as reported in the NOAA National Center for Environmental Information (NCEI) Monthly Wildfires Report for July 2024 :&nbsp; In July 2022, 5,300 fires (least since 2000) burned 1,790,284 acres.&nbsp; In July 2023, 6,507 fires (5th least since 2000) burned 466,033 acres.&nbsp; In July 2024, 6,943 fires (7th least since 2000) burned 2,018,399 acres.&nbsp; The average number of acres burned in the month of July for the past five years is 1,283,147 acres.",
+  "url": "https://www.randforecastinginitiative.org/questions/1580",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-08-01",
+  "market_value": "0.7895000000000001",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

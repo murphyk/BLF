@@ -1,0 +1,15 @@
+{
+  "id": "0x801aca082e8ab25e24a9d822f9b16effc21681be6fb852865a522a2da2f4d2d1_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Ja Morant win the 2024-25 NBA MVP?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Ja Morant is awarded the 2024-25 NBA Most Valuable Player (MVP) Award. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf Ja Morant is not announced as a finalist for the 2024-25 NBA MVP award, this market will immediately resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-ja-morant-win-the-2024-25-nba-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-21",
+  "market_value": "0.0005",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0086",
+  "source": "aibq2",
+  "question": "Will the Indian Armed Forces execute a kinetic attack in Pakistan proper in June 2025?",
+  "title_hash": "b435f4ac5c22c97b",
+  "background": "Wikipedia: [2025 India\u2013Pakistan conflict](https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict)",
+  "resolution_criteria": "This question resolves as **Yes** if after May 31, 2025 and before July 1, 2025 the Indian Armed Forces execute a kinetic attack on targets in one of the following provinces of Pakistan: Sindh, Baluchistan, Punjab, or Khyber Pakhtunkhwa.\n\nFine print:\nTo count, an attack must be [kinetic](https://en.wikipedia.org/wiki/Kinetic_military_action), using explosive weaponry or physical violence. Non-kinetic actions such as a cyberattack would not count, even one resulting in deaths.",
+  "url": "https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict",
+  "forecast_due_date": "2025-05-22",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

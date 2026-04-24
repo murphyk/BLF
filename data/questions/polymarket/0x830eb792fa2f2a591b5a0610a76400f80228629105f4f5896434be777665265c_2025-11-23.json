@@ -1,0 +1,14 @@
+{
+  "id": "0x830eb792fa2f2a591b5a0610a76400f80228629105f4f5896434be777665265c_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Henri Bontenbal become the next Prime Minister of the Netherlands?",
+  "resolution_criteria": "The ruling coalition of the Netherlands collapsed on June 3, 2025. New parliamentary elections are scheduled for October 29.\n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of the Netherlands following the 2025 parliamentary election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2026, 11:59 PM ET, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source for this market will be official information from the Government of the Netherlands; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-henri-bontenbal-become-the-next-prime-minister-of-the-netherlands",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-23",
+  "market_value": "0.0395",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

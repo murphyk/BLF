@@ -1,0 +1,14 @@
+{
+  "id": "0x085126eca944aa0780b425fcc46ab7276cd02f2f59b7934ca9e5ddccfbc03ea6_2025-11-23",
+  "source": "polymarket",
+  "question": "Will Kelly Loeffler be the first to leave the Trump Cabinet in 2025?",
+  "resolution_criteria": "This market will resolve according to the next individual that it is announced will leave the Trump Cabinet, or otherwise ceases to be a member of administration. If no one leaves by December 31, 2025, 11:59 PM ET, this market will resolve to \u201cNone in 2025\u201d.\n\nAn announcement of an individual's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nIf multiple individuals announce departures or are removed at the same time, the market will resolve to the individual who actually leaves office first. If they leave simultaneously, the market will resolve to the individual whose last name is alphabetically first.\n\nFor the purposes of this market, the Cabinet includes Vice President, the heads of the 15 executive departments, as well as the Administrator of the Environmental Protection Agency (EPA), the President\u2019s Chief of Staff, the Director of National Intelligence (DNI), the Director of the Office of Management and Budget (OMB), the Director of the Central Intelligence Agency (CIA), the United States Trade Representative (USTR), the Ambassador to the United Nations, the Chair of the Council of Economic Advisers (CEA), and the Administrator of the Small Business Administration (SBA). Acting officials serving in these roles are not included. The Director of the Office of Science and Technology Policy (OSTP) is not considered Cabinet-level under the current Trump administration and is excluded from this market.\n\nAn individual will be considered to have left the Cabinet if they resign from or are removed from any Cabinet-level position, even if they are subsequently appointed to a different Cabinet-level role.\n\nIf a candidate who is not already listed, assumes a listed cabinet position they will be added to the market. However, candidates who have merely been nominated for a cabinet position (e.g. Mike Waltz) will not be considered to have left, even if their nomination is rejected or withdrawn. \n\nThe primary resolution source will be official information from the Trump administration, however a consensus of credible reopening may also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-kelly-loeffler-be-the-first-to-leave-the-trump-cabinet-in-2025",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0015",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The market price."
+}

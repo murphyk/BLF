@@ -1,0 +1,23 @@
+{
+  "id": "OMC_2025-03-30",
+  "source": "yfinance",
+  "question": "Will OMC's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/OMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 81.490. (The latest market close price of OMC.)",
+  "background": "Omnicom Group Inc., together with its subsidiaries, offers advertising, marketing, and corporate communications services. It provides a range of services in the areas of media and advertising, precision marketing, public relations, healthcare, branding and retail commerce, experiential, execution, and support. The company's services include advertising, branding, content marketing, corporate social responsibility consulting, crisis communications, custom publishing, data analytics, database management, digital/direct marketing and post-production, digital transformation consulting, entertainment marketing, experiential marketing, field marketing, sales support, financial/corporate business-to-business advertising, graphic arts/digital imaging, healthcare marketing and communications, and instore design services. Its services also comprise interactive marketing, investor relations, marketing research, media planning and buying, retail media planning and buying, merchandising and point of sale, mobile marketing, multi-cultural marketing, non-profit marketing, organizational communications, package design, product placement, promotional marketing, public affairs, public relations, retail marketing, retail media and e-commerce, search engine marketing, shopper marketing, social media marketing, and sports and event marketing services. It operates in the North and Latin America, Europe, the Middle East and Africa (EMEA), and the Asia Pacific. The company was incorporated in 1944 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/OMC",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xfac98674a774531c2b7def1ce530ef2eaa78a1c444f794923826f2660b1eaa14_2025-08-03",
+  "source": "polymarket",
+  "question": "Poilievre out as leader of Conservatives in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Pierre Poilievre announces he is resigning as head of the Conservative Party of Canada or otherwise ceases to be head of the Conservative Party of Canada for any length of time between March 23, and December 31, 2025, 11:59 PM ET (inclusive). Otherwise, this market will resolve to \"No\".\n\nAn announcement of Pierre Poilievre's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe primary resolution source for this market will be information from Pierre Poilievre or the Conservative Party of Canada, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/pierre-poilievre-out-as-leader-of-conservatives-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.105",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

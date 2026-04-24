@@ -1,0 +1,14 @@
+{
+  "id": "0x84c7382fc6881416a2b07b0ebe9da32daba8be44a48623a0c3fe4b22f816431a_2026-03-15",
+  "source": "polymarket",
+  "question": "Will Bitcoin dip to $55,000 in March?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bitcoin-dip-to-55k-in-march-2026",
+  "forecast_due_date": "2026-03-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.125",
+  "market_date": "2026-03-06",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,6 @@
+{
+  "category": "Geopolitics & Conflict",
+  "suggested_category": null,
+  "justification": "The question tracks variations in political violence and explosive incidents using the ACLED event dataset, which is a standard metric for monitoring regional conflict and instability.",
+  "question": "Will there be more 'Explosions/Remote violence' in Guadeloupe for the 30 days before each resolution date listed below compared to the 30-day average of 'Explosions/Remote violence' over the 360 days preceding 2025-06-22?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Explosions/Remote violence'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Explosions/Remote violence' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Explosions/Remote violence' would need to occur in the 30 days leading up to the resolution."
+}

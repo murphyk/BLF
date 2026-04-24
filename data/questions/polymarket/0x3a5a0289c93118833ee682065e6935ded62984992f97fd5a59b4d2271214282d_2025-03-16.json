@@ -1,0 +1,15 @@
+{
+  "id": "0x3a5a0289c93118833ee682065e6935ded62984992f97fd5a59b4d2271214282d_2025-03-16",
+  "source": "polymarket",
+  "question": "Will the Dallas Stars win the 2025 Stanley Cup?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Dallas Stars win the 2025 NHL Stanley Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025 NHL Stanley Cup based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-dallas-stars-win-the-2025-stanley-cup",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-30",
+  "market_value": "0.1",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

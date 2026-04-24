@@ -1,0 +1,23 @@
+{
+  "id": "5452de11a0b8b0c855feb8d52ee116aa4b1ac3b7e719039ab35667c34cf2552b_2025-03-02",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will Nodirbek Abdusattorov have a FIDE ranking on each resolution date listed below as high or higher than their ranking on 2025-03-02?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/FIDE_rankings on the resolution date.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 6.000. (Nodirbek Abdusattorov's FIDE ranking.)",
+  "background": "The International Chess Federation (FIDE) governs international chess competition. Each month, FIDE publishes the lists 'Top 100 Players', 'Top 100 Women', 'Top 100 Juniors' and 'Top 100 Girls' and rankings of countries according to the average rating of their top 10 players and top 10 female players.\nTo create the rankings, FIDE uses the Elo rating system, which is a method for calculating the relative skill levels of players in zero-sum games such as chess. The difference in the ratings between two players serves as a predictor of the outcome of a match. Two players with equal ratings who play against each other are expected to score an equal number of wins. A player whose rating is 100 points greater than their opponent's is expected to score 64%; if the difference is 200 points, then the expected score for the stronger player is 76%.\nA player's Elo rating is a number which may change depending on the outcome of rated games played. After every game, the winning player takes points from the losing one. The difference between the ratings of the winner and loser determines the total number of points gained or lost after a game. If the higher-rated player wins, then only a few rating points will be taken from the lower-rated player. However, if the lower-rated player scores an upset win, many rating points will be transferred. The lower-rated player will also gain a few points from the higher rated player in the event of a draw. This means that this rating system is self-correcting. Players whose ratings are too low or too high should, in the long run, do better or worse correspondingly than the rating system predicts and thus gain or lose rating points until the ratings reflect their true playing strength.\nElo ratings are comparative only, and are valid only within the rating pool in which they were calculated, rather than being an absolute measure of a player's strength.",
+  "url": "https://en.wikipedia.org/wiki/FIDE_rankings",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

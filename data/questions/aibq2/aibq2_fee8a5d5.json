@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_fee8a5d5",
+  "source": "aibq2",
+  "question": "Will Mozambique receive a \"Level 4 \u2013 Do Not Travel\" travel advisory from the US State Department before July 1, 2025?",
+  "background": "MSN: [ATTA issues travel advisory for Mozambique amid protests](https://www.msn.com/en-za/travel/travel-preparation/atta-issues-travel-advisory-for-mozambique-amid-protests/ar-AA1wHavB?ocid=BingNewsVerp)",
+  "resolution_criteria": "This question resolves as **Yes** if the country of Mozambique has received a Level 4 [travel advisory](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Mozambique.html) from the US Department of State before July 1, 2025.",
+  "url": "https://www.msn.com/en-za/travel/travel-preparation/atta-issues-travel-advisory-for-mozambique-amid-protests/ar-AA1wHavB?ocid=BingNewsVerp",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

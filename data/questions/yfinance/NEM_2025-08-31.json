@@ -1,0 +1,21 @@
+{
+  "id": "NEM_2025-08-31",
+  "source": "yfinance",
+  "question": "Will NEM's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NEM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 69.000. (The latest market close price of NEM.)",
+  "background": "Newmont Corporation engages in the production and exploration of gold properties. It also explores for copper, silver, zinc, lead, and other metals. The company has operations and/or assets in the United States, Canada, Mexico, Dominican Republic, Peru, Suriname, Argentina, Chile, Australia, Papua New Guinea, Ecuador, Fiji, and Ghana, and internationally. Newmont Corporation was founded in 1916 and is headquartered in Denver, Colorado.",
+  "url": "https://finance.yahoo.com/quote/NEM",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "WY_2025-11-23",
+  "source": "yfinance",
+  "question": "Will WY's market close price on each resolution date listed below be higher than its market close price on 2025-11-23?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 22.450. (The latest market close price of WY.)",
+  "background": "Weyerhaeuser Company, one of the world's largest private owners of timberlands, began operations in 1900 and today owns or controls approximately 10.4 million acres of timberlands in the U.S., as well as additional public timberlands managed under long-term licenses in Canada. Weyerhaeuser has been a global leader in sustainability for more than a century and manages 100 percent of its timberlands on a fully sustainable basis in compliance with internationally recognized sustainable forestry standards. Weyerhaeuser is also one of the largest manufacturers of wood products in North America and operates additional business lines around product distribution, climate solutions, real estate, and energy and natural resources, among others. In 2024, the company generated $7.1 billion in net sales and employed approximately 9,400 people who serve customers worldwide. Operated as a real estate investment trust, Weyerhaeuser's common stock trades on the New York Stock Exchange under the symbol WY.",
+  "url": "https://finance.yahoo.com/quote/WY",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

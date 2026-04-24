@@ -1,0 +1,15 @@
+{
+  "id": "0x189113c537d5f827fe5ef4805b431bc2d908241b5335032186715a3eb16a8983_2025-03-02",
+  "source": "polymarket",
+  "question": "Will Purdue win the 2025 NCAA Tournament?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 NCAA Men\u2019s Basketball Tournament.\n\nIf it is impossible for a team to win the 2025 NCAA Men\u2019s Basketball Tournament according to the rules of the competition (i.e. they are eliminated) , the corresponding market will immediately resolve to \u201cNo\u201d.\n\nIf for any reason no winner is declared by May 31, 2025, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be information from the NCAA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-purdue-win-the-2025-ncaa-tournament",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-29",
+  "market_value": "0.022",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

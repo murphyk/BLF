@@ -1,0 +1,14 @@
+{
+  "id": "O5N6AAz8QI_2026-04-12",
+  "source": "manifold",
+  "question": "Starmer out before July?",
+  "resolution_criteria": "Resolves according to this Polymarket:\n\nThis market will resolve to \u201cYes\u201d if Keir Starmer ceases to be the Prime Minister of the United Kingdom for any period of time between September 14, 2025, and June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Keir Starmer's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be the government of the UK, however a consensus of credible reporting will also suffice.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/brod/starmer-out-before-july",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.256138046927089",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

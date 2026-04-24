@@ -1,0 +1,23 @@
+{
+  "id": "558aebef0c3c95c9559e54f27e8fa908da02917d9833abb9a2330d10b1b2b953_2025-03-30",
+  "source": "wikipedia",
+  "question": "According to Wikipedia, will Lilly King still hold the world record for 100m breaststroke in long course (50 metres) swimming pools on each resolution date listed below?",
+  "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 100m breaststroke. (Lilly King is a record holder in the 100m breaststroke.)",
+  "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
+  "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

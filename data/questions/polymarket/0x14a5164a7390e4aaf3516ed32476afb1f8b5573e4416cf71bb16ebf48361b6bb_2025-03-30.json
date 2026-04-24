@@ -1,0 +1,15 @@
+{
+  "id": "0x14a5164a7390e4aaf3516ed32476afb1f8b5573e4416cf71bb16ebf48361b6bb_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Anthropic have the top AI model on March 31?",
+  "resolution_criteria": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on March 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/ with the style control unchecked will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-anthropic-have-the-top-ai-model-on-march-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

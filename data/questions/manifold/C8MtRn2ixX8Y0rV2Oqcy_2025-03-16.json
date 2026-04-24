@@ -1,0 +1,15 @@
+{
+  "id": "C8MtRn2ixX8Y0rV2Oqcy_2025-03-16",
+  "source": "manifold",
+  "question": "Will OpenAI hint at [read description] or claim to have AGI by 2025 end?",
+  "resolution_criteria": "OpenAI's original definition for AGI is as follows:\n\n\"By AGI, we mean highly autonomous systems that outperform humans at most economically valuable work.\"\n\nThis is the definition used for the purposes of evaluating this prediction unless there's a change proposed by the board (or another governing body of OpenAI with such permissions as to modify the charter) of OpenAI to this definition.\n\nBy \"Hint at\", it is meant that instead of a direct claim, OpenAI takes actions that were otherwise reserved for the special case of having achieved AGI. Since it is not possible to define something as intuitive as \"hint at\" apriori, I will judge that part subjectively, and am not going to trade in this market to avoid a conflict of interest. \n\n\"Hint at\" could be understood as a weak claim to AGI by OpenAI's official actions or statements.\n\nHere is a diagram illustrating the governance structure of OpenAI:\n\n[image]The following is a quote from the original post by OpenAI, OpenAI's structure:\n\nFifth, the board determines when we've attained AGI. Again, by AGI we mean a highly autonomous system that outperforms humans at most economically valuable work. Such a system is excluded from IP licenses and other commercial terms with Microsoft, which only apply to pre-AGI technology.\n\nAn action that would \"hint at\" OpenAI achieving AGI would be the exclusion of a specific state of the art AI system from IP licenses and other commercial terms with Microsoft while their partnership with Microsoft remains more or less the same structurally (although the composition might change). \n\nSame market for a longer time-frame is below:\n\n(https://manifold.markets/embed/firstuserhere/will-openai-hint-at-or-claim-to-hav-0d635f105866)",
+  "background": "",
+  "url": "https://manifold.markets/_deleted_/will-openai-hint-at-or-claim-to-hav",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.18725460630000001",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market value."
+}

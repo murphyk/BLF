@@ -1,0 +1,14 @@
+{
+  "id": "0xa76a7ecac374e7e37f9dd7eacda947793f23d2886ffe0dc28fcc081a7f61423c_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Bitcoin dip below $100k before 2026?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between July 14, 2025, 14:00 and December 31, 2025, 23:59 in the ET timezone has a final \"Low\" price of $99,999.99 or lower. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/btc-above-100k-till-2025-end",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.5650000000000001",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

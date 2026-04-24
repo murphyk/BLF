@@ -1,0 +1,17 @@
+{
+  "id": "SNA_2026-02-15",
+  "source": "yfinance",
+  "question": "Will SNA's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SNA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 369.340. (The latest market close price of SNA.)",
+  "background": "Snap-on Incorporated manufactures and markets tools, equipment, diagnostics, and repair information and systems solutions for professional users worldwide. It operates through Commercial & Industrial Group, Snap-on Tools Group, Repair Systems & Information Group, and Financial Services segments. The company provides hand tools, including wrenches, sockets, ratchet wrenches, pliers, screwdrivers, punches and chisels, saws and cutting tools, pruning tools, torque measuring instruments, and other related products; power tools, such as cordless, pneumatic, and hydraulic and corded tools; and tool storage products comprising tool chests, roll cabinets, and other products. It also offers handheld and computer-based diagnostic products, service and repair information products, diagnostic software solutions, electronic parts catalogs, business management systems and services, point-of-sale systems, integrated systems for vehicle service shops, original equipment manufacturer purchasing facilitation services, and warranty management systems and analytics; and engineered solutions. In addition, the company provides solutions for the service of vehicles and industrial equipment that include wheel alignment equipment, wheel balancers, tire changers, vehicle lifts, test lane equipment, collision repair equipment, vehicle air conditioning service equipment, brake service equipment, fluid exchange equipment, transmission troubleshooting equipment, safety testing equipment, battery chargers, and hoists, as well as after-sales support services and training programs. Further, it offers financing programs to facilitate the sales of its products and support its franchise business. It serves the aviation and aerospace, natural resources, agriculture, infrastructure construction, government and military, mining, power generation, and technical education industries. Snap-on Incorporated was incorporated in 1920 and is headquartered in Kenosha, Wisconsin.",
+  "url": "https://finance.yahoo.com/quote/SNA",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

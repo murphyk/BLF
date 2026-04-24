@@ -1,0 +1,15 @@
+{
+  "id": "0xc531ab3ca41abb7d9c8a77601565670a7f491f66de4dd897fbe560831f3a04b6_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Croatia win Eurovision 2025?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2025 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2025 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2025, 11:59 PM ET, this market will resolve \"Other\". If two or more countries tie to win Eurovision 2025, this market will resolve to the country which comes first alphabetically.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2025, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-croatia-win-eurovision-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-14",
+  "market_value": "0.0035",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

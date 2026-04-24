@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_e39081b3",
+  "source": "aibq2",
+  "question": "Will Ramzan Kadyrov cease to be head of the Chechen Republic before June 1, 2025?",
+  "background": "The Moscow Times: [Kadyrov Says He Wants to Step Down as Chechen Leader](https://www.themoscowtimes.com/2025/05/06/kadyrov-says-he-wants-to-step-down-as-chechen-leader-a88991)",
+  "resolution_criteria": "This question resolves as **Yes** if according to [credible sources](https://www.metaculus.com/help/faq/#definitions) Ramzan Kadyrov ceases to be the [Head of the Chechen Republic](https://en.wikipedia.org/wiki/Head_of_the_Chechen_Republic) before June 1, 2025, for any reason. Otherwise, this question resolves as **No**.",
+  "url": "https://www.themoscowtimes.com/2025/05/06/kadyrov-says-he-wants-to-step-down-as-chechen-leader-a88991",
+  "forecast_due_date": "2025-05-12",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

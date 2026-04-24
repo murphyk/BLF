@@ -1,0 +1,21 @@
+{
+  "id": "AXON_2025-08-17",
+  "source": "yfinance",
+  "question": "Will AXON's market close price on each resolution date listed below be higher than its market close price on 2025-08-17?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AXON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-17 is unknown, but the most recent known value (as of 2025-08-07) was 863.650. (The latest market close price of AXON.)",
+  "background": "Axon Enterprise, Inc. develops, manufactures, and sells conducted energy devices (CEDs) under the TASER brand in the United States and internationally. It operates through two segments, Software and Sensors, and TASER. The company also offers hardware and cloud-based software solutions that enable law enforcement to capture, securely store, manage, share, and analyze video and other digital evidence. Its products include axon officer safety plan; taser 10, taser7, taser X26P, taser X2, taser 7 CQ, and civilian series; cameras, such as axon body, axon flex, axon fleet, axon air, axon signal sidearm, axon signal vehicle, axon interview, and axon interview portable kit; software, including axon records, evidence, standards, commander, performance, auto-transcribe, justice, investigate, respond, and justice, my90, and redaction assistant; mobile applications, and training services, as well as hardware extended warranties; and Axon docks, cartridges, and batteries. The company sells its products through its direct sales, distribution partners, online store, and third-party resellers. Axon Enterprise, Inc. has a strategic partnership with Fusus, Inc. to expand bility to aggregate live video, data, and sensor feeds. It serves law enforcement, federal, correction, fire, EMS, campus, justice healthcare, retail, private security, and personal safety industries. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.",
+  "url": "https://finance.yahoo.com/quote/AXON",
+  "forecast_due_date": "2025-08-17",
+  "resolution_dates": [
+    "2025-08-24",
+    "2025-09-16",
+    "2025-11-15",
+    "2026-02-13"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "MTB_2025-06-22",
+  "source": "yfinance",
+  "question": "Will MTB's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MTB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 184.530. (The latest market close price of MTB.)",
+  "background": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail Bank, and Institutional Services and Wealth Management. It offers a range of credit products and banking services, such as commercial lending and leasing, letters of credits, deposit products, cash management services, commercial real estate loans, and credit facilities secured by various commercial real estate properties to middle-market and large commercial customers. The company also provides customers deposit products, including demand, savings and time accounts, and other services; automobile and recreational finance loans, home equity loans and lines of credit, credit cards, and other loan products, as well as residential mortgage and real estate loans; business loans, cash management, payroll, and direct deposit services to consumers and small businesses through branch network, telephone banking, internet banking, and automated teller machines. In addition, it offers trustee, agency, investment management, security brokerage, and administrative services; personal trust, planning and advisory, fiduciary, asset management, family office, and other services; and investment products, including mutual funds and annuities, and other services for corporations and institutions, investment bankers, corporate tax, finance and legal executives, and other institutional clients. M&T Bank Corporation was founded in 1856 and is headquartered in Buffalo, New York.",
+  "url": "https://finance.yahoo.com/quote/MTB",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

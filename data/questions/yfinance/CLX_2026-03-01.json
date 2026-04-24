@@ -1,0 +1,17 @@
+{
+  "id": "CLX_2026-03-01",
+  "source": "yfinance",
+  "question": "Will CLX's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CLX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 123.200. (The latest market close price of CLX.)",
+  "background": "The Clorox Company manufactures and markets consumer and professional products worldwide. The company operates through four segments: Health and Wellness, Household, Lifestyle, and International. The Health and Wellness segment offers home care cleaning and disinfecting products, bleach, clog removers, and laundry additives under the Clorox, Clorox2, Pine-Sol, Scentiva, Tilex, Liquid-Plumr, Poett, and Formula 409 brands; professional cleaning and disinfecting products under the CloroxPro and Clorox Healthcare brands; professional food service products under the Hidden Valley brand in the United States. The Household segment provides cat litter products under the Fresh Step and Scoop Away brands; bags and wraps under the Glad brand; and grilling products under the Kingsford brand in the United States. The Lifestyle segment offers dressings, dips, seasonings, and sauces primarily under the Hidden Valley brand; water-filtration products under the Brita brand; and natural personal care products under the Burt's Bees brand in the United States. The International segment provides laundry additives, home care products, bags and wraps, cat litter products, water-filtration systems, professional cleaning and disinfecting products, natural personal care products, food, grilling products, and digestive health products internationally primarily under the Clorox, Glad, Poett, Brita, Burt's Bees, Pine-Sol, Ever Clean, Clorinda, Chux and Fresh Step Brands. It also offers vitamins, minerals, and supplement products under the Natural Vitality, RenewLife, NeoCell, and Rainbow Light brands. The company sells its products through mass retailers; grocery outlets; warehouse clubs; dollar stores; home hardware centers; drug, pet, and military stores; third-party and owned e-commerce channels; and distributors, as well as a direct sales force. The company was founded in 1913 and is headquartered in Oakland, California.",
+  "url": "https://finance.yahoo.com/quote/CLX",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

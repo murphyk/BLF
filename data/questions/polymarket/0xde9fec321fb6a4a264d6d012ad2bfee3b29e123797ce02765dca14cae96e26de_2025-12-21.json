@@ -1,0 +1,14 @@
+{
+  "id": "0xde9fec321fb6a4a264d6d012ad2bfee3b29e123797ce02765dca14cae96e26de_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Z.ai have the best AI model for coding at the end of 2025?",
+  "resolution_criteria": "This market will resolve to the company which owns the model that has the top LiveBench \u201ccoding average\u201d score, as based off the LiveBench AI model leaderboard (https://livebench.ai/#/), on December 31, 2025, 12:00 PM ET. \n\nIf two models are tied for the top LiveBench coding average score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order.\n\nThe primary source of resolution for this market will be LiveBench\u2019s AI leaderboard, specifically the \u201ccoding average\u201d category, found at livebench.ai. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zai-have-the-best-ai-model-for-coding-at-the-end-of-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0015",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

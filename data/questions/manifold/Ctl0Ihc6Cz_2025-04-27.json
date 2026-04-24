@@ -1,0 +1,15 @@
+{
+  "id": "Ctl0Ihc6Cz_2025-04-27",
+  "source": "manifold",
+  "question": "Will Tadej Pogacar win the 2025 Tour de France?",
+  "resolution_criteria": "Resolves YES if Tadej Pogacar wins the general classification at the end of the 2025 Tour de France. Resolves NO otherwise, including if he does not start the Tour or does not finish.",
+  "background": "",
+  "url": "https://manifold.markets/egroj/will-tadej-pogacar-win-the-2025-tou",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-27",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-07-27",
+  "market_value": "0.629999999999999",
+  "market_date": "2025-04-17",
+  "market_value_explanation": "The market value."
+}

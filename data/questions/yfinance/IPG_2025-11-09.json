@@ -1,0 +1,15 @@
+{
+  "id": "IPG_2025-11-09",
+  "source": "yfinance",
+  "question": "Will IPG's market close price on 2025-11-16 be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IPG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 25.760. (The latest market close price of IPG.)",
+  "background": "The Interpublic Group of Companies, Inc. provides advertising and marketing services worldwide. It operates in three segments: Media, Data & Engagement Solutions, Integrated Advertising & Creativity Led Solutions, and Specialized Communications & Experiential Solutions. The Media, Data & Engagement Solutions segment provides media and communications services, digital services and products, advertising and marketing technology, e-commerce services, data management and analytics, strategic consulting, and digital brand experience under the IPG Mediabrands, UM, Initiative, Kinesso, Acxiom, Huge, MRM, and R/GA brand names. The Integrated Advertising & Creativity Led Solutions segment offers advertising, corporate, and brand identity services; and strategic consulting under FCB, IPG Health, McCann Worldgroup, and MullenLowe Group brands. The Specialized Communications & Experiential Solutions segment provides public relations and other specialized communications services, live events, sports and entertainment marketing, and strategic consulting under IPG DXTRA Health, The Weber Shandwick Collective, Golin, Jack Morton, Momentum, and Octagon brand names. The company was formerly known as McCann-Erickson Incorporated and changed its name to The Interpublic Group of Companies, Inc. in January 1961. The Interpublic Group of Companies, Inc. was founded in 1902 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/IPG",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

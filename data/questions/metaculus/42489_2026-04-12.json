@@ -1,0 +1,14 @@
+{
+  "id": "42489_2026-04-12",
+  "source": "metaculus",
+  "question": "Will the United Arab Emirates conduct a direct military strike against Iran before June 1, 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before 23:59 UTC on 31 May 2026, the United Arab Emirates publicly claims responsibility for, or is credibly confirmed to have carried out, a direct military strike against Iranian territory or against official Iranian military forces (including the Islamic Revolutionary Guard Corps or the Iranian Army). Eligible actions include, but are not limited to, airstrikes, missile strikes, or other direct military operations conducted by UAE state forces.",
+  "background": "Tensions between the United Arab Emirates and Iran have increased especially following [reported drone attacks affecting Fujairah](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2795400-uae-s-fujairah-storage-tanks-hit-by-drones), on March 3, 2026. Drone strikes have also [damaged Amazon Web Services' data centers in the UAE and elsewhere](https://www.reuters.com/world/middle-east/amazon-cloud-unit-flags-issues-bahrain-uae-data-centers-amid-iran-strikes-2026-03-02/). [These incidents](https://news.sky.com/video/fire-at-uaes-fujairah-oil-facility-as-drone-attack-intercepted-13514579) have intensified regional concern about escalation in the Gulf and have contributed to speculation about whether the UAE could take direct military action against Iran. Public and media discourse in the region has focused on the possibility of a broader confrontation, especially if Emirati leaders conclude that a direct operation alongside the United States would help protect key national ports and oil exports.&#x20;",
+  "url": "https://www.metaculus.com/questions/42489",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.1",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

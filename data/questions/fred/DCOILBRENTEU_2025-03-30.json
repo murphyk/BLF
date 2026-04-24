@@ -1,0 +1,23 @@
+{
+  "id": "DCOILBRENTEU_2025-03-30",
+  "source": "fred",
+  "question": "Will the price of Brent crude oil have increased by each resolution date listed below as compared to its value on 2025-03-30?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/DCOILBRENTEU once the data is published.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 71.930. (The latest value released in Crude Oil Prices: Brent - Europe from the release Spot Prices.)",
+  "background": "The notes from the release: N/A.  The notes from the series: Definitions, Sources and Explanatory Notes (http://www.eia.doe.gov/dnav/pet/TblDefs/pet_pri_spt_tbldef2.asp).  Additional background of the series:  1. the units of the series: Dollars per Barrel.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily ",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

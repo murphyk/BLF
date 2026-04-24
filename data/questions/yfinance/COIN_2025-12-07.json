@@ -1,0 +1,19 @@
+{
+  "id": "COIN_2025-12-07",
+  "source": "yfinance",
+  "question": "Will COIN's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/COIN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 264.970. (The latest market close price of COIN.)",
+  "background": "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It offers the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products granting access to build onchain for developers. The company was founded in 2012 and is based in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/COIN",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

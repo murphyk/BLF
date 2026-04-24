@@ -1,0 +1,15 @@
+{
+  "id": "0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c_2025-05-11",
+  "source": "polymarket",
+  "question": "Elon Musk trillionaire in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/elon-musk-trillionaire-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.06",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

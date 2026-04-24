@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_c6870db9",
+  "source": "aibq2",
+  "question": "Will the Zimbabwe, before June 1, 2025, make another payment to white farmers whose property was seized?",
+  "background": "[Zimbabwe reaffirms commitment to land compensation to spur growth, debt sustainability](https://www.thestar.com.my/news/world/2025/04/10/zimbabwe-reaffirms-commitment-to-land-compensation-to-spur-growth-debt-sustainability)",
+  "resolution_criteria": "This question resolves as **Yes** if, according to [credible sources](https://www.metaculus.com/faq/#definitions) the government of Zimbabwe after the launch of this question and before June 1, 2025 makes an additional payment to former farmers covered under the 2020 Global Compensation Deed.\n\nFine print:\nOn April 9, 2025, Zimbabwe [was reported](https://nehandaradio.com/2025/04/09/zimbabwe-pays-us3-1m-to-former-white-farmers-as-part-of-land-compensation-deal/) to have made its first compensation payment, of USD $3.1 million. Additional such disbursements made after the launch of this question and before June 1, 2025 would count.",
+  "url": "https://www.thestar.com.my/news/world/2025/04/10/zimbabwe-reaffirms-commitment-to-land-compensation-to-spur-growth-debt-sustainability",
+  "forecast_due_date": "2025-04-23",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

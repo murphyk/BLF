@@ -1,0 +1,15 @@
+{
+  "id": "0xeac27563a0f0db51e9179af69d4557165a55144264e382f994738b4a5a839143_2025-03-16",
+  "source": "polymarket",
+  "question": "Will the Denver Nuggets make the NBA Playoffs?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the listed team makes the 2024-25 NBA Playoffs. Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote: reaching the Play-In Tournament will not qualify as making the Playoffs. To make the 2024-25 NBA Playoffs, a team must earn one of the 16 spots in the postseason bracket.\n\nIf at any point it becomes impossible for this team to make the Playoffs based on the rules of the NBA (e.g. they are mathematically eliminated from reaching the Play-In), this market will resolve immediately to \"No\".\n\nThe resolution source for this market will be official information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-denver-nuggets-make-the-nba-playoffs",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-04-14",
+  "market_value": "0.99",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

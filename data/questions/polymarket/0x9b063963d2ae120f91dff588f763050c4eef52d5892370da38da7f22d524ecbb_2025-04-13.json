@@ -1,0 +1,15 @@
+{
+  "id": "0x9b063963d2ae120f91dff588f763050c4eef52d5892370da38da7f22d524ecbb_2025-04-13",
+  "source": "polymarket",
+  "question": "Will Bobby Portis win 2024-25 NBA 6th Man of the Year?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Bobby Portis is awarded the 2024-25 NBA 6th Man of the Year Award. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf Bobby Portis is not announced as a finalist for the 2024-25 NBA 6th Man of the Year Award, this market will immediately resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bobby-portis-win-2024-25-nba-6th-man-of-the-year",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-21",
+  "market_value": "0.0015",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

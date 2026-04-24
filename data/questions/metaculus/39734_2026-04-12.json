@@ -1,0 +1,14 @@
+{
+  "id": "39734_2026-04-12",
+  "source": "metaculus",
+  "question": "Will any of Sudan's seven neighboring countries officially announce a complete border closure with Sudan citing conflict spillover or security concerns before July 1, 2026?",
+  "resolution_criteria": "This question resolves **YES** if any of Sudan's seven neighboring countries (Egypt, Libya, Chad, Central African Republic, South Sudan, Ethiopia, or Eritrea) officially announces through government statements, diplomatic channels, or credible media reports a complete closure of all major border crossings with Sudan, explicitly citing Sudan's civil war, conflict spillover, security concerns, or related reasons. The closure must be announced before July 1, 2026. Temporary closures of individual crossing points, partial restrictions, or closures for other reasons (health, economic, bureaucratic) do not qualify unless conflict spillover is explicitly stated as the primary reason.",
+  "background": "Sudan shares borders with seven countries: Egypt, Libya, Chad, Central African Republic, South Sudan, Ethiopia, and Eritrea. The ongoing civil war has created massive refugee flows (nearly 4 million refugees) and security tensions across all borders. [Chad faces particular pressure](https://www.crisisgroup.org/africa/horn-africa/sudan/two-years-sudans-war-spreading) with [1.2M+ refugees](https://www.nrc.no/globalassets/pdf/fact-sheets/2025/factsheet_chad_jun2025.pdf) and accusations of supporting RSF, leading SAF to declare Chadian airports \"legitimate targets.\" Egypt imposed visa requirements in 2023, and South Sudan faces escalation risks through RSF's alliance with SPLM-N rebels. Border tensions have included temporary closures, weapon smuggling concerns, and cross-border military incidents, but no complete official closures specifically due to conflict spillover have occurred as of September 2025.",
+  "url": "https://www.metaculus.com/questions/39734",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.5",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

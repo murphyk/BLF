@@ -1,0 +1,15 @@
+{
+  "id": "0x92d46fc5e0f2d91a5175e8620f07a42daf2881f96d2066f691c0bae4db70570b_2025-03-16",
+  "source": "polymarket",
+  "question": "Will LeBron James win the 2024-25 NBA MVP?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if LeBron James is awarded the 2024-25 NBA Most Valuable Player (MVP) Award. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf LeBron James is not announced as a finalist for the 2024-25 NBA MVP award, this market will immediately resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-lebron-james-win-the-2024-25-nba-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-21",
+  "market_value": "0.007",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

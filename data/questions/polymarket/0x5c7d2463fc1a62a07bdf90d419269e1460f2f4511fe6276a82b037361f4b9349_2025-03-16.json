@@ -1,0 +1,15 @@
+{
+  "id": "0x5c7d2463fc1a62a07bdf90d419269e1460f2f4511fe6276a82b037361f4b9349_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Amazon be the largest company in the world by market cap on March 31?",
+  "resolution_criteria": "This market will resolve to the largest company in the world by market cap on March 31, 2025, as of market close. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-amazon-be-the-largest-company-in-the-world-by-market-cap-on-march-31",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-03-31",
+  "market_value": "0.005",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

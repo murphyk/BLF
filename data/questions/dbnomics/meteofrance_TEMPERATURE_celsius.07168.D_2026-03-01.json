@@ -1,0 +1,17 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07168.D_2026-03-01",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Troyes-Barberey Airport will be higher on each resolution date listed below than on 2026-03-01?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07168.D once the data is published.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 10.438. (The daily average temperature at the French weather station at Troyes-Barberey Airport.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - TROYES-BARBEREY - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07168.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07168.D",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

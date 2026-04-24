@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0017",
+  "source": "aibq2",
+  "question": "Will Libya ratify AfCFTA (the pan-African free trade agreement) before July 1, 2025?",
+  "title_hash": "89c96a471bc38a35",
+  "background": "Wikipedia: [African Continental Free Trade Area](https://en.wikipedia.org/wiki/African_Continental_Free_Trade_Area)",
+  "resolution_criteria": "This question resolves as **Yes** if Libya ratifies the African Continental Free Trade Area (AfCFTA) Agreement before July 1, 2025.",
+  "url": "https://en.wikipedia.org/wiki/African_Continental_Free_Trade_Area",
+  "forecast_due_date": "2025-05-01",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

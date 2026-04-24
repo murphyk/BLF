@@ -1,0 +1,14 @@
+{
+  "id": "0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+  "resolution_criteria": "This market will resolve to the individual who de facto holds and exercises the powers of the head of state of the Islamic Republic of Iran on December 31, 2026 at 12:00 PM ET.\n\nFor the purposes of this market, \u201cde facto holds\u201d refers to the individual who exercises primary governing authority over the Iranian state at that time, including effective control over the armed forces, national institutions, and core executive decision-making, regardless of formal title, constitutional designation, or international recognition.\n\nFormal appointment, recognition by the United Nations, or recognition by foreign governments is not required.\n\nIf more than one individual claims to be head of state, this market will resolve to the individual who demonstrably exercises primary governing control within Iran\u2019s territory at the specified time.\n\nIndicators of de facto authority may include control over the armed forces and security services; control over executive ministries and state administrative institutions; enforcement of national laws; issuance of binding national directives; and effective control over the capital and core state infrastructure.\n\nSymbolic status, foreign recognition without domestic control, nomination without effective authority, or expired prior service will not qualify.\n\nIf no individual exercises effective governing control at the specified time, this market will resolve to \u201cNo Head of State\u201d.\n\nThe primary resolution source will be a consensus of credible reporting assessing who exercises effective governing authority at the specified time.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.6725",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

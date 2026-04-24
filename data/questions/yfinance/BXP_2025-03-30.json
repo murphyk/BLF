@@ -1,0 +1,23 @@
+{
+  "id": "BXP_2025-03-30",
+  "source": "yfinance",
+  "question": "Will BXP's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BXP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 68.860. (The latest market close price of BXP.)",
+  "background": "BXP, Inc. (NYSE: BXP) is the largest publicly traded developer, owner, and manager of premier workplaces in the United States, concentrated in six dynamic gateway markets - Boston, Los Angeles, New York, San Francisco, Seattle, and Washington, DC. BXP has delivered places that power progress for our clients and communities for more than 50 years. BXP is a fully integrated real estate company, organized as a real estate investment trust (REIT). Including properties owned by unconsolidated joint ventures, BXP's portfolio totals 53.3 million square feet and 185 properties, including seven properties under construction/redevelopment.",
+  "url": "https://finance.yahoo.com/quote/BXP",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

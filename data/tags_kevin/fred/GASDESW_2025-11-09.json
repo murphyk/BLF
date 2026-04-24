@@ -1,0 +1,6 @@
+{
+  "category": "Macroeconomics",
+  "suggested_category": null,
+  "justification": "Energy prices and fuel costs are fundamental macroeconomic indicators often tracked via FRED data that impact inflation and logistics.",
+  "question": "Will the average price of diesel in the US have increased by each resolution date listed below as compared to its value on 2025-11-09?"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1576_2025-06-22",
+  "source": "infer",
+  "question": "Will the U.S. Congress pass a budget reconciliation bill before 1 July 2025?",
+  "resolution_criteria": "This question will be resolved as \"Yes\" if the same budget reconciliation bill passes both the U.S. House of Representatives and the U.S. Senate on or before 1 July 2025, as reported by major media outlets in the United States. The status of any bill can be found using Congress.gov \u2019s legislation tracker.",
+  "background": "Budget reconciliation is a legislative process in the U.S. Congress that allows for expedited consideration of tax, spending, and debt limit legislation. Unlike regular bills, reconciliation bills cannot be filibustered in the Senate, enabling passage with a simple majority. However, their use is subject to strict rules under the Congressional Budget Act and the \"Byrd Rule,\" which limits the inclusion of provisions not directly related to budget changes. This process has been central to enacting major policy changes in recent years, including the Tax Cuts and Jobs Act of 2017 &nbsp;and the Inflation Reduction Act of 2022 . Congressional Republicans are currently attempting to pass what President Trump has termed a \u201cbig, beautiful bill\u201d through budget reconciliation ( Roll Call , New York Times ). The legislative package will include an extension of the 2017 tax cuts and changes to Medicaid, among other Trump administration priorities ( New York Times ). The bill passed the house on 22 May 2025 ( CNBC ). Congressional Republicans, however, only have a slim majority in the Senate, making the passage of such a large package difficult, as individual Republicans are able to exert greater leverage throughout the process ( NPR ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1576",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-01",
+  "market_value": "0.148",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

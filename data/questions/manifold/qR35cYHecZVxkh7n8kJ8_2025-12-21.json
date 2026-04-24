@@ -1,0 +1,14 @@
+{
+  "id": "qR35cYHecZVxkh7n8kJ8_2025-12-21",
+  "source": "manifold",
+  "question": "Will a non-Chromium based web browser be the most popular browser by the end of 2025?",
+  "resolution_criteria": "Most web browsers are built around the Chromium framework, which is primarily developed by Google. This gives Google an outsized influence on an even greater proportion of the web browser market than merely Google Chrome. Some would argue that this gives too much control over web standards to a single corporation, which in turn could be deleterious for the health of the internet overall - akin to the hegemony and eventual downfall of Netscape.\n\nNotable Chromium-based browsers include:\n\nBrave\n\nChrome\n\nEdge\n\nOpera\n\nSamsung Internet\n\nVivaldi\n\nNotable non-Chromium-based browsers include:\n\nFirefox\n\nSafari\n\nUC Browser\n\nWill resolve based on data from Statcounter. If Statcounter data is no longer available at the time of resolutions, I will resolve based on data from a similar source at my discretion.",
+  "background": "",
+  "url": "https://manifold.markets/jonny/will-a-nonchromium-based-web-browse-a3887d178a37",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.01",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market value."
+}

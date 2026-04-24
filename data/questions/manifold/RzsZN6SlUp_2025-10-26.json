@@ -1,0 +1,14 @@
+{
+  "id": "RzsZN6SlUp_2025-10-26",
+  "source": "manifold",
+  "question": "Will Trump win the 2025 Nobel Peace Prize iff there is a ceasefire in Ukraine before 2026? (or not if there isn't)",
+  "resolution_criteria": "Will Trump win the 2025 Nobel Peace Prize iff there is a ceasefire before 2026?\n\nResolves Yes if there is a ceasefire and he wins the prize, or if there isn't and he doesn't. There does not have to be any stated connection between the events.\n\nResolves exactly according to these underlying markets:\n\n@/Mediapunk/will-donald-trump-win-the-nobel-pea \n\n@/WalterMartin/will-there-be-a-bilateral-ceasefire-5z0zRtdl5P \n\nUpdate 2025-10-11 (PST) (AI summary of creator comment): The market resolves YES if both underlying markets resolve the same way (both YES or both NO). It resolves NO if the underlying markets resolve differently (one YES and one NO).\n\nUpdate 2025-10-11 (PST) (AI summary of creator comment): The market will NOT resolve N/A. It uses logical IFF (if and only if), meaning it resolves YES if both underlying markets resolve the same way (both YES or both NO), and resolves NO if they resolve differently (one YES, one NO).\n\nSince the Nobel market has resolved No, this market will now resolve opposite to the ceasefire market.",
+  "background": "",
+  "url": "https://manifold.markets/EvanDaniel/will-trump-win-the-2025-nobel-peace",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-02",
+  "market_value": "0.9144199465104611",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market value."
+}

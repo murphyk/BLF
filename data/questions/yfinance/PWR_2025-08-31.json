@@ -1,0 +1,21 @@
+{
+  "id": "PWR_2025-08-31",
+  "source": "yfinance",
+  "question": "Will PWR's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PWR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 375.870. (The latest market close price of PWR.)",
+  "background": "Quanta Services, Inc. offers infrastructure solutions for the electric and gas utility, renewable energy, communications, pipeline, and energy industries in the United States, Canada, Australia, and internationally. The company's Electric Power Infrastructure Solutions segment engages in the design, procurement, construction, upgrade, repair, and maintenance of electric power transmission and distribution infrastructure and substation facilities; installation, maintenance, and upgrade of electric power infrastructure projects; installation of smart grid technologies on electric power networks; and design, installation, maintenance, and repair of commercial and industrial wirings. This segment offers aviation; emergency restoration; and other engineering and technical services; design and construction solutions to wireline and wireless communications, cable multi-system operators, and other customers; and training for electric workers, as well as training for the gas distribution and communications industries. Its Renewable Energy Infrastructure Solutions segment is involved in engineering, procurement, construction, repair, and maintenance of wind, solar, and hydropower generation facilities, as well as battery storage facilities; and engineering and construction services for substations and switchyards, transmission, and other electrical infrastructures. The company's Underground Utility and Infrastructure Solutions segment offers design, engineering, procurement, construction, upgrade, repair, and maintenance services for natural gas systems for gas utility customers; fabrication services for pipeline support systems and structures and facilities; and engineering and construction services for pipeline and storage systems, and compressor and pump stations. The company was formerly known as Fabal Construction, Inc. and changed its name to Quanta Services, Inc. in November 1997. The company was incorporated in 1997 and is headquartered in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/PWR",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

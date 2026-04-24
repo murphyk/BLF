@@ -1,0 +1,15 @@
+{
+  "id": "WY_2026-03-29",
+  "source": "yfinance",
+  "question": "Will WY's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 23.430. (The latest market close price of WY.)",
+  "background": "Weyerhaeuser Company, one of the world's largest private owners of timberlands, began operations in 1900. Today the firm owns or controls more than 10 million acres of timberlands in the U.S., as well as additional public timberlands managed under long-term licenses in Canada. Weyerhaeuser has been a global leader in sustainability for more than a century and manages 100 percent of its timberlands on a fully sustainable basis in compliance with internationally recognized sustainable forestry standards. Weyerhaeuser is also one of the largest manufacturers of wood products in North America and operates additional business lines around product distribution, climate solutions, real estate, energy and natural resources, among others. In 2025, the company generated $6.9 billion in net sales and employed approximately 9,500 people who serve customers worldwide. Operated as a real estate investment trust, Weyerhaeuser's common stock trades on the New York Stock Exchange under the symbol WY.",
+  "url": "https://finance.yahoo.com/quote/WY",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "NFCILEVERAGE_2025-04-13",
+  "source": "fred",
+  "question": "Will the Chicago Fed's National Financial Conditions Leverage Subindex have increased by each resolution date listed below as compared to its value on 2025-04-13?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/NFCILEVERAGE once the data is published.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was -0.685. (The latest value released in Chicago Fed National Financial Conditions Leverage Subindex from the release Chicago Fed National Financial Conditions Index.)",
+  "background": "The notes from the release: N/A.  The notes from the series: The Chicago Fed\u2019s National Financial Conditions Index (NFCI) provides a comprehensive weekly update on U.S. financial conditions in money markets, debt and equity markets, and the traditional and \u201cshadow\u201d banking systems. Source: http://www.chicagofed.org/webpages/publications/nfci/index.cfm.\n\n\"Positive values of the NFCI indicate financial conditions that are tighter than average, while negative values indicate financial conditions that are looser than average.\"\n\n\"The three subindexes of the NFCI (risk, credit and leverage) allow for a more detailed examination of the movements in the NFCI. Like the NFCI, each is constructed to have an average value of zero and a standard deviation of one over a sample period extending back to 1971. The risk subindex captures volatility and funding risk in the financial sector; the credit subindex is composed of measures of credit conditions; and the leverage subindex consists of debt and equity measures. Increasing risk, tighter credit conditions and declining leverage are consistent with tightening financial conditions. Thus, a positive value for an individual subindex indicates that the corresponding aspect of financial conditions is tighter than on average, while negative values indicate the opposite.\" Source: http://www.chicagofed.org/webpages/research/data/nfci/background.cfm.\n\nFor further information, please visit the Federal Reserve Bank of Chicago's NFCI website at http://www.chicagofed.org/webpages/publications/nfci/index.cfm..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Friday ",
+  "url": "https://fred.stlouisfed.org/series/NFCILEVERAGE",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

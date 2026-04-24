@@ -1,0 +1,15 @@
+{
+  "id": "34512_2025-05-11",
+  "source": "metaculus",
+  "question": "Will President Trump formally invoke the Insurrection Act before 2026?",
+  "resolution_criteria": "This question will resolve as Yes if [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) report that President Trump has formally invoked the Insurrection Act before January 1, 2026.",
+  "background": "[<u>The Insurrection Act</u>](https://www.brennancenter.org/our-work/research-reports/insurrection-act-explained) grants the president authority to deploy the US armed forces for domestic law enforcement purposes without specifying the conditions under which this authority may be used.",
+  "url": "https://www.metaculus.com/questions/34512",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.17",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xf6890c707d1e327b006b9511bdba8c98ec4e4978646c6ffcf3ec8750c26a666a_2026-03-29",
+  "source": "polymarket",
+  "question": "Will Crude Oil (CL) hit (HIGH) $105 by end of March?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if, on any trading day, the official CME settlement price for the Active Month (front month) of Crude Oil (CL) futures is equal to or above the listed price by the final trading day of March 2026. Otherwise, the market will resolve to \"No\".\n\nFor CME Crude Oil (CL) futures contracts, the active month is the nearest of the contract months listed. The active month becomes a non-active month effective two business days prior to the spot month expiration. For example; if the spot month expires on a Friday the next listed contract will be considered the Active Month on the Wednesday prior to the spot month expiration.\n\nOnly the Active Month's official settlement price published by CME Group will be considered. Intraday trades, highs, lows, bids, offers, midpoint values, or indicative prices do not count.\n\nNote that the settlement price may differ from the last traded price. CME's methodology to determine the settlement price can vary by commodity and contract.\n\nOnly days on which CME publishes an official settlement price for the Active Month will be included. Days without settlement prices (weekends, holidays, or market closures) are ignored.\n\nThis market will resolve based on the settlement price as it appears on the CME settlement page at the time it is first published for that trading day, regardless of any later corrections or updates.\n\nThe resolution source for this market is the CME Group website \u2014 specifically, the daily \"Settlement\" price for the Active Month of Crude Oil (CL) futures.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-crude-oil-cl-hit-high-105-by-end-of-march-881",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.545",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

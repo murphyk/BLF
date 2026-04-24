@@ -1,0 +1,15 @@
+{
+  "id": "0xbe69fd3d55f4a3accb1a665733d18a215895d05beffae5f417de21a88bc992b7_2025-06-22",
+  "source": "polymarket",
+  "question": "Ethereum all time high by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Binance 1 minute candle for ETHUSDT between 30 Dec '24 11:00 and 30 Jun '25 23:59 in the ET timezone has a final \u201chigh\u201d price that is higher than any previous Binance 1 minute candle's \"high\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the ETHUSDT \"high\" prices currently available at https://www.binance.com/en/trade/ETH_USDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance ETHUSDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/ethereum-all-time-high-by-june",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.012",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

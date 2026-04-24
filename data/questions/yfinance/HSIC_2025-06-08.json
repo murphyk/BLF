@@ -1,0 +1,21 @@
+{
+  "id": "HSIC_2025-06-08",
+  "source": "yfinance",
+  "question": "Will HSIC's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HSIC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 73.660. (The latest market close price of HSIC.)",
+  "background": "Henry Schein, Inc. provides health care products and services to office-based dental and medical practitioners, and alternate sites of care worldwide. It operates through Global Distribution and Value-Added Services; Global Specialty Products; and Global Technology segments. The company offers dental merchandise, including infection-control products, handpieces, preventatives, impression materials, composites, anesthetics, teeth, dental implants, gypsum, acrylics, articulators, abrasives, and PPE products; dental equipment, such as dental chairs, delivery units and lights, digital dental laboratories, X-ray supplies and equipment, and high-tech and digital restoration equipment, as well as equipment repair; and branded and generic pharmaceuticals, vaccines, surgical products, diagnostic tests, and vitamins. It also provides financial services on a nonrecourse basis, education services for practitioners, consulting, and other services; and consumable merchandise under its own brand. In addition, the company manufactures, markets, and sells dental implant and biomaterial products; and endodontic, orthodontic and orthopedic products and other health care-related products and services. Further, it is involved in the development and distribution of practice management software, e-services, and other products to health care providers. The company serves customers in dental practices, laboratories, physician practices, and ambulatory surgery centers, as well as government, institutional health care clinics and other alternate care clinics. Henry Schein, Inc. was founded in 1932 and is headquartered in Melville, New York.",
+  "url": "https://finance.yahoo.com/quote/HSIC",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "SYK_2025-03-02",
+  "source": "yfinance",
+  "question": "Will SYK's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SYK for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 385.180. (The latest market close price of SYK.)",
+  "background": "Stryker Corporation operates as a medical technology company. It operates through two segments, MedSurg and Neurotechnology, and Orthopaedics. The MedSurg and Neurotechnology segment offers surgical equipment, and surgical navigation systems, endoscopic and communications systems, patient handling, emergency medical equipment and intensive care disposable products, clinical communication and  artificial intelligence-assisted virtual care platform technology, minimally invasive products for the treatment of acute ischemic and hemorrhagic stroke, cranial, and maxillofacial and chest wall devices, as well as dural substitutes and sealants; traditional brain and open skull based surgical procedures products; and orthobiologic and biosurgery products, including synthetic bone grafts and vertebral augmentation products. The Orthopaedics segment provides implants for use in total joint replacements, such as hip, knee and shoulder, and trauma and extremities surgeries; thoracolumbar systems that include fixation, minimally invasive and interbody systems used in spinal injury, complex spine and degenerative therapies. The company sells its products to doctors, hospitals, and other healthcare facilities through company-owned subsidiaries and branches, as well as third-party dealers and distributors in approximately 75 countries. Stryker Corporation was founded in 1941 and is headquartered in Portage, Michigan.",
+  "url": "https://finance.yahoo.com/quote/SYK",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

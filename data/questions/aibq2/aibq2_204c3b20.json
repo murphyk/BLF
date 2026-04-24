@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_204c3b20",
+  "source": "aibq2",
+  "question": "Will the EPA's EnergyStar.gov still be online on July 1, 2025?",
+  "background": "According to the [New York Times](https://www.nytimes.com/2025/05/06/climate/epa-energy-star-eliminated.html), \"'The Energy Star program and all the other climate work, outside of what\u2019s required by statute, is being de-prioritized and eliminated,' Paul Gunning, the director of the E.P.A. Office of Atmospheric Protection, told employees during the meeting, according to the recording obtained by The New York Times. Mr. Gunning\u2019s office itself is also slated for elimination.\n\nFor the past 33 years, Energy Star has been known for its recognizable blue label, which shows that an appliance has met energy efficiency standards set by the federal government.\"",
+  "resolution_criteria": "This question resolves as **Yes** if EnergyStar.gov is online according to [Is It Down Right Now?](https://www.isitdownrightnow.com/energystar.gov.html) when accessed by Metaculus on or after July 1, 2025.\n\nFine print:\nAs of May 7, 2025, the resolution source returns the message, \"Energystar.gov is UP and reachable by us.\"",
+  "url": "https://www.nytimes.com/2025/05/06/climate/epa-energy-star-eliminated.html",
+  "forecast_due_date": "2025-05-14",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

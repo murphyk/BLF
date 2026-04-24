@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_cdbbd5d7",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will the government of Mali reverse its decision to dissolve all political parties?",
+  "background": "[Mali's Military Government Shuts Down All Political Parties](https://www.legit.ng/world/africa/1654992-malis-military-government-shuts-political-parties/)",
+  "resolution_criteria": "This question resolves as **Yes** if the government of Mali announces a reversal of its May 13, 2025 presidential decree dissolving all political parties in the country.\n\nFine print:\nA partial reversal, such as allowing the reinstatement of a limited number of parties, will only count as long as new parties are generally allowed to be formed again.",
+  "url": "https://www.legit.ng/world/africa/1654992-malis-military-government-shuts-political-parties/",
+  "forecast_due_date": "2025-05-22",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

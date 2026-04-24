@@ -1,0 +1,14 @@
+{
+  "id": "8393_2026-01-18",
+  "source": "metaculus",
+  "question": "Will the New START nuclear arms control agreement be renewed until at least February 5, 2027?",
+  "resolution_criteria": "This question will resolve positively if either of the following conditions occur:\n\n1. There are credible reports such as by the [Arms Control Association](https://www.armscontrol.org/factsheets/USRussiaNuclearAgreements) of New START being extended to at least February 5, 2027. \n\n2. There are credible reports of New START being replaced by another nuclear arms control agreement that will last until at least February 5, 2027 and that US officials, Russian officials, and other credible sources describe as a successor to New START.",
+  "background": "[New START](https://www.state.gov/new-start/) is a nuclear arms reduction treaty between the United States and the Russian Federation, which was signed on 8 April 2010. After its extension in 2021 it is expected to last until February 5, 2026.",
+  "url": "https://www.metaculus.com/questions/8393",
+  "forecast_due_date": "2026-01-18",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-04",
+  "market_value": "0.45",
+  "market_date": "2026-01-08",
+  "market_value_explanation": "The community prediction."
+}

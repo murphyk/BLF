@@ -1,0 +1,19 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.07460.D_2025-11-23",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Clermont-Ferrand Auvergne Airport will be higher on each resolution date listed below than on 2025-11-23?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07460.D once the data is published.\n\nThe exact value on 2025-11-23 is unknown, but the most recent known value (as of 2025-11-13) was 10.100. (The daily average temperature at the French weather station at Clermont-Ferrand Auvergne Airport.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - CLERMONT-FD - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07460.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.07460.D",
+  "forecast_due_date": "2025-11-23",
+  "resolution_dates": [
+    "2025-11-30",
+    "2025-12-23",
+    "2026-02-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

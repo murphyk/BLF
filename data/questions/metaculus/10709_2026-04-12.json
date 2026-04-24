@@ -1,0 +1,14 @@
+{
+  "id": "10709_2026-04-12",
+  "source": "metaculus",
+  "question": "Will China's CO2 emissions peak before 2030?",
+  "resolution_criteria": "This question will resolve as \"Yes\" if China's annual CO2 emissions in the years 2030 to 2039 (inclusive) are lower than the maximum emissions of any year from 2020-2029, according to [the Global Carbon Project](https://ourworldindata.org/explorers/co2?time=1930..latest&facet=none&country=CHN~OWID_WRL&Gas=CO%E2%82%82&Accounting=Consumption-based&Fuel=Total&Count=Per+country).  In other words, if any year from 2030 to 2039 has higher annual CO2 emissions than the maximum year from 2020 to 2029, this question will resolve as \"No\".\n\nThis question will concern CO2 only (excluding other greenhouse gases measured as [CO2-equivalents](https://en.wikipedia.org/wiki/Global_warming_potential)), and will measure China's consumption-based emissions (adding emissions produced by imported goods, and removing emissions from exports).  For example, this figure for 2019 was 9.44 billion tons.\n\nIf the Global Carbon Project does not provide this data continuously through 2020 to 2039, an alternative credible source may be selcted by Metaculus Admins, or they may resolve ambiguously at their discretion",
+  "background": "*Related Question on Metaculus:*\n\n* [When will China reach net zero carbon emissions?](https://www.metaculus.com/questions/10712/date-of-chinese-carbon-neutrality/)\n\n----\n\nChina's [CO2 emissions](https://ourworldindata.org/explorers/co2?time=1988..latest&facet=none&country=CHN~OWID_WRL&Gas=CO%E2%82%82&Accounting=Consumption-based&Fuel=Total&Count=Per+country) in 2019 were 9.44 billion tons, higher than any other nation, including the US (5.63 billion tons) and the EU (3.97 billion tons).  However, on a per capita basis, China's emissions (6.59 tons per person) are only moderately higher than the world average (4.47 tons per person), and significantly less than the US (17.10 tons per person).\n\nAhead of the [2021 UN Climate Change Conference](https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference), China [committed](https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/China%20First/China%E2%80%99s%20Achievements,%20New%20Goals%20and%20New%20Measures%20for%20Nationally%20Determined%20Contributions.pdf) to reach peak CO2 emissions before 2030, and carbon neutrality before 2060.  [Climate Action Tracker](https://climateactiontracker.org/countries/china/) called these policies \"Insufficient\", consistent with a world of 3C of warming by 2100, and when considered as a \"fair share target\", called them \"highly insufficient\".",
+  "url": "https://www.metaculus.com/questions/10709",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.76",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "37115_2025-11-09",
+  "source": "metaculus",
+  "question": "Will the U.S. Supreme Court grant certiorari in Monsanto Company v. John L. Durnell before January 15, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, before January 15, 2026, [credible sources](https://www.metaculus.com/faq/#definitions) report that the U.S. Supreme Court has granted Monsanto Company's petition for writ of certiorari in the case of *Monsanto Company v. John L. Durnell*, docket number 24-1068. The question resolves as **No** if, prior to such date, the Court denies certiorari or the petition is withdrawn or dismissed.",
+  "background": "On April 4, 2025, Monsanto Company, a subsidiary of Bayer AG, filed a petition for a writ of certiorari with the U.S. Supreme Court in the case [Monsanto Company v. John L. Durnell](https://law.justia.com/cases/missouri/court-of-appeals/2025/ed112410.html). The case arises from a Missouri state court decision where a jury [awarded](https://blog.cvn.com/1.25m-verdict-in-zero-offer-case-breaks-monsantos-roundup-trial-winning-streak) \\$1.25 million in damages to John L. Durnell, who alleged that exposure to Monsanto's glyphosate-based herbicide, Roundup, caused his non-Hodgkin's lymphoma.\n\nMonsanto's [petition](https://content.presspage.com/uploads/2809/4203e574-9a0c-49ee-9476-8ba63ba6e424/4.4.2025monsantov.durnellcertpetition.pdf?10000) argues that the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) preempts state-law failure-to-warn claims, especially since the U.S. Environmental Protection Agency (EPA) has approved Roundup's labeling without a cancer warning. The petition highlights a split among federal appellate courts on this preemption issue, noting that while the Third Circuit has held that FIFRA preempts such state-law claims, the Ninth and Eleventh Circuits have reached the opposite conclusion.\n\nThe Supreme Court previously [declined to hear](https://www.dw.com/en/us-supreme-court-rejects-bayer-roundup-case/a-62209872) a similar case in 2022. However, Monsanto contends that the current circuit split and the significant number of pending lawsuits\u2014approximately 67,000\u2014warrant the Court's review.",
+  "url": "https://www.metaculus.com/questions/37115",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-14",
+  "market_value": "0.5",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The community prediction."
+}

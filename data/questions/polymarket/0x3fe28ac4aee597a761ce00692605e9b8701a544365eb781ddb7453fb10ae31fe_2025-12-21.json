@@ -1,0 +1,14 @@
+{
+  "id": "0x3fe28ac4aee597a761ce00692605e9b8701a544365eb781ddb7453fb10ae31fe_2025-12-21",
+  "source": "polymarket",
+  "question": "Will Trump's approval rating hit 40% in 2025?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Donald Trump\u2019s approval rating according to Silver Bulletin is equal to or below the listed value for any date between April 14 and December 31 2025. Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote that the approval ratings for this date must be finalized before it is considered for this market (namely once the next data point is available, the previous one is finalized).\n\nThis market's resolution source will be Silver Bulletin' approval rating poll aggregator, https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin, specifically the approval rating indicated by the green trend line for the resolution date. Changes in the methodology by which Silver Bulletin calculates the approval rating will have no bearing on the resolution of this market. If Silver Bulletin's approval rating becomes permanently unavailable, RealClearPolitics will be used.\n\nIf the approval rating for December 31 is not published by January 4, 2026, 12:00 PM ET (noon), this market will resolve according to all previous datapoints.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trumps-approval-rating-hit-40-in-2025",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.04",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

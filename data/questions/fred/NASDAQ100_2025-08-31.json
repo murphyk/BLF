@@ -1,0 +1,21 @@
+{
+  "id": "NASDAQ100_2025-08-31",
+  "source": "fred",
+  "question": "Will the NASDAQ 100 Index, which represents the daily index value at market close, have increased by each resolution date listed below as compared to its value on 2025-08-31?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/NASDAQ100 once the data is published.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 23249.570. (The latest value released in NASDAQ 100 Index from the release Nasdaq Daily Index Data.)",
+  "background": "The notes from the release: National Association of Securities Dealers Automated Quotations.  The notes from the series: The observations for the NASDAQ 100 Index represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early.\n\nThe NASDAQ 100 Index includes 100 of the largest domestic and international non-financial securities listed on The NASDAQ Stock Market based on market capitalization.\n\nCopyright \u00c2\u00a9 2016, NASDAQ OMX Group, Inc..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily, Close ",
+  "url": "https://fred.stlouisfed.org/series/NASDAQ100",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

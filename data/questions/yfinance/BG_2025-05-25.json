@@ -1,0 +1,21 @@
+{
+  "id": "BG_2025-05-25",
+  "source": "yfinance",
+  "question": "Will BG's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 77.820. (The latest market close price of BG.)",
+  "background": "Bunge Global SA operates as an agribusiness and food company worldwide. It operates through four segments: Agribusiness, Refined and Specialty Oils, Milling, and Sugar and Bioenergy. The Agribusiness segment purchases, stores, transports, processes, and sells agricultural commodities and commodity products, including oilseeds primarily soybeans, rapeseed, canola, and sunflower seeds, as well as grains comprising wheat and corn; and processes oilseeds into vegetable oils and protein meals. This segment offers its products for animal feed manufacturers, livestock producers, wheat and corn millers, and other oilseed processors, as well as third-party edible oil processing and biofuel companies for biofuel production applications. The Refined and Specialty Oils segment sells packaged and bulk oils and fats that comprise cooking oils, shortenings, margarines, mayonnaise, renewable diesel feedstocks, and other products for baked goods companies, snack food producers, confectioners, restaurant chains, foodservice operators, infant nutrition companies, and other food manufacturers, as well as grocery chains, wholesalers, distributors, and other retailers. This segment also refines and fractionates palm oil, palm kernel oil, coconut oil, and shea butter, and olive oil; and produces specialty ingredients derived from vegetable oils, such as lecithin. The Milling segment provides wheat flours and bakery mixes; corn milling products that comprise dry-milled corn meals and flours, wet-milled masa and flours, and flaking and brewer's grits, as well as soy-fortified corn meal, corn-soy blends, and other products; whole grain and fiber ingredients; die-cut pellets; and non-GMO products. The Sugar and Bioenergy segment produces sugar and ethanol; and generates electricity from burning sugarcane bagasse. Bunge Global SA was founded in 1818 and is headquartered in Chesterfield, Missouri.",
+  "url": "https://finance.yahoo.com/quote/BG",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

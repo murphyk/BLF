@@ -1,0 +1,14 @@
+{
+  "id": "17408_2025-12-21",
+  "source": "metaculus",
+  "question": "Will a US court fine, or order a company to pay to claimants, >=$100M because of how they used data to train a large AI model before 2026?",
+  "resolution_criteria": "This question resolves as **YES** if, by Dec 31, 2025, either of the following happens, and **NO** otherwise:\n\n* A US court orders a company to pay >=$100M to claimants because of how they used data to train a large AI model, or \n* A US court fines a company >=$100M for breaking a law related to how they used data to train a large AI model.\n\nBoth of these will be interpreted broadly, but must in the ruling be explicitly about training - not about serving. For example, if a court fined YouTube for discriminating against some people by the nature of their recommendation algorithm, even though the source of the discrimination is likely in the training data, this would not qualify.",
+  "background": "Since the release of GPT-3 in 2020, there has been speculation that training large AI models on massive amounts of internet data does not respect copyright law.\n\n[A group in late 2022](https://githubcopilotlitigation.com/) \"filed a class-action law\u00adsuit in US fed\u00aderal court in San Fran\u00adcisco, CA on behalf of a pro\u00adposed class of pos\u00adsi\u00adbly mil\u00adlions of GitHub users. We are chal\u00adleng\u00ading the legal\u00adity of GitHub Copi\u00adlot (and a related prod\u00aduct, OpenAI Codex, which pow\u00aders Copi\u00adlot).\" They contend that \"By train\u00ading their AI sys\u00adtems on pub\u00adlic GitHub repos\u00adi\u00adto\u00adries (though based on their pub\u00adlic state\u00adments, pos\u00adsi\u00adbly much more) we con\u00adtend that the defen\u00addants have vio\u00adlated the legal rights of a vast num\u00adber of cre\u00adators who posted code or other work under cer\u00adtain open-source licenses on GitHub.\"\n\nLawsuits about this might have a major effect on the ability or willingness of Frontier Labs to train large models, or the cost of doing so if they have to pay providers of the data (somehow). On June 4, [Glen Weyl tweeted](https://twitter.com/glenweyl/status/1665495324713164801) \"these types of lawsuits will have important effects on the development of the industry even if your concern is with the long term\".",
+  "url": "https://www.metaculus.com/questions/17408",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.01",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The community prediction."
+}

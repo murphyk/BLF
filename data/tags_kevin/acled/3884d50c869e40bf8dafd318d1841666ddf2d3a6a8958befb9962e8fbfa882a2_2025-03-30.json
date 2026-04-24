@@ -1,0 +1,6 @@
+{
+  "category": "Geopolitics & Conflict",
+  "suggested_category": null,
+  "justification": "The question concerns the frequency of 'Riots' in Mongolia as tracked by ACLED, which is a standard indicator for measuring civil unrest and political instability.",
+  "question": "Will there be more than ten times as many 'Riots' in Mongolia for the 30 days before each resolution date listed below compared to one plus the 30-day average of 'Riots' over the 360 days preceding 2025-03-30?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Riots'\n2023-11-11,1\n2023-10-10,2\nto calculate one plus the 30-day average of 'Riots' over the preceding 360 days, we\u2019d have: 1+(1+2)/12=1.25.\n\nIn this example, for the question to resolve positively, 13 (10 x 1.25) or more 'Riots' would need to occur in the 30 days leading up to the resolution."
+}

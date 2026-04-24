@@ -1,0 +1,14 @@
+{
+  "id": "0xc1c3ea2f7de17860533ca15f8f97458a88030dfa1a46c8be5396b5cb60aaa2ee_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Bayern M\u00fcnchen reach the UEFA Champions League semifinal?",
+  "resolution_criteria": "This market will resolve \u201cYes\u201d if the listed team reaches the 2026 UEFA Champions League semifinal. \n\nIf at any point it becomes impossible for the listed club to advance to the UEFA Champions League semifinal (e.g. they are mathematically eliminated), the associated market will resolve to \"No\".\n\nIf the 2026 UEFA Champions League is cancelled, postponed after May 20, 2026, 11:59 PM ET or the 2026 UEFA Champions League semifinal matchup has not been declared within that timeframe, this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be official information from the UEFA; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bayern-mnchen-reach-the-uefa-champions-league-semifinal",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.655",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

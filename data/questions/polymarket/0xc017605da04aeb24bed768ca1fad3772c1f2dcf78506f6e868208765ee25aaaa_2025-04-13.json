@@ -1,0 +1,15 @@
+{
+  "id": "0xc017605da04aeb24bed768ca1fad3772c1f2dcf78506f6e868208765ee25aaaa_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the U.S. acquire Canadian territory in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the United States formally acquires any part of Canadian territory by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d. \n\nAcquisition must be through official government action, such as annexation, treaty, or legislation.\n\nThe resolution source will be official information from the U.S. government however a consensus of credible reporting may also be used.\n\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-us-acquire-canadian-territory-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.085",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "SPGI_2025-03-30",
+  "source": "yfinance",
+  "question": "Will SPGI's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SPGI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 495.220. (The latest market close price of SPGI.)",
+  "background": "S&P Global Inc., together with its subsidiaries, provides credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. It operates through five segments: S&P Global Market Intelligence, S&P Global Ratings, S&P Global Commodity Insights, S&P Global Mobility, and S&P Dow Jones Indices. The S&P Global Market Intelligence segment provides multi-asset-class data and analytics integrated with purpose-built workflow solutions. This segment offers Desktop, a product suite that provides data, analytics, and third-party research for global finance and corporate professionals; data and advisory solutions for research, reference data, market data, derived analytics, and valuation services; enterprise solutions, such as software and workflow solutions; and credit and risk solutions for selling ratings' credit ratings and related data and research, analytics, and financial risk solutions. The S&P Global Ratings segment operates as an independent provider of credit ratings, research, and analytics offering investors and other market participants information, ratings, and benchmarks. The S&P Global Commodity Insights segment provides information and benchmark prices for the commodity and energy markets. The S&P Global Mobility segment offers solutions serving the full automotive value chain, including vehicle manufacturers (original equipment manufacturers), automotive suppliers, mobility service providers, retailers, consumers, and finance and insurance companies. The S&P Dow Jones Indices segment operates as an index provider that maintains various valuation and index benchmarks for investment advisors, wealth managers, and institutional investors. It has operations in the United States, European region, Asia, and internationally. S&P Global Inc. was founded in 1860 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/SPGI",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28",
+    "2025-09-26",
+    "2026-03-30"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

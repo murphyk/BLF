@@ -1,0 +1,15 @@
+{
+  "id": "0x84f148876e026a2c7bcd1007498a982d9c968fbd7ff6956e0d2d11f86ec0aae9_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Solana dip to $130 in August?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Solana (SOL/USDT) during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the SOL/USDT \"Low\" prices available at https://www.binance.com/en/trade/SOL_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-solana-dip-to-130-in-august-385-963-966-817",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-01",
+  "market_value": "0.0385",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

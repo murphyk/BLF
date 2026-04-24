@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0009",
+  "source": "aibq2",
+  "question": "Will Harvard University lose its tax exempt status before July 1, 2025?",
+  "title_hash": "47a1be9943718a46",
+  "background": "New York Times: [Trump Threatens Harvard\u2019s Tax Status, Escalating Billion-Dollar Pressure Campaign](https://www.nytimes.com/2025/04/15/us/politics/trump-harvard-tax-status.html)",
+  "resolution_criteria": "This question resolves as **Yes** if, at any time before July 1, 2025, Harvard loses its [501(c)(3) status](https://oc.finance.harvard.edu/faq/harvard-university-tax-exempt-organization).\n\nFine print:\nIf there is no credible reporting that Harvard has lost its 501(c)(3) status with the Internal Revenue Service before July 1, 2025, this question resolves as No.",
+  "url": "https://www.nytimes.com/2025/04/15/us/politics/trump-harvard-tax-status.html",
+  "forecast_due_date": "2025-04-25",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

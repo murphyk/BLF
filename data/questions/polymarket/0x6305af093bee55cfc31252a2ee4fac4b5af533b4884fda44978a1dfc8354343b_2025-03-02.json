@@ -1,0 +1,15 @@
+{
+  "id": "0x6305af093bee55cfc31252a2ee4fac4b5af533b4884fda44978a1dfc8354343b_2025-03-02",
+  "source": "polymarket",
+  "question": "Doge ETF approved by July 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any spot Dogecoin ETF receives approval from the SEC by July 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nApproval under Rule 19-4b will qualify for a \"Yes\" resolution, even if there has not been an S-1 approval. Similarly, an S-1 approval without a 19-4b approval will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/doge-etf-approved-by-july-31-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-07-31",
+  "market_value": "0.34500000000000003",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

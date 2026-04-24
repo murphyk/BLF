@@ -1,0 +1,15 @@
+{
+  "id": "18360_2025-05-25",
+  "source": "metaculus",
+  "question": "Will OpenAI claim GPT-5 is AGI within 30 days after its release?",
+  "resolution_criteria": "This question would resolve positively if OpenAI posts on its website that it has achieved AGI within 30 days after GPT-5's release. If OpenAI lists this on its website before the release of GPT-5, the question would also resolve positively. Furthermore, this question would resolve positively if any member of the OpenAI leadership claims (on the record) that OpenAI has achieved AGI with GPT-5 within 30 days after the release of GPT-5 (before the release would also count).\n\nIf GPT-5 does not launch before 2030, this question will resolve ambiguously.",
+  "background": "A tweet by @blader has sparked a debate about whether the upcoming GPT-5 will be considered an Artificial General Intelligence (AGI) or not:\n\n> i have been told that gpt5 is scheduled to complete training this december and that openai expects it to achieve agi.\n>\n> which means we will all hotly debate as to whether it actually achieves agi.\n>\n> which means it will\n\nAGI is often [described](https://en.wikipedia.org/wiki/Artificial_general_intelligence) as an autonomous system that surpasses human capabilities in the majority of economically valuable tasks.",
+  "url": "https://www.metaculus.com/questions/18360",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-06",
+  "market_value": "0.01",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The community prediction."
+}

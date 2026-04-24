@@ -1,0 +1,21 @@
+{
+  "id": "KMB_2025-06-08",
+  "source": "yfinance",
+  "question": "Will KMB's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/KMB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 142.850. (The latest market close price of KMB.)",
+  "background": "Kimberly-Clark Corporation, together with its subsidiaries, manufactures and markets personal care products in the United States. It operates through three segments: North America, International Personal Care, and International Family Care and Professional. The company North America segment offers disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, facial and bathroom tissue, paper towels, napkins, wipers, tissue, towels, soaps and sanitizers, and other related products under the Huggies, Pull-Ups, GoodNites, Kotex, Poise, Depend, Kleenex, Scott, Cottonelle, Viva, Wypall, and other brand names. The International Personal Care segment provides baby and child care, adult care and feminine care, including disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, and other related products under the Huggies, Kotex, Goodfeel, Intimus, Depend and other brand names. The International Family Care and Professional segment offers facial and bathroom tissue, paper towels, napkins, wipers, tissue, towels, soaps and sanitizers, and other related products under the Kleenex, Scott, Viva, Andrex, Scottex, Wypall, and other brand names. It also sells household use products directly to supermarkets, mass merchandisers, drugstores, warehouse clubs, variety and department stores, and other retail outlets, as well as through other distributors and e-commerce; and professional use products directly to distributors, manufacturing, lodging, office building, food service, and public facilities, as well as through e-commerce. Kimberly-Clark Corporation was founded in 1872 and is headquartered in Dallas, Texas.",
+  "url": "https://finance.yahoo.com/quote/KMB",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

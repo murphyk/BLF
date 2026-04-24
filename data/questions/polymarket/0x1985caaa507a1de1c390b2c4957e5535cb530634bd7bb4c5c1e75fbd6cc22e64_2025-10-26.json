@@ -1,0 +1,14 @@
+{
+  "id": "0x1985caaa507a1de1c390b2c4957e5535cb530634bd7bb4c5c1e75fbd6cc22e64_2025-10-26",
+  "source": "polymarket",
+  "question": "Trump removed via 25th Amendment in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump is formally removed from the office of the President of the United States by means of the process outlined in Section 4 of the 25th Amendment to the US Constitution by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf the Vice President becomes Acting President via the process outlined in Section 3 of the 25th Amendment, it will not effect the resolution of this market. Only Trump\u2019s removal from office via the process outlined in Section 4 of the 25th Amendment will qualify for a \"Yes\" resolution.\n\nIf Trump ceases to be POTUS before this market's expiration date for any other reason, this market may immediately resolve to \"No\".\n\nThe resolution source for this market will be official information from the US government.",
+  "background": "",
+  "url": "https://polymarket.com/market/trump-removed-via-25th-amendment-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0235",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

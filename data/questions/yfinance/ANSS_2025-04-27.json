@@ -1,0 +1,17 @@
+{
+  "id": "ANSS_2025-04-27",
+  "source": "yfinance",
+  "question": "Will ANSS's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ANSS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 301.590. (The latest market close price of ANSS.)",
+  "background": "ANSYS, Inc. develops and markets engineering simulation software and services for engineers, designers, researchers, and students. It offers structural analysis product suite that provides simulation tools for product design and optimization; the Ansys Mechanical product, an element analysis software; LS-DYNA solver for multiphysics simulation; and power analysis and optimization software suite. The company also offers electronics product suite that provides electromagnetic field simulation software for designing electronic and electromechanical products; Ansys High Frequency Structure Simulator product for radio frequency and microwave design; SCADE product suite, a solution for embedded software simulation, code production, and automated certification; fluids product suite that enables modeling of fluid flow and other related physical phenomena; Ansys Fluent computational fluid dynamics software package; Ansys RedHawk-SC, an electronic design automation (EDA) software tool; Ansys Optics software; and mission-simulation, modeling, testing, and analysis software. In addition, it offers Ansys Granta MI system for materials information management; Ansys Granta Selector technology for materials selection and graphical analysis of materials properties; CES EduPack product, a set of teaching resources; Granta Materials Data for Simulation; Ansys Lumerical product, a photonics simulation software solution; safety-certified embedded software solutions; design exploration tools; and academic product suite for research and teaching settings. The company serves high-tech, aerospace and defense, automotive, energy, industrial equipment, materials and chemicals, consumer products, healthcare, and construction industries. It has operations in the United States, Japan, Germany, China, Hong Kong, South Korea, rest of Europe, the Middle East, Africa, and internationally. The company was founded in 1970 and is headquartered in Canonsburg, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/ANSS",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "35263_2025-08-31",
+  "source": "metaculus",
+  "question": "\u00bfSuperar\u00e1 Vox el 27% de intenci\u00f3n de voto entre los j\u00f3venes en Espa\u00f1a a finales de 2025?",
+  "resolution_criteria": "La pregunta se resolver\u00e1 como **S\u00ed** si, seg\u00fan la \u00faltima encuesta de 2025 realizada por la empresa 40dB., la intenci\u00f3n directa de voto para Vox entre los j\u00f3venes de 18 a 24 a\u00f1os es superior al 27%. Se resolver\u00e1 como **No** si es del 27% o menos.",
+  "background": "Vox es un partido pol\u00edtico fundado en 2013 en Espa\u00f1a, clasificado por polit\u00f3logos y medios de comunicaci\u00f3n como un partido de extrema derecha o populista de derecha. En los \u00faltimos a\u00f1os, su apoyo entre los votantes j\u00f3venes ha atra\u00eddo una atenci\u00f3n significativa. Seg\u00fan\u00a0[<u>recientes encuestas de 40dB.</u>](https://ep00.epimg.net/infografias/encuestas40db/2025/02-barometro/2025_02_barometro_voto.pdf)\u00a0publicadas por El Pa\u00eds, Vox recibe un 27% de apoyo entre los votantes de 18 a 24 a\u00f1os, su porcentaje m\u00e1s alto en todos los grupos de edad. Esto es notablemente superior a su apoyo entre los grupos demogr\u00e1ficos de mayor edad, que oscila entre el 10 y el 19%.\n\nEste patr\u00f3n de mayor apoyo juvenil a los partidos de extrema derecha\u00a0[<u>no es exclusivo de Espa\u00f1a</u>](https://elpais.com/internacional/2024-06-15/el-voto-de-los-jovenes-a-la-extrema-derecha-crece-en-los-cinco-mayores-paises-de-la-ue.html), ya que el RN de Marine Le Pen en Francia y AfD en Alemania tambi\u00e9n han experimentado un aumento del apoyo juvenil en los \u00faltimos a\u00f1os.",
+  "url": "https://www.metaculus.com/questions/35263",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-11-30",
+  "market_value": "0.6000000000000001",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The community prediction."
+}

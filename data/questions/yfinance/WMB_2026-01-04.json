@@ -1,0 +1,19 @@
+{
+  "id": "WMB_2026-01-04",
+  "source": "yfinance",
+  "question": "Will WMB's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WMB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 59.460. (The latest market close price of WMB.)",
+  "background": "The Williams Companies, Inc., together with its subsidiaries, operates as an energy infrastructure company primarily in the United States. It operates through Transmission & Gulf of America, Northeast G&P, West, and Gas & NGL Marketing Services segments. The Transmission & Gulf of America segment comprises Transco, NWP, and MountainWest interstate natural gas pipelines, and their related natural gas storage facilities, as well as natural gas gathering and processing; and crude oil production handling and transportation assets in the Gulf Coast region. The Northeast G&P segment engages in the midstream gathering, processing, and fractionation activities in the Marcellus Shale region primarily in Pennsylvania and New York, and the Utica Shale region of eastern Ohio. The West segment consists of gas gathering, processing, and treating operations in the Rocky Mountain region of Colorado and Wyoming, the Barnett Shale region of north-central Texas, the Eagle Ford Shale region of South Texas, the Haynesville Shale region of northwest Louisiana, the Mid-Continent region that includes the Anadarko and Permian basins, and the DJ Basin of Colorado; and operates natural gas liquid (NGL) fractionation and storage assets in central Kansas near Conway. The Gas & NGL Marketing Services segment provides wholesale marketing, trading, storage, and transportation of natural gas for natural gas utilities, municipalities, power generators, and producers; asset management services; and transports and markets NGLs. The company owns and operates approximately 33,000 miles of pipelines. The Williams Companies, Inc. was founded in 1908 and is headquartered in Tulsa, Oklahoma.",
+  "url": "https://finance.yahoo.com/quote/WMB",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0
+  ]
+}

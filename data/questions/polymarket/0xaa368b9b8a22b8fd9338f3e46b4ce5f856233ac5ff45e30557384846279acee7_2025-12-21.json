@@ -1,0 +1,14 @@
+{
+  "id": "0xaa368b9b8a22b8fd9338f3e46b4ce5f856233ac5ff45e30557384846279acee7_2025-12-21",
+  "source": "polymarket",
+  "question": "Hyperliquid all time high by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Binance 1 minute candle for HYPEUSDT between 3  October '25 11:00 and 11:59PM ET on the date specified in the title has a final \u201cHigh\u201d price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the HYPEUSDT \"High\" prices currently available at https://www.binance.com/en/futures/HYPEUSDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance HYPEUSDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/hyperliquid-all-time-high-by-december-31-637",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.006500000000000001",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

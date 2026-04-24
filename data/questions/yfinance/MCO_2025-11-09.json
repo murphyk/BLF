@@ -1,0 +1,19 @@
+{
+  "id": "MCO_2025-11-09",
+  "source": "yfinance",
+  "question": "Will MCO's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MCO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 471.700. (The latest market close price of MCO.)",
+  "background": "Moody's Corporation operates as an integrated risk assessment firm worldwide. It operates in two segments, Moody's Analytics and Moody's Investors Services. The Moody's Analytics segment develops a range of products and services that support the risk management activities of institutional participants in financial markets. It offers credit research, credit models and analytics, economics data and models, and structured finance solutions; data sets on companies and securities; and SaaS solutions supporting banking, insurance, and know your customer workflows. The Moody's Investors Service segment publishes credit ratings and provides assessment services on various debt obligations, programs and facilities, and entities that issue such obligations, such as various corporate, financial institution, and governmental obligations, as well as structured finance securities. The company was formerly known as Dun and Bradstreet Company and changed its name to Moody's Corporation in September 2000. The company was founded in 1900 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/MCO",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

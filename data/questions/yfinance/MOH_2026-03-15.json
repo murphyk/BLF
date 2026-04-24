@@ -1,0 +1,15 @@
+{
+  "id": "MOH_2026-03-15",
+  "source": "yfinance",
+  "question": "Will MOH's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MOH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 147.710. (The latest market close price of MOH.)",
+  "background": "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States. It operates in four segments: Medicaid, Medicare, Marketplace, and Other. The company was founded in 1980 and is headquartered in Long Beach, California.",
+  "url": "https://finance.yahoo.com/quote/MOH",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

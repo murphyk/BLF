@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0033",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will Ohio enact legislation expanding its verification requirements of a voter's citizenship?",
+  "title_hash": "90951963b6205f2c",
+  "background": "The Ohio Senate: [Gavarone, Brenner Introduce Bill to Require Proof of Citizenship to Vote](https://ohiosenate.gov/members/theresa-gavarone/news/gavarone-brenner-introduce-bill-to-require-proof-of-citizenship-to-vote)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the state of Ohio enacts legislation requiring voters to provide proof of US citizenship beyond the requirements at the time of this question, according to [credible sources](https://www.metaculus.com/faq/#definitions).\n\nFine print:\nAny subset of voters being required to provide such proof would count (for example if it only applied to first-time voter registrants or creating a new requirement for mail-in voters). An example of a bill that would count is [Senate Bill 153](https://www.legislature.ohio.gov/legislation/136/sb153). This question resolves upon enactment; therefore other questions such as when the legislation takes effect or whether it survives court challenges and is implemented is immaterial to this question's resolution. Please note that under Ohio law, a bill is considered enacted \"after both houses have passed and agreed on identical bills.\" ([Source](https://www.lsc.ohio.gov/assets/organizations/legislative-service-commission/files/chapter-5-enacting-legislation-10021971.pdf))",
+  "url": "https://ohiosenate.gov/members/theresa-gavarone/news/gavarone-brenner-introduce-bill-to-require-proof-of-citizenship-to-vote",
+  "forecast_due_date": "2025-05-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xa6de2e10501f82a91e012ab54223416fcd3644b0ec054bdb22a68e2062527e50_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Shai Gilgeous-Alexander Win the 2025 NBA Finals MVP?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed player is awarded the 2025 NBA Finals Most Valuable Player Award. Otherwise, this market will resolve to \"No\".\n\nIf the listed player is not announced as a finalist for the 2025 NBA Finals MVP award, this market will immediately resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-shai-gilgeous-alexander-win-the-2025-nba-finals-mvp",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-23",
+  "market_value": "0.8200000000000001",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

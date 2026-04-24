@@ -1,0 +1,15 @@
+{
+  "id": "CB_2026-03-29",
+  "source": "yfinance",
+  "question": "Will CB's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 327.980. (The latest market close price of CB.)",
+  "background": "Chubb Limited provides insurance and reinsurance products worldwide. It operates in six segments: North America Commercial Property and Casualty (P&C) Insurance, North America Personal P&C Insurance, North America Agricultural Insurance, Overseas General Insurance, Global Reinsurance, and Life Insurance. The company offers property and general liability, workers' compensation, and umbrella; professional and management liability; environmental, health, and international coverages; and claims and risk management products and services, loss control, and engineering and complex claims management. It also provides homeowners, automobile and collector cars, valuable articles, and personal and excess liability insurance. In addition, the company offers multiple peril crop insurance and crop-hail insurance for farm, ranch, specialty (P&C), and commercial agriculture products; product and employer liability, business interruption, and specialty risk; property insurance products, including traditional commercial fire coverage, energy industry-related, marine, construction, and other technical coverages; personal accident and supplemental medical coverages, such as accidental death, business/holiday travel, specified disease, disability, medical and hospital indemnity, and income protection; and directors and officers, professional indemnity, cyber, surety, aviation, political risk, and specialty personal lines products. Further, it provides property catastrophe reinsurance; traditional and specialty P&C reinsurance; and protection and savings products, which includes individual and group term life, dental, critical illness, dementia, hospital cash, credit life, group employee benefits, whole life, universal life, unit linked contracts, endowment plans, and annuities. The company was formerly known as ACE Limited and changed its name to Chubb Limited in January 2016. Chubb Limited was incorporated in 1985 and is headquartered in Zurich, Switzerland.",
+  "url": "https://finance.yahoo.com/quote/CB",
+  "forecast_due_date": "2026-03-29",
+  "resolution_dates": [
+    "2026-04-05"
+  ],
+  "resolved_to": [
+    1.0
+  ]
+}

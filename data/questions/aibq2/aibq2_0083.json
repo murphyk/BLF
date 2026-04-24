@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0083",
+  "source": "aibq2",
+  "question": "Will the National UFO Reporting Center report a sighting of a cube-shaped UFO in June 2025?",
+  "title_hash": "730556a556076598",
+  "background": "According to the [National UFO Reporting Center](https://nuforc.org/about-us/): \"The National UFO Reporting Center was founded in 1974 by noted UFO investigator Robert J. Gribble. The Center\u2019s primary function over the past five decades has been to receive, record, and to the greatest degree possible, corroborate and document reports from individuals who have been witness to unusual, possibly UFO-related events. Throughout its history, the Center has processed over 180,000 reports, and has distributed its information to thousands of individuals.\"",
+  "resolution_criteria": "This question resolves as **Yes** if The National UFO Reporting Center posts a report of a sighting of a UFO/UAP shaped like a cube in June 2025 at [this link](https://nuforc.org/ndx/?id=event) when accessed by Metaculus on or after July 1, 2025.\n\nFine print:\nFor example, although rare in the history of NUFORC, the month of December 2024 [had](https://nuforc.org/subndx/?id=e202412) six sightings with a cube shape.",
+  "url": "https://nuforc.org/about-us/",
+  "forecast_due_date": "2025-05-21",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

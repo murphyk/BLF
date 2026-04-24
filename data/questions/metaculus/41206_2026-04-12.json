@@ -1,0 +1,14 @@
+{
+  "id": "41206_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Anthropic file an initial registration statement (S-1) with the SEC to launch an IPO, before July 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if Anthropic, or any subsidiary directly involved in the creation or commercialization of Claude, files a public, non-confidential [SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp) at the U.S. Security and Exchange Commission's [EDGAR](https://www.sec.gov/search-filings) database with a filing date before July 1, 2026.",
+  "background": "CNBC December 2, 2025: [Anthropic reportedly preparing for one of the largest IPOs ever in race with OpenAI: FT](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)\n\n> Anthropic, the AI startup behind the popular Claude chatbot, is in early talks to launch one of the largest initial public offerings as early as next year, the Financial Times reported Wednesday.\n\n> For the potential IPO, Anthropic has engaged law firm Wilson Sonsini Goodrich & Rosati, which has previously worked on high-profile tech IPOs such as Google, LinkedIn and Lyft, the FT said, citing two sources familiar with the matter.\n\nAccording to [The Motley Fool](https://www.fool.com/investing/2025/12/11/an-anthropic-ipo-could-be-here-sooner-than-we-thou/) analyst Matt Frankel (emphasis added):\n\n> Right now, \\[Anthropic is] valued at about \\$350 billion reportedly in an ongoing funding round to which **Microsoft** and **Nvidia** have already committed \\$15 billion. It's not like they can't raise money privately, but this is up from \\$183 billion valuations, almost double in a September funding round. It really shows you the magnitude of hype surrounding these big AI players. Now it's not as if Anthropic as a pre-revenue business, so it's making money. It expects to end this year with \\$9 billion in annual recurring revenue, management's projecting that to rise to over 20 billion next year, and they have a pretty ambitious, again, a target of 70 billion for 2028. It all depends really on the rapid growth in AI spending. My real thought is, if the IPO market's doing what it's doing and the AI market is doing what they're doing now, then **2026 is a good target, even toward the first half.** If the market cools, this could be delayed significantly. It's going to depend on what they think they can get out of the market. But as it stands now, it's not surprising to see a sense of urgency develop.",
+  "url": "https://www.metaculus.com/questions/41206",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.5007",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

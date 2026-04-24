@@ -1,0 +1,6 @@
+{
+  "category": "Domestic Politics",
+  "suggested_category": null,
+  "justification": "The question tracks civil unrest and public demonstrations within a nation, which falls under domestic political stability and activity.",
+  "question": "Will there be more 'Protests' in Lesotho for the 30 days before each resolution date listed below compared to the 30-day average of 'Protests' over the 360 days preceding 2025-08-03?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Protests'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Protests' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Protests' would need to occur in the 30 days leading up to the resolution."
+}

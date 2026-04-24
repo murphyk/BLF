@@ -1,0 +1,15 @@
+{
+  "id": "0xf78b84e417dec6b34f6cbea7002cfb4b16df21aa1cecc8eb701e2e58baf3fcdf_2025-03-02",
+  "source": "polymarket",
+  "question": "Trump takes Panama Canal in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Panama Canal comes under US control by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nFor the purposes of this market, US control means the United States assumes primary operational authority over the canal, either via diplomatic agreement, military action, or any other means.\n\nAn official announcement made by the United States and Panama that the Panama Canal will come under US control will qualify, even if the actual transfer of control is yet to occur. Only announcements of official agreements or actions (e.g. executive order, signed legislation, etc.) will count - mere posts on Social Media will not.\n\nThe resolution source for this market will be official information from the US Government and the Government of Panama, however a consensus of credible reporting confirming that the Panama Canal has come under US sovereignty will also qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/trump-takes-panama-canal-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.145",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0x35915279267a71c7a89e07747e645107bd7720209a7ac145ab36af6c6ac35c67_2025-06-22",
+  "source": "polymarket",
+  "question": "New Coronavirus Pandemic in 2025?",
+  "resolution_criteria": "On February 21, a bat coronavirus that has the capacity to spread to humans, similar to the one that caused the COVID-19 pandemic, was reportedly discovered (See: https://www.newsweek.com/new-coronavirus-bat-chinese-lab-2034232)\n\nThis market will resolve to \"Yes\" if the World Health Organization (WHO) declares a new COVID pandemic other than COVID-19 (SARS-CoV-2) between February 21, 2025 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source will be official announcements from the World Health Organization.",
+  "background": "",
+  "url": "https://polymarket.com/market/new-coronavirus-pandemic-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.075",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

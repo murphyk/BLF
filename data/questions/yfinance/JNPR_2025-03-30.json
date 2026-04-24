@@ -1,0 +1,19 @@
+{
+  "id": "JNPR_2025-03-30",
+  "source": "yfinance",
+  "question": "Will JNPR's market close price on each resolution date listed below be higher than its market close price on 2025-03-30?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/JNPR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-30 is unknown, but the most recent known value (as of 2025-03-20) was 36.080. (The latest market close price of JNPR.)",
+  "background": "Juniper Networks, Inc. designs, develops, and sells network products and services worldwide. The company offers IP transport solutions for wide area networks (WAN) products, such as ACX series universal access routers to deploy high-bandwidth services; MX series Ethernet routers that function as a universal edge platform; PTX series packet transport routers; and Juniper paragon, a portfolio of cloud-native applications. It also provides cloud management and security solutions, including AI-Native networking platform; Juniper Access Point; EX Series Ethernet switches; session smart routers; wired, wireless, WAN, and access assurance; and Marvis Virtual Network Assistant that identifies the root cause of issues across IT domains and automatically resolves issues proactively. In addition, the company offers data center products comprising of QFX series of core, spine, and top-of-rack data center switches; and Juniper Apstra that enables customers to automate the entire network lifecycle in a single system. Further, it provides Junos OS, a network operating system; security solutions consisting of SRX series services gateways for the data center and network backbone; Branch SRX, Security Policy, and Management that provide; and s an integrated firewall and next-generation firewall (NGFW) capabilities; virtual firewall; and advanced malware protection. Additionally, the company provides maintenance and support, professional, SaaS, and educational services for service providers, enterprises, cloud providers, and partners. It sells its products through direct sales, distributors, value-added resellers, and original equipment manufacturers. The company was incorporated in 1996 and is headquartered in Sunnyvale, California.",
+  "url": "https://finance.yahoo.com/quote/JNPR",
+  "forecast_due_date": "2025-03-30",
+  "resolution_dates": [
+    "2025-04-06",
+    "2025-04-29",
+    "2025-06-28"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

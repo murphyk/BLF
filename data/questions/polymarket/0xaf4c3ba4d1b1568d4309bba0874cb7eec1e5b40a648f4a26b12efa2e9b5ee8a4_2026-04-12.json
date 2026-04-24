@@ -1,0 +1,14 @@
+{
+  "id": "0xaf4c3ba4d1b1568d4309bba0874cb7eec1e5b40a648f4a26b12efa2e9b5ee8a4_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Anthropic not IPO by June 30, 2026?",
+  "resolution_criteria": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by June 30, 2026, 11:59 PM ET, the market will resolve to \"No IPO by June 30, 2026\".\n\nMarket capitalization expresses the monetary value of a company\u2019s outstanding shares, stated in its pricing currency. It is calculated as the number of shares outstanding multiplied by the closing share price on the first trading day.\n\nIf the relevant value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nResolution will be based on the primary exchange\u2019s official listing page. In the event that the relevant figure is not displayed, another reliable source will be used.\n\nIn the event of an interruption in the course of the normal trading session on Anthropic\u2019s first day of trading (e.g., a circuit breaker or half-day), the market will resolve according to the official closing price of the abbreviated session. If no such official closing price is published, the market will resolve according to the next trading day on which an official closing price is published, treating that as the first day of trading for purposes of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-anthropic-not-ipo-by-june-30-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.9705",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

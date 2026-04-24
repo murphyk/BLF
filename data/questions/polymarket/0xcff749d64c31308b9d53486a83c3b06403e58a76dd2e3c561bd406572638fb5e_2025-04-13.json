@@ -1,0 +1,15 @@
+{
+  "id": "0xcff749d64c31308b9d53486a83c3b06403e58a76dd2e3c561bd406572638fb5e_2025-04-13",
+  "source": "polymarket",
+  "question": "Will the Chicago White Sox win the 2025 American League Championship?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 MLB American League (ie advance to the 2025 MLB World Series). \n\nIf at any point it becomes impossible for this team to win the American League based on the rules of the MLB (e.g., they are eliminated from the playoffs), this market will immediately resolve to \u201cNo\u201d.\n\nIf the 2025  MLB season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-chicago-white-sox-win-the-2025-american-league-championship",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-07",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "K_2025-03-16",
+  "source": "yfinance",
+  "question": "Will K's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/K for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 82.370. (The latest market close price of K.)",
+  "background": "Kellanova, together with its subsidiaries, manufactures and markets snacks and convenience foods in North America, Europe, Latin America, the Asia Pacific, the Middle East, Australia, and Africa. Its principal products include crackers, crisps, savory snacks, toaster pastries, cereal bars, granola bars and bites, ready-to-eat cereals, frozen waffles, veggie foods, and noodles. The company offers its products under the Kellogg's, Cheez-It, Pringles, Austin, Parati, RXBAR, Eggo, Morningstar Farms, Bisco, Club, Luxe, Minueto, Special K, Toasteds, Town House, Zesta, Zoo Cartoon, Choco Krispis, Crunchy Nut, Kashi, Nutri-Grain, Special K, Squares, Zucaritas, Rice Krispies Treats, Sucrilhos, Pop-Tarts, K-Time, Sunibrite, Split Stix, LCMs, Coco Pops, Krave, Frosties, Rice Krispies Squares, Incogmeato, Veggitizers, Gardenburger, Trink, Carr's, Kellogg's Extra, M\u00fcsli, Fruit \u0091n Fibre, Kellogg's Crunchy Nut, Country Store, Smacks, Honey Bsss, Zimmy's, Toppas, Tresor, Froot Ring, Chocos, Chex, Guardian, Just Right, Sultana Bran, Rice Bubbles, Sustain, Choco Krispies, Melvin, Cornelius, Chocovore, Poperto, Pops the Bee, and Sammy the Seal brand names. It sells its products to retailers through direct sales forces, as well as brokers and distributors. The company was formerly known as Kellogg Company and changed its name to Kellanova in October 2023. Kellanova was founded in 1906 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/K",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14",
+    "2025-09-12"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

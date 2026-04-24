@@ -1,0 +1,15 @@
+{
+  "id": "0xfaa9a6cd431d92c91fc2322e961d59866471dab2b314a474c9e8308ffba62e6f_2025-05-25",
+  "source": "polymarket",
+  "question": "US national XRP reserve in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US government holds any amount of XRP in its reserves at any point between January 15, 2025, ET and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nNote that the US government confiscating XRP does not count as holding XRP reserves.\n\nThe primary resolution source for this market will be official information from the US government and/or the US federal reserve, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-national-xrp-reserve-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.18",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

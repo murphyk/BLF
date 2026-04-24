@@ -1,0 +1,15 @@
+{
+  "id": "0x15ef292e550795785df3ee5eac729517fc850936e877b165998c94351c12544b_2025-06-08",
+  "source": "polymarket",
+  "question": "Will the Pittsburgh Pirates win the 2025 World Series?",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 MLB World Series. \n\nIf at any point it becomes impossible for this team to win the World Series based on the rules of the MLB (e.g., they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.\n\nIf the 2025  MLB season is permanently canceled or has not been completed by February 28, 2026, 11:59 PM this market will resolve to \u201cOther\u201d.\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-pittsburgh-pirates-win-the-2025-world-series",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-08",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-16",
+  "market_value": "0.0085",
+  "market_date": "2025-05-29",
+  "market_value_explanation": "The market price."
+}

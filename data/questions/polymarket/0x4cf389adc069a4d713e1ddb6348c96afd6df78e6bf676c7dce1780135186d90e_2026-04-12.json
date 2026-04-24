@@ -1,0 +1,14 @@
+{
+  "id": "0x4cf389adc069a4d713e1ddb6348c96afd6df78e6bf676c7dce1780135186d90e_2026-04-12",
+  "source": "polymarket",
+  "question": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Oklahoma City Thunder win the 2025\u20132026 NBA Western Conference Finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025\u201326 NBA Western Conference Finals based on the rules of the NBA.\n\nIf the 2025-26 NBA Western Conference Finals winner is not announced by June 30, 2026, this market will resolve to \u201cOther\u201d.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.47500000000000003",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

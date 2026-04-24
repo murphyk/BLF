@@ -1,0 +1,17 @@
+{
+  "id": "CRL_2026-02-01",
+  "source": "yfinance",
+  "question": "Will CRL's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CRL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 226.770. (The latest market close price of CRL.)",
+  "background": "Charles River Laboratories International, Inc. provides drug discovery, non-clinical development, and safety testing services in the United States, Europe, Canada, the Asia Pacific, and internationally. It operates through three segments: Research Models and Services (RMS), Discovery and Safety Assessment (DSA), and Manufacturing Solutions (Manufacturing). The RMS segment produces and sells rodents, and purpose-bred rats and mice for use by researchers. This segment also provides a range of services to assist its clients in supporting the use of research models in research and screening pre-clinical drug candidates, including research models, genetically engineered models and services, insourcing solutions, and research animal diagnostic services. The DSA segment offers early and in vivo discovery services for the identification and validation of novel targets, chemical compounds, and antibodies through delivery of preclinical drug and therapeutic candidates ready for safety assessment; and safety assessment services, such as toxicology, pathology, safety pharmacology, bioanalysis, drug metabolism, and pharmacokinetics services. The Manufacturing segment provides in vitro methods for conventional and rapid quality control testing of sterile and non-sterile pharmaceuticals and consumer products. This segment offers specialized testing of biologics that are outsourced by pharmaceutical and biotechnology companies. It utilizes Logica, a platform offering from Valo Health, to identify advanceable small molecule leads. It provides contract vivarium operation services to biopharmaceutical clients. The company has strategic collaborations with Parker Institute for Cancer Immunotherapy and Children's Hospital Los Angeles across its contract development and manufacturing organization. Additionally, It has a strategic alliance with Francis Crick Institute (Crick), Inc. for the development of Antibody-Drug Conjugate (ADC) drug discovery and development. The company was founded in 1947 and is headquartered in Wilmington, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/CRL",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0
+  ]
+}

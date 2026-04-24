@@ -1,0 +1,15 @@
+{
+  "id": "1578_2025-06-22",
+  "source": "infer",
+  "question": "Will the U.S. national average gas price be equal to or above $3.600 for July 2025?",
+  "resolution_criteria": "This question will resolve as \u201cYes\u201d if the EIA reports a national average retail price for gasoline (all grades) of $3.600 per gallon or higher for July 2025. The official value will be taken from the EIA\u2019s monthly \u201cGasoline-All Grades\u201d data once the data for July 2025 is available.&nbsp;",
+  "background": "On 20 May 2025, the U.S. national average price for regular gasoline was $3.177 per gallon, according to the American Automobile Association ( AAA ). For comparison, the U.S. average price for all grades and formulations was $3.600 per gallon in July 2024 and $3.712 per gallon in July 2023, according to the U.S. Energy Information Administration ( EIA ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1578",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-08-01",
+  "market_value": "0.1004",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The crowd forecast."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "WBD_2026-01-18",
+  "source": "yfinance",
+  "question": "Will WBD's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WBD for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 28.590. (The latest market close price of WBD.)",
+  "background": "Warner Bros. Discovery, Inc. operates as a media and entertainment company worldwide. It operates through three segments: Studios, Network, and DTC. The Studios segment produces and releases feature films for initial exhibition in theaters; produces and licenses television programs to its networks and third parties and direct-to-consumer services; distributes films and television programs to various third parties and internal television; and offers streaming services and distribution through the home entertainment market, themed experience licensing, and interactive gaming. The Network segment comprises domestic and international television networks. The DTC segment offers premium pay-tv and streaming services. In addition, the company offers portfolio of content, brands, and franchises across television, film, streaming, and gaming under the Warner Bros. Motion Picture Group, Warner Bros. Television Group, DC, HBO, HBO Max, Max, Discovery Channel, discovery+, CNN, HGTV, Food Network, TNT Sports, TBS, TLC, OWN, Warner Bros. Games, Adult Swim, Turner Classic Movies, Television Group, Hanna-Barbera, Harry Potter, DC, Looney Tunes, Scooby-Doo, Game of Thrones, Friends, and others brands. Further, it provides content through distribution platforms, including linear network, free-to-air, and broadcast television; authenticated GO applications, digital distribution arrangements, content licensing arrangements, and direct-to-consumer subscription products. Warner Bros. Discovery, Inc. was incorporated in 2008 and is headquartered in New York, New York.",
+  "url": "https://finance.yahoo.com/quote/WBD",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

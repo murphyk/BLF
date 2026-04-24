@@ -1,0 +1,17 @@
+{
+  "id": "CF_2026-03-01",
+  "source": "yfinance",
+  "question": "Will CF's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 95.820. (The latest market close price of CF.)",
+  "background": "CF Industries Holdings, Inc., together with its subsidiaries, engages in the manufacture and sale of hydrogen and nitrogen products for energy, fertilizer, emissions abatement, and other industrial activities in North America, Europe, and internationally. The company operates through Ammonia, Granular Urea, UAN, AN, and Other segments. Its principal products include anhydrous ammonia, granular urea, urea ammonium nitrate, and ammonium nitrate products. The company also offers diesel exhaust fluid, urea liquor, nitric acid, and aqua ammonia products. It primarily serves cooperatives, retailers, independent fertilizer distributors, traders, wholesalers, and industrial users. CF Industries Holdings, Inc. was founded in 1946 and is headquartered in Northbrook, Illinois.",
+  "url": "https://finance.yahoo.com/quote/CF",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

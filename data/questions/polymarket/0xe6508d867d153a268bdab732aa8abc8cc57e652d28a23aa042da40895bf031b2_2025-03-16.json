@@ -1,0 +1,15 @@
+{
+  "id": "0xe6508d867d153a268bdab732aa8abc8cc57e652d28a23aa042da40895bf031b2_2025-03-16",
+  "source": "polymarket",
+  "question": "Will 2025 be the hottest year on record?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the data for the Global Land-Ocean Temperature Index for 2025 shows an increase greater than that of any previously recorded year when it is released. Otherwise, this market will resolve to \"No\".\n\nAn anomaly greater than that of any previously recorded year for 2025 is necessary and sufficient to resolve this market to \"Yes\" immediately once the data becomes available, regardless of whether the figure for 2024 and/or 2025 is later revised.\n\nThe primary resolution source for this market will be the figure found in the table titled \"Land-Ocean Temperature Index (C)\" under the column \"No_Smoothing\" in the row \"2025\" (https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt). If NASA's \"Global Temperature Index\" is rendered permanently unavailable, other information from NASA may be used. If no information for 2025 is provided by NASA by March 1, 2026, 11:59 PM ET, this market will resolve based on a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-2025-be-the-hottest-year-on-record",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.295",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

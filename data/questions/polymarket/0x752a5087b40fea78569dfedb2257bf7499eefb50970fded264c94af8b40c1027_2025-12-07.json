@@ -1,0 +1,14 @@
+{
+  "id": "0x752a5087b40fea78569dfedb2257bf7499eefb50970fded264c94af8b40c1027_2025-12-07",
+  "source": "polymarket",
+  "question": "Will Michael Penix win the 2025\u201326 NFL MVP award?",
+  "resolution_criteria": "This polymarket will resolve to \"Yes\" if the listed player is named the 2025\u201326 NFL regular season MVP. Otherwise, it will resolve to \"No\".\n\nIf the 2025\u201326 NFL MVP is not announced by May 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official announcements from the NFL. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-michael-penix-win-the-202526-nfl-mvp-award",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-06",
+  "market_value": "0.0005",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

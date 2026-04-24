@@ -1,0 +1,19 @@
+{
+  "id": "IT_2025-12-21",
+  "source": "yfinance",
+  "question": "Will IT's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 230.880. (The latest market close price of IT.)",
+  "background": "Gartner, Inc. operates as a research and advisory company in the United States, Canada, Europe, the Middle East, Africa, and internationally. It operates through three segments: Research, Conferences, and Consulting. The Research segment delivers its research primarily through a subscription service that include on-demand access to published research content, data and benchmarks, and direct access to a network of research experts. The Conferences segment offers executives and teams in an organization the opportunity to learn, share, and network. The Consulting segment offers market-leading research, custom analysis, and on-the-ground support services. This segment also offers actionable solutions for IT-related priorities, including IT cost optimization, digital transformation, and IT sourcing optimization. Gartner, Inc. was founded in 1979 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/IT",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0
+  ]
+}

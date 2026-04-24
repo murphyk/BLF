@@ -1,0 +1,15 @@
+{
+  "id": "0x5dbd7b90d7a729863a2f931406348ee5c7b79f227c6458cb727914ce96db63b6_2025-03-16",
+  "source": "polymarket",
+  "question": "Will Trump resign in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if President of the United States Donald Trump announces he has resigned or will resign the presidency by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Donald Trump to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Trump announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the US federal government; however, a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-resign-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.053500000000000006",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "FE_2025-04-13",
+  "source": "yfinance",
+  "question": "Will FE's market close price on each resolution date listed below be higher than its market close price on 2025-04-13?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-13 is unknown, but the most recent known value (as of 2025-04-03) was 40.580. (The latest market close price of FE.)",
+  "background": "FirstEnergy Corp., together with its subsidiaries, engages in the generation, distribution, and transmission of electricity in the United States. It operates through Distribution, Integrated, and Stand-Alone Transmission segments. The company owns and operates coal-fired, nuclear, hydroelectric, wind, and solar power generating facilities. It operates 252,244 distribution line miles and 24,143 transmission line miles, including overhead pole line and underground conduit carrying primary, secondary, and street lighting circuits. The company serves customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy Corp. was incorporated in 1996 and is headquartered in Akron, Ohio.",
+  "url": "https://finance.yahoo.com/quote/FE",
+  "forecast_due_date": "2025-04-13",
+  "resolution_dates": [
+    "2025-04-20",
+    "2025-05-13",
+    "2025-07-12",
+    "2025-10-10"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+  ]
+}

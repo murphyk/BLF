@@ -1,0 +1,15 @@
+{
+  "id": "12539_2025-08-31",
+  "source": "metaculus",
+  "question": "Will Pierre Poilievre become Prime Minister of Canada before 2026?",
+  "resolution_criteria": "This question resolves positively if at any point before 1 January 2026, Ottawa time, Pierre Poilievre holds the office of Prime Minister of Canada. It resolves negatively if this does not happen.\n\nIn the event that a federal election is due to take place before this question closes, the question shall be closed 24 hours before polls open.",
+  "background": "[The 45th Canadian federal election](https://en.wikipedia.org/wiki/45th_Canadian_federal_election) will take place on or before 20 October 2025 to elect members of the House of Commons to the 45th Canadian Parliament. \n\nSince the incumbent government is a minority government, the election may occur before the scheduled date if the governor general of Canada dissolves Parliament on the recommendation of the prime minister of Canada for a snap election, for example after the House of Commons passes a motion of no confidence in the government.\n\n\n[Pierre Marcel Poilievre](https://en.wikipedia.org/wiki/Pierre_Poilievre) PC MP, born June 3, 1979, is a Canadian politician who has served as the leader of the Conservative Party of Canada and the leader of the Opposition since September 10, 2022. He has been described as a libertarian and populist, and calls himself a [\"true conservative.\"](https://www.nationalobserver.com/2022/05/06/opinion/poilievres-appeal-simple-unapologetically-conservative)",
+  "url": "https://www.metaculus.com/questions/12539",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-19",
+  "market_value": "0.001",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The community prediction."
+}

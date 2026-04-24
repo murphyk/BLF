@@ -1,0 +1,29 @@
+{
+  "id": "SBUX_2026-04-12",
+  "source": "yfinance",
+  "question": "Will SBUX's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/SBUX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 90.430. (The latest market close price of SBUX.)",
+  "background": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
+  "url": "https://finance.yahoo.com/quote/SBUX",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

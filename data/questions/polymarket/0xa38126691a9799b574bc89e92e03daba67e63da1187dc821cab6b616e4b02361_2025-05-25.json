@@ -1,0 +1,15 @@
+{
+  "id": "0xa38126691a9799b574bc89e92e03daba67e63da1187dc821cab6b616e4b02361_2025-05-25",
+  "source": "polymarket",
+  "question": "Will the San Francisco Giants win the NL West ",
+  "resolution_criteria": "This market will resolve according to the team that wins the 2025 MLB NL West Division.\n\nIf at any point it becomes impossible for a team to win the NL West Division based on the rules of the MLB, this market will immediately resolve to \u201cNo\u201d for that team.\n\nIf the 2025 MLB season is permanently canceled or has not been completed by March 28, 2026, 11:59 PM ET, this market will resolve to \u201cOther\u201d.\n\nOfficial resolution will be based on the MLB's official standings, as published on MLB.com.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-san-francisco-giants-win-the-nl-west",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-19",
+  "market_value": "0.061",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

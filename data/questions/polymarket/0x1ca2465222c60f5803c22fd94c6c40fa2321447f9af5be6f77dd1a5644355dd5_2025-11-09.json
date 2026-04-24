@@ -1,0 +1,14 @@
+{
+  "id": "0x1ca2465222c60f5803c22fd94c6c40fa2321447f9af5be6f77dd1a5644355dd5_2025-11-09",
+  "source": "polymarket",
+  "question": "Will Pierre-Yves Bournazel win the Paris mayor election?",
+  "resolution_criteria": "The 2026 election for the Mayor of Paris is scheduled to take place in March.\n\nThis market will resolve according to the candidate who wins the 2026 Paris mayoral election to become the next elected Mayor of Paris.\n\nTemporary, interim, or placeholder mayors appointed before the election will not be considered.\n\nThis market includes any potential second round. If the result of this election isn't known by December 31, 2026, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-pierre-yves-bournazel-win-the-paris-mayor-election",
+  "forecast_due_date": "2025-11-09",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-21",
+  "market_value": "0.11",
+  "market_date": "2025-10-30",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,10 @@
+{
+    "ask-start": "2025-10-26",
+    "ask-end": "2025-10-26",
+    "resolution-end": "2026-04-10",
+    "seed": 42,
+    "select": {
+        "infer": "all", "manifold": "all", "metaculus": "all", "polymarket": "all",
+        "acled": 20, "dbnomics": 20, "fred": 20, "wikipedia": 20, "yfinance": 20
+    }
+}

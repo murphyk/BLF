@@ -1,0 +1,21 @@
+{
+  "id": "FMC_2025-06-22",
+  "source": "yfinance",
+  "question": "Will FMC's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 43.970. (The latest market close price of FMC.)",
+  "background": "FMC Corporation, an agricultural sciences company, provides crop protection solutions to farmers in Latin America, North America, Europe, the Middle East, Africa, and Asia. It develops, markets, and sells crop protection chemicals, including insecticides, herbicides, and fungicides, as well as biologicals, crop nutrition, and seed treatment products, which are used in agriculture to enhance crop yield and quality by controlling a range of insects, weeds, and disease, as well as in non-agricultural markets for pest control. The company markets its products through its own sales organization and through alliance partners, independent distributors, and sales representatives. FMC Corporation was founded in 1883 and is headquartered in Philadelphia, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/FMC",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ]
+}

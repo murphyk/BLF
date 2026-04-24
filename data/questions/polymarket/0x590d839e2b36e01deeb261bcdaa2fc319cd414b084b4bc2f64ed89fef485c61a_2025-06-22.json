@@ -1,0 +1,15 @@
+{
+  "id": "0x590d839e2b36e01deeb261bcdaa2fc319cd414b084b4bc2f64ed89fef485c61a_2025-06-22",
+  "source": "polymarket",
+  "question": "Will the Chiefs win the AFC Championship?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Kansas City Chiefs win the 2025-26 AFC Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for this team to win the AFC Championship based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-chiefs-win-the-afc-championship-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-26",
+  "market_value": "0.195",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

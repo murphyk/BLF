@@ -1,0 +1,14 @@
+{
+  "id": "ylgphSdccA_2026-03-01",
+  "source": "manifold",
+  "question": "ICE kills US citizen by end of March 2026",
+  "resolution_criteria": "This market resolves YES if an ICE agent fatally shoots a U.S. citizen or a U.S. citizen dies in ICE custody by March 31, 2026. Resolution will be based on official reports from ICE, the Department of Homeland Security, medical examiners, or credible news sources documenting the death of a U.S. citizen caused by or occurring during ICE operations or detention. Deaths must be confirmed as involving a U.S. citizen.\n\nOnly deaths that occur after the market creation date count.",
+  "background": "",
+  "url": "https://manifold.markets/ManiPart/ice-kills-us-citizen-by-end-of-marc",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.16502713632100502",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The market value."
+}

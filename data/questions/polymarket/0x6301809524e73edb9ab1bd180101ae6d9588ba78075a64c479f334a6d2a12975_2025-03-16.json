@@ -1,0 +1,15 @@
+{
+  "id": "0x6301809524e73edb9ab1bd180101ae6d9588ba78075a64c479f334a6d2a12975_2025-03-16",
+  "source": "polymarket",
+  "question": "Macron out in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Emmanuel Macron ceases to be President of France for any length of time between January 2 and December 31, 2025, 11:59 PM ET (inclusive). Otherwise, this market will resolve to \"No\".\n\nIf Macron departs from office before the expiry date, the market should resolve immediately.\n\nThe primary resolution source for this market will be information from the government of France, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/macron-out-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.145",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market price."
+}

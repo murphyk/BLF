@@ -1,0 +1,14 @@
+{
+  "id": "0x1b74c3efe140a09049e0eb6b6a2112e00fa4d199cdc718c1a58af1abf6d9e49d_2025-12-07",
+  "source": "polymarket",
+  "question": "Will any country leave NATO in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any member state formally withdraws from NATO or provides an official notice of denunciation to NATO by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA notice of denunciation refers to the submission of a notice of withdrawal as per Article 13 of the North Atlantic Treaty.\n\nA country's exit from NATO\u2019s integrated military command structure will not be sufficient to resolve this market to \"Yes\". That country must either withdraw or submit a notice of denunciation to trigger a \"Yes\" resolution.\n\nThe resolution source will be official information from the relevant government and NATO, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-any-country-leave-nato-in-2025",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.0145",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market price."
+}

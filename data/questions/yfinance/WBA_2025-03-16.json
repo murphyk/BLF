@@ -1,0 +1,19 @@
+{
+  "id": "WBA_2025-03-16",
+  "source": "yfinance",
+  "question": "Will WBA's market close price on each resolution date listed below be higher than its market close price on 2025-03-16?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/WBA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-16 is unknown, but the most recent known value (as of 2025-03-06) was 10.750. (The latest market close price of WBA.)",
+  "background": "Walgreens Boots Alliance, Inc. operates as a healthcare, pharmacy, and retail company in the United States, Germany, the United Kingdom, and internationally. It operates through three segments: U.S. Retail Pharmacy, International, and U.S. Healthcare. The U.S. Retail Pharmacy segment engages in operation of the retail drugstores, health and wellness services, specialty, and home delivery pharmacy services, which offers health and wellness, beauty, personal care and consumables, and general merchandise. The International segment offers sale of prescription drugs and health and wellness, beauty, personal care, and other consumer products outside the United States; and operates pharmacy-led health and beauty retail businesses under the Boots brand stores in the United Kingdom, the Republic of Ireland, and Thailand, as well as the Benavides brand in Mexico and the Ahumada brand in Chile. The U.S. Healthcare segment provides VillageMD, a national provider of value-based care with primary, multi-specialty, and urgent care providers serving patients in traditional clinic settings, in patients' homes and online appointments; Shields, a specialty pharmacy integrator and accelerator for hospitals; and CareCentrix, a participant in the post-acute and home care management sectors. Walgreens Boots Alliance, Inc. was founded in 1909 and is headquartered in Deerfield, Illinois.",
+  "url": "https://finance.yahoo.com/quote/WBA",
+  "forecast_due_date": "2025-03-16",
+  "resolution_dates": [
+    "2025-03-23",
+    "2025-04-15",
+    "2025-06-14"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

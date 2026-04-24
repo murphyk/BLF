@@ -1,0 +1,21 @@
+{
+  "id": "CTSH_2025-08-31",
+  "source": "yfinance",
+  "question": "Will CTSH's market close price on each resolution date listed below be higher than its market close price on 2025-08-31?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CTSH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-08-31 is unknown, but the most recent known value (as of 2025-08-21) was 70.490. (The latest market close price of CTSH.)",
+  "background": "Cognizant Technology Solutions Corporation, a professional services company, provides consulting and technology, and outsourcing services in North America, Europe, and internationally. It operates through four segments: Financial Services; Health Sciences; Products and Resources; and Communications, Media and Technology. The company provides services including artificial intelligence (AI) and other technology services and solutions, consulting, application development, systems integration, digital engineering, quality engineering and assurance, application maintenance, infrastructure, security, cloud, internet of things, enterprise platform services, and business process services and automation. It also offers AI-led automation, which includes advisory, and process and IT automation solutions designed to simplify and accelerate automation adoption; business process outsourcing services, which help deliver business outcomes including revenue growth, increased customer and employee satisfaction, and cost savings; and Cognizant Moment, a digital experience service that uses AI to reimagine customer experiences and engineer strategies aimed at driving growth. In addition, the company develops, licenses, implements, and supports proprietary and third-party software products and platforms; and develops industry-specific products and services. It offers solution to healthcare providers and payers, life sciences companies, banking, capital markets, payments and insurance companies, manufacturers, automakers, retailers, consumer goods, travel and hospitality, communications, media and entertainment, education, information services, and technology companies, as well as businesses providing logistics, energy, and utility services. The company was incorporated in 1988 and is headquartered in Teaneck, New Jersey.",
+  "url": "https://finance.yahoo.com/quote/CTSH",
+  "forecast_due_date": "2025-08-31",
+  "resolution_dates": [
+    "2025-09-07",
+    "2025-09-30",
+    "2025-11-29",
+    "2026-02-27"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ]
+}

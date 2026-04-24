@@ -1,0 +1,23 @@
+{
+  "id": "BKR_2025-03-02",
+  "source": "yfinance",
+  "question": "Will BKR's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BKR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 46.400. (The latest market close price of BKR.)",
+  "background": "Baker Hughes Company provides a portfolio of technologies and services to energy and industrial value chain worldwide. The company operates through Oilfield Services & Equipment (OFSE) and Industrial & Energy Technology (IET) segments. The OFSE segment designs and manufactures products and provides related services, including exploration, appraisal, development, production, rejuvenation, and decommissioning for onshore and offshore oilfield operations. This segment also provides drilling services, drill bits, and drilling and completions fluids; completions, intervention, measurements, pressure pumping, and wireline services; artificial lift systems, and oilfield and industrial chemicals; subsea projects and services, flexible pipe systems, and surface pressure control systems; and integrated well services and solutions. It serves oil and natural gas companies; the United States and international independent oil and natural gas companies; national or state-owned oil companies; engineering, procurement, and construction contractors; geothermal companies; and other oilfield service companies. The IET segment provides gas technology equipment, including drivers, driven equipment, and turnkey solutions for the mechanical and electric-drive, compression, and power-generation applications; and energy sectors, such as oil and gas, LNG operations, petrochemical, and carbon solutions. This segment also provides rack-based vibrating monitoring equipment and sensors; integrated asset performance management products; inspection services; pumps, valves, and gears; precision sensors and instrumentation, and condition monitoring solutions. It serves upstream, midstream, downstream, onshore, offshore, and small-to-large scale customers. The company was formerly known as Baker Hughes, a GE company and changed its name to Baker Hughes Company in October 2019. Baker Hughes Company was incorporated in 2016 and is based in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/BKR",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

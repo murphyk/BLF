@@ -1,0 +1,17 @@
+{
+  "id": "FANG_2026-03-01",
+  "source": "yfinance",
+  "question": "Will FANG's market close price on each resolution date listed below be higher than its market close price on 2026-03-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/FANG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-01 is unknown, but the most recent known value (as of 2026-02-19) was 174.010. (The latest market close price of FANG.)",
+  "background": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas. It focuses on the development of the Spraberry and Wolfcamp formations of the Midland basin; and the Wolfcamp and Bone Spring formations of the Delaware basin, which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
+  "url": "https://finance.yahoo.com/quote/FANG",
+  "forecast_due_date": "2026-03-01",
+  "resolution_dates": [
+    "2026-03-08",
+    "2026-03-31"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

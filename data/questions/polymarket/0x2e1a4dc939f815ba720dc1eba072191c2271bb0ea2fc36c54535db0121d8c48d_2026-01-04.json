@@ -1,0 +1,14 @@
+{
+  "id": "0x2e1a4dc939f815ba720dc1eba072191c2271bb0ea2fc36c54535db0121d8c48d_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Tesla be the largest company in the world by market cap on March 31?",
+  "resolution_criteria": "This market will resolve to the largest company in the world by market cap on March 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-tesla-be-the-largest-company-in-the-world-by-market-cap-on-march-31",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.0025",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

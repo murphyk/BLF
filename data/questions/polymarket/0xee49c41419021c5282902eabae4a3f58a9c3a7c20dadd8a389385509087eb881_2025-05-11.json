@@ -1,0 +1,15 @@
+{
+  "id": "0xee49c41419021c5282902eabae4a3f58a9c3a7c20dadd8a389385509087eb881_2025-05-11",
+  "source": "polymarket",
+  "question": "Will the Florida Panthers win the 2025 Stanley Cup?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Florida Panthers win the 2025 NHL Stanley Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025 NHL Stanley Cup based off the rules of the NHL.\n\nThe resolution source for this market will be information from the NHL",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-florida-panthers-win-the-2025-stanley-cup",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-11",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-06-18",
+  "market_value": "0.17500000000000002",
+  "market_date": "2025-05-01",
+  "market_value_explanation": "The market price."
+}

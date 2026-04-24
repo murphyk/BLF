@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0039",
+  "source": "aibq2",
+  "question": "Before July 1, 2025, will Florida enact legislation expanding its verification requirements of a voter's citizenship?",
+  "title_hash": "53deaebb5a35a1bf",
+  "background": "Tallahassee Democrat: [Florida may require proof of citizenship to vote under new legislation echoing Trump](https://www.tallahassee.com/story/news/local/state/2025/04/02/got-id-proof-of-citizenship-may-soon-be-needed-to-vote-in-florida/82756919007/)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the state of Florida enacts legislation requiring voters to provide proof of US citizenship beyond the requirements at the time of this question, according to [credible sources](https://www.metaculus.com/faq/#definitions).\n\nFine print:\nAny subset of voters being required to provide such proof would count (for example if it only applied to first-time voter registrants or creating a new requirement for mail-in voters). An example of a bill that would count is [HB 831](https://www.flsenate.gov/Session/Bill/2025/831). This question resolves upon enactment; therefore other questions such as when the legislation takes effect or whether it survives court challenges and is implemented is immaterial to this question's resolution.",
+  "url": "https://www.tallahassee.com/story/news/local/state/2025/04/02/got-id-proof-of-citizenship-may-soon-be-needed-to-vote-in-florida/82756919007/",
+  "forecast_due_date": "2025-05-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

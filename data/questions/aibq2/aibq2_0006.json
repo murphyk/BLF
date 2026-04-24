@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0006",
+  "source": "aibq2",
+  "question": "Will Dan Osborn announce his candidacy for US Senator from Nebraska before June 1, 2025?",
+  "title_hash": "cd9a6b71407c28ee",
+  "background": "Nebraska Examiner: [Nebraska\u2019s Dan Osborn exploring midterm bid against U.S. Sen Pete Ricketts](https://nebraskaexaminer.com/2025/04/03/nebraskas-dan-osborn-exploring-midterm-bid-against-u-s-sen-pete-ricketts/)",
+  "resolution_criteria": "This question resolves as **Yes** if Dan Osborn announces his candidacy for US Senator from Nebraska before June 1, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://nebraskaexaminer.com/2025/04/03/nebraskas-dan-osborn-exploring-midterm-bid-against-u-s-sen-pete-ricketts/",
+  "forecast_due_date": "2025-04-23",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "DTE_2025-05-11",
+  "source": "yfinance",
+  "question": "Will DTE's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DTE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 137.000. (The latest market close price of DTE.)",
+  "background": "DTE Energy Company engages in the energy-related businesses and services. The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,710,000 kilovolt-amperes (kVA) and approximately 4,55,300 line transformers with a capacity of approximately 33,570,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.3 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 20,500 miles of distribution mains; 1,238,000 service pipelines; and 1,352,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 3 renewable generating plants with a capacity of 114 MWs; and 23 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
+  "url": "https://finance.yahoo.com/quote/DTE",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

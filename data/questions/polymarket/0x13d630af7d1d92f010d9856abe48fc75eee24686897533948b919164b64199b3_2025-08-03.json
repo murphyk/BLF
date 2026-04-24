@@ -1,0 +1,15 @@
+{
+  "id": "0x13d630af7d1d92f010d9856abe48fc75eee24686897533948b919164b64199b3_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Trump sell 10k-25k Gold Cards in 2025?",
+  "resolution_criteria": "Donald Trump has announced a \u201cGold Card\u201d plan to offer a pathway citizenship to citizenship in exchange for a $5m payment.\n\nThis market will resolve according to the number of individuals who purchase a \u201cGold Card\u201d by December 31, 2025, 11:59 PM ET. \n\nAny individual participating in a new program created after February 26, by the Trump Administration which is either referred to as a Gold Card, or involves a new pathway to U.S. citizenship, work permits, or any other form of legal residency status in exchange for payments or investment will qualify. \n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe resolution source will be official information from the Trump Administration. If the Trump Administration does not publish the number of Gold Card participants by December 31, 11:59 PM ET, this market will resolve based on a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-trump-sell-10k-25k-gold-cards-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.024",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

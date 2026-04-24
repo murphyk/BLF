@@ -1,0 +1,19 @@
+{
+  "id": "DOV_2025-12-07",
+  "source": "yfinance",
+  "question": "Will DOV's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DOV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 186.190. (The latest market close price of DOV.)",
+  "background": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. The company was incorporated in 1947 and is headquartered in Downers Grove, Illinois.",
+  "url": "https://finance.yahoo.com/quote/DOV",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

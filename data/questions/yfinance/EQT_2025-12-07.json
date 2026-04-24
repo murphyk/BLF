@@ -1,0 +1,19 @@
+{
+  "id": "EQT_2025-12-07",
+  "source": "yfinance",
+  "question": "Will EQT's market close price on each resolution date listed below be higher than its market close price on 2025-12-07?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EQT for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-07 is unknown, but the most recent known value (as of 2025-11-27) was 59.000. (The latest market close price of EQT.)",
+  "background": "EQT Corporation engages in the production, gathering, and transmission of natural gas. The company sells natural gas and natural gas liquids to marketers, utilities, and industrial customers located in the Appalachian Basin. It also provides marketing services and contractual pipeline capacity management services, as well as involved in risk management and hedging activities. The company was formerly known as Equitable Resources Inc. and changed its name to EQT Corporation in February 2009. EQT Corporation was founded in 1888 and is headquartered in Pittsburgh, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/EQT",
+  "forecast_due_date": "2025-12-07",
+  "resolution_dates": [
+    "2025-12-14",
+    "2026-01-06",
+    "2026-03-07"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    1.0
+  ]
+}

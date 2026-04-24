@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_369acd60",
+  "source": "aibq2",
+  "question": "Will a state of emergency be in effect in Samoa on April 30, 2025?",
+  "background": "[Samoan Prime Minister declares state of emergency over power cuts](https://www.stuff.co.nz/nz-news/360634988/samoan-prime-minister-declares-state-emergency-over-power-cuts)",
+  "resolution_criteria": "This question resolves as **Yes** if, according to [credible sources](https://www.metaculus.com/faq/#definitions) Samoa is in a state of emergency that has been declared by a governmental entity with the authority to make such a declaration.\n\nFine print:\nFor example, the state of emergency declaration [posted](https://www.facebook.com/samoagovt/posts/hon-prime-minister-of-samoa-press-statement-proclamation-of-emergency-energy-cri/1059050259591457/) by the government of Samoa on Facebook on March 31, 2025 would count. (Note that when it was declared, it was scheduled to be in effect through April 29, 2025.)",
+  "url": "https://www.stuff.co.nz/nz-news/360634988/samoan-prime-minister-declares-state-emergency-over-power-cuts",
+  "forecast_due_date": "2025-04-21",
+  "resolution_date": "2025-05-01",
+  "resolved_to": 0.0
+}

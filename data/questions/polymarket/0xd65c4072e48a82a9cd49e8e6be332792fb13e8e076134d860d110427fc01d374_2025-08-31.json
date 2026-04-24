@@ -1,0 +1,15 @@
+{
+  "id": "0xd65c4072e48a82a9cd49e8e6be332792fb13e8e076134d860d110427fc01d374_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Jonas Gahr St\u00f8re become the next Prime Minister of Norway?",
+  "resolution_criteria": "This market will resolve to the individual who is formally appointed Prime Minister by royal decree of the King of Norway in the Council of State following the 2025 parliamentary election.\n\nIf no such decree is issued\u2014for example, in cases of government continuity\u2014the sitting Prime Minister at the time the King appoints ministers for the new cabinet will be considered the winner.\n\nIf the incumbent Prime Minister and cabinet are confirmed by a consensus of credible reporting to have secured re-election without the need for a new decree or formal appointment, the market will resolve accordingly.\n\nIf no new government is appointed by December 31, 2025, the market will resolve to the most recently appointed permanent Prime Minister.\n\nOnly Prime Ministers who take office as a result of an election will qualify. Any interim or caretaker Prime Minister\u2014including those serving under Norway\u2019s standing incapacity rule\u2014will not count toward the resolution of this market.\n\nThe primary resolution source for this market will be official information from the Government of Norway; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jonas-gahr-stre-become-the-next-prime-minister-of-norway",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-09-08",
+  "market_value": "0.58",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

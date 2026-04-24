@@ -1,0 +1,19 @@
+{
+  "id": "EBAY_2025-10-26",
+  "source": "yfinance",
+  "question": "Will EBAY's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/EBAY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 90.870. (The latest market close price of EBAY.)",
+  "background": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally. The company's marketplace platform includes its online marketplace at ebay.com, off-platform businesses, and the eBay suite of mobile apps. Its platforms enable users to list, sell, buy, and pay various products. The company was founded in 1995 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/EBAY",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

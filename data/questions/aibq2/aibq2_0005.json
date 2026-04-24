@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0005",
+  "source": "aibq2",
+  "question": "Will the CDC raise the Travel Health Notice status of Colombia to above level 3 before June 1, 2025?",
+  "title_hash": "a5c27a5365e2a7fd",
+  "background": "[Colombia\u2019s Economic Emergency As Yellow Fever Outbreak Threatens Tourism And Agricultural Exports](https://www.travelandtourworld.com/news/article/colombias-economic-emergency-as-yellow-fever-outbreak-threatens-tourism-and-agricultural-exports/) | CDC: [Travel Health Notices](https://wwwnc.cdc.gov/travel/notices)",
+  "resolution_criteria": "This question resolves as **Yes** if the [Travel Health Notice status of Colombia](https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia), which is \"Level 2 Practice Enhanced Precautions\" at the time of this question, is a level of greater than 2 when checked by Metaculus on or after June 1, 2025.",
+  "url": "https://www.travelandtourworld.com/news/article/colombias-economic-emergency-as-yellow-fever-outbreak-threatens-tourism-and-agricultural-exports/",
+  "forecast_due_date": "2025-04-23",
+  "resolution_date": "2025-06-01",
+  "resolved_to": 0.0
+}

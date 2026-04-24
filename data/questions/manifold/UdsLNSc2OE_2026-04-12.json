@@ -1,0 +1,14 @@
+{
+  "id": "UdsLNSc2OE_2026-04-12",
+  "source": "manifold",
+  "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
+  "resolution_criteria": "(https://www.metaculus.com/questions/embed/41140)\nResolves according to Metaculus resolution.\n\nMetaculus high-level description:\nThis question will resolve as Yes if, during 2026, METR estimates that an AI model has a time horizon of \u22653 hours at 80% reliability, i.e. the AI has an estimated \u226580% reliability on tasks requiring human experts \u22653 hours to solve.",
+  "background": "",
+  "url": "https://manifold.markets/DaftPunkRock/acx-2026-will-an-ai-model-reach-a-3",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.789872307563781",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market value."
+}

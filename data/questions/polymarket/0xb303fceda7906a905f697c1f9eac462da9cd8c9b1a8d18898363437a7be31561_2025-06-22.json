@@ -1,0 +1,15 @@
+{
+  "id": "0xb303fceda7906a905f697c1f9eac462da9cd8c9b1a8d18898363437a7be31561_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Russia capture Pokrovsk by June 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if, according to the ISW map, Russia captures St. Michael's church in Pokrovsk located on Hrushevskoho Vulytsia by June 30, 2025, 11:59 PM ET.\n\nThe church will be considered captured if any part of building is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by June 30, 2025, 11:59 PM ET, the market will resolve to \u201cNo\u201d.\n\nOnce Russia captures the church, any subsequent loss of control will not be considered towards the resolution of this market.\n\nChurch Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovsk+Church+Location.png\n\nPokrovsk Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovosk+Location.png\n\nLocation on Google maps: https://www.google.com/maps/@48.2794472,37.1801207,592m/data=!3m1!1e3\n\nThe primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.\n\nNote: Any temporary glitches or errors in the map which will not be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-capture-pokrovsk-by-june-30",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.016",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

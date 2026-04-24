@@ -1,0 +1,17 @@
+{
+  "id": "JBL_2026-02-15",
+  "source": "yfinance",
+  "question": "Will JBL's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/JBL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 258.250. (The latest market close price of JBL.)",
+  "background": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, and optical assemblies; detail design, environmental applications, thermal and tooling management; develop solutions for virtual and/or augmented reality, light detection and ranging, 3D sensing, projection, and imaging; delivering PCBA design with CAD tools; and electrical and mechanical assemblies. The company also offers cloud data center server platforms; medical and consumer health devices; automotive assemblies; a digital commerce ecosystem; and smart controls and security for digital building and utilities. In addition, the company offers systems assembly, test, direct-order fulfillment, and configure-to-order services. It serves 5G, wireless and cloud, digital print and retail, industrial and semi-cap, networking and storage, automotive and transportation, connected devices, healthcare and packaging, and mobility industries. The company was formerly known as Jabil Circuit, Inc. Jabil Inc. was founded in 1966 and is based in Saint Petersburg, Florida.",
+  "url": "https://finance.yahoo.com/quote/JBL",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

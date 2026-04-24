@@ -1,0 +1,14 @@
+{
+  "id": "40437_2025-11-23",
+  "source": "metaculus",
+  "question": "Will Iran allow the IAEA to inspect its stockpile of enriched uranium before 2026?",
+  "resolution_criteria": "The question will resolve as **Yes** if, before January 1, 2026, Iran announces an agreement to allow the IAEA to inspect its stockpiles of enriched uranium at the Fordow, Natanz, and Isfahan nuclear sites.",
+  "background": "A [brief, 12-day war](https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war) between Iran and Israel in June 2025 ended when American B-2 bombers dropped several [GBU-57](https://en.wikipedia.org/wiki/GBU-57A/B_MOP) 30,000-pound bunker-buster bombs on Iran's nuclear facilities in Natanz, Fordow, and Isfahan. On June 25, a day after the ceasefire began, Iranian lawmakers [overwhelmingly voted](https://www.rferl.org/a/iran-parliament-suspend-iaea-cooperation-nuclear/33454363.html) to suspend Iran's cooperation with the International Atomic Energy Agency (IAEA).\n\nOn September 9, 2025, Iran and the IAEA [announced](https://www.reuters.com/world/middle-east/iran-iaea-announce-agreement-resuming-nuclear-inspections-2025-09-09/) a deal to resume inspections at the bombed nuclear sites. But more recently, on October 20, [Reuters reported](https://www.reuters.com/world/middle-east/iran-says-cooperation-deal-with-un-nuclear-watchdog-is-void-2025-10-20/) that the deal had been scrapped. The IAEA [estimates](https://www.fdd.org/analysis/2025/10/20/iaea-chief-assesses-irans-enriched-uranium-stockpile-remains-inside-sites-destroyed-by-israel-and-u-s/) that Iran has 400 kilograms of 60% enriched uranium stockpiled at the bombed nuclear facilities.",
+  "url": "https://www.metaculus.com/questions/40437",
+  "forecast_due_date": "2025-11-23",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-17",
+  "market_value": "0.06",
+  "market_date": "2025-11-13",
+  "market_value_explanation": "The community prediction."
+}

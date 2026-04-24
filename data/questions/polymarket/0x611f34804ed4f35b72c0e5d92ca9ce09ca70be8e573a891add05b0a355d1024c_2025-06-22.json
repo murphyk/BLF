@@ -1,0 +1,15 @@
+{
+  "id": "0x611f34804ed4f35b72c0e5d92ca9ce09ca70be8e573a891add05b0a355d1024c_2025-06-22",
+  "source": "polymarket",
+  "question": "Will Lautaro Mart\u00ednez win the 2025 Ballon d'Or?",
+  "resolution_criteria": "This market will resolve according to winner of the 2025 Ballon D\u2019Or. \n\nIf no 2025 Ballon D\u2019Or winner is declared by December 31, 2025, 11:59 PM ET this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-lautaro-martnez-win-the-2025-ballon-dor",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-26",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

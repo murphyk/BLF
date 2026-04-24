@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0077",
+  "source": "aibq2",
+  "question": "Will the US military's climate resiliance portal be back online on July 1, 2025?",
+  "title_hash": "196c3bfab5cf4730",
+  "background": "The Guardian [Scientists brace \u2018for the worst\u2019 as Trump purges climate mentions from websites](https://www.theguardian.com/us-news/2025/feb/04/trump-climate-change-federal-websites)",
+  "resolution_criteria": "This question resolves as **Yes** if climate.mil is online according to [Is It Down Right Now?](https://www.isitdownrightnow.com/climate.mil.html) when accessed by Metaculus on or after July 1, 2025.\n\nFine print:\nAs of May 5, 2025, the resolution source returns the message, \"Climate.mil is DOWN for everyone.\"",
+  "url": "https://www.theguardian.com/us-news/2025/feb/04/trump-climate-change-federal-websites",
+  "forecast_due_date": "2025-05-20",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

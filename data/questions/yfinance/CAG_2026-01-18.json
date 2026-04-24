@@ -1,0 +1,17 @@
+{
+  "id": "CAG_2026-01-18",
+  "source": "yfinance",
+  "question": "Will CAG's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CAG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 16.080. (The latest market close price of CAG.)",
+  "background": "Conagra Brands, Inc., together with its subsidiaries, operates as a consumer packaged goods food company primarily in the United States. The company operates in four segments: Grocery & Snacks, Refrigerated & Frozen, International, and Foodservice. The Grocery & Snacks segment primarily offers shelf stable food products through various retail channels. The Refrigerated & Frozen segment provides temperature-controlled food products through various retail channels. The International segment offers food products in various temperature states through retail and foodservice channels outside of the United States. The Foodservice segment offers branded and customized food products, including meals, entrees, sauces, and various custom-manufactured culinary products packaged for restaurants and other foodservice establishments. The company sells its products under the Birds Eye, Marie Callender's, Duncan Hines, Healthy Choice, Slim Jim, Reddi-wip, Angie's, BOOMCHICKAPOP brands. Conagra Brands, Inc. was incorporated in 1919 and is headquartered in Chicago, Illinois.",
+  "url": "https://finance.yahoo.com/quote/CAG",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

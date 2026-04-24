@@ -1,0 +1,15 @@
+{
+  "id": "Sqnu2sPyuC_2025-03-16",
+  "source": "manifold",
+  "question": "Will at least three of Trump's cabinet nominees fail?",
+  "resolution_criteria": "This market will settle as YES if at least three individuals that Trump nominates for cabinet positions that must be confirmed by the Senate are either withdrawn or voted down in the Senate. Cabinet officials refers to the 15 heads of government agencies, along with cabinet-level officials, which for the purposes of this market includes the Administrator of the EPA, Director of National Intelligence, Director of OMB, Director of CIA, United States Trade Representative, Ambassador to the UN, Chair of the Council of Economic Advisers, Administrator of the SBA, and Director of OSTP. \n\nA nomination occurs as soon as President Trump announces an intention to nominate someone. No other step is necessary to be taken. No official step must be taken to withdraw a nominee either. Credible reporting that the administration will not longer be pursuing the nomination is enough. \n\nThis market will settle as NO as soon as all the relevant positions are confirmed, or if the conditions of YES have not been met by March 31, 2025.  \n\nThe nominees that fail need not be all nominated for different positions. If, for example, Trump has three Attorney General nominees that fail, this market will resolve as YES. \n\nIf Donald Trump does not become president or stops being president, this market resolves according to what happens to the nominees of whoever happens to be president during the relevant time period. The nominees of two or more people serving as president will be counted together. If, for example, Trump appoints an AG who is withdrawn and then Vance becomes president and two of his nominees are withdrawn, this market will settle as YES. ",
+  "background": "",
+  "url": "https://manifold.markets/RichardHanania/will-at-least-three-of-trumps-cabin",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-01",
+  "market_value": "0.014833530800000001",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The market value."
+}

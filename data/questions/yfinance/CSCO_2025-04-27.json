@@ -1,0 +1,21 @@
+{
+  "id": "CSCO_2025-04-27",
+  "source": "yfinance",
+  "question": "Will CSCO's market close price on each resolution date listed below be higher than its market close price on 2025-04-27?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CSCO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-04-27 is unknown, but the most recent known value (as of 2025-04-17) was 55.760. (The latest market close price of CSCO.)",
+  "background": "Cisco Systems, Inc. designs, manufactures, and sells Internet Protocol based networking and other products related to the communications and information technology industry in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company also offers switching portfolio encompasses campus switching as well as data center switching; enterprise routing portfolio interconnects public and private wireline and mobile networks, delivering highly secure, and reliable connectivity to campus, data center and branch networks; and wireless products include indoor and outdoor wireless coverage designed for seamless roaming use of voice, video, and data applications. In addition, it provides security, which comprising network security, identity and access management, secure access service edge, and threat intelligence, detection, and response offerings; collaboration products, such as Webex Suite, collaboration devices, contact center, and communication platform as a service; end-to-end collaboration solutions that can be delivered from the cloud, on-premise or within hybrid cloud environments allowing customers to transition their collaboration solutions from on-premise to the cloud; and observability offers network assurance, monitoring and analytics and observability suite. Further, the company offers a range of service and support options for its customers, including technical support and advanced services and advisory services. It serves businesses of various sizes, public institutions, governments, and service providers. The company sells its products and services directly, as well as through systems integrators, service providers, other resellers, and distributors. Cisco Systems, Inc. has strategic alliances with other companies. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.",
+  "url": "https://finance.yahoo.com/quote/CSCO",
+  "forecast_due_date": "2025-04-27",
+  "resolution_dates": [
+    "2025-05-04",
+    "2025-05-27",
+    "2025-07-26",
+    "2025-10-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

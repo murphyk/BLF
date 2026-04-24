@@ -1,0 +1,15 @@
+{
+  "id": "0x3c29c5915bdfef95a58c9e4ec2435c759633c94fcb9a2038bbe05b787e5aa3c7_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Keri Russell win the Emmy for Outstanding Lead Actress in a Drama Series?",
+  "resolution_criteria": "The 77th Primetime Emmy Awards, given by the Academy of Television Arts & Sciences, honor the best in American prime time television programming aired between June 1, 2024, until May 31, 2025. The awards ceremony is scheduled for September 14, 2025, at the Peacock Theater in Downtown Los Angeles, California\n\nThis market will resolve according to the person who wins the Emmy for Outstanding Lead Actress in a Drama Series. \n\nIf for any reason no winner is declared by October 31, 2025, 11:59 PM ET, or in case of overall cancellation or a tie for winner, this market will resolve in favor of the nominated film which comes first in alphabetical order.\n\nThe primary resolution source for this market will be official information from the Academy of Television Arts & Sciences and the Emmys, including data from their websites (e.g. https://theemmys.tv/, https://www.televisionacademy.com/) and the live broadcast of the award ceremony, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-keri-russell-win-the-emmy-for-outstanding-lead-actress-in-a-drama-series",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-14",
+  "market_value": "0.0205",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

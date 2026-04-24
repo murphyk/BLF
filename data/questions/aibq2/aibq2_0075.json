@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0075",
+  "source": "aibq2",
+  "question": "Will Starlink's website show Bangladesh as a country with Starlink availability before July 1, 2025?",
+  "title_hash": "b4070482113314fd",
+  "background": "[Bangladeshi leader gives final approval to Musk's Starlink service](https://www.aa.com.tr/en/asia-pacific/bangladeshi-leader-gives-final-approval-to-musks-starlink-service/3551404)",
+  "resolution_criteria": "This question resolves as **Yes** if, before July 1, 2025, the [Starlink Availability Map](https://www.starlink.com/us/map) has anywhere in Bangladesh listed as \"Available.\"",
+  "url": "https://www.aa.com.tr/en/asia-pacific/bangladeshi-leader-gives-final-approval-to-musks-starlink-service/3551404",
+  "forecast_due_date": "2025-05-16",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

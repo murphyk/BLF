@@ -1,0 +1,14 @@
+{
+  "id": "40972_2026-04-12",
+  "source": "metaculus",
+  "question": "Will Nvidia's stock price close below $100 on any day in 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if Nvidia stock's close price is less than \\$100.00 for any regular trading day during 2026, according to [<u>Yahoo Finance</u>](https://finance.yahoo.com/quote/NVDA/history/).\n\nIf Yahoo Finance is unavailable or found to be inaccurate this question may use alternative [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions).",
+  "background": "Nvidia [<u>dominates</u>](https://www.cnbc.com/2024/06/02/nvidia-dominates-the-ai-chip-market-but-theres-rising-competition-.html) the AI chip market, with 70-95% market share depending on how it is measured. Microsoft [<u>spends</u>](https://finance.yahoo.com/news/big-techs-spending-drove-nvidias-rise-154027146.html) a full 47% of its capital expenditures on Nvidia chips, Amazon 11%, Meta 25%, Alphabet 15% and Tesla 13%. Many big tech companies also rent data centers from CoreWeave, which itself spends billions on Nvidia chips.\n\nOn December 5, 2025, Nvidia's stock closed at \\$182.41, up 36% year-to-date. A close below \\$100 a share would be a drop of 45%.\n\nAt the time of this question, Nvidia\u2019s business has been firing on all cylinders, [<u>selling</u>](https://www.cnbc.com/2024/11/20/nvidia-nvda-earnings-report-q3-2025.html) every one of its flagship [<u>Blackwell</u>](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) chips it can make, with demand projected by analysts to exceed supply well into fiscal year 2026.\n\nHowever, new business challenges have presented themselves. Nvidia faces massive uncertainty in China, with the US in November 2025 [<u>announcing</u>](https://finance.yahoo.com/news/nvidia-faces-u-ban-scaled-124438728.html) restrictions on sales of scaled-down Nvidia chips to the country, while China itself has [<u>banned</u>](https://convergence-now.com/embedded-tech/china-domestic-ai-chips-ban-data-centres/) Nvidia chips from new data centers. Google is also [<u>ramping up</u>](https://www.theregister.com/2025/11/06/googles_ironwood_tpus_ai/) its Ironwood TPU chips, which [<u>compete</u>](https://xpu.pub/2025/04/16/google-ironwood/) favorably on many metrics with Blackwell.\n\nTwenty-six years of Nvidia's stock price history is available from [MacroTrends](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history).",
+  "url": "https://www.metaculus.com/questions/40972",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.12",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DE_2026-02-01",
+  "source": "yfinance",
+  "question": "Will DE's market close price on each resolution date listed below be higher than its market close price on 2026-02-01?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-01 is unknown, but the most recent known value (as of 2026-01-22) was 529.510. (The latest market close price of DE.)",
+  "background": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, and related attachments and service parts. The Small Agriculture and Turf segment offers specialty, utility, and compact tractors; self-propelled forage harvesters and attachments; rotary mowers, hay and forage equipment, and utility vehicles; turf and utility equipment, including riding lawn, commercial mowing, and golf course equipment, and utility vehicles, as well as implements for mowing, tilling, snow and debris handling, aerating, residential, commercial, golf, and sports turf care applications. The Construction and Forestry segment provides backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump trucks, skid-steer loaders, milling machines, recyclers, slipform and asphalt pavers, surface miners, compactors, tandem, static rollers, mobile crushers and screens, mobile and stationary asphalt plants, and log harvesters; and road building and rehabilitation equipment. The Financial Services segment finances sales and leases agriculture and turf, and construction and forestry equipment. It also offers wholesale financing to dealers of the foregoing equipment; and extended equipment warranties, as well as finances retail revolving charge accounts. The company was founded in 1837 and is headquartered in Moline, Illinois.",
+  "url": "https://finance.yahoo.com/quote/DE",
+  "forecast_due_date": "2026-02-01",
+  "resolution_dates": [
+    "2026-02-08",
+    "2026-03-03"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0
+  ]
+}

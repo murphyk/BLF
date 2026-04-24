@@ -1,0 +1,15 @@
+{
+  "id": "0x2e43d977463a0d78a859fdd95d1570287b888ed6c9d4670532d46c22a3a7478f_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Russia capture Sumy before October?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if, according to the ISW map, Russia captures the Sumy railroad station located on Pryvokzalna ploscha by September 30, 2025 at 11:59 PM ET.\n\nThe railroad station will be considered captured if any part of the train station icon is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by September 30, 2025, 11:59 PM ET, the market will resolve to \u201cNo\u201d.\n\nIf Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of if it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.\n\nOnce Russia captures the railroad station, any subsequent loss of control will not be considered towards the resolution of this market.\n\nTrain Station Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/sumy+train+station.jpg\n\nSumy Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/sumy+location.jpg\n\nLocation on Google maps: https://maps.app.goo.gl/vd3fmfpUTB6BooEb9\n\nThe primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.\n\nNote: Any temporary glitches or errors in the map which will not be considered.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-russia-capture-sumy-before-october",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-30",
+  "market_value": "0.0385",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

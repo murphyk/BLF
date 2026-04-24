@@ -1,0 +1,15 @@
+{
+  "id": "20172_2025-03-16",
+  "source": "metaculus",
+  "question": "Before 2026, will OpenAI's commercial operations cease to be governed by its nonprofit board of directors?",
+  "resolution_criteria": "This question resolves \"Yes\" if, before January 1, 2026, [credible sources](https://www.metaculus.com/help/faq/#definitions) report that OpenAI's commercial operations (such operations, as of the writing of this question, are housed under OpenAI Global LLC) are no longer governed by the nonprofit board of directors of OpenAI Inc.\n\n* **Resolution in the Event of Restructuring, Merger, etc.**\u2014If, through corporate restructuring, merger, acquisition, transfer of assets (including intellectual property) or by other means, all or a substantial portion of OpenAI's commercial operations are transferred to another entity that is not controlled by the nonprofit board of directors of OpenAI, this question would resolve \"Yes\".\n\n* **Resolution in the Event of a Mass Departure of Staff to a Competitor or New Entity**\u2014If within a 180-day period, more than 50% of employees of OpenAI Global LLC (or a successor entity that is still under the control of the nonprofit board) housing OpenAI's commercial activities become employees of another single entity that is not controlled by the nonprofit board of OpenAI Inc., this would be considered a substantial transfer of OpenAI's intellectual property, and this question would resolve \"Yes\".",
+  "background": "OpenAI Inc., a Delaware 501(c)3 nonprofit corporation, was founded in late 2015. At its [inception](https://web.archive.org/web/20151222103150/https://openai.com/blog/introducing-openai/), OpenAI's mission and corporate structure were intended to maximize and broadly distribute the benefits of AI for humanity while minimizing the risks of such a potentially transformative\u2014and possibly harmful\u2014technology.\n\nThe [tumultuous events](https://en.wikipedia.org/wiki/OpenAI#2023%E2%80%93present:_Brief_departure_of_Altman_and_Brockman) of November 17-21, 2023 culminated in a [reconstitution](https://www.cnbc.com/2023/11/22/sam-altmans-back-heres-whos-on-the-new-openai-board-and-whos-out.html) of the nonprofit's board of directors and, along with it, [speculation](https://www.nytimes.com/2023/11/22/technology/openai-board-capitalists.html) regarding whether the company's original mission and structure will remain intact.",
+  "url": "https://www.metaculus.com/questions/20172",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.89",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}

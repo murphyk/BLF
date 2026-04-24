@@ -1,0 +1,15 @@
+{
+  "id": "0x4bcdc5f24786e4ea5279a4f859d8879cc08b98cfaa2924862947c65db0f010ae_2025-03-30",
+  "source": "polymarket",
+  "question": "Will Yoon be sentenced to prison in 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Yoon Suk Yeol is sentenced to any time in jail/prison for charges related to the 2024 South Korean political crisis, including but not limited to allegations of insurrection, abuse of power, or other criminal acts stemming from his martial law declaration and related subsequent actions by December 31, 2025, 11:59 PM. Otherwise, this market will resolve to \"No\".\n\nThis market will remain open through 2025 regardless of whether Yoon's initial sentencing includes prison.  Any sentencing will qualify, regardless of subsequent appeals or changes to the sentence.\n\nThe primary resolution source for this market will be official information from the South Korean government and law enforcement, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-yoon-be-sentenced-to-prison-in-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-30",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.63",
+  "market_date": "2025-03-20",
+  "market_value_explanation": "The market price."
+}

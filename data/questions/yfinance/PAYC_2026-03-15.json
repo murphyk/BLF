@@ -1,0 +1,15 @@
+{
+  "id": "PAYC_2026-03-15",
+  "source": "yfinance",
+  "question": "Will PAYC's market close price on 2026-03-22 be higher than its market close price on 2026-03-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PAYC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 136.660. (The latest market close price of PAYC.)",
+  "background": "Paycom Software, Inc. provides cloud-based human capital management (HCM) solution delivered as software-as-a-service for small to mid-sized companies in the United States. The company offers functionality and data analytics that businesses need to manage the employment life cycle from recruitment to retirement. The company's HCM solution offers payroll applications comprising better employee transaction interface, payroll and payroll tax management, payroll card, Everyday, Paycom pay, Client Action Center, expense management, garnishment administration, and GL concierge applications; talent acquisition, including applicant tracking, background checks, on-boarding, e-verify, and tax credit services; and talent management applications that include employee self-service, compensation budgeting, performance management, position management, Paycom learning, certification management. The company also offers time and labor management, such as time and attendance, scheduling, time-off requests, and labor allocation solutions. Its HCM solution provides manager on-the-go that gives supervisors and managers the ability to perform a variety of tasks, such as approving time-off requests and expense reimbursements; direct data exchange; ask here, a tool for direct line of communication to ask work-related questions; document and checklist; government and compliance; benefits administration; COBRA administration; personnel action and performance discussion forms; Paycom surveys; retirement reporting; report center; and affordable care act applications, as well as Clue, which securely collects, tracks, and manages the vaccination and testing data of the workforce; and MyCom is a communications tool that provides organizations with a central place to share information with employees. Paycom Software, Inc. was founded in 1998 and is based in Oklahoma City, Oklahoma.",
+  "url": "https://finance.yahoo.com/quote/PAYC",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

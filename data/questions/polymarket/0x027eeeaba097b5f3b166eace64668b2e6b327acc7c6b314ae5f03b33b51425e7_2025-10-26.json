@@ -1,0 +1,14 @@
+{
+  "id": "0x027eeeaba097b5f3b166eace64668b2e6b327acc7c6b314ae5f03b33b51425e7_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Mikie Sherrill win the New Jersey Governor Election in 2025",
+  "resolution_criteria": "This market will resolve to according to the if the candidate who wins the 2025 New Jersey gubernatorial election.\n\nIf the results of the election are not confirmed by July 31, 2026, this market will resolve to \"Other\".\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven\u2019t called the race in this state for the same candidate, this market will resolve based on official certification.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-mikie-sherrill-win-the-new-jersey-governor-election-in-2025",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-04",
+  "market_value": "0.795",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

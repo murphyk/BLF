@@ -1,0 +1,14 @@
+{
+  "id": "g6IOcCUnIz_2025-12-21",
+  "source": "manifold",
+  "question": "Will the 538 brand be active again by the end of the year?",
+  "resolution_criteria": "Resolves YES if some entity acquires 538 from ABC/Disney and the website/brand of 538 is active to at least some extent (publishing articles, polling data, etc).\n\nAlso resolves YES if ABC/Disney decide to spin off 538, or if they sell the rights to the name to someone who then uses it.\n\nAlso resolves YES if ABC/Disney attempt to revive the brand by year-end.\n\nAlso resolves YES if someone (including Nate Silver but also another media company) purchases the brand and doesn't use their name, but still uses their IP (polling models, sports models, etc), for example, and this is well-known (like the LA Times running the former 538 models or something).\n\nIf the brand becomes active again and then shuts down again before the end of the year, this will still resolve YES when it becomes active.  So, it's not the state as of Dec 31st, it's at any point between now and then that matters.\n\nSince there is some subjectivity here, I will not bet in this market.",
+  "background": "",
+  "url": "https://manifold.markets/bens/will-the-538-brand-be-active-again",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.018749427634367002",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market value."
+}

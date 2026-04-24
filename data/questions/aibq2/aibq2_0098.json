@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0098",
+  "source": "aibq2",
+  "question": "Will all 10 inmates who escaped from jail in New Orleans on May 16, 2025 be recaptured before July 1, 2025?",
+  "title_hash": "4a1c039d2d374a11",
+  "background": "[Manhunt continues Monday for 7 Orleans jail escapees as state launches investigation](https://www.fox8live.com/2025/05/19/manhunt-continues-monday-7-orleans-jail-escapees-state-launches-investigation/)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, all 10 inmates who escaped from jail in the [2025 New Orleans jailbreak](https://en.wikipedia.org/wiki/2025_New_Orleans_jailbreak) have been either recaptured or killed, according to [credible sources](https://www.metaculus.com/faq/#definitions). If any are still at large on July 1, 2025, then the question resolves as **No**.",
+  "url": "https://www.fox8live.com/2025/05/19/manhunt-continues-monday-7-orleans-jail-escapees-state-launches-investigation/",
+  "forecast_due_date": "2025-05-30",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

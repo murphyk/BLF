@@ -1,0 +1,15 @@
+{
+  "id": "0x5a378fe7c6e208d4d43020278d3666e46fe82be14beadc1240914b06b93eb9f7_2025-05-25",
+  "source": "polymarket",
+  "question": "Trump overturns Biden pardon before July?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any pardon issued by Joe Biden is invalidated or otherwise overturned while Donald Trump is President of the United States, by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAny qualifying nullification of the pardon must be legally recognized and official, whether through executive action, judicial ruling, or congressional legislation.\n\nIf an individual is convicted of any crime which a pardon should otherwise cover, this market will resolve to \u201cYes\u201d.\n\nThe primary resolution source for this market will be information from the US government, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/trump-overturns-biden-pardon-before-july",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.023",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

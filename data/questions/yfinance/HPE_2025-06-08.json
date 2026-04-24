@@ -1,0 +1,21 @@
+{
+  "id": "HPE_2025-06-08",
+  "source": "yfinance",
+  "question": "Will HPE's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/HPE for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 17.940. (The latest market close price of HPE.)",
+  "background": "Hewlett Packard Enterprise Company provides solutions that allow customers to capture, analyze, and act upon data seamlessly in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It operates in five segments: Server, Hybrid Cloud, Intelligent Edge, Financial Services, and Corporate Investments and Other. The company offers general purpose servers for multi-workload computing and workload-optimized servers; HPE ProLiant Rack and Tower servers; HPE Synergy, a composable infrastructure for traditional and cloud-native applications; HPE Scale Up Servers product lines for critical applications, including large enterprise software applications and data analytics platforms; HPE Edgeline servers; HPE Cray EX; HPE Cray XD; and HPE NonStop. It also provides HPE Aruba products include hardware products, such as Wi-Fi access points, switches, and gateways; HPE Aruba Networking software and services comprising cloud-based management, network management and access control, software-defined wide-area networking, network security, analytics and assurance, location services software, private and public cellular core software, and professional and support services, as well as as-a-service and consumption models through the HPE GreenLake cloud for the Intelligent Edge portfolio of products. In addition, the company offers leasing, financing, IT consumption, utility programs, and asset management services for customers to facilitate technology deployment models and the acquisition of various IT solutions, including hardware, software, and services from Hewlett Packard Enterprise and others; consultative-led services; HPE and partner technology expertise and advice, and implementation services, as well as solution engagement capabilities; the Communications and Media Solutions (CMS) that offers software and related services; and Hewlett Packard Labs for research and development. It serves commercial and large enterprise groups, such as business and public sector enterprises; and through various partners comprising resellers, distribution partners, original equipment manufacturers, independent software vendors, systems integrators, and advisory firms. The company was founded in 1939 and is headquartered in Spring, Texas.",
+  "url": "https://finance.yahoo.com/quote/HPE",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

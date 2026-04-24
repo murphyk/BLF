@@ -1,0 +1,15 @@
+{
+  "id": "0x43a9d4954f0d8a7241194ca3b2cd67e8aa953ea10758469faf25fab5e4437ac9_2025-05-25",
+  "source": "polymarket",
+  "question": "Will anyone be charged as a result of Epstein file release?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if any Federal or State jurisdiction of the United States formally charges or otherwise announces a criminal indictment of any individual based on the public release of any previously classified, sealed or unreleased files pertaining to Jeffrey Epstein by the Trump Administration (including any federal court) by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nFor the purposes of this market the District of Columbia and any county, municipality, or other subdivision of a State shall be included within the definition of a State.\n\nThe primary resolution source for this market will be official information from US governmental sources, however a wide consensus of credible reporting will also be used.\n\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-anyone-be-charged-as-a-result-of-epstein-file-release",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-06-30",
+  "market_value": "0.055",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0027",
+  "source": "aibq2",
+  "question": "Will Tanzania receive a \"Level 3 \u2013 Reconsider Travel\" travel advisory from the US State Department before July 1, 2025?",
+  "title_hash": "55f4740ac69f0c59",
+  "background": "Travel and Tour World: [Travel Advisory for Tanzania: How Increased Crime and Terrorism Threats Impact Tourists in Popular African Destinations](https://www.travelandtourworld.com/news/article/travel-advisory-for-tanzania-how-increased-crime-and-terrorism-threats-impact-tourists-in-popular-african-destinations/)",
+  "resolution_criteria": "This question resolves as **Yes** if the country of Tanzania has received a Level 3 [travel advisory](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Tanzania.html) from the US Department of State before July 1, 2025.",
+  "url": "https://www.travelandtourworld.com/news/article/travel-advisory-for-tanzania-how-increased-crime-and-terrorism-threats-impact-tourists-in-popular-african-destinations/",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

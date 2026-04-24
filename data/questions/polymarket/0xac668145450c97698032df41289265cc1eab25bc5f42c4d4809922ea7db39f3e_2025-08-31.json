@@ -1,0 +1,15 @@
+{
+  "id": "0xac668145450c97698032df41289265cc1eab25bc5f42c4d4809922ea7db39f3e_2025-08-31",
+  "source": "polymarket",
+  "question": "Will The Life of a Showgirl\u2019s first-week album sales be 4000000 or more?",
+  "resolution_criteria": "Taylor Swift's new album 'The Life of a Showgirl' is scheduled to be released on October 3, 2025.\n\nThis market will resolve to \"Yes\" if Taylor Swift's new album 'The Life of a Showgirl' has less than 2,500,000 in sales for the chart date of  'The Life of a Showgirl' debut week, on the finalized version of hitsdailydouble.com's \"HITS TOP 50\" list. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve according to the figure in the column titled \"Activity\" once the named list is finalized.\n\nThe primary resolution source for this market will be the \"HITS TOP 50\" list found at https://hitsdailydouble.com/sales_plus_streaming.\n\nIf the chart specified herein is rendered permanently unavailable or does not list 'The Life of a Showgirl', another credible resolution source may be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-life-of-a-showgirls-first-week-album-sales-be-4000000-or-more",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-10-10",
+  "market_value": "0.0155",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

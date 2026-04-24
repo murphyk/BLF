@@ -1,0 +1,19 @@
+{
+  "id": "ZBH_2025-11-09",
+  "source": "yfinance",
+  "question": "Will ZBH's market close price on each resolution date listed below be higher than its market close price on 2025-11-09?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ZBH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-11-09 is unknown, but the most recent known value (as of 2025-10-30) was 99.710. (The latest market close price of ZBH.)",
+  "background": "Zimmer Biomet Holdings, Inc., together with its subsidiaries, operates as a medical technology company worldwide. The company designs, manufactures, and markets orthopedic reconstructive products, such as knee and hip products; S.E.T. products, including sports medicine, biologics, foot and ankle, extremities, and trauma products; craniomaxillofacial and thoracic products comprising face and skull reconstruction products, as well as products that fixate and stabilize the bones of the chest to facilitate healing or reconstruction after open heart surgery, trauma, or for deformities of the chest. It offers technology and data, bone cement, and surgical products. The company's products and solutions are used to treat patients suffering from disorders of, or injuries to, bones, joints, or supporting soft tissues. It serves orthopedic surgeons, neurosurgeons, hospitals, stocking distributors, healthcare dealers, and other specialists, as well as agents, healthcare purchasing organizations, or buying groups. It also develops surgical robot to enable placement of patient optimized orthopedic implants in the United States. The company was formerly known as Zimmer Holdings, Inc. and changed its name to Zimmer Biomet Holdings, Inc. in June 2015. Zimmer Biomet Holdings, Inc. was founded in 1927 and is headquartered in Warsaw, Indiana.",
+  "url": "https://finance.yahoo.com/quote/ZBH",
+  "forecast_due_date": "2025-11-09",
+  "resolution_dates": [
+    "2025-11-16",
+    "2025-12-09",
+    "2026-02-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

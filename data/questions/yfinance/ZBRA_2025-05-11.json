@@ -1,0 +1,21 @@
+{
+  "id": "ZBRA_2025-05-11",
+  "source": "yfinance",
+  "question": "Will ZBRA's market close price on each resolution date listed below be higher than its market close price on 2025-05-11?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ZBRA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-11 is unknown, but the most recent known value (as of 2025-05-01) was 250.320. (The latest market close price of ZBRA.)",
+  "background": "Zebra Technologies Corporation, together with its subsidiaries, provides enterprise asset intelligence solutions in the automatic identification and data capture solutions industry worldwide. It operates in two segments, Asset Intelligence & Tracking, and Enterprise Visibility & Mobility. The company designs, manufactures, and sells printers that produce labels, wristbands, tickets, receipts, and plastic cards; dye-sublimination thermal card printers that produce images, which are used for personal identification, access control, and financial transactions; radio frequency identification device (RFID) printers that encode data into passive RFID transponders; accessories and options for printers, including carrying cases, vehicle mounts, and battery chargers; stock and customized thermal labels, wristbands, receipts, ribbons, plastic cards, and RFID tags for printers; and electronic sensors and temperature-monitoring labels. It also provides various maintenance, technical support, repair, and managed and professional services; fixed readers, RFID enabled mobile computers, and RFID sleds; tags, sensors, exciters, middleware software, and application software; and physical inventory management solutions, and rugged and enterprise-grade mobile computing products and accessories, as well as real-time location systems and services. In addition, the company offers barcode scanners and imagers, RFID readers, industrial machine vision cameras, and fixed industrial scanners; workforce management, workflow execution and task management, and prescriptive analytics, as well as communications and collaboration solutions; and cloud-based software subscriptions, retail, and robotics automation solutions. The company serves retail and e-commerce, manufacturing, transportation and logistics, healthcare, public sector, and other industries through direct sales force and network of channel partners. The company was founded in 1969 and is headquartered in Lincolnshire, Illinois.",
+  "url": "https://finance.yahoo.com/quote/ZBRA",
+  "forecast_due_date": "2025-05-11",
+  "resolution_dates": [
+    "2025-05-18",
+    "2025-06-10",
+    "2025-08-09",
+    "2025-11-07"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "MOS_2026-04-12",
+  "source": "yfinance",
+  "question": "Will MOS's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MOS for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 26.540. (The latest market close price of MOS.)",
+  "background": "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The company owns and operates mines and production facilities, which produce concentrated phosphate crop nutrients and phosphate-based animal feed ingredients, as well as concentrated phosphate crop nutrients, such as diammonium phosphate, monoammonium phosphate, and MicroEssentials, a value-added ammoniated phosphate product. It also mines, processes, and sells potash to crop nutrient manufacturers, distributors, retailers, and to customers for industrial use; and owns and operates mines, chemical plants, crop nutrient blending and bagging facilities, port terminals and warehouses, which produce and sell concentrated phosphate and potash-based crop nutrients, and phosphate-based animal feed ingredients. In addition, the company produces a double sulfate of potash magnesia product under the K-Mag brand; and purchases phosphate, potash, and nitrogen products to produce blended crop nutrients. Further, it offers triple superphosphate, single superphosphate, and dicalcium phosphate; feed phosphate under the Biofos and Nexfos brands; potash for de-icing and as a water softener regenerant; and phosphogypsum. The company sells its products to wholesale distributors, retail chains, cooperatives, independent retailers, and national accounts through its sales force. It also exports its products. The company operates in the United States, Brazil, China, Canada, Paraguay, Argentina, Japan, Colombia, India, Australia, Peru, Mexico, Honduras, the Dominican Republic, Indonesia, and internationally. The Mosaic Company was incorporated in 1987 and is headquartered in Tampa, Florida.",
+  "url": "https://finance.yahoo.com/quote/MOS",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

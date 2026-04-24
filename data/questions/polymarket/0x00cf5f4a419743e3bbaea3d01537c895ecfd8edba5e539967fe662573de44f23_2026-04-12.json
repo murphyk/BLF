@@ -1,0 +1,14 @@
+{
+  "id": "0x00cf5f4a419743e3bbaea3d01537c895ecfd8edba5e539967fe662573de44f23_2026-04-12",
+  "source": "polymarket",
+  "question": "Israel military action against Yemen by April 15, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Israel initiates a drone, missile, or air strike on Yemeni soil or any official Yemen embassy or consulate by the listed date, 11:59 PM Israeli local time. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by Israeli military forces that impact Yemen ground territory or any official Yemen embassy or consulate (e.g., if a weapons depot on Yemen soil is hit by an Israeli missile, this market will resolve to \"Yes\").\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land on Yemen territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by Israeli ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/israel-military-action-against-yemen-by-april-15-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.47500000000000003",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

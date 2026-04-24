@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0022",
+  "source": "aibq2",
+  "question": "Will Germany ban the AfD before July 1, 2025?",
+  "title_hash": "2cb7fcc03bf2ca6f",
+  "background": "Le Monde: [Germany's Bundestag debates banning far-right AfD party](https://www.lemonde.fr/en/international/article/2025/01/31/germany-s-bundestag-debates-banning-far-right-afd-party_6737637_4.html) \"A cross-party group of 124 MPs put a motion on the agenda to bring proceedings before the Federal Constitutional Court to ban the party, whose unprecedented alliance with the CDU caused a shock.\"",
+  "resolution_criteria": "This question resolves as **Yes** if there is an official announcement of a ban on the Alternative for Germany (AfD) by a German government entity with the authority to make such an announcement (e.g., the Federal Constitutional Court).",
+  "url": "https://www.lemonde.fr/en/international/article/2025/01/31/germany-s-bundestag-debates-banning-far-right-afd-party_6737637_4.html",
+  "forecast_due_date": "2025-05-02",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

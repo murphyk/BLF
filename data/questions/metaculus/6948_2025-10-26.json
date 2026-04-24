@@ -1,0 +1,14 @@
+{
+  "id": "6948_2025-10-26",
+  "source": "metaculus",
+  "question": "Will lepton universality be falsified before 2026?",
+  "resolution_criteria": "This question resolves positively if a peer reviewed paper is published before 2025/12/31 claiming to have found evidence at the \\(5\\sigma\\) level or greater that lepton universality is violated in nature",
+  "background": "The [Standard Model of particle physics](https://www.wikiwand.com/en/Standard_Model) is the most complete description of physical phenomena not involving gravity known to date. It accommodates all known fundamental particles and explains their interactions [in a compact way](https://www.wikiwand.com/en/Mathematical_formulation_of_the_Standard_Model#/Lagrangian_formalism).\n\nOne of its features is lepton universality, which implies that the electron, the muon, and the tau particle couple with the same strength to the particles responsible for the electroweak force.\n\nA [recent paper](https://arxiv.org/abs/2103.11769) from the LHCb collaboration studying the decay of \\(B\\) mesons has found evidence against lepton universality at the \\(3.1\\sigma\\) level.\n\nAnomalies like this one [have happened before](https://www.wikiwand.com/en/750_GeV_diphoton_excess) in the LHC, so [it's not clear](https://resonaances.blogspot.com/2021/03/thoughts-on-rk.html) the result will survive new incoming data. The gold standard for discovery in particle physics is conventionally taken to be \\(5\\sigma\\).",
+  "url": "https://www.metaculus.com/questions/6948",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-30",
+  "market_value": "0.01",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The community prediction."
+}

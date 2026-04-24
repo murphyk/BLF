@@ -1,0 +1,14 @@
+{
+  "id": "0x34a8aa834927033bb6ac7bd96c508972611b826ca6d61e59c6d7d0cf3571d463_2025-10-26",
+  "source": "polymarket",
+  "question": "Will Monad perform an airdrop by November 30? ",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Monad launches a token and performs an airdrop by November 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market \"locked\" tokens or non-swappable tokens will not suffice to resolve this market to \"Yes\". Airdrops of NFTs will not qualify.\n\nThe primary resolution source for this market is on-chain information and official information from Monad, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-monad-perform-an-airdrop-by-november-30-825-923-397",
+  "forecast_due_date": "2025-10-26",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-11-24",
+  "market_value": "0.847",
+  "market_date": "2025-10-16",
+  "market_value_explanation": "The market price."
+}

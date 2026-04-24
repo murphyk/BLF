@@ -1,0 +1,14 @@
+{
+  "id": "0xc23d4f3a1a96576e93f32ab1806c6d85f5a3d1925df7c80bdb97cfd6787b4dfc_2026-01-04",
+  "source": "polymarket",
+  "question": "Will Orlando Cruz win the 2026 Portugal presidential election?",
+  "resolution_criteria": "Presidential elections are scheduled to be held in Portugal on 18 or 25 January 2026, with a possible second round on 8 or 15 February 2026. A second round will be held if no candidate secures more than 50% of the valid votes in the first round.\n\nThis market will resolve according to the listed candidate that wins this election. \n\nThis market includes any potential second round. If the result of this election isn't known by December 31, 2026, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Portuguese government, specifically the National Election Commission (Comiss\u00e3o Nacional de Elei\u00e7\u00f5es, CNE) (https://www.cne.pt/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-orlando-cruz-win-the-2026-portugal-presidential-election",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-25",
+  "market_value": "0.0005",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

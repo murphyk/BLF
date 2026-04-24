@@ -1,0 +1,17 @@
+{
+  "id": "LRCX_2026-01-18",
+  "source": "yfinance",
+  "question": "Will LRCX's market close price on each resolution date listed below be higher than its market close price on 2026-01-18?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LRCX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-18 is unknown, but the most recent known value (as of 2026-01-08) was 203.080. (The latest market close price of LRCX.)",
+  "background": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated circuits in the United States, China, Korea, Taiwan, Japan, Southeast Asia, and Europe. The company offers ALTUS systems to deposit conformal or selective films for tungsten or molybdenum metallization applications; SABRE electrochemical deposition products for copper interconnect transition that offers copper damascene manufacturing; SPEED gapfill high-density plasma chemical vapor deposition (CVD) products; Striker single-wafer atomic layer deposition products for dielectric film solutions; and VECTOR plasma-enhanced CVD products. It also provides Flex for dielectric etch applications; Vantex, a dielectric etch system that provides RF technology and repeatable wafer-to-wafer performance enabled by Equipment Intelligence solutions; Kiyo for conductor etch applications; Syndion for through-silicon via etch applications; and Versys metal products for metal etch processes. In addition, the company offers Coronus bevel clean products to enhance die yield; and Da Vinci, DV-Prime, EOS, and SP series products to address various wafer cleaning applications. Further, it provides Reliant deposition, etch, and clean products; and Sense.i platform products, as well as customer service, spares, and upgrades. Lam Research Corporation was incorporated in 1980 and is headquartered in Fremont, California.",
+  "url": "https://finance.yahoo.com/quote/LRCX",
+  "forecast_due_date": "2026-01-18",
+  "resolution_dates": [
+    "2026-01-25",
+    "2026-02-17"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0
+  ]
+}

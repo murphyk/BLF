@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0107",
+  "source": "aibq2",
+  "question": "Will the government of Uruguay announce that its president, Yamand\u00fa Orsi, will attend the BRICS summit in July 2025?",
+  "title_hash": "1b2343e7044e72a4",
+  "background": "[Lula invites Mexico, Colombia, and Uruguay to BRICS Summit](https://en.mercopress.com/2025/03/04/lula-invites-mexico-colombia-and-uruguay-to-brics-summit#google_vignette) | [Uruguay\u2019s participation at the BRICS summit still up in the air](https://www.plenglish.com/news/2025/03/02/uruguays-participation-at-the-brics-summit-still-up-in-the-air/)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025 the government of Uruguay, or anyone speaking on its behalf, issues any sort of public communication (written or oral) confirming its acceptance of the invitation for President Yamand\u00fa Orsi to attend in person the BRICS Summit scheduled to take place in Rio de Janeiro in July 2025.\n\nFine print:\nSince the summit will be held after this question resolves, actual attendance is not required, merely the announcement of plans to attend.",
+  "url": "https://en.mercopress.com/2025/03/04/lula-invites-mexico-colombia-and-uruguay-to-brics-summit#google_vignette",
+  "forecast_due_date": "2025-06-05",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

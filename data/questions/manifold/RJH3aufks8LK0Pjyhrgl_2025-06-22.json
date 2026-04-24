@@ -1,0 +1,15 @@
+{
+  "id": "RJH3aufks8LK0Pjyhrgl_2025-06-22",
+  "source": "manifold",
+  "question": "If Trump wins the election will the inflation rate in 2025 be below 2.5% (Current 2.5%)?",
+  "resolution_criteria": "Inflation data gathered from the bureau of labor statistics \n\nThe current inflation rate is 3.2% the FED has a goal of 2%. 2.5% is roughly in the middle of these two numbers, if Trump is elected will the FED reach that mark.\n\nResolves N/A if Trump is not elected.\n\n\nRelated:\n\n\n\n(https://manifold.markets/embed/ManifoldPolitics/if-harris-wins-the-election-will-th)",
+  "background": "",
+  "url": "https://manifold.markets/JamesF/if-trump-wins-the-election-will-the",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-10",
+  "market_value": "0.21999999999999903",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market value."
+}

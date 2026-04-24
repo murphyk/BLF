@@ -1,0 +1,21 @@
+{
+  "id": "ROP_2025-06-08",
+  "source": "yfinance",
+  "question": "Will ROP's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ROP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 573.820. (The latest market close price of ROP.)",
+  "background": "Roper Technologies, Inc. designs and develops vertical software and technology enabled products in the United States, Canada, Europe, Asia, and internationally. It operates through three segments: Application Software, Network Software, and Technology Enabled Products. The Application Software segment offers comprehensive management, diagnostic and laboratory information management, enterprise software and information solutions, K-12 school administration, transportation management, financial and compliance management, cloud-based and integrated payment processing, campus technology and payment, and cloud-based financial analytics and performance management software; cloud-based software for the property and casualty insurance industry; and foodservice technologies. The Network Software segment provides cloud-based data, collaboration, and estimating automation software; electronic marketplace; visual effects and 3D content software; cloud-based software for the life insurance and financial services industries; supply chain software; health care services and software; data analytics and information; and pharmacy software solutions. The Technology Enabled Products segment offers r ultrasound procedures accessories; dispensers and metering pumps; wireless sensor network and solutions; automated surgical scrub and linen dispensing equipment; water meters; optical and electromagnetic precision measurement systems; RFID card and credential readers; and medical devices. The company also provides autism and IDD care software, a software and services platform that helps therapists who serve children and adults diagnosed with autism spectrum disorder and related intellectual and developmental disabilities (IDD). The company distributes and sells its products through direct sales offices, manufacturers' representatives, resellers, and distributors. The company was formerly known as Roper Industries, Inc. and changed its name to Roper Technologies, Inc. in April 2015. The company was incorporated in 1981 and is based in Sarasota, Florida.",
+  "url": "https://finance.yahoo.com/quote/ROP",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

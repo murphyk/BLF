@@ -1,0 +1,15 @@
+{
+  "id": "0xe87b10afe191706bb36b22526b65983e2a88a12ccce36827e857e16791973493_2025-03-02",
+  "source": "polymarket",
+  "question": "Will A Minecraft Movie be the top grossing movie of 2025?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the \"Gross\" column on https://www.boxofficemojo.com/year/2025/?grossesOption=calendarGrosses shows 'A Minecraft Movie' (2025) as the film with the highest 2025 gross once data for December 31 is made available. Otherwise, this market will resolve to \"No\".\n\nNote: This market is about the movie's domestic calendar gross in 2025 - dates outside of 2025 will not count toward this movie's gross.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by January 7, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-a-minecraft-movie-be-the-top-grossing-movie-of-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-02",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.08650000000000001",
+  "market_date": "2025-02-20",
+  "market_value_explanation": "The market price."
+}

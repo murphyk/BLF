@@ -1,0 +1,14 @@
+{
+  "id": "cE1pnjaMDDaOF16V14Y2_2025-12-07",
+  "source": "manifold",
+  "question": "Will Google Chrome be the most popular browser at the end of 2025?",
+  "resolution_criteria": "Resolution according to the \"Usage share of all browsers\" table in this wikipedia entry:\n\nhttps://en.wikipedia.org/wiki/Usage_share_of_web_browsers\n\nRelated market:\n\n(https://manifold.markets/embed/AmmonLam/will-google-chrome-remain-the-most-157ad71d2da0)",
+  "background": "",
+  "url": "https://manifold.markets/AmmonLam/will-google-chrome-remain-the-most-d638290c2b33",
+  "forecast_due_date": "2025-12-07",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.9672005742",
+  "market_date": "2025-11-27",
+  "market_value_explanation": "The market value."
+}

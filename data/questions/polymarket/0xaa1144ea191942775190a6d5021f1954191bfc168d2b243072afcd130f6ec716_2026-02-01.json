@@ -1,0 +1,14 @@
+{
+  "id": "0xaa1144ea191942775190a6d5021f1954191bfc168d2b243072afcd130f6ec716_2026-02-01",
+  "source": "polymarket",
+  "question": "Will the Logan Paul 1st Edition Charizard sale price be over 600k?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the final sale price paid for the Pokemon Base Set 1st Edition Holo #4 Charizard - Logan Paul Break is greater than the listed price. Otherwise this market will resolve to \"No\".\n\nIf no sale is completed by February 28, 2026, ET this market will resolve to \"No\".\n\nThe market will resolve according to the final listed sale price including any premiums or auction fees included in the listed figure on Goldin (see: https://goldin.co/item/1999-pokemon-base-set-1st-edition-rare-holofoil-logan-paul-break-4-chajdvc5).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-logan-paul-1st-edition-charizard-sale-price-be-over-600k-366",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-02-16",
+  "market_value": "0.9565",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The market price."
+}

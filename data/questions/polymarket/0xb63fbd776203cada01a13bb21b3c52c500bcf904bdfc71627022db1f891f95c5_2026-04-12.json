@@ -1,0 +1,14 @@
+{
+  "id": "0xb63fbd776203cada01a13bb21b3c52c500bcf904bdfc71627022db1f891f95c5_2026-04-12",
+  "source": "polymarket",
+  "question": "Will the Republicans win the Nevada governor race in 2026?",
+  "resolution_criteria": "This market will resolve according to the winner of the 2026 Nevada gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the \u201cDemocrat\u201d or \u201cRepublican\u201d options regardless of any affiliation they may have with the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven\u2019t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-republicans-win-the-nevada-governor-race-in-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.47500000000000003",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

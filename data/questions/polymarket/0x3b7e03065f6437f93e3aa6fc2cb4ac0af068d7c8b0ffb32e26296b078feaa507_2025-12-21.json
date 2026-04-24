@@ -1,0 +1,14 @@
+{
+  "id": "0x3b7e03065f6437f93e3aa6fc2cb4ac0af068d7c8b0ffb32e26296b078feaa507_2025-12-21",
+  "source": "polymarket",
+  "question": "US strikes Nigeria by December 31?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the US initiates a drone, missile, or air strike on Nigerian soil or any official Nigerian embassy or consulate by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by US military forces that impact Nigerian ground territory or any official Nigerian embassy or consulate (e.g., if a weapons depot on Nigerian soil is hit by an US missile, this market will resolve to \"Yes\").\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land on Nigerian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by US ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-strikes-nigeria-by-december-31",
+  "forecast_due_date": "2025-12-21",
+  "resolved_to": 1.0,
+  "resolution_date": "2025-12-26",
+  "market_value": "0.0325",
+  "market_date": "2025-12-11",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0xcecc6b0236a69618a3ca577c54bb92080b0c9f2dc767de37175baa7ffd08e704_2025-04-13",
+  "source": "polymarket",
+  "question": "Will Albania win Eurovision 2025?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2025 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2025 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2025, 11:59 PM ET, this market will resolve \"Other\". If two or more countries tie to win Eurovision 2025, this market will resolve to the country which comes first alphabetically.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2025, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-albania-win-eurovision-2025",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-17",
+  "market_value": "0.0205",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

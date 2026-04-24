@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_686cf69e",
+  "source": "aibq2",
+  "question": "Will the state of Texas ban THC before July 1, 2025?",
+  "background": "Beaumont Enterprise: [Will THC see its final death blow in Texas this session?](https://www.beaumontenterprise.com/news/article/texas-senate-bill-aims-ban-thc-activists-call-20279801.php)",
+  "resolution_criteria": "This question resolves as **Yes** if before July 1, 2025, Texas enacts a law prohibiting the sale of THC. If no new prohibitions on the sale of THC become law in Texas before that date, this question resolves as No.\n\nFine print:\nFor it to count, a law must fully prohibit the sale of THC within the state. This question resolves upon a ban being signed into law, rather than when it is implemented. An enacted law being later overturned will not cause the question to re-resolve. Partial bans (for example laws prohibiting the sale of THC to persons under 21 years of age) will not count. This question pertains to the sale of THC within the state, not to the purchase of it by individuals.",
+  "url": "https://www.beaumontenterprise.com/news/article/texas-senate-bill-aims-ban-thc-activists-call-20279801.php",
+  "forecast_due_date": "2025-05-14",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

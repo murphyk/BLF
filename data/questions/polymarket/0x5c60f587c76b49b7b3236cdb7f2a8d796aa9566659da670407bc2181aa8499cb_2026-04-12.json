@@ -1,0 +1,14 @@
+{
+  "id": "0x5c60f587c76b49b7b3236cdb7f2a8d796aa9566659da670407bc2181aa8499cb_2026-04-12",
+  "source": "polymarket",
+  "question": "Will Zcash reach $600 by December 31, 2026?",
+  "resolution_criteria": "This market will immediately resolve to \u201cYes\u201d if any Binance 1-minute candle for Zcash (ZEC/USDT) between November 24, 2025, 17:35 and December 31, 2026, 23:59 in the ET timezone has a final \u201cHigh\u201d price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \u201cNo.\u201d\n\nThe resolution source for this market is Binance, specifically the ZEC/USDT \u201cHigh\u201d prices available at:\nhttps://www.binance.com/en/trade/ZEC_USDT\nwith the chart set to \u201c1m\u201d (one-minute candles) on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ZEC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-zcash-reach-600-by-december-31-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-12",
+  "resolved_to": null,
+  "market_value": "0.24",
+  "market_date": "2026-04-02",
+  "market_value_explanation": "The market price."
+}

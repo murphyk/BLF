@@ -1,0 +1,15 @@
+{
+  "id": "0x62995cb8a7c8c0d216a8882109bd1e05574b5df87d313f06cb3e1cd5593e6d13_2025-06-22",
+  "source": "polymarket",
+  "question": "Will PRO hold the most seats in the Chamber of Deputies following the 2025 Argentina election?",
+  "resolution_criteria": "The 2025 election for half of the seats in Argentina's Chamber of Deputies is scheduled to be held on October 26, 2025.\n\nThis market will resolve to the political party that controls the most seats in Argentina's Chamber of Deputies as a result of the upcoming election.\n\nIf voting in the next Argentine election for the Chamber of Deputies does not occur by June 30, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party and any other for the most seats held, this market will resolve in favor of the party whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of held won by the named party or coalition.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Argentina's government (e.g. via https://www.electoral.gob.ar/nuevo/index.php).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-pro-hold-the-most-seats-in-the-chamber-of-deputies-following-the-2025-argentina-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-06-22",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-26",
+  "market_value": "0.0055000000000000005",
+  "market_date": "2025-06-12",
+  "market_value_explanation": "The market price."
+}

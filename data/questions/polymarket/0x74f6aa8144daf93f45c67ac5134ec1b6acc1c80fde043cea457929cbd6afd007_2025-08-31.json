@@ -1,0 +1,15 @@
+{
+  "id": "0x74f6aa8144daf93f45c67ac5134ec1b6acc1c80fde043cea457929cbd6afd007_2025-08-31",
+  "source": "polymarket",
+  "question": "Will the Baltimore Ravens win the AFC North?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the Baltimore Ravens win the AFC North in the 2025-2026 NFL Season. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for the Baltimore Ravens team to win the AFC North based on the rules of the NFL (e.g., they are mathematically eliminated from finishing first in the division), this market will resolve immediately to \u201cNo\u201d.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-baltimore-ravens-win-the-afc-north-1",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-05",
+  "market_value": "0.5650000000000001",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ISRG_2026-02-15",
+  "source": "yfinance",
+  "question": "Will ISRG's market close price on each resolution date listed below be higher than its market close price on 2026-02-15?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ISRG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-02-15 is unknown, but the most recent known value (as of 2026-02-09) was 488.150. (The latest market close price of ISRG.)",
+  "background": "Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health monitoring; and integrated digital capabilities providing connected offerings, streamlining performance for hospitals with program-enhancing insights. It sells its products through direct sales organizations, such as capital and clinical sales teams. Intuitive Surgical, Inc. was incorporated in 1995 and is headquartered in Sunnyvale, California.",
+  "url": "https://finance.yahoo.com/quote/ISRG",
+  "forecast_due_date": "2026-02-15",
+  "resolution_dates": [
+    "2026-02-22",
+    "2026-03-17"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0
+  ]
+}

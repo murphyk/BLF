@@ -1,0 +1,29 @@
+{
+  "id": "LH_2026-04-12",
+  "source": "yfinance",
+  "question": "Will LH's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/LH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 272.740. (The latest market close price of LH.)",
+  "background": "Labcorp Holdings Inc. provides laboratory services. It operates through two segments, Diagnostics Laboratories and Biopharma Laboratory Services. The company offers various tests, such as blood chemistry analyses, urinalyses, blood cell counts, thyroid tests, PAP tests, hemoglobin A1C, PSA, tests for sexually transmitted diseases, vitamin D testing, microbiology cultures and procedures, and alcohol and other substance abuse tests. It also provides specialty testing services comprising gene-based and esoteric testing; advanced tests target specific diseases; services related to anatomic pathology/oncology, cardiovascular disease, coagulation, diagnostic genetics, endocrinology, infectious disease, women's health, pharmacogenetics, parentage and donor testing, occupational testing services, medical drug monitoring services, chronic disease programs, and kidney stone prevention tests; and health and wellness services to employers and managed care organizations. In addition, the company offers digital pathology solutions, a pathology platforms that support the digitization, centralized review, and sharing of pathology slides; provider and payer digital platforms, an online applications for providers, MCOs, and ACOs; online and mobile applications that enable patients to check offerings, schedule PSC visits, check-in upon PSC arrival, complete documentation, access tests and test results, and manage their accounts; and Generative AI-enabled Test Selection, a generative AI-enabled tool. It serves clients, third party, medicare/medicaid, patients, pharmaceutical, biotechnology, medical device, diagnostic companies, and CROs. The company was founded in 1995 and is headquartered in Burlington, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/LH",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

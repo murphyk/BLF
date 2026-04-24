@@ -1,0 +1,23 @@
+{
+  "id": "AKAM_2025-03-02",
+  "source": "yfinance",
+  "question": "Will AKAM's market close price on each resolution date listed below be higher than its market close price on 2025-03-02?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AKAM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-03-02 is unknown, but the most recent known value (as of 2025-02-20) was 100.010. (The latest market close price of AKAM.)",
+  "background": "Akamai Technologies, Inc. provides cloud computing, security, and content delivery services in the United States and internationally. The company offers cloud solutions to keep infrastructure, websites, applications, application programming interfaces, and users safe from various cyberattacks and online threats while enhancing performance. It also provides web and mobile performance solutions to enable dynamic websites and applications; media delivery solutions, including video streaming and video player services, game and software delivery, broadcast operations, authoritative domain name system, resolution, and data and analytics; and cloud computing services, such as compute, storage, networking, database, and container management services to build, deploy, and secure applications and workloads. In addition, the company offers content delivery solutions; and an array of service and support to assist customers with integrating, configuring, optimizing, and managing its offerings. It sells its solutions through various channel partners. Akamai Technologies, Inc. was incorporated in 1998 and is headquartered in Cambridge, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/AKAM",
+  "forecast_due_date": "2025-03-02",
+  "resolution_dates": [
+    "2025-03-09",
+    "2025-04-01",
+    "2025-05-31",
+    "2025-08-29",
+    "2026-03-02"
+  ],
+  "resolved_to": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

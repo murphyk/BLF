@@ -1,0 +1,15 @@
+{
+  "id": "0x833d5d5148ac80ef7a7a52b5aa3006d24ea21eee6cae5c98bd618bf6151919bc_2025-05-25",
+  "source": "polymarket",
+  "question": "Will the Champions League Final be decided in a penalty shoot-out?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Champions League Final match between Paris Saint-Germain and Inter Milan is completed in a penalty shoot-out. Otherwise, this market will resolve to \"No\".\n\nif the match is decided in regular time, or extra time, this market will resolve to \"No\".\n\nThe primary resolution source for this market is official information from Champions League, (https://www.uefa.com/uefachampionsleague/).\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-champions-league-final-be-decided-in-a-penalty-shoot-out",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-05-25",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-05-31",
+  "market_value": "0.155",
+  "market_date": "2025-05-15",
+  "market_value_explanation": "The market price."
+}

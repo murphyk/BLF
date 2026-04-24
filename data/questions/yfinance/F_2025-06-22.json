@@ -1,0 +1,21 @@
+{
+  "id": "F_2025-06-22",
+  "source": "yfinance",
+  "question": "Will F's market close price on each resolution date listed below be higher than its market close price on 2025-06-22?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/F for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-22 is unknown, but the most recent known value (as of 2025-06-12) was 10.660. (The latest market close price of F.)",
+  "background": "Ford Motor Company develops, delivers, and services Ford trucks, sport utility vehicles, commercial vans and cars, and Lincoln luxury vehicles worldwide. It operates through Ford Blue, Ford Model e, Ford Pro, and Ford Credit segments. The company sells Ford and Lincoln internal combustion engine and hybrid vehicles, electric vehicles, service parts, accessories, and digital services for retail customers, as well as develops software. It also sells Ford and Lincoln vehicles, service parts, and accessories through distributors and dealers, as well as through dealerships to commercial fleet customers, daily rental car companies, and governments. In addition, it engages in the vehicle-related financing and leasing activities to and through automotive dealers. Further, the company provides retail installment sale contracts for new and used vehicles; and direct financing leases for new vehicles to retail and commercial customers, such as leasing companies, government entities, daily rental companies, and fleet customers. Additionally, it offers wholesale loans to dealers to finance the purchase of vehicle inventory; and loans to dealers to finance working capital and enhance dealership facilities, purchase dealership real estate, and other dealer vehicle programs. The company was incorporated in 1903 and is based in Dearborn, Michigan.",
+  "url": "https://finance.yahoo.com/quote/F",
+  "forecast_due_date": "2025-06-22",
+  "resolution_dates": [
+    "2025-06-29",
+    "2025-07-22",
+    "2025-09-20",
+    "2025-12-19"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

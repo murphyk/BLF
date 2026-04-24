@@ -1,0 +1,15 @@
+{
+  "id": "WRESBAL_2026-03-15",
+  "source": "fred",
+  "question": "Will the weekly average of reserve balances held with Federal Reserve Banks have increased by 2026-03-22 as compared to its value on 2026-03-15?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/WRESBAL once the data is published.\n\nThe exact value on 2026-03-15 is unknown, but the most recent known value (as of 2026-03-06) was 3015531.000. (The latest value released in Liabilities and Capital: Other Factors Draining Reserve Balances: Reserve Balances with Federal Reserve Banks: Week Average from the release H.4.1 Factors Affecting Reserve Balances.)",
+  "background": "The notes from the release: For questions on the data, please contact the data source: https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%\r\nFor questions on FRED functionality, please contact: https://fred.stlouisfed.org/contactus/.  The notes from the series: For questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h41/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/)..  Additional background of the series:  1. the units of the series: Millions of U.S. Dollars.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Wednesday ",
+  "url": "https://fred.stlouisfed.org/series/WRESBAL",
+  "forecast_due_date": "2026-03-15",
+  "resolution_dates": [
+    "2026-03-22"
+  ],
+  "resolved_to": [
+    0.0
+  ]
+}

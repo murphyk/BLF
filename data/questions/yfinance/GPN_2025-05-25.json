@@ -1,0 +1,21 @@
+{
+  "id": "GPN_2025-05-25",
+  "source": "yfinance",
+  "question": "Will GPN's market close price on each resolution date listed below be higher than its market close price on 2025-05-25?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GPN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-05-25 is unknown, but the most recent known value (as of 2025-05-15) was 79.250. (The latest market close price of GPN.)",
+  "background": "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. It operates through two segments, Merchant Solutions and Issuer Solutions. The Merchant Solutions segment offers authorization, settlement and funding, customer support, chargeback resolution, reconciliation and dispute management, terminal rental, sales and deployment, payment security, and consolidated billing and reporting services. This segment also provides an array of enterprise software solutions that streamline business operations of its customers in various vertical markets; and value-added solutions and services, such as point-of-sale software, analytics and customer engagement, payroll and reporting, and human capital management. The Issuer Solutions segment offers solutions that enable financial institutions and retailers to manage their card portfolios through a platform; and commercial payments, accounts payables, and electronic payment alternatives solutions for businesses and governments. It markets its products and services through direct sales force, trade associations, agent and enterprise software providers, referral arrangements with value-added resellers, and independent sales organizations. The company was founded in 1967 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/GPN",
+  "forecast_due_date": "2025-05-25",
+  "resolution_dates": [
+    "2025-06-01",
+    "2025-06-24",
+    "2025-08-23",
+    "2025-11-21"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ]
+}

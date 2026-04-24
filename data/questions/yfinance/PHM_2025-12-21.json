@@ -1,0 +1,19 @@
+{
+  "id": "PHM_2025-12-21",
+  "source": "yfinance",
+  "question": "Will PHM's market close price on each resolution date listed below be higher than its market close price on 2025-12-21?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PHM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-12-21 is unknown, but the most recent known value (as of 2025-12-11) was 127.900. (The latest market close price of PHM.)",
+  "background": "PulteGroup, Inc., through its subsidiaries, engages in the homebuilding business in the United States. It acquires and develops land primarily for residential purposes; and constructs housing on such land. The company also offers various home designs, including single-family detached, townhomes, condominiums, and duplexes under the Centex, Pulte Homes, Del Webb, DiVosta Homes, John Wieland Homes and Neighborhoods, and American West brand names. In addition, the company arranges financing through the origination of mortgage loans for homebuyers; sells the servicing rights for the originated loans; and provides title insurance policies, and examination and closing services to homebuyers. PulteGroup, Inc. was founded in 1950 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/PHM",
+  "forecast_due_date": "2025-12-21",
+  "resolution_dates": [
+    "2025-12-28",
+    "2026-01-20",
+    "2026-03-21"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

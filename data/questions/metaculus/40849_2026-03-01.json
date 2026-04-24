@@ -1,0 +1,14 @@
+{
+  "id": "40849_2026-03-01",
+  "source": "metaculus",
+  "question": "Will Tesla discontinue the Cybertruck before April 1, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if, before April 1, 2026, Tesla discontinues retail sales of the Cybertruck. For purposes of this question, this is defined as one of the following occurring:\n\n1. Removing the ability for customers in the United States to place an order to purchase a new Cybertruck from the [Tesla website](https://www.tesla.com/cybertruck), with no intention to restore it according to [credible sources](https://www.metaculus.com/faq/#definitions).&#x20;\n2. Tesla (or anyone authorized to speak on the company's behalf) announcing that the Cybertruck will no longer be either produced for or sold new to retail customers in the United States, effective before the date mentioned above.",
+  "background": "TorqueNews (October 28, 2025): [Why Tesla Will Cancel Cybertruck Production Soon](https://www.torquenews.com/18004/why-tesla-will-cancel-cybertruck-production-soon)\n\n> The future looked really bright for the Tesla Cybertruck back in early 2021 when it had over a million reservations, and Elon Musk estimated that Tesla could sell about a half-million trucks annually. Things continued to look good after its first year of production, as Tesla managed to ship about 46,000 units. This wasn\u2019t a bad production ramp for the first year of a new vehicle with a production line capacity of 125,000 units per year. However, between then and now, the situation has become dire.\n\nElektrek (September 13, 2025): [Tesla discontinues cheapest Cybertruck, no one wanted it](https://electrek.co/2025/09/13/tesla-discontinues-cheapest-cybertruck/)\n\n> Tesla has discontinued the cheapest version of the Cybertruck just a few months after launching it.\n\n> No one wanted the gutted electric truck.\n\n> There\u2019s no hiding it. The Cybertruck is a commercial flop.\n\n> Tesla claimed to have over 1 million reservations for the vehicle. It planned for a production capacity of up to 250,000 units per year, and CEO Elon Musk even said that he believes it could increase to 500,000 units per year.\n\n> Meanwhile, Tesla is currently selling the Cybertruck at a rate of roughly 20,000 units per year.\n\nInside EVs (September 14, 2025): [The Cheapest Tesla Cybertruck Is Dead](https://insideevs.com/news/772205/tesla-cybertruck-rwd-discontinued-2025/)&#x20;\n\n> Pour one out for the bargain-bin Cybertruck. After just five months of orders, Tesla has removed the ability for owners to buy the cheapest variant of the Cybertruck: the rear-wheel-drive model.",
+  "url": "https://www.metaculus.com/questions/40849",
+  "forecast_due_date": "2026-03-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.1",
+  "market_date": "2026-02-19",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xabe05aa3efb620cf283a9a7f967eaced0aee898b14f3b170347a3392d7401f03_2026-02-15",
+  "source": "polymarket",
+  "question": "Will France, UK, or Germany strike Iran by February 28?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if France, the United Kingdom, or Germany initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by French, United Kingdom, or German military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a French, United Kingdom, or German missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by French, United Kingdom, or German ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-france-uk-or-germany-strike-iran-by-february-28",
+  "forecast_due_date": "2026-02-15",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-28",
+  "market_value": "0.048",
+  "market_date": "2026-02-09",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "UDR_2026-04-12",
+  "source": "yfinance",
+  "question": "Will UDR's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/UDR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 34.240. (The latest market close price of UDR.)",
+  "background": "UDR, Inc. is a S&P 500 company, is a leading multifamily real estate investment trust with a demonstrated performance history of delivering superior and dependable returns by successfully managing, buying, selling, developing and redeveloping attractive real estate properties in targeted U.S. markets. As of December 31, 2025, UDR owned or had an ownership position in 60,941 apartment homes, including 300 apartment homes under development. For over 53 years, UDR has delivered long-term value to shareholders, the best standard of service to residents and the highest quality experience for associates. UDR, Inc. was incorporated in 1972 in Maryland, USA.",
+  "url": "https://finance.yahoo.com/quote/UDR",
+  "forecast_due_date": "2026-04-12",
+  "resolution_dates": [
+    "2026-04-19",
+    "2026-05-12",
+    "2026-07-11",
+    "2026-10-09",
+    "2027-04-12",
+    "2029-04-11",
+    "2031-04-11",
+    "2036-04-09"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

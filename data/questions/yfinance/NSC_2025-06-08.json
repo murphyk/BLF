@@ -1,0 +1,21 @@
+{
+  "id": "NSC_2025-06-08",
+  "source": "yfinance",
+  "question": "Will NSC's market close price on each resolution date listed below be higher than its market close price on 2025-06-08?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NSC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-06-08 is unknown, but the most recent known value (as of 2025-05-29) was 244.790. (The latest market close price of NSC.)",
+  "background": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals consist of sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
+  "url": "https://finance.yahoo.com/quote/NSC",
+  "forecast_due_date": "2025-06-08",
+  "resolution_dates": [
+    "2025-06-15",
+    "2025-07-08",
+    "2025-09-06",
+    "2025-12-05"
+  ],
+  "resolved_to": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

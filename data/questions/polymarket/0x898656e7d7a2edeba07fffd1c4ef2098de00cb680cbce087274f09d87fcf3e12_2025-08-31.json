@@ -1,0 +1,15 @@
+{
+  "id": "0x898656e7d7a2edeba07fffd1c4ef2098de00cb680cbce087274f09d87fcf3e12_2025-08-31",
+  "source": "polymarket",
+  "question": "Will Jhonny Fern\u00e1ndez win the 2025 Bolivia presidential election?",
+  "resolution_criteria": "The second round of the Bolivian presidential election is scheduled to take place on 19 October 2025.\n\nThis market will resolve according to the listed candidate that wins this election. \n\nThis market includes any potential second round. If the result of this election isn't known by December 31, 2025, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Bolivian government, specifically the Plurinational Electoral Body (\u00d3rgano Electoral Plurinacional, OEP) (https://www.oep.org.bo/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-jhonny-fernndez-win-the-2025-bolivia-presidential-election",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-31",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-10-19",
+  "market_value": "0.0005",
+  "market_date": "2025-08-21",
+  "market_value_explanation": "The market price."
+}

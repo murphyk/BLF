@@ -1,0 +1,14 @@
+{
+  "id": "0x6ab02effed0b2fb10889ea2495d3dd67024045b11c6736a491f3185cc276511b_2026-02-01",
+  "source": "polymarket",
+  "question": "Will Brock Purdy win the 2025\u201326 NFL MVP award?",
+  "resolution_criteria": "This polymarket will resolve to \"Yes\" if the listed player is named the 2025\u201326 NFL regular season MVP. Otherwise, it will resolve to \"No\".\n\nIf the 2025\u201326 NFL MVP is not announced by May 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official announcements from the NFL. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-brock-purdy-win-the-202526-nfl-mvp-award",
+  "forecast_due_date": "2026-02-01",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-06",
+  "market_value": "0.001",
+  "market_date": "2026-01-22",
+  "market_value_explanation": "The market price."
+}

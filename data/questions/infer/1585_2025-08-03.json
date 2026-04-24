@@ -1,0 +1,15 @@
+{
+  "id": "1585_2025-08-03",
+  "source": "infer",
+  "question": "Will hostilities between Pakistan and India result in at least 100 total uniformed casualties (with at least one death) between 2 June 2025 and 30 September 2025?",
+  "resolution_criteria": "This question will resolve \u201cYes\u201d if hostilities between the national military forces, militia, and/or law enforcement personnel of India and Pakistan result in at least 100 total uniformed injuries or fatalities for both sides combined, including at least one fatality, between 2 June 2025 and 30 September 2025. The resolution criteria for this question will be based on major global news outlets (e.g., Reuters, BBC, or The New York Times). Official government announcements of casualties (i.e., injuries plus fatalities) will not be sufficient for question resolution. Casualties of personnel affiliated with either India or Pakistan but not themselves uniformed military, militia, or law enforcement will not count toward question resolution. NOTE: Accidental or non-combat deaths that occur outside of a hostile confrontation will not be considered. The confrontation(s) must occur on or before 30 September 2025. In the event of a multi-day confrontation that starts before, but extends beyond, 30 September 2025, if it is unclear on which days casualties occurred, RFI admins will only use casualties reported on or before 30 September to resolve the question.",
+  "background": "On 22 April 2025, militants attacked and killed twenty-five Indian nationals in Kashmir ( Reuters ). Two weeks after the militant attack, India launched a series of strikes on sites in Pakistan and the area in Kashmir controlled by Pakistan ( BBC ). The longstanding conflict between India and Pakistan escalated, with both Pakistan and India exchanging daily gunfire across the Line of Control in the area of Kashmir from 7-10 May. However, since then, a ceasefire has continued to hold as India and Pakistan have resumed flights and continue to engage in diplomatic efforts to extend the ceasefire ( New York Times , New York Times ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1585",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-30",
+  "market_value": "0.0194",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The crowd forecast."
+}

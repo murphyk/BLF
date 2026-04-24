@@ -1,0 +1,19 @@
+{
+  "id": "TER_2025-10-26",
+  "source": "yfinance",
+  "question": "Will TER's market close price on each resolution date listed below be higher than its market close price on 2025-10-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TER for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2025-10-26 is unknown, but the most recent known value (as of 2025-10-16) was 141.030. (The latest market close price of TER.)",
+  "background": "Teradyne, Inc. designs, develops, manufactures, and sells automated test systems and robotics products in the United States, Asia Pacific, Europe, the Middle East, and Africa. It operates through Semiconductor Test, Robotics, and Other segments. The Semiconductor Test segment offers products and services for wafer level and device package testing, and system level testing of semiconductor devices in automotive, industrial, communications, consumer, smartphones, cloud, computer and electronic game, and other applications. This segment also provides FLEX test platform systems; J750 test system to address the volume semiconductor devices, including microcontrollers; Magnum platform that tests memory devices, such as flash memory and DRAM; and ETS platform for semiconductor manufacturers, and assembly and test subcontractors in the analog/mixed signal markets. It serves integrated device manufacturers that integrate the fabrication of silicon wafers into their business; fabless companies that outsource the manufacturing of silicon wafers; foundries; and semiconductor assembly and test providers. The Robotics segment provides collaborative robotic arms, autonomous mobile robots, and advanced robotic control software for manufacturing, logistics, and industrial customers. It also provides semiconductor test systems and instruments, defense/aerospace test instrumentation and systems, storage and system level test systems, wireless test systems and robotics products, and circuit-board test and inspection systems; production board test; and wireless test solutions for silicon validation, wireless module manufacturing, and wireless end device manufacturing under the LitePoint brand. Teradyne, Inc. was incorporated in 1960 and is headquartered in North Reading, Massachusetts.",
+  "url": "https://finance.yahoo.com/quote/TER",
+  "forecast_due_date": "2025-10-26",
+  "resolution_dates": [
+    "2025-11-02",
+    "2025-11-25",
+    "2026-01-24"
+  ],
+  "resolved_to": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

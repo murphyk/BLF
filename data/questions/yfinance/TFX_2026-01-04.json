@@ -1,0 +1,19 @@
+{
+  "id": "TFX_2026-01-04",
+  "source": "yfinance",
+  "question": "Will TFX's market close price on each resolution date listed below be higher than its market close price on 2026-01-04?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/TFX for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-01-04 is unknown, but the most recent known value (as of 2025-12-25) was 122.330. (The latest market close price of TFX.)",
+  "background": "Teleflex Incorporated designs, develops, manufactures, and supplies single-use medical devices for common diagnostic and therapeutic procedures in critical care and surgical applications worldwide. It provides vascular access products that comprise Arrow branded catheters, catheter navigation and tip positioning systems, and intraosseous bone access systems for the administration of intravenous therapies, the measurement of blood pressure, and the collection of blood samples. The company also offers interventional products, including various coronary catheters, structural heart support devices, peripheral intervention products, and mechanical circulatory support platform; and Arrow branded intra-aortic balloon pumps and catheters, Guideliner, Turnpike, and Trapliner catheters, the Manta Vascular Closure, and Arrow Oncontrol devices. It provides anesthesia products, such as airway, pain management, and hemostatic products to support hospital, emergency medicine, and military channels; and surgical products, including metal and polymer ligating clips, and fascial closure surgical systems that are used in laparoscopic surgical procedures, percutaneous surgical systems, and other surgical instruments. The company also offers interventional urology products comprising the UroLift System, an invasive technology for treating lower urinary tract symptoms; respiratory products, including oxygen and aerosol therapies, spirometry, and ventilation management products for use in various care settings; urology products, such as catheters, urine collectors, and catheterization accessories and products for operative endourology, as well as bladder management services; and OEM products, which includes the TFX Medical OEM, TFX OEM, Deknatel, and HPC Medical brands. It serves hospitals and healthcare providers, medical device manufacturers, and home care markets. Teleflex Incorporated was incorporated in 1943 and is headquartered in Wayne, Pennsylvania.",
+  "url": "https://finance.yahoo.com/quote/TFX",
+  "forecast_due_date": "2026-01-04",
+  "resolution_dates": [
+    "2026-01-11",
+    "2026-02-03",
+    "2026-04-04"
+  ],
+  "resolved_to": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

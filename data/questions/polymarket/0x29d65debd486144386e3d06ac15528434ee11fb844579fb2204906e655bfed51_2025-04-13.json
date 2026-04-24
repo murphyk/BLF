@@ -1,0 +1,15 @@
+{
+  "id": "0x29d65debd486144386e3d06ac15528434ee11fb844579fb2204906e655bfed51_2025-04-13",
+  "source": "polymarket",
+  "question": "Houthis agree to end attacks on shipping before May?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Houthis agree to halt attacks on Red Sea shipping by April 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nOfficial unilateral announcements from the Houthis confirming the end of attacks on shipping will qualify for a \"Yes\" resolution. \n\nAny agreement or announcement which covers either all Red Sea shipping or U.S. shipping and naval vessels in the Red Sea will qualify. \n\nIf an agreement is officially reached before the resolution date, this market will resolve to \"Yes,\" regardless of when the attacks are scheduled to stop. \n\nThis market's resolution will be based on official announcements from the Houthis; however, statements from the U.S. government or a wide consensus of credible media reporting confirming such an agreement has been made will qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/houthis-agree-to-stop-attacks-shipping-before-may",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-04-13",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-04-30",
+  "market_value": "0.17",
+  "market_date": "2025-04-03",
+  "market_value_explanation": "The market price."
+}

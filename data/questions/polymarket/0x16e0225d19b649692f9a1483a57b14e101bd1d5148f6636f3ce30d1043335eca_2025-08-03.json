@@ -1,0 +1,15 @@
+{
+  "id": "0x16e0225d19b649692f9a1483a57b14e101bd1d5148f6636f3ce30d1043335eca_2025-08-03",
+  "source": "polymarket",
+  "question": "Will Shrinking win the Emmy for Outstanding Comedy Series?",
+  "resolution_criteria": "The 77th Primetime Emmy Awards, given by the Academy of Television Arts & Sciences, honor the best in American prime time television programming aired between June 1, 2024, until May 31, 2025. The awards ceremony is scheduled for September 14, 2025, at the Peacock Theater in Downtown Los Angeles, California\n\nThis market will resolve according to the title which wins the Emmy for Outstanding Comedy Series. \n\nIf for any reason no winner is declared by October 31, 2025, 11:59 PM ET, or in case of overall cancellation or a tie for winner, this market will resolve in favor of the nominated film which comes first in alphabetical order.\n\nThe primary resolution source for this market will be official information from the Academy of Television Arts & Sciences and the Emmys, including data from their websites (e.g. https://theemmys.tv/, https://www.televisionacademy.com/) and the live broadcast of the award ceremony, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-shrinking-win-the-emmy-for-outstanding-comedy-series",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-09-14",
+  "market_value": "0.0045000000000000005",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The market price."
+}

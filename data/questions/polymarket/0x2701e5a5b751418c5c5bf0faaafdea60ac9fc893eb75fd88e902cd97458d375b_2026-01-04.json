@@ -1,0 +1,14 @@
+{
+  "id": "0x2701e5a5b751418c5c5bf0faaafdea60ac9fc893eb75fd88e902cd97458d375b_2026-01-04",
+  "source": "polymarket",
+  "question": "Will China invade Taiwan by March 31, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nTerritory under the administration of the Republic of China, including any inhabited islands, will qualify; however, uninhabited islands will not qualify. \n\nThe resolution source for this market will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council; however, a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-china-invade-taiwan-by-march-31-2026",
+  "forecast_due_date": "2026-01-04",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-03-31",
+  "market_value": "0.0135",
+  "market_date": "2025-12-25",
+  "market_value_explanation": "The market price."
+}

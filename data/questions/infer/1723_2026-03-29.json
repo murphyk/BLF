@@ -1,0 +1,14 @@
+{
+  "id": "1723_2026-03-29",
+  "source": "infer",
+  "question": "Will the average Arctic sea ice extent for March 2026 be the lowest on record for that month according to the National Snow and Ice Data Center (NSIDC)?",
+  "resolution_criteria": "This question will resolve using monthly data from the National Snow and Ice Data Center's Sea Ice Index . This question will resolve \"Yes\" if the monthly average Arctic sea ice extent for March 2026, as reported by NSIDC in the Sea Ice Index, is lower than the March 2025 record. For the purposes of this question, \"monthly average extent\" refers to the official monthly mean extent value published by NSIDC in the Sea Ice Index data files, typically released in early April following the end of March. If NSIDC revises its methodology or dataset in a way that materially changes historical extent values, resolution will be based on the revised dataset's comparison of March 2026 to the lowest March on record in that revised dataset.",
+  "background": "Arctic sea ice extent in March\u2014when the annual maximum typically occurs\u2014has declined sharply in recent decades as the Arctic warms faster than the rest of the planet ( NSIDC ). The National Snow and Ice Data Center (NSIDC) maintains the Sea Ice Index, a satellite-based record of Arctic sea ice extent dating back to November 1978. March 2025 set a new record low for the month, with an average extent of 14.1 million square kilometers, breaking the previous record of 14.28 million square kilometers set in 2017 ( NSIDC ). The 2025 annual maximum of 14.33 million square kilometers on 22 March 2025 was the lowest in the 47-year satellite record, falling 1.31 million square kilometers below the 1981-2010 average and 80,000 square kilometers below the previous record set in 2017 ( NSIDC ). The long-term trend shows March sea ice extent declining at 2.5% per decade relative to the 1981-2010 average, with nearly all March monthly averages since 2004 falling well below the historical average ( NSIDC ).",
+  "url": "https://www.randforecastinginitiative.org/questions/1723",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.0844",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The crowd forecast."
+}

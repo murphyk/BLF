@@ -1,0 +1,11 @@
+{
+  "id": "aibq2_7471b9f4",
+  "source": "aibq2",
+  "question": "Will John Morgan announce his candidacy for Florida governor before July 1, 2025?",
+  "background": "Politico: [John Morgan lays out campaign blueprint for possible Florida governor run](https://www.politico.com/news/2025/05/15/john-morgan-florida-governor-run-00351005)",
+  "resolution_criteria": "This question resolves as **Yes** if John Morgan announces his candidacy for governor of Florida before July 1, 2025. If no such announcement has been made before that date, the question resolves as **No**.",
+  "url": "https://www.politico.com/news/2025/05/15/john-morgan-florida-governor-run-00351005",
+  "forecast_due_date": "2025-06-06",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 0.0
+}

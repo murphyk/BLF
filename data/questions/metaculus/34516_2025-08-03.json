@@ -1,0 +1,15 @@
+{
+  "id": "34516_2025-08-03",
+  "source": "metaculus",
+  "question": "Will the White House revoke the media credentials of reporters from two media outlets before 2026?",
+  "resolution_criteria": "This question will resolve as Yes if [<u>credible sources</u>](https://www.metaculus.com/faq/#definitions) report the White House revokes the media credentials of two or more reporters from at least two previously credentialed media outlets before January 1, 2026.",
+  "background": "President Trump has long enjoyed a contentious relationship with mainstream media, which he terms \"fake news.\" His [<u>first administration revoked the White House press passes for dozens of journalists</u>](https://www.cjr.org/the_media_today/white-house-press-passes.php). Further, near the end of the 2024 campaign, [<u>many journalists were denied access to an election watch event</u>](https://www.cnn.com/2024/11/05/media/trump-revokes-journalists-election-night-credentials/index.html).&#x20;",
+  "url": "https://www.metaculus.com/questions/34516",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-03",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-01-01",
+  "market_value": "0.75",
+  "market_date": "2025-07-24",
+  "market_value_explanation": "The community prediction."
+}

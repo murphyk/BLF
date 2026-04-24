@@ -1,0 +1,15 @@
+{
+  "id": "0x2f2fd73638998d19d3a2c480a55eb4ad7cc9a67ecb9d08533d4b86e050af5c91_2025-08-17",
+  "source": "polymarket",
+  "question": "Will Joe Burrow win the 2025\u201326 NFL MVP award?",
+  "resolution_criteria": "This polymarket will resolve to \"Yes\" if the listed player is named the 2025\u201326 NFL regular season MVP. Otherwise, it will resolve to \"No\".\n\nIf the 2025\u201326 NFL MVP is not announced by May 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official announcements from the NFL. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-joe-burrow-win-the-202526-nfl-mvp-award",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-08-17",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-02-06",
+  "market_value": "0.145",
+  "market_date": "2025-08-07",
+  "market_value_explanation": "The market price."
+}

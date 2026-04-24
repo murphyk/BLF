@@ -1,0 +1,12 @@
+{
+  "id": "aibq2_0080",
+  "source": "aibq2",
+  "question": "Will the USDA still list \"snack foods\" on its \"What Can SNAP Buy?\" page on July 1, 2025?",
+  "title_hash": "c3171ed653979a84",
+  "background": "NY Post: [Americans on food stamps could be banned from buying \u2018bad food and sugary drinks,\u2019 Trump USDA chief says](https://nypost.com/2025/02/14/us-news/americans-on-food-stamps-could-be-banned-from-buying-bad-food-and-sugary-drinks-trump-usda-chief-says/)",
+  "resolution_criteria": "This question resolves as **Yes** if \"snack foods\" is specifically listed on the United States Department of Agriculture's [What Can SNAP Buy?](https://www.fns.usda.gov/snap/eligible-food-items) webpage as something that is explicitly mentioned as something that can can be purchased by recipients of the Supplemental Nutrition Assistance Program. (Forecasters please note that it *is* explicitly mentioned as of May 5, 2025.) If it is *not* explicitly mentioned when checked by Metataculus on or after July 1, 2025, this resolves as **No**.\n\nFine print:\nIn order to streamline resolution, synonyms will not count; the phrase must specifically be \"snack foods.\" The question will resolve as soon as the page is accessed by Metaculus Admins on the resolution date. However, if there are issues accessing the page, then resolution will wait up to the end of the question resolutions period, at which point if Metaculus has still not been able to access the resolution source, this question will be **annulled**.",
+  "url": "https://nypost.com/2025/02/14/us-news/americans-on-food-stamps-could-be-banned-from-buying-bad-food-and-sugary-drinks-trump-usda-chief-says/",
+  "forecast_due_date": "2025-05-20",
+  "resolution_date": "2025-07-01",
+  "resolved_to": 1.0
+}

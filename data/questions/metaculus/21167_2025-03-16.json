@@ -1,0 +1,15 @@
+{
+  "id": "21167_2025-03-16",
+  "source": "metaculus",
+  "question": "Will 1 Euro be worth less than 1 US Dollar before 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, at any time between 1 January 2024 and 1 January 2026, the EUR/USD exchange rate as [reported by Google Finance](https://www.google.com/finance/quote/EUR-USD) is less than `1.0000`.",
+  "background": "After reaching its maximum of `1.5852` in July 2008 the EUR/USD exchange rate has significantly declined over the years. In September-October 2022 there was a brief period when the price of 1 EUR was less than 1 USD. Since then, the Euro price recovered slightly and reached an exchange rate of `1.1038` US dollar on 01.01.2024.",
+  "url": "https://www.metaculus.com/questions/21167",
+  "combination_of": "N/A",
+  "forecast_due_date": "2025-03-16",
+  "resolved_to": 0.0,
+  "resolution_date": "2025-12-31",
+  "market_value": "0.35000000000000003",
+  "market_date": "2025-03-06",
+  "market_value_explanation": "The community prediction."
+}
