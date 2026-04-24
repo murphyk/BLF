@@ -722,7 +722,13 @@ def main():
     parser.add_argument("--exam", default=None,
                         help="Exam name (reads experiments/exams/{exam}/indices.json)")
     parser.add_argument("--config", default=None,
-                        help="Config name(s), comma-separated")
+                        help="Config name(s), comma-separated "
+                             "(delta strings like 'pro/thk:high/crowd:1' OK)")
+    parser.add_argument("--config-file", default=None, metavar="PATH",
+                        help="Load a full AgentConfig from a JSON file (e.g. "
+                             "experiments/configs/sota.json). Mutually exclusive "
+                             "with --config; takes precedence over an xid's "
+                             "'config' field when given with --xid.")
     parser.add_argument("--max-workers", type=int, default=50,
                         help="Max parallel workers per config (default: 50)")
     parser.add_argument("--verbose", action="store_true")
@@ -744,19 +750,44 @@ def main():
                         help="Delete existing forecasts before running")
     args = parser.parse_args()
 
-    # Resolve exam name and config list
+    # Resolve exam name, config source, and --config-file takes precedence
+    if args.config and args.config_file:
+        parser.error("Pass only one of --config or --config-file, not both.")
+
+    xid_data = {}
     if args.xid:
         xid_data = load_xid(args.xid)
         exam_name = xid_data["exam"]
-        cfg_list = xid_data.get("config", [])
-        if isinstance(cfg_list, str):
-            cfg_list = [cfg_list]
-        config_names = cfg_list
-    elif args.exam and args.config:
+    elif args.exam:
         exam_name = args.exam
-        config_names = [c.strip() for c in args.config.split(",") if c.strip()]
     else:
-        parser.error("Either --xid or both --exam and --config are required")
+        parser.error("Either --xid or --exam is required")
+
+    configs: list = []
+
+    if args.config_file:
+        # Explicit file path → load a single AgentConfig dict.
+        with open(args.config_file) as f:
+            cfg_dict = json.load(f)
+        if "name" not in cfg_dict or not cfg_dict["name"]:
+            parser.error(f"Config file {args.config_file} must have a non-empty 'name' field.")
+        from config.config import AgentConfig
+        configs.append(AgentConfig(**{k: v for k, v in cfg_dict.items()
+                                       if k in AgentConfig.__dataclass_fields__}))
+    else:
+        if args.xid and not args.config:
+            cfg_list = xid_data.get("config", [])
+            if isinstance(cfg_list, str):
+                cfg_list = [cfg_list]
+        elif args.config:
+            cfg_list = [c.strip() for c in args.config.split(",") if c.strip()]
+        else:
+            parser.error("Need --config, --config-file, or --xid with a 'config' field")
+        _EVAL_ONLY = {"sota", "baseline", "superhuman"}
+        for cname in cfg_list:
+            if cname in _EVAL_ONLY:
+                continue
+            configs.append(resolve_config(cname))
 
     # Load exam
     exam = load_exam(exam_name)
@@ -767,13 +798,6 @@ def main():
 
     n_suffix = f" (first {args.n})" if args.n is not None else ""
     print(f"\nExam '{exam_name}': {len(questions)} questions{n_suffix}")
-
-    # Load configs (skip eval-only pseudo-methods)
-    _EVAL_ONLY = {"sota", "baseline", "superhuman"}
-    config_names = [c for c in config_names if c not in _EVAL_ONLY]
-    configs = []
-    for cname in config_names:
-        configs.append(resolve_config(cname))
 
     # xid-level overrides
     if args.xid and "use_tools" in xid_data:

@@ -8,9 +8,12 @@ __pycache__/
 # generated_prompts are all produced locally and excluded.
 experiments/*
 !experiments/xids/
+!experiments/configs/
 !experiments/forecasts_final/
 !experiments/calibration_models/
 !experiments/submissions/
 
 # time-series and search caches populated at runtime
 data/fb_cache/
+
+docs/notes.txt

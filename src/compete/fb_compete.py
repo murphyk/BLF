@@ -115,9 +115,13 @@ def strip_date_suffix(qid: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description="End-to-end FB competition pipeline.")
     ap.add_argument("--date", required=True, help="Forecast due date, e.g. 2026-04-12")
-    ap.add_argument("--config", required=True,
+    ap.add_argument("--config", default=None,
                     help="Config (directory name or delta string). Comma-separated "
-                         "for ensembling.")
+                         "for ensembling. Mutually exclusive with --config-file.")
+    ap.add_argument("--config-file", default=None, metavar="PATH",
+                    help="Load a full AgentConfig from JSON (e.g. "
+                         "experiments/configs/sota.json). Takes its 'name' "
+                         "field as the submit config.")
     ap.add_argument("--ensemble", default=None, metavar="NAME",
                     help="Ensemble name; predict every --config, pick members greedily.")
     ap.add_argument("--ensemble-k", type=int, default=5)
@@ -146,16 +150,27 @@ def main() -> None:
     date = args.date
     bucket = args.bucket or GCP_BUCKET_TEMPLATE.format(date=date)
 
-    raw_configs = [c.strip().removesuffix(".json")
-                   for c in args.config.split(",") if c.strip()]
-    # Resolve delta strings → directory names
+    if args.config and args.config_file:
+        sys.exit("ERROR: pass only one of --config or --config-file.")
+    if not (args.config or args.config_file):
+        sys.exit("ERROR: one of --config or --config-file is required.")
+
     from config.config import resolve_config, pprint as cfg_pprint
-    config_names = []
-    for c in raw_configs:
-        if "/" in c and ":" in c:
-            config_names.append(cfg_pprint(resolve_config(c)))
-        else:
-            config_names.append(c)
+    if args.config_file:
+        with open(args.config_file) as f:
+            cfg_dict = json.load(f)
+        if not cfg_dict.get("name"):
+            sys.exit(f"ERROR: config file {args.config_file} must have a 'name' field.")
+        config_names = [cfg_dict["name"]]
+    else:
+        raw_configs = [c.strip().removesuffix(".json")
+                       for c in args.config.split(",") if c.strip()]
+        config_names = []
+        for c in raw_configs:
+            if "/" in c and ":" in c:
+                config_names.append(cfg_pprint(resolve_config(c)))
+            else:
+                config_names.append(c)
 
     if args.ensemble and len(config_names) < 2:
         sys.exit("ERROR: --ensemble requires multiple --config values.")
@@ -179,8 +194,11 @@ def main() -> None:
 
         predict_cmd = [sys.executable, "src/core/predict.py",
                        "--live", "--exam", date,
-                       "--config", ",".join(config_names),
                        "--max-workers", str(args.max_workers)]
+        if args.config_file:
+            predict_cmd += ["--config-file", args.config_file]
+        else:
+            predict_cmd += ["--config", ",".join(config_names)]
         if args.ntrials > 1:
             predict_cmd += ["--ntrials", str(args.ntrials)]
         if args.agg_method:

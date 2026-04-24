@@ -341,6 +341,26 @@ Shows how questions are distributed across sources and categories.
 Auto-generated when LLM-classified tags are present
 (run <code>classify_questions.py --version {version}</code> first).</p>
 <h2 id="configure-agent">4. Configure the agent</h2>
+<p>The agent is parameterized by an <code>AgentConfig</code> dataclass. There are
+three interchangeable ways to specify one to <code>predict.py</code> and
+<code>fb_compete.py</code>:</p>
+<ul>
+<li><strong>Delta string</strong> (shorthand): <code>"pro/thk:high/crowd:1/tools:1"</code> —
+  starts from the default config and applies the listed overrides.
+  Resolves to a directory name like <code>pro-high-brave-c1-t1</code>.</li>
+<li><strong>Directory name</strong>: <code>"pro-high-brave-c1-t1"</code> — refers to an existing
+  config directory.</li>
+<li><strong>Config file</strong>: <code>--config-file experiments/configs/sota.json</code> — a
+  full AgentConfig JSON. Its <code>name</code> field becomes the config-directory
+  name. Useful for pinning the exact submission config across
+  competition rounds. An example <code>experiments/configs/sota.json</code> is
+  checked in.</li>
+</ul>
+<p>Every run also writes <code>config.json</code> next to the forecasts
+(<code>experiments/forecasts_raw/{config}/config.json</code>), and the collated
+file in <code>experiments/forecasts_final/{date}/{config}.json</code> stores the
+full AgentConfig dict inline under its <code>config</code> key — both serve as
+documentation of exactly what was run.</p>
 <p>Configs are specified as <strong>delta strings</strong> relative to a default template,
 not as JSON files. The delta format uses <code>/</code> to separate fields:</p>
 <pre><code>flash/thk:high/crowd:1/tools:0
@@ -720,9 +740,25 @@ python3 src/core/aggregate.py --xid my-xid --variants &quot;mean:1,mean:5,shrink
 <p>LOO shrinkage (<code>shrink5-loo</code>) fits the shrinkage strength λ by leave-one-
 out CV, which requires labeled outcomes — not usable at live-submission
 time in <code>fb_compete.py</code>. Use <code>mean:N</code> or <code>logit-mean:N</code> for live runs.</p>
-<p>To pull a variant into a leaderboard column, either reference it in the
-xid <code>eval</code> field with bracket notation (<code>"pro-high-brave-c0-t1[mean:5]"</code>)
-or pass <code>--add-aggregation &lt;key&gt;</code> to <code>eval.py</code>.</p>
+<p>To pull variants into leaderboard columns, three paths with descending
+precedence:</p>
+<ol>
+<li><strong><code>--add-calibration [KEYS]</code> / <code>--add-aggregation [KEYS]</code> on the
+   command line.</strong> No value = auto-discover every key available in the
+   collated files; a comma list = only those keys.
+   <code>python3 src/core/eval.py --xid my-xid --add-calibration global-cal,hier-cal --add-aggregation mean:5</code></li>
+<li><strong>Xid fields <code>eval_calibration</code> / <code>eval_aggregation</code>.</strong> Persistent
+   lists (or the literal <code>"*"</code> for auto-discover):
+   <code>json
+   { "eval_calibration": ["global-cal", "hier-cal"],
+     "eval_aggregation": ["mean:5", "shrink5-loo"] }</code></li>
+<li><strong>Explicit bracket entry in <code>eval</code></strong>, same as a regular config:
+   <code>"eval": ["pro-high-brave-c1-t1[mean:5]"]</code>.</li>
+</ol>
+<p>Per-method plots (scatter, ntrials, per-question heatmaps) can explode
+when you add many variants. Gate them with <strong><code>--plot-variants
+NAME,NAME,…</code></strong> or the xid field <strong><code>plot_variants</code></strong>; the leaderboard
+itself still includes every variant you asked for.</p>
 <h2 id="evaluate">7. Evaluate experiment</h2>
 <p>End-to-end pipeline, run step by step (there is no wrapper script):</p>
 <pre><code class="language-bash"># 1. Predict — one agent run per question × trial. Parallel, in-place writes.

@@ -1,0 +1,22 @@
+{
+  "exam": "tranche-ab",
+  "config": [
+    "pro/thk:high/crowd:1/tools:1"
+  ],
+  "eval_calibration": ["global-cal", "hier-cal"],
+  "eval_aggregation": ["mean:5", "logit-mean:5", "shrink:5", "shrink5-loo"],
+  "metric": [
+    "brier-index",
+    "metaculus-score"
+  ],
+  "groups": [
+    "FBQtype",
+    "Qsource",
+    "overall"
+  ],
+  "fb_reference": [
+    "external.Cassi-AI.2",
+    "external.xai.1",
+    "external.Lightning-Rod-Labs"
+  ]
+}

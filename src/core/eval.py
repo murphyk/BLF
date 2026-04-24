@@ -796,15 +796,26 @@ def main():
     parser = argparse.ArgumentParser(description="Evaluate forecasts")
     parser.add_argument("--xid", required=True,
                         help="Experiment ID (must have 'eval'/'config', 'exam', 'metric')")
-    parser.add_argument("--add-calibration", action="store_true",
-                        help="Also evaluate every key in each config's "
-                             "forecasts_calibrated dict (e.g. global-cal, hier-cal)")
-    parser.add_argument("--add-aggregation", action="store_true",
-                        help="Also evaluate every key in each config's "
-                             "forecasts_aggregated dict (e.g. mean:5, shrink5-loo)")
+    parser.add_argument("--add-calibration", nargs="?", const="*", default=None,
+                        metavar="KEYS",
+                        help="Also evaluate calibration variants. With no value, "
+                             "auto-discovers every key in forecasts_calibrated. "
+                             "Pass a comma-separated list to restrict "
+                             "(e.g. --add-calibration global-cal,hier-cal). "
+                             "Overrides the xid's 'eval_calibration' field.")
+    parser.add_argument("--add-aggregation", nargs="?", const="*", default=None,
+                        metavar="KEYS",
+                        help="Same as --add-calibration but for forecasts_aggregated "
+                             "(e.g. --add-aggregation mean:5,shrink5-loo).")
     parser.add_argument("--add-ensemble", default=None,
                         help="Also evaluate this ensemble config name "
                              "(ignored if xid has an explicit 'eval' field)")
+    parser.add_argument("--plot-variants", default=None, metavar="NAMES",
+                        help="Comma-separated subset of eval_names that get "
+                             "per-method plots (scatter/ntrials/heatmap). The "
+                             "leaderboard still includes every variant. "
+                             "Defaults to the xid's 'plot_variants' field, "
+                             "or all eval_names if neither is set.")
     parser.add_argument("--fast", action="store_true",
                         help="Skip plots and trace pages (leaderboard + scores only)")
     parser.add_argument("--fig-dir", default=None,
@@ -845,11 +856,13 @@ def main():
         else:
             resolved_names.append(name)
     eval_names = resolved_names
-    # Add post-processing variants. Both flags auto-discover the available
-    # keys by peeking at the first forecasts_final/*/{config}.json that
-    # actually has the `forecasts_calibrated` / `forecasts_aggregated` field.
+    # Add post-processing variants. Precedence: CLI > xid fields > none.
+    # CLI "*" means auto-discover every available key; a comma list restricts
+    # to those keys. Xid fields `eval_calibration` / `eval_aggregation`
+    # provide persistent lists; the literal string "*" there also means
+    # auto-discover.
     def _discover_keys(config: str, field: str) -> list[str]:
-        base = os.path.join(_FINAL_DIR)
+        base = _FINAL_DIR
         if not os.path.isdir(base):
             return []
         for date_dir in sorted(os.listdir(base)):
@@ -861,23 +874,63 @@ def main():
             return list((payload.get(field) or {}).keys())
         return []
 
+    def _resolve_keys(cli_value, xid_value):
+        """Return the list of variant keys to add (or None to skip).
+
+        cli_value: None | "*" | "k1,k2,..."
+        xid_value: None | "*" | ["k1", ...] | "k1,k2,..."
+        """
+        if cli_value is not None:
+            raw = cli_value
+        elif xid_value is not None:
+            raw = xid_value
+        else:
+            return None
+        if raw == "*" or (isinstance(raw, list) and raw == ["*"]):
+            return "*"
+        if isinstance(raw, list):
+            return [str(k).strip() for k in raw if str(k).strip()]
+        return [k.strip() for k in str(raw).split(",") if k.strip()]
+
+    cal_keys = _resolve_keys(args.add_calibration,
+                             xid_data.get("eval_calibration"))
+    agg_keys = _resolve_keys(args.add_aggregation,
+                             xid_data.get("eval_aggregation"))
+
     extra_names: list[str] = []
-    for field, flag in (("forecasts_calibrated", args.add_calibration),
-                        ("forecasts_aggregated", args.add_aggregation)):
-        if not flag:
+    for field, keys in (("forecasts_calibrated", cal_keys),
+                        ("forecasts_aggregated", agg_keys)):
+        if keys is None:
             continue
         for c in list(eval_names):
             if c in _PSEUDO_CONFIGS:
                 continue
-            keys = _discover_keys(c, field)
-            for k in keys:
+            if keys == "*":
+                ks = _discover_keys(c, field)
+            else:
+                available = set(_discover_keys(c, field))
+                ks = [k for k in keys if k in available]
+                missing = [k for k in keys if k not in available]
+                if missing:
+                    print(f"  NOTE: {c} is missing {field} keys: {missing}")
+            for k in ks:
                 name = f"{c}[{k}]"
                 if name not in eval_names and name not in extra_names:
                     extra_names.append(name)
-    if (args.add_calibration or args.add_aggregation) and not extra_names:
-        print(f"  NOTE: --add-calibration/--add-aggregation found no keys. "
-              f"Run src/core/aggregate.py or src/core/calibrate.py first.")
+    if (cal_keys is not None or agg_keys is not None) and not extra_names:
+        print("  NOTE: --add-calibration/--add-aggregation requested but no "
+              "matching keys found. Run aggregate.py or calibrate.py first.")
     eval_names.extend(extra_names)
+
+    # --plot-variants gates which eval_names get per-method plots.
+    plot_variants_spec = args.plot_variants or xid_data.get("plot_variants")
+    if plot_variants_spec is None:
+        plot_variants = None  # no restriction — plot everything
+    elif isinstance(plot_variants_spec, list):
+        plot_variants = [str(x) for x in plot_variants_spec]
+    else:
+        plot_variants = [s.strip() for s in str(plot_variants_spec).split(",")
+                         if s.strip()]
 
     # Reference methods (display-only, from xid "manual_reference" field)
     ref_names = xid_data.get("manual_reference", [])
@@ -1030,8 +1083,14 @@ def main():
                                           metric, args.xid, exam_name=exam_name)
         if p:
             print(f"  Relative plot: {p}")
+        # Per-method plots. `plot_variants` (CLI or xid field) restricts
+        # which eval_names get these potentially expensive plots.
+        if plot_variants is None:
+            plot_names = eval_names
+        else:
+            plot_names = [n for n in eval_names if n in plot_variants]
         # Metric vs std scatter (multi-trial configs only)
-        for config in eval_names:
+        for config in plot_names:
             if config in _PSEUDO_CONFIGS:
                 continue
             scores = all_scores.get(config, {})
@@ -1043,7 +1102,7 @@ def main():
         # Metric vs ntrials (base configs with trials only, skip calibrated/bon)
         # Skip adjusted metrics — they require FE data that can't be recomputed per-trial
         if metric not in ADJUSTED_METRICS:
-            for config in eval_names:
+            for config in plot_names:
                 if config in _PSEUDO_CONFIGS:
                     continue
                 if config.endswith(("_calibrated", "_bon")):
@@ -1055,7 +1114,7 @@ def main():
                     if p:
                         print(f"  Ntrials plot: {p}")
             # Per-question metric with cross-trial CI (multi-trial configs only)
-            for config in eval_names:
+            for config in plot_names:
                 if config in _PSEUDO_CONFIGS:
                     continue
                 if config.endswith(("_calibrated", "_bon")):

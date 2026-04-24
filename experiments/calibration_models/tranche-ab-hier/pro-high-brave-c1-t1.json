@@ -1,0 +1,28 @@
+{
+  "a": 1.464402428029525,
+  "b": -0.03842835197153978,
+  "group_offsets": {
+    "acled": 0.13515754168902647,
+    "dbnomics": 0.8645250891385042,
+    "fred": 0.2332056723492668,
+    "infer": -0.32887565606742136,
+    "manifold": -0.1397116098220646,
+    "metaculus": -0.1975875141825517,
+    "polymarket": -0.18254402835635458,
+    "wikipedia": -0.27273102050758263,
+    "yfinance": -0.11282932899341978
+  },
+  "lambda": 1.0,
+  "n": 791,
+  "groups": [
+    "acled",
+    "dbnomics",
+    "fred",
+    "infer",
+    "manifold",
+    "metaculus",
+    "polymarket",
+    "wikipedia",
+    "yfinance"
+  ]
+}

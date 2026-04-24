@@ -260,6 +260,27 @@ Auto-generated when LLM-classified tags are present
 
 ## 4. Configure the agent {#configure-agent}
 
+The agent is parameterized by an `AgentConfig` dataclass. There are
+three interchangeable ways to specify one to `predict.py` and
+`fb_compete.py`:
+
+- **Delta string** (shorthand): `"pro/thk:high/crowd:1/tools:1"` —
+  starts from the default config and applies the listed overrides.
+  Resolves to a directory name like `pro-high-brave-c1-t1`.
+- **Directory name**: `"pro-high-brave-c1-t1"` — refers to an existing
+  config directory.
+- **Config file**: `--config-file experiments/configs/sota.json` — a
+  full AgentConfig JSON. Its `name` field becomes the config-directory
+  name. Useful for pinning the exact submission config across
+  competition rounds. An example `experiments/configs/sota.json` is
+  checked in.
+
+Every run also writes `config.json` next to the forecasts
+(`experiments/forecasts_raw/{config}/config.json`), and the collated
+file in `experiments/forecasts_final/{date}/{config}.json` stores the
+full AgentConfig dict inline under its `config` key — both serve as
+documentation of exactly what was run.
+
 Configs are specified as **delta strings** relative to a default template,
 not as JSON files. The delta format uses `/` to separate fields:
 
@@ -549,9 +570,26 @@ LOO shrinkage (`shrink5-loo`) fits the shrinkage strength λ by leave-one-
 out CV, which requires labeled outcomes — not usable at live-submission
 time in `fb_compete.py`. Use `mean:N` or `logit-mean:N` for live runs.
 
-To pull a variant into a leaderboard column, either reference it in the
-xid `eval` field with bracket notation (`"pro-high-brave-c0-t1[mean:5]"`)
-or pass `--add-aggregation <key>` to `eval.py`.
+To pull variants into leaderboard columns, three paths with descending
+precedence:
+
+1. **`--add-calibration [KEYS]` / `--add-aggregation [KEYS]` on the
+   command line.** No value = auto-discover every key available in the
+   collated files; a comma list = only those keys.
+   `python3 src/core/eval.py --xid my-xid --add-calibration global-cal,hier-cal --add-aggregation mean:5`
+2. **Xid fields `eval_calibration` / `eval_aggregation`.** Persistent
+   lists (or the literal `"*"` for auto-discover):
+   ```json
+   { "eval_calibration": ["global-cal", "hier-cal"],
+     "eval_aggregation": ["mean:5", "shrink5-loo"] }
+   ```
+3. **Explicit bracket entry in `eval`**, same as a regular config:
+   `"eval": ["pro-high-brave-c1-t1[mean:5]"]`.
+
+Per-method plots (scatter, ntrials, per-question heatmaps) can explode
+when you add many variants. Gate them with **`--plot-variants
+NAME,NAME,…`** or the xid field **`plot_variants`**; the leaderboard
+itself still includes every variant you asked for.
 
 ## 7. Evaluate experiment {#evaluate}
 
