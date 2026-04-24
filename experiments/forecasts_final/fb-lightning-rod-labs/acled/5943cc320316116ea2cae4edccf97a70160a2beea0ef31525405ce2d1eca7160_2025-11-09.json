@@ -1,0 +1,10 @@
+{
+  "forecast": 0.45,
+  "resolved_to": 0.0,
+  "source": "acled",
+  "id": "5943cc320316116ea2cae4edccf97a70160a2beea0ef31525405ce2d1eca7160_2025-11-09",
+  "fb_method": "external.Lightning-Rod-Labs",
+  "fb_model": "Foresight-32B",
+  "fb_organization": "Lightning Rod Labs",
+  "imputed": false
+}

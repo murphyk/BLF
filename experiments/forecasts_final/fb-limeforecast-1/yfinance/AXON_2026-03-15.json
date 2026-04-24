@@ -1,0 +1,10 @@
+{
+  "forecast": 0.51,
+  "resolved_to": 1.0,
+  "source": "yfinance",
+  "id": "AXON_2026-03-15",
+  "fb_method": "external.limeforecast.1",
+  "fb_model": "limeforecast ensemble_crowdadj",
+  "fb_organization": "limeforecast",
+  "imputed": false
+}

@@ -1,0 +1,10 @@
+{
+  "forecast": 0.98,
+  "resolved_to": 1.0,
+  "source": "infer",
+  "id": "1722_2026-03-15",
+  "fb_method": "external.limeforecast.1",
+  "fb_model": "limeforecast ensemble_crowdadj",
+  "fb_organization": "limeforecast",
+  "imputed": false
+}

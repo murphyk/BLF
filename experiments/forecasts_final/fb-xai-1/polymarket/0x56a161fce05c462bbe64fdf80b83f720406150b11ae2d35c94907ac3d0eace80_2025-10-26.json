@@ -1,0 +1,10 @@
+{
+  "forecast": 0.0206,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0x56a161fce05c462bbe64fdf80b83f720406150b11ae2d35c94907ac3d0eace80_2025-10-26",
+  "fb_method": "external.xai.1",
+  "fb_model": "Grok 4.20 (Preview)",
+  "fb_organization": "xAI",
+  "imputed": false
+}

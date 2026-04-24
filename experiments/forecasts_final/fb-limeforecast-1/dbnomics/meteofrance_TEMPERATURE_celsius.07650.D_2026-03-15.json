@@ -1,0 +1,10 @@
+{
+  "forecast": 0.78,
+  "resolved_to": 0.0,
+  "source": "dbnomics",
+  "id": "meteofrance_TEMPERATURE_celsius.07650.D_2026-03-15",
+  "fb_method": "external.limeforecast.1",
+  "fb_model": "limeforecast ensemble_crowdadj",
+  "fb_organization": "limeforecast",
+  "imputed": false
+}

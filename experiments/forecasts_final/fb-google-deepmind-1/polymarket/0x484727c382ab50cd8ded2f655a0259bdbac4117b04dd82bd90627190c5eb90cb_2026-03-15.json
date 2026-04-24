@@ -1,0 +1,10 @@
+{
+  "forecast": 0.029,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0x484727c382ab50cd8ded2f655a0259bdbac4117b04dd82bd90627190c5eb90cb_2026-03-15",
+  "fb_method": "external.Google DeepMind.1",
+  "fb_model": "yellow mouse",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

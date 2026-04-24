@@ -1,0 +1,10 @@
+{
+  "forecast": 0.015,
+  "resolved_to": 0.0,
+  "source": "manifold",
+  "id": "6Zyd999ZP9_2025-10-26",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

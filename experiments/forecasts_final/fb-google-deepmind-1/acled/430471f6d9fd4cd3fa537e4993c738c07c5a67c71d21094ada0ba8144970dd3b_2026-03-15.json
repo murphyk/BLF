@@ -1,0 +1,10 @@
+{
+  "forecast": 0.001,
+  "resolved_to": 0.0,
+  "source": "acled",
+  "id": "430471f6d9fd4cd3fa537e4993c738c07c5a67c71d21094ada0ba8144970dd3b_2026-03-15",
+  "fb_method": "external.Google DeepMind.1",
+  "fb_model": "yellow mouse",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

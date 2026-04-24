@@ -1,0 +1,10 @@
+{
+  "forecast": 0.92,
+  "resolved_to": 1.0,
+  "source": "wikipedia",
+  "id": "558aebef0c3c95c9559e54f27e8fa908da02917d9833abb9a2330d10b1b2b953_2025-10-26",
+  "fb_method": "external.xai.1",
+  "fb_model": "Grok 4.20 (Preview)",
+  "fb_organization": "xAI",
+  "imputed": false
+}

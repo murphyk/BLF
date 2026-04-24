@@ -454,6 +454,34 @@ logit-space James-Stein shrinkage: when trials disagree (high cross-trial
 std), the forecast is pulled toward 0.5. With `"plain-mean"`, the forecast
 is the simple average. See `docs/shrinkage.tex` for the derivation.
 
+### Forecast output layout: `forecasts/` vs `forecasts_final/` {#forecasts-layout}
+
+The pipeline writes to two parallel directories:
+
+| Dir | Contents | Size | Gitignored? |
+|---|---|---|---|
+| `experiments/forecasts/{config}/` | Raw agent output: belief history, tool log, system/question prompts, per-trial files, and a per-config `config.json` | Large (~5–30 KB/file) | **Yes** |
+| `experiments/forecasts_final/{config}/` | Slim JSONs with just the numbers needed for leaderboard + plots + calibration. Question metadata is reconstituted from `data/questions/` at read time | Small (~1 KB/file) | **No** — checked in |
+
+`eval.py` reads `forecasts_final/` by default and falls back to `forecasts/`
+if the slim version is missing. The per-question **dashboard/trace pages**
+always link into `forecasts/` (they need belief history and tool log, which
+the slim version strips).
+
+`forecasts_final/` also hosts **externally-imported FB leaderboard
+forecasts** under directories named `fb-*` (e.g. `fb-cassi-ai-2`,
+`fb-google-deepmind-2`). These come in FB's native minimal format and are
+copied straight through — they don't need slimming.
+
+After a run, produce the slim copies with `finalize.py`:
+
+```bash
+python3 src/core/finalize.py --xid my-xid                          # slim every config in the xid
+python3 src/core/finalize.py --config pro-high-brave-c0-t1         # single config
+python3 src/core/finalize.py --all                                 # every config under forecasts/
+python3 src/core/finalize.py --fb-import ../other-repo/experiments/forecasts  # copy fb-*/ dirs
+```
+
 ### Aggregation variants (optional) {#aggregation}
 
 Pre-compute lightweight aggregation variants for comparison in eval:

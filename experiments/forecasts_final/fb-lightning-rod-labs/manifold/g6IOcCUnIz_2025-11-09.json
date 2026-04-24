@@ -1,0 +1,10 @@
+{
+  "forecast": 0.018,
+  "resolved_to": 0.0,
+  "source": "manifold",
+  "id": "g6IOcCUnIz_2025-11-09",
+  "fb_method": "external.Lightning-Rod-Labs",
+  "fb_model": "Foresight-32B",
+  "fb_organization": "Lightning Rod Labs",
+  "imputed": false
+}

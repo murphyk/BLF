@@ -1,0 +1,10 @@
+{
+  "forecast": 0.005,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0x7cfd30f4f97746310435098e61aef950463ca3ac02997c6a7b506cde13423be4_2025-11-09",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

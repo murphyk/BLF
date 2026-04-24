@@ -1,0 +1,10 @@
+{
+  "forecast": 0.24,
+  "resolved_to": 1.0,
+  "source": "fred",
+  "id": "ECBASSETSW_2025-10-26",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

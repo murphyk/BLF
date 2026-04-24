@@ -1,0 +1,10 @@
+{
+  "forecast": 0.995,
+  "resolved_to": 1.0,
+  "source": "wikipedia",
+  "id": "20efdec28913ecfb1e3a3e26ad2c99e1b4d7ad3f43b5a6202c46f9c277c17406_2025-10-26",
+  "fb_method": "OpenAI.gpt-5-2025-08-07_zero_shot_with_freeze_values",
+  "fb_model": "GPT-5-2025-08-07 (zero shot with freeze values)",
+  "fb_organization": "ForecastBench",
+  "imputed": false
+}

@@ -1,0 +1,10 @@
+{
+  "forecast": 0.4,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0x9f297733ff47d610334d4195c109296df51ec3fac02af7abed55adacd4bddacc_2026-03-15",
+  "fb_method": "external.limeforecast.1",
+  "fb_model": "limeforecast ensemble_crowdadj",
+  "fb_organization": "limeforecast",
+  "imputed": false
+}

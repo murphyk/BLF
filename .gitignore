@@ -3,9 +3,13 @@
 __pycache__/
 *.pyc
 
-# experiments outputs — only xids (manually created) are tracked
+# experiments: only the slim/reproducibility dirs are tracked.
+# Raw per-trial forecasts, traces, eval HTML, progress logs, and
+# generated_prompts are all produced locally and excluded.
 experiments/*
 !experiments/xids/
+!experiments/forecasts_final/
+!experiments/calibration_models/
 
 # time-series and search caches populated at runtime
 data/fb_cache/

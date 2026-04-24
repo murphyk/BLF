@@ -1,0 +1,10 @@
+{
+  "forecast": 0.42,
+  "resolved_to": 0.0,
+  "source": "acled",
+  "id": "c6beb1094ea37b62753907500f55b9c0e6b5258add44477a8a5f7839e2ae22e3_2025-10-26",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

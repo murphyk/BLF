@@ -1,0 +1,10 @@
+{
+  "forecast": 0.72,
+  "resolved_to": 1.0,
+  "source": "wikipedia",
+  "id": "ce43fbbc6a80c2fa7b134080496856a3c4a7dc36b6c9da296af575223d5ab65b_2026-03-15",
+  "fb_method": "external.limeforecast.1",
+  "fb_model": "limeforecast ensemble_crowdadj",
+  "fb_organization": "limeforecast",
+  "imputed": false
+}

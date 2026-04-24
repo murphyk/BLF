@@ -1,0 +1,10 @@
+{
+  "forecast": 0.06,
+  "resolved_to": 0.0,
+  "source": "wikipedia",
+  "id": "d4fd9e41e71c3e5a2992b9c8b36ff655eb7265b7a46a434484f1267eabd59b92_2025-10-26",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

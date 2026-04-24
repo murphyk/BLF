@@ -1,0 +1,10 @@
+{
+  "forecast": 0.045,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0x25a4ea049d3bd46fe71ad8676feef9098bb37cbd9d9336280dd6188a7659813c_2025-11-09",
+  "fb_method": "external.Lightning-Rod-Labs",
+  "fb_model": "Foresight-32B",
+  "fb_organization": "Lightning Rod Labs",
+  "imputed": false
+}

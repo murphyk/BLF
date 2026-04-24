@@ -1,0 +1,18 @@
+{
+  "name": "pro-high-brave-c1-t0-batch5",
+  "llm": "openrouter/google/gemini-3.1-pro-preview",
+  "max_tokens": 16000,
+  "reasoning_effort": "high",
+  "search_engine": "brave",
+  "max_results_per_search": 10,
+  "show_crowd": 1,
+  "backtesting": true,
+  "use_tools": false,
+  "clairvoyant": false,
+  "max_steps": 5,
+  "compact_threshold": 2000,
+  "question_timeout": 300,
+  "agg_method": "std-shrinkage",
+  "batch_queries": 5,
+  "nobelief": false
+}

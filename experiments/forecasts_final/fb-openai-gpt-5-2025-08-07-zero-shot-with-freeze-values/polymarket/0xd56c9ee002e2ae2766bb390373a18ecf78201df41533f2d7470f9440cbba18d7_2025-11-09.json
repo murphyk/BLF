@@ -1,0 +1,10 @@
+{
+  "forecast": 0.007,
+  "resolved_to": 0.0,
+  "source": "polymarket",
+  "id": "0xd56c9ee002e2ae2766bb390373a18ecf78201df41533f2d7470f9440cbba18d7_2025-11-09",
+  "fb_method": "OpenAI.gpt-5-2025-08-07_zero_shot_with_freeze_values",
+  "fb_model": "GPT-5-2025-08-07 (zero shot with freeze values)",
+  "fb_organization": "ForecastBench",
+  "imputed": false
+}

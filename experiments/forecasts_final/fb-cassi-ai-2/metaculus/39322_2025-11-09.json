@@ -1,0 +1,10 @@
+{
+  "forecast": 0.11,
+  "resolved_to": 0.0,
+  "source": "metaculus",
+  "id": "39322_2025-11-09",
+  "fb_method": "external.Cassi-AI.2",
+  "fb_model": "Cassi ensemble_2_crowdadj",
+  "fb_organization": "Cassi-AI",
+  "imputed": false
+}

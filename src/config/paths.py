@@ -36,7 +36,12 @@ FB_CACHE_DIR = os.path.join("data", "fb_cache")
 # ---------------------------------------------------------------------------
 
 XIDS_DIR = os.path.join("experiments", "xids")
+# Raw agent outputs: traces, belief history, tool logs, per-trial files.
+# Written by predict/aggregate/calibrate. Gitignored (big).
 FORECASTS_DIR = os.path.join("experiments", "forecasts")
+# Slim JSONs for leaderboard, plots, calibration, FB-leaderboard imports.
+# Produced by finalize.py. Checked into git (small, reproduces paper plots).
+FORECASTS_FINAL_DIR = os.path.join("experiments", "forecasts_final")
 EVAL_DIR = os.path.join("experiments", "eval")
 CALIBRATION_DIR = os.path.join("experiments", "calibration_models")
 PROMPTS_DIR = os.path.join("experiments", "generated_prompts")
@@ -51,15 +56,40 @@ LEGACY_CONFIGS_DIR = os.path.join("experiments", "configs")
 # ---------------------------------------------------------------------------
 
 def forecast_dir(config_name: str) -> str:
-    """Return the forecast directory for a config: experiments/forecasts/{config}/"""
+    """Return the raw forecast directory for a config: experiments/forecasts/{config}/"""
     return os.path.join(FORECASTS_DIR, config_name)
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Return path to a specific forecast file."""
+    """Return path to a specific raw forecast file (with traces, belief history)."""
     import re
     safe_id = re.sub(r'[/\\:]', '_', str(qid))
     return os.path.join(FORECASTS_DIR, config_name, source, f"{safe_id}.json")
+
+
+def forecast_final_dir(config_name: str) -> str:
+    """Return the slim forecast directory for a config: experiments/forecasts_final/{config}/"""
+    return os.path.join(FORECASTS_FINAL_DIR, config_name)
+
+
+def forecast_final_path(config_name: str, source: str, qid: str) -> str:
+    """Return path to a specific slim forecast file (leaderboard/plots)."""
+    import re
+    safe_id = re.sub(r'[/\\:]', '_', str(qid))
+    return os.path.join(FORECASTS_FINAL_DIR, config_name, source, f"{safe_id}.json")
+
+
+def resolve_forecast_path(config_name: str, source: str, qid: str) -> str:
+    """Return the best available path for reading a forecast.
+
+    Prefers forecasts_final/ (git-tracked slim JSONs). Falls back to
+    forecasts/ (raw) if the slim version is absent — this lets eval work
+    before finalize has run.
+    """
+    final = forecast_final_path(config_name, source, qid)
+    if os.path.exists(final):
+        return final
+    return forecast_path(config_name, source, qid)
 
 
 def eval_dir(xid: str) -> str:

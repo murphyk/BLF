@@ -1,0 +1,10 @@
+{
+  "forecast": 0.1673,
+  "resolved_to": 0.0,
+  "source": "infer",
+  "id": "1680_2026-03-15",
+  "fb_method": "external.Google DeepMind.2",
+  "fb_model": "green tree",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

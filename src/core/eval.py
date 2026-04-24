@@ -136,8 +136,12 @@ def load_exam(exam_name: str) -> dict[str, list[str]]:
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    safe_id = re.sub(r'[/\\:]', '_', str(qid))
-    return os.path.join("experiments", "forecasts", config_name, source, f"{safe_id}.json")
+    """Preferred read path for leaderboard/plots: forecasts_final/ first, then forecasts/.
+
+    Dashboard/trace pages bypass this and hit experiments/forecasts/{...} directly.
+    """
+    from config.paths import resolve_forecast_path
+    return resolve_forecast_path(config_name, source, qid)
 
 
 def _esc(text):
@@ -282,28 +286,50 @@ def load_and_score(config_name: str, exam: dict[str, list[str]],
             else:
                 scores = {m: compute_score(p, outcome, m) for m in metrics
                           if m in SCORING_FUNCTIONS}
-            tool_log = fc.get("tool_log", [])
-            n_searches = sum(1 for e in tool_log
-                             if e.get("type") == "tool_call" and e.get("tool") == "web_search")
-            tool_counts = {}
-            for e in tool_log:
-                if e.get("type") == "tool_call":
-                    t = e.get("tool", "unknown")
-                    tool_counts[t] = tool_counts.get(t, 0) + 1
+            # Slim forecasts store precomputed tool_counts/n_searches; raw ones
+            # include the full tool_log and we compute them on the fly.
+            if "tool_counts" in fc or "n_searches" in fc:
+                tool_counts = fc.get("tool_counts", {}) or {}
+                n_searches = fc.get("n_searches", 0) or 0
+            else:
+                tool_log = fc.get("tool_log", [])
+                n_searches = sum(1 for e in tool_log
+                                 if e.get("type") == "tool_call" and e.get("tool") == "web_search")
+                tool_counts = {}
+                for e in tool_log:
+                    if e.get("type") == "tool_call":
+                        t = e.get("tool", "unknown")
+                        tool_counts[t] = tool_counts.get(t, 0) + 1
+            # Slim forecasts strip question metadata — reconstitute from
+            # data/questions/{source}/{id}.json when fields are missing.
+            q = {}
+            missing_meta = any(k not in fc for k in
+                               ("question", "background", "resolution_criteria", "url"))
+            if missing_meta:
+                qpath = os.path.join("data", "questions", source,
+                                     re.sub(r'[/\\:]', '_', str(qid)) + ".json")
+                if os.path.exists(qpath):
+                    with open(qpath) as qf:
+                        q = json.load(qf)
+
+            def _mf(key, default=""):
+                """Prefer forecast file, fall back to question file."""
+                return fc[key] if key in fc else q.get(key, default)
+
             results[(source, qid)] = {
                 "id": fc.get("id", "?"),
                 "source": source,
                 "qid": qid,
-                "question": fc.get("question", ""),
-                "background": fc.get("background", ""),
-                "resolution_criteria": fc.get("resolution_criteria", ""),
-                "resolution_date": fc.get("resolution_date", ""),
-                "resolution_dates": fc.get("resolution_dates", []),
-                "forecast_due_date": fc.get("forecast_due_date", ""),
-                "url": fc.get("url", ""),
+                "question": _mf("question"),
+                "background": _mf("background"),
+                "resolution_criteria": _mf("resolution_criteria"),
+                "resolution_date": _mf("resolution_date"),
+                "resolution_dates": _mf("resolution_dates", []),
+                "forecast_due_date": _mf("forecast_due_date"),
+                "url": _mf("url"),
                 "forecast": p,
                 "forecasts": fc.get("forecasts"),
-                "resolved_to": fc.get("resolved_to"),
+                "resolved_to": _mf("resolved_to", None),
                 "outcome": outcome,
                 "n_steps": fc.get("n_steps", 0),
                 "submitted": fc.get("submitted", False),

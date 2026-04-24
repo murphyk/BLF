@@ -1,0 +1,10 @@
+{
+  "forecast": 0.5181,
+  "resolved_to": 1.0,
+  "source": "yfinance",
+  "id": "NEE_2025-10-26",
+  "fb_method": "external.xai.1",
+  "fb_model": "Grok 4.20 (Preview)",
+  "fb_organization": "xAI",
+  "imputed": false
+}

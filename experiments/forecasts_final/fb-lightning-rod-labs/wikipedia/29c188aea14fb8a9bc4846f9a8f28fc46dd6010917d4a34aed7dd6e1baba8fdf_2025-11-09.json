@@ -1,0 +1,10 @@
+{
+  "forecast": 0.02,
+  "resolved_to": 0.0,
+  "source": "wikipedia",
+  "id": "29c188aea14fb8a9bc4846f9a8f28fc46dd6010917d4a34aed7dd6e1baba8fdf_2025-11-09",
+  "fb_method": "external.Lightning-Rod-Labs",
+  "fb_model": "Foresight-32B",
+  "fb_organization": "Lightning Rod Labs",
+  "imputed": false
+}

@@ -1,0 +1,10 @@
+{
+  "forecast": 0.99,
+  "resolved_to": 1.0,
+  "source": "wikipedia",
+  "id": "274e2a09f7060b8ea234c1d6a91ec3e43b523a2911042a8696ac2b42fc531ca8_2026-03-15",
+  "fb_method": "external.Google DeepMind.1",
+  "fb_model": "yellow mouse",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

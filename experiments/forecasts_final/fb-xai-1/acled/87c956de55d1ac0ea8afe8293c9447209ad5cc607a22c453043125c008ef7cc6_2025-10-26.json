@@ -1,0 +1,10 @@
+{
+  "forecast": 0.4012,
+  "resolved_to": 0.0,
+  "source": "acled",
+  "id": "87c956de55d1ac0ea8afe8293c9447209ad5cc607a22c453043125c008ef7cc6_2025-10-26",
+  "fb_method": "external.xai.1",
+  "fb_model": "Grok 4.20 (Preview)",
+  "fb_organization": "xAI",
+  "imputed": false
+}

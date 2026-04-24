@@ -1,0 +1,10 @@
+{
+  "forecast": 0.755,
+  "resolved_to": 1.0,
+  "source": "dbnomics",
+  "id": "meteofrance_TEMPERATURE_celsius.07149.D_2026-03-15",
+  "fb_method": "external.Google DeepMind.1",
+  "fb_model": "yellow mouse",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

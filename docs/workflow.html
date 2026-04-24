@@ -623,6 +623,46 @@ are aggregated into a single forecast using the method specified by
 logit-space James-Stein shrinkage: when trials disagree (high cross-trial
 std), the forecast is pulled toward 0.5. With <code>"plain-mean"</code>, the forecast
 is the simple average. See <code>docs/shrinkage.tex</code> for the derivation.</p>
+<h3 id="forecasts-layout">Forecast output layout: <code>forecasts/</code> vs <code>forecasts_final/</code></h3>
+<p>The pipeline writes to two parallel directories:</p>
+<table>
+<thead>
+<tr>
+<th>Dir</th>
+<th>Contents</th>
+<th>Size</th>
+<th>Gitignored?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>experiments/forecasts/{config}/</code></td>
+<td>Raw agent output: belief history, tool log, system/question prompts, per-trial files, and a per-config <code>config.json</code></td>
+<td>Large (~5–30 KB/file)</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td><code>experiments/forecasts_final/{config}/</code></td>
+<td>Slim JSONs with just the numbers needed for leaderboard + plots + calibration. Question metadata is reconstituted from <code>data/questions/</code> at read time</td>
+<td>Small (~1 KB/file)</td>
+<td><strong>No</strong> — checked in</td>
+</tr>
+</tbody>
+</table>
+<p><code>eval.py</code> reads <code>forecasts_final/</code> by default and falls back to <code>forecasts/</code>
+if the slim version is missing. The per-question <strong>dashboard/trace pages</strong>
+always link into <code>forecasts/</code> (they need belief history and tool log, which
+the slim version strips).</p>
+<p><code>forecasts_final/</code> also hosts <strong>externally-imported FB leaderboard
+forecasts</strong> under directories named <code>fb-*</code> (e.g. <code>fb-cassi-ai-2</code>,
+<code>fb-google-deepmind-2</code>). These come in FB's native minimal format and are
+copied straight through — they don't need slimming.</p>
+<p>After a run, produce the slim copies with <code>finalize.py</code>:</p>
+<pre><code class="language-bash">python3 src/core/finalize.py --xid my-xid                          # slim every config in the xid
+python3 src/core/finalize.py --config pro-high-brave-c0-t1         # single config
+python3 src/core/finalize.py --all                                 # every config under forecasts/
+python3 src/core/finalize.py --fb-import ../other-repo/experiments/forecasts  # copy fb-*/ dirs
+</code></pre>
 <h3 id="aggregation">Aggregation variants (optional)</h3>
 <p>Pre-compute lightweight aggregation variants for comparison in eval:</p>
 <pre><code class="language-bash">python3 src/core/aggregate.py --xid my-xid

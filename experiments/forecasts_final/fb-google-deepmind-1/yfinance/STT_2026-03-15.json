@@ -1,0 +1,10 @@
+{
+  "forecast": 0.52,
+  "resolved_to": 1.0,
+  "source": "yfinance",
+  "id": "STT_2026-03-15",
+  "fb_method": "external.Google DeepMind.1",
+  "fb_model": "yellow mouse",
+  "fb_organization": "Google DeepMind",
+  "imputed": false
+}

@@ -1,0 +1,10 @@
+{
+  "forecast": 0.285,
+  "resolved_to": 0.0,
+  "source": "fred",
+  "id": "DGS6MO_2025-10-26",
+  "fb_method": "external.xai.1",
+  "fb_model": "Grok 4.20 (Preview)",
+  "fb_organization": "xAI",
+  "imputed": false
+}

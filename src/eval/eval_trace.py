@@ -87,7 +87,13 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                     fc = json.load(f)
                 if _resolve_outcome(fc.get("resolved_to")) is None:
                     continue
+                # Slim forecasts (from forecasts_final/) lack belief_history
+                # and tool_log — skip trace generation since there's nothing
+                # to visualize.
+                if not fc.get("belief_history") and not fc.get("tool_log"):
+                    continue
                 source_dir = os.path.join("experiments", "forecasts", config_name, source)
+                os.makedirs(source_dir, exist_ok=True)
                 _render_detail_page(fc, config_name, source, safe_id, source_dir)
                 n += 1
 
