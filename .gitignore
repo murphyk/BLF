@@ -6,3 +6,6 @@ __pycache__/
 # experiments outputs — only xids (manually created) are tracked
 experiments/*
 !experiments/xids/
+
+# time-series and search caches populated at runtime
+data/fb_cache/
