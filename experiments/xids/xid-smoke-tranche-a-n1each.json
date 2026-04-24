@@ -1,0 +1,14 @@
+{
+  "exam": "tranche-a-n1each",
+  "config": [
+    "flash/thk:high/crowd:1/tools:1"
+  ],
+  "metric": [
+    "brier-index",
+    "metaculus-score"
+  ],
+  "groups": [
+    "Qsource",
+    "overall"
+  ]
+}

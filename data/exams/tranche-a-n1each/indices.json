@@ -1,0 +1,29 @@
+{
+  "acled": [
+    "8b2f4815aef61f9a0b81fce8bbc17136c8e6487509ceb57fcb3a54dff30b17f1_2025-10-26"
+  ],
+  "dbnomics": [
+    "meteofrance_TEMPERATURE_celsius.07535.D_2025-10-26"
+  ],
+  "fred": [
+    "DTB6_2025-10-26"
+  ],
+  "infer": [
+    "1563_2025-10-26"
+  ],
+  "manifold": [
+    "Zn0R05lcyR_2025-10-26"
+  ],
+  "metaculus": [
+    "39771_2025-10-26"
+  ],
+  "polymarket": [
+    "0x310c3d08f015157ec78e04f3f4fefed659b5e2bd88ae80cb38ff27ef970c39bd_2025-10-26"
+  ],
+  "wikipedia": [
+    "af60e8d92ed933ab2a234879f7d583ea3db3c72b09f47d76fe5d6d3b7f3d09ff_2025-10-26"
+  ],
+  "yfinance": [
+    "MU_2025-10-26"
+  ]
+}
