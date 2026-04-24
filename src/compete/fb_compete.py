@@ -20,7 +20,7 @@ Steps:
 
     3. predict.py --live --exam {date} --config {config} [--ntrials N]
        Runs the agentic forecaster on all questions.
-       Results go to results/forecasts/{config}/{source}/{id}.json.
+       Results go to experiments/forecasts_raw/{config}/{source}/{id}.json.
 
     4. Assemble submission JSON
        Expands dataset questions to one entry per resolution_date, strips the
@@ -86,7 +86,7 @@ def load_forecasts(config, exam):
     for source, ids in exam.items():
         for qid in ids:
             safe_id = re.sub(r'[/\\:]', '_', str(qid))
-            path = os.path.join("experiments", "forecasts", config, source, f"{safe_id}.json")
+            path = os.path.join("experiments", "forecasts_raw", config, source, f"{safe_id}.json")
             if not os.path.exists(path):
                 continue
             with open(path) as f:

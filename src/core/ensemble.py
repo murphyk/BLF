@@ -11,7 +11,7 @@ Usage:
 
 Arguments:
     --exam          Exam name (reads experiments/exams/{name}/indices.json)
-    --out           Output config name written to results/forecasts/{out}/
+    --out           Output config name written to experiments/forecasts_raw/{out}/
     --candidates    Comma-separated config names to consider (default: auto-discover
                     all configs that have forecasts for the exam)
     --k             Max ensemble members (default: 5)
@@ -19,8 +19,8 @@ Arguments:
     --cv            CV folds for calibration (default: 5)
 
 Output:
-    results/forecasts/{out}/{source}/{id}.json           Averaged forecasts
-    results/forecasts/{out}_calibrated/{source}/{id}.json (if --calibrate)
+    experiments/forecasts_raw/{out}/{source}/{id}.json           Averaged forecasts
+    experiments/forecasts_raw/{out}_calibrated/{source}/{id}.json (if --calibrate)
     experiments/ensembles/{out}.json                      Ensemble definition
                                                           (selected members, exam, n)
 
@@ -56,9 +56,9 @@ def load_exam(exam_name: str) -> dict[str, list[str]]:
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Build forecast path: results/forecasts/{config}/{source}/{id}.json."""
+    """Build forecast path: experiments/forecasts_raw/{config}/{source}/{id}.json."""
     safe_id = re.sub(r'[/\\:]', '_', str(qid))
-    return os.path.join("experiments", "forecasts", config_name, source, f"{safe_id}.json")
+    return os.path.join("experiments", "forecasts_raw", config_name, source, f"{safe_id}.json")
 
 
 # ---------------------------------------------------------------------------
@@ -87,7 +87,7 @@ def load_method_forecasts(config_name: str,
 
 def discover_candidates(exam: dict[str, list[str]]) -> list[str]:
     """Auto-discover all config names that have any forecasts for the exam."""
-    forecasts_dir = os.path.join("experiments", "forecasts")
+    forecasts_dir = os.path.join("experiments", "forecasts_raw")
     if not os.path.isdir(forecasts_dir):
         return []
     candidates = []
@@ -180,7 +180,7 @@ def greedy_select(method_forecasts: dict[str, dict[tuple, dict]],
 def write_ensemble(ensemble_name: str,
                    members: list[str],
                    method_forecasts: dict[str, dict[tuple, dict]]) -> int:
-    """Average forecasts from selected members, write to results/forecasts/{ensemble_name}/.
+    """Average forecasts from selected members, write to experiments/forecasts_raw/{ensemble_name}/.
 
     Returns number of questions written.
     """
@@ -223,7 +223,7 @@ def write_ensemble(ensemble_name: str,
             json.dump(ensemble_fc, f, indent=2)
         n_written += 1
 
-    print(f"  Wrote {n_written} ensemble forecasts → results/forecasts/{ensemble_name}/")
+    print(f"  Wrote {n_written} ensemble forecasts → experiments/forecasts_raw/{ensemble_name}/")
     return n_written
 
 
@@ -237,10 +237,10 @@ def main():
     parser.add_argument("--exam", required=True,
                         help="Exam name (experiments/exams/{name}/indices.json)")
     parser.add_argument("--out", required=True,
-                        help="Output config name (results/forecasts/{out}/)")
+                        help="Output config name (experiments/forecasts_raw/{out}/)")
     parser.add_argument("--candidates", default=None,
                         help="Comma-separated config names to consider "
-                             "(default: auto-discover from results/forecasts/)")
+                             "(default: auto-discover from experiments/forecasts_raw/)")
     parser.add_argument("--k", type=int, default=5,
                         help="Max ensemble members (default: 5, stops early if score worsens)")
     parser.add_argument("--calibrate", action="store_true",
@@ -257,7 +257,7 @@ def main():
     else:
         candidate_names = discover_candidates(exam)
         if not candidate_names:
-            sys.exit("ERROR: no configs found in results/forecasts/ — "
+            sys.exit("ERROR: no configs found in experiments/forecasts_raw/ — "
                      "run predict.py first or specify --candidates")
 
     print(f"Greedy ensemble (k≤{args.k})")
@@ -311,7 +311,7 @@ def main():
         cv_label = "LOO" if args.cv.lower() == "loo" else f"{cv_k}-fold"
         print(f"\nCalibrating ensemble ({cv_label} CV):")
         n_cal = calibrate_config(args.out, exam, k=cv_k)
-        print(f"  {n_cal} calibrated forecasts → results/forecasts/{args.out}_calibrated/")
+        print(f"  {n_cal} calibrated forecasts → experiments/forecasts_raw/{args.out}_calibrated/")
 
     print(f"\nDone: {n} ensemble forecasts written")
     print(f"  Run eval with this config name: {args.out}")

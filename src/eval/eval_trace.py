@@ -15,14 +15,14 @@ from core.eval import _resolve_outcome, _esc, forecast_path
 def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
     """Generate per-question HTML detail pages for a config.
 
-    For single-trial: renders results/forecasts/{config}/{source}/{id}_trace.html
+    For single-trial: renders experiments/forecasts_raw/{config}/{source}/{id}_trace.html
     For multi-trial: renders per-trial traces and a summary page linking them.
     """
     import glob as _glob
 
     # Discover trials
     trial_dirs = sorted(_glob.glob(
-        os.path.join("experiments", "forecasts", config_name, "trial_*")))
+        os.path.join("experiments", "forecasts_raw", config_name, "trial_*")))
     trial_nums = []
     for d in trial_dirs:
         m = re.match(r'.*trial_(\d+)$', d)
@@ -38,7 +38,7 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                 # Multi-trial: render each trial trace, then summary
                 trial_fcs = []
                 for t in trial_nums:
-                    trial_path = os.path.join("experiments", "forecasts", config_name,
+                    trial_path = os.path.join("experiments", "forecasts_raw", config_name,
                                               f"trial_{t}", source, f"{safe_id}.json")
                     if not os.path.exists(trial_path):
                         continue
@@ -46,7 +46,7 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                         tfc = json.load(f)
                     if _resolve_outcome(tfc.get("resolved_to")) is None:
                         continue
-                    trial_dir = os.path.join("experiments", "forecasts", config_name,
+                    trial_dir = os.path.join("experiments", "forecasts_raw", config_name,
                                             f"trial_{t}", source)
                     _render_detail_page(tfc, f"{config_name}/trial_{t}",
                                        source, safe_id, trial_dir)
@@ -55,12 +55,12 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                 if not trial_fcs:
                     # Fall back to single-trial mode for this question
                     # (happens when trial dirs exist for other sources but not this one)
-                    base_path = os.path.join("experiments", "forecasts", config_name,
+                    base_path = os.path.join("experiments", "forecasts_raw", config_name,
                                              source, f"{safe_id}.json")
                     if os.path.exists(base_path):
                         with open(base_path) as f:
                             fc = json.load(f)
-                        source_dir = os.path.join("experiments", "forecasts",
+                        source_dir = os.path.join("experiments", "forecasts_raw",
                                                    config_name, source)
                         _render_detail_page(fc, config_name, source, safe_id, source_dir)
                         n += 1
@@ -74,7 +74,7 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                 else:
                     avg_fc = trial_fcs[0][1]
 
-                source_dir = os.path.join("experiments", "forecasts", config_name, source)
+                source_dir = os.path.join("experiments", "forecasts_raw", config_name, source)
                 _render_trial_summary_page(avg_fc, trial_fcs, config_name,
                                            source, safe_id, source_dir)
                 n += 1
@@ -92,7 +92,7 @@ def generate_detail_pages(config_name: str, exam: dict[str, list[str]]):
                 # to visualize.
                 if not fc.get("belief_history") and not fc.get("tool_log"):
                     continue
-                source_dir = os.path.join("experiments", "forecasts", config_name, source)
+                source_dir = os.path.join("experiments", "forecasts_raw", config_name, source)
                 os.makedirs(source_dir, exist_ok=True)
                 _render_detail_page(fc, config_name, source, safe_id, source_dir)
                 n += 1

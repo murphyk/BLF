@@ -7,7 +7,7 @@ Usage:
     python3 src/predict.py --exam my_exam --config a,b,c --live  # include unresolved
 
 Reads questions from data/questions/{source}/{id}.json via exam indices.
-Output goes to results/forecasts/{config_name}/{source}/{id}.json.
+Output goes to experiments/forecasts_raw/{config_name}/{source}/{id}.json.
 Multiple configs are run in parallel (--config a,b,c).
 """
 
@@ -88,9 +88,9 @@ def load_questions_from_exam(exam: dict[str, list[str]]) -> list[dict]:
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Build output path: results/forecasts/{config}/{source}/{id}.json."""
+    """Build output path: experiments/forecasts_raw/{config}/{source}/{id}.json."""
     safe_id = re.sub(r'[/\\:]', '_', str(qid))
-    return os.path.join("experiments", "forecasts", config_name, source, f"{safe_id}.json")
+    return os.path.join("experiments", "forecasts_raw", config_name, source, f"{safe_id}.json")
 
 
 # ---------------------------------------------------------------------------
@@ -527,7 +527,7 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
         # Collect forecasts from all trials
         trial_fcs = []
         for t in range(1, ntrials + 1):
-            path = os.path.join("experiments", "forecasts", config_name,
+            path = os.path.join("experiments", "forecasts_raw", config_name,
                                 f"trial_{t}", source, f"{safe_id}.json")
             if not os.path.exists(path):
                 continue
@@ -582,7 +582,7 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
             "forecasts": {t: fc["forecast"] for t, fc in trial_fcs},
         }
 
-        out_path = os.path.join("experiments", "forecasts", config_name,
+        out_path = os.path.join("experiments", "forecasts_raw", config_name,
                                 source, f"{safe_id}.json")
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w") as f:
@@ -602,7 +602,7 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
             source = q.get("source", "unknown")
             qid = q.get("id", "unknown")
             safe_id = re.sub(r'[/\\:]', '_', str(qid))
-            path = os.path.join("experiments", "forecasts", config_name,
+            path = os.path.join("experiments", "forecasts_raw", config_name,
                                 f"trial_{t}", source, f"{safe_id}.json")
             if not os.path.exists(path):
                 continue
@@ -634,7 +634,7 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
         "n_questions": n_written,
         "trial_scores": trial_scores,
     }
-    meta_path = os.path.join("experiments", "forecasts", config_name, "meta.json")
+    meta_path = os.path.join("experiments", "forecasts_raw", config_name, "meta.json")
     with open(meta_path, "w") as f:
         json.dump(meta, f, indent=2)
 
@@ -661,12 +661,12 @@ def run_one_config(config: AgentConfig, questions: list[dict],
                    agg_method: str = "plain-mean") -> tuple[str, int, int]:
     """Run a config on all questions (possibly multiple trials). Returns (config_name, n_ok, n_fail).
 
-    ntrials=1: writes to results/forecasts/{config.name}/{source}/{id}.json
-    ntrials>1: writes each trial to results/forecasts/{config.name}/trial_{t}/{source}/{id}.json
-               then averages into results/forecasts/{config.name}/{source}/{id}.json
+    ntrials=1: writes to experiments/forecasts_raw/{config.name}/{source}/{id}.json
+    ntrials>1: writes each trial to experiments/forecasts_raw/{config.name}/trial_{t}/{source}/{id}.json
+               then averages into experiments/forecasts_raw/{config.name}/{source}/{id}.json
     """
     # Save full config (with ntrials) at the top level for reproducibility
-    top_dir = os.path.join("experiments", "forecasts", config.name)
+    top_dir = os.path.join("experiments", "forecasts_raw", config.name)
     os.makedirs(top_dir, exist_ok=True)
     full_config = config.to_dict()
     full_config["ntrials"] = ntrials
@@ -850,7 +850,7 @@ def main():
         import shutil
         n_deleted = 0
         for cfg in configs:
-            base = os.path.join("experiments", "forecasts", cfg.name)
+            base = os.path.join("experiments", "forecasts_raw", cfg.name)
             for source, ids in exam.items():
                 for qid in ids:
                     safe_id = re.sub(r'[/\\:]', '_', str(qid))

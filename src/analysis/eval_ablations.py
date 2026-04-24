@@ -53,7 +53,7 @@ def _load_trial_data(config, exam, ntrials):
             outcome = None
             trial_forecasts = {}
             for t in range(1, ntrials + 1):
-                path = os.path.join("experiments", "forecasts", config,
+                path = os.path.join("experiments", "forecasts_raw", config,
                                     f"trial_{t}", source, f"{safe_id}.json")
                 if not os.path.exists(path):
                     continue
@@ -343,7 +343,7 @@ def main():
     results = {}
     for config in configs:
         # Discover ntrials
-        trial_dirs = glob.glob(os.path.join("experiments", "forecasts", config, "trial_*"))
+        trial_dirs = glob.glob(os.path.join("experiments", "forecasts_raw", config, "trial_*"))
         ntrials = len(trial_dirs)
         if ntrials == 0:
             print(f"  [{config}] no trials, skipping")

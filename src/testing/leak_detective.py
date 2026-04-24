@@ -445,7 +445,7 @@ def scan_config(config_name: str, exam: dict,
 
     Returns (leaks, counts) where counts = {kept_clean, kept_leak, rej_clean, rej_leak}.
     """
-    base = os.path.join("experiments", "forecasts", config_name)
+    base = os.path.join("experiments", "forecasts_raw", config_name)
     trial_dirs = sorted(glob.glob(os.path.join(base, "trial_*")))
     trial_dirs.append(base)
 
@@ -760,7 +760,7 @@ def main():
     n_reasoning_total = 0
     # Count total reasoning traces checked (leaks + clean)
     for cfg in config_names:
-        base = os.path.join("experiments", "forecasts", cfg)
+        base = os.path.join("experiments", "forecasts_raw", cfg)
         trial_dirs = sorted(glob.glob(os.path.join(base, "trial_*")))
         trial_dirs.append(base)
         for td in trial_dirs:

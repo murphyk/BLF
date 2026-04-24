@@ -25,7 +25,7 @@ sys.path.insert(0, _os.path.join(_os.path.dirname(__file__), ".."))
 import numpy as np
 
 
-FORECAST_DIR = "experiments/forecasts"
+FORECAST_DIR = "experiments/forecasts_raw"
 
 
 def find_configs_with_trials():

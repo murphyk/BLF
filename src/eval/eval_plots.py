@@ -434,16 +434,14 @@ def generate_metric_vs_std_scatter(output_dir: str, config: str,
         v = rec[metric]
         if isinstance(v, float) and math.isnan(v):
             continue
-        # Get trial_stats from the forecast file
-        fc_path = forecast_path(config, key[0], key[1])
-        if not os.path.exists(fc_path):
+        # raw_trials on the score record is list[list[float]] (outer = res_dates).
+        # Flatten and compute cross-trial std for the first resolution.
+        rt_outer = rec.get("raw_trials") or []
+        rt = rt_outer[0] if rt_outer and isinstance(rt_outer[0], list) else rt_outer
+        if len(rt) <= 1:
             continue
-        with open(fc_path) as f:
-            fc = json.load(f)
-        ts = fc.get("trial_stats")
-        if not ts or ts.get("n_trials", 1) <= 1:
-            continue
-        std = ts.get("std", 0)
+        mean = sum(rt) / len(rt)
+        std = (sum((p - mean) ** 2 for p in rt) / len(rt)) ** 0.5
         xs.append(std)
         ys.append(v)
         p = rec.get("forecast", 0.5)
@@ -520,22 +518,15 @@ def generate_metric_vs_ntrials(output_dir: str, config: str,
     # Collect per-question trial forecasts and outcomes
     questions = []  # list of (outcome, {trial_num: forecast})
     for key, rec in scores.items():
-        fc_path = forecast_path(config, key[0], key[1])
-        if not os.path.exists(fc_path):
-            continue
-        with open(fc_path) as f:
-            fc = json.load(f)
-        ts = fc.get("trial_stats")
-        if not ts or ts.get("n_trials", 1) <= 1:
+        rt_outer = rec.get("raw_trials") or []
+        rt = rt_outer[0] if rt_outer and isinstance(rt_outer[0], list) else rt_outer
+        if len(rt) < 2:
             continue
         outcome = rec.get("outcome")
         if outcome is None:
             continue
-        trial_forecasts = ts.get("forecasts", {})
-        # Convert string keys to int
-        trial_forecasts = {int(t): p for t, p in trial_forecasts.items()}
-        if len(trial_forecasts) >= 2:
-            questions.append((outcome, trial_forecasts))
+        trial_forecasts = {i + 1: p for i, p in enumerate(rt)}
+        questions.append((outcome, trial_forecasts))
 
     if not questions:
         return None
@@ -699,19 +690,13 @@ def generate_metric_vs_questions(output_dir: str, config: str,
     # Collect per-question trial data
     q_data = []  # (q_text, mean_trial_score, [trial_scores], avg_predictor_score)
     for key, rec in scores.items():
-        fc_path = forecast_path(config, key[0], key[1])
-        if not os.path.exists(fc_path):
-            continue
-        with open(fc_path) as f:
-            fc = json.load(f)
-        ts = fc.get("trial_stats")
-        if not ts or ts.get("n_trials", 1) <= 1:
+        rt_outer = rec.get("raw_trials") or []
+        trial_ps = rt_outer[0] if rt_outer and isinstance(rt_outer[0], list) else rt_outer
+        if len(trial_ps) < 2:
             continue
         outcome = rec.get("outcome")
         if outcome is None:
             continue
-        trial_fcs = ts.get("forecasts", {})
-        trial_ps = list(trial_fcs.values())
         trial_scores = [score_fn(p, outcome) for p in trial_ps]
         if not trial_scores:
             continue

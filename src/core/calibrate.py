@@ -14,8 +14,8 @@ The xid must have "exam" and either "calibrate" or "config" fields.
 If "calibrate" is missing, falls back to "config".
 Optional "calibrate-cv" field in xid (defaults to 3).
 
-Reads from results/forecasts/{config}/{source}/{id}.json
-Writes to results/forecasts/{config}_calibrated/{source}/{id}.json
+Reads from experiments/forecasts_raw/{config}/{source}/{id}.json
+Writes to experiments/forecasts_raw/{config}_calibrated/{source}/{id}.json
 """
 
 import argparse
@@ -168,7 +168,7 @@ def load_exam(exam_name: str) -> dict[str, list[str]]:
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
     safe_id = re.sub(r'[/\\:]', '_', str(qid))
-    return os.path.join("experiments", "forecasts", config_name, source, f"{safe_id}.json")
+    return os.path.join("experiments", "forecasts_raw", config_name, source, f"{safe_id}.json")
 
 
 # ---------------------------------------------------------------------------
@@ -349,7 +349,7 @@ def calibrate_config(config_name: str, exam: dict[str, list[str]],
         cal_fn = lambda p: p
 
     n_written = _write_calibrated(records, calibrated, out_config, cal_fn)
-    print(f"  Calibrated {n_written} forecasts -> experiments/forecasts/{out_config}/")
+    print(f"  Calibrated {n_written} forecasts -> experiments/forecasts_raw/{out_config}/")
     return n_written
 
 
@@ -448,7 +448,7 @@ def calibrate_config_hierarchical(config_name: str, exam: dict[str, list[str]],
             json.dump(fc, f_out, indent=2)
         n_written += 1
 
-    print(f"  Calibrated {n_written} forecasts -> experiments/forecasts/{out_config}/")
+    print(f"  Calibrated {n_written} forecasts -> experiments/forecasts_raw/{out_config}/")
     return n_written
 
 
@@ -463,7 +463,7 @@ def fit_and_save_model(config_name: str, exam: dict[str, list[str]],
                        model_name: str) -> dict | None:
     """Fit Platt scaling on ALL data (no CV) and save model params.
 
-    Reads from results/forecasts/{config_name}/{source}/{id}.json.
+    Reads from experiments/forecasts_raw/{config_name}/{source}/{id}.json.
     Saves to experiments/calibration_models/{model_name}/{config_name}.json.
     """
     records = []
@@ -507,8 +507,8 @@ def apply_saved_model(config_name: str, exam: dict[str, list[str]],
     """Apply a previously saved calibration model to forecasts.
 
     Reads model from experiments/calibration_models/{model_name}/{config_name}.json.
-    Reads forecasts from results/forecasts/{config_name}/{source}/{id}.json.
-    Writes to results/forecasts/{config_name}_calibrated/{source}/{id}.json.
+    Reads forecasts from experiments/forecasts_raw/{config_name}/{source}/{id}.json.
+    Writes to experiments/forecasts_raw/{config_name}_calibrated/{source}/{id}.json.
 
     Does NOT require resolved_to (works on unlabeled test data).
     """
@@ -549,7 +549,7 @@ def apply_saved_model(config_name: str, exam: dict[str, list[str]],
             n_written += 1
 
     print(f"  Applied model to {n_written} forecasts -> "
-          f"experiments/forecasts/{out_config}/")
+          f"experiments/forecasts_raw/{out_config}/")
     return n_written
 
 

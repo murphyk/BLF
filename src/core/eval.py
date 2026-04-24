@@ -7,7 +7,7 @@ Usage:
 The xid must have "eval" (or fallback to "config"), "exam", and "metric" fields.
 Optional "group" field defines source groupings for the leaderboard.
 
-Reads from results/forecasts/{config}/{source}/{id}.json
+Reads from experiments/forecasts_raw/{config}/{source}/{id}.json
 Generates in experiments/eval/{xid}/:
     leaderboard.html              (grouped leaderboard)
     dashboard.html                (per-question table)
@@ -136,12 +136,13 @@ def load_exam(exam_name: str) -> dict[str, list[str]]:
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Preferred read path for leaderboard/plots: forecasts_final/ first, then forecasts/.
+    """Path to the raw per-question forecast — used only by trace/dashboard code.
 
-    Dashboard/trace pages bypass this and hit experiments/forecasts/{...} directly.
+    Leaderboard and plots read from experiments/forecasts_final/{date}/
+    {config}.json via core.eval.load_final_index.
     """
-    from config.paths import resolve_forecast_path
-    return resolve_forecast_path(config_name, source, qid)
+    from config.paths import forecast_path as _raw_path
+    return _raw_path(config_name, source, qid)
 
 
 def _esc(text):
@@ -220,127 +221,143 @@ def parse_config_ref(config_ref: str) -> tuple[str, str | None]:
     return config_ref, None
 
 
+_DATE_SUFFIX_RE = re.compile(r"_(\d{4}-\d{2}-\d{2})$")
+
+def _strip_date_suffix(qid: str) -> tuple[str, str]:
+    """Given an exam qid like 'abc...f790a_2025-10-26', return (base_id, date)."""
+    m = _DATE_SUFFIX_RE.search(qid)
+    if m:
+        return qid[:m.start()], m.group(1)
+    return qid, ""
+
+
+# ---------------------------------------------------------------------------
+# Final (collated) forecast loading
+# ---------------------------------------------------------------------------
+
+from config.paths import FORECASTS_FINAL_DIR as _FINAL_DIR  # noqa: E402
+
+
+_index_cache: dict[str, dict[tuple[str, str], list[dict]]] = {}
+
+
+def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
+    """Load every forecasts_final/{date}/{config_name}.json and index by (source, base_id).
+
+    Each map value is a list of entries (multi-resolution questions have one
+    entry per resolution_date). Cached per-config for the life of the process.
+    """
+    if config_name in _index_cache:
+        return _index_cache[config_name]
+
+    idx: dict[tuple[str, str], list[dict]] = {}
+    if os.path.isdir(_FINAL_DIR):
+        for date_dir in sorted(os.listdir(_FINAL_DIR)):
+            p = os.path.join(_FINAL_DIR, date_dir, f"{config_name}.json")
+            if not os.path.isfile(p):
+                continue
+            with open(p) as f:
+                payload = json.load(f)
+            for e in payload.get("forecasts", []):
+                # Strip any forecast_due_date suffix so our legacy ids (with
+                # _{date} appended) match the naked base-id shape FB uses.
+                raw_id = str(e.get("id", ""))
+                base_id, _ = _strip_date_suffix(raw_id)
+                idx.setdefault((e.get("source", ""), base_id), []).append(e)
+    _index_cache[config_name] = idx
+    return idx
+
+
 def load_and_score(config_name: str, exam: dict[str, list[str]],
                    metrics: list[str]) -> dict[str, dict]:
     """Load forecasts for a config across all exam questions and compute scores.
 
-    config_name can be:
-      - "pro-high" — use the main forecast value
-      - "pro-high[mean:1]" — use pre-computed aggregation variant from trial_stats
+    Reads from experiments/forecasts_final/{date}/{config_name}.json (one file
+    per forecast_due_date, FB-style). Multi-resolution dataset questions
+    contribute one entry per resolution_date and are averaged into a single
+    score at the (source, qid) level.
 
-    Returns {(source, qid): {id, source, question, forecast, outcome, metric_scores, ...}}
+    Returns {(source, qid): {id, source, forecast, outcome, metric_scores, ...}}
     """
     base_config, agg_key = parse_config_ref(config_name)
+    index = load_final_index(base_config)
 
-    results = {}
+    results: dict[tuple[str, str], dict] = {}
     for source, ids in exam.items():
         for qid in ids:
-            path = forecast_path(base_config, source, qid)
-            if not os.path.exists(path):
+            base_id, _ = _strip_date_suffix(qid)
+            entries = index.get((source, base_id), [])
+            if not entries:
                 continue
-            with open(path) as f:
-                fc = json.load(f)
 
+            # Pull per-entry probabilities and outcomes.
             if agg_key:
-                # Use pre-computed aggregation variant
-                aggs = fc.get("trial_stats", {}).get("aggregations", {})
-                agg_entry = aggs.get(agg_key)
-                if not agg_entry:
+                # e["forecasts_aggregated"][agg_key] is indexed positionally
+                ps = [(e.get("forecasts_aggregated") or {}).get(agg_key) for e in entries]
+                if any(p is None for p in ps):
                     continue
-                p = agg_entry.get("forecast")
             else:
-                p = fc.get("forecast")
-            outcome = _resolve_outcome(fc.get("resolved_to"))
-            if p is None or outcome is None:
+                ps = [e.get("forecast") for e in entries]
+            os_list = [_resolve_outcome(e.get("resolved_to")) for e in entries]
+
+            usable = [(float(p), float(o)) for p, o in zip(ps, os_list)
+                      if p is not None and o is not None]
+            if not usable:
                 continue
 
-            # Multi-resolution scoring: if forecast has a list of probabilities
-            # and outcomes, score each pair and average.
-            multi_ps = fc.get("forecasts")  # list of probabilities
-            multi_os = fc.get("resolved_to")
-            if (multi_ps and isinstance(multi_ps, list)
-                    and isinstance(multi_os, list) and len(multi_ps) == len(multi_os)):
-                # Average scores across all resolution dates
-                scores = {}
-                for m in metrics:
-                    if m not in SCORING_FUNCTIONS:
-                        continue
-                    date_scores = []
-                    for pi, oi in zip(multi_ps, multi_os):
-                        if pi is not None and oi is not None:
-                            date_scores.append(compute_score(float(pi), float(oi), m))
-                    if date_scores:
-                        scores[m] = sum(date_scores) / len(date_scores)
-                # Use first forecast as the display value
-                p = multi_ps[0]
-            elif agg_key and agg_entry:
-                # Use pre-computed expected scores for agg variants
-                scores = {}
-                metric_map = {"brier-score": "expected_brier",
-                              "metaculus-score": "expected_metaculus"}
-                for m in metrics:
-                    if m in metric_map and metric_map[m] in agg_entry:
-                        scores[m] = agg_entry[metric_map[m]]
-                    elif m in SCORING_FUNCTIONS:
-                        scores[m] = compute_score(p, outcome, m)
-            else:
-                scores = {m: compute_score(p, outcome, m) for m in metrics
-                          if m in SCORING_FUNCTIONS}
-            # Slim forecasts store precomputed tool_counts/n_searches; raw ones
-            # include the full tool_log and we compute them on the fly.
-            if "tool_counts" in fc or "n_searches" in fc:
-                tool_counts = fc.get("tool_counts", {}) or {}
-                n_searches = fc.get("n_searches", 0) or 0
-            else:
-                tool_log = fc.get("tool_log", [])
-                n_searches = sum(1 for e in tool_log
-                                 if e.get("type") == "tool_call" and e.get("tool") == "web_search")
-                tool_counts = {}
-                for e in tool_log:
-                    if e.get("type") == "tool_call":
-                        t = e.get("tool", "unknown")
-                        tool_counts[t] = tool_counts.get(t, 0) + 1
-            # Slim forecasts strip question metadata — reconstitute from
-            # data/questions/{source}/{id}.json when fields are missing.
-            q = {}
-            missing_meta = any(k not in fc for k in
-                               ("question", "background", "resolution_criteria", "url"))
-            if missing_meta:
-                qpath = os.path.join("data", "questions", source,
-                                     re.sub(r'[/\\:]', '_', str(qid)) + ".json")
-                if os.path.exists(qpath):
-                    with open(qpath) as qf:
-                        q = json.load(qf)
+            # Score each (p, o) pair and average across resolution dates.
+            scores: dict[str, float] = {}
+            for m in metrics:
+                if m not in SCORING_FUNCTIONS:
+                    continue
+                scores[m] = sum(compute_score(p, o, m) for p, o in usable) / len(usable)
 
-            def _mf(key, default=""):
-                """Prefer forecast file, fall back to question file."""
-                return fc[key] if key in fc else q.get(key, default)
+            # Representative entry for metadata (first resolution date).
+            e0 = entries[0]
+            display_p = usable[0][0]
+            outcome = usable[0][1]
+
+            # Reconstitute question metadata from data/questions/ (collated
+            # files strip question/background/resolution_criteria/url).
+            q = {}
+            qpath = os.path.join("data", "questions", source,
+                                 re.sub(r'[/\\:]', '_', str(qid)) + ".json")
+            if os.path.exists(qpath):
+                with open(qpath) as qf:
+                    q = json.load(qf)
+
+            # Per-trial probabilities at each resolution-date entry.
+            raw_trials_per_rdate = [e.get("raw_trials", []) for e in entries]
+
+            cfg = e0.get("config") or {}
 
             results[(source, qid)] = {
-                "id": fc.get("id", "?"),
+                "id": base_id,
                 "source": source,
                 "qid": qid,
-                "question": _mf("question"),
-                "background": _mf("background"),
-                "resolution_criteria": _mf("resolution_criteria"),
-                "resolution_date": _mf("resolution_date"),
-                "resolution_dates": _mf("resolution_dates", []),
-                "forecast_due_date": _mf("forecast_due_date"),
-                "url": _mf("url"),
-                "forecast": p,
-                "forecasts": fc.get("forecasts"),
-                "resolved_to": _mf("resolved_to", None),
+                "question": q.get("question", ""),
+                "background": q.get("background", ""),
+                "resolution_criteria": q.get("resolution_criteria", ""),
+                "resolution_date": e0.get("resolution_date") or q.get("resolution_date", ""),
+                "resolution_dates": [e.get("resolution_date") for e in entries],
+                "forecast_due_date": e0.get("forecast_due_date")
+                                     or q.get("forecast_due_date", ""),
+                "url": q.get("url", ""),
+                "forecast": display_p,
+                "forecasts": ps,             # one value per resolution_date
+                "resolved_to": [o for _, o in usable] if len(usable) > 1 else outcome,
                 "outcome": outcome,
-                "n_steps": fc.get("n_steps", 0),
-                "submitted": fc.get("submitted", False),
-                "tokens_in": fc.get("tokens_in", 0) or 0,
-                "tokens_out": fc.get("tokens_out", 0) or 0,
-                "elapsed_seconds": fc.get("elapsed_seconds", 0) or 0,
-                "market_value": fc.get("market_value"),
-                "n_searches": n_searches,
-                "tool_counts": tool_counts,
-                "llm": fc.get("config", {}).get("llm", ""),
-                "search_engine": fc.get("config", {}).get("search_engine", ""),
+                "n_steps": e0.get("n_steps") or 0,
+                "submitted": e0.get("submitted", True),
+                "tokens_in": e0.get("tokens_in") or 0,
+                "tokens_out": e0.get("tokens_out") or 0,
+                "elapsed_seconds": e0.get("elapsed_seconds") or 0,
+                "market_value": e0.get("market_value") or q.get("market_value"),
+                "n_searches": e0.get("n_searches") or 0,
+                "tool_counts": e0.get("tool_counts") or {},
+                "llm": cfg.get("llm", ""),
+                "search_engine": cfg.get("search_engine", ""),
+                "raw_trials": raw_trials_per_rdate,  # list[list[float]], outer=res_dates
                 **scores,
             }
     return results
@@ -816,7 +833,7 @@ def main():
                      and not c.endswith("_calibrated")]
         # Check if calibrated forecasts exist
         missing_cal = [c for c in cal_names
-                       if not os.path.isdir(os.path.join("experiments", "forecasts", c))]
+                       if not os.path.isdir(os.path.join("experiments", "forecasts_raw", c))]
         if missing_cal:
             print(f"  WARNING: {len(missing_cal)} calibrated config(s) not found. "
                   f"Run calibrate.py first:\n"

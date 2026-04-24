@@ -48,7 +48,7 @@ def convert_forecasts(v5_dir: str, configs: list[str], exam: dict,
     Returns {(source, bare_id): date_stamped_id} mapping for exam update.
     """
     v5_fc_dir = os.path.join(v5_dir, "results", "forecasts")
-    v6_fc_dir = os.path.join("experiments", "forecasts")
+    v6_fc_dir = os.path.join("experiments", "forecasts_raw")
 
     id_mapping = {}  # (source, bare_id) -> date_stamped_id
     total_copied = 0

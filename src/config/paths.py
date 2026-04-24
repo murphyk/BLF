@@ -1,7 +1,7 @@
 """paths.py — Centralized directory paths for the project.
 
 All path constants in one place. Import from here instead of hardcoding
-"experiments/forecasts" or "experiments/exams" in individual modules.
+"experiments/forecasts_raw" or "experiments/exams" in individual modules.
 
 Directory layout (v6):
     data/
@@ -38,9 +38,9 @@ FB_CACHE_DIR = os.path.join("data", "fb_cache")
 XIDS_DIR = os.path.join("experiments", "xids")
 # Raw agent outputs: traces, belief history, tool logs, per-trial files.
 # Written by predict/aggregate/calibrate. Gitignored (big).
-FORECASTS_DIR = os.path.join("experiments", "forecasts")
+FORECASTS_DIR = os.path.join("experiments", "forecasts_raw")
 # Slim JSONs for leaderboard, plots, calibration, FB-leaderboard imports.
-# Produced by finalize.py. Checked into git (small, reproduces paper plots).
+# Produced by collate.py. Checked into git (small, reproduces paper plots).
 FORECASTS_FINAL_DIR = os.path.join("experiments", "forecasts_final")
 EVAL_DIR = os.path.join("experiments", "eval")
 CALIBRATION_DIR = os.path.join("experiments", "calibration_models")
@@ -56,40 +56,30 @@ LEGACY_CONFIGS_DIR = os.path.join("experiments", "configs")
 # ---------------------------------------------------------------------------
 
 def forecast_dir(config_name: str) -> str:
-    """Return the raw forecast directory for a config: experiments/forecasts/{config}/"""
+    """Return the raw forecast directory for a config: experiments/forecasts_raw/{config}/"""
     return os.path.join(FORECASTS_DIR, config_name)
 
 
 def forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Return path to a specific raw forecast file (with traces, belief history)."""
+    """Return path to a specific raw per-question forecast file.
+
+    This is the file with belief history, tool log, and prompts — used by
+    eval_trace.py to render detail pages and by predict.py to write outputs.
+    Leaderboard + plot code reads from experiments/forecasts_final/{date}/
+    {config}.json instead; see core.eval.load_final_index.
+    """
     import re
     safe_id = re.sub(r'[/\\:]', '_', str(qid))
     return os.path.join(FORECASTS_DIR, config_name, source, f"{safe_id}.json")
 
 
-def forecast_final_dir(config_name: str) -> str:
-    """Return the slim forecast directory for a config: experiments/forecasts_final/{config}/"""
-    return os.path.join(FORECASTS_FINAL_DIR, config_name)
+def forecast_final_path_for_date(config_name: str, date: str) -> str:
+    """Return path to the per-date collated file for a config.
 
-
-def forecast_final_path(config_name: str, source: str, qid: str) -> str:
-    """Return path to a specific slim forecast file (leaderboard/plots)."""
-    import re
-    safe_id = re.sub(r'[/\\:]', '_', str(qid))
-    return os.path.join(FORECASTS_FINAL_DIR, config_name, source, f"{safe_id}.json")
-
-
-def resolve_forecast_path(config_name: str, source: str, qid: str) -> str:
-    """Return the best available path for reading a forecast.
-
-    Prefers forecasts_final/ (git-tracked slim JSONs). Falls back to
-    forecasts/ (raw) if the slim version is absent — this lets eval work
-    before finalize has run.
+    Written by core.collate.collate_config. One file per
+    (forecast_due_date, config), FB-tarball shape.
     """
-    final = forecast_final_path(config_name, source, qid)
-    if os.path.exists(final):
-        return final
-    return forecast_path(config_name, source, qid)
+    return os.path.join(FORECASTS_FINAL_DIR, date, f"{config_name}.json")
 
 
 def eval_dir(xid: str) -> str:

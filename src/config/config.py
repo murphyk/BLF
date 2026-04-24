@@ -9,7 +9,7 @@ The "/" separator is used for user input. For filenames and results paths,
 pprint_path(cfg) returns a "-"-separated version safe for the filesystem.
 
 For backward compat, legacy config names (e.g. "flash-high-brave-crowd1-tools1")
-are resolved from experiments/configs/ or results/forecasts/.
+are resolved from experiments/configs/ or experiments/forecasts_raw/.
 """
 
 import json
@@ -189,7 +189,7 @@ def resolve_config(name_or_delta: str) -> AgentConfig:
     if os.path.exists(legacy_path):
         return AgentConfig.from_json(legacy_path)
 
-    results_path = os.path.join("experiments", "forecasts", name_or_delta, "config.json")
+    results_path = os.path.join("experiments", "forecasts_raw", name_or_delta, "config.json")
     if os.path.exists(results_path):
         with open(results_path) as f:
             d = json.load(f)
@@ -294,10 +294,10 @@ def model_short_name(llm: str) -> str:
 
 
 def load_results_config(config_name: str) -> dict | None:
-    """Load config dict from results/forecasts/ or experiments/configs/."""
+    """Load config dict from experiments/forecasts_raw/ or experiments/configs/."""
     base = (config_name.removesuffix("_calibrated")
             .removesuffix("_aggregated"))
-    for path in [os.path.join("experiments", "forecasts", base, "config.json"),
+    for path in [os.path.join("experiments", "forecasts_raw", base, "config.json"),
                  os.path.join("experiments", "configs", f"{base}.json")]:
         if os.path.exists(path):
             with open(path) as f:

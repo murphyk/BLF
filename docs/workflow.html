@@ -623,93 +623,142 @@ are aggregated into a single forecast using the method specified by
 logit-space James-Stein shrinkage: when trials disagree (high cross-trial
 std), the forecast is pulled toward 0.5. With <code>"plain-mean"</code>, the forecast
 is the simple average. See <code>docs/shrinkage.tex</code> for the derivation.</p>
-<h3 id="forecasts-layout">Forecast output layout: <code>forecasts/</code> vs <code>forecasts_final/</code></h3>
-<p>The pipeline writes to two parallel directories:</p>
+<h3 id="forecasts-layout">Forecast output layout: <code>forecasts_raw/</code> vs <code>forecasts_final/</code></h3>
+<p>Two parallel directories, with two different roles and two different
+file-count regimes:</p>
 <table>
 <thead>
 <tr>
 <th>Dir</th>
-<th>Contents</th>
+<th>Unit</th>
+<th>Written by</th>
 <th>Size</th>
 <th>Gitignored?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>experiments/forecasts/{config}/</code></td>
-<td>Raw agent output: belief history, tool log, system/question prompts, per-trial files, and a per-config <code>config.json</code></td>
-<td>Large (~5–30 KB/file)</td>
+<td><code>experiments/forecasts_raw/{config}/{source}/{id}.json</code></td>
+<td>one file per (config, source, question), with per-trial sub-dirs</td>
+<td><code>predict.py</code> (parallel, in-place)</td>
+<td>~5–30 KB/file, hundreds of thousands of files</td>
 <td><strong>Yes</strong></td>
 </tr>
 <tr>
-<td><code>experiments/forecasts_final/{config}/</code></td>
-<td>Slim JSONs with just the numbers needed for leaderboard + plots + calibration. Question metadata is reconstituted from <code>data/questions/</code> at read time</td>
-<td>Small (~1 KB/file)</td>
+<td><code>experiments/forecasts_final/{YYYY-MM-DD}/{config}.json</code></td>
+<td>one file per (forecast_due_date, config), FB-tarball shape</td>
+<td><code>collate.py</code>, <code>aggregate.py</code>, <code>calibrate.py</code></td>
+<td>~50–500 KB/file, ~100–1000 files total</td>
 <td><strong>No</strong> — checked in</td>
 </tr>
 </tbody>
 </table>
-<p><code>eval.py</code> reads <code>forecasts_final/</code> by default and falls back to <code>forecasts/</code>
-if the slim version is missing. The per-question <strong>dashboard/trace pages</strong>
-always link into <code>forecasts/</code> (they need belief history and tool log, which
-the slim version strips).</p>
-<p><code>forecasts_final/</code> also hosts <strong>externally-imported FB leaderboard
-forecasts</strong> under directories named <code>fb-*</code> (e.g. <code>fb-cassi-ai-2</code>,
-<code>fb-google-deepmind-2</code>). These come in FB's native minimal format and are
-copied straight through — they don't need slimming.</p>
-<p>After a run, produce the slim copies with <code>finalize.py</code>:</p>
-<pre><code class="language-bash">python3 src/core/finalize.py --xid my-xid                          # slim every config in the xid
-python3 src/core/finalize.py --config pro-high-brave-c0-t1         # single config
-python3 src/core/finalize.py --all                                 # every config under forecasts/
-python3 src/core/finalize.py --fb-import ../other-repo/experiments/forecasts  # copy fb-*/ dirs
+<p>Everything <code>eval.py</code> reads for leaderboard/plots/calibration comes from
+<code>forecasts_final/</code>. The dashboard's per-question trace links point
+into <code>forecasts_raw/</code> (which is the only place that has the belief
+history, tool log, and prompts needed to render the trace).</p>
+<p>External FB leaderboard methods live next to our configs as
+<code>experiments/forecasts_final/{date}/fb-{key}.json</code>, using the native FB
+tarball shape. They are imported by <code>fb_leaderboard.py --import-method</code>,
+which reads from the processed-forecast tarball cached under
+<code>data/fb_cache/</code>.</p>
+<h4 id="per-date-file-shape">Per-date file shape</h4>
+<p>Matches ForecastBench's own published tarball:</p>
+<pre><code class="language-json">{
+  &quot;organization&quot;:        &quot;sirbayes&quot;,
+  &quot;model&quot;:               &quot;pro-high-brave-c1-t1&quot;,
+  &quot;model_organization&quot;:  &quot;sirbayes&quot;,
+  &quot;forecast_due_date&quot;:   &quot;2025-10-26&quot;,
+  &quot;leaderboard_eligible&quot;: true,
+  &quot;config&quot;:              { ... full AgentConfig dump ... },
+  &quot;forecasts&quot;: [
+    { &quot;id&quot;: &quot;...&quot;, &quot;source&quot;: &quot;polymarket&quot;, &quot;resolution_date&quot;: &quot;2026-02-01&quot;,
+      &quot;forecast&quot;: 0.72,
+      &quot;raw_trials&quot;: [0.70, 0.75, 0.68, 0.72, 0.74],
+      &quot;resolved_to&quot;: 1,
+      &quot;reasoning&quot;: &quot;...&quot;, &quot;n_steps&quot;: 7, &quot;submitted&quot;: true,
+      &quot;tokens_in&quot;: 23145, &quot;tokens_out&quot;: 891, &quot;elapsed_seconds&quot;: 87.3,
+      &quot;tool_counts&quot;: {...}, &quot;n_searches&quot;: 5,
+      &quot;market_value&quot;: 0.72, &quot;market_date&quot;: &quot;2025-10-25&quot;,
+      &quot;forecasts_aggregated&quot;: { &quot;mean:5&quot;: 0.73, &quot;shrink5-loo&quot;: 0.68 },
+      &quot;forecasts_calibrated&quot;: { &quot;global-cal&quot;: 0.58, &quot;hier-cal&quot;: 0.61 }
+    },
+    ...
+  ]
+}
 </code></pre>
+<p>Multi-resolution dataset questions contribute <strong>one entry per
+<code>resolution_date</code></strong> (the same convention FB uses), so a 3-date acled
+question appears three times with the same <code>id</code> and different
+<code>resolution_date</code> / <code>forecast</code> / <code>resolved_to</code>.</p>
+<p><code>forecast</code> is the <strong>default aggregation</strong> — arithmetic mean of trials
+for legacy v7 runs, logit-mean of trials for new runs. Further
+aggregation variants (computed by <code>aggregate.py</code>) land in
+<code>forecasts_aggregated: {"mean:1": 0.71, "shrink5-loo": 0.65, ...}</code>.
+Calibrated versions (computed by <code>calibrate.py</code>) land in
+<code>forecasts_calibrated: {"global-cal": 0.58, "hier-cal": 0.61, ...}</code>.
+Both are plain dicts mapping variant-key → scalar forecast, replacing
+the old approach of materializing separate <code>{config}_calibrated_global/</code>
+directories.</p>
+<h4 id="collate-step">Collate step</h4>
+<p>After <code>predict.py</code> finishes, collate the per-question raw files into
+per-date payloads:</p>
+<pre><code class="language-bash">python3 src/core/collate.py --xid my-xid                 # every config in the xid
+python3 src/core/collate.py --config pro-high-brave-c1-t1
+python3 src/core/collate.py --all                        # every config under forecasts_raw/
+python3 src/core/collate.py --from-raw-root /path/to/other-tree/experiments/forecasts_raw --all
+</code></pre>
+<p>Collate populates <code>forecast</code> with the default aggregation and
+<code>raw_trials</code> with the per-trial probability vector.</p>
 <h3 id="aggregation">Aggregation variants (optional)</h3>
-<p>Pre-compute lightweight aggregation variants for comparison in eval:</p>
+<p><code>aggregate.py</code> adds <code>forecasts_aggregated: {"mean:1": ..., "mean:5":
+..., "shrink5-loo": ...}</code> to each entry in the collated files, without
+touching the default <code>forecast</code> value.</p>
 <pre><code class="language-bash">python3 src/core/aggregate.py --xid my-xid
-python3 src/core/aggregate.py --xid my-xid --variants &quot;mean:1,mean:5,shrink:5&quot;
+python3 src/core/aggregate.py --xid my-xid --variants &quot;mean:1,mean:5,shrink5-loo&quot;
 </code></pre>
-<p>This creates variants like <code>mean:1</code> (expected single-trial score),
-<code>mean:5</code> (average of 5 trials), <code>shrink:5</code> (shrinkage over 5 trials),
-stored inside each forecast file's <code>trial_stats.aggregations</code> field.</p>
-<p>To evaluate specific variants, list them in the xid's <code>config</code> field using
-bracket notation: <code>"config[mean:1]"</code>, <code>"config[shrink:5]"</code>.</p>
-<p>For LLM-based aggregation (an "Agentic Supervisor" that reads all trial
-outputs and synthesizes a final answer, based on
-<a href="https://arxiv.org/abs/2502.15359">Agarwal et al., AIA 2025</a>, Section 7.2):</p>
-<pre><code class="language-bash">python3 src/core/aggregate.py --xid my-xid --method llm-agg
-</code></pre>
+<p>LOO shrinkage (<code>shrink5-loo</code>) fits the shrinkage strength λ by leave-one-
+out CV, which requires labeled outcomes — not usable at live-submission
+time in <code>fb_compete.py</code>. Use <code>mean:N</code> or <code>logit-mean:N</code> for live runs.</p>
+<p>To pull a variant into a leaderboard column, either reference it in the
+xid <code>eval</code> field with bracket notation (<code>"pro-high-brave-c0-t1[mean:5]"</code>)
+or pass <code>--add-aggregation &lt;key&gt;</code> to <code>eval.py</code>.</p>
 <h2 id="evaluate">7. Evaluate experiment</h2>
 <p>End-to-end pipeline, run step by step (there is no wrapper script):</p>
-<pre><code class="language-bash"># 1. Predict — one agent run per question × trial
+<pre><code class="language-bash"># 1. Predict — one agent run per question × trial. Parallel, in-place writes.
 caffeinate -s python3 src/core/predict.py --xid my-xid --ntrials 5 --verbose --monitor
-#    → experiments/forecasts/{config}/trial_{t}/{source}/{id}.json  (per-trial)
-#    → experiments/forecasts/{config}/{source}/{id}.json            (aggregated)
+#    → experiments/forecasts_raw/{config}/trial_{t}/{source}/{id}.json  (per-trial)
+#    → experiments/forecasts_raw/{config}/{source}/{id}.json            (aggregated)
 
 # 2. (Optional) Sanity-check forecast JSONs before running eval
 python3 src/testing/test_smoke.py --xid my-xid --verbose
 
-# 3. (Optional) Pre-compute aggregation variants — &quot;[mean:1]&quot;, &quot;[mean:5]&quot;,
-#    &quot;[shrink:5]&quot; — so eval can score them without re-aggregating.
+# 3. Collate — merge raw per-question files into per-date FB-style payloads.
+#    Sets `forecast` to the default aggregation (mean of trials) and stores
+#    per-trial probabilities in `raw_trials` for later post-processing.
+python3 src/core/collate.py --xid my-xid
+#    → experiments/forecasts_final/{date}/{config}.json
+
+# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink5-loo, ...
+#    Added as a `forecasts_aggregated: {...}` field on each entry.
 python3 src/core/aggregate.py --xid my-xid
 
-# 4. (Optional) Platt calibration — fits a model per Qsource via LOO CV
+# 5. (Optional) Platt calibration — global + hierarchical (per-Qsource).
+#    Added as a `forecasts_calibrated: {&quot;global-cal&quot;: ..., &quot;hier-cal&quot;: ...}`
+#    field on each entry; also saves the fitted model for reuse in compete.py.
 python3 src/core/calibrate.py --xid my-xid --cv loo
-#    → experiments/forecasts/{config}_calibrated/{source}/{id}.json
-#    → experiments/calibration_models/{exam}/{config}.json
+#    → experiments/calibration_models/{exam}/{config}.json  (model)
 
-# 5. Finalize — slim raw forecasts into experiments/forecasts_final/.
-#    This is the directory eval.py reads for leaderboard + plots, and
-#    the one that's git-tracked (paper-reproducible artefact).
-python3 src/core/finalize.py --xid my-xid
-
-# 6. Evaluate — leaderboard, plots, calibration curves, per-question traces
-python3 src/core/eval.py --xid my-xid --add-calibration         # full
-python3 src/core/eval.py --xid my-xid --add-calibration --fast  # no plots/traces
+# 6. Evaluate — leaderboard, plots, calibration curves, per-question traces.
+python3 src/core/eval.py --xid my-xid                         # default (base forecast)
+python3 src/core/eval.py --xid my-xid --add-calibration       # + calibrated variants
+python3 src/core/eval.py --xid my-xid --add-aggregation       # + aggregation variants
+python3 src/core/eval.py --xid my-xid --fast                  # leaderboard only, no plots
 #    → experiments/eval/{xid}/leaderboard.html, dashboard.html, figs/
 </code></pre>
-<p>Steps 2–4 are optional; the minimum sequence is predict → finalize → eval.
-The <code>--fast</code> flag on step 6 skips plot and trace generation; use it for
-quick iteration and omit it for the final run.</p>
+<p>Steps 2, 4, and 5 are optional; the minimum sequence is <strong>predict → collate → eval</strong>.
+The <code>--fast</code> flag on step 6 skips plot and trace generation; use it for quick
+iteration and omit it for the final run.</p>
 <h3 id="eval-outputs">Output files</h3>
 <p><strong><code>experiments/eval/{xid}/</code></strong> — prediction-dependent outputs:</p>
 <ul>

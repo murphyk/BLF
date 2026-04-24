@@ -32,7 +32,7 @@ _TAR_PATH = os.path.join(_FB_CACHE, _TAR_NAME)
 _EXTRACTED_DIR = os.path.join(_FB_CACHE, "forecastbench-processed-forecast-sets")
 _TAR_URL = ("https://www.forecastbench.org/assets/data/"
             "processed-forecast-sets/processed_forecast_sets.tar.gz")
-_FORECASTS_DIR = os.path.join("experiments", "forecasts")
+_FORECASTS_DIR = os.path.join("experiments", "forecasts_raw")
 _OUTPUT_DIR = os.path.join("experiments", "fb_leaderboard")
 
 

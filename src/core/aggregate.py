@@ -9,7 +9,7 @@ Methods:
     mean:       Plain mean of n trials.
     shrink:     Std-based shrinkage toward 0.5 (James-Stein). Default for predict.py.
     llm-agg:    LLM reads K trial reasoning traces, resolves disagreements.
-                Writes to results/forecasts/{config}_aggregated/ (separate files).
+                Writes to experiments/forecasts_raw/{config}_aggregated/ (separate files).
                 See Section 7.2 of Karger et al. (2025), arXiv:2511.07678.
 
 Usage:
@@ -78,7 +78,7 @@ def compute_variants(config_name, questions, variants, shrinkage=None):
         qid = q.get("id", "unknown")
         safe_id = re.sub(r'[/\\:]', '_', str(qid))
 
-        fc_path = os.path.join("experiments", "forecasts", config_name,
+        fc_path = os.path.join("experiments", "forecasts_raw", config_name,
                                 source, f"{safe_id}.json")
         if not os.path.exists(fc_path):
             continue
@@ -339,10 +339,10 @@ def _run_supervisor_one(question, trial_fcs, config_name, supervisor_config, out
 
 
 def run_llm_aggregator(config_name, questions, ntrials, max_workers=20, verbose=False):
-    output_dir = os.path.join("experiments", "forecasts", f"{config_name}_aggregated")
+    output_dir = os.path.join("experiments", "forecasts_raw", f"{config_name}_aggregated")
     os.makedirs(output_dir, exist_ok=True)
 
-    config_path = os.path.join("experiments", "forecasts", config_name, "config.json")
+    config_path = os.path.join("experiments", "forecasts_raw", config_name, "config.json")
     supervisor_config = json.load(open(config_path)) if os.path.exists(config_path) else {}
     supervisor_config.setdefault("max_steps", 6)
     supervisor_config.setdefault("question_timeout", 180)
@@ -359,7 +359,7 @@ def run_llm_aggregator(config_name, questions, ntrials, max_workers=20, verbose=
             return qid, "skip", None
         trial_fcs = []
         for t in range(1, ntrials + 1):
-            tp = os.path.join("experiments", "forecasts", config_name,
+            tp = os.path.join("experiments", "forecasts_raw", config_name,
                               f"trial_{t}", source, f"{safe_id}.json")
             if os.path.exists(tp):
                 with open(tp) as f:
@@ -435,7 +435,7 @@ def main():
             config = pprint_path(cfg)
 
         trial_dirs = sorted(glob.glob(
-            os.path.join("experiments", "forecasts", config, "trial_*")))
+            os.path.join("experiments", "forecasts_raw", config, "trial_*")))
         if not trial_dirs:
             print(f"  [{config}] no trials, skipping")
             continue

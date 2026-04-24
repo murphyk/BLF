@@ -115,7 +115,7 @@ data/fb_make_data.py → data/questions/{source}/{id}.json
 data/make_exam.py → data/exams/{name}/indices.json
 data/plot_exams.py → data/exams/{name}/*.png
                               ↓
-core/predict.py → experiments/forecasts/{config}/{source}/{id}.json
+core/predict.py → experiments/forecasts_raw/{config}/{source}/{id}.json
     uses: agent/agent.py → agent/prompts.py + agent/tools.py + agent/belief_state.py
                               ↓
 core/eval.py → experiments/eval/{xid}/leaderboard.html + plots

@@ -454,94 +454,145 @@ logit-space James-Stein shrinkage: when trials disagree (high cross-trial
 std), the forecast is pulled toward 0.5. With `"plain-mean"`, the forecast
 is the simple average. See `docs/shrinkage.tex` for the derivation.
 
-### Forecast output layout: `forecasts/` vs `forecasts_final/` {#forecasts-layout}
+### Forecast output layout: `forecasts_raw/` vs `forecasts_final/` {#forecasts-layout}
 
-The pipeline writes to two parallel directories:
+Two parallel directories, with two different roles and two different
+file-count regimes:
 
-| Dir | Contents | Size | Gitignored? |
-|---|---|---|---|
-| `experiments/forecasts/{config}/` | Raw agent output: belief history, tool log, system/question prompts, per-trial files, and a per-config `config.json` | Large (~5–30 KB/file) | **Yes** |
-| `experiments/forecasts_final/{config}/` | Slim JSONs with just the numbers needed for leaderboard + plots + calibration. Question metadata is reconstituted from `data/questions/` at read time | Small (~1 KB/file) | **No** — checked in |
+| Dir | Unit | Written by | Size | Gitignored? |
+|---|---|---|---|---|
+| `experiments/forecasts_raw/{config}/{source}/{id}.json` | one file per (config, source, question), with per-trial sub-dirs | `predict.py` (parallel, in-place) | ~5–30 KB/file, hundreds of thousands of files | **Yes** |
+| `experiments/forecasts_final/{YYYY-MM-DD}/{config}.json` | one file per (forecast_due_date, config), FB-tarball shape | `collate.py`, `aggregate.py`, `calibrate.py` | ~50–500 KB/file, ~100–1000 files total | **No** — checked in |
 
-`eval.py` reads `forecasts_final/` by default and falls back to `forecasts/`
-if the slim version is missing. The per-question **dashboard/trace pages**
-always link into `forecasts/` (they need belief history and tool log, which
-the slim version strips).
+Everything `eval.py` reads for leaderboard/plots/calibration comes from
+`forecasts_final/`. The dashboard's per-question trace links point
+into `forecasts_raw/` (which is the only place that has the belief
+history, tool log, and prompts needed to render the trace).
 
-`forecasts_final/` also hosts **externally-imported FB leaderboard
-forecasts** under directories named `fb-*` (e.g. `fb-cassi-ai-2`,
-`fb-google-deepmind-2`). These come in FB's native minimal format and are
-copied straight through — they don't need slimming.
+External FB leaderboard methods live next to our configs as
+`experiments/forecasts_final/{date}/fb-{key}.json`, using the native FB
+tarball shape. They are imported by `fb_leaderboard.py --import-method`,
+which reads from the processed-forecast tarball cached under
+`data/fb_cache/`.
 
-After a run, produce the slim copies with `finalize.py`:
+#### Per-date file shape
+
+Matches ForecastBench's own published tarball:
+
+```json
+{
+  "organization":        "sirbayes",
+  "model":               "pro-high-brave-c1-t1",
+  "model_organization":  "sirbayes",
+  "forecast_due_date":   "2025-10-26",
+  "leaderboard_eligible": true,
+  "config":              { ... full AgentConfig dump ... },
+  "forecasts": [
+    { "id": "...", "source": "polymarket", "resolution_date": "2026-02-01",
+      "forecast": 0.72,
+      "raw_trials": [0.70, 0.75, 0.68, 0.72, 0.74],
+      "resolved_to": 1,
+      "reasoning": "...", "n_steps": 7, "submitted": true,
+      "tokens_in": 23145, "tokens_out": 891, "elapsed_seconds": 87.3,
+      "tool_counts": {...}, "n_searches": 5,
+      "market_value": 0.72, "market_date": "2025-10-25",
+      "forecasts_aggregated": { "mean:5": 0.73, "shrink5-loo": 0.68 },
+      "forecasts_calibrated": { "global-cal": 0.58, "hier-cal": 0.61 }
+    },
+    ...
+  ]
+}
+```
+
+Multi-resolution dataset questions contribute **one entry per
+`resolution_date`** (the same convention FB uses), so a 3-date acled
+question appears three times with the same `id` and different
+`resolution_date` / `forecast` / `resolved_to`.
+
+`forecast` is the **default aggregation** — arithmetic mean of trials
+for legacy v7 runs, logit-mean of trials for new runs. Further
+aggregation variants (computed by `aggregate.py`) land in
+`forecasts_aggregated: {"mean:1": 0.71, "shrink5-loo": 0.65, ...}`.
+Calibrated versions (computed by `calibrate.py`) land in
+`forecasts_calibrated: {"global-cal": 0.58, "hier-cal": 0.61, ...}`.
+Both are plain dicts mapping variant-key → scalar forecast, replacing
+the old approach of materializing separate `{config}_calibrated_global/`
+directories.
+
+#### Collate step
+
+After `predict.py` finishes, collate the per-question raw files into
+per-date payloads:
 
 ```bash
-python3 src/core/finalize.py --xid my-xid                          # slim every config in the xid
-python3 src/core/finalize.py --config pro-high-brave-c0-t1         # single config
-python3 src/core/finalize.py --all                                 # every config under forecasts/
-python3 src/core/finalize.py --fb-import ../other-repo/experiments/forecasts  # copy fb-*/ dirs
+python3 src/core/collate.py --xid my-xid                 # every config in the xid
+python3 src/core/collate.py --config pro-high-brave-c1-t1
+python3 src/core/collate.py --all                        # every config under forecasts_raw/
+python3 src/core/collate.py --from-raw-root /path/to/other-tree/experiments/forecasts_raw --all
 ```
+
+Collate populates `forecast` with the default aggregation and
+`raw_trials` with the per-trial probability vector.
 
 ### Aggregation variants (optional) {#aggregation}
 
-Pre-compute lightweight aggregation variants for comparison in eval:
+`aggregate.py` adds `forecasts_aggregated: {"mean:1": ..., "mean:5":
+..., "shrink5-loo": ...}` to each entry in the collated files, without
+touching the default `forecast` value.
 
 ```bash
 python3 src/core/aggregate.py --xid my-xid
-python3 src/core/aggregate.py --xid my-xid --variants "mean:1,mean:5,shrink:5"
+python3 src/core/aggregate.py --xid my-xid --variants "mean:1,mean:5,shrink5-loo"
 ```
 
-This creates variants like `mean:1` (expected single-trial score),
-`mean:5` (average of 5 trials), `shrink:5` (shrinkage over 5 trials),
-stored inside each forecast file's `trial_stats.aggregations` field.
+LOO shrinkage (`shrink5-loo`) fits the shrinkage strength λ by leave-one-
+out CV, which requires labeled outcomes — not usable at live-submission
+time in `fb_compete.py`. Use `mean:N` or `logit-mean:N` for live runs.
 
-To evaluate specific variants, list them in the xid's `config` field using
-bracket notation: `"config[mean:1]"`, `"config[shrink:5]"`.
-
-For LLM-based aggregation (an "Agentic Supervisor" that reads all trial
-outputs and synthesizes a final answer, based on
-[Agarwal et al., AIA 2025](https://arxiv.org/abs/2502.15359), Section 7.2):
-
-```bash
-python3 src/core/aggregate.py --xid my-xid --method llm-agg
-```
+To pull a variant into a leaderboard column, either reference it in the
+xid `eval` field with bracket notation (`"pro-high-brave-c0-t1[mean:5]"`)
+or pass `--add-aggregation <key>` to `eval.py`.
 
 ## 7. Evaluate experiment {#evaluate}
 
 End-to-end pipeline, run step by step (there is no wrapper script):
 
 ```bash
-# 1. Predict — one agent run per question × trial
+# 1. Predict — one agent run per question × trial. Parallel, in-place writes.
 caffeinate -s python3 src/core/predict.py --xid my-xid --ntrials 5 --verbose --monitor
-#    → experiments/forecasts/{config}/trial_{t}/{source}/{id}.json  (per-trial)
-#    → experiments/forecasts/{config}/{source}/{id}.json            (aggregated)
+#    → experiments/forecasts_raw/{config}/trial_{t}/{source}/{id}.json  (per-trial)
+#    → experiments/forecasts_raw/{config}/{source}/{id}.json            (aggregated)
 
 # 2. (Optional) Sanity-check forecast JSONs before running eval
 python3 src/testing/test_smoke.py --xid my-xid --verbose
 
-# 3. (Optional) Pre-compute aggregation variants — "[mean:1]", "[mean:5]",
-#    "[shrink:5]" — so eval can score them without re-aggregating.
+# 3. Collate — merge raw per-question files into per-date FB-style payloads.
+#    Sets `forecast` to the default aggregation (mean of trials) and stores
+#    per-trial probabilities in `raw_trials` for later post-processing.
+python3 src/core/collate.py --xid my-xid
+#    → experiments/forecasts_final/{date}/{config}.json
+
+# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink5-loo, ...
+#    Added as a `forecasts_aggregated: {...}` field on each entry.
 python3 src/core/aggregate.py --xid my-xid
 
-# 4. (Optional) Platt calibration — fits a model per Qsource via LOO CV
+# 5. (Optional) Platt calibration — global + hierarchical (per-Qsource).
+#    Added as a `forecasts_calibrated: {"global-cal": ..., "hier-cal": ...}`
+#    field on each entry; also saves the fitted model for reuse in compete.py.
 python3 src/core/calibrate.py --xid my-xid --cv loo
-#    → experiments/forecasts/{config}_calibrated/{source}/{id}.json
-#    → experiments/calibration_models/{exam}/{config}.json
+#    → experiments/calibration_models/{exam}/{config}.json  (model)
 
-# 5. Finalize — slim raw forecasts into experiments/forecasts_final/.
-#    This is the directory eval.py reads for leaderboard + plots, and
-#    the one that's git-tracked (paper-reproducible artefact).
-python3 src/core/finalize.py --xid my-xid
-
-# 6. Evaluate — leaderboard, plots, calibration curves, per-question traces
-python3 src/core/eval.py --xid my-xid --add-calibration         # full
-python3 src/core/eval.py --xid my-xid --add-calibration --fast  # no plots/traces
+# 6. Evaluate — leaderboard, plots, calibration curves, per-question traces.
+python3 src/core/eval.py --xid my-xid                         # default (base forecast)
+python3 src/core/eval.py --xid my-xid --add-calibration       # + calibrated variants
+python3 src/core/eval.py --xid my-xid --add-aggregation       # + aggregation variants
+python3 src/core/eval.py --xid my-xid --fast                  # leaderboard only, no plots
 #    → experiments/eval/{xid}/leaderboard.html, dashboard.html, figs/
 ```
 
-Steps 2–4 are optional; the minimum sequence is predict → finalize → eval.
-The `--fast` flag on step 6 skips plot and trace generation; use it for
-quick iteration and omit it for the final run.
+Steps 2, 4, and 5 are optional; the minimum sequence is **predict → collate → eval**.
+The `--fast` flag on step 6 skips plot and trace generation; use it for quick
+iteration and omit it for the final run.
 
 ### Output files {#eval-outputs}
 

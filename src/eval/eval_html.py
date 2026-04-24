@@ -290,7 +290,7 @@ Config notation: <b>think/search/c<i>crowd</i>/t<i>tools</i></b> [/n=<i>trials</
                 display = f'{cs["model"]} <span style="font-size:0.85em">{detail}</span>'
             else:
                 display = _esc(r["name"])
-            name_cell = (f'<td><a href="../../../experiments/forecasts/'
+            name_cell = (f'<td><a href="../../../experiments/forecasts_raw/'
                          f'{base_name}/config.json" style="text-decoration:none">'
                          f'{display}</a></td>')
         parts.append(f'<tr{row_style}><td>{i}</td>'
@@ -490,7 +490,7 @@ Config notation: <b>model-think-search-c<i>crowd</i>-t<i>tools</i></b>[-n<i>tria
                             cell_lines.append(f'{float(pj):.3f}')
                     base_cname = (cname.removesuffix("_calibrated")
                                   .removesuffix("_aggregated"))
-                    detail_path = (f"../../../experiments/forecasts/{base_cname}/{source}"
+                    detail_path = (f"../../../experiments/forecasts_raw/{base_cname}/{source}"
                                    f"/{re.sub(r'[/\\\\:]', '_', str(qid))}_trace.html")
                     cell = f'<a href="{detail_path}" style="text-decoration:none">{"<br>".join(cell_lines)}</a>'
                     parts.append(f'<td class="brier" style="font-size:0.9em">{cell}</td>')
@@ -503,7 +503,7 @@ Config notation: <b>model-think-search-c<i>crowd</i>-t<i>tools</i></b>[-n<i>tria
                 # Link to detail page
                 base_cname = (cname.removesuffix("_calibrated")
                               .removesuffix("_aggregated"))
-                detail_path = (f"../../../experiments/forecasts/{base_cname}/{source}"
+                detail_path = (f"../../../experiments/forecasts_raw/{base_cname}/{source}"
                                f"/{re.sub(r'[/\\\\:]', '_', str(qid))}_trace.html")
                 cell = f'<a href="{detail_path}">{p:.3f}{timeout_mark}</a>'
                 # Append calibrated inline

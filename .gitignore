@@ -10,6 +10,7 @@ experiments/*
 !experiments/xids/
 !experiments/forecasts_final/
 !experiments/calibration_models/
+!experiments/submissions/
 
 # time-series and search caches populated at runtime
 data/fb_cache/

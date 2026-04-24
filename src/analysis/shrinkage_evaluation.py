@@ -37,7 +37,7 @@ def ms(p, o):
 def load_trial_data(config):
     """Load per-question trial forecasts and outcomes."""
     questions = []
-    for f in sorted(glob.glob(f"experiments/forecasts/{config}/aibq2/*.json")):
+    for f in sorted(glob.glob(f"experiments/forecasts_raw/{config}/aibq2/*.json")):
         fc = json.load(open(f))
         ts = fc.get("trial_stats")
         o = fc.get("resolved_to")

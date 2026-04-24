@@ -66,7 +66,7 @@ def check_config(config_name: str, delta: str, exam: dict,
     warnings = []
     cfg = resolve_config(delta)
     dir_name = cfg_pprint(cfg)
-    base = os.path.join("experiments", "forecasts", dir_name)
+    base = os.path.join("experiments", "forecasts_raw", dir_name)
 
     all_forecasts = []
     all_bis = []
@@ -265,7 +265,7 @@ def main():
     for method_key in fb_refs:
         cfg_name = "fb-" + re.sub(r'[^a-zA-Z0-9]+', '-',
                                    method_key.removeprefix("external.")).strip('-').lower()
-        base = os.path.join("experiments", "forecasts", cfg_name)
+        base = os.path.join("experiments", "forecasts_raw", cfg_name)
         if os.path.isdir(base):
             n_found = 0
             for source, ids in exam.items():
