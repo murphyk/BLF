@@ -222,7 +222,7 @@ Shows the distribution of forecast horizons (resolution date minus forecast
 date, in days), colored by outcome. The right panel shows the per-source
 question count with outcome balance.
 
-![horizon histogram example](../../data/exams/tranche-a/horizon_histogram.png)
+![horizon histogram example](../data/exams/tranche-a/horizon_histogram.png)
 
 *Example: tranche-a (n=200 questions, 398 resolution dates). Most questions
 resolve within 2 weeks or ~3 months. Dataset sources are balanced; market
@@ -236,7 +236,7 @@ Points above the diagonal have longer horizons. Color indicates outcome.
 Shows how questions are distributed across sources and categories.
 Requires LLM-classified tags (run `classify_questions.py` first).
 
-![tag distribution example](../../data/exams/tranche-a/tag_xinghua_distribution.png)
+![tag distribution example](../data/exams/tranche-a/tag_xinghua_distribution.png)
 
 *Example: tranche-a. Polymarket dominates AI/crypto; manifold is more diverse.*
 

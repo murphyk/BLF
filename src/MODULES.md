@@ -1,6 +1,6 @@
 # Source Module Guide
 
-Quick reference for navigating the codebase. See `docs/workflow/workflow.md` for
+Quick reference for navigating the codebase. See `docs/workflow.md` for
 the full pipeline walkthrough.
 
 ## Directory Structure
