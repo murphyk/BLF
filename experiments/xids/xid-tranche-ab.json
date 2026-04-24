@@ -1,10 +1,10 @@
 {
   "exam": "tranche-ab",
   "config": [
-    "pro/thk:high/crowd:1/tools:1"
+    "pro/thk:high/crowd:1/prior:1/tools:1"
   ],
   "eval_calibration": ["global-cal", "hier-cal"],
-  "eval_aggregation": ["mean:5", "logit-mean:5", "shrink:5", "shrink5-loo"],
+  "eval_aggregation": ["mean:5", "logit-mean:5", "shrink:5"],
   "metric": [
     "brier-index",
     "metaculus-score"

@@ -644,12 +644,20 @@ def resolve_groups(group_spec: dict, available_sources: set[str]) -> dict[str, l
 
 
 def _is_overall_group(group_name, groups) -> bool:
-    sources = groups[group_name]
-    other_sources = set()
+    """Recognize the aggregate group. True when the group is literally named
+    "overall" or its source set equals the union of every other group's
+    sources (covering-all heuristic). Catches both the FBQtype case
+    (groups={market, dataset, overall}, all multi-source) and the Qsource
+    case (groups={each-source, overall}, single-source siblings)."""
+    if group_name == "overall":
+        return True
+    sources = set(groups.get(group_name) or [])
+    other_sources: set = set()
     for gn, gs in groups.items():
-        if gn != group_name and len(gs) == 1:
-            other_sources.update(gs)
-    return (len(sources) > 1 and other_sources and set(sources) > other_sources)
+        if gn == group_name:
+            continue
+        other_sources.update(gs or [])
+    return len(sources) > 0 and sources == other_sources
 
 
 def _finite_vals(scores, metric, sources):
@@ -728,12 +736,22 @@ def compute_group_means(scores: dict[str, dict], groups: dict[str, list[str]],
     return result
 
 
-def compute_overall_metric(scores: dict[str, dict], metric: str) -> float | None:
-    """Single-number summary across every scored question.
+def compute_overall_metric(scores: dict[str, dict], metric: str,
+                           groups: dict[str, list[str]] | None = None) -> float | None:
+    """Single-number summary across scored questions.
 
-    For POPULATION_METRICS: BI = 1 - sqrt(mean BS) over the whole set.
-    For other metrics: plain arithmetic mean of per-question values.
+    If `groups` is given, returns the "overall"-group value from
+    compute_group_means — an equal-weighted mean of the non-overall group
+    scores (ForecastBench methodology). Without `groups`, returns the
+    pooled value:
+        POPULATION_METRICS: BI = 1 - sqrt(mean BS) over all entries
+        everything else:    arithmetic mean over all entries.
     """
+    if groups is not None:
+        means = compute_group_means(scores, groups, metric)
+        overall = [gn for gn in groups if _is_overall_group(gn, groups)]
+        if overall and means.get(overall[0]) is not None:
+            return means[overall[0]]
     if metric in POPULATION_METRICS:
         bs_metric = POPULATION_METRICS[metric]
         vals = [s[bs_metric] for s in scores.values()
@@ -1064,7 +1082,7 @@ def main():
         n = len(scores)
         if n:
             sample_metric = metrics[0]
-            summary = compute_overall_metric(scores, sample_metric)
+            summary = compute_overall_metric(scores, sample_metric, groups=groups)
             if summary is None:
                 print(f"  [{config}] n={n}, {sample_metric} unavailable")
             else:
