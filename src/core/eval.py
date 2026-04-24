@@ -245,7 +245,11 @@ def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
     """Load every forecasts_final/{date}/{config_name}.json and index by (source, base_id).
 
     Each map value is a list of entries (multi-resolution questions have one
-    entry per resolution_date). Cached per-config for the life of the process.
+    entry per resolution_date). Projects `forecasts_aggregated[k]` and
+    `forecasts_calibrated[k]` at the file level into per-entry `_agg` and
+    `_cal` dicts so downstream lookups are entry-local.
+
+    Cached per-config for the life of the process.
     """
     if config_name in _index_cache:
         return _index_cache[config_name]
@@ -258,9 +262,14 @@ def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
                 continue
             with open(p) as f:
                 payload = json.load(f)
-            for e in payload.get("forecasts", []):
-                # Strip any forecast_due_date suffix so our legacy ids (with
-                # _{date} appended) match the naked base-id shape FB uses.
+            entries = payload.get("forecasts", [])
+            aggs = payload.get("forecasts_aggregated") or {}
+            cals = payload.get("forecasts_calibrated") or {}
+            for i, e in enumerate(entries):
+                e["_agg"] = {k: (v[i] if i < len(v) else None)
+                             for k, v in aggs.items()}
+                e["_cal"] = {k: (v[i] if i < len(v) else None)
+                             for k, v in cals.items()}
                 raw_id = str(e.get("id", ""))
                 base_id, _ = _strip_date_suffix(raw_id)
                 idx.setdefault((e.get("source", ""), base_id), []).append(e)
@@ -292,8 +301,15 @@ def load_and_score(config_name: str, exam: dict[str, list[str]],
 
             # Pull per-entry probabilities and outcomes.
             if agg_key:
-                # e["forecasts_aggregated"][agg_key] is indexed positionally
-                ps = [(e.get("forecasts_aggregated") or {}).get(agg_key) for e in entries]
+                # Look in _agg first, then _cal. Both are per-entry dicts built
+                # by load_final_index from file-level forecasts_aggregated /
+                # forecasts_calibrated.
+                ps = []
+                for e in entries:
+                    v = (e.get("_agg") or {}).get(agg_key)
+                    if v is None:
+                        v = (e.get("_cal") or {}).get(agg_key)
+                    ps.append(v)
                 if any(p is None for p in ps):
                     continue
             else:
@@ -781,8 +797,11 @@ def main():
     parser.add_argument("--xid", required=True,
                         help="Experiment ID (must have 'eval'/'config', 'exam', 'metric')")
     parser.add_argument("--add-calibration", action="store_true",
-                        help="Also evaluate {config}_calibrated for each config "
-                             "(ignored if xid has an explicit 'eval' field)")
+                        help="Also evaluate every key in each config's "
+                             "forecasts_calibrated dict (e.g. global-cal, hier-cal)")
+    parser.add_argument("--add-aggregation", action="store_true",
+                        help="Also evaluate every key in each config's "
+                             "forecasts_aggregated dict (e.g. mean:5, shrink5-loo)")
     parser.add_argument("--add-ensemble", default=None,
                         help="Also evaluate this ensemble config name "
                              "(ignored if xid has an explicit 'eval' field)")
@@ -826,20 +845,39 @@ def main():
         else:
             resolved_names.append(name)
     eval_names = resolved_names
-    # Add calibrated variants after resolution
-    if args.add_calibration:
-        cal_names = [f"{c}_calibrated" for c in eval_names
-                     if c not in _PSEUDO_CONFIGS
-                     and not c.endswith("_calibrated")]
-        # Check if calibrated forecasts exist
-        missing_cal = [c for c in cal_names
-                       if not os.path.isdir(os.path.join("experiments", "forecasts_raw", c))]
-        if missing_cal:
-            print(f"  WARNING: {len(missing_cal)} calibrated config(s) not found. "
-                  f"Run calibrate.py first:\n"
-                  f"    python3 src/calibrate.py --xid {args.xid} --cv loo")
-            cal_names = [c for c in cal_names if c not in missing_cal]
-        eval_names.extend(cal_names)
+    # Add post-processing variants. Both flags auto-discover the available
+    # keys by peeking at the first forecasts_final/*/{config}.json that
+    # actually has the `forecasts_calibrated` / `forecasts_aggregated` field.
+    def _discover_keys(config: str, field: str) -> list[str]:
+        base = os.path.join(_FINAL_DIR)
+        if not os.path.isdir(base):
+            return []
+        for date_dir in sorted(os.listdir(base)):
+            p = os.path.join(base, date_dir, f"{config}.json")
+            if not os.path.isfile(p):
+                continue
+            with open(p) as f:
+                payload = json.load(f)
+            return list((payload.get(field) or {}).keys())
+        return []
+
+    extra_names: list[str] = []
+    for field, flag in (("forecasts_calibrated", args.add_calibration),
+                        ("forecasts_aggregated", args.add_aggregation)):
+        if not flag:
+            continue
+        for c in list(eval_names):
+            if c in _PSEUDO_CONFIGS:
+                continue
+            keys = _discover_keys(c, field)
+            for k in keys:
+                name = f"{c}[{k}]"
+                if name not in eval_names and name not in extra_names:
+                    extra_names.append(name)
+    if (args.add_calibration or args.add_aggregation) and not extra_names:
+        print(f"  NOTE: --add-calibration/--add-aggregation found no keys. "
+              f"Run src/core/aggregate.py or src/core/calibrate.py first.")
+    eval_names.extend(extra_names)
 
     # Reference methods (display-only, from xid "manual_reference" field)
     ref_names = xid_data.get("manual_reference", [])

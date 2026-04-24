@@ -364,11 +364,14 @@ def _configs_in_xid(xid: str) -> list[str]:
     for field in ("config", "eval", "calibrate"):
         for entry in xid_data.get(field, []):
             name = entry.split("[")[0]
-            try:
-                cfg = resolve_config(name)
-                labels.append(cfg_pprint(cfg))
-            except Exception:
-                labels.append(name)
+            if ":" in name or "/" in name:
+                try:
+                    cfg = resolve_config(name)
+                    labels.append(cfg_pprint(cfg))
+                    continue
+                except Exception:
+                    pass
+            labels.append(name)
     return sorted(set(labels))
 
 

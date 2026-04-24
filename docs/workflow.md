@@ -573,14 +573,19 @@ python3 src/core/collate.py --xid my-xid
 #    → experiments/forecasts_final/{date}/{config}.json
 
 # 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink5-loo, ...
-#    Added as a `forecasts_aggregated: {...}` field on each entry.
+#    Writes a `forecasts_aggregated: {<key>: [p0, p1, ...]}` dict at the
+#    file level (arrays aligned with forecasts[]).
 python3 src/core/aggregate.py --xid my-xid
 
-# 5. (Optional) Platt calibration — global + hierarchical (per-Qsource).
-#    Added as a `forecasts_calibrated: {"global-cal": ..., "hier-cal": ...}`
-#    field on each entry; also saves the fitted model for reuse in compete.py.
+# 5. (Optional) Platt calibration — global and/or hierarchical (per-Qsource).
+#    Writes a `forecasts_calibrated: {"global-cal": [...], "hier-cal": [...]}`
+#    dict at the file level. Fitting is exam-scoped (only labeled entries
+#    matching the xid's exam questions are used for CV, keeping LOO tractable).
 python3 src/core/calibrate.py --xid my-xid --cv loo
-#    → experiments/calibration_models/{exam}/{config}.json  (model)
+python3 src/core/calibrate.py --xid my-xid --cv loo --hierarchical Qsource
+# --save-model NAME also stores the fitted model under experiments/
+# calibration_models/{NAME}/{config}.json for reuse in compete.py.
+python3 src/core/calibrate.py --xid my-xid --cv loo --save-model tranche-a1
 
 # 6. Evaluate — leaderboard, plots, calibration curves, per-question traces.
 python3 src/core/eval.py --xid my-xid                         # default (base forecast)
@@ -715,6 +720,8 @@ python3 src/core/eval.py --xid my-xid --add-ensemble my-ens
 fetch the live question set, build an exam, run the agent, assemble the
 submission JSON, and upload to GCS.
 
+Pipeline steps (fetch → exam → predict → collate → calibrate → submit → upload):
+
 ```bash
 # With a saved Platt calibration model (the usual case)
 caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
@@ -725,8 +732,8 @@ caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
 caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
     --config "pro/thk:high/crowd:1/tools:1" --ntrials 5
 
-# Re-assemble a submission from existing forecasts (no re-run)
-python3 src/compete/fb_compete.py --date 2026-04-12 --assemble-only \
+# Re-assemble a submission from the existing collated file (no re-run)
+python3 src/compete/fb_compete.py --date 2026-04-12 --skip-predict \
     --config pro-high-brave-c1-t1 --calibration-model tranche-a1
 ```
 
@@ -735,14 +742,18 @@ Writes (relative to repo root):
 | Path | Contents |
 |---|---|
 | `experiments/exams/{date}/` | Live exam definition (materialized from the FB GitHub release) |
-| `experiments/forecasts/{config}/` | Agent outputs — per-trial + aggregated |
-| `experiments/forecasts/{config}_calibrated/` | Calibrated forecasts (if `--calibration-model` given) |
-| `submissions/{date}.{org}.{N}.json` | Final submission JSON uploaded to GCS |
+| `experiments/forecasts_raw/{config}/` | Raw agent outputs — per-trial + aggregated |
+| `experiments/forecasts_final/{date}/{config}.json` | Collated FB-shape file; calibration (if any) is appended as `forecasts_calibrated["global-cal"]` on this file |
+| `submissions/{date}.{org}.{N}.json` | Final submission JSON (derived from the collated file), uploaded to GCS |
 
 The saved calibration models live in `experiments/calibration_models/{exam}/`
 and are pre-trained on backtesting data (e.g. `tranche-a1` spans
 2025-10-26 through the most recent resolved fortnight). These are
 git-tracked so you can submit without re-running the training pipeline.
+At submit time, `compete.py` calls `calibrate.apply_saved_model(...)`
+which writes `forecasts_calibrated["global-cal"]` (or the key given by
+`--cal-key`) into the collated file, and the assembler pulls that column
+into the submission payload.
 
 The `submissions/` directory is created on first run and its contents
 are kept in git as an audit trail of what was uploaded.
