@@ -1,5 +1,5 @@
 {
-  "_comment": "Reproduces Table 4 (tab:cal-comparison): calibration × crowd/emp ablation on FB A∪B. Uses the v7-migrated _calibrated_global / _calibrated_hier sibling configs (rather than re-fitting via the new calibrate.py) so numbers match the paper exactly. ZS rows use the 'pro-high-none-...' configs; ZS+crowd+emp uses the -halawi variant since that's the only run we have.",
+  "_comment": "Reproduces Table 4 (tab:cal-comparison): calibration × crowd/emp ablation on FB A∪B. ZS rows now use the Halawi prompt for ALL crowd/emp settings (matches the paper's claim that ZS uses Halawi). The non-halawi pro-high-none-c0-t0 row used in the original paper version mixed prompts across cells; switching to -halawi gives a consistent baseline that also more faithfully emulates the external 'Gemini-3-Pro-Preview (zero shot with crowd forecast)' method on the FB leaderboard. Adds a ZS (c1,e0) row to isolate the crowd contribution under ZS.",
   "exam": "tranche-ab",
   "config": [
     "pro-high-brave-c0-t1",
@@ -8,9 +8,12 @@
     "pro-high-brave-c1-p1-t1",
     "pro-high-brave-c1-p1-t1_calibrated_global",
     "pro-high-brave-c1-p1-t1_calibrated_hier",
-    "pro-high-none-c0-t0",
-    "pro-high-none-c0-t0_calibrated_global",
-    "pro-high-none-c0-t0_calibrated_hier",
+    "pro-high-none-c0-t0-halawi",
+    "pro-high-none-c0-t0-halawi_calibrated_global",
+    "pro-high-none-c0-t0-halawi_calibrated_hier",
+    "pro-high-none-c1-t0-halawi",
+    "pro-high-none-c1-t0-halawi_calibrated_global",
+    "pro-high-none-c1-t0-halawi_calibrated_hier",
     "pro-high-none-c1-p1-t0-halawi",
     "pro-high-none-c1-p1-t0-halawi_calibrated_global",
     "pro-high-none-c1-p1-t0-halawi_calibrated_hier"
