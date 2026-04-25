@@ -1,0 +1,12 @@
+{
+  "_comment": "Reproduces Table 3 (tab:postproc): aggregation variants on pro-high-brave-c0-t1, FB A∪B. Run aggregate.py first with --variants 'mean:1,mean:3,mean:5,logit-mean:1,logit-mean:3,logit-mean:5,median:5'.",
+  "exam": "tranche-ab",
+  "config": ["pro-high-brave-c0-t1"],
+  "eval_aggregation": [
+    "mean:1", "mean:3", "mean:5",
+    "logit-mean:1", "logit-mean:3", "logit-mean:5",
+    "median:5"
+  ],
+  "metric": ["brier-index"],
+  "groups": ["FBQtype", "overall"]
+}

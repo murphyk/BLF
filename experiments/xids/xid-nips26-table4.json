@@ -1,0 +1,20 @@
+{
+  "_comment": "Reproduces Table 4 (tab:cal-comparison): calibration × crowd/emp ablation on FB A∪B. Uses the v7-migrated _calibrated_global / _calibrated_hier sibling configs (rather than re-fitting via the new calibrate.py) so numbers match the paper exactly. ZS rows use the 'pro-high-none-...' configs; ZS+crowd+emp uses the -halawi variant since that's the only run we have.",
+  "exam": "tranche-ab",
+  "config": [
+    "pro-high-brave-c0-t1",
+    "pro-high-brave-c0-t1_calibrated_global",
+    "pro-high-brave-c0-t1_calibrated_hier",
+    "pro-high-brave-c1-p1-t1",
+    "pro-high-brave-c1-p1-t1_calibrated_global",
+    "pro-high-brave-c1-p1-t1_calibrated_hier",
+    "pro-high-none-c0-t0",
+    "pro-high-none-c0-t0_calibrated_global",
+    "pro-high-none-c0-t0_calibrated_hier",
+    "pro-high-none-c1-p1-t0-halawi",
+    "pro-high-none-c1-p1-t0-halawi_calibrated_global",
+    "pro-high-none-c1-p1-t0-halawi_calibrated_hier"
+  ],
+  "metric": ["brier-index"],
+  "groups": ["FBQtype", "overall"]
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Reproduces Table 2 (tab:core-ablations / tab:mixed): core component ablations on FB A∪B.",
+  "exam": "tranche-ab",
+  "config": [
+    "pro-high-brave-c0-t1",
+    "pro-high-brave-c1-t1",
+    "pro-high-brave-c1-t1-clairvoyant",
+    "pro-default-brave-c0-t1",
+    "pro-high-brave-c0-t0",
+    "flash-high-brave-c0-t1",
+    "kimi-k2t-high-brave-c0-t1",
+    "pro-high-brave-c0-t1-nobelief",
+    "pro-high-brave-c0-t1-batch5",
+    "pro-high-none-c0-t1",
+    "pro-high-none-c0-t0"
+  ],
+  "metric": ["brier-index"],
+  "groups": ["FBQtype", "overall"]
+}

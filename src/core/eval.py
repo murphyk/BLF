@@ -290,7 +290,10 @@ def load_final_index(config_name: str) -> dict[tuple[str, str, str], list[dict]]
                              for k, v in cals.items()}
                 raw_id = str(e.get("id", ""))
                 base_id, _ = _strip_date_suffix(raw_id)
-                fdd = str(e.get("forecast_due_date") or payload_date)
+                fdd_raw = str(e.get("forecast_due_date") or payload_date)
+                # FB tarball entries store dates as "YYYY-MM-DDT00:00:00.000".
+                # Truncate to YYYY-MM-DD so lookups match exam qids.
+                fdd = fdd_raw[:10]
                 idx.setdefault((e.get("source", ""), base_id, fdd), []).append(e)
     _index_cache[config_name] = idx
     return idx
@@ -430,14 +433,18 @@ def load_baseline_scores(exam: dict[str, list[str]],
             if outcome is None:
                 continue
 
-            # Baseline forecast: market value for markets, 0.5 for everything else
+            # Baseline forecast: market value for markets, empirical prior
+            # for dataset questions, 0.5 as a last-resort fallback. This is
+            # the "Crowd+emp (no LLM)" baseline reported in paper Table 1.
             if source in _MARKET_SOURCES_BASELINE and q.get("market_value") is not None:
                 try:
                     p = float(q["market_value"])
                 except (ValueError, TypeError):
                     p = 0.5
             else:
-                p = 0.5
+                from config.empirical_prior import get_empirical_prior
+                ep = get_empirical_prior(q)
+                p = float(ep) if ep is not None else 0.5
             p = max(0.02, min(0.98, p))
 
             scores = {m: compute_score(p, outcome, m) for m in metrics

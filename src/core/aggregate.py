@@ -87,10 +87,15 @@ def _agg_shrink(ps: list[float], lam: float | None = None) -> float:
     return _sigmoid(a * mean)
 
 
+def _agg_median(ps: list[float]) -> float:
+    return float(np.median(ps))
+
+
 _AGGS = {
     "mean":       _agg_mean,
     "logit-mean": _agg_logit_mean,
     "shrink":     _agg_shrink,
+    "median":     _agg_median,
 }
 
 
