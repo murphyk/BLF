@@ -252,23 +252,26 @@ def _strip_date_suffix(qid: str) -> tuple[str, str]:
 from config.paths import FORECASTS_FINAL_DIR as _FINAL_DIR  # noqa: E402
 
 
-_index_cache: dict[str, dict[tuple[str, str], list[dict]]] = {}
+_index_cache: dict[str, dict[tuple[str, str, str], list[dict]]] = {}
 
 
-def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
-    """Load every forecasts_final/{date}/{config_name}.json and index by (source, base_id).
+def load_final_index(config_name: str) -> dict[tuple[str, str, str], list[dict]]:
+    """Index every forecasts_final/{date}/{config_name}.json by
+    (source, base_id, forecast_due_date).
 
-    Each map value is a list of entries (multi-resolution questions have one
-    entry per resolution_date). Projects `forecasts_aggregated[k]` and
-    `forecasts_calibrated[k]` at the file level into per-entry `_agg` and
-    `_cal` dicts so downstream lookups are entry-local.
+    Multi-resolution dataset questions contribute one entry per
+    resolution_date and end up grouped under a single key (same ask date).
+    Different ask dates of the same base question stay separate, so eval
+    on tranche-ab won't accidentally average in forecasts from a config
+    that was also run on, say, 2025-04-22.
 
-    Cached per-config for the life of the process.
+    Projects file-level `forecasts_aggregated[k]` and `forecasts_calibrated[k]`
+    onto per-entry `_agg` / `_cal` dicts. Cached per-config.
     """
     if config_name in _index_cache:
         return _index_cache[config_name]
 
-    idx: dict[tuple[str, str], list[dict]] = {}
+    idx: dict[tuple[str, str, str], list[dict]] = {}
     if os.path.isdir(_FINAL_DIR):
         for date_dir in sorted(os.listdir(_FINAL_DIR)):
             p = os.path.join(_FINAL_DIR, date_dir, f"{config_name}.json")
@@ -276,6 +279,7 @@ def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
                 continue
             with open(p) as f:
                 payload = json.load(f)
+            payload_date = str(payload.get("forecast_due_date") or date_dir)
             entries = payload.get("forecasts", [])
             aggs = payload.get("forecasts_aggregated") or {}
             cals = payload.get("forecasts_calibrated") or {}
@@ -286,7 +290,8 @@ def load_final_index(config_name: str) -> dict[tuple[str, str], list[dict]]:
                              for k, v in cals.items()}
                 raw_id = str(e.get("id", ""))
                 base_id, _ = _strip_date_suffix(raw_id)
-                idx.setdefault((e.get("source", ""), base_id), []).append(e)
+                fdd = str(e.get("forecast_due_date") or payload_date)
+                idx.setdefault((e.get("source", ""), base_id, fdd), []).append(e)
     _index_cache[config_name] = idx
     return idx
 
@@ -308,8 +313,14 @@ def load_and_score(config_name: str, exam: dict[str, list[str]],
     results: dict[tuple[str, str], dict] = {}
     for source, ids in exam.items():
         for qid in ids:
-            base_id, _ = _strip_date_suffix(qid)
-            entries = index.get((source, base_id), [])
+            base_id, fdd = _strip_date_suffix(qid)
+            entries = index.get((source, base_id, fdd), [])
+            if not entries and not fdd:
+                # Exam qid had no date suffix — fall back to a base-id-only
+                # match across whatever ask dates we have on file.
+                for (s2, b2, _), v in index.items():
+                    if s2 == source and b2 == base_id:
+                        entries.extend(v)
             if not entries:
                 continue
 
