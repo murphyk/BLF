@@ -1,0 +1,14 @@
+{
+  "id": "41140_2026-04-26",
+  "source": "metaculus",
+  "question": "Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if, during 2026, [METR estimates](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) that an AI model has a time horizon of \u22653 hours at 80% reliability, i.e. the AI has an estimated\u00a0\u226580% reliability on tasks requiring human experts\u00a0\u22653 hours to solve.",
+  "background": "[METR](https://metr.org/) is an AI model evaluation and threat research organisation that studies AI capabilities and their ability to conduct AI research and self-improve.\n\nMETR regularly tests released models for their threat capacity, which includes measuring their ability to complete realistic software and research tasks reliably. For each task, they measure how long it takes humans with relevant expertise to complete it, then see which tasks different models can solve. By fitting a curve of model success against human task duration, they define each model's \"[time horizons](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)\": the longest task length (in human time) on which the model can succeed with around 50% or 80% probability.\n\nTheir results show that these horizons have been growing exponentially over time. As of December 2025 the highest time horizon with an 80% chance of success is 31 minutes by [GPT-5.1-Codex-Max](https://evaluations.metr.org/gpt-5-1-codex-max-report/), a 5x improvement from 2024's best performer GPT-o1.",
+  "url": "https://www.metaculus.com/questions/41140",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.8",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x1b1a75d6305f5edee255b3f368cca945bde401fea4b2a7e34f2fcca3b3e56cf0_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Chong Won-oh win the 2026 Seoul Mayoral Election",
+  "resolution_criteria": "The 2026 Seoul mayoral election is scheduled to take place on June 3, 2026 to elect the next mayor of Seoul.\n\nThis market will resolve according to the listed candidate that wins this election.\n\nIf the result of this election isn't known by January 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the South Korean government, specifically the National Election Commission.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-chong-won-oh-win-the-2026-seoul-mayoral-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.89",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

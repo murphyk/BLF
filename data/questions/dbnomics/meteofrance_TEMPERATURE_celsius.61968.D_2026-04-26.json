@@ -1,0 +1,29 @@
+{
+  "id": "meteofrance_TEMPERATURE_celsius.61968.D_2026-04-26",
+  "source": "dbnomics",
+  "question": "What is the probability that the daily average temperature at the French weather station at Glorioso Islands will be higher on each resolution date listed below than on 2026-04-26?",
+  "resolution_criteria": "Resolves to the value found at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61968.D once the data is published.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 29.425. (The daily average temperature at the French weather station at Glorioso Islands.)",
+  "background": "The history of Average temperature by day and by station for France - Degree Celsius - GLORIEUSES - Daily from M\u00e9t\u00e9o-France is available at https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61968.D.",
+  "url": "https://db.nomics.world/meteofrance/TEMPERATURE/celsius.61968.D",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

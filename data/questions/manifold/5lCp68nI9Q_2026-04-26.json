@@ -1,0 +1,14 @@
+{
+  "id": "5lCp68nI9Q_2026-04-26",
+  "source": "manifold",
+  "question": "Will the champions of Super Bowl LX visit the White House after their win?",
+  "resolution_criteria": "Background\n\nThe tradition of Super Bowl champions visiting the White House dates back to 1980 when President Jimmy Carter first hosted the Pittsburgh Steelers. While this has become a customary celebration, some teams have declined or been disinvited in recent years due to political tensions or other circumstances. Most notably, the Philadelphia Eagles were disinvited by President Trump in 2018 after several players announced they would not attend.\n\nResolution Criteria\n\nThis market will resolve YES if the winning team of Super Bowl LX (scheduled for February 8, 2026, at Levi's Stadium) makes an official visit to the White House within a couple months of their victory. The visit must include a significant portion of the team and coaching staff, along with a formal ceremony or reception with the President.\n\nThe market will resolve NO if:\n\nThe team declines an invitation\n\nThe team is not invited\n\nThe team is disinvited\n\nNo visit occurs within a couple of months of the Super Bowl victory\n\nThe visit is canceled after being scheduled\n\nThe market will resolve NO if Super Bowl LX is not played or completed.\n\nConsiderations\n\nThe political climate and relationship between team leadership/players and the administration in early 2026 may influence the decision\n\nTeam ownership, player preferences, and scheduling conflicts could affect the likelihood of a visit\n\nThe outcome may depend on which teams make it to the Super Bowl, as different organizations have varying histories with White House visits",
+  "background": "",
+  "url": "https://manifold.markets/10thOfficial/will-the-champions-of-super-bowl-lx",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.48302051721939004",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

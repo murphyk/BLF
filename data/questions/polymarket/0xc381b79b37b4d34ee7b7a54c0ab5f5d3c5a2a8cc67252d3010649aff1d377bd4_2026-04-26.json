@@ -1,0 +1,14 @@
+{
+  "id": "0xc381b79b37b4d34ee7b7a54c0ab5f5d3c5a2a8cc67252d3010649aff1d377bd4_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Scottish National Party win the most seats in the 2026 Scottish Parliament election?",
+  "resolution_criteria": "Parliamentary elections are scheduled to be held in Scotland on May 7, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Scottish Parliament  in this election.\n\nIf voting in the Scottish parliamentary election does not occur by July 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats won, this market will resolve in favor of the party or coalition which received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party or coalition whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition in the Welsh Parliament. \n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Welsh government, specifically the the Electoral Commission of Scotland (https://www.electoralcommission.org.uk/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-scottish-national-party-win-the-most-seats-in-the-2026-scottish-parliament-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.976",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

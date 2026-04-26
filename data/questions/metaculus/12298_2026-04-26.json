@@ -1,0 +1,14 @@
+{
+  "id": "12298_2026-04-26",
+  "source": "metaculus",
+  "question": "Will 'No Religion' responses represent at least 50% of the Australian population in the 2026 census?",
+  "resolution_criteria": "The question will resolve positively if the 'No Religion' responses on the 2026 census represent at least 50% of the Australian population, according to the Australian Bureau of Statistics",
+  "background": "*Related Question on Metaculus:*\n\n* [Will the Australian Census of 2021 show at least 50% not religious?](https://www.metaculus.com/questions/6838/australia-majority-not-religious/)\n\n***\n\nEvery 5 years, the Australian Bureau of Statistics conducts a census to collect data on all people in Australia on census night. Each census has a voluntary question \"What is the person's religion?\" with 'No Religion' being the first option.\n\nThe proportion of the population represented by 'No Religion' in the 2021 census was 38.9%, up from 30.1% in 2016.\n\nThe proportion of the population not responding to the question was 7.3% in 2021, down from 10% in 2016.\n\nThe next census will be conducted in 2026, most likely in early August.\nCensus data dating back to 1986 is available on [Wikipedia](https://en.wikipedia.org/wiki/Religion_in_Australia#Census_data), and an overview of the changes in reported religion in the 2021 census is available at the [ABS website](https://www.abs.gov.au/articles/religious-affiliation-australia). If the schedule of census releases remains consistent, the 2026 census data will be released in 2027.",
+  "url": "https://www.metaculus.com/questions/12298",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.42",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

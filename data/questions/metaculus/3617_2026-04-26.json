@@ -1,0 +1,14 @@
+{
+  "id": "3617_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the US Supreme Court change its membership size before 2050?",
+  "resolution_criteria": "This question will resolve as **Yes** if the US Supreme Court officially changes its regular number of sitting justices above or below 9 members at any point between January 1, 2020 to January 1, 2050.\n\nExpected vacancies and arrivals of justices (retirements, deaths, and absences for health reasons) are not sufficient to resolve the question",
+  "background": "The US supreme court currently has a fixed size of 9 members, but it [hasn't always been this way](https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States#Size_of_the_court). It takes only an act of congress to change the size of the court. The president Franklin D. Roosevelt famously [failed to increase the size of the court](https://en.wikipedia.org/wiki/Judicial_Procedures_Reform_Bill_of_1937) despite his party having a supermajority in congress.",
+  "url": "https://www.metaculus.com/questions/3617",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.34",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633_2026-04-26",
+  "source": "polymarket",
+  "question": "US-Iran nuclear deal by June 30?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if an official agreement over Iranian nuclear research and/or nuclear weapon development, defined as a publicly announced mutual agreement, is reached between the United States and Iran by June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf such an agreement is officially reached before the resolution date, this market will resolve to \"Yes\", regardless of if/when the agreement goes into effect.\n\nAgreements that include the United States and Iran as parties, even if they also involve other countries (e.g., a multilateral deal like the JCPOA), will qualify for resolution.\n\nThe primary resolution source for this market will be an official announcement by the United States and/or the Islamic Republic of Iran, however an overwhelming consensus of credible reporting confirming an agreement has been reached will also qualify.",
+  "background": "",
+  "url": "https://polymarket.com/market/us-iran-nuclear-deal-by-june-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.62",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

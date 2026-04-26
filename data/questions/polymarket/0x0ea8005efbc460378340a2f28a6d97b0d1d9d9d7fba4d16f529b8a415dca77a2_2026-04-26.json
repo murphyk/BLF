@@ -1,0 +1,14 @@
+{
+  "id": "0x0ea8005efbc460378340a2f28a6d97b0d1d9d9d7fba4d16f529b8a415dca77a2_2026-04-26",
+  "source": "polymarket",
+  "question": "Will GPT-6 be released before GTA VI?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if OpenAI's GPT-6 model is made available to the general public before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nTo qualify, GPT-6 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by OpenAI as being accessible to the general public.\n\nGPT-6 refers to a product explicitly named GPT-6 (e.g. ChatGPT-6o would count), or one that is recognized as a successor to GPT-5, similar to the progression from GPT-4 to GPT-5. Products labeled as GPT-5.5 or similar will not count for this market's resolution.\n\nThe primary resolution source for the release of GPT-6 will be official information from OpenAI, with additional verification from a consensus of credible reporting.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-gpt-6-be-released",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.675",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

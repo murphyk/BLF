@@ -1,0 +1,14 @@
+{
+  "id": "0x7b49b9bacb5f435bc10f3b100ff59e2fdd346f7f92a9001881bc9825a0af0f11_2026-04-26",
+  "source": "polymarket",
+  "question": "Will China invades Taiwan before GTA VI?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nAn announcement of Trump's resignation/removal, or a scheduled departure from office due to the outcome of an election will not alone qualify.\n\nTerritory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify.\n\nThe resolution source for China invading Taiwan will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be use\n",
+  "background": "",
+  "url": "https://polymarket.com/market/will-china-invades-taiwan-before-gta-vi-716",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.505",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

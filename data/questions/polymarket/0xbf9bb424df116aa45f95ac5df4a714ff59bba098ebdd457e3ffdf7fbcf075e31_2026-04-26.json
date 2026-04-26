@@ -1,0 +1,14 @@
+{
+  "id": "0xbf9bb424df116aa45f95ac5df4a714ff59bba098ebdd457e3ffdf7fbcf075e31_2026-04-26",
+  "source": "polymarket",
+  "question": "Will France be in the top 10 at Eurovision 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the named country finishes Eurovision 2026 as one of the top 10 highest scoring candidates.\n\nIf at any point it is impossible for the listed candidate to finish as one of the top 10 highest scorers based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-france-be-in-the-top-10-at-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.8150000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

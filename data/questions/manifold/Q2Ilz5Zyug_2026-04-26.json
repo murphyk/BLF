@@ -1,0 +1,14 @@
+{
+  "id": "Q2Ilz5Zyug_2026-04-26",
+  "source": "manifold",
+  "question": "Will Putin visit the USA in 2026",
+  "resolution_criteria": "This market is about whether Vladimir Putin, the current President of Russia, will visit the United States in 2026. A visit to any U.S. state or Washington, D.C. will count. However, a visit to a U.S. embassy in another country will not count.\n\nResolving Rules\n\nThis question will be resolved YES shortly after the visit occurs, or it will be resolved NO at the beginning of 2027 if no such visit occurs.\n\nTimezone of This Market\n\nThe Eastern Time Zone (ET) (timezone of Washington, D.C.) will be used to determine the year 2026.\n\nAuthor Betting Rules\n\nThe author of this question is allowed to place bets on it.\n\nAdditional Details\n\nThere is a theory that Putin has used body doubles. Since I have no way to verify whether it was the real person or a double, I will rely solely on official sources. If the White House and/or the Kremlin officially state that Putin was in the United States in 2026, the market will be resolved as YES.\n\nOther questions on this topic\n\nWill Putin visit the USA in 2025 (resolved YES)\n\nWill Putin visit the USA in 2026 (this question)",
+  "background": "",
+  "url": "https://manifold.markets/bessarabov/will-putin-visit-the-usa-in-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.251894540821413",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

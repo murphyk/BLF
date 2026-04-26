@@ -1,0 +1,14 @@
+{
+  "id": "0x1462c484c487defffb893db05f136710d51e3879b838fd77d4ad85fa7137d6df_2026-04-26",
+  "source": "polymarket",
+  "question": "Will AS Monaco win the 2025-26 Euroleague?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed club wins the 2025-2026 Euroleague season. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for a listed participant to win the 2025-2026 Euroleague per the rules of the Euroleague (e.g., participant is eliminated), the corresponding market will resolve to \"No\".\n\nIf multiple teams are declared winners, this market will resolve in favor of the team whose listed name comes first alphabetically.\n\nIf this event is cancelled, postponed after May 31, 2026, 11:59 PM ET, or a champion has not been declared within this timeframe, this market will resolve to \"Other\".\n\nThe resolution source will be official information from the Euroleague (https://www.euroleaguebasketball.net/euroleague/); however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-as-monaco-win-the-2025-26-euroleague-838",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.23500000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

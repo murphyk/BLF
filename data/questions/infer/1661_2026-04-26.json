@@ -1,0 +1,14 @@
+{
+  "id": "1661_2026-04-26",
+  "source": "infer",
+  "question": "Will Western Asia and North African intra-regional exports equal or exceed 24% of total exports in 2025 or 2026, according to UNCTAD data?",
+  "resolution_criteria": "This question will be resolved using the UN Trade and Development (UNCTAD) \u201c Merchandise: Intra-trade and extra-trade of country groups \u201d database for Western Asia and North Africa. The question will resolve \u201cYes\u201d if the 2025 or 2026 intra-group percentage by destination value for exports equals or exceeds 24.0%.&nbsp; To access the relevant data: Select \u201cDesign Table\u201d Configure the table as follows: Economy: Select \u201cWestern Asia and Northern Africa\u201d Year: Select relevant years&nbsp; Partner: Select \u201cIntra-group\u201d Flow: Select \u201cExports\u201d Apply changes On the table itself, ensure that the page filters are as follows: Flow: Exports Product: Total All Products Indicator: Percentage by destination",
+  "background": "Intra-regional trade in Western Asia and North Africa has grown significantly over the past 30 years, with the share of total exports going to other countries within the region rising from 10.9% in 1995 to 21.2% in 2024. However, this represents a slight decline from a peak of 21.9% in 2020. Source: United Nations Conference on Trade and Development : Intra-trade and extra-trade of country groups by product, annual",
+  "url": "https://www.randforecastinginitiative.org/questions/1661",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.1441",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The crowd forecast."
+}

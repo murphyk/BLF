@@ -1,0 +1,14 @@
+{
+  "id": "0x6123b5cc75c38ba9783f6c8ea260107b546c7d3454a8f9b5280c9921cc39f3d9_2026-04-26",
+  "source": "polymarket",
+  "question": "Bitcoin all time high by September 30, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT between 16 December '25 10:30 and 11:59PM ET on the date specified in the title has a final \u201cHigh\u201d price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/bitcoin-all-time-high-by-september-30-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.105",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

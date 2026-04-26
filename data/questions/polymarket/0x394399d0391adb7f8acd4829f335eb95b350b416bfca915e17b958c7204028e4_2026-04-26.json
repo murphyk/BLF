@@ -1,0 +1,14 @@
+{
+  "id": "0x394399d0391adb7f8acd4829f335eb95b350b416bfca915e17b958c7204028e4_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Greece be in the top 5 at Eurovision 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the named country finishes Eurovision 2026 as one of the top 5 highest scoring candidates.\n\nIf at any point it is impossible for the listed candidate to finish as one of the top 5 highest scorers based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-greece-be-in-the-top-5-at-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.55",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

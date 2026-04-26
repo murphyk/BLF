@@ -1,0 +1,14 @@
+{
+  "id": "0x1a4f09a13dc61d80854b14ab7048be98f58cb584410b19a6492b95a26c7115f4_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Dogecoin reach $0.10 in April?",
+  "resolution_criteria": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for DOGE/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the DOGE/USDT High prices available at https://www.binance.com/en/trade/DOGE_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance DOGE/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-dogecoin-reach-0pt1-in-april-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.705",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

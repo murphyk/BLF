@@ -1,0 +1,27 @@
+{
+  "id": "EXPINF10YR_2026-04-26",
+  "source": "fred",
+  "question": "Will the Federal Reserve Bank of Cleveland's 10-year expected inflation rate have increased by each resolution date listed below as compared to its value on 2026-04-26?",
+  "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/EXPINF10YR once the data is published.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 2.402. (The latest value released in 10-Year Expected Inflation from the release Inflation Expectations.)",
+  "background": "The notes from the release: N/A.  The notes from the series: The Federal Reserve Bank of Cleveland estimates the expected rate of inflation over the next 30 years along with the inflation risk premium, the real risk premium, and the real interest rate.\n\nTheir estimates are calculated with a model that uses Treasury yields, inflation data, inflation swaps, and survey-based measures of inflation expectations.\n\nFor more information, please visit the <a href=\"https://www.clevelandfed.org/indicators-and-data/inflation-expectations#background\">Federal Reserve Bank of Cleveland<a/>..  Additional background of the series:  1. the units of the series: Percent.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Monthly ",
+  "url": "https://fred.stlouisfed.org/series/EXPINF10YR",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

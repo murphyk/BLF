@@ -1,0 +1,14 @@
+{
+  "id": "0x930c1ae0fdb23f71821c92e5dea1e6bd2b30b4d28ff5112a659c9f8b3871a1a5_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Carlos Alcaraz win the 2026 Men's French Open?",
+  "resolution_criteria": "The 2026 French Open is scheduled for May 18 - June 7, 2026.\n\nThis market will resolve to the player that wins the 2026 French Open Men\u2019s Singles Tournament.\n\nIf at any point it becomes impossible for a listed player to win the 2026 French Open Men\u2019s Singles Tournament per the rules of the tournament, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 French Open Men\u2019s Singles Tournament is cancelled, postponed after July 31, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from the French Open (https://www.rolandgarros.com/en-us/); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-carlos-alcaraz-win-the-2026-mens-french-open",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.34",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

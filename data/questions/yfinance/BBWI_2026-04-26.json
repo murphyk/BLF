@@ -1,0 +1,29 @@
+{
+  "id": "BBWI_2026-04-26",
+  "source": "yfinance",
+  "question": "Will BBWI's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BBWI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 17.940. (The latest market close price of BBWI.)",
+  "background": "Bath & Body Works, Inc. operates as a specialty retailer of personal care and home fragrance products. The company offers body and home fragrances, including 3-wick candles, home fragrance diffusers, fine fragrance mists, eau de parfum, body wash, hand soaps, body lotions, and body creams, as well as sanitizer and other products. It sells its products under the Bath & Body Works and other brand names through retail stores and e-commerce sites in the United States and Canada, as well as through international stores operated by partners under the franchise, license, and wholesale arrangements. The company was formerly known as L Brands, Inc. and changed its name to Bath & Body Works, Inc. in August 2021. Bath & Body Works, Inc. was founded in 1963 and is headquartered in Columbus, Ohio.",
+  "url": "https://finance.yahoo.com/quote/BBWI",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

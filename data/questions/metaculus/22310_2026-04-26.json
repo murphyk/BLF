@@ -1,0 +1,14 @@
+{
+  "id": "22310_2026-04-26",
+  "source": "metaculus",
+  "question": "Will President Luiz Inacio Lula da Silva be reelected as Brazil's president in October of 2026?",
+  "resolution_criteria": "This resolves YES if Lula is declared the winner of Brazil's Presidential Election of 2026 by the Superior Electoral Court.",
+  "background": "Lula has been elected thrice for the presidency in Brazil, in 2002, 2006, and 2022. All three times he led the first round with over 40% of votes, winning then in the second round with 60% of votes the first two times, and with 51% in 2022. Current election law requires a candidate to get more than 50% of valid votes in either the first round or the runoff to be elected.\n\nLula's party (PT - Workers' Party) has won every presidential election held this century with the exception of 2018, when Lula was imprisoned for corruption charges and was unable to run. His protege and current Finance Minister, Fernando Haddad, lost to Jair Bolsonaro, who then went on to lose to Lula in 2022, becoming the first incumbent president to lose reelection in Brazil (out of four presidents who attempted and five who were eligible). Bolsonaro himself is currently unable to run until 2030 due to election interference charges.",
+  "url": "https://www.metaculus.com/questions/22310",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.5",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

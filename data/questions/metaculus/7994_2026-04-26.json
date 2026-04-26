@@ -1,0 +1,14 @@
+{
+  "id": "7994_2026-04-26",
+  "source": "metaculus",
+  "question": "Will an inorganic nanoparticle-enabled cancer therapy be approved by the FDA before 2041?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before January 1, 2041, the FDA gives full approval to a cancer therapy that uses inorganic nanoparticles in the patient's treatment. The therapy must target the cancer cells rather than downstream symptoms. We specify \"inorganic\" to exclude lipid nanoparticles etc",
+  "background": "*This question supports and is linked to a fortified essay on the future of nanotechnology by Physical Chemist Kevin Ausman. [Click here](https://www.metaculus.com/questions/8012/when-will-we-see-real-nanotechnology/) to read the full essay. There is a related question, whether nanoparticle-enabled cancer therapy will be approved by 2031, [here](https://www.metaculus.com/questions/7981/nanoparticle-cancer-therapy-approved-by-2031/).*\n\nInorganic nanoparticles are small collections of a few thousand to a few billion atoms, typically ranging from 1 to 100 nm in diameter. They have many peculiar chemical and physical properties, which make them attractive for designing therapies.\n\nAn example of such technology is called [Aurolase Therapy](\nhttps://nanospectra.com/technology/), and has been in development for two decades. It's now in [pilot studies](https://www.pnas.org/content/116/37/18590) in humans with early results giving reason for optimism.",
+  "url": "https://www.metaculus.com/questions/7994",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.8",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

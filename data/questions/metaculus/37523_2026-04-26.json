@@ -1,0 +1,14 @@
+{
+  "id": "37523_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the ceasefire between the U.S. and Yemen\u2019s Houthis mediated by Oman be broken before June 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if either the U.S. military or Houthi forces engage in direct attacks against the other between after May 6, 2025 and before June 1, 2026, according to [credible sources](https://www.metaculus.com/faq/#definitions). The strike must be targeted against the U.S. or Houthis. Accidental strikes or collateral losses will not resolve this question.",
+  "background": "Following a nearly-two month bombing campaign by the US, Oman announced in May 2025 that it had successfully mediated a [ceasefire agreement](https://www.reuters.com/world/trump-says-us-will-stop-bombing-houthis-after-agreement-struck-2025-05-06/) between the US and Yemen's Houthis group. The ceasefire was intended to halt direct hostilities while opening the door to longer-term negotiations, though the precise terms and duration of the agreement have yet to be announced.",
+  "url": "https://www.metaculus.com/questions/37523",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.5",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

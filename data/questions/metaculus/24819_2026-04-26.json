@@ -1,0 +1,14 @@
+{
+  "id": "24819_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the USMCA be extended promptly at its July 2026 joint review?",
+  "resolution_criteria": "This question will resolve as **Yes** if, following the joint review of the USMCA held in July 2026, the USMCA is extended for another 16-year period. The question will resolve as **No** if the joint review ends without extension, triggering the annual review process described in paragraph 4 of [Article 34.7 of the USMCA](https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/34_Final_Provisions.pdf).",
+  "background": "The [United States-Mexico-Canada Agreement](https://crsreports.congress.gov/product/pdf/IF/IF10997) (USMCA) is a trade deal between the United States, Mexico, and Canada that replaced the North American Free Trade Agreement (NAFTA). Signed on November 30, 2018, and implemented on July 1, 2020, the USMCA aimed to modernize trade relations and address issues that had emerged since NAFTA's implementation in 1994.\r\n\r\nThe USMCA [will undergo a review period](https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/34_Final_Provisions.pdf) on its sixth anniversary, where it will be extended for another 16 years if all parties agree to extend it. If the parties do not agree to extend the USMCA, it will trigger an annual review process held each year until the deal expires in 2036 unless an extension is agreed to at one of the annual reviews. The Trump administration [pushed for the review process](https://www.brookings.edu/articles/usmca-review-upcoming-elections-and-a-path-forward/) and some observers expect that if Trump is president during the review he will push for significant changes. [Biden has also taken a protective stance on trade](https://www.thedialogue.org/analysis/will-the-usmca-accord-survive-an-upcoming-review/) and may push for changes more favorable to key US industries. It is possible that a contentious review process could lead to one or more parties withholding consent for an extension.",
+  "url": "https://www.metaculus.com/questions/24819",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.25",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0x7603555ca158dfb3ec4ef84a0d9d247b5229def167093a9e844e1ae383c5d83a_2026-04-26",
+  "source": "polymarket",
+  "question": "Tulsi Gabbard out by June 30?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if Tulsi Gabbard ceases to be the Director of National Intelligence for any period of time between market creation and June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nAn announcement of Gabbard's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be official information from the Trump administration, however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/tulsi-gabbard-out-by-june-30",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.24",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

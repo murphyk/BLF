@@ -1,0 +1,14 @@
+{
+  "id": "0x7db131f56117dd3883cb0f6ce289af6176a0f322f943cb4f226122a46619544b_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Doug Jones win the 2026 Alabama Governor Democratic primary election?",
+  "resolution_criteria": "This market will resolve according to the winner of the Democratic Primary for Governor of Alabama, scheduled to take place on May 19, 2026. Resolution will be based on the overall winner of the primary, including any potential second round or run-off.\n\nIf no 2026 Alabama Gubernatorial Democratic Primary takes place, this market will resolve to \u201cOther.\u201d\n\nThe resolution source for this market will be the first official announcement of the results from the Alabama Democratic Party; however, an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-doug-jones-win-the-2026-alabama-governor-democratic-primary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.889",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

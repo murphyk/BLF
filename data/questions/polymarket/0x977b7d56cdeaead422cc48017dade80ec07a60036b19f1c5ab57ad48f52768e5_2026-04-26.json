@@ -1,0 +1,14 @@
+{
+  "id": "0x977b7d56cdeaead422cc48017dade80ec07a60036b19f1c5ab57ad48f52768e5_2026-04-26",
+  "source": "polymarket",
+  "question": "Solana all time high by June 30, 2026?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if any Binance 1 minute candle for SOL/USDT between 16 December '25 11:30 and 11:59PM ET on the date specified in the title has a final \u201cHigh\u201d price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the SOL/USDT \"High\" prices currently available at https://www.binance.com/en/trade/SOL_USDT with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nPlease note that this market is about the price according to Binance SOL/USDT, not according to other sources or spot markets.",
+  "background": "",
+  "url": "https://polymarket.com/market/solana-all-time-high-by-june-30-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.0205",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "IQV_2026-04-26",
+  "source": "yfinance",
+  "question": "Will IQV's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IQV for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 178.100. (The latest market close price of IQV.)",
+  "background": "IQVIA Holdings Inc. provides clinical research services, commercial insights, and healthcare intelligence to the life sciences and healthcare industries in the Americas, Europe, Africa, and the Asia-Pacific. It operates through three segments: Technology & Analytics Solutions, Research & Development Solutions, and Contract Sales & Medical Solutions. The Technology & Analytics Solutions segment offers a range of cloud-based applications and associated implementation services; real world solutions that enable life sciences and provider customers to generate and disseminate evidence, which informs health care decision making and improves patients' outcomes; and strategic and implementation consulting services, such as advanced analytics and commercial processes outsourcing services. This segment also provides country level performance metrics related to sales of pharmaceutical products, prescribing trends, medical treatment, and promotional activity across various channels, including retail, hospital, and mail order; and measurement of sales or prescribing activity at the regional, zip code, and individual prescriber level. The Research & Development Solutions segment offers project management and clinical monitoring; clinical trial support; strategic planning and design services; and patient and site centric solutions, as well as central laboratory, genomic, bioanalytical, ADME, discovery, vaccine and biomarker laboratory services. The Contract Sales & Medical Solutions segment provides health care provider and patient engagement services, and scientific strategy and medical services. It serves pharmaceutical, biotechnology, device and diagnostic, and consumer health companies. The company was formerly known as Quintiles IMS Holdings, Inc. and changed its name to IQVIA Holdings Inc. in November 2017. IQVIA Holdings Inc. is based in Durham, North Carolina.",
+  "url": "https://finance.yahoo.com/quote/IQV",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

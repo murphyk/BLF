@@ -1,0 +1,17 @@
+{
+  "start-date": "2026-04-26",
+  "end-date": "2026-04-26",
+  "nquestions": {
+    "acled": 1395,
+    "aibq2": 226,
+    "dbnomics": 1268,
+    "fred": 1430,
+    "infer": 185,
+    "manifold": 495,
+    "metaculus": 337,
+    "polymarket": 1329,
+    "wikipedia": 1307,
+    "yfinance": 1427,
+    "total": 9399
+  }
+}

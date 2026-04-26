@@ -1,0 +1,14 @@
+{
+  "id": "41142_2026-04-26",
+  "source": "metaculus",
+  "question": "Will SpaceX successfully refuel a Starship in orbit during 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if SpaceX successfully transfers at least 1 metric ton of propellant from one Starship to another while both are in Earth orbit during 2026.",
+  "background": "The [Starship Propellant Transfer Demonstration](https://en.wikipedia.org/wiki/Starship_Propellant_Transfer_Demonstration) is a planned demonstration of the capacity to refuel a [Starship](https://en.wikipedia.org/wiki/SpaceX_Starship_\\(spacecraft\\)) rocket using another while in orbit of Earth.&#x20;\n\nScheduled to take place during mid-2026, the mission is critical for [Artemis Program](https://en.wikipedia.org/wiki/Artemis_program) as the program requires refueling in order to reach the moon.\n\nSpaceX has had [mixed results](https://en.wikipedia.org/wiki/List_of_Starship_launches) during past launches, with their most recent test, [Flight 11](https://en.wikipedia.org/wiki/Starship_flight_test_11), successfully splashing down with only 1 partial failure.",
+  "url": "https://www.metaculus.com/questions/41142",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.43",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

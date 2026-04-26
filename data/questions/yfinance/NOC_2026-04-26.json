@@ -1,0 +1,29 @@
+{
+  "id": "NOC_2026-04-26",
+  "source": "yfinance",
+  "question": "Will NOC's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/NOC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 678.590. (The latest market close price of NOC.)",
+  "background": "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally. It operates through four segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems. The Aeronautics Systems segment designs, develops, produces, integrates, sustains, and modernizes aircraft systems. This segment also offers unmanned autonomous aircraft systems, including high-altitude long-endurance strategic, surveillance and reconnaissance systems; and strategic long-range strike aircraft, tactical fighter and air dominance aircraft, and airborne battle management and command and control systems. Its Defense Systems segment designs, develops, integrates, and produces strategic deterrent systems, tactical weapons, and missile defense solutions; and provides sustainment, modernization, and training services for manned and unmanned aircraft and electronics systems. This segment also offers strategic missiles; integrated all-domain command and control systems; precision strike weapons; tactical solid rocket motors, and high-speed air-breathing and hypersonic systems; high-performance gun systems, ammunition, precision munitions, and advanced fuzes; and sustainment, operation, and modernization. The Mission Systems segment provides command, control, communication and computer, intelligence, surveillance, and reconnaissance systems; radar, electro-optical/infrared, and acoustic sensors; electronic warfare systems; advanced communications and network systems; microelectronics; navigation and positioning sensors; maritime power, propulsion, and payload launch systems; cyber solutions; and intelligence processing systems. Its Space Systems segment offers satellites, spacecraft systems, subsystems, sensors, and payloads; ground systems; missile defense systems and interceptors; and launch vehicles and related propulsion systems. The company was founded in 1939 and is based in Falls Church, Virginia.",
+  "url": "https://finance.yahoo.com/quote/NOC",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

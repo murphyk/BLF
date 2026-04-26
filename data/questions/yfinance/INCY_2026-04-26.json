@@ -1,0 +1,29 @@
+{
+  "id": "INCY_2026-04-26",
+  "source": "yfinance",
+  "question": "Will INCY's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/INCY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 97.100. (The latest market close price of INCY.)",
+  "background": "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI for the treatment of myelofibrosis (MF), polycythemia vera, and steroid-refractory acute graft-versus-host disease; ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; MONJUVI/ MINJUVI for the treatment of diffuse large B-cell lymphoma and Follicular Lymphoma; NIKTIMVO for the treatment of chronic graft-versus-host disease. It also provides INCA033989 for the treatment of essential thrombocythemia and MF;  INCA035784 for the treatment of anti-mutant calreticulin and myeloproliferative neoplasms (MPNs); INCB160058 for the treatment of MPNs; PEMAZYRE, a selective fibroblast growth factor receptor kinase inhibitor for the treatment of unresectable biliary tract cancer, metastatic cholangiocarcinoma, and myeloid/lymphoid neoplasms; ZYNYZ to treat adults with metastatic or recurrent locally advanced Merkel cell carcinoma. The company's clinical stage products include INCB123667 for ovarian cancer; INCB161734 for solid tumors; INCA33890 for cancers; Ruxolitinib cream for atopic dermatitis, hidradenitis suppurativa (HS), and prurigo nodularis; Povorcitinib for HS, nonsegmental vitiligo, prurigo nodularis, and asthma; and INCB00928 for the treatment of fibrodysplasia ossificans progressive. It has collaboration and license agreement with Novartis, Lilly, and Syndax. The company sells its products to specialty and retail pharmacies, hospital pharmacies, and distributors. The company was formerly known as Incyte Genomics Inc and changed its name to Incyte Corporation in March 2003. Incyte Corporation was incorporated in 1991 and is headquartered in Wilmington, Delaware.",
+  "url": "https://finance.yahoo.com/quote/INCY",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

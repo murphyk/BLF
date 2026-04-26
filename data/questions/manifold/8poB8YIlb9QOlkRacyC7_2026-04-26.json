@@ -1,0 +1,14 @@
+{
+  "id": "8poB8YIlb9QOlkRacyC7_2026-04-26",
+  "source": "manifold",
+  "question": "Will the Kenya Universal Basic Income experiment find that UBI significantly reduces local crime?",
+  "resolution_criteria": "Households in two Kenyan counties were randomly assigned to receive (or not) about US$0.75 per adult per day for 2 or 12 years. Transfers began in 2018.\n\nhttps://www.socialscienceregistry.org/trials/1952\n\nAt the bottom of above link is the pre-analysis plan. Local crime measured by responses of village elders to survey questions. \n\nhttps://www.poverty-action.org/study/effects-universal-basic-income-kenya\n\n2023 working paper: https://econweb.ucsd.edu/~pniehaus/papers/UBI_main_paper.pdf\n\nIf the \"Long Term arm\" has significantly less crime (as defined by the PAP) than the Control group, then the market resolves Yes. Otherwise, the market resolves No.\n\nNote that if the p-value is above .05 on this test, then the results will be considered insignificant and the market will resolve No.\n\nThe market will resolve based on the first set of results released by the authors on crime that purports to be running the tests outlined in the PAP.",
+  "background": "",
+  "url": "https://manifold.markets/DismalScientist/will-the-kenya-universal-basic-inco-594702ae779e",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.654672541175346",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

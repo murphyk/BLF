@@ -501,34 +501,23 @@ def _run_one_pass(config: AgentConfig, questions: list[dict],
 
 
 def _average_trials(config_name: str, questions: list[dict], ntrials: int,
-                    agg_method: str = "logit-mean",
-                    shrinkage_floor: float = 0.3,
-                    shrinkage_scale: float = 0.7):
-    """Average forecasts across trials.
+                    agg_method: str = "logit-mean"):
+    """Average forecasts across trials. No labels needed at inference.
 
     agg_method:
-        "logit-mean": Logit-space mean (paper §C.9 eq. 8 with α=1).
-            p_hat = sigmoid(mean(logits)). No labels needed at inference.
-            Default for SOTA — paper Table 3 / Sec C.9 show LOO selects
-            α=1 on FB, i.e. this exact formula.
-        "std-shrinkage": Logit-space mean × adaptive scaling toward 0.5.
-            p_hat = sigmoid(α · mean(logits)),  α = max(f, 1 − c·std(logits)).
-            Floor f and scale c are HARDCODED (0.3, 0.7) — they were
-            originally chosen by LOO during paper development on AIBQ2;
-            on FB the LOO optimum is α=1 (i.e. logit-mean) so std-
-            shrinkage is mainly useful on AIBQ2-like exams. No runtime
-            LOO; bake-in constants only.
-        "plain-mean": deprecated alias for "logit-mean" (kept so old
-            sota.json / saved-config dicts still load).
+        "logit-mean": p_hat = sigmoid(mean(logits))  (paper §C.9 eq. 8
+            with α=1). Default. Paper Table 3 / Sec C.9 show this is
+            optimal for FB.
+        "plain-mean":  p_hat = mean(p_k)  — arithmetic mean of trial
+            probabilities (no logit transform). Included for comparison;
+            tends to under-perform logit-mean on extreme questions.
 
-    For runtime LOO on α, use src/core/aggregate.py with the
-    "shrink5-loo" variant — that one fits α to labeled data and
-    therefore can't be used at live-submission time.
+    For label-dependent shrinkage variants (where α is fit to data),
+    see src/core/aggregate.py — those run post-collation and can't be
+    used at live-submission time.
     """
     import numpy as np
     n_written = 0
-    if agg_method == "plain-mean":
-        agg_method = "logit-mean"  # backwards-compat alias
     method = agg_method
 
     for q in questions:
@@ -557,19 +546,18 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
         mean_p = float(np.mean(ps_arr))
         std_p = float(np.std(ps_arr))
 
-        # Aggregate in logit space
+        # Aggregate
         logits = np.log(np.clip(ps_arr, 0.001, 0.999)
                         / (1 - np.clip(ps_arr, 0.001, 0.999)))
         logit_bar = float(np.mean(logits))
         std_logit = float(np.std(logits))
 
-        if agg_method == "std-shrinkage":
-            # alpha = max(floor, 1 - scale * std_logit)
-            # p_hat = sigmoid(alpha * logit_bar)
-            a = max(shrinkage_floor, 1.0 - shrinkage_scale * std_logit)
-            final_p = float(1 / (1 + np.exp(-a * logit_bar)))
+        if agg_method == "plain-mean":
+            # Arithmetic mean of probabilities (no logit transform).
+            a = 1.0
+            final_p = float(mean_p)
         else:
-            # logit-mean: logit-space average (alpha=1, no shrinkage)
+            # logit-mean: sigmoid(mean(logits)) — paper §C.9 eq. 8, α=1.
             a = 1.0
             final_p = float(1 / (1 + np.exp(-logit_bar)))
 
@@ -756,9 +744,8 @@ def main():
     parser.add_argument("--ntrials", type=int, default=1,
                         help="Run each config N times and average forecasts (default: 1)")
     parser.add_argument("--agg-method", default=None,
-                        help="Trial aggregation: 'logit-mean' (default; α=1) or "
-                             "'std-shrinkage' (hardcoded f=0.3, c=0.7). "
-                             "'plain-mean' kept as deprecated alias for logit-mean.")
+                        help="Trial aggregation: 'logit-mean' (default; α=1) "
+                             "or 'plain-mean' (arithmetic mean of probabilities)")
     parser.add_argument("--force", action="store_true",
                         help="Delete existing forecasts before running")
     args = parser.parse_args()

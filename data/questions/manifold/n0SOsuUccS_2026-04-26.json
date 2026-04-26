@@ -1,0 +1,14 @@
+{
+  "id": "n0SOsuUccS_2026-04-26",
+  "source": "manifold",
+  "question": "Will the winner of Eurovision 2026 come from Europe?",
+  "resolution_criteria": "While most countries in Eurovision come from Europe, several countries geographically outside Europe participate in the contest, a notable example being Australia. \n\nThis market resolves NO if any of the listed countries (4 out of 35) win:\n\n-Armenia\n\n-Australia\n\n-Azerbaijan\n\n-Israel",
+  "background": "",
+  "url": "https://manifold.markets/TenShino/will-the-winner-of-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.8698300556285601",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

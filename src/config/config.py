@@ -67,7 +67,7 @@ class AgentConfig:
     max_steps: int = 10
     compact_threshold: int = 2000
     question_timeout: int = 240
-    agg_method: str = "logit-mean"  # "logit-mean" (paper §C.9 eq.8 with α=1; default), "std-shrinkage" (hardcoded f=0.3, c=0.7), or legacy alias "plain-mean" → "logit-mean"
+    agg_method: str = "logit-mean"  # "logit-mean" (paper §C.9 eq.8, α=1; default) or "plain-mean" (arithmetic mean of probabilities)
     batch_queries: int = 0  # >0: non-agentic batch mode (N parallel queries, then submit)
     nobelief: bool = False   # True: disable structured belief state (text accumulation mode)
     fred_enhanced: bool = False  # True: append per-series classification to FRED tool output

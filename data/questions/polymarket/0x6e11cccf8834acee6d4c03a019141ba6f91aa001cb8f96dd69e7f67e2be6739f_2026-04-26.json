@@ -1,0 +1,14 @@
+{
+  "id": "0x6e11cccf8834acee6d4c03a019141ba6f91aa001cb8f96dd69e7f67e2be6739f_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Mumbai Indians win the 2026 Indian Premier League?",
+  "resolution_criteria": "The 2026 Indian Premier League (IPL) T20 cricket competition is scheduled to take place from March 26 to May 31, 2026. \n\nThis market will resolve according to the team that wins the 2026 Indian Premier League. \n\nIf at any point it becomes impossible for a listed team to win the 2026 Indian Premier League based on the rules of the competition (e.g., they do not advance to the playoffs), the corresponding market will resolve immediately to \u201cNo\u201d.\n\nIf the 2026 Indian Premier League season is permanently canceled or there is otherwise no winner declared by December 31, 2026, 11:59 PM, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be the IPL (https://www.iplt20.com/); however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-mumbai-indians-win-the-2026-indian-premier-league",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.155",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

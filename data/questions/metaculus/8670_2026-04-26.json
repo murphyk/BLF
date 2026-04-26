@@ -1,0 +1,14 @@
+{
+  "id": "8670_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the US President continue to have unrestricted authority to use nuclear weapons by 2030?",
+  "resolution_criteria": "This question will resolve as \"**No**\" if, at any point between November 1, 2021 to January 1, 2030, any one or set of American laws, amendments, or other legal mechanisms adds additional required authorizing parties to the final decision to use nuclear force and/or if the Acting President is no longer an authority in the process.  \n\nThe addition of new parties able to authorize nuclear weapon use (even without the President's awareness or approval) will not be relevant to the resolution of this question.  Additionally, the question resolution will not be affected by standing orders to use nuclear weapons (such as \"retaliate against X target if you detect a nuclear weapon launch\"), so long as they have been authorized in advance by the Acting President or someone with legal authority to authorize nuclear weapon use.  An accidental launch of US nuclear weapons, or one launched outside of the US nuclear chain of command will also not resolve the question.  This question solely concerns whether any new party will be able to restrict the Acting US President's authority to use nuclear weapons, or whether the President will have no such authority",
+  "background": "Metaculus users are acutely aware of the existential risks associated with nuclear security. The predictions community has written hundreds of questions concerning nuclear risk, and Metaculus is currently hosting a [Nuclear Risk tournament](https://www.metaculus.com/tournament/nuclear-risk-forecasting-tournament/). Most of these questions focus on stockpiles, detonation and other outcomes. To answer these questions with fidelity, predictors must make assumptions concerning the processes and conditions in which a nuclear weapon would be launched.\n \nAn excerpt from a [Congressional Research Service report](https://sgp.fas.org/crs/natsec/IF10521.pdf) outlines the command and control of nuclear forces in the United States:\n \n>The U.S. President has sole authority to authorize the use of U.S. nuclear weapons. This authority is inherent in his constitutional role as Commander in Chief. The President can seek counsel from his military advisors; those advisors are then required to transmit and implement the orders authorizing nuclear use. But, as General John Hyten, then the Commander of U.S. Strategic Command (STRATCOM), noted, his job is to give advice, while the authority to order a launch lies with the President.",
+  "url": "https://www.metaculus.com/questions/8670",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.9500000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

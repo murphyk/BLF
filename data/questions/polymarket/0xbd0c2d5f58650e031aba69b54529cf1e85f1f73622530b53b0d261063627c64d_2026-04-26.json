@@ -1,0 +1,14 @@
+{
+  "id": "0xbd0c2d5f58650e031aba69b54529cf1e85f1f73622530b53b0d261063627c64d_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Larry Rhoden win the 2026 South Dakota Governor Republican primary election?",
+  "resolution_criteria": "This market will resolve according to the winner of the Republican Primary for Governor of South Dakota, scheduled to take place on June 2, 2026. Resolution will be based on the overall winner of the primary, including any potential second round or run-off.\n\nIf no 2026 South Dakota Gubernatorial Republican Primary takes place, this market will resolve to \u201cOther.\u201d\n\nThe resolution source for this market will be the first official announcement of the results from the South Dakota Republican Party; however, an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-larry-rhoden-win-the-2026-south-dakota-governor-republican-primary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.21",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

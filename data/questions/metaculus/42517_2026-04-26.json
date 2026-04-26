@@ -1,0 +1,14 @@
+{
+  "id": "42517_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the United States lose its measles elimination status before 2027?",
+  "resolution_criteria": "This question will resolve as **Yes** if, before January 1, 2027, the Pan American Health Organization states that the United States has lost measles elimination status.",
+  "background": "The United States [eliminated measles](https://www.cdc.gov/measles/about/history.html) in the year 2000, following decades of widespread vaccination efforts driven by the introduction of the measles-mumps-rubella (MMR) vaccine in 1963 and subsequent immunization campaigns. Elimination status as defined by the WHO does not imply the complete absence of cases, but rather the interruption of endemic transmission. Imported cases and limited outbreak clusters have continued to occur periodically, with notable outbreaks recorded in 2014, 2019, and 2025. In 2019, the US nearly lost its elimination status with almost 1,300 measles cases stemming from a large outbreak in New York and cases in 30 additional states. By 2025, the United States was experiencing its largest measles outbreaks in decades.\n\n![](https://cdn.metaculus.com/user_uploaded/image_Z0yNQ7o.png)\n\nConcerns about the potential loss of elimination status have intensified due to declining childhood vaccination rates and rising vaccine hesitancy. The Regional Verification Commission, an independent body of public health experts appointed by [Pan American Health Organization](https://www.paho.org/) (PAHO), is responsible for monitoring the verification and re-verification of measles elimination across the Americas. The commission reviews extensive evidence to determine whether outbreaks constitute a continuous chain of transmission; if such transmission persists for twelve months or longer, a country's elimination status can be withdrawn. [PAHO announced](https://www.reuters.com/business/healthcare-pharmaceuticals/meeting-determine-us-measles-elimination-status-delayed-november-nyt-reports-2026-03-02/) that the review of the US's elimination status will take place in November 2026, during the Commission's regular annual meeting, with the analysis period running from January 20, 2025, the onset of the major West Texas outbreak.",
+  "url": "https://www.metaculus.com/questions/42517",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.723",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

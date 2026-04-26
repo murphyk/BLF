@@ -1,0 +1,14 @@
+{
+  "id": "0x1c60f9adb1d786b6fe78d63fd9f82dbb293fa06241532fb5ba43f8d8411cde1e_2026-04-26",
+  "source": "polymarket",
+  "question": "Will the New York Knicks win the NBA Eastern Conference Finals?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the New York Knicks win the 2025\u20132026 NBA Eastern Conference Finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2025\u201326 NBA Eastern Conference Finals based on the rules of the NBA.\n\nIf the 2025-26 NBA Eastern Conference Finals winner is not announced by June 30, 2026, this market will resolve to \u201cOther\u201d.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-new-york-knicks-win-the-nba-eastern-conference-finals",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.135",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

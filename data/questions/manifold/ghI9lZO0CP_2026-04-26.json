@@ -1,0 +1,14 @@
+{
+  "id": "ghI9lZO0CP_2026-04-26",
+  "source": "manifold",
+  "question": "US x Iran permanent peace deal by May 31? [Polymarket]",
+  "resolution_criteria": "Resolves according to https://polymarket.com/event/us-x-iran-permanent-peace-deal-by.\n\nThis market will resolve to \u201cYes\u201d if Iran and the United states agree to a permanent peace deal by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\n\nA permanent peace deal refers to any agreement which explicitly indicates that military hostilities between the United States and Iran have ended or will permanently cease, or uses equivalent language clearly signaling a lasting end to military hostilities between the United States and Iran. Agreements that are explicitly temporary or which do not include a definitive agreement to end military hostilities between the US and Iran on a lasting basis (e.g. a temporary extension of the two-week ceasefire agreement announced on April 7, 2026), will not qualify.\n\nA qualifying agreement will be considered to have been established if either of the following conditions are met:\n\n- The United States and Iran each sign or formally adopt a written agreement (e.g. a treaty or multi-point agreement) which meets the above criteria.\n\n- Both the governments of the United States and Iran provide clear public confirmation that a qualifying agreement has been definitively established. Negotiations, statements of progress, or other statements which do not constitute a definitive announcement that a qualifying agreement has been reached will not count.\n\nThe primary resolution source for this market will be official information from the governments of the United States and Iran; however, a consensus of credible reporting may also be used.\n\n[link preview]",
+  "background": "",
+  "url": "https://manifold.markets/vdb/us-x-iran-permanent-peace-deal-by-m",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.5142547107565411",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

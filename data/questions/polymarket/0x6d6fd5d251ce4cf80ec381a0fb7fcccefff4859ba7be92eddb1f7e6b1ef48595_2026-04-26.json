@@ -1,0 +1,14 @@
+{
+  "id": "0x6d6fd5d251ce4cf80ec381a0fb7fcccefff4859ba7be92eddb1f7e6b1ef48595_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Arsenal win a trophy this season?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if Arsenal is officially crowned the winner of at least one of the following competitions: the 2025\u201326 English Premier League, UEFA Champions League, Carabao Cup or FA Cup. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for Arsenal to win any of the four listed competitions (e.g. they are mathematically eliminated from winning, or eliminated from, all four competitions), the market will immediately resolve to \"No\".\n\nIf one or more of the listed competitions is canceled or is otherwise not completed by June 30, 2026, 11:59 PM ET, this market will resolve based on the results of the listed competitions that have been completed at that time. If Arsenal has not won any listed competition by that time, this market will resolve to \u201cNo\u201d.\n\nThe primary resolution source will be official information from the organizers of the listed competitions; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-arsenal-win-a-trophy-this-season",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.623",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

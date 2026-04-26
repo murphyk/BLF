@@ -1,0 +1,14 @@
+{
+  "id": "nPhdNdqI6S_2026-04-26",
+  "source": "manifold",
+  "question": "Will the S&P 500 close above 7883.34 on December 31, 2026?",
+  "resolution_criteria": "S&P 500 closes in previous years -\n\nDecember 31, 2023: 4769.83 \n\nDecember 31, 2024: 5881.63 (2024 gain: 1111.80)\nDecember 31, 2025: 6845.50 (2025 gain: 963.87)\n\nThe average gain in the last 2 years was 1037.835 points. This market resolves YES if the S&P 500 gains more points in 2026 than it did on average in 2024 and 2025 (closing above 7883.335, rounding up), and resolves NO if it does not (closing below that number). \n\nBackground\n\nThe S&P 500 ended 2025 up 16.4%, following a gain of 23.3% in 2024. The index has generated returns of over 16% for three consecutive years only five times in 97 years. As of January 5, 2026, the S&P 500 was trading at 6,902.05, meaning the index needs to gain approximately 981 points (14.3%) to reach the threshold.\n\n\nThe unemployment rate has risen to 4.6% from a low of 3.4% in 2023, and hiring slowed more profoundly in 2025 than any other year since the Great Recession in 2009. The first half of 2026 will likely deliver uncomfortably slow growth in the labor market, with unemployment peaking at 4.5% in early 2026, though the labor market slowdown is expected to reverse course later in the year. The risk of recession in 2026 remains at a one-in-three chance.\n\nConsiderations\n\nThe S&P 500's Shiller CAPE ratio has been hovering in the 39-40 range, with only the second time in market history that this valuation gauge has surpassed 40. If companies report significant returns from their investments in AI this year, the S&P 500 could again deliver substantial gains in 2026. However, in the 90s tech boom, the good times came to an end in 2000 due to steep valuation, and the S&P 500 Shiller CAPE ratio is currently at its highest level since then, making it possible that valuation could be the downfall for the S&P 500 this year.\n\nU.S. manufacturing activity has contracted in nine consecutive months due to economic uncertainty created by tariffs, and tariffs have historically led to higher unemployment and slower economic growth. However, Wall Street expects the S&P 500 to end 2026 at 7,580, with analysts projecting earnings to rise 14% in the new year. ",
+  "background": "",
+  "url": "https://manifold.markets/SaviorofPlant/will-the-sp-500-close-above-788334",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.239576844315488",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

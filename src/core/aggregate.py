@@ -18,12 +18,18 @@ the default aggregation. Aggregate-variant columns are opt-in via
 `eval.py --add-aggregation` or bracket syntax (`"pro-high[mean:5]"`).
 
 Variants:
-    mean:n          arithmetic mean over n-sized subsets of trials
-    logit-mean:n    arithmetic mean in logit space over n-sized subsets
-    shrink:n        std-shrinkage-to-0.5 over n-sized subsets (James-Stein-ish;
-                    shrinkage strength λ = 1 − 0.7·std(logits), floored at 0.3)
-    shrink<n>-loo   global λ fit by leave-one-out on all resolved entries
-                    (requires labels — NOT usable at live-submission time)
+    mean:n          arithmetic mean of trial probabilities over n-sized subsets
+    logit-mean:n    sigmoid(mean(logits)) over n-sized subsets
+    shrink:n        std-shrinkage in logit space (paper §C.9 with hardcoded
+                    f=0.3, c=0.7): p_hat = sigmoid(α·mean(logits)),
+                    α = max(0.3, 1 − 0.7·std(logits))
+    shrink:n-fit    single GLOBAL α ∈ (0.05, 1.0] fit by 20-point grid
+                    search to minimize mean Brier on the labeled set
+                    (requires resolved outcomes; not usable at submission time).
+                    Legacy "shrink:n-loo" name is accepted as an alias —
+                    despite the suffix it never did leave-one-out, just
+                    full-data optimization. True LOO would refit α per
+                    held-out question (TODO if needed for paper claims).
 
 Usage:
     python3 src/core/aggregate.py --xid my-xid
@@ -134,12 +140,22 @@ def _aggregate_entry(raw_trials: list[float], method: str, n: int,
 # LOO shrinkage
 # ---------------------------------------------------------------------------
 
-def _fit_loo_shrinkage(records: list[tuple[list[float], float]], n: int) -> float:
-    """Find λ ∈ (0.05, 1.0] that minimizes LOO mean Brier over all entries.
+def _fit_global_shrinkage(records: list[tuple[list[float], float]], n: int) -> float:
+    """Single global α ∈ (0.05, 1.0] that minimizes mean Brier on the
+    pooled labeled set.
+
+    Each (raw_trials, outcome) record is expanded into all C(K, n)
+    subsets of trials. For each candidate λ in a 20-point grid, we
+    compute p_i = sigmoid(λ · mean(logits_i)) on every (record,
+    subset) pair and take the mean Brier across all of them; pick λ
+    minimizing that.
+
+    NOT leave-one-out — uses the full labeled set to fit a single
+    global α. Honest naming: "shrink:N-fit". The earlier
+    "shrink:N-loo" variant name was a misnomer (no held-out
+    structure here).
 
     records: list of (raw_trials, outcome) with outcome in {0, 1}.
-    Uses subsets of size min(n, len(trials)) per entry and evaluates the
-    mean Brier score across all (entry, subset) pairs.
     """
     # Collect (trials-subset-aggregate-given-λ, outcome) contributions.
     # Pre-enumerate subsets once per record.
@@ -186,11 +202,16 @@ def _fit_loo_shrinkage(records: list[tuple[list[float], float]], n: int) -> floa
 # ---------------------------------------------------------------------------
 
 def _parse_variant(v: str) -> tuple[str, int]:
-    """Parse 'mean:5' → ('mean', 5), 'shrink5-loo' → ('shrink-loo', 5)."""
-    if v.endswith("-loo"):
-        head = v[:-4]
-        method = "shrink-loo"
-        n = int("".join(c for c in head if c.isdigit()) or "5")
+    """Parse 'mean:5' → ('mean', 5); 'shrink:5-fit' or legacy
+    'shrink5-loo' → ('shrink-fit', 5)."""
+    # Backwards-compat: '-loo' suffix used to label the global-fit
+    # variant; rename to '-fit' to avoid implying leave-one-out.
+    if v.endswith("-loo") or v.endswith("-fit"):
+        suffix = v[-4:]
+        head = v[: -len(suffix)]
+        method = "shrink-fit"
+        digits = "".join(c for c in head if c.isdigit())
+        n = int(digits) if digits else 5
         return method, n
     method, _, num = v.partition(":")
     return method.strip(), int(num) if num else 1
@@ -229,19 +250,21 @@ def aggregate_config(config_name: str, variants: list[str],
         print(f"  SKIP: no forecasts_final files for {config_name}")
         return 0
 
-    # Any *-loo variant is fit once globally against labeled data.
-    loo_lams: dict[str, float] = {}
+    # Any *-fit (or legacy *-loo) variant fits a single global α to
+    # the labeled set up-front. Real LOO would refit per held-out
+    # question — TODO if we ever need it for paper claims.
+    fit_lams: dict[str, float] = {}
     for v in variants:
         method, n = _parse_variant(v)
-        if method == "shrink-loo":
+        if method == "shrink-fit":
             records = _gather_label_records(config_name, n, root=root)
             if len(records) < 5:
-                print(f"  SKIP (loo): only {len(records)} labeled records for {config_name}/{v}")
-                loo_lams[v] = 1.0
+                print(f"  SKIP (fit): only {len(records)} labeled records for {config_name}/{v}")
+                fit_lams[v] = 1.0
             else:
-                loo_lams[v] = _fit_loo_shrinkage(records, n)
+                fit_lams[v] = _fit_global_shrinkage(records, n)
                 if verbose:
-                    print(f"  {config_name}/{v}: λ = {loo_lams[v]:.3f} (from {len(records)} records)")
+                    print(f"  {config_name}/{v}: α = {fit_lams[v]:.3f} (global, from {len(records)} records)")
 
     n_updated = 0
     for p in paths:
@@ -255,8 +278,8 @@ def aggregate_config(config_name: str, variants: list[str],
             col: list[float | None] = []
             for e in entries:
                 raw = e.get("raw_trials") or []
-                if method == "shrink-loo":
-                    agg = _aggregate_entry(raw, "shrink", n, lam=loo_lams.get(v, 1.0))
+                if method == "shrink-fit":
+                    agg = _aggregate_entry(raw, "shrink", n, lam=fit_lams.get(v, 1.0))
                 else:
                     agg = _aggregate_entry(raw, method, n)
                 col.append(agg)

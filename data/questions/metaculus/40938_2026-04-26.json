@@ -1,0 +1,14 @@
+{
+  "id": "40938_2026-04-26",
+  "source": "metaculus",
+  "question": "Will California Emissions Reporting Laws SB 253 and SB 261 Be In Effect on September 1, 2026?",
+  "resolution_criteria": "This question will resolve as Yes if both the Climate Corporate Data Accountability Act (SB 253) and the Climate-Related Financial Risk Act (SB 261) are in effect on September 1, 2026 (UTC +7:00).",
+  "background": "California has passed a pair of laws, known as SB 253 and SB 261, requiring companies that do business in the state to file public reports on their emissions.  There have been 2 legal challenges to these laws filed in California federal courts, one by the Chamber of Commerce and the other by Exxon.  In the Chamber of Commerce case, the judge denied the plaintiff's motion for a preliminary injunction, finding that the Chamber was not likely to succeed on the merits.  The Chamber appealed, and the 9th Circuit set an expedited hearing date of January 9, 2026 to consider the case.&#x20;\n\nSB 261 originally required companies to file reports by January 1, 2026, but the 9th Circuit stayed the law pending the outcome of the appeal.  SB 253 is a related emissions law scheduled to go into effort in August, 2026, and while the 9th Circuit declined to enjoin this law pending the appeal, the appeal is expected to resolve challenges to both laws.  If the 9th Circuit rules against the Chamber, it is widely expected that the Chamber would appeal to the U.S. Supreme Court and ask that Court for a stay pending the appeal.\n\nThe answer to this question has important implications for supporters and opponents of sustainability and green regulation. &#x20;",
+  "url": "https://www.metaculus.com/questions/40938",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.5",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

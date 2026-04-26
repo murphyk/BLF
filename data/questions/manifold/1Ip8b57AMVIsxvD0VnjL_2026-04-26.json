@@ -1,0 +1,14 @@
+{
+  "id": "1Ip8b57AMVIsxvD0VnjL_2026-04-26",
+  "source": "manifold",
+  "question": "Will unlimited 3% cash back on the Robinhood Gold Card last at least 18 months?",
+  "resolution_criteria": "https://robinhood.com/creditcard/\n\nFrom the NYTimes:\n\nHere\u2019s the first thing to know about the new Robinhood credit card that promises 3 percent cash back on all purchases, without limits: Yesterday, when I asked Vlad Tenev, the company\u2019s chief executive, to guarantee that it would stay at that level for 18 months, he would not.\n\nResolves YES if, as of 18 months after the card is in the first consumer hands, the card still offers:\n\n3% cash back\n\nOn all standard purchases\n\nFor up to at least $50,000 in purchases per month\n\nWith a monthly fee of <$10/month\n\nResolves NO otherwise. If they do not put the card in consumer hands by the end of 2025, also resolves NO. \n\nCurrently, there is no spending limit and I believe a $5/month or $50/year fee. I'm adding the slightly higher upper bounds to allow some minimal wiggle room. There are some purchase limitations, I will use my discretion on if any new restrictions are added. The spirit would be broken if they limited it to travel, or dining, or even a large combination of these categories. If they have closed the card to new signups, that's fine as long as existing cardholders maintain their privileges.\n\nI'm highly considering getting it, but I don't want to go through the effort of signing up and doing all the effort of dealing with brokerage/account setup if they're just going to rug pull the deal. If they deal doesn't last very long, it's basically a glorified signup perk, which would probably be beat by many other cards. Help me decide!",
+  "background": "",
+  "url": "https://manifold.markets/Sketchy/will-the-robinhood-gold-card-still",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.9612827396381791",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

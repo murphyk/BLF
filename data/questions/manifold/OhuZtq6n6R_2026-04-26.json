@@ -1,0 +1,14 @@
+{
+  "id": "OhuZtq6n6R_2026-04-26",
+  "source": "manifold",
+  "question": "Will the Nintendo Switch 2 be softmodded before June 5, 2026? [read description]",
+  "resolution_criteria": "Resolves YES if there exists a publicly available, usable by hobbyists, softmod for the Nintendo Switch 2 before market close. An unreleased or one-off hack doesn't count.\n\n\"soft\" - Does not require nontrivial disassembly of the console, does not require specialist tools or devices (including flashcarts), and does not require permanent physical alterations to the console. For example, something like the fusee-gelee vulnerability would count because it can be accomplished without disassembly, with everyday hardware (you can use a paperclip or something instead of a jig), and does not require a permanent hardware modification.\n\n\"mod\" - Must be able to run nontrivial homebrew code. For example, running a Doom port would be sufficient. Running as javascript or wasm within the web browser doesn't count, it must involve arbitrary native code execution.",
+  "background": "",
+  "url": "https://manifold.markets/Robincvgr/will-the-nintendo-switch-2-be-softm",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.04899010067606201",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

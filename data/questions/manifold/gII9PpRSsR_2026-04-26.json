@@ -1,0 +1,14 @@
+{
+  "id": "gII9PpRSsR_2026-04-26",
+  "source": "manifold",
+  "question": "Waymo available in European Union before 2027?",
+  "resolution_criteria": "This market resolves YES if Waymo commercially launches its autonomous ride-hailing service, making it legally available for use by the general public in any city within a European Union member state at any point before January 1, 2027 (i.e., by December 31, 2026).\n\nCriteria:\n\nService must be operated by Waymo.\n\nMust be available to the public (not just employees/testers).\n\nMust be legally approved and operational.\n\nLocation must be within an official EU member state city.\n\nOtherwise, this market resolves NO.",
+  "background": "",
+  "url": "https://manifold.markets/DanielPolak/waymo-available-in-european-union-b",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.264648693606502",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

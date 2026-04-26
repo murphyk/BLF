@@ -1,0 +1,14 @@
+{
+  "id": "1629_2026-04-26",
+  "source": "metaculus",
+  "question": "Will alien technosignatures be detected before 2050?",
+  "resolution_criteria": "This question will resolve as **Yes** if a competent and credible authority on astronomy and or space exploration (such as NASA, ESA, ROSCOSMOS, CNSA, JAXA, SETI or similar) announces that, on the balance of probabilities (i.e. more than 50% likely), technosignatures of non-human origin have been discovered before January 1, 2050. This announcement qualifies *only if* it is made after a year waiting period following the initial announcement of the detection, unless the space agencies of the US, Russia, China and Europe all agree that the finding is genuine. Evidence of *biosignatures* alone will not be directly relevant to the resolution of this question.\n\nBy 'non-human origin,' this question refers to technosignatures that are not the result of human activity, or of the activity of any technology or 'lifeform' created by humans, including any artificial intelligence system or biological organism",
+  "background": "[Technosignatures](en.wikipedia.org/wiki/Technosignature) are any measurable property or effect that provide scientific evidence of past or present technology, and are key to the search for extraterrestrial intelligence.\n\nTechnosignatures include (but are not limited to) evidence of electromagnetic transmissions of information, artificial heat and light, astroengineering projects (Dyson spheres and swarms, Matrioshka brains, stellar engines etc), asteroid or other space mining projects, and spacecraft.",
+  "url": "https://www.metaculus.com/questions/1629",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.016",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

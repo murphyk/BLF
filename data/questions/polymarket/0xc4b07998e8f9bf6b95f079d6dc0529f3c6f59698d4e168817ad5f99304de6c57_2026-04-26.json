@@ -1,0 +1,14 @@
+{
+  "id": "0xc4b07998e8f9bf6b95f079d6dc0529f3c6f59698d4e168817ad5f99304de6c57_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+  "resolution_criteria": "This market will resolve according to the title of the film with the highest 2026 gross according to the \"Gross\" column on https://www.boxofficemojo.com/year/2026/?grossesOption=calendarGrosses once data for December 31 is made available. \n\nNote: This market is about the movie's domestic calendar gross in 2026 - dates outside of 2026 will not count toward this movie's gross.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by January 7, 2027, 11:59 PM ET, another credible resolution source will be chosen.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-spider-man-brand-new-day-be-the-top-grossing-movie-of-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.465",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

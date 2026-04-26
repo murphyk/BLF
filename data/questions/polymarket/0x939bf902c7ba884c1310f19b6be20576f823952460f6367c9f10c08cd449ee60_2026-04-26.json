@@ -1,0 +1,14 @@
+{
+  "id": "0x939bf902c7ba884c1310f19b6be20576f823952460f6367c9f10c08cd449ee60_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Vivek Ramaswamy win the 2026 Ohio Governor Republican primary election?",
+  "resolution_criteria": "This market will resolve according to the winner of the Republican Primary for Governor of Ohio, scheduled to take place on May 5, 2026. Resolution will be based on the overall winner of the primary, including any potential second round or run-off.\n\nIf no 2026 Ohio Gubernatorial Republican Primary takes place, this market will resolve to \u201cOther.\u201d\n\nThe resolution source for this market will be the first official announcement of the results from the Ohio Republican Party; however, an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-vivek-ramaswamy-win-the-2026-ohio-governor-republican-primary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.97",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

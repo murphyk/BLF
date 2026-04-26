@@ -1,0 +1,14 @@
+{
+  "id": "0x6bdcc928ea45c82db3fec2bcac7d7a3fee998686788086195925d0edc291bfd3_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Rachel Anderson be the Democratic nominee for Senate in West Virginia?",
+  "resolution_criteria": "This market will resolve according to the winner of the Democratic Primary for United States Senator from West Virginia.\n\nIf no 2026 West Virginia Democratic Senate Primary takes place, this market will resolve to \"Other\".\n\nThe resolution source for this market will be the first announcement of the results from the West Virginia Democratic Party, however an overwhelming consensus of credible reporting may suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-rachel-anderson-be-the-democratic-nominee-for-senate-in-west-virginia",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.028",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

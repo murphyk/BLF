@@ -1,0 +1,14 @@
+{
+  "id": "0xfb1835b887c33862f5749c619e612d1244ab6e66115f0ef43d373485dc3a1573_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Manchester City win the 2025\u201326 English Premier League?",
+  "resolution_criteria": "This is a polymarket on whether the listed club will win the 2025\u201326 English Premier League.\n\nThis market will resolve to \"Yes\" if the listed club is officially crowned the winner of the 2025\u201326 English Premier League. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed club to win the league (e.g. they are mathematically eliminated), the market will resolve to \"No\".\n\nIf the 2025\u201326 English Premier League season is canceled or not completed by October 1, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from the English Premier League. A consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-manchester-city-win-the-202526-english-premier-league",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.305",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

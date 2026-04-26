@@ -1,0 +1,14 @@
+{
+  "id": "0xee7822fd9a558dbba01cd2a98760a5a8b649483d40f5f92d78a64fd1c21a2aff_2026-04-26",
+  "source": "polymarket",
+  "question": "Will the Democratic Party win the KY-04 House seat?",
+  "resolution_criteria": "This market will resolve according to the party of the candidate who wins the KY-04 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 4, 2026.\n\n\u200bA candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-democratic-party-win-the-ky-04-house-seat",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.085",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

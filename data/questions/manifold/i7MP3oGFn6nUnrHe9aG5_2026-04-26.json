@@ -1,0 +1,14 @@
+{
+  "id": "i7MP3oGFn6nUnrHe9aG5_2026-04-26",
+  "source": "manifold",
+  "question": "Will the Nintendo Switch 2 be hacked within 12 months of its release date?",
+  "resolution_criteria": "\"hacked\" means being able to run homebrew games - as an arbitrary concrete example, it must be able to run a Chocolate Doom port https://github.com/lantus/chocolate-doom-nx . Running as javascript or wasm within the web browser doesn't count, it must involve arbitrary native code execution.\n\nAn unreleased or one-off hack performed by a security researcher doesn't count, it needs to be a publicly available hack, usable by hobbyists. Hardware hacks such as modchips still count.\n\n\"Flashcarts\" that are only capable of playing existing commercial games do not count as homebrew.\n\nDisclosure: I am myself a security researcher, who has contributed to the switch homebrew scene in the past. There's a good chance I'll end up working towards hacking the switch 2, too.",
+  "background": "",
+  "url": "https://manifold.markets/retr0id/will-the-nintendo-switch-2-be-hacke",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.061852718194779006",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

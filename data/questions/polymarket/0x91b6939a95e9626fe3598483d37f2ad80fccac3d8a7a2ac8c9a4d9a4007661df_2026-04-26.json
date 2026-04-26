@@ -1,0 +1,14 @@
+{
+  "id": "0x91b6939a95e9626fe3598483d37f2ad80fccac3d8a7a2ac8c9a4d9a4007661df_2026-04-26",
+  "source": "polymarket",
+  "question": "Will George Pickens be traded?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the listed NFL player is traded by July 22, 2026, 11:59PM ET. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be official information from the NFL; however a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-george-pickens-join-a-different-team",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.5750000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

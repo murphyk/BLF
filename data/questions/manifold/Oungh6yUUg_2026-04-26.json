@@ -1,0 +1,14 @@
+{
+  "id": "Oungh6yUUg_2026-04-26",
+  "source": "manifold",
+  "question": "GTA VI released by May 31, 2026?",
+  "resolution_criteria": "This market resolves Yes if Grand Theft Auto VI (the mainline title commonly referred to as \u201cGTA VI\u201d) becomes publicly available for purchase or download in the United States on or before May 31, 2026, 11:59 PM PT. Otherwise, it resolves No.\n\nWhat counts as \u201creleased\u201d\n\nLive for the US public via an official channel (e.g., PlayStation Store, Xbox Store, Rockstar launcher/PC storefront) or major US retailers fulfilling physical orders.\n\nA release on any single supported platform (e.g., only Xbox Series X|S or only PS5) is sufficient.\n\nWhat does not count\n\nPreorders, preloads, early access, beta/preview builds, or limited test programs.\n\nLeaks or broken retailer street dates affecting a limited number of copies.\n\nAvailability outside the US only.\n\nEdge cases\n\nIf the game becomes publicly available in the US before the cutoff and is later pulled, it still counts as Yes.\n\nTitle naming variations (\u201cGTA VI\u201d) are acceptable so long as they clearly refer to the mainline game, not DLC, remasters, or spin-offs.\n\nResolution sources\n\nPrimary: Official Rockstar Games communications (Rockstar Newswire, official Rockstar social accounts) and/or Take-Two Interactive press releases.\n\nSecondary (for confirmation as needed): US platform store listings (PlayStation/Xbox/PC) showing the game available to purchase/download now, or major US retailers fulfilling physical orders. If sources conflict, the primary sources take precedence.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/predyx_markets/gta-vi-released-by-may-31-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.012728475103341",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

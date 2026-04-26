@@ -1,0 +1,14 @@
+{
+  "id": "ZqrdRKgvg3d2B65uEWAx_2026-04-26",
+  "source": "manifold",
+  "question": "Will the Supreme Court strike down the FTC\u2019s attempt to ban noncompete agreements before the end of 2026?",
+  "resolution_criteria": "The FTC is currently attempting to ban noncompetes nationwide.\n\nResolves to YES if the FTC follows through with their ban, a legal challenge to the ban makes it to the Supreme Court, and Surpreme Court wholly or partially strikes down the ban.\n\nOtherwise resolves to NO on December 31, 2026.",
+  "background": "",
+  "url": "https://manifold.markets/wispyartichoke/will-the-supreme-court-strike-down",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.295717370531209",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

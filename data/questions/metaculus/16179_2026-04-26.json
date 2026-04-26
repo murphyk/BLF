@@ -1,0 +1,14 @@
+{
+  "id": "16179_2026-04-26",
+  "source": "metaculus",
+  "question": "Will transformer models be the state-of-the-art on most natural language processing benchmarks on January 1, 2027?",
+  "resolution_criteria": "Sasha Rush and Jonathan Frankle have a public bet on this proposition: \n\n>On January 1, 2027, a [Transformer-like](https://arxiv.org/abs/1706.03762) model will continue to hold the state-of-the-art position in most benchmarked tasks in natural language processing.\n\nFor the motion is Frankle, and against the motion is Rush.\n\nThe question will resolve positively if Rush concedes the bet and negatively if Frankle concedes. \n\nIf neither side concedes before April 1, 2027, the question will resolve as ambiguous.",
+  "background": "In early March 2022, a bet was [announced](https://twitter.com/srush_nlp/status/1499157715054120969) between Sasha Rush, an Associate Professor at Cornell Tech, and Jonathan Frankle, Chief Scientist at a machine learning startup. The bet is interesting for getting a better understanding of the future trajectory of AI development; to the extent a shift from transformers as the dominant paradigm is more or less likely, different alignment strategies might be more or less promising. \n\nMore information regarding the bet can be found at [http://www.isattentionallyouneed.com/](http://www.isattentionallyouneed.com/).",
+  "url": "https://www.metaculus.com/questions/16179",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.98",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

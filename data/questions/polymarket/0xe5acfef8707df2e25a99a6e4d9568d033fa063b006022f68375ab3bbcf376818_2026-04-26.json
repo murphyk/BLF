@@ -1,0 +1,14 @@
+{
+  "id": "0xe5acfef8707df2e25a99a6e4d9568d033fa063b006022f68375ab3bbcf376818_2026-04-26",
+  "source": "polymarket",
+  "question": "Will the Swedish Social Democratic Party (S) win the most seats in the 2026 Swedish parliamentary election?",
+  "resolution_criteria": "Parliamentary elections are scheduled to be held in Sweden on September 13, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Swedish Parliament (Riksdag) in this election.\n\nIf voting in the Swedish parliamentary election does not occur by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats won, this market will resolve in favor of the party or coalition which received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party or coalition whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition in the Swedish Parliament. \n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Swedish government, specifically the Swedish Election Authority (Valmyndigheten) (https://www.val.se/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-swedish-social-democratic-party-s-win-the-most-seats-in-the-2026-swedish-parliamentary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.885",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

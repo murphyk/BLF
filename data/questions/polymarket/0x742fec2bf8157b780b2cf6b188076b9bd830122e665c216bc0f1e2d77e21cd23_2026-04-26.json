@@ -1,0 +1,14 @@
+{
+  "id": "0x742fec2bf8157b780b2cf6b188076b9bd830122e665c216bc0f1e2d77e21cd23_2026-04-26",
+  "source": "polymarket",
+  "question": "MegaETH market cap (FDV) >$600M one day after launch?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of MegaETH's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nFor the purposes of this market \"locked\" tokens or non-swappable tokens will not be considered a launch.\n\n\"1 day after launch\" is defined as 24 hours after launch. The resolution source for this market is the most liquid price source available. If MegaETH doesn't launch a token by June 30, 2026, 11:59 PM ET, this market will resolve to \"No.\"",
+  "background": "",
+  "url": "https://polymarket.com/market/megaeth-market-cap-fdv-600m-one-day-after-launch-185",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.75",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

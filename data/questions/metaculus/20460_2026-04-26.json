@@ -1,0 +1,14 @@
+{
+  "id": "20460_2026-04-26",
+  "source": "metaculus",
+  "question": "Will a Chinese firm make a large order of domestic AI chips before 2027?",
+  "resolution_criteria": "This question resolves as **Yes** if a Chinese-headquartered firm orders >20,000 domestically designed and fabricated AI chips before January 1, 2027, based on a credible report. It resolves as **No** otherwise.",
+  "background": "The Chinese government is committed to building a strong domestic AI chip supply chain: they have made this a national priority and invested many billions of dollars. However, this is an ambitious target and, to date, Chinese firms that use AI chips have continued to buy these chips from [incumbents](https://www.nytimes.com/2023/08/21/technology/nvidia-ai-chips-gpu.html) [like Nvidia](https://www.cnbc.com/2023/11/10/nvidia-will-reportedly-sell-new-chips-to-china-that-still-meet-us-rules.html#:~:text=In%20the%20near%20term%2C%20Chinese,chips%2C%20while%20searching%20for%20replacements.&text=Companies%20in%20China%20had%20then,last%20month%20with%20new%20restrictions.), and not from Chinese companies.\n\nIf a Chinese chip designer-manufacturer becomes competitive enough at the high end that Chinese firms start buying their chips in bulk, then this will be a strong signal that the Chinese government has hit its target, and that Chinese efforts to build frontier AI can no longer be hamstrung by [export](https://www.csis.org/analysis/choking-chinas-access-future-ai) [controls](https://www.reuters.com/technology/upcoming-us-rules-ai-chip-exports-aim-stop-workarounds-us-official-2023-10-15/).\n\nCurrently, the leading AI labs in China are housed at the big tech companies: Baidu, Alibaba, Tencent, and Xiaomi. Meanwhile, [it's believed](https://forum.effectivealtruism.org/posts/aoBxSba4CsEAtHqRy/largest-ai-model-in-2-years-from-usd10b#Is_100_000_chips_a_lot_:~:text=It%E2%80%99s%20estimated%20that%20the%20largest%20final%20training%20run%20as%20of%20now%20(GPT4)%20was%20about%20%2450M%20based%20on%C2%A0calculations%20from%20epoch%20using%2010%2C000%2D25%2C000%20A100%20GPUs%20for%202%2D6%20months.) that the largest AI model training run to date, that of OpenAI's GPT-4, used between 10 and 25 thousand chips.",
+  "url": "https://www.metaculus.com/questions/20460",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.9500000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

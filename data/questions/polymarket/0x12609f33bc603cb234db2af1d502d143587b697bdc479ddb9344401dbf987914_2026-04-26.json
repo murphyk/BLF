@@ -1,0 +1,14 @@
+{
+  "id": "0x12609f33bc603cb234db2af1d502d143587b697bdc479ddb9344401dbf987914_2026-04-26",
+  "source": "polymarket",
+  "question": "SCOTUS strikes down Trump's Birthright Citizenship EO?",
+  "resolution_criteria": "The Supreme Court is hearing arguments on the merits of Donald Trump\u2019s Executive Order \u201cProtecting the Meaning and Value of American Citizenship\u201d (https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/) which directed that children born in the United States would not automatically receive U.S. citizenship if their parents were in the country unlawfully or on certain temporary visas.\n\nThis market will resolve to \u201cYes\u201d if the Supreme Court of the United States rules that Donald Trump\u2019s Executive Order \u201cProtecting the Meaning and Value of American Citizenship\u201d may not be enforced to deny citizenship to children born in the United States, by July 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nA qualifying ruling must clearly and finally rule that the order, in whole, is unconstitutional or cannot lawfully take effect, or that the order cannot be enforced to deny citizenship to children born in the United States. \n\nProcedural rulings that do not clearly resolve whether the order may lawfully be enforced to deny citizenship to children born in the United States will not be sufficient to resolve this market to \u201cYes\u201d.\n\nIf a Supreme Court ruling on this case clearly and finally permits the order to deny citizenship to children born in the United States, this market will resolve to \u201cNo\u201d.\n\nIf the Executive Order is withdrawn prior to any qualifying Supreme Court ruling on the order, this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be official information from the Supreme Court of the United States; however, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/scotus-strikes-down-trumps-birthright-citizenship-eo",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.9355",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

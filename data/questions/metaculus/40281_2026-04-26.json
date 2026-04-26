@@ -1,0 +1,14 @@
+{
+  "id": "40281_2026-04-26",
+  "source": "metaculus",
+  "question": "Will any coding tool introduce an integration with brain-computer interface technology before November 2026?",
+  "resolution_criteria": "The question will resolve as **Yes** if, before November 1, 2026, a publicly accessible coding tool releases an integration with brain-computer interface technology.",
+  "background": "[<u>Brain-computer interfaces</u>](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface) (BCIs) are systems that enable direct communication between a human brain and an external device, typically by interpreting neural activity to control software or hardware. While BCIs have been largely explored for medical, gaming, and communication purposes, recent advances in neural decoding, wearable EEG devices, and implantable systems such as [<u>Neuralink</u>](https://en.wikipedia.org/wiki/Neuralink) have increased interest in integrating brain signals with general computing tools. Both [<u>companies</u>](https://www.wired.com/story/neuralink-implant-first-human-patient-demonstration/) and [<u>research groups</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC9313199/) have demonstrated limited control of text editors or code environments through neural input.",
+  "url": "https://www.metaculus.com/questions/40281",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.02",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

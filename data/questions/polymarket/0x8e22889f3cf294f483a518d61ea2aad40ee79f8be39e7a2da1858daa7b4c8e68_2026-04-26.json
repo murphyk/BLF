@@ -1,0 +1,14 @@
+{
+  "id": "0x8e22889f3cf294f483a518d61ea2aad40ee79f8be39e7a2da1858daa7b4c8e68_2026-04-26",
+  "source": "polymarket",
+  "question": "Will the Buffalo Sabres win the Eastern Conference?",
+  "resolution_criteria": "This market will resolve according to the team that wins the Eastern Conference during the 2025-26 NHL Playoffs.\n\nIf at any point it becomes impossible for a listed team to win the Eastern Conference (e.g., elimination from the playoffs), the relevant market will resolve immediately to \u201cNo.\u201d\n\nIf the 2025-26 NHL season is permanently canceled or the playoffs have not been completed by August 31, 2026, 11:59 PM ET, this market will resolve to \u201cOther.\u201d",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-buffalo-sabres-win-the-eastern-conference",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.1075",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

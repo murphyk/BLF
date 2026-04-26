@@ -1,0 +1,14 @@
+{
+  "id": "41214_2026-04-26",
+  "source": "metaculus",
+  "question": "Will Bitcoin reach a new all-time high price before October 6, 2026?",
+  "resolution_criteria": "This question resolves as **Yes** if before October 6, 2026, Bitcoin's all-time high (ATH) price listed on [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/) is higher than \\$126,198.07 and the date of that ATH price is between December 17, 2025 and October 6, 2026.",
+  "background": "Bitcoin (BTC) is the world's first and most widely adopted cryptocurrency. Its price has historically shown significant volatility, reaching an all-time high of \\$126,198.07 on October 6, 2025 before falling (according to [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/)).\n\nThe price of Bitcoin is influenced by multiple factors, including:\n\n* Institutional adoption (e.g., Bitcoin ETFs, corporate holdings)\n* Macroeconomic conditions (e.g., inflation, interest rates, monetary policies)&#x20;\n* Regulatory developments (e.g., government restrictions, taxation, legal status)&#x20;\n* Technological advancements (e.g., Layer 2 solutions, network upgrades)\n* Market sentiment and speculation\n\nSeveral financial institutions and analysts have provided forecasts for Bitcoin\u2019s price:\n\n* [Bitwise](https://bitwiseinvestments.com/crypto-market-insights/the-year-ahead-10-crypto-predictions-for-2026), [Standard Charter and Bernstein](https://www.bloomberg.com/news/articles/2025-12-09/bitcoin-bulls-standard-chartered-bernstein-pare-back-most-ambitious-forecasts?embedded-checkout=true) predicts BTC to reach a new ATH in 2026.\n* [Forbes](https://www.forbes.com/sites/digital-assets/2025/12/16/serious-2026-3-trillion-crypto-collapse-fed-warning-issued-10000-bitcoin-price-predicted-as-crash-fears-swirl/) has warned of a possible huge crash in BTC price.\n\nBitcoin has been [priced below \\$100,000 since November 13, 2025](https://coinmarketcap.com/currencies/bitcoin/historical-data/).",
+  "url": "https://www.metaculus.com/questions/41214",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.2",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

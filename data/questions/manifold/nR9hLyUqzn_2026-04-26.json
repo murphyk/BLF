@@ -1,0 +1,14 @@
+{
+  "id": "nR9hLyUqzn_2026-04-26",
+  "source": "manifold",
+  "question": "Will global carbon emissions decrease in 2025 compared to 2024 levels?",
+  "resolution_criteria": "Background:\n\nGlobal carbon emissions, primarily driven by fossil fuel combustion, industrial activities, and deforestation, are a major contributor to climate change. International efforts, including those under the Paris Agreement, aim to reduce greenhouse gas emissions to limit global temperature rise. Annual global carbon emissions are closely monitored and reported by organizations such as the *Global Carbon Project* (GCP), International Energy Agency (IEA), and others. \n\nThis prediction market question invites participants to speculate on whether global carbon emissions in 2025 will show a decrease compared to 2024 levels, reflecting the effectiveness of global climate initiatives, economic trends, and technological advancements.\n\n---\n\nResolve Conditions:\n\nPositive Resolution:\n\nThe prediction will resolve positively (Yes) if, by June 30, 2026, official and finalized data shows that total global carbon emissions in 2025 were lower than in 2024. This will be based on data published by the *Global Carbon Project* or, if unavailable, by other reputable sources like the International Energy Agency (IEA) or World Resources Institute (WRI).  \n\nNegative Resolution:\n\nThe prediction will resolve negatively (No) if, by June 30, 2026, data shows that total global carbon emissions in 2025 were equal to or higher than those in 2024.  \n\nAdditional Notes:\n\n- The term \"global carbon emissions\" refers to the total amount of CO\u2082 emissions from fossil fuel use, industrial processes, and land-use changes, as calculated by the chosen source.\n\n- If only preliminary estimates are available by June 30, 2026, these will be used unless superseded by finalized data before December 31, 2026.\n\n- In the event of conflicting data from multiple sources, the resolution will be based on the most authoritative and widely accepted dataset.\n\n- If no credible data is available by December 31, 2026, the prediction will be resolved as N/A.",
+  "background": "",
+  "url": "https://manifold.markets/MalteKretzschmar/will-global-carbon-emissions-decrea",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.21800011802007702",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

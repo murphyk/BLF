@@ -1,0 +1,14 @@
+{
+  "id": "8602_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the combination of semaglutide and cagrilintide be approved for the treatment of obesity by the FDA or EMA by 2027?",
+  "resolution_criteria": "This question will resolve positively if either the US Food and Drug Administration or the European Medicines Agency approve a paired form of semaglutide and cagrilintide (in any ratio) for the treatment of weight loss by 2027-01-01.  This may include a successful development from Novo Nordisk, or any other pharmaceutical company.  The approved drug may have any ratio of semaglutide and cagrilintide, but may not include any other active ingredient",
+  "background": "There have been a number of promising early results in drug research and development to treat obesity, particularly results with [Semaglutide](https://en.wikipedia.org/wiki/Semaglutide). Novo Nordisk recently completed a [phase 1b trial](https://doi.org/10.1016/S0140-6736(21)00845-X) pairing semaglutide with the amylin analog cagrilintide. Over 20 weeks, the addition of cagrilintide nearly doubled the rate of weight loss caused by semaglutide alone, suggesting that in a longer trial the combination may equal the weight loss caused by bariatric surgery. The combination caused somewhat more gastrointestinal side effects than semaglutide alone, but there was no indication of serious adverse events.",
+  "url": "https://www.metaculus.com/questions/8602",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.47000000000000003",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

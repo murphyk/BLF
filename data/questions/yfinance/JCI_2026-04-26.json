@@ -1,0 +1,29 @@
+{
+  "id": "JCI_2026-04-26",
+  "source": "yfinance",
+  "question": "Will JCI's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/JCI for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 137.210. (The latest market close price of JCI.)",
+  "background": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the United States, Europe, the Asia Pacific, and internationally. It operates through four segments: Building Solutions North America, Building Solutions EMEA/LA, Building Solutions Asia Pacific, and Global Products. The company designs, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and fire protection and security products. It also provides energy efficiency solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven smart building solutions. In addition, the company offers access control software and software services. It sells its products and services to commercial, institutional, industrial, data center, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
+  "url": "https://finance.yahoo.com/quote/JCI",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

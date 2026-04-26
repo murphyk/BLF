@@ -1,0 +1,14 @@
+{
+  "id": "RRsc6OSLsL_2026-04-26",
+  "source": "manifold",
+  "question": "AI bubble pops in 2026?",
+  "resolution_criteria": "Resolution criteria\n\nThis market resolves YES if a significant decline in AI-related asset valuations occurs during 2026, defined as:\n\nA sustained 20%+ decline from peak valuations in the \"Magnificent Seven\" AI stocks (Nvidia, Microsoft, Amazon, Alphabet, Meta, Apple, Tesla) during any consecutive 3-month period in 2026, OR\n\nA 15%+ decline in the Nasdaq-100 index during any consecutive 3-month period in 2026 that is explicitly attributed by major financial media (Bloomberg, Reuters, CNBC, WSJ) to an \"AI bubble burst\" or similar characterization\n\nResolution sources: S&P 500 historical data, Nasdaq-100 data, major financial news outlets\n\nThe market resolves NO if 2026 concludes without meeting these criteria. Edge case: If a market crash occurs for reasons unrelated to AI valuations (geopolitical crisis, monetary shock), the market resolves NO unless media explicitly ties it to AI bubble concerns.\n\nBackground\n\nGlobal AI spending is forecasted to reach $500 billion in 2026, yet American consumers spend only $12 billion a year on AI services. OpenAI expects to lose $5 billion this year, with annual losses swelling to $11 billion by 2026. A Bank of America Global Fund Manager Survey conducted in October 2025 revealed that 54% of institutional investors believe AI stocks are currently in a bubble. OpenAI's ChatGPT generated $4.3 billion in revenue in the first half of 2025 but simultaneously posted a $13.5 billion loss. The share of the economy devoted to AI investment is nearly a third greater than the share devoted to internet-related investments during the dotcom bubble.\n\nConsiderations\n\nExpert opinion is sharply divided. Sam Altman, CEO of OpenAI, believes an \"AI bubble is ongoing,\" while Ray Dalio stated current AI investment levels are \"very similar\" to the dot-com bubble. However, today's leading AI firms are generally established and highly profitable, unlike many unprofitable startups of the dot-com era, and current AI investment is largely driven by disciplined capital spending of established, cash-rich tech companies. Meaningful enterprise-wide bottom-line impact from AI use continues to be rare, suggesting a potential disconnect between investment levels and actual business returns.",
+  "background": "",
+  "url": "https://manifold.markets/Louis_Z/ai-bubble-pops-in-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.24999999999999903",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

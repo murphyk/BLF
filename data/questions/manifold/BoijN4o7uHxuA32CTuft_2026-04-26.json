@@ -1,0 +1,14 @@
+{
+  "id": "BoijN4o7uHxuA32CTuft_2026-04-26",
+  "source": "manifold",
+  "question": "Will SpaceX attempt to deploy Starlink satellites in the first fully-orbital Starship\u2013SuperHeavy flight?",
+  "resolution_criteria": "Resolves on whether the first Starship\u2013Superheavy flight that is intended to be fully orbital will attempt to deliver one or more Starlink satellites to orbit. Success is not required, only that at the time the launch takes place, deploying a payload of one or more Starlinks to orbit is part of the flight plan.\n\n\"Fully orbital\" means that the vehicle at some point in the flight plan would be on a trajectory on which, without further engine burns, it would complete a full orbit around the Earth.\n\nThe Starlink satellites(s) can be any model, as long as SpaceX calls them Starlink satellites.\n\nLaunch counts as a vehicle lifting off the pad, however slightly, under the thrust of its engines. This market resolves upon (and stays open until) launch of the first flight intended to be fully orbital.",
+  "background": "",
+  "url": "https://manifold.markets/chrisjbillington/will-spacex-attempt-to-deploy-starl-e175bae39979",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.7774635808857311",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

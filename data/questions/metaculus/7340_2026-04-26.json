@@ -1,0 +1,14 @@
+{
+  "id": "7340_2026-04-26",
+  "source": "metaculus",
+  "question": "Will there be another donor on the scale of 2020 Good Ventures in the Effective Altruist space in 2026?",
+  "resolution_criteria": "This question resolves positively if, in 2026, an individual donor or foundation other than Good Ventures, sourcing its wealth from a single individual or family donates over 250 million dollars (adjusted for inflation), using an Effective Altruist framework to guide their donations (see fine print for details).\n\nGrants should only count if they are publicly disclosed, as is currently done by Good Ventures or [Survival and Flourishing](https://survivalandflourishing.fund/), for example.",
+  "background": "[Good Ventures](https://www.goodventures.org/) is a philanthropic foundation managing the giving of Dustin Moskovitz and Cari Tuna which is a major donor to effective altruist aligned causes. They donated $219 million to such causes [in 2020](https://www.goodventures.org/our-portfolio/grants-database) and $274 million in 2019, for an average of $246 million per year in these two years. This question asks if, in 2026, there will be another such foundation or individual donor in the effective altruism space.",
+  "url": "https://www.metaculus.com/questions/7340",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.2",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

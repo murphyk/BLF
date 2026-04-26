@@ -1,0 +1,14 @@
+{
+  "id": "0xa0965c6e18be3e0893f9a3f69cd77e8d998e817dfab4ad7c5388b5f718d1efeb_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Aubry Bracco win Survivor Season 50?",
+  "resolution_criteria": "This market will resolve to the contestant who wins Survivor season 50.\n\nIf Survivor season 50 concludes without a winner being declared, or if Survivor season 50 has otherwise not concluded by June 30, 2026, 11:59PM ET this market will resolve to \"Other\". In the case of a tie, this market will resolve in favor of the listed contestant whose name comes first in alphabetical order. \n\nThis market will remain open until the conclusion of the season.\n\nThe resolution source for this market will be the official broadcast of the final episode of Survivor season 50.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-aubry-bracco-win-survivor-season-50",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.705",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

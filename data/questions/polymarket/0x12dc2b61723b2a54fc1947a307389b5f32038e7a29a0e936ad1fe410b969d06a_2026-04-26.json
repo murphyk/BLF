@@ -1,0 +1,14 @@
+{
+  "id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Harry Kane win the 2026 Ballon d'Or?",
+  "resolution_criteria": "This market will resolve according to the winner of the 2026 Ballon d\u2019Or.\n\nIf no 2026 Ballon d\u2019Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-harry-kane-win-the-2026-ballon-dor",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.2975",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

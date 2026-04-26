@@ -1,0 +1,14 @@
+{
+  "id": "0xdade564249db4b9daad8e06c21e06e2760c7c640b2be1c7016baa48bbfef83d9_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Woo Sang-ho win the 2026 Gangwon Province gubernatorial election?",
+  "resolution_criteria": "The Gangwon Province gubernatorial election is scheduled to take place in South Korea on June 3, 2026 to elect the next governor of Gangwon Province. \n\nThis market will resolve according to the candidate that wins this election.\n\nIf the result of this election isn't known by December 31, 2026, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the South Korean government, specifically the National Election Commission (https://www.nec.go.kr/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-woo-sang-ho-win-the-2026-gangwon-province-gubernatorial-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.88",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

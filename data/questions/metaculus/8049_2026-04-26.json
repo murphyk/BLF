@@ -1,0 +1,14 @@
+{
+  "id": "8049_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the existence and smoothness properties of the Navier-Stokes equations in three dimensions turn out to depend on the compactness of the universe over which they are defined?",
+  "resolution_criteria": "This question resolves positively if before the resolution date of the question there are proofs of *either* both A and D *or* both B and C. It resolves negatively if there are proofs of *either* both A and B *or* both C and D. If neither event takes place before the resolution date of the question, the question resolves ambiguously",
+  "background": "The [Navier-Stokes existence and smoothness conjecture](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness) is an important open problem in fluid dynamics and the theory of partial differential equations. It's been designated as one of the Clay Institute's Millennium Prize Problems in 2000 and there is a 1 million dollar bounty available for either proving or disproving the conjecture. In the official introduction to the problem [here](https://www.claymath.org/sites/default/files/navierstokes.pdf), the Clay Institute splits the problem into four statements A, B, C and D; and the problem is considered to have been settled if *any one* of them is proven.\n\nImportantly for this question, the statements A and C are about the Navier-Stokes equations defined on the noncompact space \\( \\mathbb R^3 \\), while B and D are about the equations defined on the compact torus \\( (\\mathbb R/\\mathbb Z)^3 \\).",
+  "url": "https://www.metaculus.com/questions/8049",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.491669991920171",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

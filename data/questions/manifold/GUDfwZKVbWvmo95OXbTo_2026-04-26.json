@@ -1,0 +1,14 @@
+{
+  "id": "GUDfwZKVbWvmo95OXbTo_2026-04-26",
+  "source": "manifold",
+  "question": "Will the war in Ukraine end before 2027?",
+  "resolution_criteria": "EET time zone. If the war ends on midnight between 2026 and 2027 this market exactly resolves YES.",
+  "background": "",
+  "url": "https://manifold.markets/asmith/will-the-war-in-ukraine-end-before-0b0a5ac6c165",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.20213617596343403",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

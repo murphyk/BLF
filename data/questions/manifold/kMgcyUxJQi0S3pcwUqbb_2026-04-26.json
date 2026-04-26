@@ -1,0 +1,14 @@
+{
+  "id": "kMgcyUxJQi0S3pcwUqbb_2026-04-26",
+  "source": "manifold",
+  "question": "Will global greenhouse gas emissions in 2026 be lower than global greenhouse gas emissions in 2025?",
+  "resolution_criteria": "If there is substantial disagreement across sources as to whether global greenhouse gas emissions were lower in 2026 than in 2025, question resolution will defer to Our World in Data: https://ourworldindata.org/greenhouse-gas-emissions\n\nSee also:\n\n(https://manifold.markets/embed/JaromGordon/will-global-greenhouse-gas-emission)",
+  "background": "",
+  "url": "https://manifold.markets/Jarom/will-global-greenhouse-gas-emission-q40c6le2qi",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.43314835655761",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

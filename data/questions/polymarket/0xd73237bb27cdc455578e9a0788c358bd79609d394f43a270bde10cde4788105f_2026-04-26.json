@@ -1,0 +1,14 @@
+{
+  "id": "0xd73237bb27cdc455578e9a0788c358bd79609d394f43a270bde10cde4788105f_2026-04-26",
+  "source": "polymarket",
+  "question": "SCOTUS bars counting mail ballots after election day?",
+  "resolution_criteria": "This market will resolve to \u201cYes\u201d if the United States Supreme Court, in Watson v. Republican National Committee, rules that the federal election-day statutes preempt a state law that allows ballots cast by federal Election Day to be received and counted after election day, by August 1, 2026, 11:59 PM ET. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve based on the Supreme Court\u2019s decision in this case. Other related cases or legislation will not affect resolution.\n\nThe resolution source for this market will be official information from the U.S. Supreme Court; however, a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/scotus-bars-counting-mail-ballots-after-election-day",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.77",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

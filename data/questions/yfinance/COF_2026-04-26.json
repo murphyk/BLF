@@ -1,0 +1,29 @@
+{
+  "id": "COF_2026-04-26",
+  "source": "yfinance",
+  "question": "Will COF's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/COF for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 202.980. (The latest market close price of COF.)",
+  "background": "Capital One Financial Corporation operates as the financial services holding company for the Capital One, National Association, which engages in the provision of various financial products and services in the United States, Canada, and the United Kingdom. It operates through three segments: Credit Card, Consumer Banking, and Commercial Banking. The company accepts checking accounts, money market deposits, negotiable order of withdrawals, savings deposits, time deposits, and sweep accounts. Its loan products include credit card and personal loans; auto and retail banking loans; and commercial and multifamily real estate, and commercial and industrial loans. The company offers credit and debit card products; bank lending; and provides advisory, capital markets, net interchange, treasury management, and depository services. It serves consumers, small businesses, and commercial clients through digital channels, branches, caf\u00e9s, and other distribution channels located in New York, Louisiana, Texas, Maryland, Virginia, New Jersey, and the District of Columbia. Capital One Financial Corporation was founded in 1988 and is headquartered in McLean, Virginia.",
+  "url": "https://finance.yahoo.com/quote/COF",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

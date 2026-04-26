@@ -1,0 +1,14 @@
+{
+  "id": "0x8c51f57113fa7c705af2a3b2450a42cf0d0192a49b16db4235fb7d08738a9b07_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Thunder Parley advance from the 2026 California Governor primary election?",
+  "resolution_criteria": "The non-partisan primary election for Governor of California is scheduled to take place on June 2, 2026. The top two candidates in this election by number of votes won will advance to the general election for Governor of California.\n\nThis market will resolve to \u201cYes\u201d If the listed candidate advances from the primary to the general election for Governor of California. Otherwise this market will resolve to \u201cNo\u201d.\n\nIf no 2026 California gubernatorial primary takes place by December 31, 2026, this market will resolve to \u201cNo.\u201d\n\nThis market will resolve based on the results of the primary election for Governor of California as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the government of California, specifically the Office of the Secretary of State.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-thunder-parley-get-the-first-or-second-most-votes-in-the-2026-california-governor-primary-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.016",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

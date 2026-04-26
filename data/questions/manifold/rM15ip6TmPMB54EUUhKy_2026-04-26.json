@@ -1,0 +1,14 @@
+{
+  "id": "rM15ip6TmPMB54EUUhKy_2026-04-26",
+  "source": "manifold",
+  "question": "Will the world become more secular in the next World Values Survey?",
+  "resolution_criteria": "The World Values Survey (WVS) polls people from over a hundred countries on cultural values questions scored on two axes: secular vs traditional, and survival vs self-expression. The data is used to create the Inglehart-Welzel Cultural Map:\n\n[image]The 7th wave of polling began in 2017, concluded in 2022, and was published in 2023.\n\n\nThe WVS will conduct Wave 8 surveys in the mid-2020s (currently planned 2023-2026). When the results are published, will they show that, the average of all countries surveyed will score higher on secularism in Wave 8 compared to Wave 7?\n\n\n\"all countries\" means all countries that are include in both Wave 7 (2017-2022) and Wave 8. If a country is excluded in Wave 8 that was surveyed in Wave 7, or a country was included in Wave 8 that was excluded in Wave 7, the country will not be used when averaging \"all countries.\" Note that WVS inclues sub-regions, such as Macau, Hong Kong, and Northern Ireland, so these will also count.\n\n\"secularism\" refers to the Wave 8 data corresponding to the secular vs traditional axis. In Wave 8's data, this is labelled as \"TradAgg.\" If there are multiple years of data in the Wave 8 period, I will use the most recent one.\n\n\"average\" means I will take the most recent scores in Wave 8's data for each of these countries and take an average in excel. I will also do this for the most recent data for Wave 7's data, and if Wave 8's average is higher than Wave 7's, this question resolves YES.\n\nThe Wave 7 data that makes up the Cultural Map is available here. I have taken the data and averaged the secular values for all countries, which gave me a result of -0.125.\n\nMore questions about the next World Values Survey:\n\n[markets]",
+  "background": "",
+  "url": "https://manifold.markets/cash/will-the-world-become-more-secular",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.8016404480964571",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

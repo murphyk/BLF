@@ -1,0 +1,14 @@
+{
+  "id": "0x938e6a0a011f9534ffd2d86c65dde3aeb7c66ad06cee29ead70b832179c3b6de_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Bad Bunny be the top Spotify artist for 2026?",
+  "resolution_criteria": "Spotify releases an annual report of its most streamed artist (see: https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/). This market refers to the most streamed Spotify artist for 2026. \n\nThis market will resolve according to the name of the artist listed by Spotify as the top artist of 2026.\n\nIf Spotify does not release who their top artist for 2026 is by January 31, 2027, 11:59 PM ET, this market will resolve to \"No\". \n\nThe resolution source for this market will be official information from Spotify, typically released as part of Spotify Wrapped. ",
+  "background": "",
+  "url": "https://polymarket.com/market/will-bad-bunny-be-the-top-spotify-artist-for-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.725",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

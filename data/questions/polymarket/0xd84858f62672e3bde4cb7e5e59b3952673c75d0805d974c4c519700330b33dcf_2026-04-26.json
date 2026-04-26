@@ -1,0 +1,14 @@
+{
+  "id": "0xd84858f62672e3bde4cb7e5e59b3952673c75d0805d974c4c519700330b33dcf_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Finland win the televote for Eurovision 2026?",
+  "resolution_criteria": "The Grand Final of the Eurovision Song Contest 2026 is scheduled for May 16, 2026.\n\nThis market will resolve to the country that receives the highest number of points from the televote in the Grand Final of the Eurovision Song Contest 2026.\n\nAll ties will be broken according to EBU's official Eurovision rules.\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-finland-win-the-televote-for-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.155",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

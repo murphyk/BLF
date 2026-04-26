@@ -1,0 +1,14 @@
+{
+  "id": "41526_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the Euro appreciate against the Dollar during 2026?",
+  "resolution_criteria": "This question will resolve as Yes if the closing value of the exchange rate from the Euro (EUR) to Dollar (USD) on the last trading day of 2026 is higher than 1.1747 as reported by [Yahoo Finance](https://finance.yahoo.com/quote/EURUSD%3DX/).&#x20;",
+  "background": "After an initial low period following the victory of Donald Trump where the EUR/USD rate [fell as low as 1.0267](https://www.ft.com/content/e572d9c2-547a-4736-b482-78e2a29450fb), the euro surged against the dollar and almost reached 1.20 dollars per euro.&#x20;\n\nIn September 2025, the Financial Times [reported](https://www.ft.com/content/5b179bb6-684a-48d1-abac-a25aacb12a49) that banks were predicting the euro would continue its gains in the coming time and finally cross 1.20. As of January 2026, that has not happened, with the exchange rate remaining in the 1.15 - 1.18 range.\n\nIn general, economic uncertainty or low interest rates drives investors away from a currency. Thus, economic growth, central bank activities and government policy will likely impact the exchange rate. While opinions differ, the current consensus [appears to be negative](https://www.reuters.com/business/dire-year-dollar-has-little-light-end-tunnel-2026-2025-12-22/) for the dollar in 2026.",
+  "url": "https://www.metaculus.com/questions/41526",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.55",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

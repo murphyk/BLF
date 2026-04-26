@@ -1,0 +1,14 @@
+{
+  "id": "1645_2026-04-26",
+  "source": "infer",
+  "question": "Will the S&P CoreLogic Case-Shiller Index, a measure of U.S. residential home costs, exceed 350 by July 2027?",
+  "resolution_criteria": "This question will be resolved using the S&amp;P CoreLogic Case-Shiller U.S. National Home Price NSA Index . This question will resolve \u201cYes\u201d if the Case-Shiller Index is greater than or equal to 350.00000 for any month through July 2027. There is typically a two month lag in reporting, so numbers for July are expected to be available in late September 2027. Note: There are multiple versions of the Case-Shiller Index, including seasonally adjusted and 20-city or 10-city composite versions. Ensure that you are using data from the Not Seasonally Adjusted S&amp;P CoreLogic Case-Shiller U.S. National Home Price Index (CSUSHPINSA). This question was inspired by a suggestion submitted by RFI user joshloughman in the RFI Question Lab .",
+  "background": "The S&amp;P CoreLogic Case-Shiller U.S. National Home Price Index is a widely-followed benchmark that tracks changes in residential real estate prices across the United States ( Investopedia ). The index uses a repeat-sales methodology, comparing the sales prices of the same properties over time to measure home price appreciation while controlling for differences in home quality and characteristics. The index is calculated monthly and covers all nine U.S. census divisions, with January 2000 serving as the baseline (100) for comparison. At the time of question launch, the most recent Case-Shiller Index for May 2025 was 331.107.",
+  "url": "https://www.randforecastinginitiative.org/questions/1645",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.4434",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The crowd forecast."
+}

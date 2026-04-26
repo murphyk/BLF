@@ -1,0 +1,14 @@
+{
+  "id": "41144_2026-04-26",
+  "source": "metaculus",
+  "question": "Will there be a ceasefire in the Sudanese Civil War during 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if a bilateral ceasefire in the Sudanese Civil War has gone into effect during 2026. The ceasefire must either\n\n* last a minimum of 30 consecutive days entirely during 2026\n\nor\n\n* be intended to last a minimum of 30 days (or indefinitely), as specified by the agreement text or joint statement, even if it is immediately violated.\n\nIf either the Rapid Support Forces or Sudanese Armed Forces are completely defeated, such that they control no permanent territory, this question will also resolve as **Yes**.",
+  "background": "On 15 April 2023, Sudan collapsed into [civil war](https://en.wikipedia.org/wiki/Sudanese_civil_war_\\(2023%E2%80%93present\\)) between the [Rapid Support Forces](https://en.wikipedia.org/wiki/Rapid_Support_Forces) (RSF) and the [Sudanese Armed Forces](https://en.wikipedia.org/wiki/Sudanese_Armed_Forces) (SAF). Following the [2021 Sudanese Coup](https://en.wikipedia.org/wiki/2021_Sudanese_coup_d'%C3%A9tat) and subsequent ousting of former leader [Omar al-Bashir](https://en.wikipedia.org/wiki/Omar_al-Bashir), the rival factions gained substantial control of Sudan.\n\nAlthough initially promising elections, tensions between the two forces escalated, and the RSF began to recruit soldiers before mobilizing on April 13, and attacking SAF bases on April 15, 2025.\n\nThe civil war has led to hundreds of thousands dead and displaced millions, while [famine struck](https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/stories/sudans-children-are-suffering-how-conflict-destroying-their-future_en) across the nation. On 22 May, 2025, a brief one day [ceasefire was agreed](https://www.bbc.co.uk/news/world-africa-65683681), however following it's collapse, little concrete action has been taken towards peace.",
+  "url": "https://www.metaculus.com/questions/41144",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.25",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

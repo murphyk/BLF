@@ -1,0 +1,14 @@
+{
+  "id": "EzZLpOlLCg_2026-04-26",
+  "source": "manifold",
+  "question": "Russia x Ukraine ceasefire in 2026?",
+  "resolution_criteria": "Resolution criteria\n\nA ceasefire will resolve YES if a formal agreement between Russia and Ukraine to halt hostilities is reached and takes effect at any point during 2026. The ceasefire must involve a cessation of military operations along the entire front line, not partial or temporary truces. Resolution will be determined by official announcements from the governments of Russia, Ukraine, or the United States, or reporting from major international news outlets (Reuters, AP, BBC, Al Jazeera) confirming the ceasefire has commenced. If no such agreement is reached by December 31, 2026, the market resolves NO.\n\nBackground\n\nRenewed negotiations began in 2025 after Donald Trump became president, with Trump's administration broadly agreeing with Russian proposals for ending the war. A 19-point peace plan emerged in November 2025 following talks between US and Ukrainian officials in Geneva. Ukraine has tentatively supported the fledgling peace proposals, putting the ball back in Russia's court. However, Putin said Russian and Ukrainian terms remained \"absolutely contradictory\" and rejected calls for an unconditional ceasefire. Kremlin adviser Yury Ushakov said Russian police and National Guard will stay in eastern Ukraine's Donbas even if a peace settlement ends the war, which Ukraine has rejected.\n\nConsiderations\n\nDespite sustained US and European diplomatic efforts towards peace and Ukraine's readiness to pursue it, Russia has increased the intensity of its missile and drone strikes on Ukraine, particularly targeting civilians and civilian infrastructure. Russian information space voices continue to argue that the Kremlin will likely reject a ceasefire or any iteration of the U.S.-proposed peace plan because the Kremlin views these efforts as inconsequential and as a hindrance to Russia's goals in Ukraine.\n\nUpdate 2026-01-08 (PST) (AI summary of creator comment): Minimum duration: The ceasefire does not need to hold for any minimum time period to resolve YES. The market will resolve YES even if the ceasefire is subsequently broken.\n\nIntent requirement: The ceasefire must have the intention of being a long-term ceasefire. Short-term truces (e.g., a ceasefire for New Years day only) do not count.",
+  "background": "",
+  "url": "https://manifold.markets/HillaryClinton/russia-x-ukraine-ceasefire-in-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.24893813518493602",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

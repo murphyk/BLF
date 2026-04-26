@@ -1,0 +1,14 @@
+{
+  "id": "8725_2026-04-26",
+  "source": "metaculus",
+  "question": "Will the peak 7-day average of COVID-19 cases OR CLI in Virginia during a summer exceed the same peak during the preceding winter for any year before 1 November 2026?",
+  "resolution_criteria": "This will resolve positively if at any point during the summer months of June, July, or August the [7-day moving average of new COVID-19 cases(\u201cCases by Date of Symptom Onset\u201d)](https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-in-virginia/covid-19-in-virginia-cases/) **or** COVID-like illness [(\u201cWeekly CLI visits (counts)\u201d](https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-data-insights/covid-like-illness-visits/) exceeds the peak of the winter (December, January, February) immediately preceding that summer.\n\nThis applies for all the winter and summer months through 1 November 2026",
+  "background": "<small>Note: this is a long term question which will not count toward the tournament leaderboard. See the tournament page for details.</small>\n\nVDH tracks the number of [new COVID-19 cases](https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-in-virginia/covid-19-in-virginia-cases/) by date of symptom onset, which it [currently](https://www.vdh.virginia.gov/coronavirus/see-the-numbers/dashboardschedule/)  updates on weekdays.\n\nVDH also [tracks](https://www.vdh.virginia.gov/coronavirus/covid-19-data-insights/covid-like-illness-visits/) CLI visits as a broader measure of COVID-19-induced burden and as an alternative to directly tracking COVID-19 cases/hospitalizations:\n> \u201cmonitors ED visits to measure the number of patients seeking care for a COVID-like illness (CLI). Visits for CLI include those noting symptoms of fever + respiratory complaint, loss of taste or smell, those with a coronavirus or severe respiratory diagnosis, or visits that mention COVID-19 as the reason for visit. CLI visits do not include COVID-19 vaccination visits or visits with an influenza diagnosis. These data may not represent confirmed cases of COVID-19, but they can assist with understanding the burden on healthcare systems and the community.\u201d\n\nThis question asks whether the peak 7-day average of COVID-19 cases or COVID-like illness visits during a summer (June, July, August) will exceed the previous winter\u2019s peak (December, January, February). This is important for seasonal planning and staffing purposes.",
+  "url": "https://www.metaculus.com/questions/8725",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.331",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

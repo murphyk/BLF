@@ -1,0 +1,14 @@
+{
+  "id": "40701_2026-04-26",
+  "source": "metaculus",
+  "question": "Will an AI created song chart on the Billboard Hot 100 before 2027?",
+  "resolution_criteria": "This question will resolve as Yes if a song primarily created by AI charts on the [Billboard Hot 100](https://www.billboard.com/charts/hot-100/) before 2027.",
+  "background": "During 2025, AI created songs have began to place on various [Billboard ](https://en.wikipedia.org/wiki/Billboard_\\(magazine\\))charts, with at least six songs landing in the charts within the year. As of late 2025, this trend is accelerating leading to speculation an AI created song may soon chart on the Billboard Hot 100.\n\n[How Many AI Artists Have Debuted on Billboard\u2019s Charts?:](https://www.billboard.com/lists/ai-artists-on-billboard-charts/childpets-galore/)\n\n> Notably, at least one AI artist has debuted in each of the past five chart weeks, a streak suggesting this trend is quickly accelerating.&#x20;",
+  "url": "https://www.metaculus.com/questions/40701",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.45",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

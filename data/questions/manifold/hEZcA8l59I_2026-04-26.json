@@ -1,0 +1,14 @@
+{
+  "id": "hEZcA8l59I_2026-04-26",
+  "source": "manifold",
+  "question": "Will Musk pay the salaries of TSA agents during shutdown?",
+  "resolution_criteria": "As per https://x.com/NewsWire_US/status/2035341948756668567: Elon Musk offers to pay TSA workers' salaries amid government shutdown.\n\nResolves to YES if Musk pays for TSA workers' salaries amid government shutdown, out of his own pocket, and does not get a refund afterwards.\n\nResolves to NO if he does not.\n\nI will count paying at least 50%+ of salary costs for at least 25% of all TSA agents, for a completed or fully legally-committed-to period of 7 days (minimum 1 day of actual payment), as paying. \n\nGiven this wording, if there is a dispute and I am less than 95% confident in the result, I will evaluate this via a 3-judge panel of Claude, ChatGPT and Gemini, giving them only the text above and asking for a yes or no resolution.\n\nUpdate 2026-03-24 (PST) (AI summary of creator comment): If Musk starts paying but the shutdown ends early, this resolves YES as long as he actually paid at least 1 day and had legally committed to at least 7 days of compensation. If the scenario is ambiguous, the LLM panel will decide.",
+  "background": "",
+  "url": "https://manifold.markets/ZviMowshowitz/will-musk-pay-the-salaries-of-tsa-a",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.018211812488835",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

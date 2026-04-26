@@ -1,0 +1,14 @@
+{
+  "id": "i0gxu4hz50xefKXiKCI8_2026-04-26",
+  "source": "manifold",
+  "question": "Will the Scottish Labour Party be the second largest party in Holyrood after the next election?",
+  "resolution_criteria": "Labour are currently the third largest party after SNP and Conservatives. This market resolves YES if Labour are the second largest party. (Resolves NO if they're the largest.)",
+  "background": "",
+  "url": "https://manifold.markets/Fion/will-the-scottish-labour-party-be-t",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.42815553410671503",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

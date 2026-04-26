@@ -1,0 +1,14 @@
+{
+  "id": "20588_2026-04-26",
+  "source": "metaculus",
+  "question": "Will any Western countries go to war against each other before 2070?",
+  "resolution_criteria": "For the purposes of this question, \"Western\" countries [will be defined as the following:](https://en.wikipedia.org/wiki/Western_world)\n\n|             |             |        |\n|----------------------|----------------------|----------------|\n| Austria              | Belgium              | Canada         |\n| Croatia              | Czechia              | Denmark        |\n| Estonia              | Finland              | France         |\n| Germany              | Great Britain        | Hungary        |\n| Iceland              | Ireland              | Italy          |\n| Latvia               | Lithuania            | Luxembourg     |\n| Netherlands          | Poland               | Portugal       |\n| Slovakia             | Slovenia             | Spain          |\n| Sweden               | Switzerland          | United States of America |\n|Australia |           New Zealand|\n\n\n\nFor the purpose of this question, \"engage in a war\" will be defined as one or more of the following being true:\n\n- One Western country formally declares war on another Western country, or announces that it is in a state of war with that nation.\n\n- A clear consensus of international authorities indicates that a state of active warfare exists between those two countries.\n\n- An armed conflict occurs between two or more Western countries in which at least 1,000 nationals of all Western belligerents, or 0.005% (1 out of 20,000) of the de facto pre-war population of any one Western belligerent, are confirmed to have been killed directly by armed combat within a 1 year (365 day) period. In the event that such a conflict begins less than 1 year prior to this question's resolution date, deaths occurring after the specified resolution date will not be considered.",
+  "background": "Since the end of the [Second World War](https://en.wikipedia.org/wiki/World_War_II), [no two Western countries](https://en.wikipedia.org/wiki/Long_Peace) [have gone to war](https://en.wikipedia.org/wiki/Pax_Europaea) [with each other.](https://en.wikipedia.org/wiki/Pax_Americana) This is notable because [wars between Western countries were once a regular occurrence.](https://en.wikipedia.org/wiki/List_of_conflicts_in_Europe)\n\nThis questions asks: will there be a war between two Western countries before 2070?",
+  "url": "https://www.metaculus.com/questions/20588",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.18",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

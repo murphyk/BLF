@@ -1,0 +1,14 @@
+{
+  "id": "0x0f8a16fa8809127bc86712e24cea9314cf1eb000c69150ff01b9f10f166903f5_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Fernando Haddad finish in second place in the first round of the 2026 Brazilian presidential election?",
+  "resolution_criteria": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the second-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the second-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+  "background": "",
+  "url": "https://polymarket.com/market/will-fernando-haddad-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.05",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

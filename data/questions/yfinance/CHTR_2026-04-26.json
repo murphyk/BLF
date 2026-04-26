@@ -1,0 +1,29 @@
+{
+  "id": "CHTR_2026-04-26",
+  "source": "yfinance",
+  "question": "Will CHTR's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CHTR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 220.290. (The latest market close price of CHTR.)",
+  "background": "Charter Communications, Inc. operates as a broadband connectivity company in the United States. The company offers subscription-based internet, mobile, video, and voice services; broadband connectivity services, including fixed internet, WiFi, and mobile; Spectrum internet products; advanced WiFi services; and in-home WiFi, which provides customers with high performance wireless routers and managed WiFi services to enhance their wireless internet experience. It also offers wireline voice communications services using voice over internet protocol technology; Call Guard, an advanced caller ID and robocall blocking solution; video programming and video services, including access to an interactive programming guide with parental controls, video on demand and pay-per-view services; and broadband communications solutions, such as internet access, data networking, fiber connectivity, video entertainment, and business telephone services. In addition, the company provides advertising services on cable television networks, various streaming services, and advertising platforms for local, regional and national businesses. Further, it offers production and technical services for regional sports networks; owns and manages local news channels, including Spectrum News NY1\u00ae and Spectrum News SoCal; and delivers broadband connectivity solutions to apartments, single-family gated communities, off-campus student housing, senior residences, and RV parks. The company was founded in 1993 and is headquartered in Stamford, Connecticut.",
+  "url": "https://finance.yahoo.com/quote/CHTR",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

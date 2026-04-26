@@ -1,0 +1,14 @@
+{
+  "id": "41364_2026-04-26",
+  "source": "metaculus",
+  "question": "Will India surpass Germany in GDP during 2026?",
+  "resolution_criteria": "This question will resolve Yes if, during 2026, India\u2019s nominal GDP exceeds Germany\u2019s nominal GDP.",
+  "background": "In [2025](https://www.dw.com/en/india-overtakes-japan-as-4th-largest-economy-report-says/a-75341063), India passed Japan to become the fourth-largest economy in the world, behind only the US, China, and Germany. As of 2025, [India\u2019s economy](https://www2.deloitte.com/us/en/insights/economy/asia-pacific/india-economic-outlook.html) continues to grow at a faster pace than [Germany\u2019s](https://economy-finance.ec.europa.eu/economic-surveillance-eu-economies/germany/economic-forecast-germany_en), driven by a strong services sector, expanding industrial base, and rapid digital transformation.\n\nAccording to the International Monetary Fund (IMF) World Economic Outlook ([October 2025](https://www.imf.org/-/media/files/publications/weo/2025/october/english/text.pdf)):\n\n* India's nominal GDP in 2025 was estimated at \\$4.51 trillion (in 2024, estimated at \\$3.94 trillion)\n* Germany's nominal GDP in 2025 was estimated at \\$5.33 trillion (in 2024, estimated at \\$4.50 trillion)",
+  "url": "https://www.metaculus.com/questions/41364",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.2",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

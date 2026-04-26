@@ -1,0 +1,14 @@
+{
+  "id": "41141_2026-04-26",
+  "source": "metaculus",
+  "question": "Will OpenAI file for an IPO during 2026?",
+  "resolution_criteria": "This question will resolve as **Yes** if OpenAI, a parent company, or any subsidiary that is primarily responsible for developing ChatGPT, files a public, non-confidential initial public registration statement ([SEC Form S-1](https://www.investopedia.com/terms/s/sec-form-s-1.asp)) at the U.S. Securities and Exchange Commission's [EDGAR](https://www.sec.gov/search-filings) database before January 1, 2027.",
+  "background": "[OpenAI](https://en.wikipedia.org/wiki/OpenAI) has been moving towards an [Initial Public Offering](https://en.wikipedia.org/wiki/Initial_public_offering) (IPO), where it's for-profit subsidiary OpenAI Group PBC may be listed on a public stock exchange.&#x20;\n\nDuring 2025, it has been reported that OpenAI is [targeting 2026-2027](https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/) for their IPO, aiming to raise at least \\$60 billion with a valuation of \\~\\$1 trillion.\n\nIf OpenAI is successful in raising that amount of money, it would be the [largest IPO in history](https://siliconangle.com/2025/10/29/openai-reportedly-planning-2026-2027-ipo-valuation-1t/), exceeding both Saudi Aramco and Alibaba.",
+  "url": "https://www.metaculus.com/questions/41141",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.4",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

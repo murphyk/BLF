@@ -1,0 +1,29 @@
+{
+  "id": "BKR_2026-04-26",
+  "source": "yfinance",
+  "question": "Will BKR's market close price on each resolution date listed below be higher than its market close price on 2026-04-26?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BKR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-26 is unknown, but the most recent known value (as of 2026-04-16) was 60.070. (The latest market close price of BKR.)",
+  "background": "Baker Hughes Company provides a portfolio of technologies and services to energy and industrial value chain. Its Oilfield Services & Equipment segment designs and manufactures exploration, appraisal, development, production, rejuvenation, and decommissioning products and related services for onshore and offshore oilfield operations. This segment also provides drilling services, drill bits, and drilling and completions fluids; completions, intervention, measurements, pressure pumping, and wireline services; artificial lift systems, and oilfield and industrial chemicals; subsea projects and services, flexible pipe systems, and surface pressure control systems; and integrated well services and solutions. It serves oil and natural gas companies; the United States and international independent oil and natural gas companies; national or state-owned oil companies; engineering, procurement, and construction contractors; geothermal companies; and other oilfield service companies. The company's Industrial & Energy Technology segment offers gas technology equipment, such as drivers, driven equipment, and turnkey solutions for the mechanical and electric-drive, compression, and power-generation applications; aftermarket support and uptime gas technology services; non-destructive testing technologies, software, and services; pre-commissioning and maintenance services; flow control and safety solutions; mechanical and electromechanical gear transmission systems; Cordant, a software solution to optimize assets, processes, and energy use; Bently Nevada, a sensing and protection hardware for rack-based vibrating monitoring equipment and sensors; and climate technology solutions. It serves industrial, upstream, midstream, downstream, onshore, offshore, and small-to-large scale customers. The company has a collaboration with Google Cloud to develop advanced AI-enabled power optimization and sustainability solutions for the global data center sector. The company was formerly known as Baker Hughes, a GE company and changed its name to Baker Hughes Company in October 2019. The company was incorporated in 2016 and is based in Houston, Texas.",
+  "url": "https://finance.yahoo.com/quote/BKR",
+  "forecast_due_date": "2026-04-26",
+  "resolution_dates": [
+    "2026-05-03",
+    "2026-05-26",
+    "2026-07-25",
+    "2026-10-23",
+    "2027-04-26",
+    "2029-04-25",
+    "2031-04-25",
+    "2036-04-23"
+  ],
+  "resolved_to": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OU2hqNZPu0_2026-04-26",
+  "source": "manifold",
+  "question": "Trump visits China by May 15?",
+  "resolution_criteria": "Resolves to YES if:\n\nDonald Trump physically visits mainland China (e.g., Beijing or any city in China)\n\nThe visit occurs on or before May 15, 2026, 11:59 PM PT\n\nThe visit is confirmed by:\n\nOfficial government statements, or\n\nA consensus of credible reporting\n\nResolves to NO if:\n\nTrump does not visit China within the specified timeframe\n\nThe trip is canceled, indefinitely postponed, or delayed beyond May 15, 2026, 11:59 PM PT\n\nA planned or announced trip does NOT count \u2014 the visit must occur\n\nA layover without an official visit does NOT count\n\nVirtual meetings or summits outside China do NOT count\n\nMarket may resolve immediately upon confirmed arrival in mainland China\n\nIf arrival time is unclear, first widely reported timestamp of landing/arrival will be used.\n\n",
+  "background": "",
+  "url": "https://manifold.markets/predyx_markets/trump-visits-china-before-may-15",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.603430386487116",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market value."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "20466_2026-04-26",
+  "source": "metaculus",
+  "question": "If at least one frontier AI model has been trained by a Chinese firm before 2027, will a Chinese frontier AI model have been trained using primarily Chinese AI chips?",
+  "resolution_criteria": "This question resolves as **Yes** if, before January 1, 2027, a [frontier Chinese AI model](https://www.metaculus.com/questions/20879/frontier-chinese-ai-model-by-2027/) has more than 50% of its training compute provided by AI chips that were both designed and fabricated by Chinese firms.\n\nIf there is no frontier Chinese AI model by 2027, then this question will be **Annulled**. If there is at least one frontier Chinese AI model by 2027, but none of these models have more than 50% of their training compute provided by chips designed and fabricated by Chinese firms, then the question resolves as **No**.",
+  "background": "The Chinese government is committed to building a strong domestic AI chip supply chain: they have made this a national priority and invested many billions of dollars. However, this is an ambitious target and, to date, Chinese firms that use AI chips have continued to buy these chips from [incumbents](https://www.nytimes.com/2023/08/21/technology/nvidia-ai-chips-gpu.html) [like Nvidia](https://www.cnbc.com/2023/11/10/nvidia-will-reportedly-sell-new-chips-to-china-that-still-meet-us-rules.html#:~:text=In%20the%20near%20term%2C%20Chinese,chips%2C%20while%20searching%20for%20replacements.&text=Companies%20in%20China%20had%20then,last%20month%20with%20new%20restrictions.), and not from Chinese companies.\n\nIf a Chinese chip designer-manufacturer becomes competitive enough at the high end that Chinese labs start using their chips in frontier model training runs, then this will be a strong signal that the Chinese government has hit its target, and that Chinese efforts to build frontier AI can no longer be hamstrung by [export](https://www.csis.org/analysis/choking-chinas-access-future-ai) [controls](https://www.reuters.com/technology/upcoming-us-rules-ai-chip-exports-aim-stop-workarounds-us-official-2023-10-15/).",
+  "url": "https://www.metaculus.com/questions/20466",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.68",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The community prediction."
+}

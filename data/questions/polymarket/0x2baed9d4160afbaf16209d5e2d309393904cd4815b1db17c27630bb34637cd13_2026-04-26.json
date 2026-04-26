@@ -1,0 +1,14 @@
+{
+  "id": "0x2baed9d4160afbaf16209d5e2d309393904cd4815b1db17c27630bb34637cd13_2026-04-26",
+  "source": "polymarket",
+  "question": "Will Denmark win Eurovision 2026?",
+  "resolution_criteria": "This market will resolve to the country whose candidate for Eurovision 2026 wins.\n\nIf at any point it is impossible for the listed candidate to win Eurovision 2026 based on the rules of the competition (i.e. they are eliminated), this market may immediately resolve to \"No\".\n\nIf no winner is announced by July 31, 2026, 11:59 PM ET, this market will resolve \"Other\". All ties will be broken according to EBU's official Eurovision rules.\n\nThe primary resolution source for this market will be official information from Eurovision (https://eurovision.tv/), including live footage of Eurovision 2026, however a consensus of credible reporting will suffice.",
+  "background": "",
+  "url": "https://polymarket.com/market/will-denmark-win-eurovision-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.10300000000000001",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}

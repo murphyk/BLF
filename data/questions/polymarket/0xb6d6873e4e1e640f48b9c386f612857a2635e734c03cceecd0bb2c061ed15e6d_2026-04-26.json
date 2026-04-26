@@ -1,0 +1,14 @@
+{
+  "id": "0xb6d6873e4e1e640f48b9c386f612857a2635e734c03cceecd0bb2c061ed15e6d_2026-04-26",
+  "source": "polymarket",
+  "question": "Arne Slot out as Liverpool Head Coach by May 31, 2026?",
+  "resolution_criteria": "This market will resolve according to \u201cYes\u201d if Arne Slot ceases to be Head Coach of Liverpool Football Club for any period of time between market creation and the specified date (ET). Otherwise, this market will resolve to \"No\".\n\nTemporary absences (including but not limited: to medical leave, compassionate leave, suspension, or touchline bans) will not be considered.\n\nAn announcement of Arne Slot's resignation/firing before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/firing goes into effect.\n\nThis market's primary resolution source will be official information from Liverpool and/or Arne Slot, however a consensus of credible reporting will also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/arne-slot-out-as-liverpool-manager-by-may-31-2026",
+  "resolution_dates": "N/A",
+  "forecast_due_date": "2026-04-26",
+  "resolved_to": null,
+  "market_value": "0.55",
+  "market_date": "2026-04-16",
+  "market_value_explanation": "The market price."
+}
