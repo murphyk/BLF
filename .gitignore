@@ -7,6 +7,7 @@ __pycache__/
 # Raw per-trial forecasts, traces, eval HTML, progress logs, and
 # generated_prompts are all produced locally and excluded.
 experiments/*
+!experiments/*.py
 !experiments/xids/
 !experiments/configs/
 !experiments/forecasts_final/
