@@ -540,6 +540,31 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
         if not trial_fcs:
             continue
 
+        # Drop catastrophic failures (no LLM call ever made — typical
+        # signature: forecast == 0.5, n_steps <= 1, elapsed_seconds == 0,
+        # produced by agent.py's outer try/except fallback). These are
+        # mechanical dead trials, not honest "the agent thinks 0.5"
+        # predictions; including them in the logit-mean pulls every
+        # confident forecast back toward chance.
+        def _is_catastrophic(fc):
+            return (fc.get("forecast") == 0.5
+                    and (fc.get("elapsed_seconds") or 0) < 1
+                    and (fc.get("n_steps") or 0) <= 1)
+        non_dead = [(t, fc) for t, fc in trial_fcs if not _is_catastrophic(fc)]
+        if non_dead:
+            trial_fcs = non_dead
+
+        # Prefer trials that actually submitted, so long as we still have
+        # at least 2 of them — soft timeouts (agent ran but never reached
+        # submit) carry SOME signal but the submitted trials carry more.
+        submitted_only = [(t, fc) for t, fc in trial_fcs
+                          if fc.get("submitted")]
+        if len(submitted_only) >= 2:
+            trial_fcs = submitted_only
+
+        if not trial_fcs:
+            continue
+
         # Compute statistics
         ps = [fc["forecast"] for _, fc in trial_fcs]
         ps_arr = np.array(ps)
