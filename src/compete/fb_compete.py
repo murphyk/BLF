@@ -188,7 +188,7 @@ def main() -> None:
         mixture_path = os.path.join(exam_dir, "mixture.json")
         if not os.path.exists(mixture_path):
             with open(mixture_path, "w") as f:
-                json.dump({"start-date": date, "end-date": date}, f, indent=2)
+                json.dump({"ask-start": date, "ask-end": date}, f, indent=2)
         run_step("Build exam indices",
                  [sys.executable, "src/data/make_exam.py", "--name", date])
 

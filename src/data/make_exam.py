@@ -161,8 +161,11 @@ def build_indices(mixture: dict) -> dict[str, list[str]]:
 
     Returns {source: [id1, id2, ...]} with fully materialized ID lists.
     """
-    start_date = mixture.get("ask-start", "1900-01-01")
-    end_date = mixture.get("ask-end", "2999-12-31")
+    # Accept legacy "start-date"/"end-date" as aliases for ask-start/ask-end.
+    # (Older compete.py writes the legacy names; without this the date filter
+    # silently passes every question on disk.)
+    start_date = mixture.get("ask-start", mixture.get("start-date", "1900-01-01"))
+    end_date = mixture.get("ask-end", mixture.get("end-date", "2999-12-31"))
     resolution_start = mixture.get("resolution-start", "")
     resolution_end = mixture.get("resolution-end", "")
     seed = mixture.get("seed", 0)  # default seed=0 for reproducibility

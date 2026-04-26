@@ -1,17 +1,16 @@
 {
-  "start-date": "2026-04-26",
-  "end-date": "2026-04-26",
+  "ask-start": "2026-04-26",
+  "ask-end": "2026-04-26",
   "nquestions": {
-    "acled": 1395,
-    "aibq2": 226,
-    "dbnomics": 1268,
-    "fred": 1430,
-    "infer": 185,
-    "manifold": 495,
-    "metaculus": 337,
-    "polymarket": 1329,
-    "wikipedia": 1307,
-    "yfinance": 1427,
-    "total": 9399
+    "acled": 50,
+    "dbnomics": 50,
+    "fred": 50,
+    "infer": 30,
+    "manifold": 74,
+    "metaculus": 73,
+    "polymarket": 73,
+    "wikipedia": 50,
+    "yfinance": 50,
+    "total": 500
   }
 }
