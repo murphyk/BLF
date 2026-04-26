@@ -700,7 +700,7 @@ which reads from the processed-forecast tarball cached under
       &quot;tokens_in&quot;: 23145, &quot;tokens_out&quot;: 891, &quot;elapsed_seconds&quot;: 87.3,
       &quot;tool_counts&quot;: {...}, &quot;n_searches&quot;: 5,
       &quot;market_value&quot;: 0.72, &quot;market_date&quot;: &quot;2025-10-25&quot;,
-      &quot;forecasts_aggregated&quot;: { &quot;mean:5&quot;: 0.73, &quot;shrink5-loo&quot;: 0.68 },
+      &quot;forecasts_aggregated&quot;: { &quot;mean:5&quot;: 0.73, &quot;shrink-std:5-fit&quot;: 0.68 },
       &quot;forecasts_calibrated&quot;: { &quot;global-cal&quot;: 0.58, &quot;hier-cal&quot;: 0.61 }
     },
     ...
@@ -714,7 +714,7 @@ question appears three times with the same <code>id</code> and different
 <p><code>forecast</code> is the <strong>default aggregation</strong> — arithmetic mean of trials
 for legacy v7 runs, logit-mean of trials for new runs. Further
 aggregation variants (computed by <code>aggregate.py</code>) land in
-<code>forecasts_aggregated: {"mean:1": 0.71, "shrink5-loo": 0.65, ...}</code>.
+<code>forecasts_aggregated: {"mean:1": 0.71, "shrink-std:5-fit": 0.65, ...}</code>.
 Calibrated versions (computed by <code>calibrate.py</code>) land in
 <code>forecasts_calibrated: {"global-cal": 0.58, "hier-cal": 0.61, ...}</code>.
 Both are plain dicts mapping variant-key → scalar forecast, replacing
@@ -732,14 +732,17 @@ python3 src/core/collate.py --from-raw-root /path/to/other-tree/experiments/fore
 <code>raw_trials</code> with the per-trial probability vector.</p>
 <h3 id="aggregation">Aggregation variants (optional)</h3>
 <p><code>aggregate.py</code> adds <code>forecasts_aggregated: {"mean:1": ..., "mean:5":
-..., "shrink5-loo": ...}</code> to each entry in the collated files, without
+..., "shrink-std:5-fit": ...}</code> to each entry in the collated files, without
 touching the default <code>forecast</code> value.</p>
 <pre><code class="language-bash">python3 src/core/aggregate.py --xid my-xid
-python3 src/core/aggregate.py --xid my-xid --variants &quot;mean:1,mean:5,shrink5-loo&quot;
+python3 src/core/aggregate.py --xid my-xid --variants &quot;mean:1,mean:5,shrink-std:5-fit&quot;
 </code></pre>
-<p>LOO shrinkage (<code>shrink5-loo</code>) fits the shrinkage strength λ by leave-one-
-out CV, which requires labeled outcomes — not usable at live-submission
-time in <code>fb_compete.py</code>. Use <code>mean:N</code> or <code>logit-mean:N</code> for live runs.</p>
+<p><code>shrink-std:5-fit</code> fits a single global shrinkage coefficient α by 20-point
+grid search to minimize mean Brier on the labeled set; it requires resolved
+outcomes and so is not usable at live-submission time in <code>fb_compete.py</code>.
+Use <code>logit-mean:N</code> (or <code>mean:N</code>) for live runs. The <code>-std</code> family with
+hardcoded f, c (paper §C.9, AIBQ2-tuned constants) is also label-free but
+on FB the grid search picks α=1, i.e. plain <code>logit-mean:N</code>.</p>
 <p>To pull variants into leaderboard columns, three paths with descending
 precedence:</p>
 <ol>
@@ -751,7 +754,7 @@ precedence:</p>
    lists (or the literal <code>"*"</code> for auto-discover):
    <code>json
    { "eval_calibration": ["global-cal", "hier-cal"],
-     "eval_aggregation": ["mean:5", "shrink5-loo"] }</code></li>
+     "eval_aggregation": ["mean:5", "shrink-std:5-fit"] }</code></li>
 <li><strong>Explicit bracket entry in <code>eval</code></strong>, same as a regular config:
    <code>"eval": ["pro-high-brave-c1-t1[mean:5]"]</code>.</li>
 </ol>
@@ -775,7 +778,7 @@ python3 src/testing/test_smoke.py --xid my-xid --verbose
 python3 src/core/collate.py --xid my-xid
 #    → experiments/forecasts_final/{date}/{config}.json
 
-# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink5-loo, ...
+# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink-std:5-fit, ...
 #    Writes a `forecasts_aggregated: {&lt;key&gt;: [p0, p1, ...]}` dict at the
 #    file level (arrays aligned with forecasts[]).
 python3 src/core/aggregate.py --xid my-xid
