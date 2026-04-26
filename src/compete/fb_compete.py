@@ -307,9 +307,16 @@ def main() -> None:
         print(f"\n{'='*60}\nStep: Upload to GCS\n{'='*60}")
         gcs_dest = f"{bucket}/{os.path.basename(out_path)}"
         print(f"Uploading to {gcs_dest} ...")
-        sdk_bin = os.path.expanduser("~/Kevin/google-cloud-sdk/bin")
+        # Try a few known SDK install locations; PATH already includes the
+        # active one for most users so this is just belt-and-suspenders.
         env = os.environ.copy()
-        env["PATH"] = sdk_bin + os.pathsep + env.get("PATH", "")
+        for cand in ["~/google-cloud-sdk/bin",
+                     "~/Kevin/google-cloud-sdk/bin",
+                     "/usr/local/google-cloud-sdk/bin"]:
+            cand_p = os.path.expanduser(cand)
+            if os.path.isfile(os.path.join(cand_p, "gsutil")):
+                env["PATH"] = cand_p + os.pathsep + env.get("PATH", "")
+                break
         try:
             r = subprocess.run(["gsutil", "cp", out_path, gcs_dest],
                                capture_output=True, text=True, env=env)
