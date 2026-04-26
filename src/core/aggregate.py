@@ -18,22 +18,24 @@ the default aggregation. Aggregate-variant columns are opt-in via
 `eval.py --add-aggregation` or bracket syntax (`"pro-high[mean:5]"`).
 
 Variants:
-    mean:n           arithmetic mean of trial probabilities over n-sized subsets
-    logit-mean:n     sigmoid(mean(logits)) over n-sized subsets
-    shrink-std:n     std-based shrinkage in logit space (paper §C.9 with
-                     HARDCODED f=0.3, c=0.7): p_hat = sigmoid(α·mean(logits)),
-                     α = max(0.3, 1 − 0.7·std(logits)). The (f, c) values
-                     were chosen during AIBQ2 paper development; on FB the
-                     grid-search optimum is α=1 (logit-mean), so this variant
-                     is mainly useful on AIBQ2-like noisier exams. Legacy
-                     "shrink:n" name is accepted as an alias.
-    shrink-std:n-fit single GLOBAL α ∈ (0.05, 1.0] fit by 20-point grid
-                     search to minimize mean Brier on the labeled set
-                     (requires resolved outcomes; not usable at submission
-                     time). Legacy "shrink:n-loo" name is accepted as an
-                     alias — despite the suffix it never did leave-one-out,
-                     just full-data optimization. True LOO would refit α
-                     per held-out question (TODO if needed for paper claims).
+    mean:n          arithmetic mean of trial probabilities over n-sized subsets
+    logit-mean:n    sigmoid(mean(logits)) over n-sized subsets
+    shrink-std:n    std-based shrinkage in logit space (paper §C.9 with
+                    HARDCODED f=0.3, c=0.7): p_hat = sigmoid(α·mean(logits)),
+                    α = max(0.3, 1 − 0.7·std(logits)). The (f, c) values
+                    were chosen during AIBQ2 paper development; on FB the
+                    grid-search optimum is α=1 (logit-mean), so this variant
+                    is mainly useful on AIBQ2-like noisier exams. Legacy
+                    "shrink:n" name is accepted as an alias.
+    shrink-fit:n    single GLOBAL α ∈ (0.05, 1.0] fit by 20-point grid
+                    search to minimize mean Brier on the labeled set,
+                    independent of any std parameterization
+                    (requires resolved outcomes; not usable at submission
+                    time). Legacy aliases: "shrink:n-loo", "shrink:n-fit",
+                    "shrink-std:n-fit" — despite the names none of those did
+                    leave-one-out and the std parameterization is overridden
+                    here. True LOO would refit α per held-out question (TODO
+                    if needed for paper claims).
 
 Usage:
     python3 src/core/aggregate.py --xid my-xid
@@ -210,22 +212,30 @@ def _fit_global_shrinkage(records: list[tuple[list[float], float]], n: int) -> f
 # ---------------------------------------------------------------------------
 
 def _parse_variant(v: str) -> tuple[str, int]:
-    """Parse 'mean:5' → ('mean', 5); 'shrink-std:5-fit' or legacy
-    'shrink5-loo' → ('shrink-fit', 5); legacy 'shrink:5' → ('shrink-std', 5)."""
-    # Backwards-compat: '-loo' suffix used to label the global-fit
-    # variant; rename to '-fit' to avoid implying leave-one-out.
+    """Parse a variant key into (method, n).
+
+    Canonical names:
+        mean:N         arithmetic mean of probabilities
+        logit-mean:N   sigmoid(mean(logits))
+        shrink-std:N   sigmoid(α·mean(logits)), α = max(f, 1−c·std), hardcoded f, c
+        shrink-fit:N   sigmoid(α·mean(logits)), α single global, grid-search on labels
+        median:N
+
+    Legacy aliases:
+        shrink:N        → shrink-std:N
+        shrink:N-loo    → shrink-fit:N    (the "-loo" suffix was a misnomer)
+        shrink:N-fit    → shrink-fit:N
+        shrink-std:N-fit → shrink-fit:N   (was misleading: -fit doesn't use std)
+    """
+    # Legacy '-loo' / '-fit' suffix forms.
     if v.endswith("-loo") or v.endswith("-fit"):
         suffix = v[-4:]
         head = v[: -len(suffix)]
-        method = "shrink-fit"
         digits = "".join(c for c in head if c.isdigit())
         n = int(digits) if digits else 5
-        return method, n
+        return "shrink-fit", n
     method, _, num = v.partition(":")
     method = method.strip()
-    # Legacy alias: bare "shrink:N" referred to the std-based formula
-    # with hardcoded f, c. Renamed to "shrink-std:N" to make the
-    # parameterization explicit.
     if method == "shrink":
         method = "shrink-std"
     return method, int(num) if num else 1
@@ -333,7 +343,7 @@ def _configs_in_xid(xid: str) -> list[str]:
     return sorted(set(labels))
 
 
-DEFAULT_VARIANTS = "mean:1,mean:3,mean:5,logit-mean:5,shrink-std:5"
+DEFAULT_VARIANTS = "mean:1,mean:3,mean:5,logit-mean:5,shrink-std:5,shrink-fit:5"
 
 
 def main() -> None:

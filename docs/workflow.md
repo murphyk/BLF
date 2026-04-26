@@ -517,7 +517,7 @@ Matches ForecastBench's own published tarball:
       "tokens_in": 23145, "tokens_out": 891, "elapsed_seconds": 87.3,
       "tool_counts": {...}, "n_searches": 5,
       "market_value": 0.72, "market_date": "2025-10-25",
-      "forecasts_aggregated": { "mean:5": 0.73, "shrink-std:5-fit": 0.68 },
+      "forecasts_aggregated": { "mean:5": 0.73, "shrink-fit:5": 0.68 },
       "forecasts_calibrated": { "global-cal": 0.58, "hier-cal": 0.61 }
     },
     ...
@@ -533,7 +533,7 @@ question appears three times with the same `id` and different
 `forecast` is the **default aggregation** — arithmetic mean of trials
 for legacy v7 runs, logit-mean of trials for new runs. Further
 aggregation variants (computed by `aggregate.py`) land in
-`forecasts_aggregated: {"mean:1": 0.71, "shrink-std:5-fit": 0.65, ...}`.
+`forecasts_aggregated: {"mean:1": 0.71, "shrink-fit:5": 0.65, ...}`.
 Calibrated versions (computed by `calibrate.py`) land in
 `forecasts_calibrated: {"global-cal": 0.58, "hier-cal": 0.61, ...}`.
 Both are plain dicts mapping variant-key → scalar forecast, replacing
@@ -558,15 +558,15 @@ Collate populates `forecast` with the default aggregation and
 ### Aggregation variants (optional) {#aggregation}
 
 `aggregate.py` adds `forecasts_aggregated: {"mean:1": ..., "mean:5":
-..., "shrink-std:5-fit": ...}` to each entry in the collated files, without
+..., "shrink-fit:5": ...}` to each entry in the collated files, without
 touching the default `forecast` value.
 
 ```bash
 python3 src/core/aggregate.py --xid my-xid
-python3 src/core/aggregate.py --xid my-xid --variants "mean:1,mean:5,shrink-std:5-fit"
+python3 src/core/aggregate.py --xid my-xid --variants "mean:1,mean:5,shrink-fit:5"
 ```
 
-`shrink-std:5-fit` fits a single global shrinkage coefficient α by 20-point
+`shrink-fit:5` fits a single global shrinkage coefficient α by 20-point
 grid search to minimize mean Brier on the labeled set; it requires resolved
 outcomes and so is not usable at live-submission time in `fb_compete.py`.
 Use `logit-mean:N` (or `mean:N`) for live runs. The `-std` family with
@@ -584,7 +584,7 @@ precedence:
    lists (or the literal `"*"` for auto-discover):
    ```json
    { "eval_calibration": ["global-cal", "hier-cal"],
-     "eval_aggregation": ["mean:5", "shrink-std:5-fit"] }
+     "eval_aggregation": ["mean:5", "shrink-fit:5"] }
    ```
 3. **Explicit bracket entry in `eval`**, same as a regular config:
    `"eval": ["pro-high-brave-c1-t1[mean:5]"]`.
@@ -613,7 +613,7 @@ python3 src/testing/test_smoke.py --xid my-xid --verbose
 python3 src/core/collate.py --xid my-xid
 #    → experiments/forecasts_final/{date}/{config}.json
 
-# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink-std:5-fit, ...
+# 4. (Optional) Extra aggregation variants — mean:1, mean:5, shrink-fit:5, ...
 #    Writes a `forecasts_aggregated: {<key>: [p0, p1, ...]}` dict at the
 #    file level (arrays aligned with forecasts[]).
 python3 src/core/aggregate.py --xid my-xid
