@@ -25,17 +25,14 @@ Variants:
                     α = max(0.3, 1 − 0.7·std(logits)). The (f, c) values
                     were chosen during AIBQ2 paper development; on FB the
                     grid-search optimum is α=1 (logit-mean), so this variant
-                    is mainly useful on AIBQ2-like noisier exams. Legacy
-                    "shrink:n" name is accepted as an alias.
+                    is mainly useful on AIBQ2-like noisier exams.
     shrink-fit:n    single GLOBAL α ∈ (0.05, 1.0] fit by 20-point grid
                     search to minimize mean Brier on the labeled set,
-                    independent of any std parameterization
-                    (requires resolved outcomes; not usable at submission
-                    time). Legacy aliases: "shrink:n-loo", "shrink:n-fit",
-                    "shrink-std:n-fit" — despite the names none of those did
-                    leave-one-out and the std parameterization is overridden
-                    here. True LOO would refit α per held-out question (TODO
-                    if needed for paper claims).
+                    independent of any std parameterization (requires
+                    resolved outcomes; not usable at submission time).
+                    A true LOO version would refit α per held-out question
+                    (TODO if needed for paper claims).
+    median:n        median of trial probabilities over n-sized subsets
 
 Usage:
     python3 src/core/aggregate.py --xid my-xid
@@ -211,33 +208,17 @@ def _fit_global_shrinkage(records: list[tuple[list[float], float]], n: int) -> f
 # File-level processing
 # ---------------------------------------------------------------------------
 
+CANONICAL_METHODS = {"mean", "logit-mean", "shrink-std", "shrink-fit", "median"}
+
 def _parse_variant(v: str) -> tuple[str, int]:
-    """Parse a variant key into (method, n).
-
-    Canonical names:
-        mean:N         arithmetic mean of probabilities
-        logit-mean:N   sigmoid(mean(logits))
-        shrink-std:N   sigmoid(α·mean(logits)), α = max(f, 1−c·std), hardcoded f, c
-        shrink-fit:N   sigmoid(α·mean(logits)), α single global, grid-search on labels
-        median:N
-
-    Legacy aliases:
-        shrink:N        → shrink-std:N
-        shrink:N-loo    → shrink-fit:N    (the "-loo" suffix was a misnomer)
-        shrink:N-fit    → shrink-fit:N
-        shrink-std:N-fit → shrink-fit:N   (was misleading: -fit doesn't use std)
-    """
-    # Legacy '-loo' / '-fit' suffix forms.
-    if v.endswith("-loo") or v.endswith("-fit"):
-        suffix = v[-4:]
-        head = v[: -len(suffix)]
-        digits = "".join(c for c in head if c.isdigit())
-        n = int(digits) if digits else 5
-        return "shrink-fit", n
+    """Parse a variant key into (method, n). Canonical names only:
+        mean:N, logit-mean:N, shrink-std:N, shrink-fit:N, median:N."""
     method, _, num = v.partition(":")
     method = method.strip()
-    if method == "shrink":
-        method = "shrink-std"
+    if method not in CANONICAL_METHODS:
+        raise ValueError(
+            f"Unknown variant method {method!r} (in {v!r}). "
+            f"Valid: {sorted(CANONICAL_METHODS)}.")
     return method, int(num) if num else 1
 
 
@@ -295,7 +276,18 @@ def aggregate_config(config_name: str, variants: list[str],
         with open(p) as f:
             payload = json.load(f)
         entries = payload.get("forecasts", [])
-        aggs = payload.get("forecasts_aggregated", {})
+        # Drop legacy / non-canonical variant keys that linger from older
+        # aggregate.py runs (e.g. "shrink:5", "shrink-std:5-fit"). Kept
+        # variants are those whose method is in CANONICAL_METHODS.
+        existing = payload.get("forecasts_aggregated", {})
+        aggs: dict = {}
+        for k, v in existing.items():
+            try:
+                m, _ = _parse_variant(k)
+                if m in CANONICAL_METHODS:
+                    aggs[k] = v
+            except ValueError:
+                pass  # silently drop unrecognized
         for v in variants:
             method, n = _parse_variant(v)
             key = v
