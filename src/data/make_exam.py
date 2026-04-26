@@ -278,19 +278,29 @@ def main():
                                 generate_tag_distribution)
         from config.tags import get_tags_for_exam, discover_classified_spaces
 
-        p = generate_rdate_by_fdate_scatter(args.name, indices)
-        if p:
-            print(f"  {p}")
-        p = generate_horizon_histogram(args.name, indices)
-        if p:
-            print(f"  {p}")
+        # Plotting is cosmetic — indices.json is already written, so
+        # don't let a plotting bug fail the whole exam build (compete.py
+        # treats a non-zero exit as fatal).
+        for fn, args_ in [
+            (generate_rdate_by_fdate_scatter, (args.name, indices)),
+            (generate_horizon_histogram,      (args.name, indices)),
+        ]:
+            try:
+                p = fn(*args_)
+                if p:
+                    print(f"  {p}")
+            except Exception as e:
+                print(f"  WARNING: {fn.__name__} failed: {e}")
         for ls in discover_classified_spaces():
             tags = get_tags_for_exam(indices, ls)
             if tags:
-                p = generate_tag_distribution(args.name, tags, tag_version=ls,
-                                              n_total=total)
-                if p:
-                    print(f"  {p}")
+                try:
+                    p = generate_tag_distribution(args.name, tags, tag_version=ls,
+                                                  n_total=total)
+                    if p:
+                        print(f"  {p}")
+                except Exception as e:
+                    print(f"  WARNING: tag-distribution plot failed: {e}")
 
 
 if __name__ == "__main__":

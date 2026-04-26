@@ -334,6 +334,8 @@ def generate_horizon_histogram(exam_name, exam):
 
     mask_true = df["outcome"] == 1.0
     mask_false = df["outcome"] == 0.0
+    mask_unresolved = ~(mask_true | mask_false)
+    n_unres = int(mask_unresolved.sum())
 
     data_list, labels, colors = [], [], []
     if mask_false.any():
@@ -344,9 +346,17 @@ def generate_horizon_histogram(exam_name, exam):
         data_list.append(df.loc[mask_true, "horizon_days"].values)
         labels.append(f"True ({npos})")
         colors.append("#27ae60")
+    if mask_unresolved.any():
+        data_list.append(df.loc[mask_unresolved, "horizon_days"].values)
+        labels.append(f"Unresolved ({n_unres})")
+        colors.append("#7f8c8d")
 
-    ax.hist(data_list, bins=bins, stacked=True, color=colors, label=labels,
-            edgecolor="white", linewidth=0.5, alpha=0.8)
+    if data_list:
+        ax.hist(data_list, bins=bins, stacked=True, color=colors, label=labels,
+                edgecolor="white", linewidth=0.5, alpha=0.8)
+    else:
+        ax.text(0.5, 0.5, "no horizon data",
+                ha="center", va="center", transform=ax.transAxes)
     ax.set_xlabel("Forecast horizon (days)")
     ax.set_ylabel("Number of questions")
     ax.legend(fontsize=8)
