@@ -643,6 +643,154 @@ def score_config(exam_name: str, config_name: str, metrics=None):
 
 
 # ---------------------------------------------------------------------------
+# Coverage chart (top external methods × ask date)
+# ---------------------------------------------------------------------------
+
+# Top 4 external methods from the FB tournament leaderboard (see paper
+# §App. setup). Each entry is (label, [substrings]); a cache filename
+# matches if any substring is a case-insensitive substring of the filename.
+# Multiple substrings handle FB's renaming over time (Lightning-Rod-Labs
+# vs LightningRodLabs, lowercase xai → xAI, Cassi-AI.1 vs .2, etc.).
+_COVERAGE_METHODS = [
+    ("Cassi (ens.+crowd-adj)", ["external.cassi-ai"]),
+    ("Grok 4.20",              ["external.xai."]),
+    ("Foresight-32B",          ["external.lightning-rod-labs",
+                                "external.lightningrodlabs"]),
+    ("GPT-5 (zs+crowd)",
+     ["openai.gpt-5-2025-08-07_zero_shot_with_freeze_values"]),
+]
+_COVERAGE_TRANCHE_A = "2025-10-26"
+_COVERAGE_TRANCHE_B = "2025-11-09"
+
+
+def coverage_barchart(out_path: str | None = None,
+                      methods: list[tuple[str, list[str]]] | None = None
+                      ) -> str:
+    """Stacked bar chart: unique resolved questions per (method, ask-date).
+
+    For each FB ask date in the local cache and each of `methods`, count the
+    number of unique (source, base_id) pairs with `resolved=True` (i.e. each
+    question contributes once even if it appears under multiple resolution
+    dates). Renders a stacked bar chart with one bar per ask date and one
+    coloured segment per method, plus a gold band over the paper's tranche
+    A∪B window for visual reference.
+    """
+    _ensure_extracted()
+    if methods is None:
+        methods = _COVERAGE_METHODS
+
+    counts: dict[str, dict[str, int]] = {}  # date -> method_label -> count
+    for date_name in sorted(os.listdir(_EXTRACTED_DIR)):
+        date_dir = os.path.join(_EXTRACTED_DIR, date_name)
+        if not os.path.isdir(date_dir):
+            continue
+        all_files = sorted(glob.glob(os.path.join(date_dir, "*.json")))
+        files_lower = [(p, os.path.basename(p).lower()) for p in all_files]
+        for label, needles in methods:
+            matches = [p for (p, fn) in files_lower
+                       if any(n in fn for n in needles)]
+            uniq = set()
+            for fpath in matches:
+                data = _load_json_file(fpath)
+                for fc in data.get("forecasts", []):
+                    if fc.get("resolved"):
+                        qid = fc.get("id", "")
+                        # Some FB combo questions store id as a list of two
+                        # base ids — convert to a hashable tuple.
+                        if isinstance(qid, list):
+                            qid = tuple(qid)
+                        uniq.add((fc.get("source", ""), qid))
+            if uniq:
+                counts.setdefault(date_name, {})[label] = len(uniq)
+
+    dates = sorted(counts)
+    if not dates:
+        print("coverage_barchart: no data found in cache")
+        return ""
+
+    # Render
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        from datetime import datetime
+    except ImportError:
+        print("matplotlib not available; skipping coverage chart")
+        return ""
+
+    from datetime import timedelta
+    import matplotlib.dates as mdates
+    xs = [datetime.strptime(d, "%Y-%m-%d") for d in dates]
+    fig, ax = plt.subplots(figsize=(12, 6))
+    cmap = plt.get_cmap("tab10")
+    bottoms = [0] * len(dates)
+    bar_width = 10  # days; ask dates are biweekly so bars don't overlap
+    for i, (label, _suffix) in enumerate(methods):
+        ys = [counts[d].get(label, 0) for d in dates]
+        ax.bar(xs, ys, bottom=bottoms, width=bar_width, label=label,
+               color=cmap(i), edgecolor="white", linewidth=0.5)
+        bottoms = [b + y for b, y in zip(bottoms, ys)]
+
+    # Tranche A∪B band
+    tA = datetime.strptime(_COVERAGE_TRANCHE_A, "%Y-%m-%d")
+    tB = datetime.strptime(_COVERAGE_TRANCHE_B, "%Y-%m-%d")
+    ax.axvspan(tA, tB, color="gold", alpha=0.18, zorder=0,
+               label=f"tranche A∪B ({_COVERAGE_TRANCHE_A} → "
+                     f"{_COVERAGE_TRANCHE_B})")
+
+    # Per-bar total annotations
+    for x, top in zip(xs, bottoms):
+        if top > 0:
+            ax.text(x, top, f"{top}", ha="center", va="bottom",
+                    fontsize=7, color="#333")
+
+    ax.set_xlabel("Forecast due date")
+    ax.set_ylabel("Unique resolved questions per method "
+                  "(collapsed across res dates)")
+    ax.set_title("FB top-4 external methods: resolved-question coverage "
+                 "by ask date  (stacked)")
+    ax.legend(fontsize=8, loc="upper left")
+    ax.grid(alpha=0.3, axis="y")
+
+    # Biweekly major ticks: anchor on the first ask date and step 14 days
+    # through to the last, so every FB cycle gets a labelled tick (even
+    # cycles where none of the 4 methods submitted).
+    if xs:
+        tick = xs[0]
+        end = xs[-1] + timedelta(days=1)
+        ticks = []
+        while tick <= end:
+            ticks.append(tick)
+            tick += timedelta(days=14)
+        ax.set_xticks(ticks)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m-%d"))
+        for lbl in ax.get_xticklabels():
+            lbl.set_rotation(45)
+            lbl.set_ha("right")
+    ax.grid(alpha=0.2, axis="x", linestyle=":")
+    fig.tight_layout()
+
+    if out_path is None:
+        os.makedirs(_OUTPUT_DIR, exist_ok=True)
+        out_path = os.path.join(_OUTPUT_DIR, "method_coverage.png")
+    fig.savefig(out_path, dpi=120)
+    plt.close(fig)
+    print(f"  PNG: {out_path}")
+
+    # Terminal summary
+    print(f"\n  Coverage by ask date (unique resolved (source, id) per method):")
+    header = f"  {'date':<12} " + " ".join(
+        f"{label[:18]:>18}" for label, _ in methods) + f"  {'total':>6}"
+    print(header)
+    for d in dates:
+        cells = " ".join(
+            f"{counts[d].get(label, 0):>18,d}" for label, _ in methods)
+        total = sum(counts[d].get(label, 0) for label, _ in methods)
+        print(f"  {d:<12} {cells}  {total:>6,d}")
+    return out_path
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -664,10 +812,18 @@ def main():
                         help="Organization name(s), comma-separated (used with --history)")
     parser.add_argument("--refresh", action="store_true",
                         help="Re-download ForecastBench data (delete cache and fetch latest)")
+    parser.add_argument("--coverage-chart", action="store_true",
+                        help="Render stacked bar chart of unique resolved "
+                             "questions per (top-4 external method, ask date)")
     args = parser.parse_args()
 
     global _REFRESH
     _REFRESH = args.refresh
+
+    # --coverage-chart mode: no xid needed
+    if args.coverage_chart:
+        coverage_barchart()
+        return
 
     # --history mode: no xid needed
     if args.history:
