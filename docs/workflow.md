@@ -762,7 +762,7 @@ python3 src/core/eval.py --xid my-xid --add-ensemble my-ens
 
 ## 10. ForecastBench live submission {#compete}
 
-`src/compete/fb_compete.py` runs the end-to-end live-competition pipeline:
+`src/core/fb_compete.py` runs the end-to-end live-competition pipeline:
 fetch the live question set, build an exam, run the agent, assemble the
 submission JSON, and upload to GCS.
 
@@ -770,16 +770,16 @@ Pipeline steps (fetch → exam → predict → collate → calibrate → submit 
 
 ```bash
 # With a saved Platt calibration model (the usual case)
-caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
+caffeinate -s python3 src/core/fb_compete.py --date 2026-04-12 \
     --config "pro/thk:high/crowd:1/tools:1" --ntrials 5 \
     --calibration-model tranche-a1
 
 # Without calibration (raw forecasts)
-caffeinate -s python3 src/compete/fb_compete.py --date 2026-04-12 \
+caffeinate -s python3 src/core/fb_compete.py --date 2026-04-12 \
     --config "pro/thk:high/crowd:1/tools:1" --ntrials 5
 
 # Re-assemble a submission from the existing collated file (no re-run)
-python3 src/compete/fb_compete.py --date 2026-04-12 --skip-predict \
+python3 src/core/fb_compete.py --date 2026-04-12 --skip-predict \
     --config pro-high-brave-c1-t1 --calibration-model tranche-a1
 ```
 

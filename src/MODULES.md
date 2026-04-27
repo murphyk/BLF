@@ -14,7 +14,6 @@ src/
 ├── eval/       Evaluation plots and HTML
 ├── analysis/   Statistical analysis scripts
 ├── search/     Web search engine implementations
-├── compete/    Live competition submission
 ├── testing/    Tests and validation
 └── misc/       Legacy and one-off scripts
 ```
@@ -100,7 +99,7 @@ Imported by core scripts; no `__main__`.
 
 | Module | Purpose |
 |---|---|
-| `compete/fb_compete.py` | Submit forecasts to live FB competition |
+| `core/fb_compete.py` | Submit forecasts to live FB competition |
 | `misc/show_prompts.py` | Dump generated prompts to disk for inspection |
 | `misc/convert_legacy_data.py` | Convert v5 forecasts/exams to v6 format |
 | `misc/fred_models.py` | Enhanced FRED statistical models |
