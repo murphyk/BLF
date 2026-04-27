@@ -22,6 +22,8 @@ CONFIG = "pro-high-brave-c1-p1-t1"
 TRIALS = [1, 2]
 RAW = f"experiments/forecasts_raw/{CONFIG}"
 KNOWLEDGE_CUTOFF = "2025-01-31"
+TRANCHE_A_DATE = "2025-10-26"
+TRANCHE_B_DATE = "2025-11-09"
 OUT_DIR = "experiments/wasted_run_figs"
 
 
@@ -173,6 +175,8 @@ def main():
 
     xs = [datetime.strptime(d, "%Y-%m-%d") for d in dates]
     cutoff = datetime.strptime(KNOWLEDGE_CUTOFF, "%Y-%m-%d")
+    tranche_a = datetime.strptime(TRANCHE_A_DATE, "%Y-%m-%d")
+    tranche_b = datetime.strptime(TRANCHE_B_DATE, "%Y-%m-%d")
 
     # Plot 1: BI per source over time
     fig, ax = plt.subplots(figsize=(11, 6))
@@ -192,6 +196,15 @@ def main():
             ov_xs.append(x); ov_ys.append(ov)
     ax.plot(ov_xs, ov_ys, color="black", linewidth=2.5,
             marker="s", markersize=6, label="overall (eq.-wt mkt/dat)")
+    # Shaded band covering the two tranche dates (A=2025-10-26, B=2025-11-09)
+    # so the eye can read off how the paper-evaluation tranches sit
+    # relative to the broader corpus.
+    ax.axvspan(tranche_a, tranche_b, color="gold", alpha=0.18, zorder=0,
+               label=f"tranche A∪B ({TRANCHE_A_DATE} → {TRANCHE_B_DATE})")
+    ax.axvline(tranche_a, color="goldenrod", linestyle="-",
+               alpha=0.7, linewidth=1.0)
+    ax.axvline(tranche_b, color="goldenrod", linestyle="-",
+               alpha=0.7, linewidth=1.0)
     ax.axvline(cutoff, color="gray", linestyle="--", alpha=0.6,
                label=f"knowledge cutoff ({KNOWLEDGE_CUTOFF})")
     ax.set_xlabel("Forecast due date")
@@ -215,6 +228,12 @@ def main():
     overall_counts = [sum(counts[s].get(d, 0) for s in sources) for d in dates]
     ax.plot(xs, overall_counts, color="black", linewidth=2.5,
             marker="s", markersize=6, label="overall")
+    ax.axvspan(tranche_a, tranche_b, color="gold", alpha=0.18, zorder=0,
+               label=f"tranche A∪B ({TRANCHE_A_DATE} → {TRANCHE_B_DATE})")
+    ax.axvline(tranche_a, color="goldenrod", linestyle="-",
+               alpha=0.7, linewidth=1.0)
+    ax.axvline(tranche_b, color="goldenrod", linestyle="-",
+               alpha=0.7, linewidth=1.0)
     ax.axvline(cutoff, color="gray", linestyle="--", alpha=0.6,
                label=f"knowledge cutoff ({KNOWLEDGE_CUTOFF})")
     ax.set_xlabel("Forecast due date")
