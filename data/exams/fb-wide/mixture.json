@@ -1,0 +1,18 @@
+{
+  "_comment": "Wide FB exam covering all biweekly ask dates from 2025-03-02 through 2026-04-26 (every FB cycle that has questions on disk). Includes ~9000 questions across all 9 FB sources, ~8400 of which have known outcomes. Useful as a 'realistic typical FB' baseline against which to compare the narrower paper tranches A and B; see experiments/wasted_run_analysis.py for the per-source representativeness audit and nips26 §H.2.3 for the writeup.",
+  "ask-start": "2025-03-02",
+  "ask-end": "2026-04-26",
+  "resolution-end": "2026-04-26",
+  "seed": 42,
+  "select": {
+    "acled":      "all",
+    "dbnomics":   "all",
+    "fred":       "all",
+    "infer":      "all",
+    "manifold":   "all",
+    "metaculus":  "all",
+    "polymarket": "all",
+    "wikipedia":  "all",
+    "yfinance":   "all"
+  }
+}
