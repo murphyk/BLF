@@ -1,10 +1,24 @@
 {
+  "_comment": "FB tranche-A\u222aB evaluation. Four configs: BLF and NoBel \u00d7 {Pro-3.1, Sonnet-4.6}, all at the SOTA setting (crowd=1, prior=1, tools=1). The 2\u00d72 answers two reviewer concerns at once: (1) generalizability \u2014 does the BLF architecture work on a non-Google frontier LLM (Sonnet)? (2) belief-state isolation \u2014 is the structured belief state the value-add, or is it just the base LLM? NoBel rows ablate the structured belief state (text accumulation only), giving an AIA-/Cassi-style baseline at the same crowd+emp+tools level as BLF; the \u0394 within each LLM directly measures the belief-state contribution.",
   "exam": "tranche-ab",
   "config": [
-    "pro/thk:high/crowd:1/prior:1/tools:1"
+    "pro/thk:high/crowd:1/prior:1/tools:1",
+    "sonnet/thk:high/crowd:1/prior:1/tools:1",
+    "pro/thk:high/crowd:1/prior:1/tools:1/nobelief:1",
+    "sonnet/thk:high/crowd:1/prior:1/tools:1/nobelief:1",
+    "grok4/thk:high/crowd:1/prior:1/tools:1"
   ],
-  "eval_calibration": ["global-cal", "hier-cal"],
-  "eval_aggregation": ["mean:5", "logit-mean:5", "shrink-std-aibq2:5", "shrink-std-loo:5", "shrink-alpha-loo:5"],
+  "eval_calibration": [
+    "global-cal",
+    "hier-cal"
+  ],
+  "eval_aggregation": [
+    "mean:5",
+    "logit-mean:5",
+    "shrink-std-aibq2:5",
+    "shrink-std-loo:5",
+    "shrink-alpha-loo:5"
+  ],
   "metric": [
     "brier-index",
     "metaculus-score"

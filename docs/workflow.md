@@ -97,6 +97,44 @@ set in `config.py`, the meta-controller, data-fetching tools for
 `yfinance`/`fred`/`dbnomics`, or prompt scaffolding that differs by
 `Qsource`/`FBQtype`). Covers every tool path in a single run.
 
+## `smoke-llm` — LLM completion-rate diagnostic (13 questions)
+
+Different frontier LLMs have very different rates of returning *empty
+completions* during agent loops (no tool call AND no text — the agent
+loop exits at `agent.py:140-144` and falls back to belief.p in BLF mode
+or p=0.5 in NoBel mode). We've observed Gemini-3.1-Pro silently dropping
+tool calls 67-88% of the time on prediction-market questions
+(polymarket, manifold) while Sonnet 4.6 sails through at 100%. This
+quirk is the dominant mechanism behind the BLF lift on Pro and is
+invisible until you run hundreds of dollars of forecasts.
+
+The `smoke-llm` exam (13 questions, weighted toward the failure-prone
+market sources) is designed to detect this in **<30 minutes and <$15
+per LLM**, before committing to a full $250-345 tranche-A run:
+
+```bash
+# 1. Run predict on the smoke exam (ntrials=2 = 26 trials, ~$10-20/LLM)
+python3 src/core/predict.py --exam smoke-llm \
+    --config pro/thk:high/crowd:1/prior:1/tools:1 --ntrials 2
+python3 src/core/predict.py --exam smoke-llm \
+    --config sonnet/thk:high/crowd:1/prior:1/tools:1 --ntrials 2
+# ... repeat for any new LLM you want to characterize
+
+# 2. Diagnose
+python3 src/testing/test_completion_rate.py \
+    --configs pro-high-brave-c1-p1-t1,sonnet-high-brave-c1-p1-t1
+```
+
+`test_completion_rate.py` reads `experiments/forecasts_raw/{config}/trial_*/`
+and prints a per-(LLM × source) submit-rate table with `⚠` flags below
+80%, plus a failure-mode breakdown (SUBMIT / no_tool_call / max_steps /
+error / other). Returns nonzero exit if any config has overall submit
+rate < 80%, suitable for CI gating before launching expensive runs.
+
+Use when: evaluating a new base LLM you haven't characterized before, or
+checking that a model-version bump (e.g. `claude-sonnet-4-6` →
+`claude-sonnet-4-7`) hasn't introduced a completion-rate regression.
+
 ## Post-prediction sanity check
 
 `test_smoke.py` validates the forecast JSONs produced by *any* xid

@@ -122,16 +122,27 @@ TABLE2_ROWS = [
 ]
 
 # Table 3 uses one config + a list of aggregation-variant keys.
-TABLE3_BASE = "pro-high-brave-c0-t1"
+# Switched 2026-04-29 to c0-t0 (no crowd, no emp prior, no tools, no cal):
+# the most stripped-down BLF setting, matching the philosophy of Table 2
+# (vary one component at a time from a stripped baseline so the
+# aggregation differences aren't masked by anchor signals like crowd
+# price or source-specific data tools). On c0-t1 the LOO grid picked
+# (f=0, c=0) ⇒ α≡1 ⇒ logit-mean, hiding any shrinkage benefit; on
+# c0-t0 LOO picks (f=0.9, c=2.0) ⇒ genuine per-question shrinkage.
+TABLE3_BASE = "pro-high-brave-c0-t0"
 TABLE3_VARIANTS = [
     # (label, agg_key, paper_market, paper_data, paper_overall)
-    ("logit:5",  "logit-mean:5", "77.1", "58.6", "67.8"),
-    ("logit:3",  "logit-mean:3", "76.8", "58.5", "67.6"),
-    ("logit:1",  "logit-mean:1", "75.2", "58.0", "66.6"),
-    ("mean:5",   "mean:5",       "76.8", "58.5", "67.7"),
-    ("mean:3",   "mean:3",       "76.5", "58.5", "67.5"),
-    ("mean:1",   "mean:1",       "75.2", "58.0", "66.6"),
-    ("median",   "median:5",     "76.4", "58.5", "67.4"),
+    # Paper-time numbers shown for the old c0-t1 base, kept here for
+    # reference; the repro now scores c0-t0 (see TABLE3_BASE comment).
+    ("logit:5",            "logit-mean:5",        "—",    "—",    "—"),
+    ("logit:3",            "logit-mean:3",        "—",    "—",    "—"),
+    ("logit:1",            "logit-mean:1",        "—",    "—",    "—"),
+    ("mean:5",             "mean:5",              "—",    "—",    "—"),
+    ("mean:3",             "mean:3",              "—",    "—",    "—"),
+    ("mean:1",             "mean:1",              "—",    "—",    "—"),
+    ("median",             "median:5",            "—",    "—",    "—"),
+    ("shrink-std-loo:5",   "shrink-std-loo:5",    "—",    "—",    "—"),
+    ("shrink-alpha-loo:5", "shrink-alpha-loo:5",  "—",    "—",    "—"),
 ]
 
 # Table 4 — each base config × {uncal, global, hier}.
