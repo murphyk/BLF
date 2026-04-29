@@ -113,10 +113,22 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
                     "function": {"name": "submit"},
                 }
             if config.reasoning_effort:
-                # Only pass reasoning_effort for providers that support it
-                _RE_PROVIDERS = ("google/", "anthropic/")
+                # Only pass reasoning_effort for providers that support it.
+                # OpenAI added it for the GPT-5/o-series reasoning models.
+                _RE_PROVIDERS = ("google/", "anthropic/", "openai/")
                 if any(p in config.llm for p in _RE_PROVIDERS):
                     kwargs["reasoning_effort"] = config.reasoning_effort
+
+            # OpenAI emits parallel tool_calls by default — agent.py
+            # processes only the first (line ~147), which leaves the
+            # other tool_call ids without matching tool-response
+            # messages and triggers a 400 "No tool output found for
+            # function call X" on the next request. Disable parallel
+            # tool calling for OpenAI models. Anthropic and Google
+            # don't have this knob (and don't suffer from the issue
+            # in practice with our prompts).
+            if "openai/" in config.llm:
+                kwargs["parallel_tool_calls"] = False
 
             response = litellm.completion(**kwargs)
         except Exception as e:
@@ -161,9 +173,13 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
             messages.append({
                 "role": "tool",
                 "tool_call_id": tc.id,
+                # Empirically (Gemini-3.1-Pro on polymarket/manifold) the
+                # earlier "Please call submit" hint here caused the model to
+                # silently give up on >95% of rejections rather than try
+                # an alternative tool. Phrase neutrally: list what's
+                # available and let the model pick.
                 "content": f"Error: '{fn_name}' is not available. "
-                           f"Available tools: {sorted(available_names)}. "
-                           f"Please call submit with your probability estimate.",
+                           f"The available tools are: {sorted(available_names)}.",
             })
             tool_log.append({"step": step + 1, "type": "rejected_tool",
                             "tool": fn_name, "available": sorted(available_names)})

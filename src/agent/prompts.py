@@ -110,7 +110,12 @@ probability estimate.
 Rules:
 - You MUST call submit before step {max_steps}. If you reach the last step \
 without submitting, a default probability of 0.5 will be used.
-- Call submit when you believe you have gathered sufficient evidence.
+- Call submit once your sense of the probability has stabilized AND you have \
+no major outstanding uncertainties that you believe further search could \
+resolve. Do not keep searching just to use up all your steps — submitting \
+early with a well-supported estimate is better than redundant searches. \
+If your last 2-3 searches have not meaningfully changed your estimate \
+(less than 0.03 change), that is a strong signal to submit now.
 {extra_rules}\
 - Probabilities must be between 0.05 and 0.95 (never 0 or 1 — nothing is certain).
 - Be well-calibrated: a 70% prediction should resolve YES about 70% of the time.
@@ -133,14 +138,19 @@ _EXTRA_RULES_BACKTEST = (
     "- Do NOT search for information published after the knowledge cutoff date.\n"
 )
 
-# Source-specific tools and blocked domains
+# Source-specific tools and blocked domains.
+# IMPORTANT: keep this in sync with `_SOURCE_TO_TOOLS` in
+# src/agent/source_tools.py — advertising a tool here that isn't in the
+# schema causes models that try to call it (e.g. Gemini-3.1-Pro on
+# polymarket/manifold) to be rejected and silently give up. Removed
+# polymarket/manifold 2026-04-29 to match the schema (they were disabled
+# in source_tools.py per the comment there: "the crowd price is
+# sufficient; price history tools add noise without improving BI").
 _SOURCE_TOOLS = {
     "yfinance": "fetch_ts_yfinance",
     "fred": "fetch_ts_fred",
     "dbnomics": "fetch_ts_dbnomics",
     "wikipedia": "fetch_wikipedia_toc, fetch_wikipedia_section",
-    "polymarket": "fetch_polymarket_info",
-    "manifold": "fetch_manifold_info",
 }
 
 _SOURCE_BLOCKED = {
@@ -202,14 +212,12 @@ def _build_tools_section(source: str, live: bool,
             "- fetch_wikipedia_section: extract text from a specific section.\n"
             "  Call this after fetch_wikipedia_toc with the section title you need.\n"
             "  Both tools return the page as it existed at the cutoff date."),
-        "polymarket": (
-            "- fetch_polymarket_info: fetch market probability history (up to 90 days).\n"
-            "  Call this as your FIRST action to see how the market price has evolved.\n"
-            "  Data is date-filtered to before cutoff (not URL-blocked)."),
-        "manifold": (
-            "- fetch_manifold_info: fetch market probability history (up to 90 days).\n"
-            "  Call this as your FIRST action to see how the market price has evolved.\n"
-            "  Data is date-filtered to before cutoff (not URL-blocked)."),
+        # polymarket / manifold tools removed 2026-04-29 to match the
+        # disabled state in source_tools.py:_SOURCE_TO_TOOLS. The crowd
+        # price is already in the user prompt's "## Market estimate"
+        # section. Advertising these tools here when the schema didn't
+        # include them caused Gemini-3.1-Pro to call them, get rejected,
+        # and silently give up on 67-88% of polymarket/manifold trials.
     }
     if use_tools:
         tool_desc = _TOOL_DESCRIPTIONS.get(source)
@@ -362,16 +370,10 @@ _SOURCE_TOOL_HINTS = {
         "`fetch_wikipedia_section` to read the relevant section. "
         "You may do at most ONE web search for additional context, then submit."
     ),
-    "polymarket": (
-        "you have an especially useful tool, `fetch_polymarket_info` — use it to "
-        "look up the market's probability history, to estimate the reliability of "
-        "the crowd estimate (if present). Do not search polymarket.com directly."
-    ),
-    "manifold": (
-        "you have an especially useful tool, `fetch_manifold_info` — use it to "
-        "look up the market's probability history, to estimate the reliability of "
-        "the crowd estimate (if present). Do not search manifold.markets directly."
-    ),
+    # polymarket / manifold hints removed 2026-04-29 — they advertised
+    # fetch_polymarket_info / fetch_manifold_info, but those tools are
+    # disabled in source_tools.py:_SOURCE_TO_TOOLS. The crowd estimate
+    # is still in the user prompt's "## Market estimate" section.
 }
 
 _SOURCE_DISPLAY_NAMES = {
