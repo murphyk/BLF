@@ -1,0 +1,23 @@
+{
+  "_comment": "Snapshot of the AIBQ2 BLF configuration used in the NeurIPS 2026 paper (Table 10). agg_method=shrink-std-aibq2 reflects the post-hoc aggregation column scored in the paper's AIBQ2 results, with hardcoded (f=0.3, c=0.7) chosen during paper development to approximate what shrink-std-loo would select on AIBQ2. Predict-time aggregation falls back to logit-mean for any non-plain-mean method (LOO/std variants need labels); the canonical paper score comes from forecasts_aggregated[shrink-std-aibq2:5] computed by aggregate.py.",
+  "name": "pro-high-brave-c0-t0",
+  "llm": "openrouter/google/gemini-3.1-pro-preview",
+  "max_tokens": 16000,
+  "reasoning_effort": "high",
+  "search_engine": "brave",
+  "max_results_per_search": 10,
+  "show_crowd": 0,
+  "show_prior": 0,
+  "backtesting": true,
+  "use_tools": false,
+  "clairvoyant": false,
+  "max_steps": 10,
+  "compact_threshold": 2000,
+  "question_timeout": 600,
+  "agg_method": "shrink-std-aibq2",
+  "batch_queries": 0,
+  "nobelief": false,
+  "fred_enhanced": false,
+  "prior_only": false,
+  "halawi_prompt": false
+}

@@ -1,4 +1,5 @@
 {
+  "_comment": "Preferred BLF configuration going forward. agg_method=shrink-std-loo subsumes both paper regimes: on benchmarks with low trial variance (e.g. FB with crowd anchor) the LOO grid selects (f=1, c=0) → α≡1 → logit-mean; on noisier benchmarks (e.g. AIBQ2) it selects f<1, c>0 → genuine per-question shrinkage. See paper §C.9. Predict-time aggregation falls back to logit-mean (LOO needs labels); the canonical score comes from forecasts_aggregated[shrink-std-loo:5] computed post-hoc by aggregate.py. Frozen paper-time configs in configs/paper_aibq2.json and configs/paper_fb.json.",
   "name": "pro-high-brave-c1-p1-t1",
   "llm": "openrouter/google/gemini-3.1-pro-preview",
   "max_tokens": 16000,
@@ -13,7 +14,7 @@
   "max_steps": 10,
   "compact_threshold": 2000,
   "question_timeout": 600,
-  "agg_method": "logit-mean",
+  "agg_method": "shrink-std-loo",
   "batch_queries": 0,
   "nobelief": false,
   "fred_enhanced": false,

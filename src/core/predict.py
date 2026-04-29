@@ -504,17 +504,21 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
                     agg_method: str = "logit-mean"):
     """Average forecasts across trials. No labels needed at inference.
 
-    agg_method:
-        "logit-mean": p_hat = sigmoid(mean(logits))  (paper §C.9 eq. 8
-            with α=1). Default. Paper Table 3 / Sec C.9 show this is
-            optimal for FB.
-        "plain-mean":  p_hat = mean(p_k)  — arithmetic mean of trial
-            probabilities (no logit transform). Included for comparison;
-            tends to under-perform logit-mean on extreme questions.
+    agg_method (matches config.AgentConfig.agg_method):
+        "plain-mean":        arithmetic mean of probabilities.
+        "logit-mean":        sigmoid(mean(logits))  (paper §C.9 eq. 8, α=1).
+        "shrink-std-aibq2":  per-question α(q) = max(0.3, 1 − 0.7·std_logit(q));
+                             runtime-applicable (no labels needed).
+        "shrink-std-loo":    per-question α(q) = max(f, 1 − c·std_logit(q))
+                             with (f, c) LOO-tuned. CANNOT be applied at
+                             predict time without labels — falls back to
+                             logit-mean here, with the canonical column
+                             computed post-hoc by aggregate.py from
+                             forecasts_aggregated[shrink-std-loo:N].
+        "shrink-alpha-loo":  single global α LOO-tuned. Same predict-time
+                             fallback as shrink-std-loo.
 
-    For label-dependent shrinkage variants (where α is fit to data),
-    see src/core/aggregate.py — those run post-collation and can't be
-    used at live-submission time.
+    Unrecognized values raise ValueError.
     """
     import numpy as np
     n_written = 0
@@ -578,13 +582,25 @@ def _average_trials(config_name: str, questions: list[dict], ntrials: int,
         std_logit = float(np.std(logits))
 
         if agg_method == "plain-mean":
-            # Arithmetic mean of probabilities (no logit transform).
             a = 1.0
             final_p = float(mean_p)
-        else:
-            # logit-mean: sigmoid(mean(logits)) — paper §C.9 eq. 8, α=1.
+        elif agg_method == "logit-mean":
             a = 1.0
             final_p = float(1 / (1 + np.exp(-logit_bar)))
+        elif agg_method == "shrink-std-aibq2":
+            # Per-question α with hardcoded (f=0.3, c=0.7); no labels needed.
+            a = max(0.3, 1.0 - 0.7 * std_logit)
+            final_p = float(1 / (1 + np.exp(-a * logit_bar)))
+        elif agg_method in ("shrink-std-loo", "shrink-alpha-loo"):
+            # LOO variants need labels — fall back to logit-mean at runtime.
+            # The canonical column is computed post-hoc by aggregate.py.
+            a = 1.0
+            final_p = float(1 / (1 + np.exp(-logit_bar)))
+        else:
+            raise ValueError(
+                f"Unknown agg_method {agg_method!r} for config {config_name!r}; "
+                f"valid: plain-mean, logit-mean, shrink-std-aibq2, "
+                f"shrink-std-loo, shrink-alpha-loo")
 
         # Use first trial as base, add trial statistics
         base = dict(trial_fcs[0][1])

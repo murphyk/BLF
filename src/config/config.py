@@ -67,7 +67,13 @@ class AgentConfig:
     max_steps: int = 10
     compact_threshold: int = 2000
     question_timeout: int = 240
-    agg_method: str = "logit-mean"  # "logit-mean" (paper §C.9 eq.8, α=1; default) or "plain-mean" (arithmetic mean of probabilities)
+    # Trial aggregation. Valid values:
+    #   "plain-mean"        arithmetic mean of probabilities
+    #   "logit-mean"        sigmoid(mean(logits))                       (default; paper §C.9 eq.8 with α=1)
+    #   "shrink-std-aibq2"  per-q std shrinkage with hardcoded (f=0.3, c=0.7)  (no labels needed; runtime-applicable)
+    #   "shrink-std-loo"    per-q std shrinkage with (f, c) LOO-tuned         (preferred going forward; needs labels — predict-time falls back to logit-mean, post-hoc aggregate.py computes the canonical column)
+    #   "shrink-alpha-loo"  single global α LOO-tuned                          (needs labels — same fallback as above)
+    agg_method: str = "logit-mean"
     batch_queries: int = 0  # >0: non-agentic batch mode (N parallel queries, then submit)
     nobelief: bool = False   # True: disable structured belief state (text accumulation mode)
     fred_enhanced: bool = False  # True: append per-series classification to FRED tool output
