@@ -76,7 +76,35 @@ def _classify_trial(fc: dict) -> str:
     return "OTHER"
 
 
-def _gather(config: str) -> dict[str, dict[str, int]]:
+def _exam_qids(exam: str | None) -> dict[str, set[str]] | None:
+    """Return {source: {qid}} for exam, or None to disable filtering.
+    Reads data/exams/{exam}/indices.json (the canonical exam definition).
+    """
+    if not exam:
+        return None
+    idx_path = os.path.join("data", "exams", exam, "indices.json")
+    if not os.path.isfile(idx_path):
+        print(f"  [exam={exam}] no data/exams/{exam}/indices.json — ignoring filter")
+        return None
+    with open(idx_path) as f:
+        data = json.load(f)
+    return {src: set(ids) for src, ids in data.items()}
+
+
+def _matches_exam(src: str, fn: str, qids: dict[str, set[str]] | None) -> bool:
+    if qids is None:
+        return True
+    base = fn[:-5] if fn.endswith(".json") else fn
+    src_qids = qids.get(src, set())
+    if base in src_qids:
+        return True
+    # Also accept exam qids that include a date suffix the trial filename lacks
+    return any(q.startswith(base + "_") or base.startswith(q + "_") or q == base
+               for q in src_qids)
+
+
+def _gather(config: str, exam_qids: dict[str, set[str]] | None = None
+            ) -> dict[str, dict[str, int]]:
     """Returns {source: {bucket: count}}."""
     by_src: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     cfg_root = os.path.join("experiments", "forecasts_raw", config)
@@ -93,6 +121,8 @@ def _gather(config: str) -> dict[str, dict[str, int]]:
                 continue
             for fn in os.listdir(sd):
                 if not fn.endswith(".json"):
+                    continue
+                if not _matches_exam(src, fn, exam_qids):
                     continue
                 with open(os.path.join(sd, fn)) as f:
                     fc = json.load(f)
@@ -184,10 +214,15 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--configs", required=True,
                    help="Comma-separated config dir names "
                         "(e.g. 'pro-high-brave-c1-p1-t1,sonnet-high-brave-c1-p1-t1')")
+    p.add_argument("--exam", default=None,
+                   help="Restrict to qids in data/exams/{exam}/. Required when "
+                        "forecasts_raw/{config}/ contains trials from multiple "
+                        "exams (e.g. smoke-llm + aibq2).")
     args = p.parse_args(argv)
 
     configs = [c.strip() for c in args.configs.split(",") if c.strip()]
-    stats = {c: _gather(c) for c in configs}
+    exam_qids = _exam_qids(args.exam)
+    stats = {c: _gather(c, exam_qids) for c in configs}
 
     # Use union of sources actually present, in canonical order
     canonical = ["polymarket", "manifold", "metaculus", "infer",

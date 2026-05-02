@@ -100,13 +100,21 @@ def _agg_logit_mean(ps: list[float]) -> float:
 def _agg_shrink_std(ps: list[float],
                     floor: float = _AIBQ2_SHRINK_FLOOR,
                     scale: float = _AIBQ2_SHRINK_SCALE,
-                    alpha_override: float | None = None) -> float:
+                    alpha_override: float | None = None,
+                    prior_logit: float = 0.0) -> float:
     """Per-question std-based shrinkage in logit space.
 
-    Computes p_hat = sigmoid(α · mean(logits)), where:
+    Computes p_hat = sigmoid(α · mean(logits) + (1-α) · prior_logit), where:
       - if alpha_override is set, α = alpha_override (used by
         shrink-alpha-loo, which fits one global α and bypasses std);
       - otherwise α = max(floor, 1 − scale · std(logits)).
+
+    prior_logit defaults to 0 (= shrink toward p=0.5), matching the
+    original shrink-std-aibq2/loo/alpha formulations. shrink-prior-loo
+    passes prior_logit = logit(market_value) for market sources and
+    logit(empirical_prior) for dataset sources, so the convex combo
+    in logit space pulls toward the question-specific prior rather
+    than the uninformative 0.5.
 
     Defaults to the AIBQ2-paper operating point (floor=0.3, scale=0.7).
     """
@@ -117,7 +125,7 @@ def _agg_shrink_std(ps: list[float],
     std = float(xs.std())
     a = (alpha_override if alpha_override is not None
          else max(floor, 1.0 - scale * std))
-    return _sigmoid(a * mean)
+    return _sigmoid(a * mean + (1.0 - a) * prior_logit)
 
 
 def _agg_median(ps: list[float]) -> float:
@@ -129,9 +137,66 @@ _AGGS = {
     "logit-mean":       _agg_logit_mean,
     "shrink-std-aibq2": _agg_shrink_std,  # uses default (0.3, 0.7)
     "median":           _agg_median,
-    # shrink-std-loo and shrink-alpha-loo go through _agg_shrink_std
-    # with fitted parameters; not entered directly into _AGGS.
+    # shrink-std-loo, shrink-alpha-loo, shrink-prior-loo go through
+    # _agg_shrink_std with fitted parameters; not entered directly here.
 }
+
+
+_MARKET_SOURCES = {"polymarket", "manifold", "metaculus", "infer"}
+
+
+try:
+    from config.empirical_prior import (
+        get_empirical_prior as _get_emp_prior,
+        get_loo_temporal_prior as _get_loo_temp_prior,
+    )
+except Exception:  # pragma: no cover
+    _get_emp_prior = None
+    _get_loo_temp_prior = None
+
+
+def _entry_prior(entry: dict) -> float:
+    """Per-question shrinkage prior used by shrink-prior-loo.
+
+    Market sources: market_value (the crowd / market price).
+    Dataset / aibq2 sources: backtest-valid LOO-temporal empirical prior
+    --- mean outcome over questions in the same (source, subtype) bucket
+    that resolved BEFORE this question's forecast_due_date and exclude
+    this question itself. Falls back to the static empirical prior, then
+    to 0.5, when the LOO-temporal pool is empty. Clamped to [_EPS, 1-_EPS]
+    so logit() is finite.
+    """
+    src = entry.get("source", "")
+    if src in _MARKET_SOURCES:
+        mv = entry.get("market_value")
+        try:
+            p = float(mv) if mv not in (None, "", "unknown") else 0.5
+        except (TypeError, ValueError):
+            p = 0.5
+    else:
+        p = None
+        if _get_loo_temp_prior is not None:
+            try:
+                # AIBQ2 has no temporal structure (one-shot benchmark),
+                # so disable the resolution-date filter and use identity-LOO.
+                # FB datasets use the strict backtest-valid temporal cutoff
+                # (default = question's forecast_due_date).
+                if src == "aibq2":
+                    pe = _get_loo_temp_prior(entry, cutoff_date=None)
+                else:
+                    pe = _get_loo_temp_prior(entry)  # default: fdd cutoff
+                p = float(pe) if pe is not None else None
+            except (TypeError, ValueError):
+                p = None
+        if p is None and _get_emp_prior is not None:
+            try:
+                pe = _get_emp_prior(entry)
+                p = float(pe) if pe is not None else None
+            except (TypeError, ValueError):
+                p = None
+        if p is None:
+            p = 0.5
+    return min(max(p, _EPS), 1 - _EPS)
 
 
 def _enumerate_subsets(k: int, n: int) -> list[tuple[int, ...]]:
@@ -149,14 +214,18 @@ def _enumerate_subsets(k: int, n: int) -> list[tuple[int, ...]]:
 def _aggregate_entry(raw_trials: list[float], method: str, n: int,
                      floor: float | None = None,
                      scale: float | None = None,
-                     alpha_override: float | None = None) -> float | None:
+                     alpha_override: float | None = None,
+                     prior_logit: float = 0.0) -> float | None:
     """Compute expected variant forecast over subsets of raw_trials.
 
     For the shrinkage methods (shrink-std-aibq2, shrink-std-loo,
-    shrink-alpha-loo) the call site supplies the operating point:
+    shrink-alpha-loo, shrink-prior-loo) the call site supplies the
+    operating point:
       - shrink-std-aibq2: defaults (floor=0.3, scale=0.7) used.
       - shrink-std-loo: (floor, scale) come from _fit_std_shrinkage.
       - shrink-alpha-loo: alpha_override comes from _fit_global_shrinkage.
+      - shrink-prior-loo: (floor, scale) come from _fit_std_shrinkage on
+        a per-question prior; prior_logit comes from _entry_prior(entry).
     """
     trials = [p for p in raw_trials if p is not None]
     if not trials:
@@ -164,10 +233,12 @@ def _aggregate_entry(raw_trials: list[float], method: str, n: int,
     k = len(trials)
     n_use = max(1, min(n, k))
     combos = _enumerate_subsets(k, n_use)
-    if method in ("shrink-std-aibq2", "shrink-std-loo", "shrink-alpha-loo"):
+    if method in ("shrink-std-aibq2", "shrink-std-loo",
+                  "shrink-alpha-loo", "shrink-prior-loo"):
         f = floor if floor is not None else _AIBQ2_SHRINK_FLOOR
         s = scale if scale is not None else _AIBQ2_SHRINK_SCALE
-        vals = [_agg_shrink_std([trials[i] for i in c], f, s, alpha_override)
+        vals = [_agg_shrink_std([trials[i] for i in c], f, s,
+                                alpha_override, prior_logit=prior_logit)
                 for c in combos]
     else:
         fn = _AGGS.get(method)
@@ -296,6 +367,57 @@ def _fit_std_shrinkage(records: list[tuple[list[float], float]], n: int
     return best_f, best_s
 
 
+def _fit_std_shrinkage_with_priors(
+        records: list[tuple[list[float], float, float]], n: int
+) -> tuple[float, float]:
+    """Like _fit_std_shrinkage, but each record carries its own prior_logit
+    and the estimator shrinks toward that prior instead of 0.
+
+    records: list of (raw_trials, outcome, prior_logit).
+    Used by shrink-prior-loo. Same 11×11 grid as the plain version.
+    """
+    per_entry: list[tuple[list[float], float, float]] = []
+    for trials, outcome, prior_l in records:
+        if outcome is None:
+            continue
+        ts = [p for p in trials if p is not None]
+        if not ts:
+            continue
+        for c in _enumerate_subsets(len(ts), min(n, len(ts))):
+            sub = [ts[i] for i in c]
+            per_entry.append(([_logit(p) for p in sub], float(outcome),
+                              float(prior_l)))
+
+    if not per_entry:
+        return 1.0, 0.0
+
+    def brier_at(floor: float, scale: float) -> float:
+        total = 0.0
+        for xs, o, prior_l in per_entry:
+            if len(xs) <= 1:
+                p = _sigmoid(xs[0]) if xs else 0.5
+            else:
+                arr = np.asarray(xs)
+                m = float(arr.mean())
+                s = float(arr.std())
+                a = max(floor, 1.0 - scale * s)
+                p = _sigmoid(a * m + (1.0 - a) * prior_l)
+            total += (p - o) ** 2
+        return total / len(per_entry)
+
+    floors = np.arange(0.0, 1.05, 0.1)
+    scales = np.arange(0.0, 2.05, 0.2)
+    best_b = float("inf")
+    best_f, best_s = 1.0, 0.0
+    for f in floors:
+        for s in scales:
+            b = brier_at(float(f), float(s))
+            if b < best_b:
+                best_b = b
+                best_f, best_s = float(f), float(s)
+    return best_f, best_s
+
+
 # ---------------------------------------------------------------------------
 # File-level processing
 # ---------------------------------------------------------------------------
@@ -306,6 +428,7 @@ CANONICAL_METHODS = {
     "shrink-std-aibq2",
     "shrink-std-loo",
     "shrink-alpha-loo",
+    "shrink-prior-loo",
     "median",
 }
 
@@ -329,10 +452,14 @@ def _parse_variant(v: str) -> tuple[str, int]:
 
 
 def _gather_label_records(config_name: str, n: int,
-                          root: str = FORECASTS_FINAL_DIR
-                          ) -> list[tuple[list[float], float]]:
-    """Collect (raw_trials, outcome) pairs across all dates for a config."""
-    out = []
+                          root: str = FORECASTS_FINAL_DIR,
+                          with_priors: bool = False):
+    """Collect (raw_trials, outcome[, prior_logit]) tuples across all dates.
+
+    with_priors=True returns (raw_trials, outcome, prior_logit) tuples
+    used by the shrink-prior-loo fitter; otherwise returns 2-tuples.
+    """
+    out: list = []
     for p in sorted(glob.glob(os.path.join(root, "*", f"{config_name}.json"))):
         with open(p) as f:
             payload = json.load(f)
@@ -343,7 +470,11 @@ def _gather_label_records(config_name: str, n: int,
             if o is None:
                 continue
             rt = e.get("raw_trials") or []
-            if rt:
+            if not rt:
+                continue
+            if with_priors:
+                out.append((rt, float(o), _logit(_entry_prior(e))))
+            else:
                 out.append((rt, float(o)))
     return out
 
@@ -362,9 +493,13 @@ def aggregate_config(config_name: str, variants: list[str],
         return 0
 
     # Fit any LOO-style variants on the labeled set up-front.
-    # shrink-alpha-loo: single global α via 1-D 20-point grid.
-    # shrink-std-loo:   (floor, scale) via 11×11 grid over the
-    #                   per-question α(q) = max(f, 1 − c · std_logit(q)).
+    # shrink-alpha-loo:  single global α via 1-D 20-point grid.
+    # shrink-std-loo:    (floor, scale) via 11×11 grid over
+    #                    α(q) = max(f, 1 − c · std_logit(q)), shrinking
+    #                    toward logit(0.5) = 0.
+    # shrink-prior-loo:  same (floor, scale) grid but shrinks toward
+    #                    logit(market_value) for market sources and
+    #                    logit(empirical_prior) for dataset sources.
     fit_alpha: dict[str, float] = {}      # variant key -> α
     fit_fc: dict[str, tuple[float, float]] = {}  # variant key -> (f, c)
     for v in variants:
@@ -390,6 +525,18 @@ def aggregate_config(config_name: str, variants: list[str],
                     f, s = fit_fc[v]
                     print(f"  {config_name}/{v}: (f, c) = ({f:.1f}, {s:.1f}) "
                           f"(LOO grid, from {len(records)} records)")
+        elif method == "shrink-prior-loo":
+            records = _gather_label_records(config_name, n, root=root,
+                                            with_priors=True)
+            if len(records) < 5:
+                print(f"  SKIP (fit): only {len(records)} labeled records for {config_name}/{v}")
+                fit_fc[v] = (1.0, 0.0)
+            else:
+                fit_fc[v] = _fit_std_shrinkage_with_priors(records, n)
+                if verbose:
+                    f, s = fit_fc[v]
+                    print(f"  {config_name}/{v}: (f, c) = ({f:.1f}, {s:.1f}) "
+                          f"(prior-LOO grid, from {len(records)} records)")
 
     n_updated = 0
     for p in paths:
@@ -427,6 +574,11 @@ def aggregate_config(config_name: str, variants: list[str],
                 elif method == "shrink-std-loo":
                     f, s = fit_fc.get(v, (1.0, 0.0))
                     agg = _aggregate_entry(raw, method, n, floor=f, scale=s)
+                elif method == "shrink-prior-loo":
+                    f, s = fit_fc.get(v, (1.0, 0.0))
+                    prior_l = _logit(_entry_prior(e))
+                    agg = _aggregate_entry(raw, method, n, floor=f, scale=s,
+                                           prior_logit=prior_l)
                 else:
                     agg = _aggregate_entry(raw, method, n)
                 col.append(agg)

@@ -35,6 +35,7 @@ _LLM_SHORT_TO_FULL = {
     "kimi-k2": "openrouter/moonshotai/kimi-k2",
     "kimi-k2t": "openrouter/moonshotai/kimi-k2-thinking",
     "kimi-k2.5": "openrouter/moonshotai/kimi-k2.5",
+    "kimi-k2.6": "openrouter/moonshotai/kimi-k2.6",
     "qwen3": "openrouter/qwen/qwen3-max-thinking",
 }
 _LLM_FULL_TO_SHORT = {v: k for k, v in _LLM_SHORT_TO_FULL.items()}

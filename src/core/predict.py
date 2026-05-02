@@ -798,7 +798,12 @@ def main():
     xid_data = {}
     if args.xid:
         xid_data = load_xid(args.xid)
-        exam_name = xid_data["exam"]
+        # CLI flag wins over xid: if both --xid and --exam are given,
+        # use the explicit --exam value. This matches the convention
+        # that command-line flags override config-file values, and
+        # avoids surprises like a smoke-only run silently expanding
+        # to the xid's full tranche.
+        exam_name = args.exam if args.exam else xid_data["exam"]
     elif args.exam:
         exam_name = args.exam
     else:
