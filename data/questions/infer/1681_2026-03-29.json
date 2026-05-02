@@ -1,0 +1,14 @@
+{
+  "id": "1681_2026-03-29",
+  "source": "infer",
+  "question": "Will the FDA have authorized a medical device that incorporates LLM-based functionality by 31 March 2026?",
+  "resolution_criteria": "This question will be resolved using FDA announcements, approval documentation (e.g., in the Devices@FDA database), and/or official government or regulatory body press releases regarding the authorization of devices with LLM-based functionality. The device must receive standard FDA clearance or approval without limitation to temporary, investigational, or humanitarian uses.&nbsp;",
+  "background": "The FDA has yet to approve any medical devices incorporating Large Language Model (LLM) functionality as clinical decision support systems ( Nature Digital Medicine ). While the FDA has authorized over 950 AI/ML-enabled medical devices, many for radiology applications, none use generative AI or LLMs ( MDR Regulator , HIMSS ). However, the FDA has indicated it will explore methods to identify and tag devices incorporating LLM functionality in future updates to its AI device database ( FDA ). The regulatory challenges for LLM-based devices are significant. Traditional FDA authorization requires devices to have specific indications for use, but LLMs can respond to broad queries, potentially providing \"off label\" responses relative to an approved indication ( Nature Digital Medicine ). Additionally, current regulatory frameworks don't allow continuous updating of software and AI-based medical devices, though the FDA, Health Canada, and UK MHRA are working on Predetermined Change Control Plans (PCCPs) to address this ( FDA , Hardian Health ). At least one company has sought FDA feedback on an LLM-based device \u2013 Contrast Llama, for detecting contrast agents in CT scans ( Innolitics ).&nbsp;",
+  "url": "https://www.randforecastinginitiative.org/questions/1681",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-01",
+  "market_value": "0.031400000000000004",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The crowd forecast."
+}

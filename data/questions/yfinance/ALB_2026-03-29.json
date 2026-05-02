@@ -1,15 +1,17 @@
 {
   "id": "ALB_2026-03-29",
   "source": "yfinance",
-  "question": "Will ALB's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will ALB's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/ALB for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 165.830. (The latest market close price of ALB.)",
   "background": "Albemarle Corporation provides energy storage solutions worldwide. It operates through three segments: Energy Storage, Specialties, and Ketjen. The Energy Storage segment offers lithium compounds, including lithium carbonate, lithium hydroxide, and lithium chloride for use in lithium batteries used in consumer electronics and electric vehicles, power grids and solar panels, high performance greases, specialty glass used in consumer appliances and electronics. The Specialties segment provides bromine and highly specialized lithium solutions for various industries, such as energy, mobility, connectivity, and health comprising fire safety compounds; bromine-based specialty chemicals products, including elemental bromine, alkyl bromides, inorganic bromides, brominated powdered activated carbon, and various bromine fine chemicals; lithium specialties, such as butyllithium and lithium aluminum hydride; cesium products for the chemical and pharmaceutical industries; and zirconium, barium, and titanium products for pyrotechnical applications that include airbag initiators. This segment also provides organic synthesis processes in the areas of steroid chemistry and vitamins, and various life science applications, as well as intermediates in the pharmaceutical industry; technical services, including handling and use of reactive lithium products; and recycling services for lithium-containing by-products. The Ketjen segment offers clean fuels technologies, including hydroprocessing catalysts together with isomerization and akylation catalysts; fluidized catalytic cracking catalysts and additives; and performance catalyst solutions comprising organometallics and curatives. It serves grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals and medical device industries. Albemarle Corporation was founded in 1887 and is headquartered in Charlotte, North Carolina.",
   "url": "https://finance.yahoo.com/quote/ALB",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
-    0.0
+    0.0,
+    1.0
   ]
 }

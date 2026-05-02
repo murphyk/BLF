@@ -1,29 +1,15 @@
 {
   "id": "PNW_2026-04-12",
   "source": "yfinance",
-  "question": "Will PNW's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will PNW's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PNW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 101.530. (The latest market close price of PNW.)",
   "background": "Pinnacle West Capital Corporation, through its subsidiary, provides retail and wholesale electric services in the state of Arizona. The company engages in the generation, transmission, and distribution of electricity using nuclear, gas, oil, coal, and solar generating facilities. Its transmission facilities include overhead lines and underground lines; and distribution facilities consist of overhead lines and underground primary cables. The company also owns and maintains substations, including transmission and distribution yards; and owns energy storage facilities. Pinnacle West Capital Corporation was incorporated in 1985 and is headquartered in Phoenix, Arizona.",
   "url": "https://finance.yahoo.com/quote/PNW",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

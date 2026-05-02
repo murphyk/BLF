@@ -5,9 +5,9 @@
   "resolution_criteria": "This is a market to predict which player will win the 2025\u201326 NBA Rookie of the Year award.\n\nThis market will resolve to \"Yes\" if the listed player is officially named the 2025\u201326 NBA Rookie of the Year. Otherwise, it will resolve to \"No\".\n\nIf the award is not announced by December 31, 2026, this market will resolve to \"Other\".\n\nThe primary resolution source will be official information from the NBA (https://www.nba.com).",
   "background": "",
   "url": "https://polymarket.com/market/will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
-  "resolution_dates": "N/A",
   "forecast_due_date": "2026-04-12",
-  "resolved_to": null,
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-28",
   "market_value": "0.265",
   "market_date": "2026-04-02",
   "market_value_explanation": "The market price."

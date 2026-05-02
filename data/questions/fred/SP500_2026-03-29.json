@@ -1,15 +1,17 @@
 {
   "id": "SP500_2026-03-29",
   "source": "fred",
-  "question": "Will the S&P 500, which represents the daily index value at market close have increased by 2026-04-05 as compared to its value on 2026-03-29?",
+  "question": "Will the S&P 500, which represents the daily index value at market close have increased by each resolution date listed below as compared to its value on 2026-03-29?",
   "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/SP500 once the data is published.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 6624.700. (The latest value released in S&P 500 from the release Standard & Poors.)",
   "background": "The notes from the release: N/A.  The notes from the series: The observations for the S&P 500 represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early.\r\n\r\nThe Federal Reserve Bank of St. Louis and S&P Dow Jones Indices LLC have reached a new agreement on the use of Standard & Poors and Dow Jones Averages series in FRED. FRED and its associated services will include 10 years of daily history for Standard & Poors and Dow Jones Averages series.\r\n\r\nThe S&P 500 is regarded as a gauge of the large cap U.S. equities market. The index includes 500 leading companies in leading industries of the U.S. economy, which are publicly held on either the NYSE or NASDAQ, and covers 75% of U.S. equities. Since this is a price index and not a total return index, the S&P 500 index here does not contain dividends.\r\n\r\nCopyright \u00a9 2016, S&P Dow Jones Indices LLC. All rights reserved. Reproduction of S&P 500 in any form is prohibited except with the prior written permission of S&P Dow Jones Indices LLC (\"S&P\"). S&P does not guarantee the accuracy, adequacy, completeness or availability of any information and is not responsible for any errors or omissions, regardless of the cause or for the results obtained from the use of such information. S&P DISCLAIMS ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE. In no event shall S&P be liable for any direct, indirect, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or lost profit and opportunity costs) in connection with subscriber's or others' use of S&P 500.\r\n\r\nPermission to reproduce S&P 500 can be requested from index_services@spdji.com. More contact details are available here (http://us.spindices.com/contact-us), including phone numbers for all regional offices..  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Daily, Close ",
   "url": "https://fred.stlouisfed.org/series/SP500",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

@@ -5,9 +5,9 @@
   "resolution_criteria": "resolves based on yahoo finance if it closes above or at $63 at any point in 2026. ",
   "background": "",
   "url": "https://manifold.markets/sama/will-intel-stock-intc-break-all-tim",
-  "resolution_dates": "N/A",
   "forecast_due_date": "2026-04-12",
-  "resolved_to": null,
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-13",
   "market_value": "0.5086456471196711",
   "market_date": "2026-04-02",
   "market_value_explanation": "The market value."

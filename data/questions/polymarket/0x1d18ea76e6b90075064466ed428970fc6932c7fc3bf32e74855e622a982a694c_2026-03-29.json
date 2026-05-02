@@ -1,0 +1,14 @@
+{
+  "id": "0x1d18ea76e6b90075064466ed428970fc6932c7fc3bf32e74855e622a982a694c_2026-03-29",
+  "source": "polymarket",
+  "question": "Will Ausar Thompson lead the NBA in steals during the 2025\u201326 NBA season?",
+  "resolution_criteria": "This market will resolve according to the player that finishes the 2025\u201326 NBA regular season with the highest steals per-game average of any qualified player.\n\nIn the event of a tie for the highest steals per-game average, this market will resolve in favor of the player who appeared in the greater number of games. If the tied players also played the same number of games, the market will resolve in favor of the player whose listed last name comes first alphabetically.\n\nQualification for inclusion in official NBA leaderboards (such as minimum games or statistical thresholds) will be determined according to NBA rules and applied exactly as reflected in the official leaderboard.\n\nThe resolution source will be the NBA (NBA.com/stats).",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-spg-leader-ausar-thompson",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-12",
+  "market_value": "0.035",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

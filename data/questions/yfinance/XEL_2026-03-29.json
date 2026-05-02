@@ -1,15 +1,17 @@
 {
   "id": "XEL_2026-03-29",
   "source": "yfinance",
-  "question": "Will XEL's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will XEL's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/XEL for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 80.020. (The latest market close price of XEL.)",
   "background": "Xcel Energy Inc., through its subsidiaries, operates as an electric and natural gas delivery company in the United States. It operates through Regulated Electric Utility and Regulated Natural Gas Utility segments. The company generates, purchases, transmits, distributes, and sells electricity through its energy portfolio, including wind, nuclear, hydroelectric, biomass, and solar power from both owned generation facilities and PPAs, as well as its fossil fuel energy portfolio, such as coal and natural gas; sale and resale of wholesale transmission service; and engages in wholesale commodity and trading operations. It also purchases, transports, stores, distributes, and sells natural gas; develops and leases natural gas pipelines and storage facilities; operates interstate natural gas pipeline; and invests in rental housing projects, energy technology companies, and community solar garden nonregulated assets. It serves electric and natural gas customers in portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. The company was formerly known as Northern States Power company. Xcel Energy Inc. was incorporated in 1909 and is headquartered in Minneapolis, Minnesota.",
   "url": "https://finance.yahoo.com/quote/XEL",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

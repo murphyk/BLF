@@ -1,15 +1,17 @@
 {
   "id": "8f2ea4ca0e1613f5ed5071b15f8c6eb0e365f00e19ec57a6311aa23ff655e644_2026-03-29",
   "source": "wikipedia",
-  "question": "According to Wikipedia, will Lukas M\u00e4rtens still hold the world record for 400m freestyle in long course (50 metres) swimming pools on 2026-04-05?",
+  "question": "According to Wikipedia, will Lukas M\u00e4rtens still hold the world record for 400m freestyle in long course (50 metres) swimming pools on each resolution date listed below?",
   "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 400m freestyle. (Lukas M\u00e4rtens is a record holder in the 400m freestyle.)",
   "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
   "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

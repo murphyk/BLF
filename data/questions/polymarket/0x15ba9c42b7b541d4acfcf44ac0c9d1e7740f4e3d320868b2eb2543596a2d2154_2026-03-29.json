@@ -1,0 +1,14 @@
+{
+  "id": "0x15ba9c42b7b541d4acfcf44ac0c9d1e7740f4e3d320868b2eb2543596a2d2154_2026-03-29",
+  "source": "polymarket",
+  "question": "Will the Orlando Magic win the 2025\u20132026 NBA Southeast Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-southeast-division-winner-orlando-magic",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-11",
+  "market_value": "0.515",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

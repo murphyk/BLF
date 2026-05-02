@@ -1,15 +1,17 @@
 {
   "id": "AON_2026-03-29",
   "source": "yfinance",
-  "question": "Will AON's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will AON's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/AON for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 317.880. (The latest market close price of AON.)",
   "background": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East, Africa, and the Asia Pacific. It operates through Risk Capital and Human Capital segments. The company offers commercial risk solutions comprising retail and insurance brokerage, specialty solutions, global risk consulting, captives management, and affinity programs; health solutions, such as consulting and brokerage, consumer benefits, and talent advisory services; and wealth solutions, including retirement consulting and investments. It also provides treaty and facultative reinsurance; strategy and technology group solutions; insurance-linked securities, capital raising, strategic advice, restructuring, and merger and acquisition services; and risk management products and solutions, capital market solutions, and corporate finance advisory services. In addition, the company offers strategic design advice and actuarial services; pension risk transfer and integrated pension administration; and investment advisory services on developing and maintaining investment programs across various plan types, including defined benefit plans, defined contribution plans, master trusts, and pooled employer plans for corporations, public pensions, endowments, and foundations. Aon plc was incorporated in 1979 and is headquartered in Dublin, Ireland.",
   "url": "https://finance.yahoo.com/quote/AON",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

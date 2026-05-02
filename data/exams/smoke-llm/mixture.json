@@ -1,12 +1,12 @@
 {
-    "_comment": "LLM-behavior smoke test exam. Weighted toward market sources (polymarket, manifold) where Gemini-3.1-Pro silently drops tool calls 67-88% of the time, while Sonnet 4.6 stays at 0%. Goal: detect this kind of completion-rate quirk in <30 minutes and <$15/LLM, before committing to a full $250-345 tranche-A run. Used by src/testing/test_completion_rate.py.",
+    "_comment": "LLM-behavior smoke test exam. Originally weighted toward market sources (polymarket=4, manifold=3) to surface the Gemini-3.1-Pro polymarket/manifold tool-rejection bug; that bug was fixed 2026-04-29 so we reduced to 1 per source for faster smokes (9 questions × 2 trials = 18 trials per run, ~5 min wall). Used by src/testing/test_completion_rate.py.",
     "ask-start": "2025-10-26",
     "ask-end": "2025-10-26",
     "resolution-end": "2026-04-10",
     "seed": 42,
     "select": {
-        "polymarket": 4,
-        "manifold": 3,
+        "polymarket": 1,
+        "manifold": 1,
         "metaculus": 1,
         "infer": 1,
         "acled": 1,

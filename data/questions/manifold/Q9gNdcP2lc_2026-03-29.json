@@ -1,0 +1,14 @@
+{
+  "id": "Q9gNdcP2lc_2026-03-29",
+  "source": "manifold",
+  "question": "Will Orban (Fidesz) win the Hungarian Election on April 12th?",
+  "resolution_criteria": "Closing one day before the election, will resolve once the official results are released.\n\nResolution criteria\n\nThe market resolves YES if Fidesz\u2013KDNP wins the most seats in the Hungarian parliamentary election on April 12, 2026. Resolution will be based on official results published by the Hungarian National Election Office (Nemzeti V\u00e1laszt\u00e1si Iroda). The market closes one day before the election on April 11, 2026.\n\nBackground\n\nThis election represents the most serious challenge to Orb\u00e1n's political reign, an era that has stretched across two decades of dominance. Long-time regime insider P\u00e9ter Magyar broke with Orb\u00e1n in 2024 and founded a rival party, Tisza.\n\nPolling shows a divided landscape. Tisza currently has an 8-12 percentage-point lead over Fidesz among decided voters, though pro-government pollsters show a Fidesz lead, and many voters remain undecided. Hungary's 199-seat parliament is elected through a hybrid system: 106 MPs are chosen in single-member constituencies on a first-past-the-post basis, while the remaining 93 seats are distributed proportionally from national party lists. The structure tends to reward larger parties.\n\nConsiderations\n\nThe opposition Tisza Party needs to win by around 3\u20135 points in the national vote in order to get a majority in the Assembly, due to recent constituency boundary changes. Large differences between government- and non-government-affiliated pollsters represent a new phenomenon in Hungarian politics, with political scientist G\u00e1bor T\u00f6r\u00f6k suggesting the differences were 'unexplainable on research grounds'.\n\nUpdate 2026-02-26 (PST) (AI summary of creator comment): Edge case resolutions:\n\nIf the election is delayed, the market close date will be adjusted accordingly\n\nResolution will be based on results announced on the day election results are counted and released\n\nThe market will not adjudicate claims of election manipulation\n\nIf there is a situation involving regime change or deposition before official results are released, the market will resolve N/A",
+  "background": "",
+  "url": "https://manifold.markets/DaleKirkwood/will-orban-fidesz-win-the-hungarian",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-12",
+  "market_value": "0.291591565942391",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market value."
+}

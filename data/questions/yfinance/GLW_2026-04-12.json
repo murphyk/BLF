@@ -1,29 +1,15 @@
 {
   "id": "GLW_2026-04-12",
   "source": "yfinance",
-  "question": "Will GLW's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will GLW's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GLW for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 142.380. (The latest market close price of GLW.)",
   "background": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada, Mexico, Japan, Taiwan, China, South Korea, Germany, and internationally. The company provides optical fibers and cables; and hardware and equipment products, such as cable assemblies, fiber optic hardware and connectors, optical components and couplers, closures, network interface devices, and other accessories for the telecommunications industry, businesses, governments, and individuals. It also offers glass substrates for flat panel displays, including liquid crystal displays and organic light-emitting diodes that are used in televisions, notebook computers, desktop monitors, tablets, and handheld devices. In addition, it manufactures products that offer material formulations for glass, glass ceramics, crystals, precision metrology instruments, and software, as well as glass wafers and substrates, tinted sunglasses, and radiation shielding products for markets, such as mobile consumer electronics, semiconductor equipment optics and consumables, aerospace and defense optics, radiation shielding products, sunglasses, and telecommunications components. Further, the company provides ceramic substrates and filter products for emissions control in mobile, gasoline, and diesel applications, as well as technical glass and optic products and solutions for the interior and exterior of vehicles. Additionally, it offers laboratory products, including plastic vessels, liquid handling plastics, specialty surfaces, cell culture media, and serum, as well as general labware, and glassware and equipment under the Corning, Falcon, PYREX, and Axygen brands. It also offers polysilicon products and pharmaceutical glass tubing and vials. The company was formerly known as Corning Glass Works and changed its name to Corning Incorporated in April 1989. Corning Incorporated was founded in 1851 and is headquartered in Corning, New York.",
   "url": "https://finance.yahoo.com/quote/GLW",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    0.0
   ]
 }

@@ -1,15 +1,17 @@
 {
   "id": "OXY_2026-03-29",
   "source": "yfinance",
-  "question": "Will OXY's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will OXY's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/OXY for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 58.380. (The latest market close price of OXY.)",
   "background": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
   "url": "https://finance.yahoo.com/quote/OXY",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    0.0,
     0.0
   ]
 }

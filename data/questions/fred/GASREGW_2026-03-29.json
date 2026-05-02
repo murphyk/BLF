@@ -1,15 +1,17 @@
 {
   "id": "GASREGW_2026-03-29",
   "source": "fred",
-  "question": "Will the average price of regular gas in the US have increased by 2026-04-05 as compared to its value on 2026-03-29?",
+  "question": "Will the average price of regular gas in the US have increased by each resolution date listed below as compared to its value on 2026-03-29?",
   "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/GASREGW once the data is published.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 3.720. (The latest value released in US Regular All Formulations Gas Price from the release Gasoline and Diesel Fuel Update.)",
   "background": "The notes from the release: N/A.  The notes from the series: Weighted average based on sampling of approximately 900 retail outlets, 8:00AM Monday. The price represents self-service unless only full-service is available and includes all taxes. See (http://www.eia.doe.gov/oil_gas/petroleum/data_publications/wrgp/mogas_home_page.html) for further definitions. Regular Gasoline has an antiknock index (average of the research octane rating and the motor octane number) greater than or equal to 85 and less than 88. Octane requirements may vary by altitude..  Additional background of the series:  1. the units of the series: Dollars per Gallon.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Monday ",
   "url": "https://fred.stlouisfed.org/series/GASREGW",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

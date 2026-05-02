@@ -1,0 +1,14 @@
+{
+  "id": "t8dLUsqqNE_2026-03-29",
+  "source": "manifold",
+  "question": "Will China become more authoritarian in 2025?",
+  "resolution_criteria": "This question will use The Economist's Democracy Index, resolving YES if China's democracy score is lower in the next report (to be published in early 2026) compared to the last report (which can be found here).\n\n\nIf China's democracy score for 2025 is the same or higher, this question resolves NO.",
+  "background": "",
+  "url": "https://manifold.markets/cash/will-china-become-more-authoritaria-Ulg6p59lES",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-11",
+  "market_value": "0.6975433593107231",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market value."
+}

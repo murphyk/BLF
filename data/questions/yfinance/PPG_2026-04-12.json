@@ -1,29 +1,15 @@
 {
   "id": "PPG_2026-04-12",
   "source": "yfinance",
-  "question": "Will PPG's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will PPG's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/PPG for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 106.470. (The latest market close price of PPG.)",
   "background": "PPG Industries, Inc. manufactures and distributes paints, coatings, and specialty materials in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through three segments: Global Architectural Coatings, Performance Coatings, and Industrial Coatings. The Global Architectural Coatings segment supplies a variety of decorative coatings, adhesives, sealants, and finishes, as well as paint strippers, stains, and related chemicals. Its Performance Coatings segment offers aerospace coatings, automotive refinishing coatings, protective and marine coatings, and traffic solutions comprising paints, thermoplastics, raised pavement markers, and other technologies for pavement marking. The Industrial Coatings segment provides automotive OEM coatings, industrial coatings, and packaging coatings, as well as specialty products, such as optical monomers and coatings, low-friction coatings, and other specialty products. The company delivers its products to company-owned stores, home centers and other consumer retail outlets, paint dealers, concessionaires and independent distributors, company-owned distribution networks, and directly to manufacturing companies and retail customers. PPG Industries, Inc. was incorporated in 1883 and is headquartered in Pittsburgh, Pennsylvania.",
   "url": "https://finance.yahoo.com/quote/PPG",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

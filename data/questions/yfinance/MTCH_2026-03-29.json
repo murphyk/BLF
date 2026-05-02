@@ -1,15 +1,17 @@
 {
   "id": "MTCH_2026-03-29",
   "source": "yfinance",
-  "question": "Will MTCH's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will MTCH's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/MTCH for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 30.770. (The latest market close price of MTCH.)",
   "background": "Match Group, Inc. provides digital technologies in the United States and internationally. It operates through four segments: Tinder, Hinge, Evergreen and Emerging, and Match Group Asia. The company's portfolio of brands includes Tinder, Hinge, Match, Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, BLK, and other brands, built to increase users' likelihood of connecting with others. It provides tailored services to meet the various preferences of its users. Match Group, Inc. was incorporated in 1986 and is based in Dallas, Texas.",
   "url": "https://finance.yahoo.com/quote/MTCH",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

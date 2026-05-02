@@ -5,9 +5,9 @@
   "resolution_criteria": "The Flyers last made the playoffs in 2020.  When will the drought end?\n\nResolution criteria\n\nThe market resolves YES if the Philadelphia Flyers finish in the top three of the Metropolitan Division or qualify as one of the two wild-card teams in the Eastern Conference based on regular-season record. Resolution will be determined by the official NHL standings at the conclusion of the 2025-26 regular season, available at NHL.com standings.\n\nBackground\n\nThe Flyers last made the playoffs in 2020, when they defeated the Montreal Canadiens in the first round but lost to the New York Islanders in the conference semifinals. The team has now missed the playoffs for five consecutive seasons.\n\nAs of early January 2026, the Flyers sit in third place in the Metropolitan Division with 51 points in 41 games and are on a 102-point pace, which would represent a significant improvement from their recent performance. Current playoff odds models give the Flyers a 63.5% chance to qualify, the third-best odds in the Metro behind only Carolina and Washington.",
   "background": "",
   "url": "https://manifold.markets/LightEmpath/will-the-nhl-philadelphia-flyers-ma",
-  "resolution_dates": "N/A",
   "forecast_due_date": "2026-04-12",
-  "resolved_to": null,
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-15",
   "market_value": "0.364784409174887",
   "market_date": "2026-04-02",
   "market_value_explanation": "The market value."

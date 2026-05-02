@@ -1,15 +1,17 @@
 {
   "id": "CNP_2026-03-29",
   "source": "yfinance",
-  "question": "Will CNP's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will CNP's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CNP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 43.230. (The latest market close price of CNP.)",
   "background": "CenterPoint Energy, Inc. operates as a public utility holding company in the United States. The company operates through Electric; Natural Gas; and Corporate and Other segments. The Electric segment provides electric transmission and distribution services to electric customers and electric generation assets, as well as optimizes assets in the wholesale power market in Indiana Electric's service territory. The Natural Gas segment engages in the intrastate natural gas sales, and natural gas transportation and distribution for residential, commercial, and industrial customers in Indiana, Minnesota, Ohio, and Texas; permanent pipeline connections through interconnects with various interstate and intrastate pipeline companies; and provides home appliance maintenance and repair services to customers in Minnesota and home repair protection plans to natural gas customers in Indiana, Mississippi, Ohio, and Texas through a third party. As of December 31, 2025, it served approximately 2,859,313 metered customers; owned 355 substations with transformer capacity of 81,692 megavolt amperes; and owned and operated approximately 208 miles of intrastate pipeline in Louisiana and Texas. The company was founded in 1866 and is headquartered in Houston, Texas.",
   "url": "https://finance.yahoo.com/quote/CNP",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

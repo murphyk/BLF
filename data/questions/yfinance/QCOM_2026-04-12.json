@@ -1,29 +1,15 @@
 {
   "id": "QCOM_2026-04-12",
   "source": "yfinance",
-  "question": "Will QCOM's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will QCOM's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/QCOM for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 127.280. (The latest market close price of QCOM.)",
   "background": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with connectivity and computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property portfolio, which include various patent rights useful in the manufacture and sale of wireless products comprising products implementing LTE, and/or OFDMA-based 5G products and derivatives; to use cellular standard-essential patents, including 3G, 4G and 5G for cellular devices. The QSI segment invests in early-stage companies in various industries, including 5G, artificial intelligence, automotive, consumer, enterprise, cloud, IoT, and extended reality, and investments, including non-marketable equity securities and, to a lesser extent, marketable equity securities, and convertible debt instruments. It also provides development, and other services and sells related products to the United States government agencies and their contractors. In addition, the company is also involved in Qualcomm government technologies and data center businesses. QUALCOMM Incorporated was incorporated in 1985 and is headquartered in San Diego, California.",
   "url": "https://finance.yahoo.com/quote/QCOM",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

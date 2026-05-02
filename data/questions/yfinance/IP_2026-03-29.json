@@ -1,15 +1,17 @@
 {
   "id": "IP_2026-03-29",
   "source": "yfinance",
-  "question": "Will IP's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will IP's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/IP for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 35.900. (The latest market close price of IP.)",
   "background": "International Paper Company produces and sells renewable fiber-based packaging in North America, Latin America, Europe, and North Africa. It operates through two segments, Packaging Solutions North America and Packaging Solutions EMEA. The company offers linerboard, medium, whitetop, and saturating kraft; and converts containerboard into corrugated boxes, bulk bins, shipping containers and specialty packaging through its converting facilities. Its products support customers in various industries, such as food and beverage, agriculture, industrial manufacturing, personal care pharmaceuticals and consumer goods. The company was founded in 1898 and is headquartered in Memphis, Tennessee.",
   "url": "https://finance.yahoo.com/quote/IP",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    0.0,
     0.0
   ]
 }

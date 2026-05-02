@@ -1,29 +1,15 @@
 {
   "id": "GNRC_2026-04-12",
   "source": "yfinance",
-  "question": "Will GNRC's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will GNRC's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/GNRC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 199.050. (The latest market close price of GNRC.)",
   "background": "Generac Holdings Inc. designs, manufactures, and distributes energy technology products and solutions worldwide. The company offers residential automatic standby generators, automatic transfer switch, air-cooled engine home standby generators, and liquid-cooled engine generators; Mobile Link, a remote monitoring system for home standby generators; propane tank monitoring solution; and smart home solutions, such as smart thermostats and a suite of home monitoring products. It also provides smart home energy management devices and sensors for heating and cooling system; smart doorbell cameras; and portable and inverter generators; multiple portable battery solutions; manual transfer switches; outdoor power equipment, including trimmers, field and brush mowers, log splitters, stump grinders, chipper shredders, lawn and leaf vacuums, and pressure washers and water pumps; and home energy storage systems. In addition, the company offers commercial and industrial products comprising cleaner-burning natural gas fueled generators; mega-watt diesel generators; light-commercial standby generators and related transfer switches; stationary generators; single-engine industrial generators; industrial standby generators; industrial transfer switches; light towers, mobile generators, commercial mobile pumps, heaters, and dust-suppression equipment; mobile energy storage systems; battery energy storage system and related inverter products; and aftermarket service parts and product accessories. Further, it provides microgrid; and software-as-a-service contracts. The company distributes its products through independent residential dealers and contractors, industrial distributors and dealers, national and regional retailers, e-commerce partners, electrical/HVAC/solar wholesalers, solar installers, catalogs, equipment rental companies, and other equipment distributors; and directly to end users. Generac Holdings Inc. was founded in 1959 and is based in Waukesha, Wisconsin.",
   "url": "https://finance.yahoo.com/quote/GNRC",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

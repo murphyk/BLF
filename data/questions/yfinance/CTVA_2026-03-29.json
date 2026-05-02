@@ -1,15 +1,17 @@
 {
   "id": "CTVA_2026-03-29",
   "source": "yfinance",
-  "question": "Will CTVA's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will CTVA's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/CTVA for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 79.340. (The latest market close price of CTVA.)",
   "background": "Corteva, Inc. operates in the agriculture business. It operates through two segments, Seed and Crop Protection. The Seed segment develops and supplies advanced germplasm and traits that produce optimum yield for farms. It offers trait technologies that enhance resistance to weather, disease, insects, and herbicides used to control weeds, as well as food and nutritional characteristics. This segment also provides digital solutions that assist farmer decision-making with a view to optimize product selection, and maximize yield and profitability. The Crop Protection segment offers products that protect against weeds, insects and other pests, and diseases, as well as enhances crop health above and below ground through nitrogen management and seed-applied technologies. This segment provides herbicides, insecticides, nitrogen stabilizers, and pasture and range management herbicides. It serves agricultural input industry. The company operates in the United States, Canada, Latin America, the Asia Pacific, Europe, the Middle East, and Africa. Corteva, Inc. was founded in 1802 and is headquartered in Indianapolis, Indiana.",
   "url": "https://finance.yahoo.com/quote/CTVA",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
-    1.0
+    1.0,
+    0.0
   ]
 }

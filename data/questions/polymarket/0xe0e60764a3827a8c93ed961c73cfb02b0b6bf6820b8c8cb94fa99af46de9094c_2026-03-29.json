@@ -1,0 +1,14 @@
+{
+  "id": "0xe0e60764a3827a8c93ed961c73cfb02b0b6bf6820b8c8cb94fa99af46de9094c_2026-03-29",
+  "source": "polymarket",
+  "question": "USD.AI FDV above $150M one day after launch?",
+  "resolution_criteria": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of USD.AI's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\nThe FDV will be determined using the total token supply multiplied by the token price.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If USD.AI (https://usd.ai/) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+  "background": "",
+  "url": "https://polymarket.com/market/usdai-fdv-above-150m-one-day-after-launch-349",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-23",
+  "market_value": "0.835",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

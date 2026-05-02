@@ -1,15 +1,17 @@
 {
   "id": "OMC_2026-03-29",
   "source": "yfinance",
-  "question": "Will OMC's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will OMC's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/OMC for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 76.080. (The latest market close price of OMC.)",
   "background": "Omnicom Group Inc., together with its subsidiaries, offers advertising, marketing, and corporate communications services. It provides a range of services in the areas of media and advertising, precision marketing, public relations, healthcare, branding and retail commerce, experiential, execution, and support. The company's services include advertising, branding, content marketing, crisis communications, customer data analytics and data-driven decision making, customer relationship management, decision sciences, digital experience design, digital transformation, e-commerce optimization, entertainment marketing, experiential marketing, field marketing, healthcare marketing and communications, in-store design, investor relations, and marketing research.Its services also comprise media planning and buying, merchandising and point of sale, mobile marketing, multi-cultural marketing, organizational communications, package design, performance marketing, product placement, promotional marketing, public affairs, public relations, retail media and e-commerce, shopper marketing, structured innovation, studio production, social media and influencer marketing, and sports and event marketing. It operates in the North and Latin America, Europe, the Middle East and Africa (EMEA), and the Asia Pacific. The company was incorporated in 1944 and is based in New York, New York.",
   "url": "https://finance.yahoo.com/quote/OMC",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

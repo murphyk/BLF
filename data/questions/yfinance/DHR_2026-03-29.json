@@ -1,15 +1,17 @@
 {
   "id": "DHR_2026-03-29",
   "source": "yfinance",
-  "question": "Will DHR's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will DHR's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/DHR for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 191.500. (The latest market close price of DHR.)",
   "background": "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and internationally. The company operates through Biotechnology, Life Sciences, and Diagnostics segments. The Biotechnology segment provides technologies, consumables, services, and solutions that advance, accelerate, and integrate the development and manufacture of therapeutics; cell line and cell culture media development services; cell culture media, process liquids and buffers for manufacturing, chromatography resins, filtration technologies, and aseptic fill finish; single-use hardware, consumables, and services, such as the design and installation of full manufacturing suites; lab filtration, separation, and purification; lab-scale protein purification and analytical tools; reagents, membranes, and services for diagnostic and assay development; and healthcare filtration solutions. The Life Sciences segment provides mass spectrometers; bioanalytical measurement systems; flow cytometry, genomics, lab automation, centrifugation, liquid handling automation instruments, antibodies and reagents, and particle counting and characterization; genome sample preparation; microscopes; protein consumables; filtration products; and genomic medicines, such as custom nucleic acid products, and plasmid DNA, RNA, and proteins under the ABCAM, ALDEVRON, BECKMAN COULTER, GENEDATA, IDT, LEICA MICROSYSTEMS, MOLECULAR DEVICES, PALL, PHENOMENEX, and SCIEX brands. The Diagnostics segment offers clinical instruments, consumables, software, and services that hospitals, physicians' offices, reference laboratories and other critical care settings use to diagnose disease and make treatment decisions. The company was formerly known as Diversified Mortgage Investors, Inc. and changed its name to Danaher Corporation in 1984. Danaher Corporation was incorporated in 1969 and is headquartered in Washington, the District Of Columbia.",
   "url": "https://finance.yahoo.com/quote/DHR",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
-    1.0
+    1.0,
+    0.0
   ]
 }

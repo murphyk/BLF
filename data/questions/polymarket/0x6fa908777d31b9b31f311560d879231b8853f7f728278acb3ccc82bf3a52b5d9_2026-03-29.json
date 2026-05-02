@@ -1,0 +1,14 @@
+{
+  "id": "0x6fa908777d31b9b31f311560d879231b8853f7f728278acb3ccc82bf3a52b5d9_2026-03-29",
+  "source": "polymarket",
+  "question": "Will the Tampa Bay Lightning win the Atlantic Division?",
+  "resolution_criteria": "This market will resolve according to the team that wins the listed division during the 2025-26 NHL regular season.\n\nIf at any point it becomes impossible for a listed team to win its division (e.g., mathematical elimination before season end), the relevant market will resolve immediately to \u201cNo.\u201d\n\nIf the 2025-26 NHL season is permanently canceled or has not been completed by June 30, 2026, 11:59 PM ET, this market will resolve to \u201cOther.\u201d",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-tampa-bay-lightning-win-the-atlantic-division-319",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-14",
+  "market_value": "0.485",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

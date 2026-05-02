@@ -1,29 +1,15 @@
 {
   "id": "ECBASSETSW_2026-04-12",
   "source": "fred",
-  "question": "Will the amount of money representing all central bank assets for the euro area have increased by each resolution date listed below as compared to its value on 2026-04-12?",
+  "question": "Will the amount of money representing all central bank assets for the euro area have increased by 2026-04-19 as compared to its value on 2026-04-12?",
   "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/ECBASSETSW once the data is published.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 6162122.000. (The latest value released in Central Bank Assets for Euro Area (11-19 Countries) from the release Weekly Financial Statements of the Eurosystem.)",
   "background": "The notes from the release: N/A.  The notes from the series: A longer history for this series is available on the monthly series ECBASSETS (https://fred.stlouisfed.org/series/ECBASSETS).\r\n\r\nCopyright, 2016, European Central Bank (ECB). Reprinted with permission..  Additional background of the series:  1. the units of the series: Millions of Euros.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly ",
   "url": "https://fred.stlouisfed.org/series/ECBASSETSW",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    0.0
   ]
 }

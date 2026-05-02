@@ -1,0 +1,14 @@
+{
+  "id": "0xce33ad5f0fbcc1a4861cc92b81814cd174020d16df3dc80d5c287d5f047e68fc_2026-03-29",
+  "source": "polymarket",
+  "question": "Will the Boston Celtics win the 2025\u20132026 NBA Atlantic Division?",
+  "resolution_criteria": "This market will resolve according to the winner of the listed division for the 2025\u20132026 NBA Eastern Conference Finals. \n\nIf it becomes impossible for this team to win based on the rules of the NBA this market will resolve to \u201cNo\u201d. \n\nIf multiple teams share the same record, official NBA tie breaking rules will be used to determine the outcome.\n\nThe resolution source for this market will be information from the NBA.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-atlantic-division-winner-boston-celtics",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-11",
+  "market_value": "0.579",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

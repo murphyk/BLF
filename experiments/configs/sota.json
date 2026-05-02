@@ -19,5 +19,6 @@
   "nobelief": false,
   "fred_enhanced": false,
   "prior_only": false,
-  "halawi_prompt": false
+  "halawi_prompt": false,
+  "ntrials": 3
 }

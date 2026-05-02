@@ -1,15 +1,17 @@
 {
   "id": "ANFCI_2026-03-29",
   "source": "fred",
-  "question": "Will the Chicago Fed's Adjusted National Financial Conditions Index have increased by 2026-04-05 as compared to its value on 2026-03-29?",
+  "question": "Will the Chicago Fed's Adjusted National Financial Conditions Index have increased by each resolution date listed below as compared to its value on 2026-03-29?",
   "resolution_criteria": "Resolves to the value found at https://fred.stlouisfed.org/series/ANFCI once the data is published.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was -0.471. (The latest value released in Chicago Fed Adjusted National Financial Conditions Index from the release Chicago Fed National Financial Conditions Index.)",
   "background": "The notes from the release: N/A.  The notes from the series: The Chicago Fed\u2019s National Financial Conditions Index (NFCI) provides a comprehensive weekly update on U.S. financial conditions in money markets, debt and equity markets and the traditional and \u201cshadow\u201d banking systems. Positive values of the NFCI indicate financial conditions that are tighter than average, while negative values indicate financial conditions that are looser than average.\n\nThe adjusted NFCI (ANFCI). This index isolates a component of financial conditions uncorrelated with economic conditions to provide an update on how financial conditions compare with current economic conditions.\n\nFor further information, please visit the Federal Reserve Bank of Chicago's web site: http://www.chicagofed.org/webpages/publications/nfci/index.cfm.  Additional background of the series:  1. the units of the series: Index.  2. the seasonal adjustments of the series:  Not Seasonally Adjusted  3. the update frequency: Weekly, Ending Friday ",
   "url": "https://fred.stlouisfed.org/series/ANFCI",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    0.0,
     0.0
   ]
 }

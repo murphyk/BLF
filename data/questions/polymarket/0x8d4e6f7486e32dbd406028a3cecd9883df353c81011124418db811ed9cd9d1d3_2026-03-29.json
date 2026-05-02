@@ -1,0 +1,14 @@
+{
+  "id": "0x8d4e6f7486e32dbd406028a3cecd9883df353c81011124418db811ed9cd9d1d3_2026-03-29",
+  "source": "polymarket",
+  "question": "Will the Sacramento Kings have the worst record in the NBA?",
+  "resolution_criteria": "This market will resolve according to the team that finishes with the worst regular season record in the NBA for the 2025-2026 Season.\n\nIf multiple teams finish with identical records, the league\u2019s tiebreaker rules will be used to determine the worst record.\n\nIf it becomes impossible for the listed team to finish with the worst record based on the rules of the NBA, the market for that team may resolve to \u201cNo\u201d.\n\nThe primary resolution source for this market is official information from the NBA",
+  "background": "",
+  "url": "https://polymarket.com/market/will-the-sacramento-kings-have-the-worst-record-in-the-nba",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-08",
+  "market_value": "0.0825",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

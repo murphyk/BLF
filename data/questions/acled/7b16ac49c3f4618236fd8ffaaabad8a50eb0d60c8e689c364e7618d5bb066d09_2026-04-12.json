@@ -1,29 +1,15 @@
 {
   "id": "7b16ac49c3f4618236fd8ffaaabad8a50eb0d60c8e689c364e7618d5bb066d09_2026-04-12",
   "source": "acled",
-  "question": "Will there be more 'Violence against civilians' in Honduras for the 30 days before each resolution date listed below compared to the 30-day average of 'Violence against civilians' over the 360 days preceding 2026-04-12?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Violence against civilians'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Violence against civilians' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Violence against civilians' would need to occur in the 30 days leading up to the resolution.",
+  "question": "Will there be more 'Violence against civilians' in Honduras for the 30 days before 2026-04-19 compared to the 30-day average of 'Violence against civilians' over the 360 days preceding 2026-04-12?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Violence against civilians'\n2023-11-11,1\n2023-10-10,2\nto calculate the 30-day average of 'Violence against civilians' over the preceding 360 days, we\u2019d have: (1+2)/12=0.25.\n\nIn this example, for the question to resolve positively, 1 or more 'Violence against civilians' would need to occur in the 30 days leading up to the resolution.",
   "resolution_criteria": "Resolves to the value calculated from the ACLED dataset once the data is published.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 34.917. (The 30-day average of 'Violence against civilians' over the past 360 days in Honduras. This reference value will potentially change as ACLED updates its dataset.)",
   "background": "\nACLED classifies events into six distinct categories:\n\n1. Battles: violent interactions between two organized armed groups at a particular time and\n   location;\n2. Protests: in-person public demonstrations of three or more participants in which the participants\n   do not engage in violence, though violence may be used against them;\n3. Riots: violent events where demonstrators or mobs of three or more engage in violent or\n   destructive acts, including but not limited to physical fights, rock throwing, property\n   destruction, etc.;\n4. Explosions/Remote violence: incidents in which one side uses weapon types that, by their nature,\n   are at range and widely destructive;\n5. Violence against civilians: violent events where an organized armed group inflicts violence upon\n   unarmed non-combatants; and\n6. Strategic developments: contextually important information regarding incidents and activities of\n   groups that are not recorded as any of the other event types, yet may trigger future events or\n   contribute to political dynamics within and across states.\n\nDetailed information about the categories can be found at:\nhttps://acleddata.com/knowledge-base/codebook/#acled-events\n",
   "url": "https://acleddata.com/",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    0.0
   ]
 }

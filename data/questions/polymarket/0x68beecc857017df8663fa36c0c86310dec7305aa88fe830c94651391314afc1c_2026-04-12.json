@@ -5,9 +5,9 @@
   "resolution_criteria": "This market will resolve to \"Yes\" if President Trump, the US government, or the military publicly and officially announce that their military operations against Iran, initiated on February 28, 2026, have concluded by the listed date (ET). Otherwise, this market will resolve to \u201cNo\u201d.\n\nQualifying statements must clearly indicate that the operation has ended. Informal announcements, statements from unnamed sources or leaks will not qualify. \n\nWritten public statements from Donald Trump (e.g. posts from his personal Truth Social account), will count. Videos posted on his social media accounts will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be official statements from the US government and/or its official representatives; however, a consensus of credible reporting may also be used.",
   "background": "",
   "url": "https://polymarket.com/market/trump-announces-end-of-military-operations-against-iran-by-april-15th-962-364-677",
-  "resolution_dates": "N/A",
   "forecast_due_date": "2026-04-12",
-  "resolved_to": null,
+  "resolved_to": 0.0,
+  "resolution_date": "2026-04-15",
   "market_value": "0.265",
   "market_date": "2026-04-02",
   "market_value_explanation": "The market price."

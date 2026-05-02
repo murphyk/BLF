@@ -1,29 +1,15 @@
 {
   "id": "APO_2026-04-12",
   "source": "yfinance",
-  "question": "Will APO's market close price on each resolution date listed below be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will APO's market close price on 2026-04-19 be higher than its market close price on 2026-04-12?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/APO for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 110.250. (The latest market close price of APO.)",
   "background": "Apollo Global Management, Inc. is a private equity firm specializing in investments in credit, private equity, infrastructure, secondaries and real estate markets. The firm prefers to invest in private and public markets. The firm's private equity investments include traditional buyouts, recapitalization, distressed buyouts and debt investments in real estate, corporate partner buyouts, distressed asset, corporate carve-outs, middle market, growth, venture capital, turnaround, bridge, corporate restructuring, special situation, acquisition, and industry consolidation transactions. For credit strategies, the firm focuses to invest in multi-sector credit, semi-liquid credit, direct lending, first lien, unitranche, whole loans and private credit. The firm provides its services to endowment and sovereign wealth funds, as well as other institutional and individual investors. It manages client focused portfolios. The firm launches and manages hedge funds for its clients. It also manages real estate funds and private equity funds for its clients. The firm invests in the fixed income and alternative investment markets across the globe. Its fixed income investments include income-oriented senior loans, bonds, collateralized loan obligations, structured credit, opportunistic credit, non-performing loans, distressed debt, mezzanine debt, and value oriented fixed income securities. The firm seeks to invest in chemicals, commodities, consumer and retail, oil and gas, metals, mining, agriculture, commodities, distribution and transportation, financial and business services, manufacturing and industrial, media distribution, cable, entertainment and leisure, telecom, technology, natural resources, energy, packaging and materials, and satellite and wireless industries. It also focuses on clean energy, sustainable industry, climate solutions, energy transition, industrial decarbonization, sustainable mobility, sustainable resource use, and sustainable real estate. It seeks to invest in companies based in across Africa, Asia, North America with a focus on United States, Western Europe and Europe. It employs a combination of contrarian, value, and distressed strategies to make its investments. The firm seeks to make investments in the range of $75 million and $1500 million. The firm seeks to invest in companies with Enterprise value between $750 million to $2500 million. The firm conducts in-house research to create its investment portfolio. It seeks to acquire minority and majority positions in its portfolio companies. Apollo Global Management, Inc. was founded in 1990 and is headquartered in New York, New York with additional offices in North America, Asia, Africa and Europe.",
   "url": "https://finance.yahoo.com/quote/APO",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

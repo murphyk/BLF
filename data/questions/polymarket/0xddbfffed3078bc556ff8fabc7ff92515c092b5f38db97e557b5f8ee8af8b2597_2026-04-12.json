@@ -5,9 +5,9 @@
   "resolution_criteria": "This market will resolve to the player that wins the 2026 FIDE Candidates Tournament scheduled for March 29 - April 16, 2026.\n\nIf at any point it becomes impossible for a listed player to win the 2026 FIDE Candidates Tournament per the rules of the FIDE, the corresponding market will resolve to \u201cNo\u201d.\n\nIf the 2026 FIDE Candidates Tournament is cancelled, or postponed after April 30, 2026, or there is otherwise no winner declared within that timeframe, this market will resolve to \u201cOther\u201d.\n\nThe primary resolution source will be official information from FIDE; however, a consensus of credible reporting may also be used.",
   "background": "",
   "url": "https://polymarket.com/market/will-javokhir-sindarov-win-the-2026-fide-candidates-tournament",
-  "resolution_dates": "N/A",
   "forecast_due_date": "2026-04-12",
-  "resolved_to": null,
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-14",
   "market_value": "0.515",
   "market_date": "2026-04-02",
   "market_value_explanation": "The market price."

@@ -1,15 +1,17 @@
 {
   "id": "BEN_2026-03-29",
   "source": "yfinance",
-  "question": "Will BEN's market close price on 2026-04-05 be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "question": "Will BEN's market close price on each resolution date listed below be higher than its market close price on 2026-03-29?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
   "resolution_criteria": "Resolves to the market close price at https://finance.yahoo.com/quote/BEN for the resolution date. If the resolution date coincides with a day the market is closed (weekend, holiday, etc.) the previous market close price is used.\n\nThe exact value on 2026-03-29 is unknown, but the most recent known value (as of 2026-03-19) was 23.670. (The latest market close price of BEN.)",
   "background": "Franklin Resources, Inc. is a publicly owned asset investment manager. Through its subsidiaries, the firm provides its services to individuals, institutions, pension plans, trusts, and partnerships. It launches equity, fixed income, balanced, and multi-asset mutual funds through its subsidiaries. The firm invests in the public equity, fixed income, and alternative markets. Franklin Resources, Inc. was founded in 1947 and is based in San Mateo, California with an additional office in Calgary, Alberta; Dubai, United Arab Emirates; Edinburgh, Midlothian; Fort Lauderdale, Florida; Hyderabad, India; London, Greater London; Rancho Cordova, California; Shanghai, Shanghai Province; Singapore; Stamford, Connecticut; and Vienna.",
   "url": "https://finance.yahoo.com/quote/BEN",
   "forecast_due_date": "2026-03-29",
   "resolution_dates": [
-    "2026-04-05"
+    "2026-04-05",
+    "2026-04-28"
   ],
   "resolved_to": [
+    1.0,
     1.0
   ]
 }

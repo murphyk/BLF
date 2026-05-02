@@ -1,0 +1,14 @@
+{
+  "id": "0x04b6c4174ccaf58a69722fa6f699584ae5d2f84d20ea81055cdff2e464e6aaf3_2026-03-29",
+  "source": "polymarket",
+  "question": "Will Victor Wembanyama win the 2025\u20132026 NBA Defensive Player of the Year?",
+  "resolution_criteria": "This market will resolve according to the player who is awarded the 2025\u201326 NBA Defensive Player of the Year.\n\nIf the listed player is not announced as a finalist for the 2025\u201326 Defensive Player of the Year, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the NBA. However, a consensus of credible reporting may also be used.",
+  "background": "",
+  "url": "https://polymarket.com/market/nba-2025-26-defensive-player-of-the-year-victor-wembanyama",
+  "forecast_due_date": "2026-03-29",
+  "resolved_to": 1.0,
+  "resolution_date": "2026-04-21",
+  "market_value": "0.8645",
+  "market_date": "2026-03-19",
+  "market_value_explanation": "The market price."
+}

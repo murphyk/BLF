@@ -1,29 +1,15 @@
 {
   "id": "a8000be71eeeeba1faf969b8bffe6b925896c5b2b91a17186432ba5e1c4246a0_2026-04-12",
   "source": "wikipedia",
-  "question": "According to Wikipedia, will Cameron McEvoy still hold the world record for 50m freestyle in long course (50 metres) swimming pools on each resolution date listed below?",
+  "question": "According to Wikipedia, will Cameron McEvoy still hold the world record for 50m freestyle in long course (50 metres) swimming pools on 2026-04-19?",
   "resolution_criteria": "Resolves to the value calculated from https://en.wikipedia.org/wiki/List_of_world_records_in_swimming on the resolution date.\n\nThe exact value on 2026-04-12 is unknown, but the most recent known value (as of 2026-04-02) was 50m freestyle. (Cameron McEvoy is a record holder in the 50m freestyle.)",
   "background": "The world records in swimming are ratified by World Aquatics (formerly known as FINA), the international governing body of swimming. Records can be set in long course (50 metres) or short course (25 metres) swimming pools.\nThe ratification process is described in FINA Rule SW12, and involves submission of paperwork certifying the accuracy of the timing system and the length of the pool, satisfaction of FINA rules regarding swimwear and a negative doping test by the swimmer(s) involved. Records can be set at intermediate distances in an individual race and for the first leg of a relay race. Records which have not yet been fully ratified are marked with a '#' symbol in these lists.",
   "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming",
   "forecast_due_date": "2026-04-12",
   "resolution_dates": [
-    "2026-04-19",
-    "2026-05-12",
-    "2026-07-11",
-    "2026-10-09",
-    "2027-04-12",
-    "2029-04-11",
-    "2031-04-11",
-    "2036-04-09"
+    "2026-04-19"
   ],
   "resolved_to": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.0
   ]
 }

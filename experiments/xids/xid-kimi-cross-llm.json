@@ -1,0 +1,13 @@
+{
+  "exam": "tranche-ab",
+  "config": [
+    "kimi-k2.5/thk:high/crowd:0/prior:0/tools:1",
+    "kimi-k2.5/thk:high/crowd:0/prior:0/tools:1/nobelief:1",
+    "kimi-k2.5/thk:high/crowd:1/prior:0/tools:1/nobelief:1",
+    "kimi-k2.5/thk:high/search:none/crowd:0/prior:0/tools:0",
+    "kimi-k2.5/thk:high/search:none/crowd:1/prior:1/tools:0",
+    "kimi-k2.5/thk:high/crowd:1/prior:0/tools:1"
+  ],
+  "metric": ["brier-index", "metaculus-score"],
+  "groups": ["FBQtype", "Qsource", "overall"]
+}

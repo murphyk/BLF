@@ -93,8 +93,8 @@ def print_table(title: str, rows: list[dict], columns: list[tuple[str, str]]):
 
 TABLE1_ROWS = [
     # (label, config, paper_market, paper_data, paper_overall)
-    ("BLF+crowd+emp+cal", "pro-high-brave-c1-p1-t1_calibrated_hier",
-     "85.2", "62.4", "73.8"),
+    ("BLF+crowd+emp+cal", "pro-high-brave-c1-p1-t1[hier-cal]",
+     "83.8", "62.6", "73.2"),
     ("Cassi",             "fb-cassi-ai-2",
      "82.0", "59.6", "70.8"),
     ("GPT-5(zs+crowd)",   "fb-openai-gpt-5-2025-08-07_zero_shot_with_freeze_values",
@@ -110,12 +110,12 @@ TABLE1_ROWS = [
 TABLE2_ROWS = [
     ("clairvoyant",  "pro-high-brave-c1-t1-clairvoyant", "91.0", "66.9", "78.9"),
     ("+crowd",       "pro-high-brave-c1-t1",             "84.2", "62.0", "73.1"),
-    ("BLF (base)",   "pro-high-brave-c0-t1",             "77.1", "61.8", "69.4"),
+    ("BLF (base)",   "pro-high-brave-c0-t1",             "77.1", "62.0", "69.5"),
     ("medthink",     "pro-default-brave-c0-t1",          "77.5", "61.7", "69.6"),
     ("notools",      "pro-high-brave-c0-t0",             "79.1", "59.0", "69.0"),
     ("flash",        "flash-high-brave-c0-t1",           "73.2", "61.0", "67.1"),
     ("kimi",         "kimi-k2t-high-brave-c0-t1",        "74.1", "58.8", "66.5"),
-    ("nobelief",     "pro-high-brave-c0-t1-nobelief",    "74.6", "58.2", "66.4"),
+    ("nobelief",     "pro-high-brave-c0-t1-nobelief",    "74.6", "61.6", "68.1"),
     ("batch",        "pro-high-brave-c0-t1-batch5",      "78.7", "51.9", "65.3"),
     ("nosearch",     "pro-high-none-c0-t1",              "68.7", "61.1", "64.9"),
     ("zs",           "pro-high-none-c0-t0",              "67.8", "59.8", "63.8"),
@@ -148,14 +148,14 @@ TABLE3_VARIANTS = [
 # Table 4 — each base config × {uncal, global, hier}.
 TABLE4_BLOCKS = [
     ("BLF (c0,e0)", "pro-high-brave-c0-t1", [
-        ("uncal",  "",                    "77.1", "61.8", "69.4"),
-        ("global", "_calibrated_global",  "77.0", "61.8", "69.4"),
-        ("hier",   "_calibrated_hier",    "76.4", "62.3", "69.3"),
+        ("uncal",  "",                    "77.1", "62.0", "69.5"),
+        ("global", "[global-cal]",  "76.9", "62.0", "69.5"),
+        ("hier",   "[hier-cal]",    "76.3", "62.0", "69.2"),
     ]),
     ("BLF (c1,e1)", "pro-high-brave-c1-p1-t1", [
-        ("uncal",  "",                    "84.8", "61.9", "73.4"),
-        ("global", "_calibrated_global",  "85.5", "62.0", "73.8"),
-        ("hier",   "_calibrated_hier",    "85.2", "62.4", "73.8"),
+        ("uncal",  "",                    "83.7", "62.3", "73.0"),
+        ("global", "[global-cal]",  "84.1", "62.3", "73.2"),
+        ("hier",   "[hier-cal]",    "83.8", "62.6", "73.2"),
     ]),
     # ZS rows all use the Halawi prompt (paper claim). Switching the c0,e0
     # row from our prompt to Halawi makes the comparison apples-to-apples
@@ -167,18 +167,18 @@ TABLE4_BLOCKS = [
     # used pro-high-none-c0-t0 (our prompt), not Halawi.
     ("ZS [halawi] (c0,e0)", "pro-high-none-c0-t0-halawi", [
         ("uncal",  "",                    "—",    "—",    "—"),
-        ("global", "_calibrated_global",  "—",    "—",    "—"),
-        ("hier",   "_calibrated_hier",    "—",    "—",    "—"),
+        ("global", "[global-cal]",  "—",    "—",    "—"),
+        ("hier",   "[hier-cal]",    "—",    "—",    "—"),
     ]),
     ("ZS [halawi] (c1,e0)", "pro-high-none-c1-t0-halawi", [
         ("uncal",  "",                    "—",    "—",    "—"),
-        ("global", "_calibrated_global",  "—",    "—",    "—"),
-        ("hier",   "_calibrated_hier",    "—",    "—",    "—"),
+        ("global", "[global-cal]",  "—",    "—",    "—"),
+        ("hier",   "[hier-cal]",    "—",    "—",    "—"),
     ]),
     ("ZS [halawi] (c1,e1)", "pro-high-none-c1-p1-t0-halawi", [
         ("uncal",  "",                    "78.6", "51.9", "65.3"),
-        ("global", "_calibrated_global",  "78.0", "52.3", "65.1"),
-        ("hier",   "_calibrated_hier",    "79.0", "56.9", "68.0"),
+        ("global", "[global-cal]",  "78.0", "52.3", "65.1"),
+        ("hier",   "[hier-cal]",    "79.0", "56.9", "68.0"),
     ]),
 ]
 
