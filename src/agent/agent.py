@@ -1,17 +1,22 @@
 """agent.py — Core agentic forecasting loop."""
 
 import json
+import os
 import re
 import time
 import litellm
 
 from agent.belief_state import BeliefState, compact_belief
+from agent.llm_client import apply_anthropic_cache, cached_tokens
 from config.config import AgentConfig
 from agent.prompts import get_system_prompt, format_question_prompt
 from agent.tools import get_tool_schemas, dispatch_tool, parse_belief_update
 
 # Suppress litellm noise
 litellm.suppress_debug_info = True
+
+# Anthropic prompt-cache toggle — on by default, switchable for tests via env var.
+_ANTHROPIC_CACHE_ENABLED = os.environ.get("BLF_DISABLE_ANTHROPIC_CACHE") != "1"
 
 
 def _question_stem(question: dict) -> str:
@@ -27,7 +32,8 @@ def _get_cutoff_date(question: dict) -> str:
 
 
 def run_agent(question: dict, config: AgentConfig, output_dir: str,
-              verbose: bool = False) -> dict:
+              verbose: bool = False,
+              cache_anthropic: bool | None = None) -> dict:
     """Run the agentic forecasting loop on a single question.
 
     Returns a dict with: p, reasoning, belief_history, tool_log, tokens, etc.
@@ -44,9 +50,12 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
 
     state = BeliefState(p=0.5)
     search_cache = {}  # search_idx -> list of raw result strings
+
+    cache_on = _ANTHROPIC_CACHE_ENABLED if cache_anthropic is None else cache_anthropic
     tool_log = []
     belief_history = [state.to_dict()]
     total_in_tok = 0
+    total_cached_tok = 0
     total_out_tok = 0
     t0 = time.time()
 
@@ -96,12 +105,17 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
         if _force_submit:
             tools = [t for t in tools if t["function"]["name"] == "submit"]
 
+        # Apply Anthropic prompt caching to the stable prefix (system + tool
+        # schemas + initial user prompt). No-op for non-Anthropic models.
+        msgs_call, tools_call = apply_anthropic_cache(
+            messages, tools, config.llm, enabled=cache_on)
+
         # Call LLM (with retry on transient errors)
         try:
             kwargs = dict(
                 model=config.llm,
-                messages=messages,
-                tools=tools,
+                messages=msgs_call,
+                tools=tools_call,
                 max_tokens=config.max_tokens,
                 timeout=min(120, max(10, deadline - time.time())),
                 num_retries=2,
@@ -143,6 +157,8 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
         usage = response.usage
         total_in_tok += usage.prompt_tokens
         total_out_tok += usage.completion_tokens
+        step_cached = cached_tokens(usage)
+        total_cached_tok += step_cached
 
         text = choice.message.content or ""
         thinking = getattr(choice.message, "reasoning_content", None) or ""
@@ -219,6 +235,9 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
             "args": args_clean,
             **meta,
             "belief_p": state.p,
+            "tokens_in": usage.prompt_tokens,
+            "tokens_cached": step_cached,
+            "tokens_out": usage.completion_tokens,
         }
         if text:
             log_entry["reasoning_text"] = text
@@ -305,6 +324,7 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
         "n_steps": state.step,
         "submitted": submitted,
         "tokens_in": total_in_tok,
+        "tokens_cached": total_cached_tok,
         "tokens_out": total_out_tok,
         "elapsed_seconds": round(time.time() - t0, 1),
         "config": {
