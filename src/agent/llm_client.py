@@ -99,6 +99,8 @@ _NO_REASONING_EFFORT = {
     "openrouter/qwen/qwen3-max-thinking",   # always thinks; litellm rejects the param
     "openrouter/moonshotai/kimi-k2-thinking",  # always thinks; litellm rejects the param
     "openrouter/moonshotai/kimi-k2.5",          # has reasoning but not via reasoning_effort
+    "moonshot/kimi-k2.5",                        # direct API, same hybrid model
+    "moonshot/kimi-k2.6",                        # direct API
     "openrouter/x-ai/grok-4-fast",           # uses reasoning.enabled, not reasoning_effort
     "openrouter/x-ai/grok-4.1-fast",
     "openrouter/x-ai/grok-4.20-beta-20260309",

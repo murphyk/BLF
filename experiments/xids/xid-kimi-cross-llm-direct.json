@@ -1,0 +1,14 @@
+{
+  "_comment": "Re-run of xid-kimi-cross-llm using the moonshot/ direct API (kimi-k2.5-direct alias) instead of openrouter/moonshotai/kimi-k2.5. Same model and config grid; the only difference is the routing, which enables Moonshot's automatic context caching (cached prefix billed at ~25% of base input price). Requires MOONSHOT_API_KEY env var. Use this to compare $/question against the OpenRouter baseline.",
+  "exam": "tranche-ab",
+  "config": [
+    "kimi-k2.5-direct/thk:high/crowd:0/prior:0/tools:1",
+    "kimi-k2.5-direct/thk:high/crowd:0/prior:0/tools:1/nobelief:1",
+    "kimi-k2.5-direct/thk:high/crowd:1/prior:0/tools:1/nobelief:1",
+    "kimi-k2.5-direct/thk:high/search:none/crowd:0/prior:0/tools:0",
+    "kimi-k2.5-direct/thk:high/search:none/crowd:1/prior:1/tools:0",
+    "kimi-k2.5-direct/thk:high/crowd:1/prior:0/tools:1"
+  ],
+  "metric": ["brier-index", "metaculus-score"],
+  "groups": ["FBQtype", "Qsource", "overall"]
+}
