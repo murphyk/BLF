@@ -1,0 +1,9 @@
+{
+  "_comment": "Single-config follow-on to xid-aibq2-core: run NoBel(Kimi-K2.5) on AIBQ2 so tab:aibq2-sota can show both NoBel(Pro) and NoBel(K2.5) baselines alongside their BLF counterparts. Same exam (aibq2-all, n=113), same 5-trial setup. After this finishes: collate, aggregate (mean:5,shrink-prior-loo:5,shrink-std-loo:5), then calibrate --no-exam-restrict.",
+  "exam": "aibq2-all",
+  "config": [
+    "kimi-k2.5/thk:high/search:brave/crowd:0/tools:0/nobelief:1"
+  ],
+  "metric": ["brier-index", "metaculus-score"],
+  "groups": ["overall"]
+}

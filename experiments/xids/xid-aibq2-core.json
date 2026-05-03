@@ -1,0 +1,15 @@
+{
+  "_comment": "Re-run of tab:aibq2-core (AIBQ2 core ablations) on the n=113 AIBQ2 exam with current pipeline. The original numbers were generated with very old agent/aggregator code; this is a fresh end-to-end run for an apples-to-apples comparison with the FB results elsewhere in the paper. Also swaps the deprecated kimi-k2-thinking ablation with the newer kimi-k2.5 (which is what we use in tab:cross-llm-topline and fig:factor-effects-vs-nobel). After this lands we can drop the 'K2-Thinking on AIBQ2 only' footnote in tab:llms. Headline = pro-high-brave-c0-t0 per experiments/configs/paper_aibq2.json (no crowd, no tools — AIBQ2 questions are Metaculus-only and were intentionally run without yfinance/FRED tool calls). agg_method=shrink-std-loo (modern default; the old paper used shrink-std-aibq2 with hardcoded f=0.3 c=0.7).",
+  "exam": "aibq2-all",
+  "config": [
+    "pro/thk:high/search:brave/crowd:0/tools:0",
+    "pro/thk:default/search:brave/crowd:0/tools:0",
+    "pro/thk:high/search:none/crowd:0/tools:0",
+    "pro/thk:high/search:brave/crowd:0/tools:0/batch_queries:5",
+    "pro/thk:high/search:brave/crowd:0/tools:0/nobelief:1",
+    "flash/thk:high/search:brave/crowd:0/tools:0",
+    "kimi-k2.5/thk:high/search:brave/crowd:0/tools:0"
+  ],
+  "metric": ["brier-index", "metaculus-score"],
+  "groups": ["overall"]
+}

@@ -513,6 +513,10 @@ def main() -> None:
     ap.add_argument("--apply-model", default=None, metavar="NAME",
                     help="Apply a pre-trained model instead of running CV. "
                          "No labels needed; writes forecasts_calibrated[key].")
+    ap.add_argument("--no-exam-restrict", action="store_true",
+                    help="Skip the (src, base_id, forecast_due_date) exam "
+                         "filter when collecting labeled records. Needed for "
+                         "AIBQ2-style exams whose qids carry no date suffix.")
     args = ap.parse_args()
 
     key = args.key or ("hier-cal" if args.hierarchical else "global-cal")
@@ -524,7 +528,7 @@ def main() -> None:
     with open(os.path.join(XIDS_DIR, f"{args.xid}.json")) as f:
         xid_data = json.load(f)
     exam_name = xid_data.get("exam")
-    if exam_name:
+    if exam_name and not args.no_exam_restrict:
         exam_path = os.path.join("data", "exams", exam_name, "indices.json")
         if os.path.exists(exam_path):
             with open(exam_path) as f:
