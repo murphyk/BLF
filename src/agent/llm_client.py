@@ -45,6 +45,11 @@ _PROVIDER_LIMITS = {
     "gemini": 4,
     "anthropic": 10,
     "openai": 20,
+    # Moonshot direct API (api.moonshot.ai). Required to leverage their
+    # automatic context caching, which is *not* exposed via OpenRouter.
+    # MOONSHOT_API_KEY env var must be set; conservative limit until
+    # we measure their per-key RPM.
+    "moonshot": 8,
 }
 
 _provider_sems: dict[str, threading.Semaphore] = defaultdict(
@@ -145,6 +150,31 @@ def _is_anthropic(model: str) -> bool:
     return m.startswith("anthropic/") or "/anthropic/" in m
 
 
+def _is_moonshot_direct(model: str) -> bool:
+    """Moonshot direct API (api.moonshot.ai), used to leverage their
+    automatic context caching that OpenRouter does not expose."""
+    return model.lower().startswith("moonshot/")
+
+
+def _moonshot_kwargs(model: str) -> dict:
+    """Extra kwargs to inject for Moonshot direct API calls.
+
+    litellm's default Moonshot base URL is the China endpoint
+    (api.moonshot.cn). For the international endpoint, set
+    MOONSHOT_API_BASE=https://api.moonshot.ai/v1 in your .env.
+    """
+    import os
+    if not _is_moonshot_direct(model):
+        return {}
+    out = {}
+    base = os.environ.get("MOONSHOT_API_BASE")
+    if base:
+        out["api_base"] = base
+    if "MOONSHOT_API_KEY" in os.environ:
+        out["api_key"] = os.environ["MOONSHOT_API_KEY"]
+    return out
+
+
 def apply_anthropic_cache(messages, tools, model: str, enabled: bool = True):
     """Wrap system + tool schemas + initial user prompt with cache_control
     blocks so Anthropic caches the stable prefix across an agent loop.
@@ -209,7 +239,8 @@ def chat(prompt, model, max_tokens=4000,
                                             enabled=cache_anthropic)
 
     kwargs = dict(model=model, max_tokens=max_tokens, messages=messages,
-                  timeout=_get_timeout(model, reasoning_effort), **_CALL_DEFAULTS)
+                  timeout=_get_timeout(model, reasoning_effort),
+                  **_moonshot_kwargs(model), **_CALL_DEFAULTS)
     if tools:
         kwargs["tools"] = tools
     if reasoning_effort and reasoning_effort != "none" and model not in _NO_REASONING_EFFORT:
@@ -260,7 +291,8 @@ def chat_with_tools(prompt, model, max_tokens=4000,
             timed_out = True
             break
         kwargs = dict(model=model, max_tokens=max_tokens, messages=messages,
-                      timeout=_get_timeout(model, reasoning_effort), **_CALL_DEFAULTS)
+                      timeout=_get_timeout(model, reasoning_effort),
+                      **_moonshot_kwargs(model), **_CALL_DEFAULTS)
         if tools:
             kwargs["tools"] = tools
         if reasoning_effort and reasoning_effort != "none" and model not in _NO_REASONING_EFFORT:
@@ -319,7 +351,8 @@ def chat_with_tools(prompt, model, max_tokens=4000,
                                     "(a single number between 0 and 1). No explanation needed."})
         try:
             cleanup_kwargs = dict(model=model, max_tokens=200, messages=messages,
-                                  timeout=30, **_CALL_DEFAULTS)
+                                  timeout=30,
+                                  **_moonshot_kwargs(model), **_CALL_DEFAULTS)
             with _get_sem(model):
                 cleanup_resp = litellm.completion(**cleanup_kwargs)
             cleanup_text = cleanup_resp.choices[0].message.content or ""

@@ -36,6 +36,16 @@ _LLM_SHORT_TO_FULL = {
     "kimi-k2t": "openrouter/moonshotai/kimi-k2-thinking",
     "kimi-k2.5": "openrouter/moonshotai/kimi-k2.5",
     "kimi-k2.6": "openrouter/moonshotai/kimi-k2.6",
+    # Direct Moonshot API endpoints. Use these (instead of the
+    # openrouter/... aliases above) to leverage Moonshot's automatic
+    # context caching, which is NOT exposed via OpenRouter. Requires
+    # MOONSHOT_API_KEY env var (https://platform.moonshot.ai or
+    # https://platform.moonshot.cn). Cached prefix is billed at ~25%
+    # of base input price (e.g. K2.5 input 0.44 -> 0.11 $/M when cached);
+    # output cost unchanged. Cache hits require the prefix to repeat
+    # across calls (i.e., agent-loop steps within one question).
+    "kimi-k2.5-direct": "moonshot/kimi-k2-0905-preview",
+    "kimi-k2.6-direct": "moonshot/kimi-latest",
     "qwen3": "openrouter/qwen/qwen3-max-thinking",
 }
 _LLM_FULL_TO_SHORT = {v: k for k, v in _LLM_SHORT_TO_FULL.items()}

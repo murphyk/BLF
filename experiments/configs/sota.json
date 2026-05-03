@@ -1,7 +1,7 @@
 {
-  "_comment": "Preferred BLF configuration going forward. agg_method=shrink-std-loo subsumes both paper regimes: on benchmarks with low trial variance (e.g. FB with crowd anchor) the LOO grid selects (f=1, c=0) → α≡1 → logit-mean; on noisier benchmarks (e.g. AIBQ2) it selects f<1, c>0 → genuine per-question shrinkage. See paper §C.9. Predict-time aggregation falls back to logit-mean (LOO needs labels); the canonical score comes from forecasts_aggregated[shrink-std-loo:5] computed post-hoc by aggregate.py. Frozen paper-time configs in configs/paper_aibq2.json and configs/paper_fb.json.",
-  "name": "pro-high-brave-c1-p1-t1",
-  "llm": "openrouter/google/gemini-3.1-pro-preview",
+  "_comment": "Preferred BLF configuration going forward. Switched from Gemini-3.1-Pro to Moonshot Kimi-K2.5 (open-weight MoE, ~5x cheaper input tokens, ~6x cheaper output) based on the cross-LLM ablation: Kimi K2.5 lands at BLF-full BI 72.0 vs Pro 73.1 at c=1 (≤1 BI gap, beats Sonnet/GPT-5). Use configs/paper_fb.json for exact reproduction of the paper's headline Pro number. agg_method=shrink-std-loo subsumes both paper regimes: on benchmarks with low trial variance (e.g. FB with crowd anchor) the LOO grid selects (f=1, c=0) → α≡1 → logit-mean; on noisier benchmarks (e.g. AIBQ2) it selects f<1, c>0 → genuine per-question shrinkage. See paper §C.9. Predict-time aggregation falls back to logit-mean (LOO needs labels); the canonical score comes from forecasts_aggregated[shrink-std-loo:5] computed post-hoc by aggregate.py.",
+  "name": "kimi-k2.5-high-brave-c1-p1-t1",
+  "llm": "openrouter/moonshotai/kimi-k2.5",
   "max_tokens": 16000,
   "reasoning_effort": "high",
   "search_engine": "brave",
