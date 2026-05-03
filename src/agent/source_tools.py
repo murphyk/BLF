@@ -93,11 +93,10 @@ def _harmonic_forecast(df: pd.DataFrame, comparison_value: float,
         rd_doy = pd.to_datetime(rd).dayofyear
         doys = df["ds"].dt.dayofyear.values
 
-        # Same day-of-year ± window across all years
-        mask = np.abs(doys - rd_doy) <= _WINDOW_DAYS
-        # Handle year wrap-around (e.g. day 5 vs day 360)
-        mask |= np.abs(doys - rd_doy + 365) <= _WINDOW_DAYS
-        mask |= np.abs(doys - rd_doy - 365) <= _WINDOW_DAYS
+        # Cyclic day-of-year distance (Dec 31 vs Jan 2 = 2, not 363).
+        diff = np.abs(doys - rd_doy)
+        cyc_diff = np.minimum(diff, 365 - diff)
+        mask = cyc_diff <= _WINDOW_DAYS
 
         historical = df[mask]["y"].values
         if len(historical) < 5:
