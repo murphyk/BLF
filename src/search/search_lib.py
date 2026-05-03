@@ -144,7 +144,7 @@ def filter_results(raw, cutoff_date, llm=None, debug=False):
         f"Results:\n{numbered}"
     )
 
-    text, in_tok, out_tok, _ = chat(
+    text, in_tok, out_tok, _, _ = chat(
         prompt, model=llm, max_tokens=len(results) * 30 + 100)
 
     decisions = {}
@@ -257,7 +257,7 @@ def summarize_results(filtered, llm=None, question="", summarization_context="")
             f"Search results:\n\n{filtered}"
         )
 
-    text, in_tok, out_tok, _ = chat(prompt, model=llm, max_tokens=10000)
+    text, in_tok, out_tok, _, _ = chat(prompt, model=llm, max_tokens=10000)
     return text, in_tok, out_tok
 
 
@@ -276,6 +276,6 @@ def rewrite_queries(query, n, llm=None):
         "Output one query per line, no numbering or bullet points.\n\n"
         f"Query: {query}"
     )
-    text, _, _, _ = chat(prompt, model=llm, max_tokens=500)
+    text, _, _, _, _ = chat(prompt, model=llm, max_tokens=500)
     paraphrases = [line.strip() for line in text.splitlines() if line.strip()][: n - 1]
     return [query] + paraphrases

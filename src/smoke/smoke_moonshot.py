@@ -19,7 +19,8 @@ import dotenv
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
 import litellm
-from src.agent.llm_client import cached_tokens, _reasoning_tokens
+from src.agent.llm_client import (cached_tokens, _reasoning_tokens,
+                                  _reasoning_tokens_with_fallback, chat)
 
 MODEL = "moonshot/kimi-k2.5"
 
@@ -99,12 +100,27 @@ def test_caching():
         print("  WARN — no cached_tokens reported on second call")
 
 
+def test_chat_returns_reasoning():
+    print("\n=== TEST 4: chat() returns reasoning_content + estimated tokens ===")
+    text, in_tok, out_tok, rt, rc = chat(
+        "What is 31 * 41? Show one line of reasoning then the answer.",
+        model=MODEL, max_tokens=400)
+    print(f"  text:              {text[:100]}")
+    print(f"  reasoning_content: {rc[:120]}{'...' if len(rc)>120 else ''}")
+    print(f"  reasoning_tokens (estimated when usage=0): {rt}")
+    print(f"  in/out tokens:     {in_tok}/{out_tok}")
+    assert rc, "chat() did not return reasoning_content"
+    assert rt > 0, "reasoning_tokens estimate should be > 0 when rc is non-empty"
+    print("  PASS")
+
+
 def main():
     _has_key()
     print(f"Smoke testing {MODEL} via {os.environ.get('MOONSHOT_API_BASE', 'litellm default')}")
     test_basic_call()
     test_thinking_enabled()
     test_caching()
+    test_chat_returns_reasoning()
 
 
 if __name__ == "__main__":

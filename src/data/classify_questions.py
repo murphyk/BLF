@@ -173,8 +173,8 @@ def classify_one(q: dict, system_prompt: str, categories: list[str],
         if _rate_limiter:
             _rate_limiter.wait()
         try:
-            text, _, _, _ = chat(prompt, model=CLASSIFIER_MODEL, max_tokens=256,
-                                 system=system_prompt)
+            text, _, _, _, _ = chat(prompt, model=CLASSIFIER_MODEL, max_tokens=256,
+                                    system=system_prompt)
             result = _parse_response(text, categories)
             return source, qid, result
         except Exception as e:

@@ -113,7 +113,7 @@ def compact_belief(state: BeliefState, config=None) -> BeliefState:
     )
 
     try:
-        text, _, _, _ = chat(prompt, model=_COMPACT_LLM, max_tokens=1000)
+        text, _, _, _, _ = chat(prompt, model=_COMPACT_LLM, max_tokens=1000)
         evidence_for, evidence_against, uncertainties = _parse_compact_response(text)
         return BeliefState(
             p=state.p,

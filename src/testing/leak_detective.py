@@ -138,7 +138,7 @@ def _check_one(filepath: str, cutoff: str, max_retries: int = 3) -> str:
     for attempt in range(max_retries + 1):
         _rl.wait()
         try:
-            text, _, _, _ = chat(prompt, model=_DETECTIVE_MODEL, max_tokens=150)
+            text, _, _, _, _ = chat(prompt, model=_DETECTIVE_MODEL, max_tokens=150)
             text = (text or "").strip()
             if text.upper().startswith("LEAK"):
                 return "LEAK", text[4:].strip().lstrip("- ").strip()
@@ -199,7 +199,7 @@ def _check_reasoning(forecast_path: str, cutoff: str,
     for attempt in range(max_retries + 1):
         _rl.wait()
         try:
-            text, _, _, _ = chat(prompt, model=_DETECTIVE_MODEL, max_tokens=200)
+            text, _, _, _, _ = chat(prompt, model=_DETECTIVE_MODEL, max_tokens=200)
             text = (text or "").strip()
             if text.upper().startswith("LEAK"):
                 return "LEAK", text[4:].strip().lstrip("- ").strip()

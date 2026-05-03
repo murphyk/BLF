@@ -118,6 +118,23 @@ def _reasoning_tokens(usage):
     return 0
 
 
+def _reasoning_tokens_with_fallback(usage, reasoning_content: str) -> int:
+    """Reasoning-token count with a length-based fallback.
+
+    Some providers (notably Moonshot's direct API) bundle reasoning into
+    completion_tokens and never report a separate reasoning_tokens count.
+    When that happens but reasoning_content is non-empty, estimate from
+    the text length (rough but better than 0 for cost auditing).
+    Heuristic: ~4 chars per token for English-like CoT.
+    """
+    n = _reasoning_tokens(usage)
+    if n > 0:
+        return n
+    if reasoning_content:
+        return max(1, len(reasoning_content) // 4)
+    return 0
+
+
 def cached_tokens(usage) -> int:
     """Extract cache-hit token count from a litellm usage object.
 
@@ -230,7 +247,13 @@ def chat(prompt, model, max_tokens=4000,
          cache_anthropic=True):
     """Simple LLM call (no tool-use loop).
 
-    Returns (text, input_tokens, output_tokens, reasoning_tokens).
+    Returns (text, input_tokens, output_tokens, reasoning_tokens,
+             reasoning_content).
+    reasoning_content is the raw chain-of-thought when the provider
+    exposes it (e.g. Moonshot's reasoning_content field, Anthropic's
+    extended-thinking blocks); empty string otherwise. reasoning_tokens
+    falls back to len(reasoning_content)//4 when the provider bundles
+    thinking into completion_tokens (e.g. Moonshot direct API).
     """
     messages = []
     if system:
@@ -252,8 +275,10 @@ def chat(prompt, model, max_tokens=4000,
         response = litellm.completion(**kwargs)
     choice = response.choices[0]
     text = choice.message.content or ""
+    rc = getattr(choice.message, "reasoning_content", None) or ""
     usage = response.usage
-    return text, usage.prompt_tokens, usage.completion_tokens, _reasoning_tokens(usage)
+    return (text, usage.prompt_tokens, usage.completion_tokens,
+            _reasoning_tokens_with_fallback(usage, rc), rc)
 
 
 def chat_with_tools(prompt, model, max_tokens=4000,
@@ -304,13 +329,12 @@ def chat_with_tools(prompt, model, max_tokens=4000,
             response = litellm.completion(**kwargs)
         choice = response.choices[0]
         usage = response.usage
-        total_in += usage.prompt_tokens
-        total_out += usage.completion_tokens
-        total_reasoning += _reasoning_tokens(usage)
-        total_cached += cached_tokens(usage)
-
         text = choice.message.content or ""
         thinking = getattr(choice.message, "reasoning_content", None) or ""
+        total_in += usage.prompt_tokens
+        total_out += usage.completion_tokens
+        total_reasoning += _reasoning_tokens_with_fallback(usage, thinking)
+        total_cached += cached_tokens(usage)
         tool_calls = choice.message.tool_calls
 
         if not tool_calls or choice.finish_reason == "stop":
