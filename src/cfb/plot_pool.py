@@ -88,13 +88,22 @@ def plot_q(pool, out_path):
     ax.set_title(f"Asked-day cadence — n={len(pool)} events", fontsize=11)
     ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5),
               fontsize=8, frameon=False, title="source")
-    ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    ax.grid(True, alpha=0.25, axis="x")
+    _format_xaxis(ax)
     fig.autofmt_xdate()
     fig.savefig(out_path, dpi=140, bbox_inches="tight")
     plt.close(fig)
     print(f"wrote {out_path}")
+
+
+def _format_xaxis(ax):
+    """Monthly major ticks (labelled), weekly minor ticks (unlabelled)."""
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+    ax.xaxis.set_minor_locator(mdates.WeekdayLocator(byweekday=mdates.SU))
+    ax.grid(True, which="major", alpha=0.30, axis="x")
+    ax.grid(True, which="minor", alpha=0.10, axis="x", linestyle="-")
+    ax.tick_params(axis="x", which="minor", length=3)
+    ax.tick_params(axis="x", which="major", length=6)
 
 
 # --- R(t) ---------------------------------------------------------------------
@@ -130,9 +139,7 @@ def plot_r(pool, out_path):
                  fontsize=11)
     ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5),
               fontsize=8, frameon=False, title="source")
-    ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    ax.grid(True, alpha=0.25, axis="x")
+    _format_xaxis(ax)
     fig.autofmt_xdate()
     fig.savefig(out_path, dpi=140, bbox_inches="tight")
     plt.close(fig)
@@ -195,12 +202,29 @@ def plot_swimlanes(pool, out_path):
                 seg_y_neg.extend([ys[j], ys[j], None])
 
         lw = max(0.25, min(1.4, 1.4 / max(np.sqrt(n / 30.0), 1.0)))
+        line_alpha = 0.55  # equal for both outcomes — was biased toward pos
         if seg_x_neg:
             ax.plot(seg_x_neg, seg_y_neg, color=OUTCOME_FALSE, lw=lw,
-                    alpha=0.65, solid_capstyle="butt")
+                    alpha=line_alpha, solid_capstyle="butt")
         if seg_x_pos:
             ax.plot(seg_x_pos, seg_y_pos, color=OUTCOME_TRUE, lw=lw,
-                    alpha=0.75, solid_capstyle="butt")
+                    alpha=line_alpha, solid_capstyle="butt")
+
+        # Endpoint dots — give an unbiased outcome read regardless of horizon
+        # length. Size adapts to lane density so dots don't blob together.
+        dot_size = max(2.0, min(14.0, 22.0 / max(np.sqrt(n / 30.0), 1.0)))
+        ep_x_pos, ep_y_pos, ep_x_neg, ep_y_neg = [], [], [], []
+        for j, e in enumerate(es):
+            if e.o == 1:
+                ep_x_pos.append(e.r); ep_y_pos.append(ys[j])
+            else:
+                ep_x_neg.append(e.r); ep_y_neg.append(ys[j])
+        if ep_x_neg:
+            ax.scatter(ep_x_neg, ep_y_neg, s=dot_size, c=OUTCOME_FALSE,
+                       marker="o", lw=0, alpha=0.9, zorder=3)
+        if ep_x_pos:
+            ax.scatter(ep_x_pos, ep_y_pos, s=dot_size, c=OUTCOME_TRUE,
+                       marker="o", lw=0, alpha=0.9, zorder=4)
 
         # Source label on left margin
         ax.text(-0.005, (y_top + y_bot) / 2, src,
@@ -234,9 +258,7 @@ def plot_swimlanes(pool, out_path):
     ax.set_title(f"Per-source question lifelines  (n={len(pool)} events, "
                  f"{len(set((e.source, e.meta['base_id']) for e in pool))} bases)",
                  fontsize=11)
-    ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    ax.grid(True, alpha=0.20, axis="x")
+    _format_xaxis(ax)
     fig.autofmt_xdate()
     fig.savefig(out_path, dpi=140, bbox_inches="tight")
     plt.close(fig)
