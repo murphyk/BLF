@@ -5,7 +5,7 @@ objects: Env (deterministic stream of questions and resolutions), Agent
 (policy Q -> P), Evaluator (matches P with R, tracks running Brier).
 """
 
-from .types import Question, Resolution, PoolEntry
+from .schema import Question, Resolution, PoolEntry
 from .env import Env
 from .evaluator import Evaluator
 

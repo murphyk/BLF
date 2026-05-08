@@ -13,7 +13,7 @@ When a Resolution(u, f, r, o) arrives:
 """
 
 from datetime import date
-from .types import Resolution
+from .schema import Resolution
 
 
 class Evaluator:

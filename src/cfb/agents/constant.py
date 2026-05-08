@@ -2,7 +2,7 @@
 gives Brier 0.25, brier_index 0)."""
 
 from datetime import date
-from ..types import Question, Resolution
+from ..schema import Question, Resolution
 
 
 class ConstantAgent:

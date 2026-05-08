@@ -25,7 +25,7 @@ from dataclasses import asdict
 from datetime import date
 from typing import Iterable
 
-from .types import PoolEntry
+from .schema import PoolEntry
 
 
 _MARKET_SOURCES = ("infer", "manifold", "metaculus", "polymarket")

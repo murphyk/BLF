@@ -14,7 +14,7 @@ import os
 import sys
 from datetime import date
 
-from .types import PoolEntry
+from .schema import PoolEntry
 from .env import Env
 from .evaluator import Evaluator
 from .pool import build_pool, freeze, load_pool, _to_date

@@ -8,7 +8,7 @@ from datetime import date, timedelta
 from collections import defaultdict
 from typing import Iterable, Iterator
 
-from .types import Question, Resolution, PoolEntry
+from .schema import Question, Resolution, PoolEntry
 
 
 class Env:

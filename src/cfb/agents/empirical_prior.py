@@ -11,7 +11,7 @@ progresses.
 
 from __future__ import annotations
 from collections import defaultdict
-from ..types import Question, Resolution
+from ..schema import Question, Resolution
 
 
 _DATASET_SOURCES = {"acled", "wikipedia", "fred", "yfinance", "dbnomics"}
