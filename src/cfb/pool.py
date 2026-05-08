@@ -28,9 +28,10 @@ from typing import Iterable
 from .schema import PoolEntry
 
 
-_MARKET_SOURCES = ("infer", "manifold", "metaculus", "polymarket")
-_DATASET_SOURCES = ("acled", "dbnomics", "fred", "wikipedia", "yfinance")
-DEFAULT_SOURCES = _MARKET_SOURCES + _DATASET_SOURCES
+MARKET_SOURCES = ("infer", "manifold", "metaculus", "polymarket")
+DATASET_SOURCES = ("acled", "dbnomics", "fred", "wikipedia", "yfinance")
+ALL_SOURCES = MARKET_SOURCES + DATASET_SOURCES
+DEFAULT_SOURCES = MARKET_SOURCES  # markets-only by default
 
 
 def _to_date(s) -> date | None:
