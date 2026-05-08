@@ -100,6 +100,7 @@ def build_pool(
     t_max: date,
     sources: Iterable[str] = DEFAULT_SOURCES,
     dedupe_base: bool = False,
+    cap_per_source: int | None = None,
 ) -> list[PoolEntry]:
     """Build a frozen pool.
 
@@ -108,6 +109,10 @@ def build_pool(
     the *earliest* forecast_due_date. This drops time-shifted re-asks that share
     text but differ only in reference value / asked-date, while preserving all
     of that one variant's resolution dates.
+
+    cap_per_source: if set, keep at most K base questions per source, selected
+    by stratified round-robin across forecast_due_dates with positive bases
+    (>=1 outcome=1 event) prioritised. Sources below the cap are unaffected.
     """
     entries: list[PoolEntry] = []
     for source in sources:
@@ -157,8 +162,61 @@ def build_pool(
         entries = [e for e in entries
                    if e.f == earliest[(e.source, e.meta["base_id"])]]
 
+    if cap_per_source is not None:
+        entries = _stratified_base_cap(entries, K=cap_per_source)
+
     entries.sort(key=lambda e: (e.f, e.r, e.u))
     return entries
+
+
+def _stratified_base_cap(entries: list[PoolEntry], K: int) -> list[PoolEntry]:
+    """Per source, keep at most K base questions. Round-robin across the
+    source's forecast_due_dates so the kept set is spread temporally; within
+    each (source, fdd) bucket, positive bases (>=1 outcome=1 event) come
+    first. Deterministic given the entry list.
+
+    Sources with <= K bases are unaffected.
+    """
+    # Group entries by (source, base_id)
+    by_base: dict[tuple[str, str], list[PoolEntry]] = {}
+    for e in entries:
+        by_base.setdefault((e.source, e.meta["base_id"]), []).append(e)
+
+    # Per source, organise bases by f, prioritising positive ones
+    by_source_fdd: dict[str, dict[date, list[str]]] = {}
+    for (src, bid), es in by_base.items():
+        f = es[0].f  # all entries of a base share f after dedup
+        has_pos = any(e.o == 1 for e in es)
+        by_source_fdd.setdefault(src, {}).setdefault(f, []).append((not has_pos, bid))
+    # Sort each (source, f) bucket: positives first, then base_id
+    for src in by_source_fdd:
+        for f in by_source_fdd[src]:
+            by_source_fdd[src][f].sort()
+            by_source_fdd[src][f] = [bid for _, bid in by_source_fdd[src][f]]
+
+    # Round-robin select per source
+    keep: set[tuple[str, str]] = set()
+    for src, fdd_bases in by_source_fdd.items():
+        fdds = sorted(fdd_bases.keys())
+        queues = {f: list(fdd_bases[f]) for f in fdds}
+        n_avail = sum(len(q) for q in queues.values())
+        target = min(K, n_avail)
+        n_picked = 0
+        while n_picked < target:
+            progressed = False
+            for f in fdds:
+                if not queues[f]:
+                    continue
+                bid = queues[f].pop(0)
+                keep.add((src, bid))
+                n_picked += 1
+                progressed = True
+                if n_picked >= target:
+                    break
+            if not progressed:
+                break
+
+    return [e for e in entries if (e.source, e.meta["base_id"]) in keep]
 
 
 # --- frozen-pool I/O ----------------------------------------------------------

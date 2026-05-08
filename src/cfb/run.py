@@ -34,7 +34,8 @@ def _resolve_pool(args) -> tuple[list[PoolEntry], str]:
     out_dir = args.cfb_dir or os.path.join(
         os.path.expanduser("~/BLF"), "data", "cfb")
     entries = build_pool(questions_dir, args.t0, args.tmax,
-                         dedupe_base=args.dedupe_base)
+                         dedupe_base=args.dedupe_base,
+                         cap_per_source=args.cap_per_source)
     pool_path, meta_path = freeze(
         entries, out_dir,
         build_params={
@@ -42,6 +43,7 @@ def _resolve_pool(args) -> tuple[list[PoolEntry], str]:
             "t_max": args.tmax.isoformat(),
             "questions_dir": questions_dir,
             "dedupe_base": args.dedupe_base,
+            "cap_per_source": args.cap_per_source,
         },
     )
     print(f"[pool] froze {len(entries)} entries -> {pool_path}", file=sys.stderr)
@@ -67,6 +69,8 @@ def main(argv=None) -> int:
     p.add_argument("--cfb-dir", default=None)
     p.add_argument("--dedupe-base", action="store_true",
                    help="for each (source, base_id) keep only entries from the earliest forecast_due_date")
+    p.add_argument("--cap-per-source", type=int, default=None,
+                   help="cap base questions per source; stratified round-robin across forecast_due_dates with positive-bases first")
     p.add_argument("--quiet", action="store_true")
     args = p.parse_args(argv)
 
