@@ -61,9 +61,15 @@ def _make_agent(name: str):
         return EmpiricalPriorAgent(default=0.5)
     if name == "empirical-platt":
         return PlattWrapperAgent(EmpiricalPriorAgent(default=0.5))
+    if name == "market-value":
+        from .agents.market_value import MarketValueAgent
+        return MarketValueAgent()
     if name == "flash-zs":
         from .agents.flash_zs import FlashZSAgent
-        return FlashZSAgent()
+        return FlashZSAgent(crowd=False)
+    if name == "flash-zs-c1":
+        from .agents.flash_zs import FlashZSAgent
+        return FlashZSAgent(crowd=True)
     if name == "flash-zs-icl":
         from .agents.icl import ICLAgent
         return ICLAgent()
