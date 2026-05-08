@@ -1,0 +1,8 @@
+{
+  "xid": "flash-zs-icl+platt",
+  "parent_xid": "flash-zs-icl",
+  "layer": "platt",
+  "ridge": 1.0,
+  "lr": 0.5,
+  "n_events": 454
+}

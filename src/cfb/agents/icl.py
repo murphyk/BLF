@@ -17,7 +17,7 @@ from datetime import date
 
 from ..schema import Question, Resolution
 from ._llm import chat, parse_probability
-from .flash_zs import SYSTEM as ZS_SYSTEM, render_question
+from .flash_zs import render_halawi
 
 
 SYSTEM_ICL = (
@@ -40,10 +40,11 @@ class ICLAgent:
 
     DEFAULT_MODEL = "openrouter/google/gemini-3-flash-preview"
 
-    def __init__(self, model: str = None, max_tokens: int = 256,
-                 max_workers: int = 8, memory_k: int = 50,
-                 example_chars: int = 240):
+    def __init__(self, model: str = None, crowd: bool = False,
+                 max_tokens: int = 256, max_workers: int = 8,
+                 memory_k: int = 50, example_chars: int = 240):
         self.model = model or self.DEFAULT_MODEL
+        self.crowd = crowd
         self.max_tokens = max_tokens
         self.max_workers = max_workers
         self.memory_k = memory_k
@@ -65,7 +66,8 @@ class ICLAgent:
                 "\n".join(reversed(lines)) + "\n\n---\n\n")
 
     def _forecast_one(self, q: Question) -> tuple[str, float]:
-        prompt = self._examples_block() + "NEW question:\n\n" + render_question(q)
+        prompt = self._examples_block() + "NEW question:\n\n" + \
+            render_halawi(q, crowd=self.crowd)
         try:
             text = chat(prompt, model=self.model, system=SYSTEM_ICL,
                         max_tokens=self.max_tokens, temperature=0.0)

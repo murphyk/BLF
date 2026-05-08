@@ -40,14 +40,14 @@ def load_traj(path: str) -> list[dict]:
 
 
 def cumulative_brier(traj: list[dict]) -> np.ndarray:
-    bs = np.array([row["b"] for row in traj], dtype=float)
+    bs = np.array([(float(row["p"]) - float(row["o"])) ** 2 for row in traj], dtype=float)
     if not len(bs):
         return bs
     return np.cumsum(bs) / np.arange(1, len(bs) + 1)
 
 
 def rolling_brier(traj: list[dict], window: int) -> np.ndarray:
-    bs = np.array([row["b"] for row in traj], dtype=float)
+    bs = np.array([(float(row["p"]) - float(row["o"])) ** 2 for row in traj], dtype=float)
     if not len(bs):
         return bs
     out = np.empty(len(bs))

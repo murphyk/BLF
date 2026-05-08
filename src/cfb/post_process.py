@@ -7,15 +7,9 @@ Layers are applied in **strict-online** order: when scoring event i (with
 forecast date f_i), the layer's state is fitted only on events resolved
 before f_i — never peeking at the future.
 
-Chains compose by repeated invocation:
-
-    python -m src.cfb.post --in flash-zs-c1 --layer shrink \
-                           --out flash-zs-c1+shrink
-    python -m src.cfb.post --in flash-zs-c1+shrink --layer platt \
-                           --out flash-zs-c1+shrink+platt
-
-This decouples expensive base-LLM runs from cheap calibration/shrink
-iteration: re-tuning shrink hyperparameters never re-pays the LLM cost.
+Most users won't invoke this CLI directly — `run.py` chains base + layers
+from a string config. This module is exposed in case you want to apply a
+layer ad-hoc to an existing run.
 """
 
 from __future__ import annotations
@@ -94,34 +88,26 @@ _LAYERS = {
 }
 
 
-def main() -> int:
-    p = argparse.ArgumentParser()
-    p.add_argument("--in",  dest="in_xid",  required=True,
-                   help="source xid (under data/cfb/runs/<xid>/)")
-    p.add_argument("--out", dest="out_xid", required=True,
-                   help="destination xid")
-    p.add_argument("--layer", required=True, choices=sorted(_LAYERS))
-    p.add_argument("--ridge", type=float, default=1.0)
-    p.add_argument("--lr", type=float, default=0.5,
-                   help="(platt only) Newton damping in (0,1]")
-    p.add_argument("--runs-dir", default=None)
-    args = p.parse_args()
-
-    runs_dir = args.runs_dir or os.path.join(
+def post(in_xid: str, out_xid: str, layer: str,
+         ridge: float = 1.0, lr: float = 0.5,
+         runs_dir: str | None = None) -> dict:
+    """Apply a single post-processing layer to a cached run, in-process.
+    Returns the score dict for the new run."""
+    runs_dir = runs_dir or os.path.join(
         os.path.expanduser("~/BLF"), "data", "cfb", "runs")
-    in_path = os.path.join(runs_dir, args.in_xid, "trajectory.jsonl")
+    in_path = os.path.join(runs_dir, in_xid, "trajectory.jsonl")
     if not os.path.exists(in_path):
-        raise SystemExit(f"missing input trajectory: {in_path}")
+        raise FileNotFoundError(f"missing input trajectory: {in_path}")
     rows = _read_traj(in_path)
 
-    if args.layer == "shrink":
-        out_rows = apply_shrink(rows, ridge=args.ridge)
-    elif args.layer == "platt":
-        out_rows = apply_platt(rows, ridge=args.ridge, lr=args.lr)
+    if layer == "shrink":
+        out_rows = apply_shrink(rows, ridge=ridge)
+    elif layer == "platt":
+        out_rows = apply_platt(rows, ridge=ridge, lr=lr)
     else:
-        raise SystemExit(f"unknown layer {args.layer}")
+        raise ValueError(f"unknown layer {layer}")
 
-    out_dir = os.path.join(runs_dir, args.out_xid)
+    out_dir = os.path.join(runs_dir, out_xid)
     os.makedirs(out_dir, exist_ok=True)
     out_traj = os.path.join(out_dir, "trajectory.jsonl")
     with open(out_traj, "w") as fh:
@@ -129,16 +115,31 @@ def main() -> int:
             fh.write(json.dumps(r) + "\n")
     with open(os.path.join(out_dir, "manifest.json"), "w") as fh:
         json.dump({
-            "xid": args.out_xid,
-            "parent_xid": args.in_xid,
-            "layer": args.layer,
-            "ridge": args.ridge,
-            "lr": args.lr if args.layer == "platt" else None,
+            "xid": out_xid,
+            "parent_xid": in_xid,
+            "layer": layer,
+            "ridge": ridge,
+            "lr": lr if layer == "platt" else None,
             "n_events": len(out_rows),
         }, fh, indent=2, default=str)
+    return score(out_rows)
 
-    print(format_score(score(out_rows)))
-    print(f"\n[post] wrote {out_traj}", file=sys.stderr)
+
+def main() -> int:
+    p = argparse.ArgumentParser()
+    p.add_argument("--in",  dest="in_xid",  required=True)
+    p.add_argument("--out", dest="out_xid", required=True)
+    p.add_argument("--layer", required=True, choices=sorted(_LAYERS))
+    p.add_argument("--ridge", type=float, default=1.0)
+    p.add_argument("--lr", type=float, default=0.5)
+    p.add_argument("--runs-dir", default=None)
+    args = p.parse_args()
+
+    s = post(in_xid=args.in_xid, out_xid=args.out_xid, layer=args.layer,
+             ridge=args.ridge, lr=args.lr, runs_dir=args.runs_dir)
+    print(format_score(s))
+    print(f"\n[post] wrote data/cfb/runs/{args.out_xid}/trajectory.jsonl",
+          file=sys.stderr)
     return 0
 
 
