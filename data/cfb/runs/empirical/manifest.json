@@ -1,7 +1,0 @@
-{
-  "xid": "empirical",
-  "agent": "empirical",
-  "n_events": 454,
-  "pool": "data/cfb/pool-be42200d.jsonl",
-  "migrated": true
-}
