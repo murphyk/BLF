@@ -18,3 +18,9 @@ experiments/*
 data/fb_cache/
 
 docs/notes.txt
+# LaTeX build artifacts
+docs/cfb/*.aux
+docs/cfb/*.log
+docs/cfb/*.out
+docs/cfb/*.pdf
+docs/cfb/*.toc
