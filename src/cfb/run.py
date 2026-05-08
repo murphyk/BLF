@@ -1,11 +1,13 @@
-"""CFB driver: build pool (or load frozen), run env-agent-evaluator loop, print
-trace + final score.
+"""CFB driver: build pool (or load frozen), run env-agent-evaluator loop,
+write the trajectory + manifest into data/cfb/runs/<xid>/, print final score.
 
 Usage:
-    python -m src.cfb.run --t0 2025-10-26 --tmax 2026-03-29 --agent constant
+    python -m src.cfb.run --xid flash-zs-c1 --agent flash-zs-c1
+    python -m src.cfb.run --xid emp --agent empirical --pool data/cfb/pool-be42200d.jsonl
 
-The first run builds + freezes a pool under data/cfb/. Subsequent runs with
-the same --t0/--tmax reuse the same frozen pool by hash.
+If --pool is omitted the pool is rebuilt and frozen the first time.
+The trajectory is the input to src.cfb.post (post-processing layers) and
+src.cfb.plot_continual (reward-curve plot).
 """
 
 from __future__ import annotations
@@ -95,21 +97,29 @@ def main(argv=None) -> int:
                    help="for each (source, base_id) keep only entries from the earliest forecast_due_date")
     p.add_argument("--cap-per-source", type=int, default=None,
                    help="cap base questions per source; stratified round-robin across forecast_due_dates with positive-bases first")
-    p.add_argument("--trajectory-out", default=None,
-                   help="write per-resolution JSONL trajectory "
-                        "(one row per scored event, in chronological order) "
-                        "for use with plot_continual.py")
+    p.add_argument("--xid", default=None,
+                   help="experiment id; trajectory + manifest are written to "
+                        "data/cfb/runs/<xid>/. defaults to <agent>")
+    p.add_argument("--runs-dir", default=None)
     p.add_argument("--quiet", action="store_true")
     args = p.parse_args(argv)
 
-    entries, _ = _resolve_pool(args)
+    entries, pool_path = _resolve_pool(args)
+    pool_idx = {e.u: e for e in entries}
     env = Env(entries, t0=args.t0, t_max=args.tmax)
     agent = _make_agent(args.agent)
     ev = Evaluator()
 
-    traj_fh = open(args.trajectory_out, "w") if args.trajectory_out else None
-    import json as _json
+    xid = args.xid or args.agent
+    runs_dir = args.runs_dir or os.path.join(
+        os.path.expanduser("~/BLF"), "data", "cfb", "runs")
+    out_dir = os.path.join(runs_dir, xid)
+    os.makedirs(out_dir, exist_ok=True)
+    traj_path = os.path.join(out_dir, "trajectory.jsonl")
+    manifest_path = os.path.join(out_dir, "manifest.json")
+    traj_fh = open(traj_path, "w")
 
+    import json as _json
     env.reset()
     for d in env.event_days():
         env.advance_to(d)
@@ -120,25 +130,48 @@ def main(argv=None) -> int:
             ev.submit(d, P)
         agent.observe(Q, P, R)
         L = ev.update_loss(R) if R else {"n": ev._n, "brier_mean": None}
-        if traj_fh and R:
-            for r in R:
+        if R:
+            for ridx, r in enumerate(R):
                 p_used = ev._F.get(r.u, (0.5, None))[0]
-                b = (p_used - r.o) ** 2
+                pe = pool_idx.get(r.u)
+                p_crowd = None
+                if pe is not None:
+                    mv = (pe.meta or {}).get("market_value")
+                    if mv is not None and str(mv).strip() not in ("", "unknown", "None"):
+                        try:
+                            v = float(mv)
+                            if 0.0 <= v <= 1.0:
+                                p_crowd = v
+                        except (TypeError, ValueError):
+                            pass
                 traj_fh.write(_json.dumps({
-                    "i": ev._n - len(R) + R.index(r) + 1,
+                    "i": ev._n - len(R) + ridx + 1,
                     "u": r.u, "source": r.source,
                     "f": r.f.isoformat(), "r": r.r.isoformat(),
-                    "p": p_used, "o": r.o, "b": b,
+                    "p": p_used, "p_raw": p_used, "p_crowd": p_crowd,
+                    "o": r.o,
                 }) + "\n")
         if not args.quiet:
             print(f"{d.isoformat()}  Q={len(Q):3d}  R={len(R):3d}  "
                   f"n={L['n']:5d}  Bbar={L['brier_mean']!s}")
-    if traj_fh:
-        traj_fh.close()
-        print(f"[traj] wrote {args.trajectory_out}", file=sys.stderr)
+    traj_fh.close()
+    with open(manifest_path, "w") as fh:
+        _json.dump({
+            "xid": xid,
+            "agent": args.agent,
+            "t0": args.t0.isoformat(),
+            "t_max": args.tmax.isoformat(),
+            "pool": pool_path,
+            "n_events": ev._n,
+        }, fh, indent=2, default=str)
 
+    # Final score (event-weighted + source-weighted)
+    from .score import score, format_score, _read_traj
+    s = score(_read_traj(traj_path))
     print()
-    print("FINAL", ev.score())
+    print(format_score(s))
+    print()
+    print(f"[run] xid={xid}  trajectory={traj_path}", file=sys.stderr)
     return 0
 
 

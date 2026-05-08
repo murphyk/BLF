@@ -1,0 +1,8 @@
+{
+  "xid": "flash-zs-c1+shrink+platt",
+  "parent_xid": "flash-zs-c1+shrink",
+  "layer": "platt",
+  "ridge": 1.0,
+  "lr": 0.5,
+  "n_events": 454
+}
