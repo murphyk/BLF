@@ -92,6 +92,25 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
     submitted = False
     _force_submit = (config.max_steps == 1)  # single-step mode: force submit immediately
 
+    # Online explicit-Bayes belief update (config.bayes_update): the belief p is
+    # driven by a sequential per-state likelihood update on each web_search, not
+    # by the LLM's emitted probability. See agent/bayes_update.py.
+    bayes_llm = config.bayes_llm or config.llm   # likelihood model (may differ from agent LLM)
+    bayes_summaries = []
+    bayes_question = (question.get("question", "")
+                      + (("\n" + question.get("resolution_criteria", ""))
+                         if question.get("resolution_criteria") else ""))
+    # Anchor the Bayes prior on the market price for market questions (matching
+    # the offline market-anchored setup); else start at 0.5.
+    try:
+        _mv = float(question.get("market_value"))
+    except (TypeError, ValueError):
+        _mv = None
+    bayes_p = _mv if (_mv is not None and 0.0 < _mv < 1.0) else state.p
+    if config.bayes_update:
+        state.p = bayes_p
+        belief_history[0]["p"] = bayes_p
+
     for step in range(config.max_steps):
         state.step = step + 1
 
@@ -205,6 +224,10 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
             args_str = json.dumps({k: v for k, v in fn_args.items() if k != 'updated_belief'}, default=str)[:80]
             print(f"{prefix} step {step + 1}: {fn_name}({args_str})")
 
+        # Capture the prior belief state (b_{t-1}) before the LLM's update, for
+        # the online Bayes update's conditioning summary b_{t-1}.h.
+        prior_state = state
+
         # Dispatch
         try:
             result_text, new_state, meta = dispatch_tool(
@@ -225,6 +248,23 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
         if not config.nobelief:
             # Auto-compact belief state when evidence lists get long
             state = compact_belief(state, config)
+
+        # Online explicit-Bayes update: override the LLM's emitted p. On a search,
+        # step the log-odds by alpha*lambda_t from the per-state likelihood; on
+        # any other tool, pin p to the accumulated Bayes value so the LLM's
+        # number never leaks into the belief.
+        if config.bayes_update:
+            if fn_name == "web_search" and result_text and not meta.get("error"):
+                from agent.bayes_update import bayes_step, belief_summary
+                bayes_p, sigma, lam, r1, r0 = bayes_step(
+                    bayes_p, bayes_question, fn_args.get("query", ""),
+                    result_text, belief_summary(prior_state),
+                    bayes_summaries, bayes_llm, config.bayes_alpha)
+                bayes_summaries.append(sigma)
+                meta["bayes_lambda"] = round(lam, 3)
+                meta["bayes_typ"] = [r1, r0]
+            state.p = bayes_p
+
         belief_history.append(state.to_dict())
 
         # Store tool call args (excluding updated_belief which is bulky)
@@ -288,6 +328,10 @@ def run_agent(question: dict, config: AgentConfig, output_dir: str,
                 final_p = entry["final_p"]
             reasoning = entry.get("reasoning", "")
             break
+    if config.bayes_update:
+        # final forecast is the accumulated Bayes belief, not the LLM's submit
+        final_p = max(0.05, min(0.95, bayes_p))
+        final_ps = None
     if not reasoning:
         reasoning = (
             f"Agent {'submitted' if submitted else 'timed out / ran out of steps'} "

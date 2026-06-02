@@ -90,6 +90,9 @@ class AgentConfig:
     fred_enhanced: bool = False  # True: append per-series classification to FRED tool output
     prior_only: bool = False     # True: submit empirical prior (dataset) or market price (market), no LLM
     halawi_prompt: bool = False  # True: use Halawi et al. (2024) zero-shot prompt instead of ours
+    bayes_update: bool = False   # True: belief p set by explicit per-state likelihood update, not LLM's emitted p
+    bayes_alpha: float = 0.35    # tempering coefficient for the online Bayes update
+    bayes_llm: str = ""          # model for the likelihood (summarize+typicality); "" -> use config.llm
 
     @classmethod
     def from_json(cls, path):
@@ -152,6 +155,9 @@ _DELTA_KEYS = {
     "fred_enhanced": ("fred_enhanced", lambda v: bool(int(v))),
     "prior_only": ("prior_only",       lambda v: bool(int(v))),
     "halawi": ("halawi_prompt",        lambda v: bool(int(v))),
+    "bayes":  ("bayes_update",         lambda v: bool(int(v))),
+    "balpha": ("bayes_alpha",          lambda v: float(v)),
+    "bllm":   ("bayes_llm",            lambda v: _LLM_SHORT_TO_FULL.get(v, v)),
     "timeout":("question_timeout", lambda v: int(v)),
     "tokens": ("max_tokens",       lambda v: int(v)),
 }
